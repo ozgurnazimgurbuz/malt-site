@@ -2,6 +2,9 @@ backend:
   name: git-gateway
   branch: main
 
+# Panelden yayındaki siteye dönüş bağlantısı için gerekli.
+site_url: "https://maltstudio.co"
+
 media_folder: "images/uploads"
 public_folder: "/images/uploads"
 
@@ -31,7 +34,11 @@ collections:
             name: "logo"
             widget: "image"
             required: false
-            hint: "—— Marka —— Yüklenirse sitede CMS logosu gösterilir. Boş bırakılırsa mevcut SVG logo kullanılır."
+            hint: "—— Marka —— Yüklenirse sitede CMS logosu gösterilir. Boş bırakılırsa mevcut SVG logo kullanılır. En fazla 1 MB."
+            # Git tabanlı depoda büyük dosyalar kalıcı olarak kalır; yükleme boyutu sınırlanır.
+            media_library:
+              config:
+                max_file_size: 1048576
 
           # —— Hero ——
           - label: "Üst Etiket (Eyebrow)"
@@ -79,12 +86,25 @@ collections:
               - { label: "Slug", name: "slug", widget: "string", required: false, hint: "URL-dostu proje kimliği. Örn: liman-kahve" }
               - { label: "Kategori", name: "category", widget: "string" }
               - { label: "Açıklama", name: "description", widget: "text", required: false }
-              - { label: "Kapak Görseli", name: "image", widget: "image", required: false }
+              - label: "Kapak Görseli"
+                name: "image"
+                widget: "image"
+                required: false
+                hint: "En fazla 3 MB. Önerilen: 1200x1500 civarı, JPG."
+                media_library:
+                  config:
+                    max_file_size: 3145728
               - label: "Galeri"
                 name: "gallery"
                 widget: "list"
                 required: false
-                field: { label: "Görsel", name: "image", widget: "image" }
+                field:
+                  label: "Görsel"
+                  name: "image"
+                  widget: "image"
+                  media_library:
+                    config:
+                      max_file_size: 3145728
               - { label: "Müşteri", name: "client", widget: "string", required: false }
               - { label: "Lokasyon", name: "location", widget: "string", required: false }
               - { label: "Yıl", name: "year", widget: "string", required: false }
@@ -153,8 +173,22 @@ collections:
 
           - { label: "Meta Açıklama", name: "seoDescription", widget: "text", required: false }
           - { label: "Anahtar Kelimeler", name: "seoKeywords", widget: "string", required: false }
-          - { label: "Open Graph Görseli", name: "seoOgImage", widget: "image", required: false }
-          - { label: "Favicon", name: "seoFavicon", widget: "image", required: false }
+          - label: "Open Graph Görseli"
+            name: "seoOgImage"
+            widget: "image"
+            required: false
+            hint: "Paylaşım görseli. Önerilen 1200x630 px, en fazla 3 MB."
+            media_library:
+              config:
+                max_file_size: 3145728
+          - label: "Favicon"
+            name: "seoFavicon"
+            widget: "image"
+            required: false
+            hint: "Boş bırakılırsa /images/icon-192.png kullanılır. En fazla 1 MB."
+            media_library:
+              config:
+                max_file_size: 1048576
           - { label: "Canonical URL", name: "canonicalUrl", widget: "string", required: false }
 
           # —— Analytics (yalnızca yapılandırma, script enjekte edilmez) ——
