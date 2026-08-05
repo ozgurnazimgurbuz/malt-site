@@ -48,7 +48,7 @@ mevcut değeri ezmez:
 - **Logo** boşsa gömülü SVG logo gösterilir.
 - **Portfolyo görseli** boşsa mevcut gradyan yer tutucu gösterilir.
 - **SEO alanları** boşsa `index.html` içindeki statik değerler korunur.
-- **og:image** yalnızca `siteUrl` ve `seoOgImage` birlikte doluysa üretilir.
+- **og:image** `siteUrl` + `seoOgImage` ile mutlak adres üretir; varsayılan marka görseli `/images/og.jpg` (1200×630).
 - **google-site-verification** yalnızca alan doluysa yazılır.
 
 Analitik alanları (`googleAnalyticsId`, `googleTagManagerId`, `facebookPixelId`)

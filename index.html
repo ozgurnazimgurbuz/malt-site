@@ -6,13 +6,22 @@
 <title>Malt Studio | Marka Stratejisi &amp; Yaratıcı Ajans</title>
 <meta name="description" content="Tekirdağ merkezli marka stratejisi ve yaratıcı ajans. Stratejiden kimliğe, dijitalden reklama; kalıcı iz bırakan markalar kuruyoruz.">
 <meta property="og:type" content="website">
+<meta property="og:site_name" content="Malt Studio">
 <meta property="og:title" content="Malt Studio | Marka Stratejisi &amp; Yaratıcı Ajans">
 <meta property="og:description" content="Tekirdağ merkezli marka stratejisi ve yaratıcı ajans. Stratejiden kimliğe, dijitalden reklama; kalıcı iz bırakan markalar kuruyoruz.">
 <meta property="og:url" content="https://maltstudio.co/">
 <meta property="og:locale" content="tr_TR">
-<meta name="twitter:card" content="summary">
+<meta property="og:image" content="https://maltstudio.co/images/og.jpg">
+<meta property="og:image:secure_url" content="https://maltstudio.co/images/og.jpg">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Malt Studio — Marka Stratejisi ve Yaratıcı Ajans">
+<meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Malt Studio | Marka Stratejisi &amp; Yaratıcı Ajans">
 <meta name="twitter:description" content="Tekirdağ merkezli marka stratejisi ve yaratıcı ajans. Stratejiden kimliğe, dijitalden reklama; kalıcı iz bırakan markalar kuruyoruz.">
+<meta name="twitter:image" content="https://maltstudio.co/images/og.jpg">
+<meta name="twitter:image:alt" content="Malt Studio — Marka Stratejisi ve Yaratıcı Ajans">
 <script>
 /* Netlify Identity davet ve şifre kurtarma bağlantıları site köküne düşer ve
    token'ı adres parçasında taşır. Akışı yalnızca böyle bir token varken
@@ -447,11 +456,23 @@ async function loadContent() {
     upsertMeta('property', 'og:title', c.seoTitle);
     upsertMeta('property', 'og:description', c.seoDescription);
     upsertMeta('property', 'og:image', ogImage);
+    if (ogImage) {
+      const ogType = /\.jpe?g(\?|$)/i.test(ogImage) ? 'image/jpeg'
+        : /\.webp(\?|$)/i.test(ogImage) ? 'image/webp'
+        : 'image/png';
+      upsertMeta('property', 'og:image:secure_url', ogImage);
+      upsertMeta('property', 'og:image:type', ogType);
+      upsertMeta('property', 'og:image:width', '1200');
+      upsertMeta('property', 'og:image:height', '630');
+      upsertMeta('property', 'og:image:alt', c.seoTitle || c.siteName || 'Malt Studio');
+    }
     upsertMeta('property', 'og:url', canonicalUrl);
+    upsertMeta('property', 'og:site_name', c.siteName);
     upsertMeta('name', 'twitter:card', ogImage ? 'summary_large_image' : 'summary');
     upsertMeta('name', 'twitter:title', c.seoTitle);
     upsertMeta('name', 'twitter:description', c.seoDescription);
     upsertMeta('name', 'twitter:image', ogImage);
+    if (ogImage) upsertMeta('name', 'twitter:image:alt', c.seoTitle || c.siteName || 'Malt Studio');
     upsertLink('canonical', canonicalUrl);
     upsertLink('icon', c.seoFavicon);
 
