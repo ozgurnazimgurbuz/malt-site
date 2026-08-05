@@ -58,7 +58,6 @@
   nav{display:flex; gap:28px; font-size:13px; font-weight:600; text-transform:uppercase; letter-spacing:0.08em;}
   nav a{opacity:0.85; transition:opacity .2s;}
   nav a:hover{opacity:1; color:var(--taupe);}
-  .nav-toggle{display:none; font-size:13px; text-transform:uppercase; letter-spacing:0.08em; background:none; border:1px solid var(--paper); color:var(--paper); padding:8px 14px; border-radius:2px;}
 
   /* -------- hero -------- */
   .hero{
@@ -225,7 +224,6 @@
 
   @media (max-width:900px){
     nav{display:none;}
-    .nav-toggle{display:inline-block;}
     .service-grid{grid-template-columns:repeat(2,1fr);}
     .work-grid{grid-template-columns:repeat(2,1fr);}
     .stats{grid-template-columns:repeat(2,1fr);}
@@ -262,7 +260,6 @@
     <a href="#hizmetler">Hizmetler</a>
     <a href="#iletisim">İletişim</a>
   </nav>
-  <button class="nav-toggle">Menü</button>
 </header>
 
 <section class="hero">
@@ -482,23 +479,47 @@ async function loadContent() {
     setText('hero-sub', c.heroSub);
     const heroTitle = document.getElementById('hero-title');
     if (heroTitle && c.heroTitleTop && c.heroTitleBottom) {
-      heroTitle.innerHTML = `${c.heroTitleTop} <span id="hero-highlight">${c.heroHighlight}</span><br>${c.heroTitleBottom}`;
+      const highlight = document.createElement('span');
+      highlight.id = 'hero-highlight';
+      highlight.textContent = c.heroHighlight || '';
+      heroTitle.textContent = c.heroTitleTop + ' ';
+      heroTitle.append(highlight, document.createElement('br'), c.heroTitleBottom);
     }
     setText('cta-primary', c.ctaPrimary);
     setText('cta-secondary', c.ctaSecondary);
 
     setText('services-tag', c.servicesTag);
     setText('services-intro', c.servicesIntro);
-    if (c.servicesTitle) document.getElementById('services-title').innerHTML = c.servicesTitle.replace(' ', '<br>');
+    // Başlık ilk boşluktan iki satıra bölünür; metin her zaman textContent ile yazılır.
+    const servicesTitle = document.getElementById('services-title');
+    if (servicesTitle && c.servicesTitle) {
+      const cut = c.servicesTitle.indexOf(' ');
+      servicesTitle.textContent = cut === -1 ? c.servicesTitle : c.servicesTitle.slice(0, cut);
+      if (cut !== -1) {
+        servicesTitle.append(document.createElement('br'), c.servicesTitle.slice(cut + 1));
+      }
+    }
 
     const serviceGrid = document.getElementById('service-grid');
     if (serviceGrid && Array.isArray(c.services)) {
-      serviceGrid.innerHTML = c.services.map((s, i) => `
-        <div class="service-card">
-          <div class="service-num">${String(i + 1).padStart(2, '0')}</div>
-          <h3>${s.title}</h3>
-          <p>${s.description}</p>
-        </div>`).join('');
+      serviceGrid.textContent = '';
+      c.services.forEach((s, i) => {
+        const card = document.createElement('div');
+        card.className = 'service-card';
+
+        const num = document.createElement('div');
+        num.className = 'service-num';
+        num.textContent = String(i + 1).padStart(2, '0');
+
+        const title = document.createElement('h3');
+        title.textContent = s.title || '';
+
+        const desc = document.createElement('p');
+        desc.textContent = s.description || '';
+
+        card.append(num, title, desc);
+        serviceGrid.appendChild(card);
+      });
     }
 
     setText('portfolio-tag', c.portfolioTag);
@@ -551,11 +572,21 @@ async function loadContent() {
 
     const statsGrid = document.getElementById('stats-grid');
     if (statsGrid && Array.isArray(c.stats)) {
-      statsGrid.innerHTML = c.stats.map(s => `
-        <div>
-          <div class="stat-num">${s.number}</div>
-          <div class="stat-label">${s.label}</div>
-        </div>`).join('');
+      statsGrid.textContent = '';
+      c.stats.forEach(s => {
+        const cell = document.createElement('div');
+
+        const num = document.createElement('div');
+        num.className = 'stat-num';
+        num.textContent = s.number || '';
+
+        const label = document.createElement('div');
+        label.className = 'stat-label';
+        label.textContent = s.label || '';
+
+        cell.append(num, label);
+        statsGrid.appendChild(cell);
+      });
     }
 
     setText('cta-section-tag', c.ctaSectionTag);
