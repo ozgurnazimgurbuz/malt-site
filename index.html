@@ -16,10 +16,11 @@
   if (!/[#&](invite_token|recovery_token|confirmation_token|email_change_token)=/.test(location.hash)) return;
   var s = document.createElement('script');
   s.src = 'https://identity.netlify.com/v1/netlify-identity-widget.js';
+  /* init() ÇAĞIRMAYIN: widget yüklendiğinde kendini başlatır ve her ek init
+     çağrısı yeni bir iframe oluşturup formu görünmeyen kopyaya render eder. */
   s.onload = function () {
     if (!window.netlifyIdentity) return;
     window.netlifyIdentity.on('login', function () { location.href = '/admin/'; });
-    if (!window.netlifyIdentity.currentUser()) window.netlifyIdentity.init();
   };
   document.head.appendChild(s);
 })();
