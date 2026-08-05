@@ -1,0 +1,169 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "images/uploads"
+public_folder: "/images/uploads"
+
+locale: "tr"
+
+collections:
+  - name: "site"
+    label: "Site İçeriği"
+    files:
+      - file: "content.json"
+        label: "Ana Sayfa"
+        name: "homepage"
+        fields:
+          # —— Global Settings ——
+          - label: "Site Adı"
+            name: "siteName"
+            widget: "string"
+            required: false
+            hint: "—— Global Settings —— Marka ve site genelinde kullanılan ad."
+
+          - { label: "Site URL", name: "siteUrl", widget: "string", required: false }
+          - { label: "Varsayılan Dil", name: "defaultLanguage", widget: "string", required: false }
+          - { label: "Varsayılan Locale", name: "defaultLocale", widget: "string", required: false }
+
+          # —— Marka ——
+          - label: "Logo"
+            name: "logo"
+            widget: "image"
+            required: false
+            hint: "—— Marka —— Yüklenirse sitede CMS logosu gösterilir. Boş bırakılırsa mevcut SVG logo kullanılır."
+
+          # —— Hero ——
+          - label: "Üst Etiket (Eyebrow)"
+            name: "eyebrow"
+            widget: "string"
+            hint: "—— Hero Bölümü ——"
+
+          - { label: "Başlık - Üst Satır", name: "heroTitleTop", widget: "string" }
+          - { label: "Başlık - Vurgulu Kelime", name: "heroHighlight", widget: "string" }
+          - { label: "Başlık - Alt Satır", name: "heroTitleBottom", widget: "string" }
+          - { label: "Ana Açıklama", name: "heroSub", widget: "text" }
+          - { label: "Ana Buton Metni", name: "ctaPrimary", widget: "string" }
+          - { label: "İkincil Buton Metni", name: "ctaSecondary", widget: "string" }
+
+          # —— Hizmetler ——
+          - label: "Hizmetler - Üst Etiket"
+            name: "servicesTag"
+            widget: "string"
+            hint: "—— Hizmetler Bölümü ——"
+
+          - { label: "Hizmetler - Başlık", name: "servicesTitle", widget: "string" }
+          - { label: "Hizmetler - Açıklama", name: "servicesIntro", widget: "text" }
+          - label: "Hizmetler Listesi"
+            name: "services"
+            widget: "list"
+            summary: "{{fields.title}}"
+            fields:
+              - { label: "Başlık", name: "title", widget: "string" }
+              - { label: "Açıklama", name: "description", widget: "text" }
+
+          # —— Portfolyo ——
+          - label: "Portfolyo - Üst Etiket"
+            name: "portfolioTag"
+            widget: "string"
+            hint: "—— Portfolyo Bölümü ——"
+
+          - { label: "Portfolyo - Başlık", name: "portfolioTitle", widget: "string" }
+          - { label: "Portfolyo - Açıklama", name: "portfolioIntro", widget: "text" }
+          - label: "Portfolyo Projeleri"
+            name: "portfolio"
+            widget: "list"
+            summary: "{{fields.name}} — {{fields.category}}"
+            fields:
+              - { label: "Proje / Marka Adı", name: "name", widget: "string" }
+              - { label: "Slug", name: "slug", widget: "string", required: false, hint: "URL-dostu proje kimliği. Örn: liman-kahve" }
+              - { label: "Kategori", name: "category", widget: "string" }
+              - { label: "Açıklama", name: "description", widget: "text", required: false }
+              - { label: "Kapak Görseli", name: "image", widget: "image", required: false }
+              - label: "Galeri"
+                name: "gallery"
+                widget: "list"
+                required: false
+                field: { label: "Görsel", name: "image", widget: "image" }
+              - { label: "Müşteri", name: "client", widget: "string", required: false }
+              - { label: "Lokasyon", name: "location", widget: "string", required: false }
+              - { label: "Yıl", name: "year", widget: "string", required: false }
+              - { label: "Tamamlanma Tarihi", name: "completedDate", widget: "string", required: false, hint: "Örn: 2024-06 veya Haziran 2024" }
+              - label: "Proje Hizmetleri"
+                name: "services"
+                widget: "list"
+                required: false
+                field: { label: "Hizmet", name: "service", widget: "string" }
+              - { label: "Öne Çıkan", name: "featured", widget: "boolean", default: false, required: false }
+
+          # —— İstatistikler ——
+          - label: "İstatistikler"
+            name: "stats"
+            widget: "list"
+            hint: "—— İstatistikler Bölümü —— Sürükleyerek sıralayabilirsiniz."
+            summary: "{{fields.number}} {{fields.label}}"
+            fields:
+              - { label: "Sayı", name: "number", widget: "string" }
+              - { label: "Etiket", name: "label", widget: "string" }
+
+          # —— CTA ——
+          - label: "Alt CTA - Üst Etiket"
+            name: "ctaSectionTag"
+            widget: "string"
+            hint: "—— CTA Bölümü ——"
+
+          - { label: "Alt CTA - Başlık", name: "ctaSectionTitle", widget: "string" }
+
+          # —— Footer ——
+          - label: "Footer - Hakkımızda Metni"
+            name: "footerAbout"
+            widget: "text"
+            hint: "—— Footer Bölümü ——"
+
+          - { label: "Telif Metni", name: "copyrightText", widget: "string" }
+
+          # —— İletişim ——
+          - label: "E-posta"
+            name: "email"
+            widget: "string"
+            hint: "—— İletişim ——"
+
+          - { label: "Telefon", name: "phone", widget: "string" }
+          - { label: "Adres", name: "address", widget: "string" }
+          - { label: "WhatsApp Numarası (ülke koduyla, örn: 905xxxxxxxxx)", name: "whatsappNumber", widget: "string" }
+          - { label: "WhatsApp Karşılama Mesajı", name: "whatsappMessage", widget: "string" }
+
+          # —— Sosyal Medya ——
+          - label: "Instagram Linki"
+            name: "instagram"
+            widget: "string"
+            required: false
+            hint: "—— Sosyal Medya —— Boş bırakılabilir."
+
+          - { label: "LinkedIn Linki", name: "linkedin", widget: "string", required: false }
+          - { label: "Behance Linki", name: "behance", widget: "string", required: false }
+          - { label: "Youtube Linki", name: "youtube", widget: "string", required: false }
+
+          # —— SEO ——
+          - label: "Sayfa Başlığı (SEO Title)"
+            name: "seoTitle"
+            widget: "string"
+            required: false
+            hint: "—— SEO Ayarları ——"
+
+          - { label: "Meta Açıklama", name: "seoDescription", widget: "text", required: false }
+          - { label: "Anahtar Kelimeler", name: "seoKeywords", widget: "string", required: false }
+          - { label: "Open Graph Görseli", name: "seoOgImage", widget: "image", required: false }
+          - { label: "Favicon", name: "seoFavicon", widget: "image", required: false }
+          - { label: "Canonical URL", name: "canonicalUrl", widget: "string", required: false }
+
+          # —— Analytics (yalnızca yapılandırma, script enjekte edilmez) ——
+          - label: "Google Analytics ID"
+            name: "googleAnalyticsId"
+            widget: "string"
+            required: false
+            hint: "—— Analytics Yapılandırması —— Yalnızca saklanır; script enjekte edilmez. Örn: G-XXXXXXXXXX"
+
+          - { label: "Google Tag Manager ID", name: "googleTagManagerId", widget: "string", required: false }
+          - { label: "Google Search Console Doğrulama Kodu", name: "googleSearchConsoleVerification", widget: "string", required: false }
+          - { label: "Facebook Pixel ID", name: "facebookPixelId", widget: "string", required: false }

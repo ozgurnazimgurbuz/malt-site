@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+# Yönetim paneli indekslenmemeli; herkese açık içerik barındırmıyor.
+Disallow: /admin/
+
+Sitemap: https://maltstudio.co/sitemap.xml

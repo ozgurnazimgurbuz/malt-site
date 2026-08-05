@@ -1,0 +1,17 @@
+# macOS
+.DS_Store
+._*
+
+# Netlify CLI
+.netlify/
+
+# Editör
+.vscode/
+.idea/
+
+# Ortam değişkenleri
+.env
+.env.*
+
+# Log
+*.log

@@ -1,0 +1,152 @@
+{
+  "siteName": "Malt Studio",
+  "siteUrl": "https://maltstudio.co",
+  "defaultLanguage": "tr",
+  "defaultLocale": "tr-TR",
+
+  "logo": "",
+
+  "eyebrow": "İzmir · Marka Stratejisi & Yaratıcı Ajans",
+  "heroTitleTop": "Markanızın",
+  "heroHighlight": "karakterini",
+  "heroTitleBottom": "ortaya çıkarıyoruz.",
+  "heroSub": "Bir marka söylediği anda unutulmamalı. Stratejiden kimliğe, dijitalden reklama; kalıcı iz bırakan markalar kuruyoruz.",
+  "ctaPrimary": "Proje Başlat",
+  "ctaSecondary": "İşlerimizi Gör",
+
+  "servicesTag": "Hizmetlerimiz",
+  "servicesTitle": "Nasıl Çalışıyoruz",
+  "servicesIntro": "Marka doğuşundan büyümeye, her aşamada ihtiyaç duyduğunuz stratejik ve yaratıcı desteği tek çatı altında sunuyoruz.",
+  "services": [
+    { "title": "Marka Stratejisi", "description": "Konumlandırma, marka mimarisi ve mesajlaşma çerçeveleri." },
+    { "title": "Kimlik & Logo Tasarımı", "description": "Görsel dil, logo sistemleri ve marka kılavuzları." },
+    { "title": "Dijital Deneyim", "description": "Web tasarım, ürün arayüzleri ve dijital varlıklar." },
+    { "title": "İçerik & Reklam", "description": "Kampanya fikirleri, film ve sosyal içerik üretimi." }
+  ],
+
+  "portfolioTag": "Seçili İşler",
+  "portfolioTitle": "Portfolyo",
+  "portfolioIntro": "Farklı sektörlerden markalarla yürüttüğümüz stratejik ve yaratıcı projelerden bir kesit.",
+  "portfolio": [
+    {
+      "name": "Liman Kahve",
+      "slug": "",
+      "category": "Gıda & İçecek",
+      "description": "",
+      "image": "",
+      "gallery": [],
+      "client": "",
+      "location": "",
+      "year": "",
+      "completedDate": "",
+      "services": [],
+      "featured": false
+    },
+    {
+      "name": "Volt Enerji",
+      "slug": "",
+      "category": "Enerji",
+      "description": "",
+      "image": "",
+      "gallery": [],
+      "client": "",
+      "location": "",
+      "year": "",
+      "completedDate": "",
+      "services": [],
+      "featured": false
+    },
+    {
+      "name": "Kuzey Tekstil",
+      "slug": "",
+      "category": "Tekstil",
+      "description": "",
+      "image": "",
+      "gallery": [],
+      "client": "",
+      "location": "",
+      "year": "",
+      "completedDate": "",
+      "services": [],
+      "featured": false
+    },
+    {
+      "name": "Mera Otel",
+      "slug": "",
+      "category": "Konaklama",
+      "description": "",
+      "image": "",
+      "gallery": [],
+      "client": "",
+      "location": "",
+      "year": "",
+      "completedDate": "",
+      "services": [],
+      "featured": false
+    },
+    {
+      "name": "Dörtnal",
+      "slug": "",
+      "category": "Perakende",
+      "description": "",
+      "image": "",
+      "gallery": [],
+      "client": "",
+      "location": "",
+      "year": "",
+      "completedDate": "",
+      "services": [],
+      "featured": false
+    },
+    {
+      "name": "Ekip Yazılım",
+      "slug": "",
+      "category": "Teknoloji",
+      "description": "",
+      "image": "",
+      "gallery": [],
+      "client": "",
+      "location": "",
+      "year": "",
+      "completedDate": "",
+      "services": [],
+      "featured": false
+    }
+  ],
+
+  "stats": [
+    { "number": "120+", "label": "Tamamlanan Proje" },
+    { "number": "14", "label": "Yıllık Deneyim" },
+    { "number": "40+", "label": "Aktif Marka" },
+    { "number": "9", "label": "Sektör Ödülü" }
+  ],
+
+  "ctaSectionTag": "Ücretsiz Ön Görüşme",
+  "ctaSectionTitle": "Markanızın hikâyesini birlikte kuralım.",
+
+  "footerAbout": "İzmir merkezli marka stratejisi ve yaratıcı ajans. 2012'den beri markaların karakterini şekillendiriyoruz.",
+  "copyrightText": "© 2012 - 2026 Malt Studio. Tüm hakları saklıdır.",
+
+  "email": "merhaba@maltstudio.com",
+  "phone": "+90 232 000 00 00",
+  "address": "İzmir, Türkiye",
+  "whatsappNumber": "905414271427",
+  "whatsappMessage": "Merhaba, hizmetleriniz hakkında bilgi almak istiyorum.",
+
+  "instagram": "https://instagram.com",
+  "linkedin": "https://linkedin.com",
+  "behance": "https://behance.net",
+  "youtube": "https://youtube.com",
+
+  "seoTitle": "",
+  "seoDescription": "",
+  "seoKeywords": "",
+  "seoOgImage": "",
+  "seoFavicon": "",
+  "canonicalUrl": "",
+
+  "googleAnalyticsId": "",
+  "googleTagManagerId": "",
+  "googleSearchConsoleVerification": "",
+  "facebookPixelId": ""
+}
