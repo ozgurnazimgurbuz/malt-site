@@ -1,152 +1,165 @@
 {
-  "siteName": "Malt Studio",
-  "siteUrl": "https://maltstudio.co",
-  "defaultLanguage": "tr",
-  "defaultLocale": "tr-TR",
-
-  "logo": "",
-
-  "eyebrow": "İzmir · Marka Stratejisi & Yaratıcı Ajans",
-  "heroTitleTop": "Markanızın",
-  "heroHighlight": "karakterini",
-  "heroTitleBottom": "ortaya çıkarıyoruz.",
-  "heroSub": "Bir marka söylediği anda unutulmamalı. Stratejiden kimliğe, dijitalden reklama; kalıcı iz bırakan markalar kuruyoruz.",
-  "ctaPrimary": "Proje Başlat",
+  "ctaSectionTitle": "Markanızın hikâyesini birlikte kuralım.",
+  "youtube": "https://youtube.com",
   "ctaSecondary": "İşlerimizi Gör",
-
-  "servicesTag": "Hizmetlerimiz",
-  "servicesTitle": "Nasıl Çalışıyoruz",
-  "servicesIntro": "Marka doğuşundan büyümeye, her aşamada ihtiyaç duyduğunuz stratejik ve yaratıcı desteği tek çatı altında sunuyoruz.",
-  "services": [
-    { "title": "Marka Stratejisi", "description": "Konumlandırma, marka mimarisi ve mesajlaşma çerçeveleri." },
-    { "title": "Kimlik & Logo Tasarımı", "description": "Görsel dil, logo sistemleri ve marka kılavuzları." },
-    { "title": "Dijital Deneyim", "description": "Web tasarım, ürün arayüzleri ve dijital varlıklar." },
-    { "title": "İçerik & Reklam", "description": "Kampanya fikirleri, film ve sosyal içerik üretimi." }
-  ],
-
-  "portfolioTag": "Seçili İşler",
-  "portfolioTitle": "Portfolyo",
   "portfolioIntro": "Farklı sektörlerden markalarla yürüttüğümüz stratejik ve yaratıcı projelerden bir kesit.",
+  "ctaSectionTag": "Ücretsiz Ön Görüşme",
+  "seoOgImage": "",
+  "heroSub": "Bir marka söylediği anda unutulmamalı. Stratejiden kimliğe, dijitalden reklama; kalıcı iz bırakan markalar kuruyoruz.",
+  "googleTagManagerId": "",
+  "seoKeywords": "",
+  "siteUrl": "https://maltstudio.co",
   "portfolio": [
     {
       "name": "Liman Kahve",
       "slug": "",
-      "category": "Gıda & İçecek",
-      "description": "",
-      "image": "",
-      "gallery": [],
       "client": "",
+      "featured": false,
+      "gallery": [],
       "location": "",
-      "year": "",
       "completedDate": "",
+      "image": "",
+      "description": "",
+      "year": "",
       "services": [],
-      "featured": false
+      "category": "Gıda & İçecek"
     },
     {
       "name": "Volt Enerji",
       "slug": "",
-      "category": "Enerji",
-      "description": "",
-      "image": "",
-      "gallery": [],
       "client": "",
+      "featured": false,
+      "gallery": [],
       "location": "",
-      "year": "",
       "completedDate": "",
+      "image": "",
+      "description": "",
+      "year": "",
       "services": [],
-      "featured": false
+      "category": "Enerji"
     },
     {
       "name": "Kuzey Tekstil",
       "slug": "",
-      "category": "Tekstil",
-      "description": "",
-      "image": "",
-      "gallery": [],
       "client": "",
+      "featured": false,
+      "gallery": [],
       "location": "",
-      "year": "",
       "completedDate": "",
+      "image": "",
+      "description": "",
+      "year": "",
       "services": [],
-      "featured": false
+      "category": "Tekstil"
     },
     {
       "name": "Mera Otel",
       "slug": "",
-      "category": "Konaklama",
-      "description": "",
-      "image": "",
-      "gallery": [],
       "client": "",
+      "featured": false,
+      "gallery": [],
       "location": "",
-      "year": "",
       "completedDate": "",
+      "image": "",
+      "description": "",
+      "year": "",
       "services": [],
-      "featured": false
+      "category": "Konaklama"
     },
     {
       "name": "Dörtnal",
       "slug": "",
-      "category": "Perakende",
-      "description": "",
-      "image": "",
-      "gallery": [],
       "client": "",
+      "featured": false,
+      "gallery": [],
       "location": "",
-      "year": "",
       "completedDate": "",
+      "image": "",
+      "description": "",
+      "year": "",
       "services": [],
-      "featured": false
+      "category": "Perakende"
     },
     {
       "name": "Ekip Yazılım",
       "slug": "",
-      "category": "Teknoloji",
-      "description": "",
-      "image": "",
-      "gallery": [],
       "client": "",
+      "featured": false,
+      "gallery": [],
       "location": "",
-      "year": "",
       "completedDate": "",
+      "image": "",
+      "description": "",
+      "year": "",
       "services": [],
-      "featured": false
+      "category": "Teknoloji"
     }
   ],
-
-  "stats": [
-    { "number": "120+", "label": "Tamamlanan Proje" },
-    { "number": "14", "label": "Yıllık Deneyim" },
-    { "number": "40+", "label": "Aktif Marka" },
-    { "number": "9", "label": "Sektör Ödülü" }
-  ],
-
-  "ctaSectionTag": "Ücretsiz Ön Görüşme",
-  "ctaSectionTitle": "Markanızın hikâyesini birlikte kuralım.",
-
-  "footerAbout": "İzmir merkezli marka stratejisi ve yaratıcı ajans. 2012'den beri markaların karakterini şekillendiriyoruz.",
-  "copyrightText": "© 2012 - 2026 Malt Studio. Tüm hakları saklıdır.",
-
-  "email": "merhaba@maltstudio.com",
-  "phone": "+90 232 000 00 00",
-  "address": "İzmir, Türkiye",
-  "whatsappNumber": "905414271427",
-  "whatsappMessage": "Merhaba, hizmetleriniz hakkında bilgi almak istiyorum.",
-
-  "instagram": "https://instagram.com",
-  "linkedin": "https://linkedin.com",
-  "behance": "https://behance.net",
-  "youtube": "https://youtube.com",
-
-  "seoTitle": "",
-  "seoDescription": "",
-  "seoKeywords": "",
-  "seoOgImage": "",
-  "seoFavicon": "",
-  "canonicalUrl": "",
-
   "googleAnalyticsId": "",
-  "googleTagManagerId": "",
+  "heroTitleBottom": "ortaya çıkarıyoruz.",
+  "eyebrow": "Tekirdağ · Marka Stratejisi & Yaratıcı Ajans",
+  "logo": "",
+  "servicesIntro": "Marka doğuşundan büyümeye, her aşamada ihtiyaç duyduğunuz stratejik ve yaratıcı desteği tek çatı altında sunuyoruz.",
+  "phone": "05525826959",
+  "portfolioTitle": "Portfolyo",
   "googleSearchConsoleVerification": "",
-  "facebookPixelId": ""
+  "portfolioTag": "Seçili İşler",
+  "ctaPrimary": "Proje Başlat",
+  "siteName": "Malt Studio",
+  "footerAbout": "Tekirdağ merkezli marka stratejisi ve yaratıcı ajans. 2025'ten beri markaların karakterini şekillendiriyoruz.",
+  "instagram": "https://www.instagram.com/maltstudio.co/",
+  "copyrightText": "© 2025 - 2026 Malt Studio. Tüm hakları saklıdır.",
+  "behance": "https://behance.net",
+  "address": "Tekirdağ, Türkiye",
+  "whatsappMessage": "Merhaba, hizmetleriniz hakkında bilgi almak istiyorum.",
+  "heroTitleTop": "Markanızın",
+  "seoFavicon": "",
+  "defaultLanguage": "tr",
+  "servicesTitle": "Nasıl Çalışıyoruz",
+  "heroHighlight": "karakterini",
+  "facebookPixelId": "",
+  "whatsappNumber": "905525826959",
+  "canonicalUrl": "",
+  "seoTitle": "",
+  "defaultLocale": "tr-TR",
+  "servicesTag": "Hizmetlerimiz",
+  "email": "merhaba@maltstudio.com",
+  "services": [
+    {
+      "title": "Marka Stratejisi",
+      "description": "Konumlandırma, marka mimarisi ve mesajlaşma çerçeveleri."
+    },
+    {
+      "title": "Kimlik & Logo Tasarımı",
+      "description": "Görsel dil, logo sistemleri ve marka kılavuzları."
+    },
+    {
+      "title": "Dijital Deneyim",
+      "description": "Web tasarım, ürün arayüzleri ve dijital varlıklar."
+    },
+    {
+      "title": "İçerik & Reklam",
+      "description": "Kampanya fikirleri, film ve sosyal içerik üretimi."
+    }
+  ],
+  "linkedin": "https://linkedin.com",
+  "stats": [
+    {
+      "number": "120+",
+      "label": "Tamamlanan Proje"
+    },
+    {
+      "number": "14",
+      "label": "Yıllık Deneyim"
+    },
+    {
+      "number": "40+",
+      "label": "Aktif Marka"
+    },
+    {
+      "number": "9",
+      "label": "Sektör Ödülü"
+    }
+  ],
+  "seoDescription": ""
 }
