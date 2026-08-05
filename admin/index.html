@@ -4,6 +4,17 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="robots" content="noindex, nofollow" />
+  <script>
+    /* Decap bir hash yönlendiricisi; açılışta adres parçasını "#/" ile ezdiği için
+       buraya elle taşınan davet token'ı kaybolur. Token'ı, akışı tamamlayabilen
+       kök sayfaya Decap yüklenmeden önce devrediyoruz. */
+    (function () {
+      var hash = window.location.hash;
+      if (/[#&](invite_token|recovery_token|confirmation_token|email_change_token)=/.test(hash)) {
+        window.location.replace('/' + hash);
+      }
+    })();
+  </script>
   <title>Malt Studio — Yönetim Paneli</title>
   <link rel="icon" href="data:,">
 </head>

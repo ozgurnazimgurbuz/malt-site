@@ -8,6 +8,22 @@
 <meta property="og:type" content="website">
 <meta property="og:title" content="Malt Studio | Marka Stratejisi &amp; Yaratıcı Ajans">
 <meta property="og:description" content="İzmir merkezli marka stratejisi ve yaratıcı ajans. Stratejiden kimliğe, dijitalden reklama; kalıcı iz bırakan markalar kuruyoruz.">
+<script>
+/* Netlify Identity davet ve şifre kurtarma bağlantıları site köküne düşer ve
+   token'ı adres parçasında taşır. Akışı yalnızca böyle bir token varken
+   yüklenen widget tamamlar; normal ziyaretçiye üçüncü taraf script inmez. */
+(function () {
+  if (!/[#&](invite_token|recovery_token|confirmation_token|email_change_token)=/.test(location.hash)) return;
+  var s = document.createElement('script');
+  s.src = 'https://identity.netlify.com/v1/netlify-identity-widget.js';
+  s.onload = function () {
+    if (!window.netlifyIdentity) return;
+    window.netlifyIdentity.on('login', function () { location.href = '/admin/'; });
+    if (!window.netlifyIdentity.currentUser()) window.netlifyIdentity.init();
+  };
+  document.head.appendChild(s);
+})();
+</script>
 <link rel="icon" type="image/png" href="/images/icon-192.png">
 <link rel="apple-touch-icon" href="/images/icon-192.png">
 <link rel="manifest" href="/manifest.json">
