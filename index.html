@@ -4,10 +4,15 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Malt Studio | Marka Stratejisi &amp; Yaratıcı Ajans</title>
-<meta name="description" content="İzmir merkezli marka stratejisi ve yaratıcı ajans. Stratejiden kimliğe, dijitalden reklama; kalıcı iz bırakan markalar kuruyoruz.">
+<meta name="description" content="Tekirdağ merkezli marka stratejisi ve yaratıcı ajans. Stratejiden kimliğe, dijitalden reklama; kalıcı iz bırakan markalar kuruyoruz.">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Malt Studio | Marka Stratejisi &amp; Yaratıcı Ajans">
-<meta property="og:description" content="İzmir merkezli marka stratejisi ve yaratıcı ajans. Stratejiden kimliğe, dijitalden reklama; kalıcı iz bırakan markalar kuruyoruz.">
+<meta property="og:description" content="Tekirdağ merkezli marka stratejisi ve yaratıcı ajans. Stratejiden kimliğe, dijitalden reklama; kalıcı iz bırakan markalar kuruyoruz.">
+<meta property="og:url" content="https://maltstudio.co/">
+<meta property="og:locale" content="tr_TR">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Malt Studio | Marka Stratejisi &amp; Yaratıcı Ajans">
+<meta name="twitter:description" content="Tekirdağ merkezli marka stratejisi ve yaratıcı ajans. Stratejiden kimliğe, dijitalden reklama; kalıcı iz bırakan markalar kuruyoruz.">
 <script>
 /* Netlify Identity davet ve şifre kurtarma bağlantıları site köküne düşer ve
    token'ı adres parçasında taşır. Akışı yalnızca böyle bir token varken
@@ -288,7 +293,7 @@
     <circle cx="400" cy="400" r="400"/>
   </svg>
   <div class="wrap">
-    <div class="eyebrow" id="hero-eyebrow">İzmir · Marka Stratejisi &amp; Yaratıcı Ajans</div>
+    <div class="eyebrow" id="hero-eyebrow">Tekirdağ · Marka Stratejisi &amp; Yaratıcı Ajans</div>
     <h1 id="hero-title">Markanızın <span id="hero-highlight">karakterini</span><br id="hero-br">ortaya çıkarıyoruz.</h1>
     <p class="hero-sub" id="hero-sub">Bir marka söylediği anda unutulmamalı. Stratejiden kimliğe, dijitalden reklama; kalıcı iz bırakan markalar kuruyoruz.</p>
     <div class="hero-actions">
@@ -358,7 +363,7 @@
             <path d="M1065,69.5c-9.4-10.2-22.2-15.4-38-15.5h-.3c-16,0-29.3,5.7-39.6,17-10.2,11.1-15.4,24.9-15.4,41s5.2,29,15.3,39.7c10.3,10.8,23.1,16.2,38,16.2s27.9-5.7,38.7-16.8c10.8-11.2,16.3-25,16.3-41.1-.4-16.6-5.5-30.2-15-40.4ZM1046.7,135.3c-2.2,7.2-5.2,13-8.9,17.2-3.5,4-7.3,6-11.5,6s-7.9-2-11.5-6c-3.7-4.2-6.7-10-8.9-17.2-2.2-7.3-3.4-15.5-3.4-24.5s1.1-17.1,3.4-24.4c2.2-7.2,5.2-13,8.9-17.2,3.5-4,7.3-6,11.5-6s7.9,2,11.5,6c3.7,4.2,6.7,10,8.9,17.2,2.2,7.3,3.4,15.5,3.4,24.4s-1.1,17.2-3.4,24.5Z"/>
           </svg>
         </div>
-        <p id="footer-about" style="font-size:14px; color:rgba(241,238,231,0.62); max-width:280px; line-height:1.6;">İzmir merkezli marka stratejisi ve yaratıcı ajans. 2012'den beri markaların karakterini şekillendiriyoruz.</p>
+        <p id="footer-about" style="font-size:14px; color:rgba(241,238,231,0.62); max-width:280px; line-height:1.6;">Tekirdağ merkezli marka stratejisi ve yaratıcı ajans. 2012'den beri markaların karakterini şekillendiriyoruz.</p>
       </div>
       <div>
         <h4>Sayfalar</h4>
@@ -383,7 +388,7 @@
         <ul>
           <li id="contact-email">merhaba@maltstudio.com</li>
           <li id="contact-phone">+90 232 000 00 00</li>
-          <li id="contact-address">İzmir, Türkiye</li>
+          <li id="contact-address">Tekirdağ, Türkiye</li>
         </ul>
       </div>
     </div>
@@ -443,6 +448,10 @@ async function loadContent() {
     upsertMeta('property', 'og:description', c.seoDescription);
     upsertMeta('property', 'og:image', ogImage);
     upsertMeta('property', 'og:url', canonicalUrl);
+    upsertMeta('name', 'twitter:card', ogImage ? 'summary_large_image' : 'summary');
+    upsertMeta('name', 'twitter:title', c.seoTitle);
+    upsertMeta('name', 'twitter:description', c.seoDescription);
+    upsertMeta('name', 'twitter:image', ogImage);
     upsertLink('canonical', canonicalUrl);
     upsertLink('icon', c.seoFavicon);
 

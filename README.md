@@ -1,6 +1,6 @@
 # Malt Studio
 
-İzmir merkezli marka stratejisi ve yaratıcı ajans için tek sayfalık tanıtım sitesi.
+Tekirdağ merkezli marka stratejisi ve yaratıcı ajans için tek sayfalık tanıtım sitesi.
 Build adımı yoktur; statik dosyalar doğrudan yayımlanır. İçerik Decap CMS ile yönetilir.
 
 Üretim adresi: https://maltstudio.co
