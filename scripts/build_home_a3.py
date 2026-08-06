@@ -64,17 +64,17 @@ A3_CSS = """
     font-size:20px; text-transform:none; letter-spacing:0; line-height:1.15;
   }
   .process-step p{font-size:13px; line-height:1.55; color:rgba(241,238,231,0.62);}
-  .eeat-grid{
+  .why-grid{
     display:grid; grid-template-columns:repeat(5,1fr); gap:1px;
     background:var(--line); border:1px solid var(--line);
   }
-  .eeat-card{
+  .why-card{
     background:var(--ink); padding:28px 22px; min-height:180px;
   }
-  .eeat-card h3{
+  .why-card h3{
     font-size:20px; text-transform:none; letter-spacing:0; line-height:1.2; margin-bottom:12px;
   }
-  .eeat-card p{font-size:14px; line-height:1.55; color:rgba(241,238,231,0.62);}
+  .why-card p{font-size:14px; line-height:1.55; color:rgba(241,238,231,0.62);}
   .knowledge-grid{
     display:grid; grid-template-columns:repeat(3,1fr); gap:1px;
     background:rgba(26,26,26,0.14); border:1px solid rgba(26,26,26,0.14);
@@ -101,18 +101,18 @@ A3_CSS = """
   a.work-item{color:inherit;}
   @media (max-width:1100px){
     .process-grid{grid-template-columns:repeat(3,1fr);}
-    .eeat-grid{grid-template-columns:repeat(3,1fr);}
+    .why-grid{grid-template-columns:repeat(3,1fr);}
   }
   @media (max-width:900px){
     .service-grid.enterprise{grid-template-columns:repeat(2,1fr);}
     .knowledge-grid{grid-template-columns:1fr 1fr;}
-    .eeat-grid{grid-template-columns:1fr 1fr;}
+    .why-grid{grid-template-columns:1fr 1fr;}
     .trust-strip ul{justify-content:flex-start;}
   }
   @media (max-width:560px){
     .process-grid{grid-template-columns:1fr 1fr;}
     .knowledge-grid{grid-template-columns:1fr;}
-    .eeat-grid{grid-template-columns:1fr;}
+    .why-grid{grid-template-columns:1fr;}
     .service-grid.enterprise{grid-template-columns:1fr;}
   }
 """
@@ -242,21 +242,21 @@ MAIN = f"""
   </div>
 </section>
 
-<section id="neden" aria-labelledby="eeat-title">
+<section id="neden" aria-labelledby="why-title">
   <div class="wrap">
     <div class="section-head">
       <div>
-        <div class="tag">EEAT</div>
-        <h2 id="eeat-title">Neden<br>Malt Studio</h2>
+        <div class="tag">Neden Biz</div>
+        <h2 id="why-title">Neden<br>Malt Studio</h2>
       </div>
       <p>Üreten ekip, sahada montaj, kurumsal yaklaşım ve yerel destek.</p>
     </div>
-    <div class="eeat-grid">
-      <div class="eeat-card"><h3>Gerçek üretim</h3><p>Atölyede ölçüye özel imalat. Stok tabela mantığı yerine yüzeye ve markaya göre üretim.</p></div>
-      <div class="eeat-card"><h3>Modern ekipman</h3><p>Dijital baskı ve tabela üretim hatları güncel ihtiyaçlara göre kullanılır.</p></div>
-      <div class="eeat-card"><h3>Montaj deneyimi</h3><p>Keşif, lojistik ve saha uygulaması aynı operasyonel hatta planlanır.</p></div>
-      <div class="eeat-card"><h3>Kurumsal yaklaşım</h3><p>Brief, onay, yazılı teklif ve teslim kontrolü ile ilerleriz.</p></div>
-      <div class="eeat-card"><h3>Yerel destek</h3><p>Tekirdağ üssünden çevre ilçelere keşif ve servis.</p></div>
+    <div class="why-grid">
+      <div class="why-card"><h3>Gerçek üretim</h3><p>Atölyede ölçüye özel imalat. Stok tabela mantığı yerine yüzeye ve markaya göre üretim.</p></div>
+      <div class="why-card"><h3>Modern ekipman</h3><p>Dijital baskı ve tabela üretim hatları güncel ihtiyaçlara göre kullanılır.</p></div>
+      <div class="why-card"><h3>Montaj deneyimi</h3><p>Keşif, lojistik ve saha uygulaması aynı operasyonel hatta planlanır.</p></div>
+      <div class="why-card"><h3>Kurumsal yaklaşım</h3><p>Brief, onay, yazılı teklif ve teslim kontrolü ile ilerleriz.</p></div>
+      <div class="why-card"><h3>Yerel destek</h3><p>Tekirdağ üssünden çevre ilçelere keşif ve servis.</p></div>
     </div>
   </div>
 </section>
@@ -292,7 +292,7 @@ MAIN = f"""
       <a class="local-card" href="/hizmet-bolge/tekirdag-totem/"><h3>Tekirdağ Totem</h3><p>Tekirdağ’da totem tabela uygulamaları.</p><span class="meta">Yerel</span></a>
       <a class="local-card" href="/hizmet-bolge/tekirdag-arac-giydirme/"><h3>Tekirdağ Araç</h3><p>Tekirdağ’da araç giydirme hizmeti.</p><span class="meta">Yerel</span></a>
       <a class="local-card" href="/hizmet-bolge/tekirdag-cam-giydirme/"><h3>Tekirdağ Cam</h3><p>Tekirdağ’da cam giydirme uygulamaları.</p><span class="meta">Yerel</span></a>
-      <a class="local-card" href="/hizmetler/"><h3>Tüm Hizmetler</h3><p>Hizmet hub.</p><span class="meta">Hub</span></a>
+      <a class="local-card" href="/hizmetler/"><h3>Tüm Hizmetler</h3><p>Tüm hizmetlerimize göz atın.</p><span class="meta">Hizmet</span></a>
     </div>
   </div>
 </section>
@@ -317,13 +317,8 @@ MAIN = f"""
 """
 
 NAV = """  <nav aria-label="Ana menü">
-    <a href="/hizmetler/">Hizmetler</a>
-    <a href="/sektorler/">Sektörler</a>
-    <a href="/projeler/">Projeler</a>
-    <a href="/bilgi/">Bilgi</a>
-    <a href="/bolgeler/tekirdag/">Tekirdağ</a>
-    <a href="#surec">Süreç</a>
     <a href="#teklif">Teklif</a>
+    <a href="#iletisim">İletişim</a>
   </nav>"""
 
 FOOTER_COLS = """      <div>
