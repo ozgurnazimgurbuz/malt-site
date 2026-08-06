@@ -1,165 +1,248 @@
 {
-  "ctaSectionTitle": "Markanızın hikâyesini birlikte kuralım.",
-  "youtube": "https://youtube.com",
-  "ctaSecondary": "İşlerimizi Gör",
-  "portfolioIntro": "Farklı sektörlerden markalarla yürüttüğümüz stratejik ve yaratıcı projelerden bir kesit.",
-  "ctaSectionTag": "Ücretsiz Ön Görüşme",
+  "ctaSectionTitle": "Projenizi konuşalım.",
+  "youtube": "",
+  "ctaSecondary": "WhatsApp",
+  "portfolioIntro": "Öne çıkan projeler. Detay sayfalarına geçin; görseller geldikçe güncellenir.",
+  "ctaSectionTag": "Teklif / Keşif",
   "seoOgImage": "/images/og.jpg",
-  "heroSub": "Bir marka söylediği anda unutulmamalı. Stratejiden kimliğe, dijitalden reklama; kalıcı iz bırakan markalar kuruyoruz.",
+  "heroSub": "Tabela üretimi, kurumsal kimlik, dijital baskı ve uygulama. Keşiften montaja Tekirdağ merkezli üretim.",
   "googleTagManagerId": "",
-  "seoKeywords": "Malt Studio, marka stratejisi, yaratıcı ajans, Tekirdağ, kimlik tasarımı, dijital deneyim",
+  "seoKeywords": "Tekirdağ reklam ajansı, Tekirdağ reklam firması, Malt Studio, tabela, ışıklı tabela, kutu harf, totem, araç giydirme, cam giydirme",
   "siteUrl": "https://maltstudio.co",
   "portfolio": [
     {
       "name": "Liman Kahve",
-      "slug": "",
+      "slug": "liman-kahve",
       "client": "",
-      "featured": false,
+      "featured": true,
       "gallery": [],
-      "location": "",
+      "location": "Tekirdağ",
       "completedDate": "",
       "image": "",
-      "description": "",
+      "description": "Mağaza tabela ve cephe görünürlüğü.",
       "year": "",
-      "services": [],
+      "services": ["Tabela", "Cam Giydirme"],
       "category": "Gıda & İçecek"
     },
     {
       "name": "Volt Enerji",
-      "slug": "",
+      "slug": "volt-enerji",
       "client": "",
-      "featured": false,
+      "featured": true,
       "gallery": [],
-      "location": "",
+      "location": "Tekirdağ",
       "completedDate": "",
       "image": "",
-      "description": "",
+      "description": "Tesis kimliği ve yönlendirme.",
       "year": "",
-      "services": [],
+      "services": ["Tabela", "Totem"],
       "category": "Enerji"
     },
     {
       "name": "Kuzey Tekstil",
-      "slug": "",
+      "slug": "kuzey-tekstil",
       "client": "",
-      "featured": false,
+      "featured": true,
       "gallery": [],
-      "location": "",
+      "location": "Tekirdağ",
       "completedDate": "",
       "image": "",
-      "description": "",
+      "description": "OSB tesis tabela uygulamaları.",
       "year": "",
-      "services": [],
+      "services": ["Tabela", "İş Güvenliği"],
       "category": "Tekstil"
     },
     {
       "name": "Mera Otel",
-      "slug": "",
+      "slug": "mera-otel",
       "client": "",
-      "featured": false,
+      "featured": true,
       "gallery": [],
-      "location": "",
+      "location": "Tekirdağ",
       "completedDate": "",
       "image": "",
-      "description": "",
+      "description": "Konaklama giriş ve cephe kimliği.",
       "year": "",
-      "services": [],
+      "services": ["Işıklı Tabela", "Kutu Harf"],
       "category": "Konaklama"
     },
     {
       "name": "Dörtnal",
-      "slug": "",
+      "slug": "dortnal",
       "client": "",
-      "featured": false,
+      "featured": true,
       "gallery": [],
-      "location": "",
+      "location": "Tekirdağ",
       "completedDate": "",
       "image": "",
-      "description": "",
+      "description": "Perakende vitrin ve tabela.",
       "year": "",
-      "services": [],
+      "services": ["Cam Giydirme", "Tabela"],
       "category": "Perakende"
     },
     {
       "name": "Ekip Yazılım",
-      "slug": "",
+      "slug": "ekip-yazilim",
       "client": "",
-      "featured": false,
+      "featured": true,
       "gallery": [],
-      "location": "",
+      "location": "Tekirdağ",
       "completedDate": "",
       "image": "",
-      "description": "",
+      "description": "Ofis branding ve giriş kimliği.",
       "year": "",
-      "services": [],
+      "services": ["Ofis Branding", "Kutu Harf"],
       "category": "Teknoloji"
     }
   ],
   "googleAnalyticsId": "",
-  "heroTitleBottom": "ortaya çıkarıyoruz.",
-  "eyebrow": "Tekirdağ · Marka Stratejisi & Yaratıcı Ajans",
+  "heroTitleBottom": "görünür kılarız.",
+  "eyebrow": "Malt Studio · Tekirdağ Reklam Ajansı",
   "logo": "",
-  "servicesIntro": "Marka doğuşundan büyümeye, her aşamada ihtiyaç duyduğunuz stratejik ve yaratıcı desteği tek çatı altında sunuyoruz.",
+  "servicesIntro": "Üretim ve uygulama kapasitemiz. Her kart mevcut hizmet sayfasına gider; yeni URL açılmaz. Geo niyetler S×C sayfalarındadır.",
   "phone": "05525826959",
-  "portfolioTitle": "Portfolyo",
+  "portfolioTitle": "Seçili İşler",
   "googleSearchConsoleVerification": "",
-  "portfolioTag": "Seçili İşler",
-  "ctaPrimary": "Proje Başlat",
+  "portfolioTag": "Projeler",
+  "ctaPrimary": "Teklif Al",
   "siteName": "Malt Studio",
-  "footerAbout": "Tekirdağ merkezli marka stratejisi ve yaratıcı ajans. 2025'ten beri markaların karakterini şekillendiriyoruz.",
+  "footerAbout": "Tekirdağ merkezli reklam ajansı ve tabela üreticisi. Tabela, kurumsal kimlik, dijital baskı ve uygulama — keşiften montaja.",
   "instagram": "https://www.instagram.com/maltstudio.co/",
   "copyrightText": "© 2025 - 2026 Malt Studio. Tüm hakları saklıdır.",
-  "behance": "https://behance.net",
+  "behance": "",
   "address": "Tekirdağ, Türkiye",
-  "whatsappMessage": "Merhaba, hizmetleriniz hakkında bilgi almak istiyorum.",
-  "heroTitleTop": "Markanızın",
+  "whatsappMessage": "Merhaba, teklif almak istiyorum.",
+  "heroTitleTop": "Markanızı",
   "seoFavicon": "",
   "defaultLanguage": "tr",
-  "servicesTitle": "Nasıl Çalışıyoruz",
-  "heroHighlight": "karakterini",
+  "servicesTitle": "Çekirdek Hizmetler",
+  "heroHighlight": "sahada",
   "facebookPixelId": "",
   "whatsappNumber": "905525826959",
   "canonicalUrl": "https://maltstudio.co/",
-  "seoTitle": "Malt Studio | Marka Stratejisi & Yaratıcı Ajans",
+  "seoTitle": "Malt Studio | Tekirdağ Reklam Ajansı",
   "defaultLocale": "tr-TR",
-  "servicesTag": "Hizmetlerimiz",
+  "servicesTag": "Hizmetler",
   "email": "merhaba@maltstudio.com",
   "services": [
     {
-      "title": "Marka Stratejisi",
-      "description": "Konumlandırma, marka mimarisi ve mesajlaşma çerçeveleri."
+      "title": "Tabela",
+      "description": "Dış ve iç mekan tabela üretimi ve montajı.",
+      "href": "/hizmetler/tabela/"
     },
     {
-      "title": "Kimlik & Logo Tasarımı",
-      "description": "Görsel dil, logo sistemleri ve marka kılavuzları."
+      "title": "Işıklı Tabela",
+      "description": "LED ışıklı tabela sistemleri.",
+      "href": "/hizmetler/isikli-tabela/"
     },
     {
-      "title": "Dijital Deneyim",
-      "description": "Web tasarım, ürün arayüzleri ve dijital varlıklar."
+      "title": "Kutu Harf",
+      "description": "Pleksi ve paslanmaz kutu harf.",
+      "href": "/hizmetler/kutu-harf/"
     },
     {
-      "title": "İçerik & Reklam",
-      "description": "Kampanya fikirleri, film ve sosyal içerik üretimi."
+      "title": "Totem",
+      "description": "Yol ve tesis totem tabela sistemleri.",
+      "href": "/hizmetler/totem/"
+    },
+    {
+      "title": "Cam Giydirme",
+      "description": "One way vision ve vitrin folyo.",
+      "href": "/hizmetler/cam-giydirme/"
+    },
+    {
+      "title": "Araç Giydirme",
+      "description": "Filo ve ticari araç kaplama.",
+      "href": "/hizmetler/arac-giydirme/"
+    },
+    {
+      "title": "Cephe Giydirme",
+      "description": "Cephe görünürlük uygulamaları (tabela ailesi).",
+      "href": "/hizmetler/tabela/"
+    },
+    {
+      "title": "Kompozit Tabela",
+      "description": "Kompozit panel tabela üretimi.",
+      "href": "/hizmetler/tabela/"
+    },
+    {
+      "title": "Dijital Baskı",
+      "description": "Kampanya ve POS baskı yüzeyleri.",
+      "href": "/hizmetler/display-pos/"
+    },
+    {
+      "title": "Germe Tabela",
+      "description": "Germe / SEG yüzeyler (lightbox ailesi).",
+      "href": "/hizmetler/lightbox/"
+    },
+    {
+      "title": "Lightbox",
+      "description": "Işıklı kutu ve SEG lightbox sistemleri.",
+      "href": "/hizmetler/lightbox/"
+    },
+    {
+      "title": "Display & POS",
+      "description": "Mağaziçi display ve POS uygulamaları.",
+      "href": "/hizmetler/display-pos/"
+    },
+    {
+      "title": "Ofis Branding",
+      "description": "Ofis ve plaza iç kimlik uygulamaları.",
+      "href": "/hizmetler/ofis-branding/"
+    },
+    {
+      "title": "İş Güvenliği",
+      "description": "İş güvenliği ve uyarı tabelaları.",
+      "href": "/hizmetler/is-guvenligi-tabelalari/"
+    },
+    {
+      "title": "Kurumsal Kimlik",
+      "description": "Marka kimliğinin mekânsal uygulaması.",
+      "href": "/hizmetler/ofis-branding/"
     }
   ],
-  "linkedin": "https://linkedin.com",
+  "linkedin": "",
   "stats": [
     {
-      "number": "120+",
+      "number": "30+",
       "label": "Tamamlanan Proje"
     },
     {
-      "number": "14",
+      "number": "2",
       "label": "Yıllık Deneyim"
     },
     {
-      "number": "40+",
+      "number": "12",
       "label": "Aktif Marka"
     },
     {
-      "number": "9",
+      "number": "2",
       "label": "Sektör Ödülü"
     }
   ],
-  "seoDescription": "Tekirdağ merkezli marka stratejisi ve yaratıcı ajans. Stratejiden kimliğe, dijitalden reklama; kalıcı iz bırakan markalar kuruyoruz."
+  "seoDescription": "Tekirdağ reklam ajansı Malt Studio. Tabela üretimi, kurumsal kimlik, dijital baskı ve uygulama. Keşiften montaja Tekirdağ merkezli üretim.",
+  "addressLocality": "Tekirdağ",
+  "addressRegion": "Tekirdağ",
+  "addressCountry": "TR",
+  "legalName": "",
+  "foundingDate": "",
+  "addressStreet": "",
+  "addressPostalCode": "",
+  "geoLatitude": "",
+  "geoLongitude": "",
+  "priceRange": "",
+  "googleMapsUrl": "",
+  "openingHours": [],
+  "schemaServices": [
+    "Tabela",
+    "Işıklı tabela",
+    "Kutu harf",
+    "Totem tabela",
+    "Araç giydirme",
+    "Cam giydirme",
+    "Lightbox",
+    "Display POS",
+    "Ofis branding",
+    "İş güvenliği tabelaları"
+  ]
 }

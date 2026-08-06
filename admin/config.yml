@@ -148,8 +148,34 @@ collections:
             widget: "string"
             hint: "—— İletişim ——"
 
-          - { label: "Telefon", name: "phone", widget: "string" }
-          - { label: "Adres", name: "address", widget: "string" }
+          - { label: "Telefon", name: "phone", widget: "string", hint: "Görünen numara. Şemada E.164 için WhatsApp numarası da kullanılır." }
+          - { label: "Adres (serbest metin)", name: "address", widget: "string", hint: "Sitede görünen kısa adres satırı." }
+          - { label: "Sokak / Cadde", name: "addressStreet", widget: "string", required: false, hint: "—— Yerel SEO (Schema) —— Bilinmiyorsa boş bırakın; uydurmayın." }
+          - { label: "İlçe / Şehir", name: "addressLocality", widget: "string", required: false }
+          - { label: "İl / Bölge", name: "addressRegion", widget: "string", required: false }
+          - { label: "Posta Kodu", name: "addressPostalCode", widget: "string", required: false }
+          - { label: "Ülke Kodu (ISO)", name: "addressCountry", widget: "string", required: false, hint: "Örn: TR" }
+          - { label: "Enlem (geo)", name: "geoLatitude", widget: "string", required: false, hint: "Boş bırakılırsa GeoCoordinates üretilmez." }
+          - { label: "Boylam (geo)", name: "geoLongitude", widget: "string", required: false }
+          - { label: "Google Maps URL", name: "googleMapsUrl", widget: "string", required: false }
+          - { label: "Fiyat Aralığı", name: "priceRange", widget: "string", required: false, hint: "Örn: ₺₺ — bilinmiyorsa boş." }
+          - { label: "Resmi Ünvan (legalName)", name: "legalName", widget: "string", required: false }
+          - { label: "Kuruluş Tarihi (YYYY-MM-DD)", name: "foundingDate", widget: "string", required: false }
+          - label: "Çalışma Saatleri"
+            name: "openingHours"
+            widget: "list"
+            required: false
+            hint: "Boşsa OpeningHoursSpecification üretilmez."
+            fields:
+              - { label: "Günler (örn: Monday,Tuesday)", name: "days", widget: "string" }
+              - { label: "Açılış (HH:MM)", name: "opens", widget: "string" }
+              - { label: "Kapanış (HH:MM)", name: "closes", widget: "string" }
+          - label: "Schema Hizmetleri"
+            name: "schemaServices"
+            widget: "list"
+            required: false
+            hint: "ProfessionalService / knowsAbout için hizmet adları."
+            field: { label: "Hizmet", name: "service", widget: "string" }
           - { label: "WhatsApp Numarası (ülke koduyla, örn: 905xxxxxxxxx)", name: "whatsappNumber", widget: "string" }
           - { label: "WhatsApp Karşılama Mesajı", name: "whatsappMessage", widget: "string" }
 

@@ -1,5 +1,7 @@
-# Statik site: build adımı yok, kök dizin yayımlanır.
+# CMS content.json her deploy'da index.html'e gömülür (JS'siz ilk HTML).
 [build]
+  command = "python3 scripts/build_production.py && python3 scripts/prerender.py"
+  # build_production runs Wave A3 home builder; prerender bakes content.json into index.html
   publish = "."
 
 [[headers]]

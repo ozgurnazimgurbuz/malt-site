@@ -1,7 +1,8 @@
 # Malt Studio
 
 Tekirdağ merkezli marka stratejisi ve yaratıcı ajans için tek sayfalık tanıtım sitesi.
-Build adımı yoktur; statik dosyalar doğrudan yayımlanır. İçerik Decap CMS ile yönetilir.
+Her Netlify deploy’unda `scripts/prerender.py`, `content.json` içeriğini `index.html` içine gömer.
+Böylece kritik metin View Source’da JS olmadan görünür. Decap CMS yalnızca `content.json` yazar.
 
 Üretim adresi: https://maltstudio.co
 
@@ -9,19 +10,21 @@ Build adımı yoktur; statik dosyalar doğrudan yayımlanır. İçerik Decap CMS
 
 | Yol | Görev |
 | --- | --- |
-| `index.html` | Tüm işaretleme, stil ve `content.json` okuyan istemci tarafı mantık |
+| `index.html` | İşaretleme, stil; kritik içerik prerender ile gömülür |
 | `content.json` | CMS tarafından yazılan tek içerik kaynağı (düz JSON) |
+| `scripts/prerender.py` | `content.json` → `index.html` (Netlify build) |
 | `admin/index.html` | Decap CMS giriş noktası (sürüm sabitlenmiş) |
 | `admin/config.yml` | CMS alan tanımları, Git Gateway ayarı |
 | `images/` | Statik görseller ve uygulama ikonları |
 | `images/uploads/` | CMS üzerinden yüklenen medya (ilk yüklemede oluşur) |
 | `manifest.json` | Web app manifest |
 | `robots.txt`, `sitemap.xml` | Arama motoru yönlendirmesi |
-| `netlify.toml` | Yayın ayarları, güvenlik başlıkları, önbellek kuralları |
+| `netlify.toml` | Build, güvenlik başlıkları, önbellek |
 
 ## Yerel geliştirme
 
 ```bash
+python3 scripts/prerender.py
 python3 -m http.server 8800
 ```
 
@@ -30,7 +33,7 @@ Netlify Identity yalnızca yayımlanmış ortamda çalışır.
 
 ## Yayın
 
-Netlify, `main` dalını izler ve depo kökünü yayımlar. Build komutu yoktur.
+Netlify, `main` dalını izler. Build komutu: `python3 scripts/prerender.py` — ardından kök dizin yayımlanır.
 
 CMS'in çalışması için Netlify tarafında şunlar açık olmalıdır:
 

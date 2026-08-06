@@ -3,12 +3,13 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Malt Studio | Marka Stratejisi &amp; Yaratıcı Ajans</title>
-<meta name="description" content="Tekirdağ merkezli marka stratejisi ve yaratıcı ajans. Stratejiden kimliğe, dijitalden reklama; kalıcı iz bırakan markalar kuruyoruz.">
+<title>Malt Studio | Tekirdağ Reklam Ajansı</title>
+<meta name="description" content="Tekirdağ reklam ajansı Malt Studio. Tabela üretimi, kurumsal kimlik, dijital baskı ve uygulama. Keşiften montaja Tekirdağ merkezli üretim.">
+<link rel="canonical" href="https://maltstudio.co/">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Malt Studio">
-<meta property="og:title" content="Malt Studio | Marka Stratejisi &amp; Yaratıcı Ajans">
-<meta property="og:description" content="Tekirdağ merkezli marka stratejisi ve yaratıcı ajans. Stratejiden kimliğe, dijitalden reklama; kalıcı iz bırakan markalar kuruyoruz.">
+<meta property="og:title" content="Malt Studio | Tekirdağ Reklam Ajansı">
+<meta property="og:description" content="Tekirdağ reklam ajansı Malt Studio. Tabela üretimi, kurumsal kimlik, dijital baskı ve uygulama. Keşiften montaja Tekirdağ merkezli üretim.">
 <meta property="og:url" content="https://maltstudio.co/">
 <meta property="og:locale" content="tr_TR">
 <meta property="og:image" content="https://maltstudio.co/images/og.jpg">
@@ -18,8 +19,8 @@
 <meta property="og:image:height" content="630">
 <meta property="og:image:alt" content="Malt Studio — Marka Stratejisi ve Yaratıcı Ajans">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Malt Studio | Marka Stratejisi &amp; Yaratıcı Ajans">
-<meta name="twitter:description" content="Tekirdağ merkezli marka stratejisi ve yaratıcı ajans. Stratejiden kimliğe, dijitalden reklama; kalıcı iz bırakan markalar kuruyoruz.">
+<meta name="twitter:title" content="Malt Studio | Tekirdağ Reklam Ajansı">
+<meta name="twitter:description" content="Tekirdağ reklam ajansı Malt Studio. Tabela üretimi, kurumsal kimlik, dijital baskı ve uygulama. Keşiften montaja Tekirdağ merkezli üretim.">
 <meta name="twitter:image" content="https://maltstudio.co/images/og.jpg">
 <meta name="twitter:image:alt" content="Malt Studio — Marka Stratejisi ve Yaratıcı Ajans">
 <script>
@@ -175,19 +176,34 @@
   .services .section-head p{color:var(--ink-soft);}
   .services .section-head .tag{color:var(--maroon);}
   .service-grid{
-    display:grid; grid-template-columns:repeat(4,1fr); gap:1px;
+    display:grid; grid-template-columns:repeat(3,1fr); gap:1px;
     background:rgba(26,26,26,0.14);
     border:1px solid rgba(26,26,26,0.14);
   }
   .service-card{
     background:var(--paper); padding:38px 28px; min-height:260px;
     display:flex; flex-direction:column; justify-content:space-between;
-    transition:background .25s;
+    transition:background .25s; color:inherit;
   }
+  a.service-card{cursor:pointer;}
   .service-card:hover{background:#e6dccb;}
   .service-num{font-family:'Big Shoulders Display'; font-weight:900; font-size:15px; color:var(--maroon);}
   .service-card h3{font-size:22px; margin-top:auto; text-transform:none; letter-spacing:0; line-height:1.15;}
   .service-card p{font-size:14px; margin-top:12px; color:var(--ink-soft); line-height:1.55;}
+  .local-grid{
+    display:grid; grid-template-columns:repeat(3,1fr); gap:1px;
+    background:var(--line); border:1px solid var(--line);
+  }
+  .local-card{
+    background:var(--ink); padding:28px 24px; min-height:140px;
+    display:flex; flex-direction:column; gap:10px; transition:background .2s;
+  }
+  .local-card:hover{background:#241c1c;}
+  .local-card h3{font-size:22px; text-transform:none; letter-spacing:0; line-height:1.15;}
+  .local-card p{font-size:14px; line-height:1.55; color:rgba(241,238,231,0.62);}
+  .local-card .meta{margin-top:auto; font-size:12px; letter-spacing:0.1em; text-transform:uppercase; color:var(--taupe);}
+  @media (max-width:900px){ .local-grid{grid-template-columns:1fr 1fr;} }
+  @media (max-width:560px){ .local-grid{grid-template-columns:1fr;} }
 
   /* -------- work grid -------- */
   .work-grid{
@@ -253,6 +269,114 @@
     box-shadow:0 8px 24px rgba(0,0,0,0.3);
   }
 
+
+
+
+
+
+
+
+
+
+
+
+
+  /* -------- A3 home authority -------- */
+  .trust-strip{
+    border-top:1px solid var(--line); border-bottom:1px solid var(--line);
+    padding:28px 0; background:rgba(0,0,0,0.25);
+  }
+  .trust-strip ul{
+    list-style:none; display:flex; flex-wrap:wrap; gap:12px 28px;
+    justify-content:space-between; align-items:center;
+    font-size:12px; font-weight:700; letter-spacing:0.12em; text-transform:uppercase;
+    color:rgba(241,238,231,0.78);
+  }
+  .trust-strip li{display:flex; align-items:center; gap:10px; white-space:nowrap;}
+  .trust-strip li::before{
+    content:''; width:7px; height:7px; border-radius:1px; background:var(--taupe); flex-shrink:0;
+  }
+  .service-grid.enterprise{grid-template-columns:repeat(3,1fr);}
+  .service-card{min-height:200px;}
+  .chip-grid{
+    display:flex; flex-wrap:wrap; gap:10px;
+  }
+  .chip{
+    display:inline-flex; align-items:center;
+    padding:12px 16px; border:1px solid var(--line);
+    font-size:13px; font-weight:600; letter-spacing:0.04em;
+    color:rgba(241,238,231,0.82); transition:border-color .2s, color .2s, background .2s;
+  }
+  a.chip:hover{border-color:var(--taupe); color:var(--paper); background:rgba(176,141,114,0.08);}
+  .chip.is-alias{opacity:0.72; border-style:dashed;}
+  .process-grid{
+    display:grid; grid-template-columns:repeat(6,1fr); gap:1px;
+    background:var(--line); border:1px solid var(--line);
+  }
+  .process-step{
+    background:var(--ink); padding:28px 20px; min-height:160px;
+    display:flex; flex-direction:column; gap:12px;
+  }
+  .process-step .num{
+    font-family:'Big Shoulders Display',sans-serif; font-weight:900;
+    font-size:15px; color:var(--maroon-light);
+  }
+  .process-step h3{
+    font-size:20px; text-transform:none; letter-spacing:0; line-height:1.15;
+  }
+  .process-step p{font-size:13px; line-height:1.55; color:rgba(241,238,231,0.62);}
+  .eeat-grid{
+    display:grid; grid-template-columns:repeat(5,1fr); gap:1px;
+    background:var(--line); border:1px solid var(--line);
+  }
+  .eeat-card{
+    background:var(--ink); padding:28px 22px; min-height:180px;
+  }
+  .eeat-card h3{
+    font-size:20px; text-transform:none; letter-spacing:0; line-height:1.2; margin-bottom:12px;
+  }
+  .eeat-card p{font-size:14px; line-height:1.55; color:rgba(241,238,231,0.62);}
+  .knowledge-grid{
+    display:grid; grid-template-columns:repeat(3,1fr); gap:1px;
+    background:rgba(26,26,26,0.14); border:1px solid rgba(26,26,26,0.14);
+  }
+  .knowledge-card{
+    background:var(--paper); padding:28px 24px; min-height:160px;
+    display:flex; flex-direction:column; gap:10px; color:inherit; transition:background .2s;
+  }
+  a.knowledge-card:hover{background:#e6dccb;}
+  .knowledge-card .meta{
+    font-size:11px; letter-spacing:0.12em; text-transform:uppercase; color:var(--maroon); font-weight:700;
+  }
+  .knowledge-card h3{
+    font-size:22px; text-transform:none; letter-spacing:0; line-height:1.15; margin-top:auto;
+  }
+  .knowledge-card p{font-size:14px; color:var(--ink-soft); line-height:1.55;}
+  .cta-actions{display:flex; gap:16px; justify-content:center; flex-wrap:wrap; margin-top:8px;}
+  .section-link{
+    font-size:13px; font-weight:700; letter-spacing:0.08em; text-transform:uppercase;
+    color:var(--taupe); border-bottom:1px solid transparent;
+  }
+  .section-link:hover{border-color:var(--taupe);}
+  .services .section-link{color:var(--maroon);}
+  a.work-item{color:inherit;}
+  @media (max-width:1100px){
+    .process-grid{grid-template-columns:repeat(3,1fr);}
+    .eeat-grid{grid-template-columns:repeat(3,1fr);}
+  }
+  @media (max-width:900px){
+    .service-grid.enterprise{grid-template-columns:repeat(2,1fr);}
+    .knowledge-grid{grid-template-columns:1fr 1fr;}
+    .eeat-grid{grid-template-columns:1fr 1fr;}
+    .trust-strip ul{justify-content:flex-start;}
+  }
+  @media (max-width:560px){
+    .process-grid{grid-template-columns:1fr 1fr;}
+    .knowledge-grid{grid-template-columns:1fr;}
+    .eeat-grid{grid-template-columns:1fr;}
+    .service-grid.enterprise{grid-template-columns:1fr;}
+  }
+
   @media (max-width:900px){
     nav{display:none;}
     .service-grid{grid-template-columns:repeat(2,1fr);}
@@ -266,11 +390,13 @@
     .footer-top{grid-template-columns:1fr;}
   }
 </style>
+<script type="application/ld+json" id="ld-json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://maltstudio.co/#organization","name":"Malt Studio","brand":{"@type":"Brand","name":"Malt Studio"},"url":"https://maltstudio.co/","logo":{"@id":"https://maltstudio.co/#logo"},"image":{"@id":"https://maltstudio.co/#primaryimage"},"description":"Tekirdağ reklam ajansı Malt Studio. Tabela üretimi, kurumsal kimlik, dijital baskı ve uygulama. Keşiften montaja Tekirdağ merkezli üretim.","email":"merhaba@maltstudio.com","telephone":"+905525826959","sameAs":["https://www.instagram.com/maltstudio.co/"],"areaServed":[{"@type":"AdministrativeArea","name":"Tekirdağ"},{"@type":"Country","name":"Türkiye","sameAs":"https://www.wikidata.org/wiki/Q43"}],"knowsAbout":["Tabela","Işıklı tabela","Kutu harf","Totem tabela","Araç giydirme","Cam giydirme","Lightbox","Display POS","Ofis branding","İş güvenliği tabelaları","Işıklı Tabela","Kutu Harf","Totem","Cam Giydirme","Araç Giydirme","Cephe Giydirme","Kompozit Tabela","Dijital Baskı","Germe Tabela","Display & POS","Ofis Branding","İş Güvenliği","Kurumsal Kimlik"],"contactPoint":{"@type":"ContactPoint","contactType":"customer service","email":"merhaba@maltstudio.com","telephone":"+905525826959","areaServed":"TR","availableLanguage":["Turkish","tr"]}},{"@type":["LocalBusiness","ProfessionalService"],"@id":"https://maltstudio.co/#localbusiness","name":"Malt Studio","url":"https://maltstudio.co/","parentOrganization":{"@id":"https://maltstudio.co/#organization"},"image":{"@id":"https://maltstudio.co/#primaryimage"},"logo":{"@id":"https://maltstudio.co/#logo"},"description":"Tekirdağ reklam ajansı Malt Studio. Tabela üretimi, kurumsal kimlik, dijital baskı ve uygulama. Keşiften montaja Tekirdağ merkezli üretim.","email":"merhaba@maltstudio.com","telephone":"+905525826959","address":{"@type":"PostalAddress","addressLocality":"Tekirdağ","addressRegion":"Tekirdağ","addressCountry":"TR"},"contactPoint":{"@type":"ContactPoint","contactType":"customer service","email":"merhaba@maltstudio.com","telephone":"+905525826959","areaServed":"TR","availableLanguage":["Turkish","tr"]},"sameAs":["https://www.instagram.com/maltstudio.co/"],"areaServed":[{"@type":"AdministrativeArea","name":"Tekirdağ"},{"@type":"Country","name":"Türkiye","sameAs":"https://www.wikidata.org/wiki/Q43"}],"knowsAbout":["Tabela","Işıklı tabela","Kutu harf","Totem tabela","Araç giydirme","Cam giydirme","Lightbox","Display POS","Ofis branding","İş güvenliği tabelaları","Işıklı Tabela","Kutu Harf","Totem","Cam Giydirme","Araç Giydirme","Cephe Giydirme","Kompozit Tabela","Dijital Baskı","Germe Tabela","Display & POS","Ofis Branding","İş Güvenliği","Kurumsal Kimlik"],"hasOfferCatalog":{"@type":"OfferCatalog","name":"Hizmetler","itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"Offer","itemOffered":{"@type":"Service","name":"Tabela","provider":{"@id":"https://maltstudio.co/#localbusiness"}}}},{"@type":"ListItem","position":2,"item":{"@type":"Offer","itemOffered":{"@type":"Service","name":"Işıklı tabela","provider":{"@id":"https://maltstudio.co/#localbusiness"}}}},{"@type":"ListItem","position":3,"item":{"@type":"Offer","itemOffered":{"@type":"Service","name":"Kutu harf","provider":{"@id":"https://maltstudio.co/#localbusiness"}}}},{"@type":"ListItem","position":4,"item":{"@type":"Offer","itemOffered":{"@type":"Service","name":"Totem tabela","provider":{"@id":"https://maltstudio.co/#localbusiness"}}}},{"@type":"ListItem","position":5,"item":{"@type":"Offer","itemOffered":{"@type":"Service","name":"Araç giydirme","provider":{"@id":"https://maltstudio.co/#localbusiness"}}}},{"@type":"ListItem","position":6,"item":{"@type":"Offer","itemOffered":{"@type":"Service","name":"Cam giydirme","provider":{"@id":"https://maltstudio.co/#localbusiness"}}}},{"@type":"ListItem","position":7,"item":{"@type":"Offer","itemOffered":{"@type":"Service","name":"Lightbox","provider":{"@id":"https://maltstudio.co/#localbusiness"}}}},{"@type":"ListItem","position":8,"item":{"@type":"Offer","itemOffered":{"@type":"Service","name":"Display POS","provider":{"@id":"https://maltstudio.co/#localbusiness"}}}},{"@type":"ListItem","position":9,"item":{"@type":"Offer","itemOffered":{"@type":"Service","name":"Ofis branding","provider":{"@id":"https://maltstudio.co/#localbusiness"}}}},{"@type":"ListItem","position":10,"item":{"@type":"Offer","itemOffered":{"@type":"Service","name":"İş güvenliği tabelaları","provider":{"@id":"https://maltstudio.co/#localbusiness"}}}},{"@type":"ListItem","position":11,"item":{"@type":"Offer","itemOffered":{"@type":"Service","name":"Işıklı Tabela","provider":{"@id":"https://maltstudio.co/#localbusiness"}}}},{"@type":"ListItem","position":12,"item":{"@type":"Offer","itemOffered":{"@type":"Service","name":"Kutu Harf","provider":{"@id":"https://maltstudio.co/#localbusiness"}}}},{"@type":"ListItem","position":13,"item":{"@type":"Offer","itemOffered":{"@type":"Service","name":"Totem","provider":{"@id":"https://maltstudio.co/#localbusiness"}}}},{"@type":"ListItem","position":14,"item":{"@type":"Offer","itemOffered":{"@type":"Service","name":"Cam Giydirme","provider":{"@id":"https://maltstudio.co/#localbusiness"}}}},{"@type":"ListItem","position":15,"item":{"@type":"Offer","itemOffered":{"@type":"Service","name":"Araç Giydirme","provider":{"@id":"https://maltstudio.co/#localbusiness"}}}},{"@type":"ListItem","position":16,"item":{"@type":"Offer","itemOffered":{"@type":"Service","name":"Cephe Giydirme","provider":{"@id":"https://maltstudio.co/#localbusiness"}}}},{"@type":"ListItem","position":17,"item":{"@type":"Offer","itemOffered":{"@type":"Service","name":"Kompozit Tabela","provider":{"@id":"https://maltstudio.co/#localbusiness"}}}},{"@type":"ListItem","position":18,"item":{"@type":"Offer","itemOffered":{"@type":"Service","name":"Dijital Baskı","provider":{"@id":"https://maltstudio.co/#localbusiness"}}}},{"@type":"ListItem","position":19,"item":{"@type":"Offer","itemOffered":{"@type":"Service","name":"Germe Tabela","provider":{"@id":"https://maltstudio.co/#localbusiness"}}}},{"@type":"ListItem","position":20,"item":{"@type":"Offer","itemOffered":{"@type":"Service","name":"Display & POS","provider":{"@id":"https://maltstudio.co/#localbusiness"}}}},{"@type":"ListItem","position":21,"item":{"@type":"Offer","itemOffered":{"@type":"Service","name":"Ofis Branding","provider":{"@id":"https://maltstudio.co/#localbusiness"}}}},{"@type":"ListItem","position":22,"item":{"@type":"Offer","itemOffered":{"@type":"Service","name":"İş Güvenliği","provider":{"@id":"https://maltstudio.co/#localbusiness"}}}},{"@type":"ListItem","position":23,"item":{"@type":"Offer","itemOffered":{"@type":"Service","name":"Kurumsal Kimlik","provider":{"@id":"https://maltstudio.co/#localbusiness"}}}}]}},{"@type":"WebSite","@id":"https://maltstudio.co/#website","url":"https://maltstudio.co/","name":"Malt Studio","description":"Tekirdağ reklam ajansı Malt Studio. Tabela üretimi, kurumsal kimlik, dijital baskı ve uygulama. Keşiften montaja Tekirdağ merkezli üretim.","publisher":{"@id":"https://maltstudio.co/#organization"},"inLanguage":"tr-TR"},{"@type":"WebPage","@id":"https://maltstudio.co/#webpage","url":"https://maltstudio.co/","name":"Malt Studio | Tekirdağ Reklam Ajansı","description":"Tekirdağ reklam ajansı Malt Studio. Tabela üretimi, kurumsal kimlik, dijital baskı ve uygulama. Keşiften montaja Tekirdağ merkezli üretim.","isPartOf":{"@id":"https://maltstudio.co/#website"},"about":{"@id":"https://maltstudio.co/#localbusiness"},"primaryImageOfPage":{"@id":"https://maltstudio.co/#primaryimage"},"inLanguage":"tr-TR"},{"@type":"ImageObject","@id":"https://maltstudio.co/#logo","url":"https://maltstudio.co/images/icon-512.png","contentUrl":"https://maltstudio.co/images/icon-512.png","width":512,"height":512,"caption":"Malt Studio logo"},{"@type":"ImageObject","@id":"https://maltstudio.co/#primaryimage","url":"https://maltstudio.co/images/og.jpg","contentUrl":"https://maltstudio.co/images/og.jpg","width":1200,"height":630,"caption":"Malt Studio | Tekirdağ Reklam Ajansı"}]}</script>
+<meta name="keywords" content="Tekirdağ reklam ajansı, Tekirdağ reklam firması, Malt Studio, tabela, ışıklı tabela, kutu harf, totem, araç giydirme, cam giydirme">
 </head>
-<body>
+<body data-prerendered="1">
 
 <header>
-  <a href="#" id="header-logo" aria-label="Malt Studio">
+  <a href="/" id="header-logo" aria-label="Malt Studio">
     <svg class="logo-mark" viewBox="0 0 1080 168.1" xmlns="http://www.w3.org/2000/svg">
       <polygon points="9.4 21.7 69 155.2 76.9 155.2 128.7 29.1 128.7 155.4 159.3 155.4 159.3 .1 130.4 0 83.8 114 32.9 .1 0 .1 0 155.4 9.4 155.4 9.4 21.7"/>
       <path d="M243.4,145.5v9.9h30.8v-70.7c-.1-10.4-2.6-18.8-7.2-24.9-3.9-5.1-9.4-9.1-16.1-12-6.7-2.8-15.7-4.2-27-4.2s-12.4,1.2-17.2,3.4c-4.8,2.3-8.6,5.2-11.5,8.7-2.9,3.5-4.9,7.2-6,11-1.1,3.9-1.4,7.5-.8,10.8.7,3.5,2.2,6.2,4.6,8,2.5,1.9,5.8,2.4,9.9,1.4,5.1-1.6,8.9-4.5,11.2-8.6,2.2-4,3-8,2.4-11.8-.7-4.2-3.1-7-7-8.1-.2,0-.3,0-.4-.1.3-.6,1.2-1.8,4.3-3.2,2.6-1.3,6.2-2,10.6-2.2,18.6,0,18.8,8.6,18.8,11.5.2,10.8-12.8,20.9-38.5,29.9-8.4,2.9-15.1,6.9-19.9,12.1-4.9,5.3-7.4,11.9-7.4,19.6s1.1,9.3,3.3,13.2c2.1,3.8,4.8,7.1,8,9.9,6.4,5.5,14.3,8.5,23.8,8.8.2,0,.3,0,.5,0,8.1,0,15.2-1.7,21.1-4.9,3.9-2.2,7.2-4.7,9.8-7.4ZM242.7,88v22.1c0,2.5-.3,5.8-.8,9.8-.5,3.9-1.5,7.8-2.9,11.6-1.4,3.7-3.4,6.8-6,9.3-2.5,2.4-5.7,3.5-9.8,3.5s-5.4-.7-7.2-2.1h0c-2-1.5-3.6-3.3-4.8-5.5-1.2-2.3-2.1-4.5-2.6-6.7-.5-2.2-.8-4-.9-5.3,0-5.4,1-10.2,3.3-14.4,2.2-4.2,5.6-7.3,10.4-9.6,9.7-4.8,16.7-9.1,21.3-12.8Z"/>
@@ -285,15 +411,18 @@
       <path d="M1065,69.5c-9.4-10.2-22.2-15.4-38-15.5h-.3c-16,0-29.3,5.7-39.6,17-10.2,11.1-15.4,24.9-15.4,41s5.2,29,15.3,39.7c10.3,10.8,23.1,16.2,38,16.2s27.9-5.7,38.7-16.8c10.8-11.2,16.3-25,16.3-41.1-.4-16.6-5.5-30.2-15-40.4ZM1046.7,135.3c-2.2,7.2-5.2,13-8.9,17.2-3.5,4-7.3,6-11.5,6s-7.9-2-11.5-6c-3.7-4.2-6.7-10-8.9-17.2-2.2-7.3-3.4-15.5-3.4-24.5s1.1-17.1,3.4-24.4c2.2-7.2,5.2-13,8.9-17.2,3.5-4,7.3-6,11.5-6s7.9,2,11.5,6c3.7,4.2,6.7,10,8.9,17.2,2.2,7.3,3.4,15.5,3.4,24.4s-1.1,17.2-3.4,24.5Z"/>
     </svg>
   </a>
-  <nav>
-    <a href="#kultur">Kültür</a>
-    <a href="#isler">İşler</a>
-    <a href="#hizmetler">Hizmetler</a>
-    <a href="#iletisim">İletişim</a>
+  <nav aria-label="Ana menü">
+    <a href="/hizmetler/">Hizmetler</a>
+    <a href="/sektorler/">Sektörler</a>
+    <a href="/projeler/">Projeler</a>
+    <a href="/bilgi/">Bilgi</a>
+    <a href="/bolgeler/tekirdag/">Tekirdağ</a>
+    <a href="#surec">Süreç</a>
+    <a href="#teklif">Teklif</a>
   </nav>
 </header>
 
-<section class="hero">
+<section class="hero" aria-label="Giriş">
   <svg class="rings" viewBox="0 0 800 800" aria-hidden="true">
     <circle cx="400" cy="400" r="90"/>
     <circle cx="400" cy="400" r="180"/>
@@ -302,54 +431,192 @@
     <circle cx="400" cy="400" r="400"/>
   </svg>
   <div class="wrap">
-    <div class="eyebrow" id="hero-eyebrow">Tekirdağ · Marka Stratejisi &amp; Yaratıcı Ajans</div>
-    <h1 id="hero-title">Markanızın <span id="hero-highlight">karakterini</span><br id="hero-br">ortaya çıkarıyoruz.</h1>
-    <p class="hero-sub" id="hero-sub">Bir marka söylediği anda unutulmamalı. Stratejiden kimliğe, dijitalden reklama; kalıcı iz bırakan markalar kuruyoruz.</p>
+    <div class="eyebrow" id="hero-eyebrow">Malt Studio · Tekirdağ Reklam Ajansı</div>
+    <h1 id="hero-title">Markanızı <span id="hero-highlight">sahada</span><br id="hero-br">görünür kılarız.</h1>
+    <p class="hero-sub" id="hero-sub">Tabela üretimi, kurumsal kimlik, dijital baskı ve uygulama. Keşiften montaja Tekirdağ merkezli üretim.</p>
     <div class="hero-actions">
-      <a href="#iletisim" class="btn btn-primary" id="cta-primary">Proje Başlat</a>
-      <a href="#isler" class="btn btn-ghost" id="cta-secondary">İşlerimizi Gör</a>
+      <a href="#teklif" class="btn btn-primary" id="cta-primary" href="#teklif">Teklif Al</a>
+      <a href="https://wa.me/905525826959?text=Merhaba%2C%20teklif%20almak%20istiyorum." class="btn btn-ghost" id="cta-secondary" target="_blank" rel="noopener" href="https://wa.me/905525826959?text=Merhaba%2C%20teklif%20almak%20istiyorum.">WhatsApp</a>
     </div>
   </div>
   <div class="scroll-cue">Aşağı kaydır</div>
 </section>
 
-<section class="services" id="hizmetler">
+<section class="trust-strip" aria-label="Güven özeti">
+  <div class="wrap">
+    <ul>
+      <li>Yerinde Keşif</li>
+      <li>Tasarım</li>
+      <li>Üretim</li>
+      <li>Montaj</li>
+      <li>Tek Noktadan Hizmet</li>
+    </ul>
+  </div>
+</section>
+
+<section class="services" id="hizmetler" aria-labelledby="services-title">
   <div class="wrap">
     <div class="section-head">
       <div>
-        <div class="tag" id="services-tag">Hizmetlerimiz</div>
-        <h2 id="services-title">Nasıl<br>Çalışıyoruz</h2>
+        <div class="tag" id="services-tag">Hizmetler</div>
+        <h2 id="services-title">Çekirdek<br>Hizmetler</h2>
       </div>
-      <p id="services-intro">Marka doğuşundan büyümeye, her aşamada ihtiyaç duyduğunuz stratejik ve yaratıcı desteği tek çatı altında sunuyoruz.</p>
+      <p id="services-intro">Üretim ve uygulama kapasitemiz. Her kart mevcut hizmet sayfasına gider; yeni URL açılmaz. Geo niyetler S×C sayfalarındadır.</p>
     </div>
-    <div class="service-grid" id="service-grid"></div>
+    <div class="service-grid enterprise" id="service-grid"><a class="service-card" href="/hizmetler/tabela/"><div class="service-num">01</div><h3>Tabela</h3><p>Dış ve iç mekan tabela üretimi ve montajı.</p></a><a class="service-card" href="/hizmetler/isikli-tabela/"><div class="service-num">02</div><h3>Işıklı Tabela</h3><p>LED ışıklı tabela sistemleri.</p></a><a class="service-card" href="/hizmetler/kutu-harf/"><div class="service-num">03</div><h3>Kutu Harf</h3><p>Pleksi ve paslanmaz kutu harf.</p></a><a class="service-card" href="/hizmetler/totem/"><div class="service-num">04</div><h3>Totem</h3><p>Yol ve tesis totem tabela sistemleri.</p></a><a class="service-card" href="/hizmetler/cam-giydirme/"><div class="service-num">05</div><h3>Cam Giydirme</h3><p>One way vision ve vitrin folyo.</p></a><a class="service-card" href="/hizmetler/arac-giydirme/"><div class="service-num">06</div><h3>Araç Giydirme</h3><p>Filo ve ticari araç kaplama.</p></a><a class="service-card" href="/hizmetler/tabela/"><div class="service-num">07</div><h3>Cephe Giydirme</h3><p>Cephe görünürlük uygulamaları (tabela ailesi).</p></a><a class="service-card" href="/hizmetler/tabela/"><div class="service-num">08</div><h3>Kompozit Tabela</h3><p>Kompozit panel tabela üretimi.</p></a><a class="service-card" href="/hizmetler/display-pos/"><div class="service-num">09</div><h3>Dijital Baskı</h3><p>Kampanya ve POS baskı yüzeyleri.</p></a><a class="service-card" href="/hizmetler/lightbox/"><div class="service-num">10</div><h3>Germe Tabela</h3><p>Germe / SEG yüzeyler (lightbox ailesi).</p></a><a class="service-card" href="/hizmetler/lightbox/"><div class="service-num">11</div><h3>Lightbox</h3><p>Işıklı kutu ve SEG lightbox sistemleri.</p></a><a class="service-card" href="/hizmetler/display-pos/"><div class="service-num">12</div><h3>Display &amp; POS</h3><p>Mağaziçi display ve POS uygulamaları.</p></a><a class="service-card" href="/hizmetler/ofis-branding/"><div class="service-num">13</div><h3>Ofis Branding</h3><p>Ofis ve plaza iç kimlik uygulamaları.</p></a><a class="service-card" href="/hizmetler/is-guvenligi-tabelalari/"><div class="service-num">14</div><h3>İş Güvenliği</h3><p>İş güvenliği ve uyarı tabelaları.</p></a><a class="service-card" href="/hizmetler/ofis-branding/"><div class="service-num">15</div><h3>Kurumsal Kimlik</h3><p>Marka kimliğinin mekânsal uygulaması.</p></a></div>
+    <p style="margin-top:28px;"><a class="section-link" href="/hizmetler/">Tüm hizmetler hub →</a></p>
   </div>
 </section>
 
-<section id="isler">
+<section id="sektorler" aria-labelledby="industries-title">
   <div class="wrap">
     <div class="section-head">
       <div>
-        <div class="tag" id="portfolio-tag">Seçili İşler</div>
-        <h2 id="portfolio-title">Portfolyo</h2>
+        <div class="tag">Sektörler</div>
+        <h2 id="industries-title">Çalıştığımız<br>Dikeyler</h2>
       </div>
-      <p id="portfolio-intro">Farklı sektörlerden markalarla yürüttüğümüz stratejik ve yaratıcı projelerden bir kesit.</p>
+      <p>Sektör sayfaları dikey bağlam taşır; money keyword sahipliği hizmet ve S×C URL’lerindedir.</p>
+    </div>
+    <div class="local-grid">
+      <a class="local-card" href="/sektorler/fabrika-osb/"><h3>Fabrikalar / OSB</h3><p>Tesis kimliği, totem ve iş güvenliği.</p><span class="meta">Sektör</span></a>
+      <a class="local-card" href="/sektorler/perakende/"><h3>Perakende</h3><p>Mağaza cephe ve vitrin.</p><span class="meta">Sektör</span></a>
+      <a class="local-card" href="/sektorler/restoran-cafe/"><h3>Restoran / Cafe</h3><p>Tabela, cam ve menü yüzeyleri.</p><span class="meta">Sektör</span></a>
+      <a class="local-card" href="/sektorler/plaza-ofis/"><h3>Plaza / Ofis</h3><p>Ofis branding ve giriş kimliği.</p><span class="meta">Sektör</span></a>
+      <a class="local-card" href="/sektorler/insaat-santiye/"><h3>İnşaat / Şantiye</h3><p>Geçici ve kalıcı saha işaretleri.</p><span class="meta">Sektör</span></a>
+      <a class="local-card" href="/sektorler/saglik/"><h3>Sağlık</h3><p>Klinik ve sağlık noktası görünürlüğü.</p><span class="meta">Sektör</span></a>
+    </div>
+    <p style="margin-top:28px;"><a class="section-link" href="/sektorler/">Sektörler hub →</a></p>
+  </div>
+</section>
+
+<section id="surec" aria-labelledby="process-title">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <div class="tag">Süreç</div>
+        <h2 id="process-title">Üretim<br>Süreci</h2>
+      </div>
+      <p>Keşiften satış sonrasına kadar tek hat. Ayrı /surec/ URL’si yok; süreç buradadır.</p>
+    </div>
+    <div class="process-grid">
+      <div class="process-step"><div class="num">01</div><h3>Keşif</h3><p>Ölçü, yüzey ve saha koşulları yerinde not edilir.</p></div>
+      <div class="process-step"><div class="num">02</div><h3>Tasarım</h3><p>Okunur, markaya uygun görsel onaylanır.</p></div>
+      <div class="process-step"><div class="num">03</div><h3>Üretim</h3><p>Atölyede ölçüye özel imalat.</p></div>
+      <div class="process-step"><div class="num">04</div><h3>Kalite Kontrol</h3><p>Montaj öncesi ölçü ve bitiş kontrolü.</p></div>
+      <div class="process-step"><div class="num">05</div><h3>Montaj</h3><p>Sahada güvenli uygulama ve teslim.</p></div>
+      <div class="process-step"><div class="num">06</div><h3>Satış Sonrası</h3><p>Servis ve yenileme talepleri aynı hattan.</p></div>
+    </div>
+    <p style="margin-top:28px;"><a class="section-link" href="#surec">Süreç özeti (bu sayfa) →</a></p>
+  </div>
+</section>
+
+<section id="isler" aria-labelledby="portfolio-title">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <div class="tag" id="portfolio-tag">Projeler</div>
+        <h2 id="portfolio-title">Seçili İşler</h2>
+      </div>
+      <p id="portfolio-intro">Öne çıkan projeler. Detay sayfalarına geçin; görseller geldikçe güncellenir.</p>
     </div>
   </div>
-  <div class="work-grid" id="work-grid"></div>
+  <div class="work-grid" id="work-grid"><a class="work-item" href="/projeler/liman-kahve/" data-cat="Gıda &amp; İçecek"><div class="work-swatch" style="background:linear-gradient(135deg, #B08D72, #1a1a1a)"></div><div class="work-meta"><div class="work-name">Liman Kahve</div><div class="work-desc">Mağaza tabela ve cephe görünürlüğü.</div></div></a><a class="work-item" href="/projeler/volt-enerji/" data-cat="Enerji"><div class="work-swatch" style="background:linear-gradient(135deg, #B08D72, #1a1a1a)"></div><div class="work-meta"><div class="work-name">Volt Enerji</div><div class="work-desc">Tesis kimliği ve yönlendirme.</div></div></a><a class="work-item" href="/projeler/kuzey-tekstil/" data-cat="Tekstil"><div class="work-swatch" style="background:linear-gradient(135deg, #B08D72, #1a1a1a)"></div><div class="work-meta"><div class="work-name">Kuzey Tekstil</div><div class="work-desc">OSB tesis tabela uygulamaları.</div></div></a><a class="work-item" href="/projeler/mera-otel/" data-cat="Konaklama"><div class="work-swatch" style="background:linear-gradient(135deg, #B08D72, #1a1a1a)"></div><div class="work-meta"><div class="work-name">Mera Otel</div><div class="work-desc">Konaklama giriş ve cephe kimliği.</div></div></a><a class="work-item" href="/projeler/dortnal/" data-cat="Perakende"><div class="work-swatch" style="background:linear-gradient(135deg, #B08D72, #1a1a1a)"></div><div class="work-meta"><div class="work-name">Dörtnal</div><div class="work-desc">Perakende vitrin ve tabela.</div></div></a><a class="work-item" href="/projeler/ekip-yazilim/" data-cat="Teknoloji"><div class="work-swatch" style="background:linear-gradient(135deg, #B08D72, #1a1a1a)"></div><div class="work-meta"><div class="work-name">Ekip Yazılım</div><div class="work-desc">Ofis branding ve giriş kimliği.</div></div></a></div>
+  <div class="wrap" style="margin-top:28px;"><a class="section-link" href="/projeler/">Tüm projeler →</a></div>
 </section>
 
-<section id="kultur">
+<section class="services" id="bilgi" aria-labelledby="knowledge-title">
   <div class="wrap">
-    <div class="stats" id="stats-grid"></div>
+    <div class="section-head">
+      <div>
+        <div class="tag">Bilgi</div>
+        <h2 id="knowledge-title">Bilgi<br>Merkezi</h2>
+      </div>
+      <p>Eğitim ve karar rehberleri. Ticari money H1’ler hizmet sayfalarındadır.</p>
+    </div>
+    <div class="knowledge-grid">
+      <a class="knowledge-card" href="/bilgi/tabela-cesitleri/"><span class="meta">Rehber</span><h3>Tabela Çeşitleri</h3><p>Hangi tabela tipi ne zaman seçilir.</p></a>
+      <a class="knowledge-card" href="/bilgi/isikli-mi-isiksiz-mi/"><span class="meta">Karar</span><h3>Işıklı mı Işıksız mı?</h3><p>Gece görünürlük ihtiyacını netleştirin.</p></a>
+      <a class="knowledge-card" href="/bilgi/kutu-harf-malzemeler/"><span class="meta">Malzeme</span><h3>Kutu Harf Malzemeler</h3><p>Pleksi, paslanmaz ve seçim kriterleri.</p></a>
+      <a class="knowledge-card" href="/bilgi/one-way-vision-nedir/"><span class="meta">Cam</span><h3>One Way Vision Nedir?</h3><p>Vitrin folyo mantığı.</p></a>
+      <a class="knowledge-card" href="/bilgi/arac-giydirme-rehberi/"><span class="meta">Filo</span><h3>Araç Giydirme Rehberi</h3><p>Kaplama öncesi bilmeniz gerekenler.</p></a>
+      <a class="knowledge-card" href="/bilgi/tabela-fiyati/"><span class="meta">Fiyat</span><h3>Tabela Fiyatını Neler Etkiler?</h3><p>Teklif yerine geçmeyen eğitim içeriği.</p></a>
+      <a class="knowledge-card" href="/bilgi/totem-secim-rehberi/"><span class="meta">Tesis</span><h3>Totem Seçim Rehberi</h3><p>Yol ve giriş totem kararları.</p></a>
+    </div>
+    <p style="margin-top:28px;"><a class="section-link" href="/bilgi/">Bilgi hub →</a></p>
   </div>
 </section>
 
-<section class="cta" id="iletisim">
+<section id="neden" aria-labelledby="eeat-title">
   <div class="wrap">
-    <div class="eyebrow" style="justify-content:center; display:flex;" id="cta-section-tag">Ücretsiz Ön Görüşme</div>
-    <h2 id="cta-section-title">Markanızın hikâyesini<br>birlikte kuralım.</h2>
-    <a href="#iletisim" class="btn btn-primary" id="cta-final">Proje Başlat</a>
+    <div class="section-head">
+      <div>
+        <div class="tag">EEAT</div>
+        <h2 id="eeat-title">Neden<br>Malt Studio</h2>
+      </div>
+      <p>Üreten ekip, sahada montaj, kurumsal yaklaşım ve yerel destek.</p>
+    </div>
+    <div class="eeat-grid">
+      <div class="eeat-card"><h3>Gerçek üretim</h3><p>Atölyede ölçüye özel imalat. Stok tabela mantığı yerine yüzeye ve markaya göre üretim.</p></div>
+      <div class="eeat-card"><h3>Modern ekipman</h3><p>Dijital baskı ve tabela üretim hatları güncel ihtiyaçlara göre kullanılır.</p></div>
+      <div class="eeat-card"><h3>Montaj deneyimi</h3><p>Keşif, lojistik ve saha uygulaması aynı operasyonel hatta planlanır.</p></div>
+      <div class="eeat-card"><h3>Kurumsal yaklaşım</h3><p>Brief, onay, yazılı teklif ve teslim kontrolü ile ilerleriz.</p></div>
+      <div class="eeat-card"><h3>Yerel destek</h3><p>Tekirdağ üssünden çevre ilçelere keşif ve servis.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="bolge" aria-labelledby="coverage-title">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <div class="tag">Kapsama</div>
+        <h2 id="coverage-title">Hizmet<br>Bölgesi</h2>
+      </div>
+      <p>Tekirdağ city hub yerel firma niyetini taşır. İlçe adları bilgilendirme amaçlıdır; yeni landing açılmaz. Süleymanpaşa alias’tır.</p>
+    </div>
+    <div class="chip-grid" aria-label="Hizmet verilen ilçeler">
+      <a class="chip" href="/bolgeler/tekirdag/">Tekirdağ</a>
+      <span class="chip">Çorlu</span>
+      <span class="chip">Çerkezköy</span>
+      <span class="chip">Kapaklı</span>
+      <span class="chip">Ergene</span>
+      <span class="chip">Şarköy</span>
+      <span class="chip">Muratlı</span>
+      <span class="chip">Malkara</span>
+      <span class="chip">Hayrabolu</span>
+      <span class="chip">Saray</span>
+      <span class="chip">Marmara Ereğlisi</span>
+      <a class="chip is-alias" href="/bolgeler/tekirdag/">Süleymanpaşa (alias)</a>
+    </div>
+    <div class="local-grid" style="margin-top:40px;">
+      <a class="local-card" href="/bolgeler/tekirdag/"><h3>Tekirdağ Rehberi</h3><p>Şehir hub — yerel firma niyeti.</p><span class="meta">City</span></a>
+      <a class="local-card" href="/hizmet-bolge/tekirdag-tabela/"><h3>Tekirdağ Tabela</h3><p>Geo-money owner.</p><span class="meta">S×C</span></a>
+      <a class="local-card" href="/hizmet-bolge/tekirdag-isikli-tabela/"><h3>Tekirdağ Işıklı</h3><p>Geo-money owner.</p><span class="meta">S×C</span></a>
+      <a class="local-card" href="/hizmet-bolge/tekirdag-kutu-harf/"><h3>Tekirdağ Kutu Harf</h3><p>Geo-money owner.</p><span class="meta">S×C</span></a>
+      <a class="local-card" href="/hizmet-bolge/tekirdag-totem/"><h3>Tekirdağ Totem</h3><p>Geo-money owner.</p><span class="meta">S×C</span></a>
+      <a class="local-card" href="/hizmet-bolge/tekirdag-arac-giydirme/"><h3>Tekirdağ Araç</h3><p>Geo-money owner.</p><span class="meta">S×C</span></a>
+      <a class="local-card" href="/hizmet-bolge/tekirdag-cam-giydirme/"><h3>Tekirdağ Cam</h3><p>Geo-money owner.</p><span class="meta">S×C</span></a>
+      <a class="local-card" href="/hizmetler/"><h3>Tüm Hizmetler</h3><p>Hizmet hub.</p><span class="meta">Hub</span></a>
+    </div>
+  </div>
+</section>
+
+<section id="kultur" aria-label="Özet göstergeler">
+  <div class="wrap">
+    <div class="stats" id="stats-grid"><div><div class="stat-num">30+</div><div class="stat-label">Tamamlanan Proje</div></div><div><div class="stat-num">2</div><div class="stat-label">Yıllık Deneyim</div></div><div><div class="stat-num">12</div><div class="stat-label">Aktif Marka</div></div><div><div class="stat-num">2</div><div class="stat-label">Sektör Ödülü</div></div></div>
+  </div>
+</section>
+
+<div id="iletisim" hidden></div>
+<section class="cta" id="teklif" name="iletisim" aria-labelledby="cta-section-title">
+  <div class="wrap">
+    <div class="eyebrow" style="justify-content:center; display:flex;" id="cta-section-tag">Teklif / Keşif</div>
+    <h2 id="cta-section-title">Projenizi konuşalım.</h2>
+    <div class="cta-actions">
+      <a href="https://wa.me/905525826959?text=Merhaba%2C%20teklif%20almak%20istiyorum." class="btn btn-primary" id="cta-final" target="_blank" rel="noopener" href="https://wa.me/905525826959?text=Merhaba%2C%20teklif%20almak%20istiyorum.">Teklif Al</a>
+      <a href="https://wa.me/905525826959?text=Merhaba%2C%20teklif%20almak%20istiyorum." class="btn btn-ghost" target="_blank" rel="noopener">WhatsApp</a>
+      <a href="tel:+905525826959" class="btn btn-ghost">Ara · 0552 582 69 59</a>
+    </div>
   </div>
 </section>
 
@@ -372,43 +639,51 @@
             <path d="M1065,69.5c-9.4-10.2-22.2-15.4-38-15.5h-.3c-16,0-29.3,5.7-39.6,17-10.2,11.1-15.4,24.9-15.4,41s5.2,29,15.3,39.7c10.3,10.8,23.1,16.2,38,16.2s27.9-5.7,38.7-16.8c10.8-11.2,16.3-25,16.3-41.1-.4-16.6-5.5-30.2-15-40.4ZM1046.7,135.3c-2.2,7.2-5.2,13-8.9,17.2-3.5,4-7.3,6-11.5,6s-7.9-2-11.5-6c-3.7-4.2-6.7-10-8.9-17.2-2.2-7.3-3.4-15.5-3.4-24.5s1.1-17.1,3.4-24.4c2.2-7.2,5.2-13,8.9-17.2,3.5-4,7.3-6,11.5-6s7.9,2,11.5,6c3.7,4.2,6.7,10,8.9,17.2,2.2,7.3,3.4,15.5,3.4,24.4s-1.1,17.2-3.4,24.5Z"/>
           </svg>
         </div>
-        <p id="footer-about" style="font-size:14px; color:rgba(241,238,231,0.62); max-width:280px; line-height:1.6;">Tekirdağ merkezli marka stratejisi ve yaratıcı ajans. 2012'den beri markaların karakterini şekillendiriyoruz.</p>
+        <p id="footer-about" style="font-size:14px; color:rgba(241,238,231,0.62); max-width:280px; line-height:1.6;">Tekirdağ merkezli reklam ajansı ve tabela üreticisi. Tabela, kurumsal kimlik, dijital baskı ve uygulama — keşiften montaja.</p>
       </div>
-      <div>
-        <h4>Sayfalar</h4>
+                                                                        <div>
+        <h4>Hizmetler</h4>
         <ul>
-          <li><a href="#kultur">Kültür</a></li>
-          <li><a href="#isler">İşler</a></li>
-          <li><a href="#hizmetler">Hizmetler</a></li>
-          <li><a href="#iletisim">İletişim</a></li>
+          <li><a href="/hizmetler/">Tüm hizmetler</a></li>
+          <li><a href="/hizmetler/tabela/">Tabela</a></li>
+          <li><a href="/hizmetler/isikli-tabela/">Işıklı Tabela</a></li>
+          <li><a href="/hizmetler/kutu-harf/">Kutu Harf</a></li>
+          <li><a href="/hizmetler/totem/">Totem</a></li>
+          <li><a href="/hizmetler/cam-giydirme/">Cam Giydirme</a></li>
+          <li><a href="/hizmetler/arac-giydirme/">Araç Giydirme</a></li>
+          <li><a href="/hizmetler/lightbox/">Lightbox</a></li>
         </ul>
       </div>
       <div>
-        <h4>Sosyal</h4>
+        <h4>Keşfet</h4>
         <ul>
-          <li><a href="#" id="social-instagram">Instagram</a></li>
-          <li><a href="#" id="social-linkedin">LinkedIn</a></li>
-          <li><a href="#" id="social-behance">Behance</a></li>
-          <li><a href="#" id="social-youtube">Youtube</a></li>
+          <li><a href="/projeler/">Projeler</a></li>
+          <li><a href="/sektorler/">Sektörler</a></li>
+          <li><a href="/bilgi/">Bilgi</a></li>
+          <li><a href="#surec">Süreç</a></li>
+          <li><a href="/bolgeler/tekirdag/">Tekirdağ</a></li>
+          <li><a href="#teklif">Teklif Al</a></li>
         </ul>
       </div>
       <div>
         <h4>İletişim</h4>
         <ul>
           <li id="contact-email">merhaba@maltstudio.com</li>
-          <li id="contact-phone">+90 232 000 00 00</li>
+          <li><a id="contact-phone" href="tel:+905525826959">05525826959</a></li>
           <li id="contact-address">Tekirdağ, Türkiye</li>
+          <li><a href="https://www.instagram.com/maltstudio.co/" id="social-instagram" href="https://www.instagram.com/maltstudio.co/">Instagram</a></li>
+          <li><a href="#teklif">Mesaj / Teklif</a></li>
         </ul>
       </div>
     </div>
     <div class="footer-bottom">
-      <div id="copyright-text">© 2012 - 2026 Malt Studio. Tüm hakları saklıdır.</div>
+      <div id="copyright-text">© 2025 - 2026 Malt Studio. Tüm hakları saklıdır.</div>
       <div>Portfolyo içerikleri örnek/yer tutucudur.</div>
     </div>
   </div>
 </footer>
 
-<a class="whatsapp-btn" id="whatsapp-btn" href="#" target="_blank" rel="noopener">İletişime Geç</a>
+<a class="whatsapp-btn" id="whatsapp-btn" href="https://api.whatsapp.com/send?phone=905525826959&amp;text=Merhaba%2C%20teklif%20almak%20istiyorum." target="_blank" rel="noopener">İletişime Geç</a>
 
 <script>
 async function loadContent() {
@@ -448,6 +723,49 @@ async function loadContent() {
     // Paylaşım ve yapılandırılmış veri mutlak adres ister; siteUrl yoksa üretilmez.
     const absUrl = path => (siteUrl && path) ? siteUrl + (path.startsWith('/') ? '' : '/') + path : '';
     const ogImage = absUrl(c.seoOgImage);
+    // Build çıktısı kritik içeriği HTML'e gömer. Prerender varsa istemci DOM'u yeniden
+    // yazmaz (CLS / çift boyama yok). Logo ve WhatsApp CMS medyası için kalır.
+    const prerendered = document.body.getAttribute('data-prerendered') === '1';
+
+    const setLogo = container => {
+      const svg = container && container.querySelector('svg.logo-mark');
+      if (!svg || !c.logo) return;
+      const img = document.createElement('img');
+      img.className = 'logo-mark';
+      img.src = c.logo;
+      img.alt = c.siteName || 'Malt Studio';
+      img.decoding = 'async';
+      img.onerror = () => img.replaceWith(svg);
+      svg.replaceWith(img);
+    };
+    setLogo(document.getElementById('header-logo'));
+    setLogo(document.querySelector('.footer-logo'));
+    setHref('social-instagram', c.instagram);
+    setHref('social-linkedin', c.linkedin);
+    setHref('social-behance', c.behance);
+    setHref('social-youtube', c.youtube);
+    if (c.whatsappNumber) {
+      const msg = encodeURIComponent(c.whatsappMessage || '');
+      setHref('whatsapp-btn', `https://api.whatsapp.com/send?phone=${c.whatsappNumber}&text=${msg}`);
+    }
+    // Stats always follow content.json (even when prerendered), so CMS edits show
+    // without a full rebuild and stale HTML cache cannot pin old numbers.
+    const statsGridEarly = document.getElementById('stats-grid');
+    if (statsGridEarly && Array.isArray(c.stats) && c.stats.length) {
+      statsGridEarly.replaceChildren();
+      c.stats.forEach(s => {
+        const cell = document.createElement('div');
+        const num = document.createElement('div');
+        num.className = 'stat-num';
+        num.textContent = s.number || '';
+        const label = document.createElement('div');
+        label.className = 'stat-label';
+        label.textContent = s.label || '';
+        cell.append(num, label);
+        statsGridEarly.appendChild(cell);
+      });
+    }
+    if (prerendered) return;
 
     if (c.seoTitle) document.title = c.seoTitle;
     upsertMeta('name', 'description', c.seoDescription);
@@ -476,26 +794,218 @@ async function loadContent() {
     upsertLink('canonical', canonicalUrl);
     upsertLink('icon', c.seoFavicon);
 
-    // JSON-LD: boş kalan hiçbir özellik çıktıya yazılmaz.
+    // JSON-LD: yalnızca doğrulanmış alanlar; boş / sahte değerler çıktıya yazılmaz.
     const isEmpty = v =>
       v === '' || v === null || v === undefined ||
       (Array.isArray(v) && !v.length) ||
       (typeof v === 'object' && !Array.isArray(v) && !Object.keys(v).length);
-    const prune = obj => Object.fromEntries(Object.entries(obj).filter(([, v]) => !isEmpty(v)));
-    const shared = prune({
-      name: c.siteName,
-      url: siteUrl,
-      email: c.email,
-      telephone: c.phone,
-      address: c.address,
-      description: c.seoDescription,
-      sameAs: [c.instagram, c.linkedin, c.behance, c.youtube].filter(Boolean)
-    });
-    if (shared.name) {
-      const graph = [
-        prune({ '@type': 'Organization', '@id': siteUrl && siteUrl + '/#organization', ...shared, logo: absUrl(c.logo) }),
-        prune({ '@type': 'LocalBusiness', '@id': siteUrl && siteUrl + '/#localbusiness', ...shared, image: ogImage || absUrl(c.logo) })
+    const prune = obj => Object.fromEntries(
+      Object.entries(obj).filter(([, v]) => !isEmpty(v)).map(([k, v]) => [
+        k,
+        (v && typeof v === 'object' && !Array.isArray(v)) ? prune(v) : v
+      ]).filter(([, v]) => !isEmpty(v))
+    );
+
+    const toE164 = (phone, wa) => {
+      const fromWa = String(wa || '').replace(/\D/g, '');
+      if (/^90\d{10}$/.test(fromWa)) return '+' + fromWa;
+      const d = String(phone || '').replace(/\D/g, '');
+      if (/^90\d{10}$/.test(d)) return '+' + d;
+      if (/^0\d{10}$/.test(d)) return '+90' + d.slice(1);
+      if (/^\d{10}$/.test(d)) return '+90' + d;
+      return '';
+    };
+
+    const isProfileUrl = raw => {
+      try {
+        const u = new URL(raw);
+        if (u.protocol !== 'https:') return false;
+        const host = u.hostname.replace(/^www\./, '');
+        const path = u.pathname.replace(/\/+$/, '') || '/';
+        const bare = new Set([
+          'linkedin.com', 'behance.net', 'youtube.com', 'youtu.be',
+          'instagram.com', 'facebook.com', 'x.com', 'twitter.com', 'tiktok.com'
+        ]);
+        if (bare.has(host) && path === '/') return false;
+        return path.length > 1;
+      } catch (e) {
+        return false;
+      }
+    };
+
+    const buildStructuredData = () => {
+      if (!siteUrl || !c.siteName) return null;
+
+      const telephone = toE164(c.phone, c.whatsappNumber);
+      const description = c.seoDescription || c.footerAbout || '';
+      const pageUrl = canonicalUrl || (siteUrl + '/');
+      const logoPath = c.logo || '/images/icon-512.png';
+      const logoUrl = absUrl(logoPath);
+      const imageUrl = ogImage || logoUrl;
+
+      const sameAs = [c.instagram, c.linkedin, c.behance, c.youtube].filter(isProfileUrl);
+
+      const postalAddress = prune({
+        '@type': 'PostalAddress',
+        streetAddress: c.addressStreet,
+        addressLocality: c.addressLocality || (c.address && c.address.split(',')[0].trim()),
+        addressRegion: c.addressRegion,
+        postalCode: c.addressPostalCode,
+        addressCountry: c.addressCountry || 'TR'
+      });
+
+      const geo = (c.geoLatitude && c.geoLongitude) ? prune({
+        '@type': 'GeoCoordinates',
+        latitude: c.geoLatitude,
+        longitude: c.geoLongitude
+      }) : null;
+
+      const openingHours = Array.isArray(c.openingHours)
+        ? c.openingHours.map(h => prune({
+            '@type': 'OpeningHoursSpecification',
+            dayOfWeek: String(h.days || '').split(/[,\s]+/).filter(Boolean),
+            opens: h.opens,
+            closes: h.closes
+          })).filter(h => h.dayOfWeek && h.opens && h.closes)
+        : [];
+
+      const schemaServices = Array.isArray(c.schemaServices)
+        ? c.schemaServices.map(s => (typeof s === 'string' ? s : s && s.service)).filter(Boolean)
+        : [];
+      const pageServices = Array.isArray(c.services)
+        ? c.services.map(s => s && s.title).filter(Boolean)
+        : [];
+      const serviceNames = [...new Set([...schemaServices, ...pageServices])];
+
+      const logoObject = logoUrl ? prune({
+        '@type': 'ImageObject',
+        '@id': siteUrl + '/#logo',
+        url: logoUrl,
+        contentUrl: logoUrl,
+        width: c.logo ? undefined : 512,
+        height: c.logo ? undefined : 512,
+        caption: c.siteName + ' logo'
+      }) : null;
+
+      const primaryImage = imageUrl ? prune({
+        '@type': 'ImageObject',
+        '@id': siteUrl + '/#primaryimage',
+        url: imageUrl,
+        contentUrl: imageUrl,
+        width: ogImage ? 1200 : undefined,
+        height: ogImage ? 630 : undefined,
+        caption: c.seoTitle || c.siteName
+      }) : null;
+
+      const contactPoint = prune({
+        '@type': 'ContactPoint',
+        contactType: 'customer service',
+        email: c.email,
+        telephone,
+        areaServed: 'TR',
+        availableLanguage: ['Turkish', 'tr']
+      });
+
+      const areaServed = [
+        prune({ '@type': 'AdministrativeArea', name: c.addressLocality || 'Tekirdağ' }),
+        prune({ '@type': 'Country', name: 'Türkiye', sameAs: 'https://www.wikidata.org/wiki/Q43' })
       ];
+
+      const offerCatalog = serviceNames.length ? {
+        '@type': 'OfferCatalog',
+        name: 'Hizmetler',
+        itemListElement: serviceNames.map((name, i) => ({
+          '@type': 'ListItem',
+          position: i + 1,
+          item: prune({
+            '@type': 'Offer',
+            itemOffered: prune({
+              '@type': 'Service',
+              name,
+              provider: { '@id': siteUrl + '/#localbusiness' }
+            })
+          })
+        }))
+      } : null;
+
+      const organization = prune({
+        '@type': 'Organization',
+        '@id': siteUrl + '/#organization',
+        name: c.siteName,
+        legalName: c.legalName,
+        brand: prune({ '@type': 'Brand', name: c.siteName }),
+        url: siteUrl + '/',
+        logo: logoObject ? { '@id': siteUrl + '/#logo' } : undefined,
+        image: primaryImage ? { '@id': siteUrl + '/#primaryimage' } : undefined,
+        description,
+        foundingDate: c.foundingDate,
+        email: c.email,
+        telephone,
+        sameAs,
+        areaServed,
+        knowsAbout: serviceNames,
+        contactPoint
+      });
+
+      const localBusiness = prune({
+        '@type': ['LocalBusiness', 'ProfessionalService'],
+        '@id': siteUrl + '/#localbusiness',
+        name: c.siteName,
+        legalName: c.legalName,
+        url: siteUrl + '/',
+        parentOrganization: { '@id': siteUrl + '/#organization' },
+        image: primaryImage ? { '@id': siteUrl + '/#primaryimage' } : undefined,
+        logo: logoObject ? { '@id': siteUrl + '/#logo' } : undefined,
+        description,
+        email: c.email,
+        telephone,
+        address: postalAddress,
+        geo,
+        hasMap: c.googleMapsUrl,
+        openingHoursSpecification: openingHours,
+        priceRange: c.priceRange,
+        contactPoint,
+        sameAs,
+        areaServed,
+        knowsAbout: serviceNames,
+        hasOfferCatalog: offerCatalog,
+        foundingDate: c.foundingDate
+      });
+
+      const website = prune({
+        '@type': 'WebSite',
+        '@id': siteUrl + '/#website',
+        url: siteUrl + '/',
+        name: c.siteName,
+        description,
+        publisher: { '@id': siteUrl + '/#organization' },
+        inLanguage: c.defaultLocale || 'tr-TR'
+      });
+
+      const webpage = prune({
+        '@type': 'WebPage',
+        '@id': siteUrl + '/#webpage',
+        url: pageUrl,
+        name: c.seoTitle || c.siteName,
+        description,
+        isPartOf: { '@id': siteUrl + '/#website' },
+        about: { '@id': siteUrl + '/#localbusiness' },
+        primaryImageOfPage: primaryImage ? { '@id': siteUrl + '/#primaryimage' } : undefined,
+        inLanguage: c.defaultLocale || 'tr-TR'
+      });
+
+      const graph = [organization, localBusiness, website, webpage];
+      if (logoObject) graph.push(logoObject);
+      if (primaryImage) graph.push(primaryImage);
+
+      return {
+        '@context': 'https://schema.org',
+        '@graph': graph.filter(Boolean)
+      };
+    };
+
+    const structured = buildStructuredData();
+    if (structured) {
       let ld = document.getElementById('ld-json');
       if (!ld) {
         ld = document.createElement('script');
@@ -503,23 +1013,11 @@ async function loadContent() {
         ld.id = 'ld-json';
         document.head.appendChild(ld);
       }
-      ld.textContent = JSON.stringify({ '@context': 'https://schema.org', '@graph': graph });
+      ld.textContent = JSON.stringify(structured);
     }
 
-    // CMS logosu varsa inline SVG ile yer değiştirir; yoksa veya yüklenemezse SVG kalır.
-    const setLogo = container => {
-      const svg = container && container.querySelector('svg.logo-mark');
-      if (!svg || !c.logo) return;
-      const img = document.createElement('img');
-      img.className = 'logo-mark';
-      img.src = c.logo;
-      img.alt = c.siteName || 'Malt Studio';
-      img.decoding = 'async';
-      img.onerror = () => img.replaceWith(svg);
-      svg.replaceWith(img);
-    };
-    setLogo(document.getElementById('header-logo'));
-    setLogo(document.querySelector('.footer-logo'));
+    // CMS logosu ve sosyal bağlantılar prerender dalında uygulandı.
+    // Aşağısı yalnızca prerender edilmemiş (yerel) ortamlar içindir.
 
     setText('hero-eyebrow', c.eyebrow);
     setText('hero-highlight', c.heroHighlight);
@@ -548,11 +1046,11 @@ async function loadContent() {
     }
 
     const serviceGrid = document.getElementById('service-grid');
-    if (serviceGrid && Array.isArray(c.services)) {
-      serviceGrid.textContent = '';
+    if (serviceGrid && Array.isArray(c.services) && !serviceGrid.children.length) {
       c.services.forEach((s, i) => {
-        const card = document.createElement('div');
+        const card = document.createElement(s.href ? 'a' : 'div');
         card.className = 'service-card';
+        if (s.href) card.href = s.href;
 
         const num = document.createElement('div');
         num.className = 'service-num';
@@ -574,8 +1072,7 @@ async function loadContent() {
     setText('portfolio-intro', c.portfolioIntro);
 
     const workGrid = document.getElementById('work-grid');
-    if (workGrid && Array.isArray(c.portfolio)) {
-      workGrid.textContent = '';
+    if (workGrid && Array.isArray(c.portfolio) && !workGrid.children.length) {
       c.portfolio.forEach(p => {
         const item = document.createElement('div');
         item.className = 'work-item';
@@ -617,25 +1114,6 @@ async function loadContent() {
       });
     }
 
-    const statsGrid = document.getElementById('stats-grid');
-    if (statsGrid && Array.isArray(c.stats)) {
-      statsGrid.textContent = '';
-      c.stats.forEach(s => {
-        const cell = document.createElement('div');
-
-        const num = document.createElement('div');
-        num.className = 'stat-num';
-        num.textContent = s.number || '';
-
-        const label = document.createElement('div');
-        label.className = 'stat-label';
-        label.textContent = s.label || '';
-
-        cell.append(num, label);
-        statsGrid.appendChild(cell);
-      });
-    }
-
     setText('cta-section-tag', c.ctaSectionTag);
     setText('cta-section-title', c.ctaSectionTitle);
     setText('cta-final', c.ctaPrimary);
@@ -645,16 +1123,6 @@ async function loadContent() {
     setText('contact-phone', c.phone);
     setText('contact-address', c.address);
     setText('copyright-text', c.copyrightText);
-
-    setHref('social-instagram', c.instagram);
-    setHref('social-linkedin', c.linkedin);
-    setHref('social-behance', c.behance);
-    setHref('social-youtube', c.youtube);
-
-    if (c.whatsappNumber) {
-      const msg = encodeURIComponent(c.whatsappMessage || '');
-      setHref('whatsapp-btn', `https://api.whatsapp.com/send?phone=${c.whatsappNumber}&text=${msg}`);
-    }
   } catch (e) {
     console.warn('content.json yüklenemedi, varsayılan içerik gösteriliyor.', e);
   }
