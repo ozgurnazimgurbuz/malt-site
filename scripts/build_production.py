@@ -288,7 +288,7 @@ SERVICE_DEPTH = {
             "Lightbox; arkadan veya kenardan aydınlatmalı çerçeve sistemidir. Retail ve AVM’de sık tercih edilir.",
             "PK lock: ışıklı tabela / LED tabela → /hizmetler/isikli-tabela/. Bu sayfa lightbox ailesidir.",
             "SEG / backlit fabric hızlı görsel değişimi sağlar.",
-            "Wave A2’de ayrı S×C yok; yerel talep city hub ve keşif ile yönetilir.",
+            "Yerel talep Tekirdağ üssünden keşif ile yönetilir.",
             "Ofis ve resepsiyon duvarlarında lightbox + ofis branding birlikte planlanabilir.",
         ],
         "apps": ["Mağaza içi", "AVM", "Showroom", "Klinik bekleme", "Resepsiyon duvarı"],
@@ -423,30 +423,29 @@ def build_service(slug: str) -> None:
         "perakende": "Perakende",
     }
     industries = [
-        (f"/sektorler/{i}/", ind_labels.get(i, i), "Dikey giriş — money H1 değil.")
+        (f"/sektorler/{i}/", ind_labels.get(i, i), f"{ind_labels.get(i, i)} projeleri.")
         for i in SERVICE_INDUSTRIES.get(slug, [])
     ]
     services = [
-        (f"/hizmetler/{r}/", ALL_SERVICES[r], "İlgili hizmet — ayrı PK.")
+        (f"/hizmetler/{r}/", ALL_SERVICES[r], f"{ALL_SERVICES[r]} hizmeti.")
         for r in s["related_services"]
         if r in ALL_SERVICES
     ]
-    knowledge = [(b, "Rehber", "Eğitim — money H1 değil.") for b in s["bilgi"]]
+    knowledge = [(b, "Rehber", "Karar vermenize yardımcı rehber.") for b in s["bilgi"]]
     local_extra = ""
     if has_sxc:
         local_extra = block(
-            "Tekirdağ yerel sahiplik",
+            "Tekirdağ’da bu hizmet",
             p(
-                f"“Tekirdağ {s['h1']}” geo-money niyeti /hizmet-bolge/tekirdag-{slug}/ sayfasındadır.",
-                "Bu sayfa coğrafyasız ticari niyeti taşır; iki URL aynı H1’i paylaşmaz.",
+                f"Tekirdağ’da {tr_service_phrase(s['h1'])} için yerel sayfamız: /hizmet-bolge/tekirdag-{slug}/.",
             ),
         )
     else:
         local_extra = block(
             "Yerel bağlantı",
             p(
-                "Bu hizmet için ayrı Service×City URL’si yoktur (doorway üretilmez).",
-                "Yerel keşif /bolgeler/tekirdag/ üzerinden planlanır.",
+                "Yerel keşif ve montaj Tekirdağ üssünden planlanır.",
+                "Detay için /bolgeler/tekirdag/ sayfasına bakabilirsiniz.",
             ),
         )
 
@@ -456,7 +455,7 @@ def build_service(slug: str) -> None:
 <section class="page-hero">
   <div class="wrap">
     {crumbs(("Ana Sayfa", "/"), ("Hizmetler", "/hizmetler/"), (s["h1"], None))}
-    <div class="eyebrow">Hizmet · Owner PK: {s["pk"]}</div>
+    <div class="eyebrow">Hizmet</div>
     <h1>{s["h1"]}</h1>
     <p class="lede">{s["lede"]}</p>
     <div class="hero-actions">
@@ -468,7 +467,7 @@ def build_service(slug: str) -> None:
 </section>
 <section class="page-main">
   <div class="wrap">
-    {block("Bu hizmet nedir?", p(*s["extra"], *a5["intro"]) + f'<p class="note">Ownership: Birincil PK “{s["pk"]}”. Geo varyantlar S×C’de (varsa).</p>')}
+    {block("Bu hizmet nedir?", p(*s["extra"], *a5["intro"]))}
     {block("Nerelerde kullanılır?", ul(s["apps"]) + p(*a5["where"]))}
     {block("Malzeme ve seçenekler", p(s["materials"], *a5["materials_extra"]))}
     {service_process()}
@@ -532,14 +531,14 @@ def build_sxc(slug: str) -> None:
     faqs = [
         (f"Tekirdağ’da {name.lower()} yaptırabilir miyim?", "Evet. Bu sayfa yerel ticari niyetin birincil sahibidir."),
         ("Genel hizmet sayfasından farkı?", f"Genel sayfa “{s['pk']}” niyetini; bu sayfa “tekirdağ {s['pk']}” niyetini taşır."),
-        ("Süleymanpaşa ayrı mı?", "Hayır; Tekirdağ S×C ve city hub’a alias bağlanır."),
+        ("Süleymanpaşa ayrı mı?", "Hayır; Süleymanpaşa talepleri Tekirdağ hizmet sayfalarında toplanır."),
         ("Fiyat?", "Yerel erişim + ölçü/malzeme/montaj keşifle netleşir."),
         ("Keşif?", "Tekirdağ üssünden planlanır."),
         ("Proje örneği?", "İlgili proje sayfalarına bakın; görseller eklendikçe güçlenir."),
     ]
     others = cards(
         [
-            (f"/hizmet-bolge/tekirdag-{o}/", f"Tekirdağ {A0[o]}", "İlgili yerel sayfa.", "S×C")
+            (f"/hizmet-bolge/tekirdag-{o}/", f"Tekirdağ {A0[o]}", f"Tekirdağ’da {tr_service_phrase(A0[o])}.", "Yerel")
             for o in A0
             if o != slug
         ][:5]
@@ -550,7 +549,7 @@ def build_sxc(slug: str) -> None:
 <section class="page-hero">
   <div class="wrap">
     {crumbs(("Ana Sayfa","/"),("Hizmetler","/hizmetler/"),(name,f"/hizmetler/{slug}/"),(f"Tekirdağ {name}",None))}
-    <div class="eyebrow">Service × City · Geo-money owner</div>
+    <div class="eyebrow">Tekirdağ’da Hizmet</div>
     <h1>Tekirdağ {name}</h1>
     <p class="lede">{local}</p>
     <div class="hero-actions">
@@ -566,8 +565,8 @@ def build_sxc(slug: str) -> None:
         local,
         s["extra"][0],
         s["extra"][1] if len(s["extra"])>1 else "",
-        "Anti-doorway: Bu sayfa ebeveyn hizmetin kopyası değildir. Yerel operasyon, talep bağlamı ve Tekirdağ lojistiği eklenmiştir.",
-        "Süleymanpaşa / merkez talepleri bu URL ve Tekirdağ city hub altında toplanır.",
+        "Bu sayfa Tekirdağ’daki yerel üretim, montaj ve lojistik bağlamını taşır.",
+        "Süleymanpaşa ve merkez talepleri bu sayfada toplanır.",
     ))}
     {block("Yerel uygulamalar", ul(s["apps"]) + p(*SERVICE_A5[slug]["where"]))}
     {block("Üretim ve montaj lojistiği", p(
@@ -589,13 +588,13 @@ def build_sxc(slug: str) -> None:
 </section>
 {related_rail(
     services=[
-        (f"/hizmetler/{slug}/", name, "Non-geo parent owner."),
-        *[(f"/hizmetler/{r}/", ALL_SERVICES[r], "İlgili hizmet.") for r in s["related_services"] if r in ALL_SERVICES][:3],
+        (f"/hizmetler/{slug}/", name, f"{name} genel hizmet sayfası."),
+        *[(f"/hizmetler/{r}/", ALL_SERVICES[r], f"{ALL_SERVICES[r]} hizmeti.") for r in s["related_services"] if r in ALL_SERVICES][:3],
     ],
     knowledge=[(b, "Rehber", "Eğitim.") for b in s["bilgi"]],
     projects=s["related_projects"],
     industries=[
-        (f"/sektorler/{i}/", {"fabrika-osb":"Fabrika & OSB","restoran-cafe":"Restoran & Cafe","saglik":"Sağlık","plaza-ofis":"Plaza & Ofis","insaat-santiye":"İnşaat & Şantiye","perakende":"Perakende"}.get(i,i), "Dikey.")
+        (f"/sektorler/{i}/", {"fabrika-osb":"Fabrika & OSB","restoran-cafe":"Restoran & Cafe","saglik":"Sağlık","plaza-ofis":"Plaza & Ofis","insaat-santiye":"İnşaat & Şantiye","perakende":"Perakende"}.get(i,i), "Sektöre özel çözümler.")
         for i in SERVICE_INDUSTRIES.get(slug, [])[:2]
     ],
     hubs=[
@@ -626,13 +625,13 @@ def build_sxc(slug: str) -> None:
 
 def build_city() -> None:
     canonical = f"{SITE}/bolgeler/tekirdag/"
-    svc = cards([(f"/hizmetler/{s}/", n, "Non-geo hizmet.", "Hizmet") for s, n in ALL_SERVICES.items()])
-    sxc = cards([(f"/hizmet-bolge/tekirdag-{s}/", f"Tekirdağ {n}", "Geo-money owner.", "S×C") for s, n in A0.items()])
+    svc = cards([(f"/hizmetler/{s}/", n, f"{n} hizmeti.", "Hizmet") for s, n in ALL_SERVICES.items()])
+    sxc = cards([(f"/hizmet-bolge/tekirdag-{s}/", f"Tekirdağ {n}", f"Tekirdağ’da {tr_service_phrase(n)}.", "Yerel") for s, n in A0.items()])
     faqs = [
         ("Tekirdağ’da tabela / reklam firması mısınız?", "Evet. Malt Studio Tekirdağ merkezlidir."),
-        ("Süleymanpaşa sayfası?", "Ayrı URL yok; bu hub ve Tekirdağ S×C’ye bağlanır."),
+        ("Süleymanpaşa sayfası?", "Ayrı sayfa yok; Süleymanpaşa talepleri Tekirdağ sayfalarında toplanır."),
         ("Çorlu / Çerkezköy?", "Ayrı city URL’leri sonraki dalgada; keşif bugün Tekirdağ üssünden."),
-        ("Hangi hizmetler?", "A0 + A2 hizmet listesine bakın."),
+        ("Hangi hizmetler?", "Tabela, ışıklı tabela, kutu harf ve diğer tüm hizmetlerimize bakın."),
         ("Proje var mı?", "/projeler/ altında vaka sayfaları vardır."),
         ("Keşif?", "WhatsApp veya telefon ile randevu."),
     ]
@@ -642,9 +641,9 @@ def build_city() -> None:
 <section class="page-hero">
   <div class="wrap">
     {crumbs(("Ana Sayfa","/"),("Tekirdağ",None))}
-    <div class="eyebrow">City hub · Local / firm owner</div>
+    <div class="eyebrow">Tekirdağ Yerel Rehber</div>
     <h1>Tekirdağ Reklam Ajansı &amp; Üretici</h1>
-    <p class="lede">Tekirdağ’da üreten ve uygulayan ekip. Bu sayfa yerel firma niyetini taşır; “Tekirdağ + hizmet” geo-money H1’lerini S×C sayfalarına bırakır.</p>
+    <p class="lede">Tekirdağ’da üreten ve uygulayan ekip. Yerel hizmetler, keşif ve montaj buradan planlanır.</p>
     <div class="hero-actions">
       <a class="btn btn-primary" href="{wa("Tekirdağ keşif")}" target="_blank" rel="noopener">WhatsApp</a>
       <a class="btn btn-ghost" href="tel:{PHONE_TEL}">Ara</a>
@@ -656,7 +655,7 @@ def build_city() -> None:
   <div class="wrap">
     {block("Tekirdağ’da ne sunuyoruz?", p(
         "Malt Studio; tabela, ışıklı tabela, kutu harf, totem, araç giydirme, cam giydirme ile lightbox, display/POS, ofis branding ve iş güvenliği tabelaları üretir.",
-        "Merkez Tekirdağ’dır. Süleymanpaşa / merkez aramaları bu hub ve ilgili S×C sayfalarına yönlenir — paralel ilçe ağacı açılmaz.",
+        "Merkez Tekirdağ’dır. Süleymanpaşa ve merkez talepleri bu sayfa ile ilgili yerel hizmet sayfalarında toplanır.",
         "Sanayi koridoru (Çorlu, Çerkezköy, Kapaklı, Ergene) talepleri operasyonel olarak üsten yönetilir; ayrı city sayfaları yayınlandıkça bağlanacaktır.",
         "Yerel güven için proje sayfaları ve saha görselleri kritiktir. Görseller onaylandıkça proje URL’lerine eklenir.",
     ))}
@@ -666,9 +665,9 @@ def build_city() -> None:
         "Acil montaj/tamir talepleri kapasiteye göre değerlendirilir; tutulmayan süre vaadi verilmez.",
     ))}
     {eeat_block("şehir")}
-    {block("Süleymanpaşa alias politikası", p(
-        "Süleymanpaşa için ayrı Service×City ağacı oluşturulmaz. Bu, cannibalization ve doorway riskini önlemek içindir.",
-        "İçerikte merkez / Süleymanpaşa doğal dilde anılır; kanonik coğrafi owner Tekirdağ’dır.",
+    {block("Süleymanpaşa ve merkez", p(
+        "Süleymanpaşa için ayrı bir sayfa ağacı açılmaz.",
+        "Merkez ve Süleymanpaşa talepleri Tekirdağ hizmet sayfalarında toplanır.",
     ))}
     {block("Yerel talep senaryoları", ul([
         "Çarşı / mağaza: tabela + ışıklı + cam giydirme",
@@ -678,20 +677,20 @@ def build_city() -> None:
     ]))}
     {block("İletişim ve keşif", p(
         "WhatsApp veya telefon ile kısa brief bırakın; uygunsa keşif planlanır.",
-        "Geo-money (“Tekirdağ + hizmet”) için aşağıdaki S×C kartlarını kullanın.",
+        "Tekirdağ’daki spesifik hizmetler için aşağıdaki yerel sayfalara bakın.",
     ))}
   </div>
 </section>
 {related_rail(
-    services=[(f"/hizmetler/{s}/", n, "Hizmet owner.") for s, n in list(A0.items())[:6]],
+    services=[(f"/hizmetler/{s}/", n, f"{n} hizmeti.") for s, n in list(A0.items())[:6]],
     knowledge=[(f"/bilgi/{s}/", t, "Rehber.") for s, t, _, _ in ARTICLES[:4]],
     projects=["liman-kahve","volt-enerji","dortnal","mera-otel","ekip-yazilim","kuzey-tekstil"],
-    industries=[(f"/sektorler/{s}/", n, "Dikey.") for s, n, _ in INDUSTRIES[:4]],
+    industries=[(f"/sektorler/{s}/", n, f"{n} çözümleri.") for s, n, _ in INDUSTRIES[:4]],
 )}
 <section class="section-band">
   <div class="wrap">
-    <h2>Tekirdağ hizmet × şehir</h2>
-    <p class="intro">“Tekirdağ + hizmet” aramalarının sahibi bu S×C sayfalarıdır.</p>
+    <h2>Tekirdağ yerel hizmetler</h2>
+    <p class="intro">Tekirdağ’da sunduğumuz başlıca hizmetler.</p>
     <div class="card-grid">{sxc}</div>
   </div>
 </section>
@@ -727,7 +726,7 @@ def build_city() -> None:
 def build_hizmetler_hub() -> None:
     a0 = cards([(f"/hizmetler/{s}/", n, "Çekirdek hizmet.", "A0") for s, n in A0.items()])
     a2 = cards([(f"/hizmetler/{s}/", n, "A2 hizmet.", "A2") for s, n in A2.items()])
-    sxc = cards([(f"/hizmet-bolge/tekirdag-{s}/", f"Tekirdağ {n}", "Geo-money.", "S×C") for s, n in A0.items()])
+    sxc = cards([(f"/hizmet-bolge/tekirdag-{s}/", f"Tekirdağ {n}", f"Tekirdağ’da {tr_service_phrase(n)}.", "Yerel") for s, n in A0.items()])
     html = f"""{head("Hizmetler | Tabela, Lightbox, Ofis Branding ve Daha Fazlası", "Malt Studio tüm hizmetleri: tabela, ışıklı tabela, kutu harf, totem, araç ve cam giydirme, lightbox, display, ofis branding, İSG.", f"{SITE}/hizmetler/")}
 <body>
 {header()}
@@ -736,7 +735,7 @@ def build_hizmetler_hub() -> None:
     {crumbs(("Ana Sayfa","/"),("Hizmetler",None))}
     <div class="eyebrow">Hizmet hub</div>
     <h1>Hizmetler</h1>
-    <p class="lede">Her hizmetin tek sahibi URL’si vardır. Geo-money sayfalar S×C altındadır.</p>
+    <p class="lede">Tabela üretiminden montaja, ihtiyacınıza uygun hizmetler.</p>
   </div>
 </section>
 <section class="page-main">
@@ -744,7 +743,7 @@ def build_hizmetler_hub() -> None:
     {block("Nasıl seçmelisiniz?", p(
         "Önce ihtiyacı netleştirin: cephe tabela, ışıklı sistem, kutu harf, araç, cam, lightbox, display veya ofis paketi.",
         "Kararsızsanız rehberleri (/bilgi/) okuyun veya WhatsApp ile kısa keşif isteyin.",
-        "Tekirdağ + hizmet arıyorsanız aşağıdaki S×C kartlarına gidin.",
+        "Tekirdağ’daki yerel hizmet sayfalarına aşağıdan ulaşabilirsiniz.",
     ))}
     {eeat_block("hizmet hub")}
   </div>
@@ -752,13 +751,13 @@ def build_hizmetler_hub() -> None:
 {related_rail(
     knowledge=[(f"/bilgi/{s}/", t, "Rehber.") for s, t, _, _ in ARTICLES[:4]],
     projects=["liman-kahve", "dortnal", "volt-enerji"],
-    industries=[(f"/sektorler/{s}/", n, "Dikey.") for s, n, _ in INDUSTRIES[:4]],
+    industries=[(f"/sektorler/{s}/", n, f"{n} çözümleri.") for s, n, _ in INDUSTRIES[:4]],
 )}
 <section class="section-band paper-band">
   <div class="wrap"><h2>Çekirdek hizmetler (A0)</h2><div class="card-grid">{a0}</div></div>
 </section>
 <section class="section-band">
-  <div class="wrap"><h2>Wave A2 hizmetler</h2><div class="card-grid">{a2}</div></div>
+  <div class="wrap"><h2>Ek hizmetler</h2><div class="card-grid">{a2}</div></div>
 </section>
 <section class="section-band paper-band">
   <div class="wrap"><h2>Tekirdağ yerel sayfalar</h2><div class="card-grid">{sxc}</div></div>
@@ -801,7 +800,7 @@ def build_project(slug: str, name: str, industry: str, services: list[str]) -> N
         ]
     )
     bil_cards = cards(
-        [(href, label, "İlgili rehber — money H1 taşımaz.", "Bilgi") for href, label in _knowledge_for(services)]
+        [(href, label, "Karar vermenize yardımcı rehber.", "Bilgi") for href, label in _knowledge_for(services)]
     )
     rel = case["related_projects"]
     rel_cards = cards(
@@ -809,7 +808,7 @@ def build_project(slug: str, name: str, industry: str, services: list[str]) -> N
             (
                 f"/projeler/{s}/",
                 CASES[s]["name"] if s in CASES else s,
-                "İlgili vaka — kanıt kapısı açık.",
+                "Benzer proje örneği.",
                 "Proje",
             )
             for s in rel
@@ -849,7 +848,7 @@ def build_project(slug: str, name: str, industry: str, services: list[str]) -> N
 <section class="page-hero">
   <div class="wrap">
     {crumbs(("Ana Sayfa","/"),("Projeler","/projeler/"),(name,None))}
-    <div class="eyebrow">Case study · EEAT proof node</div>
+    <div class="eyebrow">Proje</div>
     <h1>{case["h1"]}</h1>
     <p class="lede">{case["lede"]}</p>
     {meta}
@@ -957,9 +956,9 @@ def build_projeler_hub() -> None:
   <div class="wrap"><h2>Vakalar</h2><div class="card-grid">{items}</div></div>
 </section>
 {related_rail(
-    services=[(f"/hizmetler/{s}/", n, "Hizmet owner.") for s, n in list(A0.items())[:6]],
+    services=[(f"/hizmetler/{s}/", n, f"{n} hizmeti.") for s, n in list(A0.items())[:6]],
     knowledge=[(f"/bilgi/{s}/", t, "Rehber.") for s, t, _, _ in ARTICLES[:3]],
-    industries=[(f"/sektorler/{s}/", n, "Dikey.") for s, n, _ in INDUSTRIES[:4]],
+    industries=[(f"/sektorler/{s}/", n, f"{n} çözümleri.") for s, n, _ in INDUSTRIES[:4]],
 )}
 {cta_band("Projenizi konuşalım", "Yeni proje")}
 {footer()}
@@ -1012,18 +1011,18 @@ def build_industry(slug: str, name: str, pk: str) -> None:
     lede, needs, services, projs = INDUSTRY_COPY[slug]
     a5 = INDUSTRY_A5[slug]
     svc_links = [
-        (f"/hizmetler/{s}/", ALL_SERVICES[s], "Önerilen hizmet owner.")
+        (f"/hizmetler/{s}/", ALL_SERVICES[s], f"{ALL_SERVICES[s]} hizmeti.")
         for s in services
         if s in ALL_SERVICES
     ]
-    bil_links = [(h, "Rehber", "Eğitim — money H1 değil.") for h in a5["knowledge"]]
+    bil_links = [(h, "Rehber", "Karar vermenize yardımcı rehber.") for h in a5["knowledge"]]
     html = f"""{head(f"{name} Tabela ve Görünürlük Çözümleri", f"{name} sektörü için tabela ve görünürlük. Malt Studio.", f"{SITE}/sektorler/{slug}/")}
 <body>
 {header()}
 <section class="page-hero">
   <div class="wrap">
     {crumbs(("Ana Sayfa","/"),("Sektörler","/sektorler/"),(name,None))}
-    <div class="eyebrow">Industry · PK: {pk}</div>
+    <div class="eyebrow">Sektör</div>
     <h1>{name}</h1>
     <p class="lede">{lede}</p>
     <div class="hero-actions">
@@ -1036,13 +1035,13 @@ def build_industry(slug: str, name: str, pk: str) -> None:
   <div class="wrap">
     {block("Sektör ihtiyacı", p(
         lede,
-        "Bu sayfa dikey giriştir; bare service money PK taşımaz. Satın alma ilgili hizmet URL’lerindedir.",
+        "Bu sayfa sektör bağlamı sunar; teklif ilgili hizmet sayfalarından alınır.",
         "Tekirdağ üssünden keşif yapılır; koridor ilçeleri operasyonel kapsamda değerlendirilir.",
     ))}
     {block("Sık karşılaşılan sorunlar", ul(a5["problems"]))}
     {block("Tipik ihtiyaçlar", ul(needs))}
     {block("Önerilen hizmet seti", p(
-        "Aşağıdaki hizmetler bu dikeyde sık bir araya gelir. Her biri kendi owner URL’sine sahiptir.",
+        "Aşağıdaki hizmetler bu sektörde sık bir araya gelir.",
     ) + ul([ALL_SERVICES[s] for s in services if s in ALL_SERVICES]))}
     {block("Proje iş akışı", p(*a5["workflow"]))}
     {block("Malzeme önerileri", p(*a5["materials"]))}
@@ -1057,7 +1056,7 @@ def build_industry(slug: str, name: str, pk: str) -> None:
   <div class="wrap"><h2>SSS</h2><div class="faq">{faq_html([
       (f"{name} için hangi hizmetler?", ", ".join(ALL_SERVICES[s] for s in services if s in ALL_SERVICES)+"."),
       ("Bu hizmet sayfasının yerine geçer mi?", "Hayır; dikey girişidir."),
-      ("Tekirdağ’da uygulanır mı?", "Evet; keşif city hub üzerinden planlanır."),
+      ("Tekirdağ’da uygulanır mı?", "Evet; keşif Tekirdağ üssünden planlanır."),
       ("Teklif?", "WhatsApp veya telefon ile keşif talebi bırakın."),
   ])}</div></div>
 </section>
@@ -1069,7 +1068,7 @@ def build_industry(slug: str, name: str, pk: str) -> None:
 
 
 def build_sektorler_hub() -> None:
-    items = cards([(f"/sektorler/{s}/", n, f"PK: {pk}", "Sektör") for s, n, pk in INDUSTRIES])
+    items = cards([(f"/sektorler/{s}/", n, f"{n} çözümleri.", "Sektör") for s, n, pk in INDUSTRIES])
     html = f"""{head("Sektörler | Fabrika, Restoran, Sağlık, Plaza", "Sektörel tabela ve görünürlük çözümleri.", f"{SITE}/sektorler/")}
 <body>
 {header()}
@@ -1077,7 +1076,7 @@ def build_sektorler_hub() -> None:
   <div class="wrap">
     {crumbs(("Ana Sayfa","/"),("Sektörler",None))}
     <h1>Sektörler</h1>
-    <p class="lede">Dikey girişler. Hizmet PK’sini çalmaz; A0/A2 hizmetlere bağlar.</p>
+    <p class="lede">Farklı sektörlere özel görünürlük çözümleri.</p>
   </div>
 </section>
 <section class="page-main"><div class="wrap">{block("Nasıl kullanılır?", p("Sektörünüzü seçin, ilgili hizmetlere ve projelere geçin.","Kararsızsanız Tekirdağ hub veya WhatsApp ile yazın."))}{eeat_block("sektör hub")}</div></section>
@@ -1137,10 +1136,10 @@ ARTICLE_BODY = {
         ("Filo", "Şablon standardı + araç tipi uyarlaması."),
         ("Ömür", "Folyo tipi, yıkama, güneş ve kullanım."),
         ("Söküm", "Doğru folyo ile kontrollü söküm hedeflenir."),
-        ("Ticari sayfa", "/hizmetler/arac-giydirme/ ve Tekirdağ S×C."),
+        ("Ticari sayfa", "/hizmetler/arac-giydirme/ ve Tekirdağ araç giydirme sayfası."),
     ],
     "tabela-fiyati": [
-        ("Uyarı", "Bu sayfa fiyat eğitimidir; sabit fiyat listesi değildir. Geo fiyat niyeti S×C fiyat modüllerine aittir."),
+        ("Uyarı", "Bu sayfa fiyat eğitimidir; sabit fiyat listesi değildir. Net teklif keşif sonrası verilir."),
         ("Ölçü", "m² ve harf yüksekliği temel çarpandır."),
         ("Malzeme", "Kompozit, pleksi, paslanmaz farklı maliyetler."),
         ("Işık", "LED, trafo, kasa derinliği."),
@@ -1191,15 +1190,15 @@ def build_article(slug: str, title: str, primary: str, pk: str) -> None:
 <section class="page-hero">
   <div class="wrap">
     {crumbs(("Ana Sayfa","/"),("Bilgi","/bilgi/"),(title,None))}
-    <div class="eyebrow">Knowledge · PK: {pk}</div>
+    <div class="eyebrow">Rehber</div>
     <h1>{title}</h1>
-    <p class="lede">Eğitici içerik. Money H1 taşımaz; {ALL_SERVICES.get(primary, primary)} hizmetine destek verir.</p>
+    <p class="lede">Eğitici rehber. {ALL_SERVICES.get(primary, primary)} hakkında karar vermenize yardımcı olur.</p>
   </div>
 </section>
 <section class="page-main">
   <div class="wrap">
     {block("Bu yazının rolü", p(
-        f"Owner PK: “{pk}”. Ticari niyet /hizmetler/{primary}/ sayfasındadır.",
+        f"Üretim ve teklif için /hizmetler/{primary}/ sayfasına bakabilirsiniz.",
         "Karşılaştırma, avantaj/dezavantaj ve satın alma ipuçları burada; üretim ve teklif keşifte netleşir.",
     ))}
     {''.join(body)}
@@ -1214,8 +1213,8 @@ def build_article(slug: str, title: str, primary: str, pk: str) -> None:
 </section>
 {related_rail(
     services=[
-        (f"/hizmetler/{primary}/", ALL_SERVICES.get(primary, primary), "Ticari owner."),
-        *([(f"/hizmet-bolge/tekirdag-{primary}/", f"Tekirdağ {ALL_SERVICES.get(primary, primary)}", "Geo-money owner.")] if primary in A0 else []),
+        (f"/hizmetler/{primary}/", ALL_SERVICES.get(primary, primary), f"{ALL_SERVICES.get(primary, primary)} hizmeti."),
+        *([(f"/hizmet-bolge/tekirdag-{primary}/", f"Tekirdağ {ALL_SERVICES.get(primary, primary)}", f"Tekirdağ’da {tr_service_phrase(ALL_SERVICES.get(primary, primary))}.")] if primary in A0 else []),
     ],
     knowledge=other_bilgi,
     projects=projs,
@@ -1246,9 +1245,9 @@ def build_bilgi_hub() -> None:
 <section class="page-main"><div class="wrap">{block("Nasıl okumalı?", p("Önce ihtiyacınızı seçin, sonra ilgili hizmete geçin.","Fiyat eğitimi teklif yerine geçmez."))}{eeat_block("rehber hub")}</div></section>
 <section class="section-band paper-band"><div class="wrap"><div class="card-grid">{items}</div></div></section>
 {related_rail(
-    services=[(f"/hizmetler/{s}/", n, "Hizmet owner.") for s, n in list(A0.items())[:6]],
+    services=[(f"/hizmetler/{s}/", n, f"{n} hizmeti.") for s, n in list(A0.items())[:6]],
     projects=["liman-kahve", "mera-otel", "dortnal"],
-    industries=[(f"/sektorler/{s}/", n, "Dikey.") for s, n, _ in INDUSTRIES[:4]],
+    industries=[(f"/sektorler/{s}/", n, f"{n} çözümleri.") for s, n, _ in INDUSTRIES[:4]],
 )}
 {cta_band("Rehberden uygulamaya geçin", "Bilgi sonrası teklif")}
 {footer()}
