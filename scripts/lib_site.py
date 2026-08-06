@@ -3,6 +3,8 @@
 
 from __future__ import annotations
 
+import json
+import re
 from pathlib import Path
 from urllib.parse import quote
 
@@ -12,6 +14,37 @@ PHONE_DISPLAY = "0552 582 69 59"
 PHONE_TEL = "+905525826959"
 WA = "905525826959"
 EMAIL = "merhaba@maltstudio.com"
+_GA_ID_RE = re.compile(r"^G-[A-Z0-9]+$")
+
+
+def google_analytics_id() -> str:
+    """Read Measurement ID from content.json (empty if unset/invalid)."""
+    path = ROOT / "content.json"
+    if not path.exists():
+        return ""
+    try:
+        data = json.loads(path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return ""
+    ga_id = (data.get("googleAnalyticsId") or "").strip()
+    return ga_id if _GA_ID_RE.match(ga_id) else ""
+
+
+def gtag_snippet(ga_id: str | None = None) -> str:
+    """Single Google tag (gtag.js) block for <head>. Empty when ID missing."""
+    ga_id = (ga_id or google_analytics_id()).strip()
+    if not _GA_ID_RE.match(ga_id):
+        return ""
+    return (
+        "<!-- Google tag (gtag.js) -->\n"
+        f'<script async src="https://www.googletagmanager.com/gtag/js?id={ga_id}"></script>\n'
+        "<script>\n"
+        "  window.dataLayer = window.dataLayer || [];\n"
+        "  function gtag(){dataLayer.push(arguments);}\n"
+        "  gtag('js', new Date());\n"
+        f"  gtag('config', '{ga_id}');\n"
+        "</script>\n"
+    )
 
 A0 = {
     "tabela": "Tabela",
@@ -53,12 +86,13 @@ def head(
         if noindex
         else '<meta name="robots" content="index,follow">\n'
     )
+    ga = gtag_snippet()
     return f"""<!DOCTYPE html>
 <html lang="tr">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>{title}</title>
+{ga}<title>{title}</title>
 <meta name="description" content="{description}">
 {robots}<link rel="canonical" href="{canonical}">
 <meta property="og:type" content="website">
