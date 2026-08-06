@@ -21,7 +21,10 @@
       "image": "",
       "description": "Mağaza tabela ve cephe görünürlüğü.",
       "year": "",
-      "services": ["Tabela", "Cam Giydirme"],
+      "services": [
+        "Tabela",
+        "Cam Giydirme"
+      ],
       "category": "Gıda & İçecek"
     },
     {
@@ -35,7 +38,10 @@
       "image": "",
       "description": "Tesis kimliği ve yönlendirme.",
       "year": "",
-      "services": ["Tabela", "Totem"],
+      "services": [
+        "Tabela",
+        "Totem"
+      ],
       "category": "Enerji"
     },
     {
@@ -49,7 +55,10 @@
       "image": "",
       "description": "OSB tesis tabela uygulamaları.",
       "year": "",
-      "services": ["Tabela", "İş Güvenliği"],
+      "services": [
+        "Tabela",
+        "İş Güvenliği"
+      ],
       "category": "Tekstil"
     },
     {
@@ -63,7 +72,10 @@
       "image": "",
       "description": "Konaklama giriş ve cephe kimliği.",
       "year": "",
-      "services": ["Işıklı Tabela", "Kutu Harf"],
+      "services": [
+        "Işıklı Tabela",
+        "Kutu Harf"
+      ],
       "category": "Konaklama"
     },
     {
@@ -77,7 +89,10 @@
       "image": "",
       "description": "Perakende vitrin ve tabela.",
       "year": "",
-      "services": ["Cam Giydirme", "Tabela"],
+      "services": [
+        "Cam Giydirme",
+        "Tabela"
+      ],
       "category": "Perakende"
     },
     {
@@ -91,7 +106,10 @@
       "image": "",
       "description": "Ofis branding ve giriş kimliği.",
       "year": "",
-      "services": ["Ofis Branding", "Kutu Harf"],
+      "services": [
+        "Ofis Branding",
+        "Kutu Harf"
+      ],
       "category": "Teknoloji"
     }
   ],
@@ -110,7 +128,7 @@
   "instagram": "https://www.instagram.com/maltstudio.co/",
   "copyrightText": "© 2025 - 2026 Malt Studio. Tüm hakları saklıdır.",
   "behance": "",
-  "address": "Tekirdağ, Türkiye",
+  "address": "Yavuz Mahallesi, Ruşen Güneş Sokak, D Blok No:2, 59100 Süleymanpaşa/Tekirdağ",
   "whatsappMessage": "Merhaba, teklif almak istiyorum.",
   "heroTitleTop": "Markanızı",
   "seoFavicon": "",
@@ -221,18 +239,24 @@
     }
   ],
   "seoDescription": "Tekirdağ reklam ajansı Malt Studio. Tabela üretimi, kurumsal kimlik, dijital baskı ve uygulama. Keşiften montaja Tekirdağ merkezli üretim.",
-  "addressLocality": "Tekirdağ",
+  "addressLocality": "Süleymanpaşa",
   "addressRegion": "Tekirdağ",
   "addressCountry": "TR",
   "legalName": "",
   "foundingDate": "",
-  "addressStreet": "",
-  "addressPostalCode": "",
-  "geoLatitude": "",
-  "geoLongitude": "",
-  "priceRange": "",
-  "googleMapsUrl": "",
-  "openingHours": [],
+  "addressStreet": "Ruşen Güneş Sokak, D Blok No:2",
+  "addressPostalCode": "59100",
+  "geoLatitude": "40.9769375",
+  "geoLongitude": "27.5041875",
+  "priceRange": "₺₺",
+  "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=40.9769375,27.5041875",
+  "openingHours": [
+    {
+      "days": "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday",
+      "opens": "09:00",
+      "closes": "19:00"
+    }
+  ],
   "schemaServices": [
     "Tabela",
     "Işıklı tabela",
