@@ -471,6 +471,53 @@ def replace_json_ld(doc: str, data: dict) -> str:
     return doc.replace("</head>", block + "\n</head>", 1)
 
 
+_GA_ID_RE = re.compile(r"^G-[A-Z0-9]+$")
+
+
+def ensure_gtag(doc: str, ga_id: str) -> str:
+    """Insert GA4 gtag once in <head>; strip any prior Google tag blocks first."""
+    # Remove previous gtag.js loader + inline config (comment-marked or bare).
+    doc = re.sub(
+        r"\s*<!--\s*Google tag \(gtag\.js\)\s*-->\s*"
+        r'<script async src="https://www\.googletagmanager\.com/gtag/js\?id=G-[A-Z0-9]+"></script>\s*'
+        r"<script>\s*window\.dataLayer[\s\S]*?</script>",
+        "",
+        doc,
+        count=1,
+        flags=re.I,
+    )
+    doc = re.sub(
+        r'\s*<script async src="https://www\.googletagmanager\.com/gtag/js\?id=G-[A-Z0-9]+"></script>\s*'
+        r"<script>\s*window\.dataLayer[\s\S]*?gtag\('config',\s*'G-[A-Z0-9]+'\);[\s\S]*?</script>",
+        "",
+        doc,
+        count=1,
+        flags=re.I,
+    )
+    ga_id = (ga_id or "").strip()
+    if not _GA_ID_RE.match(ga_id):
+        return doc
+    block = (
+        "<!-- Google tag (gtag.js) -->\n"
+        f'<script async src="https://www.googletagmanager.com/gtag/js?id={ga_id}"></script>\n'
+        "<script>\n"
+        "  window.dataLayer = window.dataLayer || [];\n"
+        "  function gtag(){dataLayer.push(arguments);}\n"
+        "  gtag('js', new Date());\n"
+        f"  gtag('config', '{ga_id}');\n"
+        "</script>\n"
+    )
+    # Prefer right after viewport for early load; fallback before </head>.
+    vp = re.search(
+        r'<meta name="viewport"[^>]*>\s*',
+        doc,
+        flags=re.I,
+    )
+    if vp:
+        return doc[: vp.end()] + block + doc[vp.end() :]
+    return doc.replace("</head>", block + "</head>", 1)
+
+
 def main() -> int:
     c = json.loads(CONTENT.read_text(encoding="utf-8"))
     doc = INDEX.read_text(encoding="utf-8")
@@ -560,6 +607,8 @@ def main() -> int:
         doc = set_meta(doc, "name", "twitter:image", og)
     doc = set_meta(doc, "name", "twitter:title", c.get("seoTitle") or "")
     doc = set_meta(doc, "name", "twitter:description", c.get("seoDescription") or "")
+
+    doc = ensure_gtag(doc, c.get("googleAnalyticsId") or "")
 
     ld = build_json_ld(c)
     if ld:

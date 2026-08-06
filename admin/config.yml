@@ -217,12 +217,12 @@ collections:
                 max_file_size: 1048576
           - { label: "Canonical URL", name: "canonicalUrl", widget: "string", required: false }
 
-          # —— Analytics (yalnızca yapılandırma, script enjekte edilmez) ——
+          # —— Analytics (Measurement ID → tüm public sayfa <head> içine gtag) ——
           - label: "Google Analytics ID"
             name: "googleAnalyticsId"
             widget: "string"
             required: false
-            hint: "—— Analytics Yapılandırması —— Yalnızca saklanır; script enjekte edilmez. Örn: G-XXXXXXXXXX"
+            hint: "—— Analytics —— GA4 Measurement ID (örn. G-XXXXXXXXXX). Deploy/prerender sonrası tüm public sayfa <head> içinde bir kez yüklenir."
 
           - { label: "Google Tag Manager ID", name: "googleTagManagerId", widget: "string", required: false }
           - { label: "Google Search Console Doğrulama Kodu", name: "googleSearchConsoleVerification", widget: "string", required: false }
