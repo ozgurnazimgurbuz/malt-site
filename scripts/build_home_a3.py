@@ -157,7 +157,7 @@ MAIN = f"""
         <div class="tag" id="services-tag">Hizmetler</div>
         <h2 id="services-title">Çekirdek<br>Hizmetler</h2>
       </div>
-      <p id="services-intro">Üretim ve uygulama kapasitemiz. Her kart mevcut hizmet sayfasına gider; yeni URL açılmaz. Geo niyetler S×C sayfalarındadır.</p>
+      <p id="services-intro">Üretimden montaja, ihtiyacınıza uygun çözümler.</p>
     </div>
     <div class="service-grid enterprise" id="service-grid"></div>
     <p style="margin-top:28px;"><a class="section-link" href="/hizmetler/">Tüm hizmetler hub →</a></p>
@@ -171,7 +171,7 @@ MAIN = f"""
         <div class="tag">Sektörler</div>
         <h2 id="industries-title">Çalıştığımız<br>Dikeyler</h2>
       </div>
-      <p>Sektör sayfaları dikey bağlam taşır; money keyword sahipliği hizmet ve S×C URL’lerindedir.</p>
+      <p>Farklı sektörlere özel çözümler sunuyoruz.</p>
     </div>
     <div class="local-grid">
       <a class="local-card" href="/sektorler/fabrika-osb/"><h3>Fabrikalar / OSB</h3><p>Tesis kimliği, totem ve iş güvenliği.</p><span class="meta">Sektör</span></a>
@@ -192,7 +192,7 @@ MAIN = f"""
         <div class="tag">Süreç</div>
         <h2 id="process-title">Üretim<br>Süreci</h2>
       </div>
-      <p>Keşiften satış sonrasına kadar tek hat. Ayrı /surec/ URL’si yok; süreç buradadır.</p>
+      <p>Keşiften teslimata kadar birlikte yürüdüğümüz süreç.</p>
     </div>
     <div class="process-grid">
       <div class="process-step"><div class="num">01</div><h3>Keşif</h3><p>Ölçü, yüzey ve saha koşulları yerinde not edilir.</p></div>
@@ -213,7 +213,7 @@ MAIN = f"""
         <div class="tag" id="portfolio-tag">Projeler</div>
         <h2 id="portfolio-title">Seçili İşler</h2>
       </div>
-      <p id="portfolio-intro">Öne çıkan projeler. Detay sayfalarına geçin; görseller geldikçe güncellenir.</p>
+      <p id="portfolio-intro">Tamamladığımız işlerden öne çıkanlar.</p>
     </div>
   </div>
   <div class="work-grid" id="work-grid"></div>
@@ -227,7 +227,7 @@ MAIN = f"""
         <div class="tag">Bilgi</div>
         <h2 id="knowledge-title">Bilgi<br>Merkezi</h2>
       </div>
-      <p>Eğitim ve karar rehberleri. Ticari money H1’ler hizmet sayfalarındadır.</p>
+      <p>Karar vermenize yardımcı olacak rehberler.</p>
     </div>
     <div class="knowledge-grid">
       <a class="knowledge-card" href="/bilgi/tabela-cesitleri/"><span class="meta">Rehber</span><h3>Tabela Çeşitleri</h3><p>Hangi tabela tipi ne zaman seçilir.</p></a>
@@ -268,7 +268,7 @@ MAIN = f"""
         <div class="tag">Kapsama</div>
         <h2 id="coverage-title">Hizmet<br>Bölgesi</h2>
       </div>
-      <p>Tekirdağ city hub yerel firma niyetini taşır. İlçe adları bilgilendirme amaçlıdır; yeni landing açılmaz. Süleymanpaşa alias’tır.</p>
+      <p>Tekirdağ merkezliyiz; çevre ilçelere keşif ve montaj desteği sunuyoruz.</p>
     </div>
     <div class="chip-grid" aria-label="Hizmet verilen ilçeler">
       <a class="chip" href="/bolgeler/tekirdag/">Tekirdağ</a>
@@ -282,16 +282,16 @@ MAIN = f"""
       <span class="chip">Hayrabolu</span>
       <span class="chip">Saray</span>
       <span class="chip">Marmara Ereğlisi</span>
-      <a class="chip is-alias" href="/bolgeler/tekirdag/">Süleymanpaşa (alias)</a>
+      <a class="chip" href="/bolgeler/tekirdag/">Süleymanpaşa</a>
     </div>
     <div class="local-grid" style="margin-top:40px;">
       <a class="local-card" href="/bolgeler/tekirdag/"><h3>Tekirdağ Rehberi</h3><p>Şehir hub — yerel firma niyeti.</p><span class="meta">City</span></a>
-      <a class="local-card" href="/hizmet-bolge/tekirdag-tabela/"><h3>Tekirdağ Tabela</h3><p>Geo-money owner.</p><span class="meta">S×C</span></a>
-      <a class="local-card" href="/hizmet-bolge/tekirdag-isikli-tabela/"><h3>Tekirdağ Işıklı</h3><p>Geo-money owner.</p><span class="meta">S×C</span></a>
-      <a class="local-card" href="/hizmet-bolge/tekirdag-kutu-harf/"><h3>Tekirdağ Kutu Harf</h3><p>Geo-money owner.</p><span class="meta">S×C</span></a>
-      <a class="local-card" href="/hizmet-bolge/tekirdag-totem/"><h3>Tekirdağ Totem</h3><p>Geo-money owner.</p><span class="meta">S×C</span></a>
-      <a class="local-card" href="/hizmet-bolge/tekirdag-arac-giydirme/"><h3>Tekirdağ Araç</h3><p>Geo-money owner.</p><span class="meta">S×C</span></a>
-      <a class="local-card" href="/hizmet-bolge/tekirdag-cam-giydirme/"><h3>Tekirdağ Cam</h3><p>Geo-money owner.</p><span class="meta">S×C</span></a>
+      <a class="local-card" href="/hizmet-bolge/tekirdag-tabela/"><h3>Tekirdağ Tabela</h3><p>Tekirdağ’da tabela üretimi ve montajı.</p><span class="meta">Yerel</span></a>
+      <a class="local-card" href="/hizmet-bolge/tekirdag-isikli-tabela/"><h3>Tekirdağ Işıklı</h3><p>Tekirdağ’da ışıklı tabela hizmeti.</p><span class="meta">Yerel</span></a>
+      <a class="local-card" href="/hizmet-bolge/tekirdag-kutu-harf/"><h3>Tekirdağ Kutu Harf</h3><p>Tekirdağ’da kutu harf üretimi.</p><span class="meta">Yerel</span></a>
+      <a class="local-card" href="/hizmet-bolge/tekirdag-totem/"><h3>Tekirdağ Totem</h3><p>Tekirdağ’da totem tabela uygulamaları.</p><span class="meta">Yerel</span></a>
+      <a class="local-card" href="/hizmet-bolge/tekirdag-arac-giydirme/"><h3>Tekirdağ Araç</h3><p>Tekirdağ’da araç giydirme hizmeti.</p><span class="meta">Yerel</span></a>
+      <a class="local-card" href="/hizmet-bolge/tekirdag-cam-giydirme/"><h3>Tekirdağ Cam</h3><p>Tekirdağ’da cam giydirme uygulamaları.</p><span class="meta">Yerel</span></a>
       <a class="local-card" href="/hizmetler/"><h3>Tüm Hizmetler</h3><p>Hizmet hub.</p><span class="meta">Hub</span></a>
     </div>
   </div>

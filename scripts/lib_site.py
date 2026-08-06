@@ -212,7 +212,6 @@ def cta_band(title: str, msg: str) -> str:
     <p class="intro" style="margin:0 auto 28px;text-align:center;">Keşif, ölçü ve net teklif için yazın veya arayın.</p>
     <a class="btn btn-primary" href="{wa(msg)}" target="_blank" rel="noopener">WhatsApp ile Teklif</a>
     <a class="btn btn-ghost" href="tel:{PHONE_TEL}" style="margin-left:12px;">Ara: {PHONE_DISPLAY}</a>
-    <a class="btn btn-ghost" href="/#iletisim" style="margin-left:12px;">İletişim</a>
   </div>
 </section>
 """
@@ -280,7 +279,7 @@ def eeat_block(page_type: str) -> str:
     <li><strong>Deneyim:</strong> Keşif notları (ölçü, yüzey, erişim, işletme saati) teklif ve üretimi şekillendirir.</li>
     <li><strong>Üretim:</strong> Ölçüye özel imalat; stok tabela mantığı yerine yüzeye ve markaya göre üretim.</li>
     <li><strong>Kalite süreci:</strong> Atölye kontrolü → saha hizalama/sabitleme → teslim kontrolü.</li>
-    <li><strong>Yerel uzmanlık:</strong> Tekirdağ üssünden merkez ve çevre ilçe işleri planlanır; Süleymanpaşa alias’tır.</li>
+    <li><strong>Yerel uzmanlık:</strong> Tekirdağ üssünden merkez ve çevre ilçe işleri planlanır; Süleymanpaşa dahil merkez ve çevre ilçelere hizmet verilir.</li>
     <li><strong>Kanıt:</strong> Gerçek fotoğraflar proje sayfalarına bağlanır; stok görsel kullanılmaz.</li>
   </ul>
   <p class="note">EEAT kapısı açıktır: görseller ve onaylı vakalar geldikçe ilgili proje URL’leri güçlenir. Proje sayfaları kanıt yetersizken noindex,follow kalabilir.</p>
@@ -321,7 +320,7 @@ def related_rail(
         )
     if projects:
         items = [
-            (f"/projeler/{s}/", names.get(s, s), "Vaka / kanıt düğümü.", "Proje")
+            (f"/projeler/{s}/", names.get(s, s), "Tamamlanan proje örneği.", "Proje")
             for s in projects
         ]
         parts.append(
@@ -340,12 +339,12 @@ def related_rail(
         )
     if hubs is None:
         hubs = [
-            ("/hizmetler/", "Hizmetler", "Hizmet hub"),
-            ("/bilgi/", "Bilgi", "Rehber hub"),
-            ("/projeler/", "Projeler", "Kanıt hub"),
-            ("/sektorler/", "Sektörler", "Dikey hub"),
-            ("/bolgeler/tekirdag/", "Tekirdağ", "City hub"),
-            ("/", "Ana sayfa", "Authority hub"),
+            ("/hizmetler/", "Hizmetler", "Tüm hizmetlerimize göz atın."),
+            ("/bilgi/", "Bilgi", "Rehberler ve karar içerikleri."),
+            ("/projeler/", "Projeler", "Tamamladığımız işlerden örnekler."),
+            ("/sektorler/", "Sektörler", "Sektöre özel çözümler."),
+            ("/bolgeler/tekirdag/", "Tekirdağ", "Tekirdağ yerel hizmet rehberi."),
+            ("/", "Ana sayfa", "Malt Studio ana sayfa."),
         ]
     if hubs:
         parts.append(
