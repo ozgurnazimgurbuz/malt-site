@@ -83,6 +83,23 @@ ARTICLES = [
 ]
 
 
+def tr_service_phrase(name: str) -> str:
+    """Customer-facing phrase after 'Tekirdağ’da …' without broken Turkish lowercasing."""
+    mapping = {
+        "Tabela": "tabela üretimi ve montajı",
+        "Işıklı Tabela": "ışıklı tabela hizmeti",
+        "Kutu Harf": "kutu harf üretimi",
+        "Totem": "totem tabela uygulamaları",
+        "Araç Giydirme": "araç giydirme hizmeti",
+        "Cam Giydirme": "cam giydirme uygulamaları",
+        "Lightbox": "lightbox hizmeti",
+        "Display & POS": "display ve POS uygulamaları",
+        "Ofis Branding": "ofis branding uygulamaları",
+        "İş Güvenliği Tabelaları": "iş güvenliği tabelaları",
+    }
+    return mapping.get(name, f"{name} hizmeti")
+
+
 def p(*paras: str) -> str:
     return "\n".join(f"<p>{x}</p>" for x in paras if x)
 
@@ -144,7 +161,7 @@ SERVICE_DEPTH = {
             "Bu sayfa ‘ışıklı tabela / LED tabela’ sahibidir. Lightbox (ışıklı kutu / SEG) ayrı üründür ve /hizmetler/lightbox/ altındadır.",
             "Cephe derinliği, elektrik hattı ve servis erişimi keşifte kontrol edilir. Yanlış LED yoğunluğu hem ışığı bozar hem servisi zorlaştırır.",
             "Mağaza, eczane, klinik ve plaza girişlerinde gece trafiği varsa ışıklı sistem çoğu zaman doğru yatırımdır.",
-            "Tekirdağ geo-money niyeti /hizmet-bolge/tekirdag-isikli-tabela/ sayfasındadır.",
+            "Tekirdağ’da ışıklı tabela için yerel sayfamız: /hizmet-bolge/tekirdag-isikli-tabela/.",
         ],
         "apps": ["Mağaza cepheleri", "Plaza girişleri", "Klinik / eczane", "Hizmet noktaları", "Kurumsal tesisler"],
         "materials": "Alüminyum kasa, LED modül, SMPS, akrilik/pleksi veya uygun yüzeyler.",
@@ -598,7 +615,7 @@ def build_sxc(slug: str) -> None:
         for i in SERVICE_INDUSTRIES.get(slug, [])[:2]
     ],
     hubs=[
-        ("/bolgeler/tekirdag/", "Tekirdağ", "City hub"),
+        ("/bolgeler/tekirdag/", "Tekirdağ", "Tekirdağ yerel hizmet rehberi."),
         ("/hizmetler/", "Hizmetler", "Hub"),
         ("/projeler/", "Projeler", "Kanıt"),
         ("/", "Ana sayfa", "Authority"),
@@ -894,7 +911,7 @@ def build_project(slug: str, name: str, industry: str, services: list[str]) -> N
     <h2 id="related-industry-title">İlgili sektör</h2>
     <div class="card-grid">{cards([
         (f"/sektorler/{industry}/", ind_label, "Dikey bağlam sayfası.", "Sektör"),
-        ("/bolgeler/tekirdag/", "Tekirdağ", "Yerel firma / city hub.", "City"),
+        ("/bolgeler/tekirdag/", "Tekirdağ", "Tekirdağ yerel hizmet rehberi.", "City"),
         ("/projeler/", "Tüm projeler", "Kanıt indeksi.", "Hub"),
     ])}</div>
   </div>
@@ -902,7 +919,7 @@ def build_project(slug: str, name: str, industry: str, services: list[str]) -> N
 <section class="section-band paper-band" aria-labelledby="related-knowledge-title">
   <div class="wrap">
     <h2 id="related-knowledge-title">İlgili rehberler</h2>
-    <p class="intro">Eğitim içerikleri. Money keyword sahipliği hizmet sayfalarındadır.</p>
+    <p class="intro">Karar vermenize yardımcı olacak rehberler.</p>
     <div class="card-grid">{bil_cards}</div>
   </div>
 </section>
@@ -918,7 +935,7 @@ def build_project(slug: str, name: str, industry: str, services: list[str]) -> N
     ("/hizmetler/", "Hizmetler", "Hizmet hub"),
     ("/bilgi/", "Bilgi", "Rehber hub"),
     ("/sektorler/", "Sektörler", "Dikey hub"),
-    ("/bolgeler/tekirdag/", "Tekirdağ", "City hub"),
+    ("/bolgeler/tekirdag/", "Tekirdağ", "Tekirdağ yerel hizmet rehberi."),
     ("/", "Ana sayfa", "Authority"),
 ])}
 {project_cta(name)}
@@ -939,7 +956,7 @@ def build_projeler_hub() -> None:
     {crumbs(("Ana Sayfa","/"),("Projeler",None))}
     <div class="eyebrow">Proof layer</div>
     <h1>Projeler</h1>
-    <p class="lede">Kanıt düğümleri. Money H1 taşımaz; hizmet ve şehir sayfalarına otorite aktarır.</p>
+    <p class="lede">Tamamladığımız işlerden örnekler. Görseller geldikçe güncellenir.</p>
   </div>
 </section>
 <section class="page-main">
