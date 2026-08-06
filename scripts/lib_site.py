@@ -121,12 +121,8 @@ def head(
 def header() -> str:
     return f"""<header>
   <a href="/" aria-label="Malt Studio">{logo()}</a>
-  <nav>
-    <a href="/hizmetler/">Hizmetler</a>
-    <a href="/projeler/">Projeler</a>
-    <a href="/sektorler/">Sektörler</a>
-    <a href="/bilgi/">Bilgi</a>
-    <a href="/bolgeler/tekirdag/">Tekirdağ</a>
+  <nav aria-label="Ana menü">
+    <a href="/#teklif">Teklif</a>
     <a href="/#iletisim">İletişim</a>
   </nav>
 </header>
@@ -172,7 +168,6 @@ def footer() -> str:
     </div>
     <div class="footer-bottom">
       <span>© 2025–2026 Malt Studio</span>
-      <span>Production content layer</span>
     </div>
   </div>
 </footer>
@@ -257,8 +252,8 @@ def evidence_gallery(project_name: str) -> str:
     return (
         '<section class="section-band" aria-labelledby="evidence-title">'
         '<div class="wrap">'
-        '<h2 id="evidence-title">Kanıt görselleri</h2>'
-        '<p class="intro">EEAT kapısı: gerçek fotoğraflar gelene kadar yer tutucu çerçeveler. Stok veya uydurma görsel kullanılmaz. Sayfa noindex,follow kalır.</p>'
+        '<h2 id="evidence-title">Proje görselleri</h2>'
+        '<p class="intro">Gerçek fotoğraflar eklenene kadar yer tutucu çerçeveler gösteriliyor.</p>'
         f'<div class="evidence-grid">{"".join(figs)}</div>'
         "</div></section>"
     )
@@ -282,7 +277,6 @@ def eeat_block(page_type: str) -> str:
     <li><strong>Yerel uzmanlık:</strong> Tekirdağ üssünden merkez ve çevre ilçe işleri planlanır; Süleymanpaşa dahil merkez ve çevre ilçelere hizmet verilir.</li>
     <li><strong>Kanıt:</strong> Gerçek fotoğraflar proje sayfalarına bağlanır; stok görsel kullanılmaz.</li>
   </ul>
-  <p class="note">EEAT kapısı açıktır: görseller ve onaylı vakalar geldikçe ilgili proje URL’leri güçlenir. Proje sayfaları kanıt yetersizken noindex,follow kalabilir.</p>
 </div>"""
 
 
@@ -349,8 +343,8 @@ def related_rail(
     if hubs:
         parts.append(
             '<section class="section-band paper-band" aria-labelledby="rel-hub">'
-            '<div class="wrap"><h2 id="rel-hub">Hub bağlantıları</h2>'
-            f'<div class="card-grid">{cards([(h,t,d,"Hub") for h,t,d in hubs])}</div>'
+            '<div class="wrap"><h2 id="rel-hub">Keşfet</h2>'
+            f'<div class="card-grid">{cards([(h,t,d,"Keşif") for h,t,d in hubs])}</div>'
             "</div></section>"
         )
     return "\n".join(parts)

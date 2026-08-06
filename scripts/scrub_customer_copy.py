@@ -12,7 +12,7 @@ FORBIDDEN = re.compile(
     r"S×C|money keyword|money H1|Money H1|Geo-money|geo-money|geo niyet|Geo niyet|"
     r"geo fiyat|Geo fiyat|Ownership:|owner URL|Wave A2|city hub|City hub|"
     r"Service × City|Non-geo|geo-money H1|Owner PK|owner PK|"
-    r"Anti-doorway|doorway|cannibalization|money PK|Service×City",
+    r"Anti-doorway|doorway|cannibalization|money PK|Service×City|EEAT|ticari niyet|kanıt düğümü|kapsam adayı|birbirini yemez|Authority Hub|Production content|görsel kanıt kapısı|Index durumu",
     re.I,
 )
 
@@ -361,6 +361,105 @@ def scrub_home_phrases(html: str) -> str:
     return html
 
 
+
+# ROUND2 — remaining strategy jargon in visible HTML
+def scrub_round2(html: str) -> str:
+    html = re.sub(
+        r'\s*<div><dt>Index durumu</dt><dd>[^<]*</dd></div>\s*',
+        '',
+        html,
+        flags=re.I,
+    )
+    html = re.sub(
+        r"( — kapsam adayı; kesin kalem onaylı iş emrine bağlı\.)",
+        '',
+        html,
+    )
+    html = html.replace(
+        '<p>Hizmet sayfaları ticari niyeti taşır; bu sayfa kanıt düğümüdür.</p>',
+        '',
+    )
+    html = re.sub(
+        r'<h2>EEAT durumu</h2>\s*<p class="awaiting">[\s\S]*?</p>',
+        '<h2>Proje Görselleri</h2>\n      <p class="awaiting">Bu projenin saha ve teslim fotoğrafları yakında eklenecek.</p>',
+        html,
+        count=1,
+    )
+    html = html.replace(
+        '<p class="intro">EEAT kapısı: gerçek fotoğraflar gelene kadar yer tutucu çerçeveler. Stok veya uydurma görsel kullanılmaz. Sayfa noindex,follow kalır.</p>',
+        '<p class="intro">Gerçek fotoğraflar eklenene kadar yer tutucu çerçeveler gösteriliyor.</p>',
+    )
+    html = re.sub(r'\s*<span>Production content layer</span>', '', html)
+    html = re.sub(
+        r'<p class="note">EEAT kapısı[^<]*</p>',
+        '',
+        html,
+    )
+    html = html.replace(
+        '<p>Görseller onaylanana kadar tekil proje URL’leri noindex,follow olabilir.</p>',
+        '<p>Görseller onaylandıkça proje sayfaları güncellenecek.</p>',
+    )
+    html = html.replace(
+        "Evet. Bu sayfa yerel ticari niyetin birincil sahibidir.",
+        "Evet, Tekirdağ’da bu hizmeti sunuyoruz.",
+    )
+    html = re.sub(
+        r'Genel sayfa “[^”]+” niyetini; bu sayfa “[^”]+” niyetini taşır\.',
+        'Bu sayfa özellikle Tekirdağ’daki müşterilerimize yöneliktir.',
+        html,
+    )
+    html = re.sub(
+        r'<p>[^<]*ticari niyet[^<]*</p>',
+        '',
+        html,
+        flags=re.I,
+    )
+    html = re.sub(
+        r'<p>[^<]*birbirini yemez[^<]*</p>',
+        '',
+        html,
+        flags=re.I,
+    )
+    html = re.sub(
+        r'<p>[^<]*sonraki dalga[^<]*</p>',
+        '',
+        html,
+        flags=re.I,
+    )
+    html = re.sub(
+        r'Ayrı city URL’leri sonraki dalgada; keşif bugün Tekirdağ üssünden\.',
+        'Evet; keşif ve montaj Tekirdağ üssünden planlanır.',
+        html,
+    )
+    html = re.sub(
+        r'Çorlu/Çerkezköy için ayrı city URL’leri sonraki dalgadadır\.',
+        'Çorlu ve Çerkezköy için de hizmet veriyoruz, iletişime geçebilirsiniz.',
+        html,
+    )
+    html = re.sub(r'(<span class="meta">)Hub(</span>)', r'\1Keşif\2', html)
+    html = re.sub(r'(<span class="meta">)Authority Hub(</span>)', r'\1Keşif\2', html)
+    html = re.sub(r'(<h3>Ana sayfa</h3>\s*<p>)Authority(</p>)', r'\1Malt Studio ana sayfa.\2', html)
+    html = re.sub(r'(<h3>Hizmetler</h3>\s*<p>)Hub(</p>)', r'\1Tüm hizmetlerimize göz atın.\2', html)
+    html = re.sub(r'(<h3>Hizmetler</h3>\s*<p>)Hizmet hub(</p>)', r'\1Tüm hizmetlerimize göz atın.\2', html)
+    html = re.sub(r'(<h3>Projeler</h3>\s*<p>)Kanıt(?: hub)?(</p>)', r'\1Tamamladığımız işlerden örnekler.\2', html)
+    html = re.sub(r'(<h3>Bilgi</h3>\s*<p>)Rehber hub(</p>)', r'\1Rehberler ve karar içerikleri.\2', html)
+    html = re.sub(r'(<h3>Sektörler</h3>\s*<p>)Dikey hub(</p>)', r'\1Sektöre özel çözümler.\2', html)
+    html = re.sub(r'<div class="tag">EEAT</div>', '<div class="tag">Neden Biz</div>', html)
+    html = re.sub(r'<div class="eyebrow">Hizmet hub</div>', '<div class="eyebrow">Hizmetler</div>', html)
+    html = re.sub(r'<h2 id="rel-hub">Hub bağlantıları</h2>', '<h2 id="rel-hub">Keşfet</h2>', html)
+    html = re.sub(r' Authority Hub', '', html)
+    html = re.sub(r' Kanıt Hub', '', html)
+    html = re.sub(r' Hizmet hub', '', html)
+    html = re.sub(r'City hub', 'Tekirdağ rehberi', html, flags=re.I)
+    # Remove visible noindex,follow outside robots meta (already handled patterns)
+    html = re.sub(
+        r'(<(?:p|dd|li|span|h2|figcaption)\b[^>]*>)([^<]*noindex,follow[^<]*)(</(?:p|dd|li|span|h2|figcaption)>)',
+        lambda m: m.group(1)+m.group(3) if 'robots' not in m.group(0) else m.group(0),
+        html,
+        flags=re.I,
+    )
+    return html
+
 def scrub_file(path: Path) -> bool:
     original = path.read_text(encoding="utf-8")
     html = original
@@ -368,6 +467,7 @@ def scrub_file(path: Path) -> bool:
     html = scrub_home_phrases(html)
     html = scrub_card_blocks(html)
     html = scrub_sentences(html)
+    html = scrub_round2(html)
     # empty tags cleanup
     html = re.sub(r"<p>\s*</p>", "", html)
     html = re.sub(r"<li>\s*</li>", "", html)

@@ -129,8 +129,7 @@ SERVICE_DEPTH = {
         "lede": "Ölçüye özel tabela üretimi: doğru malzeme, okunur tasarım ve güvenli montaj.",
         "extra": [
             "Tabela, markanın sokaktaki ve tesis girişindeki kalıcı imzasıdır. Doğru tabela; mesafeden okunur, malzemesi sahaya uygundur ve montajı uzun ömürlü planlanır.",
-            "Işıksız kompozit tabeladan ışıklı sistemlere, iç yön tabelasından cephe kimliğine kadar ihtiyaçlar değişir. Bu sayfa coğrafyasız ‘tabela’ ticari niyetinin sahibidir.",
-            "Tekirdağ’a özel aramalar (/hizmet-bolge/tekirdag-tabela/) ayrı URL’de tutulur; böylece hizmet ve yerel sayfa birbirini yemez.",
+            "Işıksız kompozit tabeladan ışıklı sistemlere, iç yön tabelasından cephe kimliğine kadar ihtiyaçlar değişir.",
             "Keşifte ölçüler, montaj yüzeyi, rüzgâr/yükseklik ve gece görünürlük ihtiyacı birlikte değerlendirilir. Katalog fiyatı yerine sahaya göre teklif çıkarılır.",
             "Üretim atölyede, uygulama sahada tamamlanır. Teslimden sonra yenileme veya ek tabela talepleri aynı hat üzerinden planlanabilir.",
         ],
@@ -158,7 +157,7 @@ SERVICE_DEPTH = {
         "lede": "Gündüz taşıyan, gece de okunan LED ışıklı tabela sistemleri.",
         "extra": [
             "Işıklı tabela; kasa, LED modül, güç kaynağı ve yüzey malzemesinin birlikte çalıştığı bir üründür. Amaç gece saatlerinde de markayı okunur kılmaktır.",
-            "Bu sayfa ‘ışıklı tabela / LED tabela’ sahibidir. Lightbox (ışıklı kutu / SEG) ayrı üründür ve /hizmetler/lightbox/ altındadır.",
+            "Lightbox (ışıklı kutu / SEG) ayrı üründür ve /hizmetler/lightbox/ altındadır.",
             "Cephe derinliği, elektrik hattı ve servis erişimi keşifte kontrol edilir. Yanlış LED yoğunluğu hem ışığı bozar hem servisi zorlaştırır.",
             "Mağaza, eczane, klinik ve plaza girişlerinde gece trafiği varsa ışıklı sistem çoğu zaman doğru yatırımdır.",
             "Tekirdağ’da ışıklı tabela için yerel sayfamız: /hizmet-bolge/tekirdag-isikli-tabela/.",
@@ -187,7 +186,7 @@ SERVICE_DEPTH = {
         "lede": "Cepheye derinlik katan ölçüye özel kutu harf sistemleri.",
         "extra": [
             "Kutu harf (channel letters), marka adını üç boyutlu taşıyan cephe yazısıdır. Pleksi ve paslanmaz en sık malzeme aileleridir.",
-            "Bu sayfa ‘kutu harf’ sahibidir. Channel letters ayrı URL açılmaz; aynı ailede anlatılır.",
+            "Channel letters ayrı bir ürün adı değildir; kutu harf ailesinde anlatılır.",
             "Harf yüksekliği, derinlik, ışıklı/ışıksız tercih ve montaj yüzeyi okunurluğu belirler.",
             "Plaza, ofis ve mağaza cephelerinde prestij algısını en hızlı yükselten uygulamalardan biridir.",
             "Tekirdağ yerel niyeti /hizmet-bolge/tekirdag-kutu-harf/ sayfasındadır.",
@@ -333,7 +332,7 @@ SERVICE_DEPTH = {
         "extra": [
             "Display & POS taşınabilir donanım ailesidir. Roll-up birincil ticari başlıktır.",
             "Outdoor yol totemi /hizmetler/totem/ altındadır; karıştırılmaz.",
-            "Tam fuar standı / backdrop sonraki fuar dalgasına aittir; tekil display burada.",
+            "Tam fuar standı / backdrop ayrı değerlendirilir; tekil display burada planlanır.",
             "Mağaza içi kampanya ve etkinliklerde hızlı kurulum avantajı sağlar.",
             "Baskı + donanım birlikte teslim edilebilir.",
         ],
@@ -344,7 +343,7 @@ SERVICE_DEPTH = {
         "bilgi": ["/bilgi/tabela-cesitleri/"],
         "faqs": [
             ("Roll-up vs X-banner?", "Roll-up kasalı; X-banner daha ekonomik."),
-            ("Fuar standı?", "Tekil display burada; tam stand ayrı hizmet dalgası."),
+            ("Fuar standı?", "Tekil display burada planlanır; tam stand ayrıca değerlendirilir."),
             ("Indoor totem?", "Bu ailede; yol totemi ayrı."),
             ("Adet avantajı?", "Toplu siparişte teklif özeldir."),
             ("Baskı kalitesi?", "Okunur mesafe ve çözünürlük planlanır."),
@@ -538,7 +537,7 @@ def build_sxc(slug: str) -> None:
     canonical = f"{SITE}/hizmet-bolge/tekirdag-{slug}/"
     # Unique local paragraphs per service
     local = {
-        "tabela": "Tekirdağ merkez ve Süleymanpaşa çarşı aksında mağaza tabela talepleri yoğundur. OSB koridoruna giden işler Tekirdağ üssünden planlanır; Çorlu/Çerkezköy için ayrı city URL’leri sonraki dalgadadır.",
+        "tabela": "Tekirdağ merkez ve Süleymanpaşa çarşı aksında mağaza tabela talepleri yoğundur. OSB koridoruna giden işler Tekirdağ üssünden planlanır. Çorlu ve Çerkezköy için de hizmet veriyoruz, iletişime geçebilirsiniz.",
         "isikli-tabela": "Tekirdağ’da gece açık kalan ticaret ve plaza cephelerinde LED ışıklı tabela sık istenir. Lightbox ihtiyacı ayrıca ayrılır.",
         "kutu-harf": "Tekirdağ plaza ve ofis cephelerinde kutu harf, prestij algısını hızlı yükseltir. Channel letters aynı ailede değerlendirilir.",
         "totem": "Tesis girişi ve yol yaklaşımında totem, Tekirdağ çevre sanayi taleplerinde öne çıkar. Temel/montaj keşifle planlanır.",
@@ -546,8 +545,8 @@ def build_sxc(slug: str) -> None:
         "cam-giydirme": "Tekirdağ mağaza vitrinlerinde OWV ve kampanya folyosu hızlı yenilenebilir yüzey sağlar.",
     }[slug]
     faqs = [
-        (f"Tekirdağ’da {name.lower()} yaptırabilir miyim?", "Evet. Bu sayfa yerel ticari niyetin birincil sahibidir."),
-        ("Genel hizmet sayfasından farkı?", f"Genel sayfa “{s['pk']}” niyetini; bu sayfa “tekirdağ {s['pk']}” niyetini taşır."),
+        (f"Tekirdağ’da {name.lower()} yaptırabilir miyim?", f"Evet, Tekirdağ’da {tr_service_phrase(name)} yapıyoruz."),
+        ("Genel hizmet sayfasından farkı?", "Bu sayfa özellikle Tekirdağ’daki müşterilerimize yöneliktir."),
         ("Süleymanpaşa ayrı mı?", "Hayır; Süleymanpaşa talepleri Tekirdağ hizmet sayfalarında toplanır."),
         ("Fiyat?", "Yerel erişim + ölçü/malzeme/montaj keşifle netleşir."),
         ("Keşif?", "Tekirdağ üssünden planlanır."),
@@ -616,9 +615,9 @@ def build_sxc(slug: str) -> None:
     ],
     hubs=[
         ("/bolgeler/tekirdag/", "Tekirdağ", "Tekirdağ yerel hizmet rehberi."),
-        ("/hizmetler/", "Hizmetler", "Hub"),
-        ("/projeler/", "Projeler", "Kanıt"),
-        ("/", "Ana sayfa", "Authority"),
+        ("/hizmetler/", "Hizmetler", "Tüm hizmetlerimize göz atın."),
+        ("/projeler/", "Projeler", "Tamamladığımız işlerden örnekler."),
+        ("/", "Ana sayfa", "Malt Studio ana sayfa."),
     ],
 )}
 <section class="section-band">
@@ -647,7 +646,7 @@ def build_city() -> None:
     faqs = [
         ("Tekirdağ’da tabela / reklam firması mısınız?", "Evet. Malt Studio Tekirdağ merkezlidir."),
         ("Süleymanpaşa sayfası?", "Ayrı sayfa yok; Süleymanpaşa talepleri Tekirdağ sayfalarında toplanır."),
-        ("Çorlu / Çerkezköy?", "Ayrı city URL’leri sonraki dalgada; keşif bugün Tekirdağ üssünden."),
+        ("Çorlu / Çerkezköy?", "Evet; keşif ve montaj Tekirdağ üssünden planlanır."),
         ("Hangi hizmetler?", "Tabela, ışıklı tabela, kutu harf ve diğer tüm hizmetlerimize bakın."),
         ("Proje var mı?", "/projeler/ altında vaka sayfaları vardır."),
         ("Keşif?", "WhatsApp veya telefon ile randevu."),
@@ -673,7 +672,7 @@ def build_city() -> None:
     {block("Tekirdağ’da ne sunuyoruz?", p(
         "Malt Studio; tabela, ışıklı tabela, kutu harf, totem, araç giydirme, cam giydirme ile lightbox, display/POS, ofis branding ve iş güvenliği tabelaları üretir.",
         "Merkez Tekirdağ’dır. Süleymanpaşa ve merkez talepleri bu sayfa ile ilgili yerel hizmet sayfalarında toplanır.",
-        "Sanayi koridoru (Çorlu, Çerkezköy, Kapaklı, Ergene) talepleri operasyonel olarak üsten yönetilir; ayrı city sayfaları yayınlandıkça bağlanacaktır.",
+        "Sanayi koridoru (Çorlu, Çerkezköy, Kapaklı, Ergene) talepleri Tekirdağ üssünden planlanır.",
         "Yerel güven için proje sayfaları ve saha görselleri kritiktir. Görseller onaylandıkça proje URL’lerine eklenir.",
     ))}
     {block("Yerel nasıl çalışırız?", p(
@@ -750,7 +749,7 @@ def build_hizmetler_hub() -> None:
 <section class="page-hero">
   <div class="wrap">
     {crumbs(("Ana Sayfa","/"),("Hizmetler",None))}
-    <div class="eyebrow">Hizmet hub</div>
+    <div class="eyebrow">Hizmetler</div>
     <h1>Hizmetler</h1>
     <p class="lede">Tabela üretiminden montaja, ihtiyacınıza uygun hizmetler.</p>
   </div>
@@ -837,11 +836,10 @@ def build_project(slug: str, name: str, industry: str, services: list[str]) -> N
   <div><dt>Proje</dt><dd>{name}</dd></div>
   <div><dt>Konum</dt><dd><a href="/bolgeler/tekirdag/">Tekirdağ</a></dd></div>
   <div><dt>Sektör</dt><dd><a href="/sektorler/{industry}/">{ind_label}</a></dd></div>
-  <div><dt>Index durumu</dt><dd>noindex,follow — görsel kanıt kapısı</dd></div>
 </dl>"""
 
     applied = "<ul class='scope-list'>" + "".join(
-        f"<li><a href='/hizmetler/{s}/'>{ALL_SERVICES[s]}</a> — kapsam adayı; kesin kalem onaylı iş emrine bağlı.</li>"
+        f"<li><a href='/hizmetler/{s}/'>{ALL_SERVICES[s]}</a></li>"
         for s in services
         if s in ALL_SERVICES
     ) + "</ul>"
@@ -881,19 +879,18 @@ def build_project(slug: str, name: str, industry: str, services: list[str]) -> N
     {block("Proje özeti", p(*case["summary"]))}
     {block("Müşteri ihtiyacı", p(*case["need"]))}
     {block("İş kapsamı", p(*case["scope"]))}
-    {block("Uygulanan hizmetler", applied + p("Hizmet sayfaları ticari niyeti taşır; bu sayfa kanıt düğümüdür."))}
+    {block("Uygulanan hizmetler", applied)}
     {block("Üretim süreci", p(*case["process"]))}
     {block("Montaj / uygulama", p(*case["installation"]))}
     {block("Kullanılan malzemeler", p(*case["materials"]))}
     {block("Teknik detaylar", p(*case["technical"]))}
     {block("Sonuç", p(*case["result"]))}
     <div class="content-block">
-      <h2>EEAT durumu</h2>
-      <p class="awaiting">Gerçek galeri, before/after, montaj, atölye ve malzeme close-up fotoğrafları onaylanana kadar bu vaka indekslenmez (noindex,follow). Uydurma görsel veya uydurma metrik eklenmez.</p>
+      <h2>Proje Görselleri</h2>
+      <p class="awaiting">Bu projenin saha ve teslim fotoğrafları yakında eklenecek.</p>
       <ul>
         <li>Atölye üretimi ve saha montajı aynı operasyonel hat üzerinden planlanır.</li>
-        <li>Yayın öncesi müşteri onayı zorunludur.</li>
-        <li>Kanıt slotları aşağıda hazırdır; <code>&lt;img&gt;</code> eklenince figcaption korunur.</li>
+        <li>Yayın öncesi müşteri onayı alınır.</li>
       </ul>
     </div>
   </div>
@@ -902,7 +899,7 @@ def build_project(slug: str, name: str, industry: str, services: list[str]) -> N
 <section class="section-band paper-band" aria-labelledby="applied-services-title">
   <div class="wrap">
     <h2 id="applied-services-title">İlgili hizmetler</h2>
-    <p class="intro">Bu vakada adı geçen hizmetlerin sahiplik sayfaları.</p>
+    <p class="intro">Bu projede kullandığımız hizmetler.</p>
     <div class="card-grid">{svc_cards}</div>
   </div>
 </section>
@@ -912,7 +909,7 @@ def build_project(slug: str, name: str, industry: str, services: list[str]) -> N
     <div class="card-grid">{cards([
         (f"/sektorler/{industry}/", ind_label, "Dikey bağlam sayfası.", "Sektör"),
         ("/bolgeler/tekirdag/", "Tekirdağ", "Tekirdağ yerel hizmet rehberi.", "City"),
-        ("/projeler/", "Tüm projeler", "Kanıt indeksi.", "Hub"),
+        ("/projeler/", "Tüm projeler", "Tüm proje örnekleri.", "Proje"),
     ])}</div>
   </div>
 </section>
@@ -931,12 +928,12 @@ def build_project(slug: str, name: str, industry: str, services: list[str]) -> N
   </div>
 </section>
 {related_rail(hubs=[
-    ("/projeler/", "Projeler", "Kanıt hub"),
-    ("/hizmetler/", "Hizmetler", "Hizmet hub"),
-    ("/bilgi/", "Bilgi", "Rehber hub"),
-    ("/sektorler/", "Sektörler", "Dikey hub"),
+    ("/projeler/", "Projeler", "Tamamladığımız işlerden örnekler."),
+    ("/hizmetler/", "Hizmetler", "Tüm hizmetlerimize göz atın."),
+    ("/bilgi/", "Bilgi", "Rehberler ve karar içerikleri."),
+    ("/sektorler/", "Sektörler", "Sektöre özel çözümler."),
     ("/bolgeler/tekirdag/", "Tekirdağ", "Tekirdağ yerel hizmet rehberi."),
-    ("/", "Ana sayfa", "Authority"),
+    ("/", "Ana sayfa", "Malt Studio ana sayfa."),
 ])}
 {project_cta(name)}
 </article>
@@ -963,7 +960,7 @@ def build_projeler_hub() -> None:
   <div class="wrap">
     {block("Neden proje sayfaları?", p(
         "Google ve kullanıcılar gerçek iş ister. Proje sayfaları benzersiz kanıttır.",
-        "Görseller onaylanana kadar tekil proje URL’leri noindex,follow olabilir.",
+        "Görseller onaylandıkça proje sayfaları güncellenecek.",
         "Hub indexlenebilir; listelemeyi ve iç link akışını taşır.",
     ))}
     {eeat_block("proje hub")}
