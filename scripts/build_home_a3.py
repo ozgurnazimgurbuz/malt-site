@@ -17,7 +17,6 @@ WA_API = (
     "text=Merhaba%2C%20teklif%20almak%20istiyorum."
 )
 PHONE_TEL = "+905525826959"
-PHONE_DISP = "0552 582 69 59"
 
 A3_CSS = """
   /* -------- A3 home authority -------- */
@@ -308,8 +307,8 @@ MAIN = f"""
     <div class="eyebrow" style="justify-content:center; display:flex;" id="cta-section-tag">Teklif / Keşif</div>
     <h2 id="cta-section-title">Projenizi konuşalım.</h2>
     <div class="cta-actions">
-      <a href="{WA}" class="btn btn-ghost" target="_blank" rel="noopener">WhatsApp</a>
-      <a href="tel:{PHONE_TEL}" class="btn btn-ghost">Ara · {PHONE_DISP}</a>
+      <a href="{WA}" class="btn btn-primary" target="_blank" rel="noopener">WhatsApp</a>
+      <a href="tel:{PHONE_TEL}" class="btn btn-ghost">Ara</a>
     </div>
   </div>
 </section>
