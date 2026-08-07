@@ -160,7 +160,7 @@ MAIN = f"""
       <p id="services-intro">Üretimden montaja, ihtiyacınıza uygun çözümler.</p>
     </div>
     <div class="service-grid enterprise" id="service-grid"></div>
-    <p style="margin-top:28px;"><a class="section-link" href="/hizmetler/">Tüm hizmetler hub →</a></p>
+    <p style="margin-top:28px;"><a class="section-link" href="/hizmetler/">Tüm hizmetler →</a></p>
   </div>
 </section>
 
@@ -181,7 +181,7 @@ MAIN = f"""
       <a class="local-card" href="/sektorler/insaat-santiye/"><h3>İnşaat / Şantiye</h3><p>Geçici ve kalıcı saha işaretleri.</p><span class="meta">Sektör</span></a>
       <a class="local-card" href="/sektorler/saglik/"><h3>Sağlık</h3><p>Klinik ve sağlık noktası görünürlüğü.</p><span class="meta">Sektör</span></a>
     </div>
-    <p style="margin-top:28px;"><a class="section-link" href="/sektorler/">Sektörler hub →</a></p>
+    <p style="margin-top:28px;"><a class="section-link" href="/sektorler/">Tüm sektörler →</a></p>
   </div>
 </section>
 
@@ -238,7 +238,7 @@ MAIN = f"""
       <a class="knowledge-card" href="/bilgi/tabela-fiyati/"><span class="meta">Fiyat</span><h3>Tabela Fiyatını Neler Etkiler?</h3><p>Teklif yerine geçmeyen eğitim içeriği.</p></a>
       <a class="knowledge-card" href="/bilgi/totem-secim-rehberi/"><span class="meta">Tesis</span><h3>Totem Seçim Rehberi</h3><p>Yol ve giriş totem kararları.</p></a>
     </div>
-    <p style="margin-top:28px;"><a class="section-link" href="/bilgi/">Bilgi hub →</a></p>
+    <p style="margin-top:28px;"><a class="section-link" href="/bilgi/">Tüm rehberler →</a></p>
   </div>
 </section>
 
@@ -285,7 +285,7 @@ MAIN = f"""
       <a class="chip" href="/bolgeler/tekirdag/">Süleymanpaşa</a>
     </div>
     <div class="local-grid" style="margin-top:40px;">
-      <a class="local-card" href="/bolgeler/tekirdag/"><h3>Tekirdağ Rehberi</h3><p>Şehir hub — yerel firma niyeti.</p><span class="meta">City</span></a>
+      <a class="local-card" href="/bolgeler/tekirdag/"><h3>Tekirdağ Rehberi</h3><p>Tekirdağ yerel hizmet rehberi.</p><span class="meta">Rehber</span></a>
       <a class="local-card" href="/hizmet-bolge/tekirdag-tabela/"><h3>Tekirdağ Tabela</h3><p>Tekirdağ’da tabela üretimi ve montajı.</p><span class="meta">Yerel</span></a>
       <a class="local-card" href="/hizmet-bolge/tekirdag-isikli-tabela/"><h3>Tekirdağ Işıklı</h3><p>Tekirdağ’da ışıklı tabela hizmeti.</p><span class="meta">Yerel</span></a>
       <a class="local-card" href="/hizmet-bolge/tekirdag-kutu-harf/"><h3>Tekirdağ Kutu Harf</h3><p>Tekirdağ’da kutu harf üretimi.</p><span class="meta">Yerel</span></a>
