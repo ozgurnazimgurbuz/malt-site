@@ -308,7 +308,6 @@ MAIN = f"""
     <div class="eyebrow" style="justify-content:center; display:flex;" id="cta-section-tag">Teklif / Keşif</div>
     <h2 id="cta-section-title">Projenizi konuşalım.</h2>
     <div class="cta-actions">
-      <a href="{WA}" class="btn btn-primary" id="cta-final" target="_blank" rel="noopener">Teklif Al</a>
       <a href="{WA}" class="btn btn-ghost" target="_blank" rel="noopener">WhatsApp</a>
       <a href="tel:{PHONE_TEL}" class="btn btn-ghost">Ara · {PHONE_DISP}</a>
     </div>
