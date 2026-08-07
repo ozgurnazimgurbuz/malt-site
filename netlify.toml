@@ -11,6 +11,7 @@
     X-Content-Type-Options = "nosniff"
     Referrer-Policy = "strict-origin-when-cross-origin"
     Permissions-Policy = "geolocation=(), microphone=(), camera=()"
+    Cache-Control = "public, max-age=0, must-revalidate"
 
 # Bazı istemciler <link rel="icon"> etiketine bakmadan doğrudan /favicon.ico ister.
 [[redirects]]
@@ -27,11 +28,6 @@
 # CMS güncellemelerinin anında görünmesi için her istekte doğrulanır.
 [[headers]]
   for = "/content.json"
-  [headers.values]
-    Cache-Control = "public, max-age=0, must-revalidate"
-
-[[headers]]
-  for = "/index.html"
   [headers.values]
     Cache-Control = "public, max-age=0, must-revalidate"
 
