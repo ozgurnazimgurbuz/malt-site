@@ -560,15 +560,6 @@ def main() -> int:
     # Keep intentional line break in CTA title if present in HTML; prefer CMS plain text.
     cta_title = c.get("ctaSectionTitle") or ""
     doc = replace_inner_by_id(doc, "cta-section-title", esc(cta_title))
-    doc = replace_inner_by_id(doc, "cta-final", esc(c.get("ctaPrimary") or "Teklif Al"))
-    if c.get("whatsappNumber"):
-        from urllib.parse import quote
-
-        msg = quote(c.get("whatsappMessage") or "Merhaba, teklif almak istiyorum.")
-        wa_final = f"https://wa.me/{c['whatsappNumber']}?text={msg}"
-        doc = set_attr_by_id(doc, "cta-final", "href", wa_final)
-        doc = set_attr_by_id(doc, "cta-final", "target", "_blank")
-        doc = set_attr_by_id(doc, "cta-final", "rel", "noopener")
 
     doc = replace_inner_by_id(doc, "footer-about", esc(c.get("footerAbout")))
     doc = replace_inner_by_id(doc, "contact-email", esc(c.get("email")))
