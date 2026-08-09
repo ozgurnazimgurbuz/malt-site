@@ -21,6 +21,16 @@ def esc(value) -> str:
     return html.escape("" if value is None else str(value), quote=True)
 
 
+def eyebrow_html(raw) -> str:
+    """Keep CMS as one string; wrap leading 'Brand · ' for mobile CSS hide."""
+    text = "" if raw is None else str(raw)
+    sep = " · "
+    if sep in text:
+        brand, rest = text.split(sep, 1)
+        return f'<span class="eyebrow-brand">{esc(brand)}{sep}</span>{esc(rest)}'
+    return esc(text)
+
+
 def replace_inner_by_id(doc: str, element_id: str, inner: str) -> str:
     """Replace innerHTML of first element with id=element_id (nested-safe)."""
     open_re = re.compile(
@@ -528,7 +538,7 @@ def main() -> int:
     else:
         doc = re.sub(r"<body[^>]*>", '<body data-prerendered="1">', doc, count=1)
 
-    doc = replace_inner_by_id(doc, "hero-eyebrow", esc(c.get("eyebrow")))
+    doc = replace_inner_by_id(doc, "hero-eyebrow", eyebrow_html(c.get("eyebrow")))
     doc = replace_hero_title(doc, c)
     doc = replace_inner_by_id(doc, "hero-sub", esc(c.get("heroSub")))
     doc = replace_inner_by_id(doc, "cta-primary", esc(c.get("ctaPrimary") or "Teklif Al"))

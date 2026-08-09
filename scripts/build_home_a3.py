@@ -35,6 +35,10 @@ A3_CSS = """
   .hero .scroll-cue{z-index:1; left:56px;}
   .hero h1{line-height:1.08;}
   .section-head h2{line-height:1.08;}
+  /* Logo already brands the page on small screens — drop redundant eyebrow brand. */
+  @media (max-width:900px){
+    #hero-eyebrow .eyebrow-brand{display:none;}
+  }
   .trust-strip{
     border-top:1px solid var(--line); border-bottom:1px solid var(--line);
     padding:28px 0; background:rgba(0,0,0,0.25);
@@ -143,7 +147,7 @@ MAIN = f"""
     <circle cx="400" cy="400" r="400"/>
   </svg>
   <div class="wrap">
-    <div class="eyebrow" id="hero-eyebrow">Malt Studio · Tekirdağ Reklam Ajansı</div>
+    <div class="eyebrow" id="hero-eyebrow"><span class="eyebrow-brand">Malt Studio · </span>Tekirdağ Reklam Ajansı</div>
     <h1 id="hero-title">Markanızı <span id="hero-highlight">sahada</span><br id="hero-br">görünür kılarız.</h1>
     <p class="hero-sub" id="hero-sub">Tabela üretimi, kurumsal kimlik, dijital baskı ve uygulama. Keşiften montaja Tekirdağ merkezli üretim.</p>
     <div class="hero-actions">

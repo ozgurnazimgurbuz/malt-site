@@ -332,6 +332,7 @@
 
 
 
+
   /* -------- A3 home authority -------- */
   .hero{
     justify-content:flex-start;
@@ -348,6 +349,10 @@
   .hero .scroll-cue{z-index:1; left:56px;}
   .hero h1{line-height:1.08;}
   .section-head h2{line-height:1.08;}
+  /* Logo already brands the page on small screens — drop redundant eyebrow brand. */
+  @media (max-width:900px){
+    #hero-eyebrow .eyebrow-brand{display:none;}
+  }
   .trust-strip{
     border-top:1px solid var(--line); border-bottom:1px solid var(--line);
     padding:28px 0; background:rgba(0,0,0,0.25);
@@ -497,7 +502,7 @@
     <circle cx="400" cy="400" r="400"/>
   </svg>
   <div class="wrap">
-    <div class="eyebrow" id="hero-eyebrow">Malt Studio · Tekirdağ Reklam Ajansı</div>
+    <div class="eyebrow" id="hero-eyebrow"><span class="eyebrow-brand">Malt Studio · </span>Tekirdağ Reklam Ajansı</div>
     <h1 id="hero-title">Markanızı <span id="hero-highlight">sahada</span><br id="hero-br">görünür kılarız.</h1>
     <p class="hero-sub" id="hero-sub">Tabela üretimi, kurumsal kimlik, dijital baskı ve uygulama. Keşiften montaja Tekirdağ merkezli üretim.</p>
     <div class="hero-actions">
@@ -710,7 +715,7 @@
         </div>
         <p id="footer-about" style="font-size:14px; color:rgba(241,238,231,0.62); max-width:280px; line-height:1.6;">Tekirdağ merkezli reklam ajansı ve tabela üreticisi. Tabela, kurumsal kimlik, dijital baskı ve uygulama — keşiften montaja.</p>
       </div>
-                                                                                                                                                                                                                                    <div>
+                                                                                                                                                                                                                                          <div>
         <h4>Hizmetler</h4>
         <ul>
           <li><a href="/hizmetler/">Tüm hizmetler</a></li>
@@ -1103,7 +1108,21 @@ async function loadContent() {
     // CMS logosu ve sosyal bağlantılar prerender dalında uygulandı.
     // Aşağısı yalnızca prerender edilmemiş (yerel) ortamlar içindir.
 
-    setText('hero-eyebrow', c.eyebrow);
+    {
+      const eyebrowEl = document.getElementById('hero-eyebrow');
+      if (eyebrowEl && c.eyebrow) {
+        const sep = ' · ';
+        const cut = c.eyebrow.indexOf(sep);
+        if (cut !== -1) {
+          const brand = document.createElement('span');
+          brand.className = 'eyebrow-brand';
+          brand.textContent = c.eyebrow.slice(0, cut + sep.length);
+          eyebrowEl.replaceChildren(brand, c.eyebrow.slice(cut + sep.length));
+        } else {
+          eyebrowEl.textContent = c.eyebrow;
+        }
+      }
+    }
     setText('hero-highlight', c.heroHighlight);
     setText('hero-sub', c.heroSub);
     const heroTitle = document.getElementById('hero-title');
