@@ -168,7 +168,7 @@ MAIN = f"""
     <div class="section-head">
       <div>
         <div class="tag">Sektörler</div>
-        <h2 id="industries-title">Çalıştığımız<br>Dikeyler</h2>
+        <h2 id="industries-title">Çalıştığımız<br>Sektörler</h2>
       </div>
       <p>Farklı sektörlere özel çözümler sunuyoruz.</p>
     </div>
