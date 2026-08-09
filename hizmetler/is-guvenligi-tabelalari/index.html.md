@@ -174,7 +174,7 @@ Yerel keşif ve montaj Tekirdağ üssünden planlanır.
 
 Detay için /bolgeler/tekirdag/ sayfasına bakabilirsiniz.
 
-[WhatsApp](https://wa.me/905525826959?text=Merhaba%2C%20%C4%B0%C5%9F%20G%C3%BCvenli%C4%9Fi%20Tabelalar%C4%B1%20i%C3%A7in%20ke%C5%9Fif%20istiyorum.) [Ara](tel:+905525826959)
+[WhatsApp ile Teklif](https://wa.me/905525826959?text=Merhaba%2C%20%C4%B0%C5%9F%20G%C3%BCvenli%C4%9Fi%20Tabelalar%C4%B1%20i%C3%A7in%20ke%C5%9Fif%20istiyorum.) [Teklif](https://maltstudio.co/#teklif) [Ara](tel:+905525826959)
 
 ## İlgili hizmetler
 

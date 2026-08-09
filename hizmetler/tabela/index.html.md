@@ -165,7 +165,7 @@ Keşif formunda ölçü, yüzey fotoğrafı, gece ihtiyacı ve erişim notları 
 
 Tekirdağ’da tabela üretimi ve montajı için yerel sayfamız: /hizmet-bolge/tekirdag-tabela/.
 
-[WhatsApp](https://wa.me/905525826959?text=Merhaba%2C%20Tabela%20i%C3%A7in%20ke%C5%9Fif%20istiyorum.) [Ara](tel:+905525826959)
+[WhatsApp ile Teklif](https://wa.me/905525826959?text=Merhaba%2C%20Tabela%20i%C3%A7in%20ke%C5%9Fif%20istiyorum.) [Teklif](https://maltstudio.co/#teklif) [Ara](tel:+905525826959)
 
 ## İlgili hizmetler
 

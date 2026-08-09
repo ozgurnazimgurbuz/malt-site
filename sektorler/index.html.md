@@ -11,6 +11,7 @@
 # Sektörler
 
 Farklı sektörlere özel görünürlük çözümleri.
+[WhatsApp ile Teklif](https://wa.me/905525826959?text=Sekt%C3%B6r%20ke%C5%9Ffi) [Teklif](https://maltstudio.co/#teklif)
 
 ## Nasıl kullanılır?
 
@@ -27,6 +28,8 @@ Malt Studio Tekirdağ merkezli çalışır. Bu sektör hub içeriği; atölye ü
 - **Kalite süreci:** Atölye kontrolü → saha hizalama/sabitleme → teslim kontrolü.
 - **Yerel uzmanlık:** Tekirdağ üssünden merkez ve çevre ilçe işleri planlanır; Süleymanpaşa dahil merkez ve çevre ilçelere hizmet verilir.
 - **Kanıt:** Gerçek fotoğraflar proje sayfalarına bağlanır; stok görsel kullanılmaz.
+
+[WhatsApp ile Teklif](https://wa.me/905525826959?text=Sekt%C3%B6r%20ke%C5%9Ffi) [Teklif](https://maltstudio.co/#teklif) [Ara](tel:+905525826959)
 
 ###
 

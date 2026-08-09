@@ -123,3 +123,4 @@ Karar vermenize yardımcı olacak rehberler.
 [TesisTotem Seçim RehberiYol ve giriş totem kararları.](https://maltstudio.co/bilgi/totem-secim-rehberi/)
 
 [Tüm rehberler →](https://maltstudio.co/bilgi/)
+[Teklif Al](#teklif) [WhatsApp](https://wa.me/905525826959?text=Merhaba%2C%20teklif%20almak%20istiyorum.)

@@ -54,8 +54,10 @@ mevcut değeri ezmez:
 - **og:image** `siteUrl` + `seoOgImage` ile mutlak adres üretir; varsayılan marka görseli `/images/og.jpg` (1200×630).
 - **google-site-verification** yalnızca alan doluysa yazılır.
 
-Analitik alanları (`googleAnalyticsId`, `googleTagManagerId`, `facebookPixelId`)
-yalnızca değer saklar; hiçbir izleme betiği yüklenmez.
+`googleAnalyticsId` (GA4 Measurement ID, örn. `G-…`) doluysa `scripts/lib_site.py`
+ve `scripts/prerender.py` tüm public sayfa `<head>` içine deferred gtag yükler
+(`requestIdleCallback` / `load`). `googleTagManagerId` ve `facebookPixelId`
+yalnızca CMS’de saklanır; henüz script enjekte edilmez.
 
 ## İkonlar
 

@@ -661,7 +661,8 @@ def build_city() -> None:
     <h1>Tekirdağ Reklam Ajansı &amp; Üretici</h1>
     <p class="lede">Tekirdağ’da üreten ve uygulayan ekip. Yerel hizmetler, keşif ve montaj buradan planlanır.</p>
     <div class="hero-actions">
-      <a class="btn btn-primary" href="{wa("Tekirdağ keşif")}" target="_blank" rel="noopener">WhatsApp</a>
+      <a class="btn btn-primary" href="{wa("Tekirdağ keşif")}" target="_blank" rel="noopener">WhatsApp ile Teklif</a>
+      <a class="btn btn-ghost" href="/#teklif">Teklif</a>
       <a class="btn btn-ghost" href="tel:{PHONE_TEL}">Ara</a>
       <a class="btn btn-ghost" href="/hizmetler/">Hizmetler</a>
     </div>
@@ -695,6 +696,7 @@ def build_city() -> None:
         "WhatsApp veya telefon ile kısa brief bırakın; uygunsa keşif planlanır.",
         "Tekirdağ’daki spesifik hizmetler için aşağıdaki yerel sayfalara bakın.",
     ))}
+    {mid_cta("Tekirdağ keşif")}
   </div>
 </section>
 {related_rail(
@@ -752,16 +754,21 @@ def build_hizmetler_hub() -> None:
     <div class="eyebrow">Hizmetler</div>
     <h1>Hizmetler</h1>
     <p class="lede">Tabela üretiminden montaja, ihtiyacınıza uygun hizmetler.</p>
+    <div class="hero-actions">
+      <a class="btn btn-primary" href="{wa("Hizmet seçimi için yardımcı olur musunuz?")}" target="_blank" rel="noopener">WhatsApp ile Teklif</a>
+      <a class="btn btn-ghost" href="/#teklif">Teklif</a>
+    </div>
   </div>
 </section>
 <section class="page-main">
   <div class="wrap">
     {block("Nasıl seçmelisiniz?", p(
         "Önce ihtiyacı netleştirin: cephe tabela, ışıklı sistem, kutu harf, araç, cam, lightbox, display veya ofis paketi.",
-        "Kararsızsanız rehberleri (/bilgi/) okuyun veya WhatsApp ile kısa keşif isteyin.",
+        'Kararsızsanız <a href="/bilgi/">rehberleri</a> okuyun veya WhatsApp ile kısa keşif isteyin.',
         "Tekirdağ’daki yerel hizmet sayfalarına aşağıdan ulaşabilirsiniz.",
     ))}
     {eeat_block("hizmet hub")}
+    {mid_cta("Hizmet seçimi için yardımcı olur musunuz?")}
   </div>
 </section>
 {related_rail(
@@ -954,6 +961,10 @@ def build_projeler_hub() -> None:
     <div class="eyebrow">Proof layer</div>
     <h1>Projeler</h1>
     <p class="lede">Tamamladığımız işlerden örnekler. Görseller geldikçe güncellenir.</p>
+    <div class="hero-actions">
+      <a class="btn btn-primary" href="{wa("Yeni proje")}" target="_blank" rel="noopener">WhatsApp ile Teklif</a>
+      <a class="btn btn-ghost" href="/#teklif">Teklif</a>
+    </div>
   </div>
 </section>
 <section class="page-main">
@@ -964,6 +975,7 @@ def build_projeler_hub() -> None:
         "Hub indexlenebilir; listelemeyi ve iç link akışını taşır.",
     ))}
     {eeat_block("proje hub")}
+    {mid_cta("Yeni proje")}
   </div>
 </section>
 <section class="section-band paper-band">
@@ -1041,6 +1053,7 @@ def build_industry(slug: str, name: str, pk: str) -> None:
     <p class="lede">{lede}</p>
     <div class="hero-actions">
       <a class="btn btn-primary" href="{wa(f"{name} sektörü keşif")}" target="_blank" rel="noopener">Teklif Al</a>
+      <a class="btn btn-ghost" href="/#teklif">Teklif</a>
       <a class="btn btn-ghost" href="tel:{PHONE_TEL}">Telefon</a>
     </div>
   </div>
@@ -1091,9 +1104,13 @@ def build_sektorler_hub() -> None:
     {crumbs(("Ana Sayfa","/"),("Sektörler",None))}
     <h1>Sektörler</h1>
     <p class="lede">Farklı sektörlere özel görünürlük çözümleri.</p>
+    <div class="hero-actions">
+      <a class="btn btn-primary" href="{wa("Sektör keşfi")}" target="_blank" rel="noopener">WhatsApp ile Teklif</a>
+      <a class="btn btn-ghost" href="/#teklif">Teklif</a>
+    </div>
   </div>
 </section>
-<section class="page-main"><div class="wrap">{block("Nasıl kullanılır?", p("Sektörünüzü seçin, ilgili hizmetlere ve projelere geçin.","Kararsızsanız Tekirdağ hub veya WhatsApp ile yazın."))}{eeat_block("sektör hub")}</div></section>
+<section class="page-main"><div class="wrap">{block("Nasıl kullanılır?", p("Sektörünüzü seçin, ilgili hizmetlere ve projelere geçin.","Kararsızsanız Tekirdağ hub veya WhatsApp ile yazın."))}{eeat_block("sektör hub")}{mid_cta("Sektör keşfi")}</div></section>
 <section class="section-band paper-band"><div class="wrap"><div class="card-grid">{items}</div></div></section>
 {related_rail(
     services=[(f"/hizmetler/{s}/", n, "Hizmet.") for s, n in list(A0.items())[:6]],
@@ -1198,6 +1215,12 @@ def build_article(slug: str, title: str, primary: str, pk: str) -> None:
         ("İlgili hizmet nerede?", f"/hizmetler/{primary}/ sayfasında."),
         ("Daha fazla rehber?", "/bilgi/ hub’ında."),
     ]
+    svc_name = ALL_SERVICES.get(primary, primary)
+    role_link = (
+        f'Üretim ve teklif için <a href="/hizmetler/{primary}/">{svc_name}</a> '
+        "sayfasına bakabilirsiniz."
+    )
+    wa_msg = f"{svc_name} hakkında bilgi"
     html = f"""{head(title, f"{title} — eğitici rehber. Malt Studio bilgi merkezi.", f"{SITE}/bilgi/{slug}/")}
 <body>
 {header()}
@@ -1206,13 +1229,18 @@ def build_article(slug: str, title: str, primary: str, pk: str) -> None:
     {crumbs(("Ana Sayfa","/"),("Bilgi","/bilgi/"),(title,None))}
     <div class="eyebrow">Rehber</div>
     <h1>{title}</h1>
-    <p class="lede">Eğitici rehber. {ALL_SERVICES.get(primary, primary)} hakkında karar vermenize yardımcı olur.</p>
+    <p class="lede">Eğitici rehber. {svc_name} hakkında karar vermenize yardımcı olur.</p>
+    <div class="hero-actions">
+      <a class="btn btn-primary" href="{wa(wa_msg)}" target="_blank" rel="noopener">WhatsApp ile Teklif</a>
+      <a class="btn btn-ghost" href="/#teklif">Teklif</a>
+      <a class="btn btn-ghost" href="/hizmetler/{primary}/">{svc_name} hizmeti</a>
+    </div>
   </div>
 </section>
 <section class="page-main">
   <div class="wrap">
     {block("Bu yazının rolü", p(
-        f"Üretim ve teklif için /hizmetler/{primary}/ sayfasına bakabilirsiniz.",
+        role_link,
         "Karşılaştırma, avantaj/dezavantaj ve satın alma ipuçları burada; üretim ve teklif keşifte netleşir.",
     ))}
     {''.join(body)}
@@ -1223,6 +1251,7 @@ def build_article(slug: str, title: str, primary: str, pk: str) -> None:
     {block("Bakım notları", ul(a5["maintenance"]))}
     {block("Pratik ek notlar", p(*ARTICLE_EXPAND[slug], ARTICLE_LONG[slug], ARTICLE_BRIDGE[slug]))}
     {eeat_block("rehber")}
+    {mid_cta(wa_msg)}
   </div>
 </section>
 {related_rail(
@@ -1254,9 +1283,13 @@ def build_bilgi_hub() -> None:
     {crumbs(("Ana Sayfa","/"),("Bilgi",None))}
     <h1>Bilgi</h1>
     <p class="lede">Eğitici katman. Hizmet sayfalarını destekler; onların H1’ini çalmaz.</p>
+    <div class="hero-actions">
+      <a class="btn btn-primary" href="{wa("Bilgi sonrası teklif")}" target="_blank" rel="noopener">WhatsApp ile Teklif</a>
+      <a class="btn btn-ghost" href="/#teklif">Teklif</a>
+    </div>
   </div>
 </section>
-<section class="page-main"><div class="wrap">{block("Nasıl okumalı?", p("Önce ihtiyacınızı seçin, sonra ilgili hizmete geçin.","Fiyat eğitimi teklif yerine geçmez."))}{eeat_block("rehber hub")}</div></section>
+<section class="page-main"><div class="wrap">{block("Nasıl okumalı?", p("Önce ihtiyacınızı seçin, sonra ilgili hizmete geçin.","Fiyat eğitimi teklif yerine geçmez."))}{eeat_block("rehber hub")}{mid_cta("Bilgi sonrası teklif")}</div></section>
 <section class="section-band paper-band"><div class="wrap"><div class="card-grid">{items}</div></div></section>
 {related_rail(
     services=[(f"/hizmetler/{s}/", n, f"{n} hizmeti.") for s, n in list(A0.items())[:6]],

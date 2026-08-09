@@ -89,7 +89,7 @@ Dış yüzey temizliği aşındırıcı kimyasalsız yapılmalıdır.
 
 Servis kapsamı teklifte netleştirilir.
 
-[WhatsApp](https://wa.me/905525826959?text=Tekirda%C4%9F%20I%C5%9F%C4%B1kl%C4%B1%20Tabela%20ke%C5%9Fif) [Ara](tel:+905525826959)
+[WhatsApp ile Teklif](https://wa.me/905525826959?text=Tekirda%C4%9F%20I%C5%9F%C4%B1kl%C4%B1%20Tabela%20ke%C5%9Fif) [Teklif](https://maltstudio.co/#teklif) [Ara](tel:+905525826959)
 
 ## İlgili hizmetler
 

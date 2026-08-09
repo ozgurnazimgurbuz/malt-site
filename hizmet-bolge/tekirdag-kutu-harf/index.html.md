@@ -91,7 +91,7 @@ Işıklı modellerde LED servisi güç kaynağı erişimine bağlıdır.
 
 Hasarlı tek harf değişimi çoğu zaman tüm yazıyı sökmeden planlanabilir.
 
-[WhatsApp](https://wa.me/905525826959?text=Tekirda%C4%9F%20Kutu%20Harf%20ke%C5%9Fif) [Ara](tel:+905525826959)
+[WhatsApp ile Teklif](https://wa.me/905525826959?text=Tekirda%C4%9F%20Kutu%20Harf%20ke%C5%9Fif) [Teklif](https://maltstudio.co/#teklif) [Ara](tel:+905525826959)
 
 ## İlgili hizmetler
 

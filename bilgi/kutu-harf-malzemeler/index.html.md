@@ -13,10 +13,11 @@ Rehber
 # Kutu Harf Malzemeleri: Pleksi mi Paslanmaz mı?
 
 Eğitici rehber. Kutu Harf hakkında karar vermenize yardımcı olur.
+[WhatsApp ile Teklif](https://wa.me/905525826959?text=Kutu%20Harf%20hakk%C4%B1nda%20bilgi) [Teklif](https://maltstudio.co/#teklif) [Kutu Harf hizmeti](https://maltstudio.co/hizmetler/kutu-harf/)
 
 ## Bu yazının rolü
 
-Üretim ve teklif için /hizmetler/kutu-harf/ sayfasına bakabilirsiniz.
+Üretim ve teklif için [Kutu Harf](https://maltstudio.co/hizmetler/kutu-harf/)  sayfasına bakabilirsiniz.
 
 Karşılaştırma, avantaj/dezavantaj ve satın alma ipuçları burada; üretim ve teklif keşifte netleşir.
 
@@ -102,6 +103,8 @@ Malt Studio Tekirdağ merkezli çalışır. Bu rehber içeriği; atölye üretim
 - **Kalite süreci:** Atölye kontrolü → saha hizalama/sabitleme → teslim kontrolü.
 - **Yerel uzmanlık:** Tekirdağ üssünden merkez ve çevre ilçe işleri planlanır; Süleymanpaşa dahil merkez ve çevre ilçelere hizmet verilir.
 - **Kanıt:** Gerçek fotoğraflar proje sayfalarına bağlanır; stok görsel kullanılmaz.
+
+[WhatsApp ile Teklif](https://wa.me/905525826959?text=Kutu%20Harf%20hakk%C4%B1nda%20bilgi) [Teklif](https://maltstudio.co/#teklif) [Ara](tel:+905525826959)
 
 ## İlgili hizmetler
 

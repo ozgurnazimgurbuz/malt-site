@@ -460,6 +460,8 @@
 
 
 
+
+
   /* -------- A3 home authority -------- */
   .hero{
     justify-content:flex-start;
@@ -482,13 +484,13 @@
   }
   .trust-strip{
     border-top:1px solid var(--line); border-bottom:1px solid var(--line);
-    padding:28px 0; background:var(--trust-wash);
+    padding:28px 0; background:rgba(0,0,0,0.25);
   }
   .trust-strip ul{
     list-style:none; display:flex; flex-wrap:wrap; gap:12px 28px;
     justify-content:space-between; align-items:center;
     font-size:12px; font-weight:700; letter-spacing:0.12em; text-transform:uppercase;
-    color:var(--muted-trust);
+    color:rgba(241,238,231,0.78);
   }
   .trust-strip li{display:flex; align-items:center; gap:10px; white-space:nowrap;}
   .trust-strip li::before{
@@ -503,7 +505,7 @@
     display:inline-flex; align-items:center;
     padding:12px 16px; border:1px solid var(--line);
     font-size:13px; font-weight:600; letter-spacing:0.04em;
-    color:var(--muted-chip); transition:border-color .2s, color .2s, background .2s;
+    color:rgba(241,238,231,0.82); transition:border-color .2s, color .2s, background .2s;
   }
   a.chip:hover{border-color:var(--taupe); color:var(--paper); background:rgba(176,141,114,0.08);}
   .chip.is-alias{opacity:0.72; border-style:dashed;}
@@ -522,7 +524,7 @@
   .process-step h3{
     font-size:20px; text-transform:none; letter-spacing:0; line-height:1.15;
   }
-  .process-step p{font-size:13px; line-height:1.55; color:var(--muted);}
+  .process-step p{font-size:13px; line-height:1.55; color:rgba(241,238,231,0.62);}
   .why-grid{
     display:grid; grid-template-columns:repeat(5,1fr); gap:1px;
     background:var(--line); border:1px solid var(--line);
@@ -533,16 +535,16 @@
   .why-card h3{
     font-size:20px; text-transform:none; letter-spacing:0; line-height:1.2; margin-bottom:12px;
   }
-  .why-card p{font-size:14px; line-height:1.55; color:var(--muted);}
+  .why-card p{font-size:14px; line-height:1.55; color:rgba(241,238,231,0.62);}
   .knowledge-grid{
     display:grid; grid-template-columns:repeat(3,1fr); gap:1px;
-    background:var(--paper-line); border:1px solid var(--paper-line);
+    background:rgba(26,26,26,0.14); border:1px solid rgba(26,26,26,0.14);
   }
   .knowledge-card{
     background:var(--paper); padding:28px 24px; min-height:160px;
     display:flex; flex-direction:column; gap:10px; color:inherit; transition:background .2s;
   }
-  a.knowledge-card:hover{background:var(--paper-hover);}
+  a.knowledge-card:hover{background:#e6dccb;}
   .knowledge-card .meta{
     font-size:11px; letter-spacing:0.12em; text-transform:uppercase; color:var(--maroon); font-weight:700;
   }
@@ -616,9 +618,9 @@
   </a>
   <div class="header-actions">
     <nav aria-label="Ana menü">
-      <a href="#teklif">Teklif</a>
-      <a href="#iletisim">İletişim</a>
-    </nav>
+    <a href="#teklif">Teklif</a>
+    <a href="#iletisim">İletişim</a>
+  </nav>
     <button type="button" class="theme-toggle" data-theme-toggle aria-pressed="false" aria-label="Açık arayüze geç" title="Açık"><svg class="icon-moon" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M20.2 14.3A8.5 8.5 0 0 1 9.7 3.8 7 7 0 1 0 20.2 14.3z"/></svg><svg class="icon-sun" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.75"><circle cx="12" cy="12" r="4"/><path d="M12 2.5v2.2M12 19.3v2.2M2.5 12h2.2M19.3 12h2.2M5.4 5.4l1.6 1.6M17 17l1.6 1.6M18.6 5.4 17 7M7 17l-1.6 1.6"/></svg></button>
   </div>
 </header>
@@ -744,6 +746,10 @@
       <a class="knowledge-card" href="/bilgi/totem-secim-rehberi/"><span class="meta">Tesis</span><h3>Totem Seçim Rehberi</h3><p>Yol ve giriş totem kararları.</p></a>
     </div>
     <p style="margin-top:28px;"><a class="section-link" href="/bilgi/">Tüm rehberler →</a></p>
+    <div class="cta-actions" style="justify-content:flex-start;margin-top:20px;">
+      <a href="#teklif" class="btn btn-primary">Teklif Al</a>
+      <a href="https://wa.me/905525826959?text=Merhaba%2C%20teklif%20almak%20istiyorum." class="btn btn-ghost" target="_blank" rel="noopener">WhatsApp</a>
+    </div>
   </div>
 </section>
 

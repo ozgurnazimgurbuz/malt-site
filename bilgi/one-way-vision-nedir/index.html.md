@@ -13,10 +13,11 @@ Rehber
 # One Way Vision Nedir?
 
 Eğitici rehber. Cam Giydirme hakkında karar vermenize yardımcı olur.
+[WhatsApp ile Teklif](https://wa.me/905525826959?text=Cam%20Giydirme%20hakk%C4%B1nda%20bilgi) [Teklif](https://maltstudio.co/#teklif) [Cam Giydirme hizmeti](https://maltstudio.co/hizmetler/cam-giydirme/)
 
 ## Bu yazının rolü
 
-Üretim ve teklif için /hizmetler/cam-giydirme/ sayfasına bakabilirsiniz.
+Üretim ve teklif için [Cam Giydirme](https://maltstudio.co/hizmetler/cam-giydirme/)  sayfasına bakabilirsiniz.
 
 Karşılaştırma, avantaj/dezavantaj ve satın alma ipuçları burada; üretim ve teklif keşifte netleşir.
 
@@ -97,6 +98,8 @@ Malt Studio Tekirdağ merkezli çalışır. Bu rehber içeriği; atölye üretim
 - **Kalite süreci:** Atölye kontrolü → saha hizalama/sabitleme → teslim kontrolü.
 - **Yerel uzmanlık:** Tekirdağ üssünden merkez ve çevre ilçe işleri planlanır; Süleymanpaşa dahil merkez ve çevre ilçelere hizmet verilir.
 - **Kanıt:** Gerçek fotoğraflar proje sayfalarına bağlanır; stok görsel kullanılmaz.
+
+[WhatsApp ile Teklif](https://wa.me/905525826959?text=Cam%20Giydirme%20hakk%C4%B1nda%20bilgi) [Teklif](https://maltstudio.co/#teklif) [Ara](tel:+905525826959)
 
 ## İlgili hizmetler
 

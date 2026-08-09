@@ -11,6 +11,7 @@
 # Bilgi
 
 Eğitici katman. Hizmet sayfalarını destekler; onların H1’ini çalmaz.
+[WhatsApp ile Teklif](https://wa.me/905525826959?text=Bilgi%20sonras%C4%B1%20teklif) [Teklif](https://maltstudio.co/#teklif)
 
 ## Nasıl okumalı?
 
@@ -27,6 +28,8 @@ Malt Studio Tekirdağ merkezli çalışır. Bu rehber hub içeriği; atölye ür
 - **Kalite süreci:** Atölye kontrolü → saha hizalama/sabitleme → teslim kontrolü.
 - **Yerel uzmanlık:** Tekirdağ üssünden merkez ve çevre ilçe işleri planlanır; Süleymanpaşa dahil merkez ve çevre ilçelere hizmet verilir.
 - **Kanıt:** Gerçek fotoğraflar proje sayfalarına bağlanır; stok görsel kullanılmaz.
+
+[WhatsApp ile Teklif](https://wa.me/905525826959?text=Bilgi%20sonras%C4%B1%20teklif) [Teklif](https://maltstudio.co/#teklif) [Ara](tel:+905525826959)
 
 ###
 

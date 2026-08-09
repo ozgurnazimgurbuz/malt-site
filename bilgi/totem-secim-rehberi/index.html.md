@@ -13,10 +13,11 @@ Rehber
 # Totem Tabela Seçim Rehberi
 
 Eğitici rehber. Totem hakkında karar vermenize yardımcı olur.
+[WhatsApp ile Teklif](https://wa.me/905525826959?text=Totem%20hakk%C4%B1nda%20bilgi) [Teklif](https://maltstudio.co/#teklif) [Totem hizmeti](https://maltstudio.co/hizmetler/totem/)
 
 ## Bu yazının rolü
 
-Üretim ve teklif için /hizmetler/totem/ sayfasına bakabilirsiniz.
+Üretim ve teklif için [Totem](https://maltstudio.co/hizmetler/totem/)  sayfasına bakabilirsiniz.
 
 Karşılaştırma, avantaj/dezavantaj ve satın alma ipuçları burada; üretim ve teklif keşifte netleşir.
 
@@ -100,6 +101,8 @@ Malt Studio Tekirdağ merkezli çalışır. Bu rehber içeriği; atölye üretim
 - **Kalite süreci:** Atölye kontrolü → saha hizalama/sabitleme → teslim kontrolü.
 - **Yerel uzmanlık:** Tekirdağ üssünden merkez ve çevre ilçe işleri planlanır; Süleymanpaşa dahil merkez ve çevre ilçelere hizmet verilir.
 - **Kanıt:** Gerçek fotoğraflar proje sayfalarına bağlanır; stok görsel kullanılmaz.
+
+[WhatsApp ile Teklif](https://wa.me/905525826959?text=Totem%20hakk%C4%B1nda%20bilgi) [Teklif](https://maltstudio.co/#teklif) [Ara](tel:+905525826959)
 
 ## İlgili hizmetler
 

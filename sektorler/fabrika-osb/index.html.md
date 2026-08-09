@@ -13,7 +13,7 @@ Sektör
 # Fabrika & OSB
 
 Sanayi tesislerinde tabela; kimlik, yön ve dayanımdır.
-[Teklif Al](https://wa.me/905525826959?text=Fabrika%20%26%20OSB%20sekt%C3%B6r%C3%BC%20ke%C5%9Fif) [Telefon](tel:+905525826959)
+[Teklif Al](https://wa.me/905525826959?text=Fabrika%20%26%20OSB%20sekt%C3%B6r%C3%BC%20ke%C5%9Fif) [Teklif](https://maltstudio.co/#teklif) [Telefon](tel:+905525826959)
 
 ## Sektör ihtiyacı
 
@@ -96,7 +96,7 @@ Malt Studio Tekirdağ merkezli çalışır. Bu sektör içeriği; atölye üreti
 - **Yerel uzmanlık:** Tekirdağ üssünden merkez ve çevre ilçe işleri planlanır; Süleymanpaşa dahil merkez ve çevre ilçelere hizmet verilir.
 - **Kanıt:** Gerçek fotoğraflar proje sayfalarına bağlanır; stok görsel kullanılmaz.
 
-[WhatsApp](https://wa.me/905525826959?text=Fabrika%20%26%20OSB%20sekt%C3%B6r%C3%BC%20ke%C5%9Fif) [Ara](tel:+905525826959)
+[WhatsApp ile Teklif](https://wa.me/905525826959?text=Fabrika%20%26%20OSB%20sekt%C3%B6r%C3%BC%20ke%C5%9Fif) [Teklif](https://maltstudio.co/#teklif) [Ara](tel:+905525826959)
 
 ## İlgili hizmetler
 

@@ -13,7 +13,7 @@ Tekirdağ Yerel Rehber
 # Tekirdağ Reklam Ajansı & Üretici
 
 Tekirdağ’da üreten ve uygulayan ekip. Yerel hizmetler, keşif ve montaj buradan planlanır.
-[WhatsApp](https://wa.me/905525826959?text=Tekirda%C4%9F%20ke%C5%9Fif) [Ara](tel:+905525826959) [Hizmetler](https://maltstudio.co/hizmetler/)
+[WhatsApp ile Teklif](https://wa.me/905525826959?text=Tekirda%C4%9F%20ke%C5%9Fif) [Teklif](https://maltstudio.co/#teklif) [Ara](tel:+905525826959) [Hizmetler](https://maltstudio.co/hizmetler/)
 
 ## Tekirdağ’da ne sunuyoruz?
 
@@ -61,6 +61,8 @@ Merkez ve Süleymanpaşa talepleri Tekirdağ hizmet sayfalarında toplanır.
 WhatsApp veya telefon ile kısa brief bırakın; uygunsa keşif planlanır.
 
 Tekirdağ’daki spesifik hizmetler için aşağıdaki yerel sayfalara bakın.
+
+[WhatsApp ile Teklif](https://wa.me/905525826959?text=Tekirda%C4%9F%20ke%C5%9Fif) [Teklif](https://maltstudio.co/#teklif) [Ara](tel:+905525826959)
 
 ## İlgili hizmetler
 

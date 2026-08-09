@@ -13,12 +13,13 @@ Hizmetler
 # Hizmetler
 
 Tabela üretiminden montaja, ihtiyacınıza uygun hizmetler.
+[WhatsApp ile Teklif](https://wa.me/905525826959?text=Hizmet%20se%C3%A7imi%20i%C3%A7in%20yard%C4%B1mc%C4%B1%20olur%20musunuz%3F) [Teklif](https://maltstudio.co/#teklif)
 
 ## Nasıl seçmelisiniz?
 
 Önce ihtiyacı netleştirin: cephe tabela, ışıklı sistem, kutu harf, araç, cam, lightbox, display veya ofis paketi.
 
-Kararsızsanız rehberleri (/bilgi/) okuyun veya WhatsApp ile kısa keşif isteyin.
+Kararsızsanız [rehberleri](https://maltstudio.co/bilgi/)  okuyun veya WhatsApp ile kısa keşif isteyin.
 
 Tekirdağ’daki yerel hizmet sayfalarına aşağıdan ulaşabilirsiniz.
 
@@ -31,6 +32,8 @@ Malt Studio Tekirdağ merkezli çalışır. Bu hizmet hub içeriği; atölye ür
 - **Kalite süreci:** Atölye kontrolü → saha hizalama/sabitleme → teslim kontrolü.
 - **Yerel uzmanlık:** Tekirdağ üssünden merkez ve çevre ilçe işleri planlanır; Süleymanpaşa dahil merkez ve çevre ilçelere hizmet verilir.
 - **Kanıt:** Gerçek fotoğraflar proje sayfalarına bağlanır; stok görsel kullanılmaz.
+
+[WhatsApp ile Teklif](https://wa.me/905525826959?text=Hizmet%20se%C3%A7imi%20i%C3%A7in%20yard%C4%B1mc%C4%B1%20olur%20musunuz%3F) [Teklif](https://maltstudio.co/#teklif) [Ara](tel:+905525826959)
 
 ## İlgili rehberler
 

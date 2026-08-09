@@ -163,7 +163,7 @@ Işıklı sistemlerde yedek güç kaynağı ihtiyacı konuşulabilir ama stok va
 
 Tekirdağ’da ışıklı tabela hizmeti için yerel sayfamız: /hizmet-bolge/tekirdag-isikli-tabela/.
 
-[WhatsApp](https://wa.me/905525826959?text=Merhaba%2C%20I%C5%9F%C4%B1kl%C4%B1%20Tabela%20i%C3%A7in%20ke%C5%9Fif%20istiyorum.) [Ara](tel:+905525826959)
+[WhatsApp ile Teklif](https://wa.me/905525826959?text=Merhaba%2C%20I%C5%9F%C4%B1kl%C4%B1%20Tabela%20i%C3%A7in%20ke%C5%9Fif%20istiyorum.) [Teklif](https://maltstudio.co/#teklif) [Ara](tel:+905525826959)
 
 ## İlgili hizmetler
 

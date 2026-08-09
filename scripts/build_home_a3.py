@@ -258,6 +258,10 @@ MAIN = f"""
       <a class="knowledge-card" href="/bilgi/totem-secim-rehberi/"><span class="meta">Tesis</span><h3>Totem Seçim Rehberi</h3><p>Yol ve giriş totem kararları.</p></a>
     </div>
     <p style="margin-top:28px;"><a class="section-link" href="/bilgi/">Tüm rehberler →</a></p>
+    <div class="cta-actions" style="justify-content:flex-start;margin-top:20px;">
+      <a href="#teklif" class="btn btn-primary">Teklif Al</a>
+      <a href="{WA}" class="btn btn-ghost" target="_blank" rel="noopener">WhatsApp</a>
+    </div>
   </div>
 </section>
 

@@ -91,7 +91,7 @@ Kampanya sonunda kontrollü söküm planlanır.
 
 Buğu veya kenar kalkması görülürse erken müdahale önerilir.
 
-[WhatsApp](https://wa.me/905525826959?text=Tekirda%C4%9F%20Cam%20Giydirme%20ke%C5%9Fif) [Ara](tel:+905525826959)
+[WhatsApp ile Teklif](https://wa.me/905525826959?text=Tekirda%C4%9F%20Cam%20Giydirme%20ke%C5%9Fif) [Teklif](https://maltstudio.co/#teklif) [Ara](tel:+905525826959)
 
 ## İlgili hizmetler
 

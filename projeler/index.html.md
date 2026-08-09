@@ -13,6 +13,7 @@ Proof layer
 # Projeler
 
 Tamamladığımız işlerden örnekler. Görseller geldikçe güncellenir.
+[WhatsApp ile Teklif](https://wa.me/905525826959?text=Yeni%20proje) [Teklif](https://maltstudio.co/#teklif)
 
 ## Neden proje sayfaları?
 
@@ -31,6 +32,8 @@ Malt Studio Tekirdağ merkezli çalışır. Bu proje hub içeriği; atölye üre
 - **Kalite süreci:** Atölye kontrolü → saha hizalama/sabitleme → teslim kontrolü.
 - **Yerel uzmanlık:** Tekirdağ üssünden merkez ve çevre ilçe işleri planlanır; Süleymanpaşa dahil merkez ve çevre ilçelere hizmet verilir.
 - **Kanıt:** Gerçek fotoğraflar proje sayfalarına bağlanır; stok görsel kullanılmaz.
+
+[WhatsApp ile Teklif](https://wa.me/905525826959?text=Yeni%20proje) [Teklif](https://maltstudio.co/#teklif) [Ara](tel:+905525826959)
 
 ## Vakalar
 
