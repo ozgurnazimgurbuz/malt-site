@@ -20,6 +20,7 @@ PHONE_TEL = "+905525826959"
 
 A3_CSS = """
   /* -------- A3 home authority -------- */
+  .section-head h2{line-height:1.08;}
   .trust-strip{
     border-top:1px solid var(--line); border-bottom:1px solid var(--line);
     padding:28px 0; background:rgba(0,0,0,0.25);
