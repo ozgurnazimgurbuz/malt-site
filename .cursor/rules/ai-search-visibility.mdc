@@ -1,0 +1,101 @@
+---
+description: Malt Studio (maltstudio.co) içerik ve sayfa üretimi için Google'ın generative AI arama (AI Overviews / AI Mode) görünürlük rehberi. Yeni sayfa, hizmet metni, bilgi rehberi veya proje yazısı üretilirken/düzenlenirken bu kurallar uygulanır.
+globs:
+  - "**/*.md"
+  - "**/*.mdx"
+  - "**/hizmetler/**"
+  - "**/sektorler/**"
+  - "**/bolgeler/**"
+  - "**/bilgi/**"
+  - "**/projeler/**"
+  - "**/hizmet-bolge/**"
+alwaysApply: false
+---
+
+# Malt Studio — Yapay Zeka Arama Görünürlüğü Kuralları
+
+Kaynak: Google Search Central resmi rehberi — "Optimizing your website for
+generative AI features on Google Search" (developers.google.com/search/docs/fundamentals/ai-optimization-guide,
+son güncelleme 2026-07-10).
+
+Özet ilke: AI Overviews ve AI Mode ayrı bir "AEO/GEO" disiplini değil,
+Google'ın çekirdek arama indeksini RAG + query fan-out ile kullanması.
+Yani klasik SEO iyi yapıldığında AI görünürlüğü de gelir. Bu dosya bu ilkeyi
+Malt Studio'nun gerçek site yapısına uyarlar.
+
+## 1. HER İÇERİK İÇİN ZORUNLU KONTROL
+
+İçerik üretirken (hizmet sayfası, sektör sayfası, bölge sayfası, bilgi
+rehberi, proje yazısı) aşağıdakileri kontrol et:
+
+- **Non-commodity olsun.** "Kutu harf tabela nedir" gibi herkesin yazabileceği
+  jenerik tanım değil; Malt Studio'nun gerçek keşif/üretim/montaj sürecinden
+  gelen somut detay içersin. Örnek: "Pleksi kutu harf mi paslanmaz mı"
+  sorusuna soyut cevap değil, hangi cephe tipinde hangisini seçtiğimiz,
+  neden, hangi sorunla karşılaştığımız.
+- **Birinci elden deneyim vurgusu.** "Tekirdağ'da OSB'de X fabrikasına totem
+  taktık, saha koşulu şuydu, şu malzemeyi seçtik" gibi. Google özellikle
+  "first-hand review vs. summary of existing content" ayrımını vurguluyor.
+- **İnsan için düzenli yapı.** Paragraflar, başlıklar (H2/H3), net akış.
+  Yapay zeka için özel format değil — okuyan kişi için düzenli olsun yeter.
+- **Görsel/video destekle.** Saha fotoğrafı, montaj öncesi/sonrası, video —
+  varsa gerçek proje görselleri (bkz. madde 3).
+
+## 2. YAPMA — Google'ın açıkça gereksiz dediği şeyler
+
+Bunlara zaman harcama, hiçbiri Google Search / AI Overviews / AI Mode
+görünürlüğünü artırmaz:
+
+- ❌ `llms.txt` veya benzeri "AI için" özel dosya oluşturma. Google bunları
+  okumuyor.
+- ❌ İçeriği yapay zeka için küçük parçalara ("chunking") bölme.
+- ❌ Sadece AI botları için farklı/ayrı metin yazma. Google eş anlamlıları
+  zaten anlıyor, her varyasyonu yazmaya gerek yok.
+- ❌ Sahte/yapay "marka bahsi" (mention) toplama girişimleri.
+- ❌ Structured data'yı (schema.org) AI görünürlüğü için zorunlu sanma —
+  faydalı ama şart değil, genel SEO için zaten iyi bir pratik.
+
+## 3. MALT STUDIO'YA ÖZEL ÖNCELİKLER
+
+Site incelemesinden çıkan somut aksiyon maddeleri:
+
+1. **`/projeler/` sayfası şu an placeholder içerik taşıyor** ("Portfolyo
+   içerikleri örnek/yer tutucudur" notu sitede mevcut). Bu, Google'ın
+   "non-commodity, first-hand experience" vurgusuyla doğrudan çelişiyor.
+   Öncelik: gerçek proje detaylarıyla (müşteri adı, saha koşulu, malzeme
+   kararı, montaj süreci, sonuç) doldurmak. Bu, hem klasik SEO hem AI
+   görünürlüğü için en yüksek etkili tek adım.
+2. **`/bilgi/` rehberleri** (tabela çeşitleri, ışıklı mı ışıksız mı, kutu
+   harf malzemeler vb.) — bunlar zaten doğru formatta (soru-cevap, karar
+   yardımcısı). Genel bilgiyi tekrar etmek yerine Malt Studio'nun kendi
+   karar kriterlerini, sahada yaşanan gerçek örnekleri ekleyerek
+   derinleştir.
+3. **Bölge sayfaları** (`/bolgeler/tekirdag/`, `/hizmet-bolge/*`) — Google
+   Business Profile bilgisinin güncel olması burada önemli (Google'ın
+   rehberinde "local business details" maddesi). Yeni ilçe/bölge sayfası
+   eklerken jenerik "Tekirdağ'da hizmet veriyoruz" değil, o bölgeye özel
+   gerçek proje/deneyim referansı ekle.
+4. **Hizmet sayfaları** (tabela, ışıklı tabela, kutu harf, totem, cam/araç
+   giydirme...) — teknik detay (malzeme, ölçü aralığı, üretim süresi, montaj
+   koşulları) somut ve spesifik olmalı; rakiplerin de yazabileceği genel
+   tanımlardan kaçın.
+5. **Sektör sayfaları** (fabrika/OSB, perakende, restoran/cafe, plaza/ofis,
+   inşaat/şantiye, sağlık) — her sektöre özgü gerçek bir vaka/örnek varsa
+   ekle; yoksa öncelik proje sayfalarını doldurmak olmalı.
+
+## 4. TEKNİK HATIRLATMA
+
+- Sayfa Google tarafından indexlenip snippet ile gösterilebilir olmalı
+  (robots.txt engeli yok, noindex yok) — AI Overviews/AI Mode'da görünmenin
+  ön koşulu bu, ekstra bir teknik gereksinim yok.
+- JS ile render edilen kritik metin varsa, Googlebot'un görebildiğinden
+  emin ol.
+- Duplicate content'ten kaçın (özellikle bölge sayfaları birbirine çok
+  benzeyebilir — her biri gerçekten farklı/özgün bilgi taşımalı).
+
+## 5. ÖLÇÜM
+
+Search Console'da **Generative AI performance** raporunu düzenli kontrol
+et — AI Overviews/AI Mode'dan gelen görünürlüğü orada görebilirsin. Üçüncü
+parti "AI görünürlük skoru" araçlarının Google'ın iç verilerine erişimi
+yoktur, bu tür iddialara temkinli yaklaş.
