@@ -72,7 +72,9 @@
   font-family: "Big Shoulders Display";
   font-style: normal;
   font-weight: 600 900;
-  font-display: optional;
+  /* swap (not optional): latin-ext often misses the optional timeout on mobile,
+     leaving İ/Ğ/Ş in fallback while ASCII/ÖÜ stay in Big Shoulders. */
+  font-display: swap;
   src: url("/assets/fonts/big-shoulders-latin-ext.woff2") format("woff2");
   unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
@@ -80,7 +82,7 @@
   font-family: "Big Shoulders Display";
   font-style: normal;
   font-weight: 600 900;
-  font-display: optional;
+  font-display: swap;
   src: url("/assets/fonts/big-shoulders-latin.woff2") format("woff2");
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
@@ -181,8 +183,8 @@
 <a class="card" href="/hizmetler/ofis-branding/"><h3>Ofis Branding</h3><p>Ofis Branding hizmeti.</p><span class="meta">Hizmet</span></a>
 <a class="card" href="/hizmetler/isikli-tabela/"><h3>Işıklı Tabela</h3><p>Işıklı Tabela hizmeti.</p><span class="meta">Hizmet</span></a>
 <a class="card" href="/hizmetler/tabela/"><h3>Tabela</h3><p>Tabela hizmeti.</p><span class="meta">Hizmet</span></a></div></div></section>
-<section class="section-band" aria-labelledby="rel-bil"><div class="wrap"><h2 id="rel-bil">İlgili rehberler</h2><div class="card-grid"><a class="card" href="/bilgi/kutu-harf-malzemeler/"><h3>Rehber</h3><p>Karar vermenize yardımcı rehber.</p><span class="meta">Bilgi</span></a>
-<a class="card" href="/bilgi/tabela-cesitleri/"><h3>Rehber</h3><p>Karar vermenize yardımcı rehber.</p><span class="meta">Bilgi</span></a></div></div></section>
+<section class="section-band" aria-labelledby="rel-bil"><div class="wrap"><h2 id="rel-bil">İlgili rehberler</h2><div class="card-grid"><a class="card" href="/bilgi/kutu-harf-malzemeler/"><h3>Rehber</h3><p>Eğitim.</p><span class="meta">Bilgi</span></a>
+<a class="card" href="/bilgi/tabela-cesitleri/"><h3>Rehber</h3><p>Eğitim.</p><span class="meta">Bilgi</span></a></div></div></section>
 <section class="section-band paper-band" aria-labelledby="rel-prj"><div class="wrap"><h2 id="rel-prj">İlgili projeler</h2><div class="card-grid"><a class="card" href="/projeler/mera-otel/"><h3>Mera Otel</h3><p>Tamamlanan proje örneği.</p><span class="meta">Proje</span></a>
 <a class="card" href="/projeler/ekip-yazilim/"><h3>Ekip Yazılım</h3><p>Tamamlanan proje örneği.</p><span class="meta">Proje</span></a>
 <a class="card" href="/projeler/volt-enerji/"><h3>Volt Enerji</h3><p>Tamamlanan proje örneği.</p><span class="meta">Proje</span></a></div><p style="margin-top:20px;"><a href="/projeler/">Tüm projeler →</a></p></div></section>

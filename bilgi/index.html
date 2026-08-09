@@ -72,7 +72,9 @@
   font-family: "Big Shoulders Display";
   font-style: normal;
   font-weight: 600 900;
-  font-display: optional;
+  /* swap (not optional): latin-ext often misses the optional timeout on mobile,
+     leaving İ/Ğ/Ş in fallback while ASCII/ÖÜ stay in Big Shoulders. */
+  font-display: swap;
   src: url("/assets/fonts/big-shoulders-latin-ext.woff2") format("woff2");
   unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
@@ -80,7 +82,7 @@
   font-family: "Big Shoulders Display";
   font-style: normal;
   font-weight: 600 900;
-  font-display: optional;
+  font-display: swap;
   src: url("/assets/fonts/big-shoulders-latin.woff2") format("woff2");
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
@@ -146,13 +148,13 @@
   <a class="btn btn-ghost" href="/#teklif" style="margin-left:10px;">Teklif</a>
   <a class="btn btn-ghost" href="tel:+905525826959" style="margin-left:10px;">Ara</a></p>
 </div></div></section>
-<section class="section-band paper-band"><div class="wrap"><div class="card-grid"><a class="card" href="/bilgi/tabela-cesitleri/"><h3>Tabela Çeşitleri: Hangisi Ne İşe Yarar?</h3><p>İlgili sayfa.</p><span class="meta">Rehber</span></a>
-<a class="card" href="/bilgi/isikli-mi-isiksiz-mi/"><h3>Işıklı Tabela mı Işıksız mı?</h3><p>İlgili sayfa.</p><span class="meta">Rehber</span></a>
-<a class="card" href="/bilgi/kutu-harf-malzemeler/"><h3>Kutu Harf Malzemeleri: Pleksi mi Paslanmaz mı?</h3><p>İlgili sayfa.</p><span class="meta">Rehber</span></a>
-<a class="card" href="/bilgi/one-way-vision-nedir/"><h3>One Way Vision Nedir?</h3><p>Vitrin folyo mantığı.</p><span class="meta">Rehber</span></a>
-<a class="card" href="/bilgi/arac-giydirme-rehberi/"><h3>Araç Giydirme Rehberi: Süreç, Ömür, Filo</h3><p>İlgili sayfa.</p><span class="meta">Rehber</span></a>
-<a class="card" href="/bilgi/tabela-fiyati/"><h3>Tabela Fiyatını Neler Etkiler?</h3><p>Fiyatı etkileyen faktörler.</p><span class="meta">Rehber</span></a>
-<a class="card" href="/bilgi/totem-secim-rehberi/"><h3>Totem Tabela Seçim Rehberi</h3><p>İlgili sayfa.</p><span class="meta">Rehber</span></a></div></div></section>
+<section class="section-band paper-band"><div class="wrap"><div class="card-grid"><a class="card" href="/bilgi/tabela-cesitleri/"><h3>Tabela Çeşitleri: Hangisi Ne İşe Yarar?</h3><p>PK: tabela çeşitleri</p><span class="meta">Rehber</span></a>
+<a class="card" href="/bilgi/isikli-mi-isiksiz-mi/"><h3>Işıklı Tabela mı Işıksız mı?</h3><p>PK: ışıklı mı ışıksız mı</p><span class="meta">Rehber</span></a>
+<a class="card" href="/bilgi/kutu-harf-malzemeler/"><h3>Kutu Harf Malzemeleri: Pleksi mi Paslanmaz mı?</h3><p>PK: kutu harf malzemeleri</p><span class="meta">Rehber</span></a>
+<a class="card" href="/bilgi/one-way-vision-nedir/"><h3>One Way Vision Nedir?</h3><p>PK: one way vision nedir</p><span class="meta">Rehber</span></a>
+<a class="card" href="/bilgi/arac-giydirme-rehberi/"><h3>Araç Giydirme Rehberi: Süreç, Ömür, Filo</h3><p>PK: araç giydirme süreci</p><span class="meta">Rehber</span></a>
+<a class="card" href="/bilgi/tabela-fiyati/"><h3>Tabela Fiyatını Neler Etkiler?</h3><p>PK: tabela fiyatını neler etkiler</p><span class="meta">Rehber</span></a>
+<a class="card" href="/bilgi/totem-secim-rehberi/"><h3>Totem Tabela Seçim Rehberi</h3><p>PK: totem tabela nasıl seçilir</p><span class="meta">Rehber</span></a></div></div></section>
 <section class="section-band paper-band" aria-labelledby="rel-svc"><div class="wrap"><h2 id="rel-svc">İlgili hizmetler</h2><div class="card-grid"><a class="card" href="/hizmetler/tabela/"><h3>Tabela</h3><p>Tabela hizmeti.</p><span class="meta">Hizmet</span></a>
 <a class="card" href="/hizmetler/isikli-tabela/"><h3>Işıklı Tabela</h3><p>Işıklı Tabela hizmeti.</p><span class="meta">Hizmet</span></a>
 <a class="card" href="/hizmetler/kutu-harf/"><h3>Kutu Harf</h3><p>Kutu Harf hizmeti.</p><span class="meta">Hizmet</span></a>

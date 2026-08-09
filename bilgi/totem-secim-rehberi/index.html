@@ -72,7 +72,9 @@
   font-family: "Big Shoulders Display";
   font-style: normal;
   font-weight: 600 900;
-  font-display: optional;
+  /* swap (not optional): latin-ext often misses the optional timeout on mobile,
+     leaving İ/Ğ/Ş in fallback while ASCII/ÖÜ stay in Big Shoulders. */
+  font-display: swap;
   src: url("/assets/fonts/big-shoulders-latin-ext.woff2") format("woff2");
   unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
@@ -80,7 +82,7 @@
   font-family: "Big Shoulders Display";
   font-style: normal;
   font-weight: 600 900;
-  font-display: optional;
+  font-display: swap;
   src: url("/assets/fonts/big-shoulders-latin.woff2") format("woff2");
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
@@ -136,7 +138,7 @@
   <div class="wrap">
     <div class="content-block"><h2>Bu yazının rolü</h2><p>Üretim ve teklif için <a href="/hizmetler/totem/">Totem</a> sayfasına bakabilirsiniz.</p>
 <p>Karşılaştırma, avantaj/dezavantaj ve satın alma ipuçları burada; üretim ve teklif keşifte netleşir.</p></div>
-    <div class="content-block"><h2>Konum</h2><p>Yol kenarı, tesis girişi, otopark.</p></div><div class="content-block"><h2>Okuma mesafesi</h2><p>Hız ve görüş açısı yüksekliği belirler.</p></div><div class="content-block"><h2>Işık</h2><p>Gece yaklaşım ihtiyacı.</p></div><div class="content-block"><h2>Temel</h2><p>Statik ve saha koşulları.</p></div><div class="content-block"><h2>Pylon</h2></div><div class="content-block"><h2>Indoor display</h2><p>Display/POS sayfasına aittir.</p></div><div class="content-block"><h2>Ticari sayfa</h2><p>/hizmetler/totem/.</p></div>
+    <div class="content-block"><h2>Konum</h2><p>Yol kenarı, tesis girişi, otopark.</p></div><div class="content-block"><h2>Okuma mesafesi</h2><p>Hız ve görüş açısı yüksekliği belirler.</p></div><div class="content-block"><h2>Işık</h2><p>Gece yaklaşım ihtiyacı.</p></div><div class="content-block"><h2>Temel</h2><p>Statik ve saha koşulları.</p></div><div class="content-block"><h2>Pylon</h2><p>Aynı aile; ayrı doorway yok.</p></div><div class="content-block"><h2>Indoor display</h2><p>Display/POS sayfasına aittir.</p></div><div class="content-block"><h2>Ticari sayfa</h2><p>/hizmetler/totem/.</p></div>
     <div class="content-block"><h2>Avantajlar</h2><ul><li>Uzaktan algı.</li><li>Tesis/yol yaklaşımında yön + kimlik.</li></ul></div>
     <div class="content-block"><h2>Dezavantajlar / dikkat</h2><ul><li>Temel/izin maliyeti eklenebilir.</li><li>Yanlış yükseklik okumayı bozar.</li></ul></div>
     <div class="content-block"><h2>Sık yapılan hatalar</h2><ul><li>Indoor display’i outdoor totem sanmak</li><li>Görüş mesafesini yok saymak</li><li>Temeli sonraya bırakmak</li></ul></div>
@@ -184,7 +186,7 @@
 <a class="card" href="/bolgeler/tekirdag/"><h3>Tekirdağ</h3><p>Tekirdağ yerel hizmet rehberi.</p><span class="meta">Keşif</span></a>
 <a class="card" href="/"><h3>Ana sayfa</h3><p>Malt Studio ana sayfa.</p><span class="meta">Keşif</span></a></div></div></section>
 <section class="section-band">
-  <div class="wrap"><h2>SSS</h2><div class="faq"><details><summary>Pylon ayrı mı?</summary></details>
+  <div class="wrap"><h2>SSS</h2><div class="faq"><details><summary>Pylon ayrı mı?</summary><p>Aynı aile; ayrı doorway yok.</p></details>
 <details><summary>Display totem?</summary><p>/hizmetler/display-pos/.</p></details>
 <details><summary>Sipariş?</summary><p>/hizmetler/totem/.</p></details>
 <details><summary>İlgili hizmet nerede?</summary><p>/hizmetler/totem/ sayfasında.</p></details>
