@@ -255,7 +255,6 @@ MAIN = f"""
       <a class="knowledge-card" href="/bilgi/kutu-harf-malzemeler/"><span class="meta">Malzeme</span><h3>Kutu Harf Malzemeler</h3><p>Pleksi, paslanmaz ve seçim kriterleri.</p></a>
       <a class="knowledge-card" href="/bilgi/one-way-vision-nedir/"><span class="meta">Cam</span><h3>One Way Vision Nedir?</h3><p>Vitrin folyo mantığı.</p></a>
       <a class="knowledge-card" href="/bilgi/arac-giydirme-rehberi/"><span class="meta">Filo</span><h3>Araç Giydirme Rehberi</h3><p>Kaplama öncesi bilmeniz gerekenler.</p></a>
-      <a class="knowledge-card" href="/bilgi/tabela-fiyati/"><span class="meta">Fiyat</span><h3>Tabela Fiyatını Neler Etkiler?</h3><p>Teklif yerine geçmeyen eğitim içeriği.</p></a>
       <a class="knowledge-card" href="/bilgi/totem-secim-rehberi/"><span class="meta">Tesis</span><h3>Totem Seçim Rehberi</h3><p>Yol ve giriş totem kararları.</p></a>
     </div>
     <p style="margin-top:28px;"><a class="section-link" href="/bilgi/">Tüm rehberler →</a></p>
