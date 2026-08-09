@@ -285,7 +285,7 @@ MAIN = f"""
       <a class="chip" href="/bolgeler/tekirdag/">Süleymanpaşa</a>
     </div>
     <div class="local-grid" style="margin-top:40px;">
-      <a class="local-card" href="/bolgeler/tekirdag/"><h3>Tekirdağ Rehberi</h3><p>Tekirdağ yerel hizmet rehberi.</p><span class="meta">Rehber</span></a>
+      <a class="local-card" href="/bolgeler/tekirdag/"><h3>Tekirdağ Reklam Ajansı</h3><p>Tekirdağ’da tabela üretimi, keşif ve montaj — yerel hizmet rehberi.</p><span class="meta">Yerel</span></a>
       <a class="local-card" href="/hizmet-bolge/tekirdag-tabela/"><h3>Tekirdağ Tabela</h3><p>Tekirdağ’da tabela üretimi ve montajı.</p><span class="meta">Yerel</span></a>
       <a class="local-card" href="/hizmet-bolge/tekirdag-isikli-tabela/"><h3>Tekirdağ Işıklı</h3><p>Tekirdağ’da ışıklı tabela hizmeti.</p><span class="meta">Yerel</span></a>
       <a class="local-card" href="/hizmet-bolge/tekirdag-kutu-harf/"><h3>Tekirdağ Kutu Harf</h3><p>Tekirdağ’da kutu harf üretimi.</p><span class="meta">Yerel</span></a>
