@@ -65,21 +65,21 @@
       "category": "Anaokulu"
     },
     {
-      "name": "Mera Otel",
-      "slug": "mera-otel",
+      "name": "Köşem Döner",
+      "slug": "",
       "client": "",
       "featured": true,
       "gallery": [],
       "location": "Tekirdağ",
       "completedDate": "",
-      "image": "",
-      "description": "Konaklama giriş ve cephe kimliği.",
+      "image": "/images/uploads/49def14c-ef5f-4f6c-ba65-60a6654072b7-1-.jpg",
+      "description": "",
       "year": "",
       "services": [
         "Işıklı Tabela",
         "Kutu Harf"
       ],
-      "category": "Konaklama"
+      "category": "Restorant"
     },
     {
       "name": "Dörtnal",
