@@ -46,8 +46,9 @@ rehberi, proje yazısı) aşağıdakileri kontrol et:
 Bunlara zaman harcama, hiçbiri Google Search / AI Overviews / AI Mode
 görünürlüğünü artırmaz:
 
-- ❌ `llms.txt` veya benzeri "AI için" özel dosya oluşturma. Google bunları
-  okumuyor.
+- ❌ `llms.txt` veya benzeri dosyayı **Google AI Overviews / AI Mode** için SEO taktiği sanma.
+  Google bunları AI Overviews için okumuyor. (Sitede `/llms.txt` + sayfa `.md` ikizleri
+  üçüncü taraf AI ajanları için ayrı bir keşif katmanı olarak tutulur; sitemap’e eklenmez.)
 - ❌ İçeriği yapay zeka için küçük parçalara ("chunking") bölme.
 - ❌ Sadece AI botları için farklı/ayrı metin yazma. Google eş anlamlıları
   zaten anlıyor, her varyasyonu yazmaya gerek yok.

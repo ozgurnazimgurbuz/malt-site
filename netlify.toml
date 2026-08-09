@@ -1,7 +1,7 @@
 # CMS content.json her deploy'da index.html'e gömülür (JS'siz ilk HTML).
 [build]
-  command = "python3 scripts/build_production.py && python3 scripts/scrub_customer_copy.py && python3 scripts/prerender.py"
-  # build_production runs Wave A3 home builder; scrub removes internal SEO jargon; prerender bakes content.json into index.html
+  command = "python3 scripts/build_production.py && python3 scripts/scrub_customer_copy.py && python3 scripts/prerender.py && python3 scripts/build_llms.py"
+  # build_production runs Wave A3 home builder; scrub removes internal SEO jargon; prerender bakes content.json into index.html; build_llms writes llms.txt + .md twins for AI agents
   publish = "."
 
 [[headers]]
@@ -36,3 +36,28 @@
   [headers.values]
     Cache-Control = "public, max-age=0, must-revalidate"
     X-Robots-Tag = "noindex"
+
+# AI-agent discovery + Markdown twins (not in sitemap; agents fetch on demand).
+[[headers]]
+  for = "/llms.txt"
+  [headers.values]
+    Content-Type = "text/plain; charset=utf-8"
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+[[headers]]
+  for = "/llms-full.txt"
+  [headers.values]
+    Content-Type = "text/plain; charset=utf-8"
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+[[headers]]
+  for = "/*.md"
+  [headers.values]
+    Content-Type = "text/markdown; charset=utf-8"
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+[[headers]]
+  for = "/**/*.md"
+  [headers.values]
+    Content-Type = "text/markdown; charset=utf-8"
+    Cache-Control = "public, max-age=0, must-revalidate"
