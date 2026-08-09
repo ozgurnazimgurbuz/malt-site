@@ -149,7 +149,7 @@
     --paper-hover: #e6dccb;
     --header-scrim-a: rgba(26,26,26,0.85);
     --header-scrim-b: transparent;
-    --trust-wash: rgba(0,0,0,0.25);
+    --trust-wash: rgba(0,0,0,0.42);
   }
   [data-theme="light"]{
     color-scheme: light;
@@ -169,7 +169,7 @@
     --paper-hover: #2a2222;
     --header-scrim-a: rgba(241,238,231,0.94);
     --header-scrim-b: transparent;
-    --trust-wash: rgba(26,26,26,0.05);
+    --trust-wash: rgba(26,26,26,0.08);
   }
   *{box-sizing:border-box; margin:0; padding:0;}
   html{scroll-behavior:smooth;}
@@ -465,6 +465,7 @@
 
 
 
+
   /* -------- A3 home authority -------- */
   .hero{
     justify-content:flex-start;
@@ -485,13 +486,13 @@
   #hero-eyebrow .eyebrow-brand{display:none;}
   .trust-strip{
     border-top:1px solid var(--line); border-bottom:1px solid var(--line);
-    padding:28px 0; background:rgba(0,0,0,0.25);
+    padding:28px 0; background:var(--trust-wash);
   }
   .trust-strip ul{
     list-style:none; display:flex; flex-wrap:wrap; gap:12px 28px;
     justify-content:space-between; align-items:center;
     font-size:12px; font-weight:700; letter-spacing:0.12em; text-transform:uppercase;
-    color:var(--muted-trust);
+    color:var(--paper);
   }
   .trust-strip li{display:flex; align-items:center; gap:10px; white-space:nowrap;}
   .trust-strip li::before{

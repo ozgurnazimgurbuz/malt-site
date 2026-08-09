@@ -39,13 +39,13 @@ A3_CSS = """
   #hero-eyebrow .eyebrow-brand{display:none;}
   .trust-strip{
     border-top:1px solid var(--line); border-bottom:1px solid var(--line);
-    padding:28px 0; background:rgba(0,0,0,0.25);
+    padding:28px 0; background:var(--trust-wash);
   }
   .trust-strip ul{
     list-style:none; display:flex; flex-wrap:wrap; gap:12px 28px;
     justify-content:space-between; align-items:center;
     font-size:12px; font-weight:700; letter-spacing:0.12em; text-transform:uppercase;
-    color:var(--muted-trust);
+    color:var(--paper);
   }
   .trust-strip li{display:flex; align-items:center; gap:10px; white-space:nowrap;}
   .trust-strip li::before{
@@ -451,9 +451,27 @@ def remove_kesfet_if_any(doc: str) -> str:
     )
 
 
+def sync_trust_tokens(doc: str) -> str:
+    """Keep homepage inlined tokens in sync with site.css trust contrast."""
+    doc = re.sub(
+        r"(--trust-wash:\s*)rgba\(0,0,0,0\.(?:25|42)\)",
+        r"\1rgba(0,0,0,0.42)",
+        doc,
+        count=1,
+    )
+    doc = re.sub(
+        r"(--trust-wash:\s*)rgba\(26,26,26,0\.0[58]\)",
+        r"\1rgba(26,26,26,0.08)",
+        doc,
+        count=1,
+    )
+    return doc
+
+
 def main() -> int:
     doc = INDEX.read_text(encoding="utf-8")
     doc = inject_css(doc)
+    doc = sync_trust_tokens(doc)
     doc = replace_nav(doc)
     doc = remove_kesfet_if_any(doc)
     doc = replace_main(doc)
