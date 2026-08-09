@@ -35,6 +35,8 @@ A3_CSS = """
   .hero .scroll-cue{z-index:1; left:56px;}
   .hero h1{line-height:1.08;}
   .section-head h2{line-height:1.08;}
+  /* Section intros: --muted (0.62) reads too dim on mobile OLED */
+  .section-head p{color:var(--muted-chip);}
   /* Logo already brands the page — drop redundant eyebrow brand on all viewports. */
   #hero-eyebrow .eyebrow-brand{display:none;}
   .trust-strip{

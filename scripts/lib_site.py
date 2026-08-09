@@ -65,6 +65,8 @@ def fonts_head() -> str:
         '<style>html,body{background:#1A1A1A;color:#F1EEE7}</style>\n'
         '<link rel="preload" href="/assets/fonts/big-shoulders-latin.woff2" as="font" type="font/woff2" crossorigin>\n'
         '<link rel="preload" href="/assets/fonts/big-shoulders-latin-ext.woff2" as="font" type="font/woff2" crossorigin>\n'
+        '<link rel="preload" href="/assets/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>\n'
+        '<link rel="preload" href="/assets/fonts/inter-latin-ext.woff2" as="font" type="font/woff2" crossorigin>\n'
         f"<style>\n{fonts_css}\n</style>\n"
     )
 
