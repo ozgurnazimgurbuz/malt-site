@@ -17,10 +17,14 @@ from __future__ import annotations
 import sys
 from pathlib import Path
 
-from PIL import Image, ImageOps
-
 ROOT = Path(__file__).resolve().parents[1]
 UPLOADS = ROOT / "images" / "uploads"
+
+try:
+    from PIL import Image, ImageOps
+except ImportError:  # Netlify may lack Pillow until requirements.txt installs
+    Image = None  # type: ignore[misc, assignment]
+    ImageOps = None  # type: ignore[misc, assignment]
 
 # Card / grid targets. Portrait phone shots are object-fit:cover in 4:5 tiles,
 # so width (not the long edge) drives sharpness on retina phones.
@@ -132,6 +136,14 @@ def process_one(path: Path) -> dict:
 
 
 def main() -> int:
+    if Image is None or ImageOps is None:
+        print(
+            "optimize_uploads: Pillow not installed — skipping "
+            "(add requirements.txt / pip install Pillow)",
+            file=sys.stderr,
+        )
+        return 0
+
     if not UPLOADS.is_dir():
         print(f"optimize_uploads: missing {UPLOADS}", file=sys.stderr)
         return 1
