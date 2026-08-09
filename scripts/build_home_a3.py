@@ -20,6 +20,18 @@ PHONE_TEL = "+905525826959"
 
 A3_CSS = """
   /* -------- A3 home authority -------- */
+  .hero{
+    justify-content:flex-start;
+    padding:108px 0 80px;
+    isolation:isolate;
+  }
+  .rings{z-index:-1;}
+  .hero .wrap{
+    position:relative; z-index:1;
+    width:100%; max-width:1240px;
+    margin-left:0; margin-right:auto;
+  }
+  .hero .scroll-cue{z-index:1;}
   .section-head h2{line-height:1.08;}
   .trust-strip{
     border-top:1px solid var(--line); border-bottom:1px solid var(--line);

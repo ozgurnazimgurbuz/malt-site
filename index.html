@@ -103,14 +103,22 @@
   .hero{
     position:relative;
     min-height:100vh;
-    display:flex; flex-direction:column; justify-content:center;
-    padding:140px 32px 80px;
+    display:flex; flex-direction:column; justify-content:flex-start;
+    padding:108px 0 80px;
     overflow:hidden;
+    isolation:isolate;
   }
   .rings{
     position:absolute; right:-10%; top:50%; transform:translateY(-50%);
     width:820px; height:820px; pointer-events:none;
+    z-index:-1;
   }
+  .hero .wrap{
+    position:relative; z-index:1;
+    width:100%; max-width:1240px;
+    margin-left:0; margin-right:auto;
+  }
+  .hero .scroll-cue{z-index:1;}
   .rings circle{
     fill:none; stroke:var(--maroon-light); stroke-width:1;
     opacity:0.55;
@@ -309,7 +317,23 @@
 
 
 
+
+
+
+
   /* -------- A3 home authority -------- */
+  .hero{
+    justify-content:flex-start;
+    padding:108px 0 80px;
+    isolation:isolate;
+  }
+  .rings{z-index:-1;}
+  .hero .wrap{
+    position:relative; z-index:1;
+    width:100%; max-width:1240px;
+    margin-left:0; margin-right:auto;
+  }
+  .hero .scroll-cue{z-index:1;}
   .section-head h2{line-height:1.08;}
   .trust-strip{
     border-top:1px solid var(--line); border-bottom:1px solid var(--line);
@@ -668,7 +692,7 @@
         </div>
         <p id="footer-about" style="font-size:14px; color:rgba(241,238,231,0.62); max-width:280px; line-height:1.6;">Tekirdağ merkezli reklam ajansı ve tabela üreticisi. Tabela, kurumsal kimlik, dijital baskı ve uygulama — keşiften montaja.</p>
       </div>
-                                                                                                                                                                                                <div>
+                                                                                                                                                                                                                        <div>
         <h4>Hizmetler</h4>
         <ul>
           <li><a href="/hizmetler/">Tüm hizmetler</a></li>
