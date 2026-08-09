@@ -123,7 +123,7 @@ THEME_TOGGLE = (
 
 
 def theme_script() -> str:
-    return '<script src="/assets/theme.js" defer></script>\n'
+    return '<script src="/assets/theme.js?v=theme1" defer></script>\n'
 
 
 def head(
@@ -162,7 +162,7 @@ def head(
 <meta name="twitter:image" content="{SITE}/images/og.jpg">
 <link rel="icon" type="image/png" href="/images/icon-192.png">
 <link rel="manifest" href="/manifest.json">
-{fonts_head()}<link rel="stylesheet" href="/assets/site.css">
+{fonts_head()}<link rel="stylesheet" href="/assets/site.css?v=theme1">
 </head>
 """
 
