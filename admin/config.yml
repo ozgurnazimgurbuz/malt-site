@@ -90,7 +90,7 @@ collections:
                 name: "image"
                 widget: "image"
                 required: false
-                hint: "En fazla 3 MB. Önerilen: 1200x1500 civarı, JPG."
+                hint: "En fazla 3 MB. Önerilen: 1200×1500 JPG. Deploy sırasında kart boyutu (~1200px) + WebP üretilir."
                 media_library:
                   config:
                     max_file_size: 3145728

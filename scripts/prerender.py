@@ -159,6 +159,38 @@ def build_services(c: dict) -> str:
     return "".join(cards)
 
 
+def portfolio_image_markup(image: str, alt: str) -> str:
+    """Card image with WebP sibling when present (optimize_uploads.py).
+
+    sizes matches .work-grid breakpoints in index.html (1 / 2 / 3 columns).
+    width/height keep 4:5 aspect for CLS; CSS object-fit:cover crops.
+    """
+    src = esc(image)
+    webp = ""
+    lower = image.lower()
+    for ext in (".jpeg", ".jpg", ".png"):
+        if lower.endswith(ext):
+            candidate = image[: -len(ext)] + ".webp"
+            if (ROOT / candidate.lstrip("/")).is_file():
+                webp = esc(candidate)
+            break
+    # ~full width mobile, half tablet, third desktop — 1200w source covers 2x.
+    sizes = "(max-width:560px) 100vw, (max-width:900px) 50vw, 33vw"
+    img = (
+        f'<img class="work-swatch" src="{src}" alt="{alt}" '
+        f'width="800" height="1000" sizes="{sizes}" '
+        f'loading="lazy" decoding="async">'
+    )
+    if webp:
+        return (
+            f"<picture>"
+            f'<source type="image/webp" srcset="{webp}" sizes="{sizes}">'
+            f"{img}"
+            f"</picture>"
+        )
+    return img
+
+
 def build_portfolio(c: dict) -> str:
     items = []
     for p in c.get("portfolio") or []:
@@ -170,10 +202,7 @@ def build_portfolio(c: dict) -> str:
         cat_attr = f' data-cat="{category}"' if category else ""
         if image:
             alt = esc(f'{p.get("name") or ""} - {p.get("category") or ""}')
-            swatch = (
-                f'<img class="work-swatch" src="{esc(image)}" alt="{alt}" '
-                f'width="800" height="1000" loading="lazy" decoding="async">'
-            )
+            swatch = portfolio_image_markup(image, alt)
         else:
             color1 = esc(p.get("color1") or "#B08D72")
             color2 = esc(p.get("color2") or "#1a1a1a")
