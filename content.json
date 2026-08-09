@@ -1,6 +1,8 @@
 {
+  "addressCountry": "TR",
   "ctaSectionTitle": "Projenizi konuşalım.",
   "youtube": "",
+  "legalName": "",
   "ctaSecondary": "WhatsApp",
   "portfolioIntro": "Tamamladığımız işlerden öne çıkanlar.",
   "ctaSectionTag": "Teklif / Keşif",
@@ -8,116 +10,119 @@
   "heroSub": "Tabela üretimi, kurumsal kimlik, dijital baskı ve uygulama. Keşiften montaja Tekirdağ merkezli üretim.",
   "googleTagManagerId": "",
   "seoKeywords": "Tekirdağ reklam ajansı, Tekirdağ reklam firması, Malt Studio, tabela, ışıklı tabela, kutu harf, totem, araç giydirme, cam giydirme",
+  "addressRegion": "Tekirdağ",
   "siteUrl": "https://maltstudio.co",
   "portfolio": [
     {
-      "name": "Liman Kahve",
-      "slug": "liman-kahve",
+      "name": "OFİSO",
+      "slug": "",
       "client": "",
       "featured": true,
       "gallery": [],
       "location": "Tekirdağ",
       "completedDate": "",
-      "image": "",
-      "description": "Mağaza tabela ve cephe görünürlüğü.",
+      "image": "/images/uploads/6c209abf-2af4-4517-a385-92dd52cc044f.jpg",
+      "description": "",
       "year": "",
       "services": [
         "Tabela",
         "Cam Giydirme"
       ],
-      "category": "Gıda & İçecek"
+      "category": "Paylaşımlı Ofis"
     },
     {
-      "name": "Volt Enerji",
-      "slug": "volt-enerji",
+      "name": "Yamanlar Ekspertiz",
+      "slug": "",
       "client": "",
       "featured": true,
       "gallery": [],
       "location": "Tekirdağ",
       "completedDate": "",
-      "image": "",
-      "description": "Tesis kimliği ve yönlendirme.",
+      "image": "/images/uploads/img_6432.jpg",
+      "description": "",
       "year": "",
       "services": [
         "Tabela",
         "Totem"
       ],
-      "category": "Enerji"
+      "category": "Ekspertiz"
     },
     {
-      "name": "Kuzey Tekstil",
-      "slug": "kuzey-tekstil",
+      "name": "Anka Anaokulu",
+      "slug": "",
       "client": "",
       "featured": true,
       "gallery": [],
       "location": "Tekirdağ",
       "completedDate": "",
-      "image": "",
-      "description": "OSB tesis tabela uygulamaları.",
+      "image": "/images/uploads/img_7536.jpg",
+      "description": "",
       "year": "",
       "services": [
         "Tabela",
         "İş Güvenliği"
       ],
-      "category": "Tekstil"
+      "category": "Anaokulu"
     },
     {
-      "name": "Mera Otel",
-      "slug": "mera-otel",
+      "name": "Köşem Döner",
+      "slug": "",
       "client": "",
       "featured": true,
       "gallery": [],
       "location": "Tekirdağ",
       "completedDate": "",
-      "image": "",
-      "description": "Konaklama giriş ve cephe kimliği.",
+      "image": "/images/uploads/49def14c-ef5f-4f6c-ba65-60a6654072b7-1-.jpg",
+      "description": "",
       "year": "",
       "services": [
         "Işıklı Tabela",
         "Kutu Harf"
       ],
-      "category": "Konaklama"
+      "category": "Restorant"
     },
     {
-      "name": "Dörtnal",
-      "slug": "dortnal",
+      "name": "Pembe Pasta Evi",
+      "slug": "",
       "client": "",
       "featured": true,
       "gallery": [],
       "location": "Tekirdağ",
       "completedDate": "",
-      "image": "",
-      "description": "Perakende vitrin ve tabela.",
+      "image": "/images/uploads/img_7847.jpg",
+      "description": "",
       "year": "",
       "services": [
         "Cam Giydirme",
         "Tabela"
       ],
-      "category": "Perakende"
+      "category": "Restorant"
     },
     {
-      "name": "Ekip Yazılım",
-      "slug": "ekip-yazilim",
+      "name": "Okka Tarım",
+      "slug": "",
       "client": "",
       "featured": true,
       "gallery": [],
       "location": "Tekirdağ",
       "completedDate": "",
-      "image": "",
-      "description": "Ofis branding ve giriş kimliği.",
+      "image": "/images/uploads/snapinsta.to_721735614_18085976048381838_6119022146079124288_n.jpg",
+      "description": "",
       "year": "",
       "services": [
         "Ofis Branding",
         "Kutu Harf"
       ],
-      "category": "Teknoloji"
+      "category": "Tarım"
     }
   ],
   "googleAnalyticsId": "G-BJKPJPVZGG",
   "heroTitleBottom": "görünür kılarız.",
   "eyebrow": "Malt Studio · Tekirdağ Reklam Ajansı",
   "logo": "",
+  "addressPostalCode": "59100",
   "servicesIntro": "Üretimden montaja, ihtiyacınıza uygun çözümler.",
+  "foundingDate": "",
   "phone": "05525826959",
   "portfolioTitle": "Seçili İşler",
   "googleSearchConsoleVerification": "",
@@ -126,10 +131,20 @@
   "siteName": "Malt Studio",
   "footerAbout": "Tekirdağ merkezli reklam ajansı ve tabela üreticisi. Tabela, kurumsal kimlik, dijital baskı ve uygulama — keşiften montaja.",
   "instagram": "https://www.instagram.com/maltstudio.co/",
+  "priceRange": "₺₺",
   "copyrightText": "© 2025 - 2026 Malt Studio. Tüm hakları saklıdır.",
   "behance": "",
   "address": "Yavuz Mahallesi, Ruşen Güneş Sokak, D Blok No:2, 59100 Süleymanpaşa/Tekirdağ",
   "whatsappMessage": "Merhaba, teklif almak istiyorum.",
+  "openingHours": [
+    {
+      "days": "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday",
+      "opens": "09:00",
+      "closes": "19:00"
+    }
+  ],
+  "addressStreet": "Ruşen Güneş Sokak, D Blok No:2",
+  "addressLocality": "Süleymanpaşa",
   "heroTitleTop": "Markanızı",
   "seoFavicon": "",
   "defaultLanguage": "tr",
@@ -142,6 +157,7 @@
   "defaultLocale": "tr-TR",
   "servicesTag": "Hizmetler",
   "email": "merhaba@maltstudio.com",
+  "geoLatitude": "40.9769375",
   "services": [
     {
       "title": "Tabela",
@@ -220,6 +236,7 @@
     }
   ],
   "linkedin": "",
+  "geoLongitude": "27.5041875",
   "stats": [
     {
       "number": "30+",
@@ -238,25 +255,6 @@
       "label": "Sektör Ödülü"
     }
   ],
-  "seoDescription": "Tekirdağ reklam ajansı Malt Studio. Tabela üretimi, kurumsal kimlik, dijital baskı ve uygulama. Keşiften montaja Tekirdağ merkezli üretim.",
-  "addressLocality": "Süleymanpaşa",
-  "addressRegion": "Tekirdağ",
-  "addressCountry": "TR",
-  "legalName": "",
-  "foundingDate": "",
-  "addressStreet": "Ruşen Güneş Sokak, D Blok No:2",
-  "addressPostalCode": "59100",
-  "geoLatitude": "40.9769375",
-  "geoLongitude": "27.5041875",
-  "priceRange": "₺₺",
-  "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=40.9769375,27.5041875",
-  "openingHours": [
-    {
-      "days": "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday",
-      "opens": "09:00",
-      "closes": "19:00"
-    }
-  ],
   "schemaServices": [
     "Tabela",
     "Işıklı tabela",
@@ -268,5 +266,7 @@
     "Display POS",
     "Ofis branding",
     "İş güvenliği tabelaları"
-  ]
+  ],
+  "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=40.9769375,27.5041875",
+  "seoDescription": "Tekirdağ reklam ajansı Malt Studio. Tabela üretimi, kurumsal kimlik, dijital baskı ve uygulama. Keşiften montaja Tekirdağ merkezli üretim."
 }
