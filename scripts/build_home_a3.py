@@ -168,6 +168,20 @@ MAIN = f"""
   </div>
 </section>
 
+<section id="isler" aria-labelledby="portfolio-title">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <div class="tag" id="portfolio-tag">Projeler</div>
+        <h2 id="portfolio-title">Seçili İşler</h2>
+      </div>
+      <p id="portfolio-intro">Tamamladığımız işlerden öne çıkanlar.</p>
+    </div>
+  </div>
+  <div class="work-grid" id="work-grid"></div>
+  <div class="wrap" style="margin-top:28px;"><a class="section-link" href="/projeler/">Tüm projeler →</a></div>
+</section>
+
 <section class="services" id="hizmetler" aria-labelledby="services-title">
   <div class="wrap">
     <div class="section-head">
@@ -222,20 +236,6 @@ MAIN = f"""
     </div>
     <p style="margin-top:28px;"><a class="section-link" href="#surec">Süreç özeti (bu sayfa) →</a></p>
   </div>
-</section>
-
-<section id="isler" aria-labelledby="portfolio-title">
-  <div class="wrap">
-    <div class="section-head">
-      <div>
-        <div class="tag" id="portfolio-tag">Projeler</div>
-        <h2 id="portfolio-title">Seçili İşler</h2>
-      </div>
-      <p id="portfolio-intro">Tamamladığımız işlerden öne çıkanlar.</p>
-    </div>
-  </div>
-  <div class="work-grid" id="work-grid"></div>
-  <div class="wrap" style="margin-top:28px;"><a class="section-link" href="/projeler/">Tüm projeler →</a></div>
 </section>
 
 <section class="services" id="bilgi" aria-labelledby="knowledge-title">
