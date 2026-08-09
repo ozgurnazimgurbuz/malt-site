@@ -99,21 +99,21 @@
       "category": "Restorant"
     },
     {
-      "name": "Ekip Yazılım",
-      "slug": "ekip-yazilim",
+      "name": "Okka Tarım",
+      "slug": "",
       "client": "",
       "featured": true,
       "gallery": [],
       "location": "Tekirdağ",
       "completedDate": "",
-      "image": "",
-      "description": "Ofis branding ve giriş kimliği.",
+      "image": "/images/uploads/snapinsta.to_721735614_18085976048381838_6119022146079124288_n.jpg",
+      "description": "",
       "year": "",
       "services": [
         "Ofis Branding",
         "Kutu Harf"
       ],
-      "category": "Teknoloji"
+      "category": "Tarım"
     }
   ],
   "googleAnalyticsId": "G-BJKPJPVZGG",
