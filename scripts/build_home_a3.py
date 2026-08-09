@@ -38,7 +38,7 @@ A3_CSS = """
   .service-grid.enterprise{grid-template-columns:repeat(3,1fr);}
   .service-card{min-height:200px;}
   .chip-grid{
-    display:flex; flex-wrap:wrap; gap:10px;
+    display:flex; flex-wrap:wrap; gap:12px;
   }
   .chip{
     display:inline-flex; align-items:center;
@@ -268,9 +268,9 @@ MAIN = f"""
         <div class="tag">Kapsama</div>
         <h2 id="coverage-title">Hizmet<br>Bölgesi</h2>
       </div>
-      <p>Tekirdağ merkezliyiz; çevre ilçelere keşif ve montaj desteği sunuyoruz.</p>
+      <p>Tekirdağ merkezliyiz; çevre ilçe ve komşu illere keşif ve montaj desteği sunuyoruz.</p>
     </div>
-    <div class="chip-grid" aria-label="Hizmet verilen ilçeler">
+    <div class="chip-grid" aria-label="Hizmet verilen bölgeler">
       <a class="chip" href="/bolgeler/tekirdag/">Tekirdağ</a>
       <span class="chip">Çorlu</span>
       <span class="chip">Çerkezköy</span>
@@ -283,6 +283,10 @@ MAIN = f"""
       <span class="chip">Saray</span>
       <span class="chip">Marmara Ereğlisi</span>
       <a class="chip" href="/bolgeler/tekirdag/">Süleymanpaşa</a>
+      <span class="chip">İstanbul</span>
+      <span class="chip">Edirne</span>
+      <span class="chip">Çanakkale</span>
+      <span class="chip">Kırklareli</span>
     </div>
     <div class="local-grid" style="margin-top:40px;">
       <a class="local-card" href="/bolgeler/tekirdag/"><h3>Tekirdağ Reklam Ajansı</h3><p>Tekirdağ’da tabela üretimi, keşif ve montaj — yerel hizmet rehberi.</p><span class="meta">Yerel</span></a>
