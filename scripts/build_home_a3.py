@@ -32,6 +32,7 @@ A3_CSS = """
     margin-left:0; margin-right:auto;
   }
   .hero .scroll-cue{z-index:1;}
+  .hero h1{line-height:1.08;}
   .section-head h2{line-height:1.08;}
   .trust-strip{
     border-top:1px solid var(--line); border-bottom:1px solid var(--line);
