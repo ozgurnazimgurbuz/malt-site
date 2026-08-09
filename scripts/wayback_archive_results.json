@@ -1,0 +1,417 @@
+{
+  "started": "2026-08-09T10:54:24.332245+00:00",
+  "updated": "2026-08-09T11:20:12.514168+00:00",
+  "ok": 51,
+  "fail": 0,
+  "results": [
+    {
+      "url": "https://maltstudio.co/",
+      "ok": true,
+      "status": 302,
+      "wayback_url": "https://web.archive.org/web/20260809104856/https://maltstudio.co/",
+      "method": "GET /save/",
+      "at": "2026-08-09T10:54:31.175804+00:00"
+    },
+    {
+      "url": "https://maltstudio.co/hizmetler/",
+      "ok": true,
+      "status": 302,
+      "wayback_url": "https://web.archive.org/web/20260809105241/https://maltstudio.co/hizmetler/",
+      "method": "GET /save/",
+      "at": "2026-08-09T10:54:43.027059+00:00"
+    },
+    {
+      "url": "https://maltstudio.co/bolgeler/tekirdag/",
+      "ok": true,
+      "status": 302,
+      "wayback_url": "https://web.archive.org/web/20260809105326/https://maltstudio.co/bolgeler/tekirdag/",
+      "method": "GET /save/",
+      "at": "2026-08-09T10:54:54.873674+00:00"
+    },
+    {
+      "url": "https://maltstudio.co/projeler/",
+      "ok": true,
+      "status": 302,
+      "wayback_url": "https://web.archive.org/web/20260809105048/https://maltstudio.co/projeler/",
+      "method": "GET /save/",
+      "at": "2026-08-09T10:55:06.734157+00:00"
+    },
+    {
+      "url": "https://maltstudio.co/sektorler/",
+      "ok": true,
+      "status": 302,
+      "wayback_url": "https://web.archive.org/web/20260809105515/https://maltstudio.co/sektorler/",
+      "method": "GET /save/",
+      "at": "2026-08-09T10:55:30.668258+00:00"
+    },
+    {
+      "url": "https://maltstudio.co/bilgi/",
+      "ok": true,
+      "status": 302,
+      "wayback_url": "https://web.archive.org/web/20260809105539/https://maltstudio.co/bilgi/",
+      "method": "GET /save/",
+      "at": "2026-08-09T10:55:54.588744+00:00"
+    },
+    {
+      "url": "https://maltstudio.co/hizmetler/tabela/",
+      "ok": true,
+      "status": 302,
+      "wayback_url": "https://web.archive.org/web/20260809105625/https://maltstudio.co/hizmetler/tabela/",
+      "method": "GET /save/",
+      "at": "2026-08-09T10:56:36.800850+00:00"
+    },
+    {
+      "url": "https://maltstudio.co/hizmet-bolge/tekirdag-tabela/",
+      "ok": true,
+      "status": 302,
+      "wayback_url": "https://web.archive.org/web/20260809105644/https://maltstudio.co/hizmet-bolge/tekirdag-tabela/",
+      "method": "GET /save/",
+      "at": "2026-08-09T10:57:00.701856+00:00"
+    },
+    {
+      "url": "https://maltstudio.co/hizmetler/isikli-tabela/",
+      "ok": true,
+      "status": 302,
+      "wayback_url": "https://web.archive.org/web/20260809105709/https://maltstudio.co/hizmetler/isikli-tabela/",
+      "method": "GET /save/",
+      "at": "2026-08-09T10:57:24.592089+00:00"
+    },
+    {
+      "url": "https://maltstudio.co/hizmet-bolge/tekirdag-isikli-tabela/",
+      "ok": true,
+      "status": 302,
+      "wayback_url": "https://web.archive.org/web/20260809105741/https://maltstudio.co/hizmet-bolge/tekirdag-isikli-tabela/",
+      "method": "GET /save/",
+      "at": "2026-08-09T10:57:54.495141+00:00"
+    },
+    {
+      "url": "https://maltstudio.co/hizmetler/kutu-harf/",
+      "ok": true,
+      "status": 302,
+      "wayback_url": "https://web.archive.org/web/20260809105803/https://maltstudio.co/hizmetler/kutu-harf/",
+      "method": "GET /save/",
+      "at": "2026-08-09T10:58:18.388226+00:00"
+    },
+    {
+      "url": "https://maltstudio.co/hizmet-bolge/tekirdag-kutu-harf/",
+      "ok": true,
+      "status": 302,
+      "wayback_url": "https://web.archive.org/web/20260809105827/https://maltstudio.co/hizmet-bolge/tekirdag-kutu-harf/",
+      "method": "GET /save/",
+      "at": "2026-08-09T10:58:42.369127+00:00"
+    },
+    {
+      "url": "https://maltstudio.co/hizmetler/totem/",
+      "ok": true,
+      "status": 302,
+      "wayback_url": "https://web.archive.org/web/20260809105850/https://maltstudio.co/hizmetler/totem/",
+      "method": "GET /save/",
+      "at": "2026-08-09T10:59:06.329944+00:00"
+    },
+    {
+      "url": "https://maltstudio.co/hizmet-bolge/tekirdag-totem/",
+      "ok": true,
+      "status": 302,
+      "wayback_url": "https://web.archive.org/web/20260809105914/https://maltstudio.co/hizmet-bolge/tekirdag-totem/",
+      "method": "GET /save/",
+      "at": "2026-08-09T10:59:30.254553+00:00"
+    },
+    {
+      "url": "https://maltstudio.co/hizmetler/arac-giydirme/",
+      "ok": true,
+      "status": 302,
+      "wayback_url": "https://web.archive.org/web/20260809105938/https://maltstudio.co/hizmetler/arac-giydirme/",
+      "method": "GET /save/",
+      "at": "2026-08-09T10:59:54.164295+00:00"
+    },
+    {
+      "url": "https://maltstudio.co/hizmet-bolge/tekirdag-arac-giydirme/",
+      "ok": true,
+      "status": 302,
+      "wayback_url": "https://web.archive.org/web/20260809110002/https://maltstudio.co/hizmet-bolge/tekirdag-arac-giydirme/",
+      "method": "GET /save/",
+      "at": "2026-08-09T11:00:18.051914+00:00"
+    },
+    {
+      "url": "https://maltstudio.co/hizmetler/cam-giydirme/",
+      "ok": true,
+      "status": 302,
+      "wayback_url": "https://web.archive.org/web/20260809110026/https://maltstudio.co/hizmetler/cam-giydirme/",
+      "method": "GET /save/",
+      "at": "2026-08-09T11:00:41.951477+00:00"
+    },
+    {
+      "url": "https://maltstudio.co/hizmet-bolge/tekirdag-cam-giydirme/",
+      "ok": true,
+      "status": 302,
+      "wayback_url": "https://web.archive.org/web/20260809110051/https://maltstudio.co/hizmet-bolge/tekirdag-cam-giydirme/",
+      "method": "GET /save/",
+      "at": "2026-08-09T11:01:05.954128+00:00"
+    },
+    {
+      "url": "https://maltstudio.co/hizmetler/lightbox/",
+      "ok": true,
+      "status": 302,
+      "wayback_url": "https://web.archive.org/web/20260809110121/https://maltstudio.co/hizmetler/lightbox/",
+      "method": "GET /save/",
+      "at": "2026-08-09T11:01:35.906750+00:00"
+    },
+    {
+      "url": "https://maltstudio.co/hizmetler/display-pos/",
+      "ok": true,
+      "status": 302,
+      "wayback_url": "https://web.archive.org/web/20260809110241/https://maltstudio.co/hizmetler/display-pos/",
+      "method": "GET /save/",
+      "at": "2026-08-09T11:02:54.086186+00:00"
+    },
+    {
+      "url": "https://maltstudio.co/hizmetler/ofis-branding/",
+      "ok": true,
+      "status": 302,
+      "wayback_url": "https://web.archive.org/web/20260809110302/https://maltstudio.co/hizmetler/ofis-branding/",
+      "method": "GET /save/",
+      "at": "2026-08-09T11:03:17.980195+00:00"
+    },
+    {
+      "url": "https://maltstudio.co/hizmetler/is-guvenligi-tabelalari/",
+      "ok": true,
+      "status": 302,
+      "wayback_url": "https://web.archive.org/web/20260809110456/https://maltstudio.co/hizmetler/is-guvenligi-tabelalari/",
+      "method": "GET /save/",
+      "at": "2026-08-09T11:05:12.352056+00:00"
+    },
+    {
+      "url": "https://maltstudio.co/projeler/liman-kahve/",
+      "ok": true,
+      "status": 302,
+      "wayback_url": "https://web.archive.org/web/20260809110559/https://maltstudio.co/projeler/liman-kahve/",
+      "method": "GET /save/",
+      "at": "2026-08-09T11:06:12.376946+00:00"
+    },
+    {
+      "url": "https://maltstudio.co/projeler/volt-enerji/",
+      "ok": true,
+      "status": 302,
+      "wayback_url": "https://web.archive.org/web/20260809110657/https://maltstudio.co/projeler/volt-enerji/",
+      "method": "GET /save/",
+      "at": "2026-08-09T11:07:12.409661+00:00"
+    },
+    {
+      "url": "https://maltstudio.co/projeler/kuzey-tekstil/",
+      "ok": true,
+      "status": 302,
+      "wayback_url": "https://web.archive.org/web/20260809110721/https://maltstudio.co/projeler/kuzey-tekstil/",
+      "method": "GET /save/",
+      "at": "2026-08-09T11:07:36.487448+00:00"
+    },
+    {
+      "url": "https://maltstudio.co/projeler/mera-otel/",
+      "ok": true,
+      "status": 302,
+      "wayback_url": "https://web.archive.org/web/20260809110750/https://maltstudio.co/projeler/mera-otel/",
+      "method": "GET /save/",
+      "at": "2026-08-09T11:08:06.384391+00:00"
+    },
+    {
+      "url": "https://maltstudio.co/projeler/dortnal/",
+      "ok": true,
+      "status": 302,
+      "wayback_url": "https://web.archive.org/web/20260809110814/https://maltstudio.co/projeler/dortnal/",
+      "method": "GET /save/",
+      "at": "2026-08-09T11:08:30.378760+00:00"
+    },
+    {
+      "url": "https://maltstudio.co/projeler/ekip-yazilim/",
+      "ok": true,
+      "status": 302,
+      "wayback_url": "https://web.archive.org/web/20260809110838/https://maltstudio.co/projeler/ekip-yazilim/",
+      "method": "GET /save/",
+      "at": "2026-08-09T11:08:54.358933+00:00"
+    },
+    {
+      "url": "https://maltstudio.co/sektorler/fabrika-osb/",
+      "ok": true,
+      "status": 302,
+      "wayback_url": "https://web.archive.org/web/20260809110902/https://maltstudio.co/sektorler/fabrika-osb/",
+      "method": "GET /save/",
+      "at": "2026-08-09T11:09:18.277562+00:00"
+    },
+    {
+      "url": "https://maltstudio.co/sektorler/restoran-cafe/",
+      "ok": true,
+      "status": 302,
+      "wayback_url": "https://web.archive.org/web/20260809110926/https://maltstudio.co/sektorler/restoran-cafe/",
+      "method": "GET /save/",
+      "at": "2026-08-09T11:09:42.258432+00:00"
+    },
+    {
+      "url": "https://maltstudio.co/sektorler/saglik/",
+      "ok": true,
+      "status": 302,
+      "wayback_url": "https://web.archive.org/web/20260809110953/https://maltstudio.co/sektorler/saglik/",
+      "method": "GET /save/",
+      "at": "2026-08-09T11:10:06.130200+00:00"
+    },
+    {
+      "url": "https://maltstudio.co/sektorler/plaza-ofis/",
+      "ok": true,
+      "status": 302,
+      "wayback_url": "https://web.archive.org/web/20260809111014/https://maltstudio.co/sektorler/plaza-ofis/",
+      "method": "GET /save/",
+      "at": "2026-08-09T11:10:30.022219+00:00"
+    },
+    {
+      "url": "https://maltstudio.co/sektorler/insaat-santiye/",
+      "ok": true,
+      "status": 302,
+      "wayback_url": "https://web.archive.org/web/20260809111038/https://maltstudio.co/sektorler/insaat-santiye/",
+      "method": "GET /save/",
+      "at": "2026-08-09T11:10:54.121986+00:00"
+    },
+    {
+      "url": "https://maltstudio.co/sektorler/perakende/",
+      "ok": true,
+      "status": 302,
+      "wayback_url": "https://web.archive.org/web/20260809111102/https://maltstudio.co/sektorler/perakende/",
+      "method": "GET /save/",
+      "at": "2026-08-09T11:11:17.998558+00:00"
+    },
+    {
+      "url": "https://maltstudio.co/bilgi/tabela-cesitleri/",
+      "ok": true,
+      "status": 302,
+      "wayback_url": "https://web.archive.org/web/20260809111126/https://maltstudio.co/bilgi/tabela-cesitleri/",
+      "method": "GET /save/",
+      "at": "2026-08-09T11:11:41.868978+00:00"
+    },
+    {
+      "url": "https://maltstudio.co/bilgi/isikli-mi-isiksiz-mi/",
+      "ok": true,
+      "status": 302,
+      "wayback_url": "https://web.archive.org/web/20260809111150/https://maltstudio.co/bilgi/isikli-mi-isiksiz-mi/",
+      "method": "GET /save/",
+      "at": "2026-08-09T11:12:05.785245+00:00"
+    },
+    {
+      "url": "https://maltstudio.co/bilgi/kutu-harf-malzemeler/",
+      "ok": true,
+      "status": 302,
+      "wayback_url": "https://web.archive.org/web/20260809111214/https://maltstudio.co/bilgi/kutu-harf-malzemeler/",
+      "method": "GET /save/",
+      "at": "2026-08-09T11:12:29.664354+00:00"
+    },
+    {
+      "url": "https://maltstudio.co/bilgi/one-way-vision-nedir/",
+      "ok": true,
+      "status": 302,
+      "wayback_url": "https://web.archive.org/web/20260809111254/https://maltstudio.co/bilgi/one-way-vision-nedir/",
+      "method": "GET /save/",
+      "at": "2026-08-09T11:13:05.851372+00:00"
+    },
+    {
+      "url": "https://maltstudio.co/bilgi/arac-giydirme-rehberi/",
+      "ok": true,
+      "status": 302,
+      "wayback_url": "https://web.archive.org/web/20260809111314/https://maltstudio.co/bilgi/arac-giydirme-rehberi/",
+      "method": "GET /save/",
+      "at": "2026-08-09T11:13:29.747620+00:00"
+    },
+    {
+      "url": "https://maltstudio.co/bilgi/tabela-fiyati/",
+      "ok": true,
+      "status": 302,
+      "wayback_url": "https://web.archive.org/web/20260809111338/https://maltstudio.co/bilgi/tabela-fiyati/",
+      "method": "GET /save/",
+      "at": "2026-08-09T11:13:53.623946+00:00"
+    },
+    {
+      "url": "https://maltstudio.co/bilgi/totem-secim-rehberi/",
+      "ok": true,
+      "status": 302,
+      "wayback_url": "https://web.archive.org/web/20260809111402/https://maltstudio.co/bilgi/totem-secim-rehberi/",
+      "method": "GET /save/",
+      "at": "2026-08-09T11:14:17.585708+00:00"
+    },
+    {
+      "url": "https://maltstudio.co/images/og.jpg",
+      "ok": true,
+      "status": 302,
+      "wayback_url": "https://web.archive.org/web/20260809104911/https://maltstudio.co/images/og.jpg",
+      "method": "GET /save/",
+      "at": "2026-08-09T11:14:29.409864+00:00"
+    },
+    {
+      "url": "https://maltstudio.co/images/logo.svg",
+      "ok": true,
+      "status": 302,
+      "wayback_url": "https://web.archive.org/web/20260809111435/https://maltstudio.co/images/logo.svg",
+      "method": "GET /save/",
+      "at": "2026-08-09T11:14:41.305934+00:00"
+    },
+    {
+      "url": "https://maltstudio.co/images/icon-192.png",
+      "ok": true,
+      "status": 302,
+      "wayback_url": "https://web.archive.org/web/20260809111447/https://maltstudio.co/images/icon-192.png",
+      "method": "GET /save/",
+      "at": "2026-08-09T11:14:53.241877+00:00"
+    },
+    {
+      "url": "https://maltstudio.co/images/icon-512.png",
+      "ok": true,
+      "status": 302,
+      "wayback_url": "https://web.archive.org/web/20260809111459/https://maltstudio.co/images/icon-512.png",
+      "method": "GET /save/",
+      "at": "2026-08-09T11:15:05.094776+00:00"
+    },
+    {
+      "url": "https://maltstudio.co/images/uploads/6c209abf-2af4-4517-a385-92dd52cc044f.jpg",
+      "ok": true,
+      "status": 302,
+      "wayback_url": "https://web.archive.org/web/20260809111511/https://maltstudio.co/images/uploads/6c209abf-2af4-4517-a385-92dd52cc044f.jpg",
+      "method": "GET /save/",
+      "at": "2026-08-09T11:15:16.964979+00:00"
+    },
+    {
+      "url": "https://maltstudio.co/images/uploads/img_6432.jpg",
+      "ok": true,
+      "status": 302,
+      "wayback_url": "https://web.archive.org/web/20260809111523/https://maltstudio.co/images/uploads/img_6432.jpg",
+      "method": "GET /save/",
+      "at": "2026-08-09T11:15:28.877551+00:00"
+    },
+    {
+      "url": "https://maltstudio.co/images/uploads/img_7536.jpg",
+      "ok": true,
+      "status": 302,
+      "wayback_url": "https://web.archive.org/web/20260809111535/https://maltstudio.co/images/uploads/img_7536.jpg",
+      "method": "GET /save/",
+      "at": "2026-08-09T11:15:40.734860+00:00"
+    },
+    {
+      "url": "https://maltstudio.co/images/uploads/img_7847.jpg",
+      "ok": true,
+      "status": 302,
+      "method": "GET /save/",
+      "at": "2026-08-09T11:20:12.514034+00:00",
+      "wayback_url": "https://web.archive.org/web/20260809111949/https://maltstudio.co/images/uploads/img_7847.jpg",
+      "retried": true
+    },
+    {
+      "url": "https://maltstudio.co/images/uploads/49def14c-ef5f-4f6c-ba65-60a6654072b7-1-.jpg",
+      "ok": true,
+      "status": 302,
+      "wayback_url": "https://web.archive.org/web/20260809111604/https://maltstudio.co/images/uploads/49def14c-ef5f-4f6c-ba65-60a6654072b7-1-.jpg",
+      "method": "GET /save/",
+      "at": "2026-08-09T11:16:10.593445+00:00"
+    },
+    {
+      "url": "https://maltstudio.co/images/uploads/snapinsta.to_721735614_18085976048381838_6119022146079124288_n.jpg",
+      "ok": true,
+      "status": 302,
+      "wayback_url": "https://web.archive.org/web/20260809111616/https://maltstudio.co/images/uploads/snapinsta.to_721735614_18085976048381838_6119022146079124288_n.jpg",
+      "method": "GET /save/",
+      "at": "2026-08-09T11:16:22.447811+00:00"
+    }
+  ]
+}
