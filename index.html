@@ -51,9 +51,11 @@
 <link rel="icon" type="image/png" href="/images/icon-192.png">
 <link rel="apple-touch-icon" href="/images/icon-192.png">
 <link rel="manifest" href="/manifest.json">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;800;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="preload" href="/assets/fonts/big-shoulders-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/big-shoulders-latin-ext.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/inter-latin-ext.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/fonts.css">
 <style>
   :root{
     --maroon:#710014;
@@ -69,12 +71,12 @@
   body{
     background:var(--ink);
     color:var(--paper);
-    font-family:'Inter', sans-serif;
+    font-family:'Inter', 'Inter Fallback', sans-serif;
     font-weight:400;
     overflow-x:hidden;
   }
   h1,h2,h3,.display{
-    font-family:'Big Shoulders Display', sans-serif;
+    font-family:'Big Shoulders Display', 'Big Shoulders Fallback', sans-serif;
     font-weight:900;
     text-transform:uppercase;
     letter-spacing:0.01em;
@@ -85,8 +87,9 @@
   .wrap{max-width:1240px; margin:0 auto; padding:0 56px;}
 
   /* -------- logo mark -------- */
-  .logo-mark{height:20px; width:auto; display:block; color:var(--paper);}
+  .logo-mark{height:20px; width:128px; display:block; color:var(--paper); flex-shrink:0;}
   .logo-mark path, .logo-mark rect, .logo-mark polygon{fill:currentColor;}
+  img.logo-mark{object-fit:contain; object-position:left center;}
 
   /* -------- header -------- */
   header{
@@ -146,11 +149,14 @@
     max-width:920px;
     color:var(--paper);
     line-height:1.08;
+    /* Reserve ~2 display lines so late font metrics cannot shift hero */
+    min-height:calc(2.16 * clamp(48px, 9vw, 128px));
   }
   .hero h1 span{color:var(--maroon-light);}
   .hero-sub{
     max-width:480px; margin-top:32px;
     font-size:17px; line-height:1.6; color:rgba(241,238,231,0.72);
+    min-height:calc(1.6em * 3);
   }
   .hero-actions{display:flex; gap:16px; margin-top:44px; flex-wrap:wrap;}
   .btn{
@@ -275,7 +281,7 @@
   .footer-top li{margin-bottom:10px; font-size:14px; color:rgba(241,238,231,0.75);}
   .footer-top li a:hover{color:var(--paper);}
   .footer-logo{margin-bottom:16px;}
-  .footer-logo .logo-mark{height:22px;}
+  .footer-logo .logo-mark{height:22px; width:141px;}
   .footer-bottom{
     display:flex; justify-content:space-between; align-items:center;
     padding-top:28px; font-size:13px; color:rgba(241,238,231,0.5); flex-wrap:wrap; gap:12px;
@@ -285,7 +291,9 @@
     background:#25D366; color:#0b1a10; font-weight:700; font-size:13px;
     padding:14px 20px; border-radius:40px; display:flex; align-items:center; gap:8px;
     box-shadow:0 8px 24px rgba(0,0,0,0.3);
+    white-space:nowrap; min-height:48px; contain:layout;
   }
+
 
 
 
@@ -376,7 +384,7 @@
     display:flex; flex-direction:column; gap:12px;
   }
   .process-step .num{
-    font-family:'Big Shoulders Display',sans-serif; font-weight:900;
+    font-family:'Big Shoulders Display','Big Shoulders Fallback',sans-serif; font-weight:900;
     font-size:15px; color:var(--maroon-light);
   }
   .process-step h3{
@@ -578,7 +586,7 @@
       <p id="portfolio-intro">Tamamladığımız işlerden öne çıkanlar.</p>
     </div>
   </div>
-  <div class="work-grid" id="work-grid"><div class="work-item" data-cat="Paylaşımlı Ofis"><img class="work-swatch" src="/images/uploads/6c209abf-2af4-4517-a385-92dd52cc044f.jpg" alt="OFİSO - Paylaşımlı Ofis" loading="lazy" decoding="async"><div class="work-meta"><div class="work-name">OFİSO</div></div></div><div class="work-item" data-cat="Ekspertiz"><img class="work-swatch" src="/images/uploads/img_6432.jpg" alt="Yamanlar Ekspertiz - Ekspertiz" loading="lazy" decoding="async"><div class="work-meta"><div class="work-name">Yamanlar Ekspertiz</div></div></div><div class="work-item" data-cat="Anaokulu"><img class="work-swatch" src="/images/uploads/img_7536.jpg" alt="Anka Anaokulu - Anaokulu" loading="lazy" decoding="async"><div class="work-meta"><div class="work-name">Anka Anaokulu</div></div></div><div class="work-item" data-cat="Restorant"><img class="work-swatch" src="/images/uploads/49def14c-ef5f-4f6c-ba65-60a6654072b7-1-.jpg" alt="Köşem Döner - Restorant" loading="lazy" decoding="async"><div class="work-meta"><div class="work-name">Köşem Döner</div></div></div><div class="work-item" data-cat="Restorant"><img class="work-swatch" src="/images/uploads/img_7847.jpg" alt="Pembe Pasta Evi - Restorant" loading="lazy" decoding="async"><div class="work-meta"><div class="work-name">Pembe Pasta Evi</div></div></div><div class="work-item" data-cat="Tarım"><img class="work-swatch" src="/images/uploads/snapinsta.to_721735614_18085976048381838_6119022146079124288_n.jpg" alt="Okka Tarım - Tarım" loading="lazy" decoding="async"><div class="work-meta"><div class="work-name">Okka Tarım</div></div></div></div>
+  <div class="work-grid" id="work-grid"><div class="work-item" data-cat="Paylaşımlı Ofis"><img class="work-swatch" src="/images/uploads/6c209abf-2af4-4517-a385-92dd52cc044f.jpg" alt="OFİSO - Paylaşımlı Ofis" width="800" height="1000" loading="lazy" decoding="async"><div class="work-meta"><div class="work-name">OFİSO</div></div></div><div class="work-item" data-cat="Ekspertiz"><img class="work-swatch" src="/images/uploads/img_6432.jpg" alt="Yamanlar Ekspertiz - Ekspertiz" width="800" height="1000" loading="lazy" decoding="async"><div class="work-meta"><div class="work-name">Yamanlar Ekspertiz</div></div></div><div class="work-item" data-cat="Anaokulu"><img class="work-swatch" src="/images/uploads/img_7536.jpg" alt="Anka Anaokulu - Anaokulu" width="800" height="1000" loading="lazy" decoding="async"><div class="work-meta"><div class="work-name">Anka Anaokulu</div></div></div><div class="work-item" data-cat="Restorant"><img class="work-swatch" src="/images/uploads/49def14c-ef5f-4f6c-ba65-60a6654072b7-1-.jpg" alt="Köşem Döner - Restorant" width="800" height="1000" loading="lazy" decoding="async"><div class="work-meta"><div class="work-name">Köşem Döner</div></div></div><div class="work-item" data-cat="Restorant"><img class="work-swatch" src="/images/uploads/img_7847.jpg" alt="Pembe Pasta Evi - Restorant" width="800" height="1000" loading="lazy" decoding="async"><div class="work-meta"><div class="work-name">Pembe Pasta Evi</div></div></div><div class="work-item" data-cat="Tarım"><img class="work-swatch" src="/images/uploads/snapinsta.to_721735614_18085976048381838_6119022146079124288_n.jpg" alt="Okka Tarım - Tarım" width="800" height="1000" loading="lazy" decoding="async"><div class="work-meta"><div class="work-name">Okka Tarım</div></div></div></div>
   <div class="wrap" style="margin-top:28px;"><a class="section-link" href="/projeler/">Tüm projeler →</a></div>
 </section>
 
@@ -702,7 +710,7 @@
         </div>
         <p id="footer-about" style="font-size:14px; color:rgba(241,238,231,0.62); max-width:280px; line-height:1.6;">Tekirdağ merkezli reklam ajansı ve tabela üreticisi. Tabela, kurumsal kimlik, dijital baskı ve uygulama — keşiften montaja.</p>
       </div>
-                                                                                                                                                                                                                              <div>
+                                                                                                                                                                                                                                    <div>
         <h4>Hizmetler</h4>
         <ul>
           <li><a href="/hizmetler/">Tüm hizmetler</a></li>
@@ -745,7 +753,7 @@
   </div>
 </footer>
 
-<a class="whatsapp-btn" id="whatsapp-btn" href="https://api.whatsapp.com/send?phone=905525826959&amp;text=Merhaba%2C%20teklif%20almak%20istiyorum." target="_blank" rel="noopener">İletişime Geç</a>
+<a class="whatsapp-btn" id="whatsapp-btn" href="https://api.whatsapp.com/send?phone=905525826959&amp;text=Merhaba%2C%20teklif%20almak%20istiyorum." target="_blank" rel="noopener" aria-label="WhatsApp ile iletişime geç">İletişime Geç</a>
 
 <script>
 async function loadContent() {
@@ -796,6 +804,8 @@ async function loadContent() {
       img.className = 'logo-mark';
       img.src = c.logo;
       img.alt = c.siteName || 'Malt Studio';
+      img.width = 128;
+      img.height = 20;
       img.decoding = 'async';
       img.onerror = () => img.replaceWith(svg);
       svg.replaceWith(img);
@@ -810,22 +820,34 @@ async function loadContent() {
       const msg = encodeURIComponent(c.whatsappMessage || '');
       setHref('whatsapp-btn', `https://api.whatsapp.com/send?phone=${c.whatsappNumber}&text=${msg}`);
     }
-    // Stats always follow content.json (even when prerendered), so CMS edits show
-    // without a full rebuild and stale HTML cache cannot pin old numbers.
+    // Stats follow content.json, but only rewrite DOM when values actually change
+    // to avoid layout thrash / CLS on prerendered pages.
     const statsGridEarly = document.getElementById('stats-grid');
     if (statsGridEarly && Array.isArray(c.stats) && c.stats.length) {
-      statsGridEarly.replaceChildren();
-      c.stats.forEach(s => {
-        const cell = document.createElement('div');
-        const num = document.createElement('div');
-        num.className = 'stat-num';
-        num.textContent = s.number || '';
-        const label = document.createElement('div');
-        label.className = 'stat-label';
-        label.textContent = s.label || '';
-        cell.append(num, label);
-        statsGridEarly.appendChild(cell);
-      });
+      const next = c.stats.map(s => ({
+        number: String(s.number || ''),
+        label: String(s.label || '')
+      }));
+      const current = [...statsGridEarly.children].map(cell => ({
+        number: (cell.querySelector('.stat-num') || {}).textContent || '',
+        label: (cell.querySelector('.stat-label') || {}).textContent || ''
+      }));
+      const same = next.length === current.length &&
+        next.every((s, i) => s.number === current[i].number && s.label === current[i].label);
+      if (!same) {
+        statsGridEarly.replaceChildren();
+        next.forEach(s => {
+          const cell = document.createElement('div');
+          const num = document.createElement('div');
+          num.className = 'stat-num';
+          num.textContent = s.number;
+          const label = document.createElement('div');
+          label.className = 'stat-label';
+          label.textContent = s.label;
+          cell.append(num, label);
+          statsGridEarly.appendChild(cell);
+        });
+      }
     }
     if (prerendered) return;
 
@@ -1145,6 +1167,8 @@ async function loadContent() {
           swatch = document.createElement('img');
           swatch.src = p.image;
           swatch.alt = `${p.name || ''} - ${p.category || ''}`;
+          swatch.width = 800;
+          swatch.height = 1000;
           swatch.loading = 'lazy';
           swatch.decoding = 'async';
         } else {

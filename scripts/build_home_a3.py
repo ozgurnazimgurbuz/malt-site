@@ -71,7 +71,7 @@ A3_CSS = """
     display:flex; flex-direction:column; gap:12px;
   }
   .process-step .num{
-    font-family:'Big Shoulders Display',sans-serif; font-weight:900;
+    font-family:'Big Shoulders Display','Big Shoulders Fallback',sans-serif; font-weight:900;
     font-size:15px; color:var(--maroon-light);
   }
   .process-step h3{

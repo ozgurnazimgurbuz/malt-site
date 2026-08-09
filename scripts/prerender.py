@@ -162,7 +162,7 @@ def build_portfolio(c: dict) -> str:
             alt = esc(f'{p.get("name") or ""} - {p.get("category") or ""}')
             swatch = (
                 f'<img class="work-swatch" src="{esc(image)}" alt="{alt}" '
-                f'loading="lazy" decoding="async">'
+                f'width="800" height="1000" loading="lazy" decoding="async">'
             )
         else:
             color1 = esc(p.get("color1") or "#B08D72")
