@@ -45,7 +45,7 @@ A3_CSS = """
     list-style:none; display:flex; flex-wrap:wrap; gap:12px 28px;
     justify-content:space-between; align-items:center;
     font-size:12px; font-weight:700; letter-spacing:0.12em; text-transform:uppercase;
-    color:rgba(241,238,231,0.78);
+    color:var(--muted-trust);
   }
   .trust-strip li{display:flex; align-items:center; gap:10px; white-space:nowrap;}
   .trust-strip li::before{
@@ -60,7 +60,7 @@ A3_CSS = """
     display:inline-flex; align-items:center;
     padding:12px 16px; border:1px solid var(--line);
     font-size:13px; font-weight:600; letter-spacing:0.04em;
-    color:rgba(241,238,231,0.82); transition:border-color .2s, color .2s, background .2s;
+    color:var(--muted-chip); transition:border-color .2s, color .2s, background .2s;
   }
   a.chip:hover{border-color:var(--taupe); color:var(--paper); background:rgba(176,141,114,0.08);}
   .chip.is-alias{opacity:0.72; border-style:dashed;}
@@ -79,7 +79,7 @@ A3_CSS = """
   .process-step h3{
     font-size:20px; text-transform:none; letter-spacing:0; line-height:1.15;
   }
-  .process-step p{font-size:13px; line-height:1.55; color:rgba(241,238,231,0.62);}
+  .process-step p{font-size:13px; line-height:1.55; color:var(--muted);}
   .why-grid{
     display:grid; grid-template-columns:repeat(5,1fr); gap:1px;
     background:var(--line); border:1px solid var(--line);
@@ -90,7 +90,7 @@ A3_CSS = """
   .why-card h3{
     font-size:20px; text-transform:none; letter-spacing:0; line-height:1.2; margin-bottom:12px;
   }
-  .why-card p{font-size:14px; line-height:1.55; color:rgba(241,238,231,0.62);}
+  .why-card p{font-size:14px; line-height:1.55; color:var(--muted);}
   .knowledge-grid{
     display:grid; grid-template-columns:repeat(3,1fr); gap:1px;
     background:rgba(26,26,26,0.14); border:1px solid rgba(26,26,26,0.14);
