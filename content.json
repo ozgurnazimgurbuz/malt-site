@@ -82,21 +82,21 @@
       "category": "Restorant"
     },
     {
-      "name": "Dörtnal",
-      "slug": "dortnal",
+      "name": "Pembe Pasta Evi",
+      "slug": "",
       "client": "",
       "featured": true,
       "gallery": [],
       "location": "Tekirdağ",
       "completedDate": "",
-      "image": "",
-      "description": "Perakende vitrin ve tabela.",
+      "image": "/images/uploads/img_7847.jpg",
+      "description": "",
       "year": "",
       "services": [
         "Cam Giydirme",
         "Tabela"
       ],
-      "category": "Perakende"
+      "category": "Restorant"
     },
     {
       "name": "Ekip Yazılım",
