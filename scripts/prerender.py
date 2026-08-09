@@ -22,7 +22,7 @@ def esc(value) -> str:
 
 
 def eyebrow_html(raw) -> str:
-    """Keep CMS as one string; wrap leading 'Brand · ' for mobile CSS hide."""
+    """Keep CMS as one string; wrap leading 'Brand · ' so CSS can hide it everywhere."""
     text = "" if raw is None else str(raw)
     sep = " · "
     if sep in text:

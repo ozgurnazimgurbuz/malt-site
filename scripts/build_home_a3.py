@@ -35,10 +35,8 @@ A3_CSS = """
   .hero .scroll-cue{z-index:1; left:56px;}
   .hero h1{line-height:1.08;}
   .section-head h2{line-height:1.08;}
-  /* Logo already brands the page on small screens — drop redundant eyebrow brand. */
-  @media (max-width:900px){
-    #hero-eyebrow .eyebrow-brand{display:none;}
-  }
+  /* Logo already brands the page — drop redundant eyebrow brand on all viewports. */
+  #hero-eyebrow .eyebrow-brand{display:none;}
   .trust-strip{
     border-top:1px solid var(--line); border-bottom:1px solid var(--line);
     padding:28px 0; background:rgba(0,0,0,0.25);
