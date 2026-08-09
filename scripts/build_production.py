@@ -957,7 +957,6 @@ def build_projeler_hub() -> None:
 <section class="page-hero">
   <div class="wrap">
     {crumbs(("Ana Sayfa","/"),("Projeler",None))}
-    <div class="eyebrow">Proof layer</div>
     <h1>Projeler</h1>
     <p class="lede">Tamamladığımız işlerden örnekler. Görseller geldikçe güncellenir.</p>
     <div class="hero-actions">

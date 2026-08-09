@@ -8,8 +8,6 @@
 
 ---
 
-Proof layer
-
 # Projeler
 
 Tamamladığımız işlerden örnekler. Görseller geldikçe güncellenir.
