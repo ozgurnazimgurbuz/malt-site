@@ -30,8 +30,9 @@ A3_CSS = """
     position:relative; z-index:1;
     width:100%; max-width:1240px;
     margin-left:0; margin-right:auto;
+    padding-left:56px; padding-right:56px;
   }
-  .hero .scroll-cue{z-index:1;}
+  .hero .scroll-cue{z-index:1; left:56px;}
   .hero h1{line-height:1.08;}
   .section-head h2{line-height:1.08;}
   .trust-strip{
@@ -127,6 +128,8 @@ A3_CSS = """
     .knowledge-grid{grid-template-columns:1fr;}
     .why-grid{grid-template-columns:1fr;}
     .service-grid.enterprise{grid-template-columns:1fr;}
+    .hero .wrap{padding-left:20px; padding-right:20px;}
+    .hero .scroll-cue{left:20px;}
   }
 """
 
