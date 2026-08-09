@@ -31,21 +31,21 @@
       "category": "Paylaşımlı Ofis"
     },
     {
-      "name": "Volt Enerji",
-      "slug": "volt-enerji",
+      "name": "Yamanlar Ekspertiz",
+      "slug": "",
       "client": "",
       "featured": true,
       "gallery": [],
       "location": "Tekirdağ",
       "completedDate": "",
-      "image": "",
-      "description": "Tesis kimliği ve yönlendirme.",
+      "image": "/images/uploads/img_6432.jpg",
+      "description": "",
       "year": "",
       "services": [
         "Tabela",
         "Totem"
       ],
-      "category": "Enerji"
+      "category": "Ekspertiz"
     },
     {
       "name": "Kuzey Tekstil",
