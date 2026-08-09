@@ -951,7 +951,6 @@ def build_project(slug: str, name: str, industry: str, services: list[str]) -> N
 
 
 def build_projeler_hub() -> None:
-    items = cards([(f"/projeler/{s}/", n, "Vaka — görsel kapısı açık.", "Proje") for s, n, _, _ in PROJECTS])
     html = f"""{head("Projeler | Malt Studio İş Örnekleri", "Tabela, ışıklı tabela, kutu harf ve giydirme proje örnekleri.", f"{SITE}/projeler/")}
 <body>
 {header()}
@@ -977,9 +976,6 @@ def build_projeler_hub() -> None:
     {eeat_block("proje hub")}
     {mid_cta("Yeni proje")}
   </div>
-</section>
-<section class="section-band paper-band">
-  <div class="wrap"><h2>Vakalar</h2><div class="card-grid">{items}</div></div>
 </section>
 {related_rail(
     services=[(f"/hizmetler/{s}/", n, f"{n} hizmeti.") for s, n in list(A0.items())[:6]],

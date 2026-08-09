@@ -35,32 +35,6 @@ Malt Studio Tekirdağ merkezli çalışır. Bu proje hub içeriği; atölye üre
 
 [WhatsApp ile Teklif](https://wa.me/905525826959?text=Yeni%20proje) [Teklif](https://maltstudio.co/#teklif) [Ara](tel:+905525826959)
 
-## Vakalar
-
-###
-
-[Liman KahveVaka — görsel kapısı açık.Proje](https://maltstudio.co/projeler/liman-kahve/)
-
-###
-
-[Volt EnerjiVaka — görsel kapısı açık.Proje](https://maltstudio.co/projeler/volt-enerji/)
-
-###
-
-[Kuzey TekstilVaka — görsel kapısı açık.Proje](https://maltstudio.co/projeler/kuzey-tekstil/)
-
-###
-
-[Mera OtelVaka — görsel kapısı açık.Proje](https://maltstudio.co/projeler/mera-otel/)
-
-###
-
-[DörtnalVaka — görsel kapısı açık.Proje](https://maltstudio.co/projeler/dortnal/)
-
-###
-
-[Ekip YazılımVaka — görsel kapısı açık.Proje](https://maltstudio.co/projeler/ekip-yazilim/)
-
 ## İlgili hizmetler
 
 ###

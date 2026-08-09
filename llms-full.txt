@@ -646,32 +646,6 @@ Malt Studio Tekirdağ merkezli çalışır. Bu proje hub içeriği; atölye üre
 
 [WhatsApp ile Teklif](https://wa.me/905525826959?text=Yeni%20proje) [Teklif](https://maltstudio.co/#teklif) [Ara](tel:+905525826959)
 
-## Vakalar
-
-###
-
-[Liman KahveVaka — görsel kapısı açık.Proje](https://maltstudio.co/projeler/liman-kahve/)
-
-###
-
-[Volt EnerjiVaka — görsel kapısı açık.Proje](https://maltstudio.co/projeler/volt-enerji/)
-
-###
-
-[Kuzey TekstilVaka — görsel kapısı açık.Proje](https://maltstudio.co/projeler/kuzey-tekstil/)
-
-###
-
-[Mera OtelVaka — görsel kapısı açık.Proje](https://maltstudio.co/projeler/mera-otel/)
-
-###
-
-[DörtnalVaka — görsel kapısı açık.Proje](https://maltstudio.co/projeler/dortnal/)
-
-###
-
-[Ekip YazılımVaka — görsel kapısı açık.Proje](https://maltstudio.co/projeler/ekip-yazilim/)
-
 ## İlgili hizmetler
 
 ###
@@ -936,31 +910,31 @@ Malt Studio Tekirdağ merkezli çalışır. Bu rehber hub içeriği; atölye ür
 
 ###
 
-[Tabela Çeşitleri: Hangisi Ne İşe Yarar?İlgili sayfa.Rehber](https://maltstudio.co/bilgi/tabela-cesitleri/)
+[Tabela Çeşitleri: Hangisi Ne İşe Yarar?PK: tabela çeşitleriRehber](https://maltstudio.co/bilgi/tabela-cesitleri/)
 
 ###
 
-[Işıklı Tabela mı Işıksız mı?İlgili sayfa.Rehber](https://maltstudio.co/bilgi/isikli-mi-isiksiz-mi/)
+[Işıklı Tabela mı Işıksız mı?PK: ışıklı mı ışıksız mıRehber](https://maltstudio.co/bilgi/isikli-mi-isiksiz-mi/)
 
 ###
 
-[Kutu Harf Malzemeleri: Pleksi mi Paslanmaz mı?İlgili sayfa.Rehber](https://maltstudio.co/bilgi/kutu-harf-malzemeler/)
+[Kutu Harf Malzemeleri: Pleksi mi Paslanmaz mı?PK: kutu harf malzemeleriRehber](https://maltstudio.co/bilgi/kutu-harf-malzemeler/)
 
 ###
 
-[One Way Vision Nedir?Vitrin folyo mantığı.Rehber](https://maltstudio.co/bilgi/one-way-vision-nedir/)
+[One Way Vision Nedir?PK: one way vision nedirRehber](https://maltstudio.co/bilgi/one-way-vision-nedir/)
 
 ###
 
-[Araç Giydirme Rehberi: Süreç, Ömür, Filoİlgili sayfa.Rehber](https://maltstudio.co/bilgi/arac-giydirme-rehberi/)
+[Araç Giydirme Rehberi: Süreç, Ömür, FiloPK: araç giydirme süreciRehber](https://maltstudio.co/bilgi/arac-giydirme-rehberi/)
 
 ###
 
-[Tabela Fiyatını Neler Etkiler?Fiyatı etkileyen faktörler.Rehber](https://maltstudio.co/bilgi/tabela-fiyati/)
+[Tabela Fiyatını Neler Etkiler?PK: tabela fiyatını neler etkilerRehber](https://maltstudio.co/bilgi/tabela-fiyati/)
 
 ###
 
-[Totem Tabela Seçim Rehberiİlgili sayfa.Rehber](https://maltstudio.co/bilgi/totem-secim-rehberi/)
+[Totem Tabela Seçim RehberiPK: totem tabela nasıl seçilirRehber](https://maltstudio.co/bilgi/totem-secim-rehberi/)
 
 ## İlgili hizmetler
 
@@ -1450,11 +1424,11 @@ Garanti kapsamı teklifte yazılıdır; genel internet vaadi verilmez.
 
 ###
 
-[RehberKarar vermenize yardımcı rehber.Bilgi](https://maltstudio.co/bilgi/tabela-cesitleri/)
+[RehberEğitim.Bilgi](https://maltstudio.co/bilgi/tabela-cesitleri/)
 
 ###
 
-[RehberKarar vermenize yardımcı rehber.Bilgi](https://maltstudio.co/bilgi/tabela-fiyati/)
+[RehberEğitim.Bilgi](https://maltstudio.co/bilgi/tabela-fiyati/)
 
 ## İlgili projeler
 
@@ -1665,6 +1639,8 @@ Kasa derinliği LED tipini ve servis erişimini etkiler; ince görünüm isteği
 Su ve toz riski dış cephede yüksektir; conta ve drenaj detayı keşifte konuşulmadan üretim başlamamalıdır.
 
 Aşırı parlak LED hem komşuyu rahatsız eder hem okunurluğu bozar; yoğunluk cepheye göre ayarlanır.
+
+Lightbox ihtiyacı retail/AVM içi kutu ise bu sayfa değil Lightbox URL’si doğrudur — yanlış ürün EEAT’yi zedeler.
 
 Gece testi mümkünse montaj sonrası yapılır; mümkün değilse güç ve bağlantı kontrolü teslim kriteridir.
 
@@ -1940,11 +1916,11 @@ Servis kapsamı teklifte netleştirilir.
 
 ###
 
-[RehberKarar vermenize yardımcı rehber.Bilgi](https://maltstudio.co/bilgi/isikli-mi-isiksiz-mi/)
+[RehberEğitim.Bilgi](https://maltstudio.co/bilgi/isikli-mi-isiksiz-mi/)
 
 ###
 
-[RehberKarar vermenize yardımcı rehber.Bilgi](https://maltstudio.co/bilgi/tabela-cesitleri/)
+[RehberEğitim.Bilgi](https://maltstudio.co/bilgi/tabela-cesitleri/)
 
 ## İlgili projeler
 
@@ -2436,11 +2412,11 @@ Hasarlı tek harf değişimi çoğu zaman tüm yazıyı sökmeden planlanabilir.
 
 ###
 
-[RehberKarar vermenize yardımcı rehber.Bilgi](https://maltstudio.co/bilgi/kutu-harf-malzemeler/)
+[RehberEğitim.Bilgi](https://maltstudio.co/bilgi/kutu-harf-malzemeler/)
 
 ###
 
-[RehberKarar vermenize yardımcı rehber.Bilgi](https://maltstudio.co/bilgi/tabela-cesitleri/)
+[RehberEğitim.Bilgi](https://maltstudio.co/bilgi/tabela-cesitleri/)
 
 ## İlgili projeler
 
@@ -2552,6 +2528,8 @@ Uzaktan görülen, yönlendiren totem tabela sistemleri.
 
 Totem; yol kenarı, tesis girişi ve otopark yaklaşımında markayı ve yönü taşır.
 
+Pylon/monument alt tipleri bu sayfada anlatılır; ayrı doorway URL açılmaz.
+
 Taşınabilir indoor display totem /hizmetler/display-pos/ ailesindedir.
 
 Yükseklik, temel, ışıklı tercih ve görüş mesafesi keşifte hesaplanır.
@@ -2649,6 +2627,8 @@ Totem yüksekliği araç hızı ve görüş açısına göre belirlenir; ‘ne k
 Temel tipi zemin koşullarına bağlıdır; uydurma statik hesap yayınlanmaz, keşif sonrası netleşir.
 
 Işıklı totemlerde kaçak ve servis erişimi tasarımda bırakılmazsa bakım maliyeti artar.
+
+Pylon adı aynı ailede kalır; ayrı doorway URL açılmaz.
 
 Indoor display totem ile outdoor tesis totemi karıştırılmamalıdır — Display & POS ayrıdır.
 
@@ -2832,6 +2812,8 @@ Tesis girişi ve yol yaklaşımında totem, Tekirdağ çevre sanayi taleplerinde
 
 Totem; yol kenarı, tesis girişi ve otopark yaklaşımında markayı ve yönü taşır.
 
+Pylon/monument alt tipleri bu sayfada anlatılır; ayrı doorway URL açılmaz.
+
 Bu sayfa Tekirdağ’daki yerel üretim, montaj ve lojistik bağlamını taşır.
 
 Süleymanpaşa ve merkez talepleri bu sayfada toplanır.
@@ -2924,11 +2906,11 @@ Darbe veya grafiti sonrası panel yenileme planlanabilir.
 
 ###
 
-[RehberKarar vermenize yardımcı rehber.Bilgi](https://maltstudio.co/bilgi/totem-secim-rehberi/)
+[RehberEğitim.Bilgi](https://maltstudio.co/bilgi/totem-secim-rehberi/)
 
 ###
 
-[RehberKarar vermenize yardımcı rehber.Bilgi](https://maltstudio.co/bilgi/tabela-cesitleri/)
+[RehberEğitim.Bilgi](https://maltstudio.co/bilgi/tabela-cesitleri/)
 
 ## İlgili projeler
 
@@ -3398,7 +3380,7 @@ Hasarlı panel yenilemesi filo şablonundan yeniden basılabilir.
 
 ###
 
-[RehberKarar vermenize yardımcı rehber.Bilgi](https://maltstudio.co/bilgi/arac-giydirme-rehberi/)
+[RehberEğitim.Bilgi](https://maltstudio.co/bilgi/arac-giydirme-rehberi/)
 
 ## İlgili projeler
 
@@ -3882,7 +3864,7 @@ Buğu veya kenar kalkması görülürse erken müdahale önerilir.
 
 ###
 
-[RehberKarar vermenize yardımcı rehber.Bilgi](https://maltstudio.co/bilgi/one-way-vision-nedir/)
+[RehberEğitim.Bilgi](https://maltstudio.co/bilgi/one-way-vision-nedir/)
 
 ## İlgili projeler
 
@@ -4057,6 +4039,8 @@ Malt Studio Tekirdağ merkezli çalışır. Bu hizmet içeriği; atölye üretim
 - **Kanıt:** Gerçek fotoğraflar proje sayfalarına bağlanır; stok görsel kullanılmaz.
 
 ## Deneyim ve üretim
+
+Lightbox ile ışıklı tabela ayrımı bilinçli tutulur; kullanıcıyı yanlış ürüne sürüklememek EEAT’nin parçasıdır.
 
 Yerel talep Tekirdağ üssünden keşif ile yönetilir.
 
@@ -8498,6 +8482,8 @@ Statik ve saha koşulları.
 
 ## Pylon
 
+Aynı aile; ayrı doorway yok.
+
 ## Indoor display
 
 Display/POS sayfasına aittir.
@@ -8636,7 +8622,10 @@ Malt Studio Tekirdağ merkezli çalışır. Bu rehber içeriği; atölye üretim
 [Ana sayfaMalt Studio ana sayfa.Keşif](https://maltstudio.co/)
 
 ## SSS
-Pylon ayrı mı? Display totem?
+Pylon ayrı mı?
+
+Aynı aile; ayrı doorway yok.
+Display totem?
 
 /hizmetler/display-pos/.
 Sipariş?
