@@ -124,10 +124,6 @@ Karar vermenize yardımcı olacak rehberler.
 
 ###
 
-[FiyatTabela Fiyatını Neler Etkiler?Teklif yerine geçmeyen eğitim içeriği.](https://maltstudio.co/bilgi/tabela-fiyati/)
-
-###
-
 [TesisTotem Seçim RehberiYol ve giriş totem kararları.](https://maltstudio.co/bilgi/totem-secim-rehberi/)
 
 [Tüm rehberler →](https://maltstudio.co/bilgi/)

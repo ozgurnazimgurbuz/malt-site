@@ -31,6 +31,12 @@
     Cache-Control = "public, max-age=31536000, immutable"
     Access-Control-Allow-Origin = "*"
 
+# Shared CSS (fonts.css / site.css) — week-long cache; HTML stays must-revalidate.
+[[headers]]
+  for = "/assets/*.css"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"
+
 # CMS güncellemelerinin anında görünmesi için her istekte doğrulanır.
 [[headers]]
   for = "/content.json"

@@ -31,20 +31,43 @@ def google_analytics_id() -> str:
 
 
 def gtag_snippet(ga_id: str | None = None) -> str:
-    """Single Google tag (gtag.js) block for <head>. Empty when ID missing."""
+    """Deferred GA4 loader — idle/after-load so it stays off the LCP critical path."""
     ga_id = (ga_id or google_analytics_id()).strip()
     if not _GA_ID_RE.match(ga_id):
         return ""
     return (
-        "<!-- Google tag (gtag.js) -->\n"
-        f'<script async src="https://www.googletagmanager.com/gtag/js?id={ga_id}"></script>\n'
+        "<!-- Google tag (gtag.js) — deferred until idle -->\n"
         "<script>\n"
-        "  window.dataLayer = window.dataLayer || [];\n"
+        "(function(){\n"
+        f"  var id='{ga_id}';\n"
+        "  window.dataLayer=window.dataLayer||[];\n"
         "  function gtag(){dataLayer.push(arguments);}\n"
-        "  gtag('js', new Date());\n"
-        f"  gtag('config', '{ga_id}');\n"
+        "  window.gtag=gtag;\n"
+        "  function load(){\n"
+        "    if(window.__gaLoaded)return;window.__gaLoaded=1;\n"
+        "    var s=document.createElement('script');\n"
+        "    s.async=true;\n"
+        "    s.src='https://www.googletagmanager.com/gtag/js?id='+id;\n"
+        "    s.onload=function(){gtag('js',new Date());gtag('config',id);};\n"
+        "    document.head.appendChild(s);\n"
+        "  }\n"
+        "  if('requestIdleCallback' in window)requestIdleCallback(load,{timeout:4000});\n"
+        "  else window.addEventListener('load',function(){setTimeout(load,1);});\n"
+        "})();\n"
         "</script>\n"
     )
+
+
+def fonts_head() -> str:
+    """LCP-first font hints: preload display face only; inline @font-face (no blocking CSS)."""
+    fonts_css = (ROOT / "assets" / "fonts.css").read_text(encoding="utf-8").strip()
+    return (
+        '<style>html,body{background:#1A1A1A;color:#F1EEE7}</style>\n'
+        '<link rel="preload" href="/assets/fonts/big-shoulders-latin.woff2" as="font" type="font/woff2" crossorigin>\n'
+        '<link rel="preload" href="/assets/fonts/big-shoulders-latin-ext.woff2" as="font" type="font/woff2" crossorigin>\n'
+        f"<style>\n{fonts_css}\n</style>\n"
+    )
+
 
 A0 = {
     "tabela": "Tabela",
@@ -74,6 +97,35 @@ def logo() -> str:
     )
 
 
+THEME_BOOT = (
+    "<script>"
+    "(function(){try{if(localStorage.getItem('malt-theme')==='light')"
+    "document.documentElement.setAttribute('data-theme','light');}catch(e){}})"
+    "();"
+    "</script>\n"
+)
+
+THEME_TOGGLE = (
+    '<button type="button" class="theme-toggle" data-theme-toggle '
+    'aria-pressed="false" aria-label="Açık arayüze geç" title="Açık">'
+    '<svg class="icon-moon" viewBox="0 0 24 24" aria-hidden="true" fill="none" '
+    'stroke="currentColor" stroke-width="1.75">'
+    '<path d="M20.2 14.3A8.5 8.5 0 0 1 9.7 3.8 7 7 0 1 0 20.2 14.3z"/>'
+    "</svg>"
+    '<svg class="icon-sun" viewBox="0 0 24 24" aria-hidden="true" fill="none" '
+    'stroke="currentColor" stroke-width="1.75">'
+    '<circle cx="12" cy="12" r="4"/>'
+    '<path d="M12 2.5v2.2M12 19.3v2.2M2.5 12h2.2M19.3 12h2.2'
+    'M5.4 5.4l1.6 1.6M17 17l1.6 1.6M18.6 5.4 17 7M7 17l-1.6 1.6"/>'
+    "</svg>"
+    "</button>"
+)
+
+
+def theme_script() -> str:
+    return '<script src="/assets/theme.js" defer></script>\n'
+
+
 def head(
     title: str,
     description: str,
@@ -92,7 +144,7 @@ def head(
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-{ga}<title>{title}</title>
+{THEME_BOOT}{ga}<title>{title}</title>
 <meta name="description" content="{description}">
 {robots}<link rel="canonical" href="{canonical}">
 <meta property="og:type" content="website">
@@ -110,12 +162,7 @@ def head(
 <meta name="twitter:image" content="{SITE}/images/og.jpg">
 <link rel="icon" type="image/png" href="/images/icon-192.png">
 <link rel="manifest" href="/manifest.json">
-<link rel="preload" href="/assets/fonts/big-shoulders-latin.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="/assets/fonts/big-shoulders-latin-ext.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="/assets/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="/assets/fonts/inter-latin-ext.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/assets/fonts.css">
-<link rel="stylesheet" href="/assets/site.css">
+{fonts_head()}<link rel="stylesheet" href="/assets/site.css">
 </head>
 """
 
@@ -123,11 +170,15 @@ def head(
 def header() -> str:
     return f"""<header>
   <a href="/" aria-label="Malt Studio">{logo()}</a>
-  <nav aria-label="Ana menü">
-    <a href="/#teklif">Teklif</a>
-    <a href="/#iletisim">İletişim</a>
-  </nav>
+  <div class="header-actions">
+    <nav aria-label="Ana menü">
+      <a href="/#teklif">Teklif</a>
+      <a href="/#iletisim">İletişim</a>
+    </nav>
+    {THEME_TOGGLE}
+  </div>
 </header>
+<main>
 """
 
 
@@ -135,21 +186,22 @@ def footer() -> str:
     svc = "\n".join(
         f'<li><a href="/hizmetler/{s}/">{n}</a></li>' for s, n in ALL_SERVICES.items()
     )
-    return f"""<footer>
+    return f"""</main>
+<footer>
   <div class="wrap">
     <div class="footer-top">
       <div>
         <div class="footer-logo">{logo()}</div>
-        <p style="font-size:14px;line-height:1.65;color:rgba(241,238,231,0.65);max-width:300px;">
+        <p class="footer-blurb">
           Malt Studio — Tekirdağ merkezli reklam ve tabela üreticisi. Üretim, montaj ve marka görünürlüğü.
         </p>
       </div>
       <div>
-        <h4>Hizmetler</h4>
+        <h3>Hizmetler</h3>
         <ul>{svc}</ul>
       </div>
       <div>
-        <h4>Keşif</h4>
+        <h3>Keşif</h3>
         <ul>
           <li><a href="/projeler/">Projeler</a></li>
           <li><a href="/sektorler/">Sektörler</a></li>
@@ -159,7 +211,7 @@ def footer() -> str:
         </ul>
       </div>
       <div>
-        <h4>İletişim</h4>
+        <h3>İletişim</h3>
         <ul>
           <li><a href="tel:{PHONE_TEL}">{PHONE_DISPLAY}</a></li>
           <li><a href="mailto:{EMAIL}">{EMAIL}</a></li>
@@ -174,7 +226,7 @@ def footer() -> str:
   </div>
 </footer>
 <a class="whatsapp-btn" href="{wa("Merhaba, Malt Studio hizmetleri hakkında bilgi almak istiyorum.")}" target="_blank" rel="noopener" aria-label="WhatsApp ile iletişime geç">WhatsApp</a>
-"""
+{theme_script()}"""
 
 
 def crumbs(*parts: tuple[str, str | None]) -> str:
@@ -207,8 +259,11 @@ def cta_band(title: str, msg: str) -> str:
   <div class="wrap">
     <h2>{title}</h2>
     <p class="intro" style="margin:0 auto 28px;text-align:center;">Keşif, ölçü ve net teklif için yazın veya arayın.</p>
-    <a class="btn btn-primary" href="{wa(msg)}" target="_blank" rel="noopener">WhatsApp ile Teklif</a>
-    <a class="btn btn-ghost" href="tel:{PHONE_TEL}" style="margin-left:12px;">Ara: {PHONE_DISPLAY}</a>
+    <div class="cta-actions" style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap;">
+      <a class="btn btn-primary" href="{wa(msg)}" target="_blank" rel="noopener">WhatsApp ile Teklif</a>
+      <a class="btn btn-ghost" href="/#teklif">Teklif</a>
+      <a class="btn btn-ghost" href="tel:{PHONE_TEL}">Ara: {PHONE_DISPLAY}</a>
+    </div>
   </div>
 </section>
 """
@@ -262,8 +317,10 @@ def evidence_gallery(project_name: str) -> str:
 
 
 def mid_cta(msg: str) -> str:
-    return f"""<div class="content-block">
-  <p><a class="btn btn-primary" href="{wa(msg)}" target="_blank" rel="noopener">WhatsApp</a>
+    """In-section conversion row reused across hizmet / bölge / bilgi pages."""
+    return f"""<div class="content-block page-mid-cta">
+  <p><a class="btn btn-primary" href="{wa(msg)}" target="_blank" rel="noopener">WhatsApp ile Teklif</a>
+  <a class="btn btn-ghost" href="/#teklif" style="margin-left:10px;">Teklif</a>
   <a class="btn btn-ghost" href="tel:{PHONE_TEL}" style="margin-left:10px;">Ara</a></p>
 </div>"""
 

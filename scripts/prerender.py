@@ -514,12 +514,15 @@ _GA_ID_RE = re.compile(r"^G-[A-Z0-9]+$")
 
 
 def ensure_gtag(doc: str, ga_id: str) -> str:
-    """Insert GA4 gtag once in <head>; strip any prior Google tag blocks first."""
-    # Remove previous gtag.js loader + inline config (comment-marked or bare).
+    """Insert deferred GA4 once in <head>; strip prior Google tag blocks first."""
+    # Import locally so prerender stays usable without full package layout.
+    sys.path.insert(0, str(ROOT / "scripts"))
+    from lib_site import gtag_snippet  # noqa: WPS433
+
     doc = re.sub(
-        r"\s*<!--\s*Google tag \(gtag\.js\)\s*-->\s*"
-        r'<script async src="https://www\.googletagmanager\.com/gtag/js\?id=G-[A-Z0-9]+"></script>\s*'
-        r"<script>\s*window\.dataLayer[\s\S]*?</script>",
+        r"\s*<!--\s*Google tag \(gtag\.js\)[^>]*-->\s*"
+        r'(?:<script async src="https://www\.googletagmanager\.com/gtag/js\?id=G-[A-Z0-9]+"></script>\s*)?'
+        r"<script>\s*[\s\S]*?(?:gtag\('config'|__gaLoaded|googletagmanager)[\s\S]*?</script>",
         "",
         doc,
         count=1,
@@ -536,25 +539,22 @@ def ensure_gtag(doc: str, ga_id: str) -> str:
     ga_id = (ga_id or "").strip()
     if not _GA_ID_RE.match(ga_id):
         return doc
-    block = (
-        "<!-- Google tag (gtag.js) -->\n"
-        f'<script async src="https://www.googletagmanager.com/gtag/js?id={ga_id}"></script>\n'
-        "<script>\n"
-        "  window.dataLayer = window.dataLayer || [];\n"
-        "  function gtag(){dataLayer.push(arguments);}\n"
-        "  gtag('js', new Date());\n"
-        f"  gtag('config', '{ga_id}');\n"
-        "</script>\n"
-    )
-    # Prefer right after viewport for early load; fallback before </head>.
-    vp = re.search(
-        r'<meta name="viewport"[^>]*>\s*',
+    block = gtag_snippet(ga_id)
+    if not block:
+        return doc
+    # Prefer after theme boot (if present), else after viewport, else before </head>.
+    boot = re.search(
+        r"<script>\(function\(\)\{try\{if\(localStorage\.getItem\('malt-theme'\)[\s\S]*?</script>\s*",
         doc,
-        flags=re.I,
     )
+    if boot:
+        return doc[: boot.end()] + block + doc[boot.end() :]
+    vp = re.search(r'<meta name="viewport"[^>]*>\s*', doc, flags=re.I)
     if vp:
         return doc[: vp.end()] + block + doc[vp.end() :]
     return doc.replace("</head>", block + "</head>", 1)
+
+
 
 
 def main() -> int:
