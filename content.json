@@ -48,21 +48,21 @@
       "category": "Ekspertiz"
     },
     {
-      "name": "Kuzey Tekstil",
-      "slug": "kuzey-tekstil",
+      "name": "Anka Anaokulu",
+      "slug": "",
       "client": "",
       "featured": true,
       "gallery": [],
       "location": "Tekirdağ",
       "completedDate": "",
-      "image": "",
-      "description": "OSB tesis tabela uygulamaları.",
+      "image": "/images/uploads/img_7536.jpg",
+      "description": "",
       "year": "",
       "services": [
         "Tabela",
         "İş Güvenliği"
       ],
-      "category": "Tekstil"
+      "category": "Anaokulu"
     },
     {
       "name": "Mera Otel",
