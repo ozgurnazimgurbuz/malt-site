@@ -354,7 +354,8 @@ FOOTER_COLS = """      <div>
           <li id="contact-email">merhaba@maltstudio.com</li>
           <li><a id="contact-phone" href="tel:+905525826959">05525826959</a></li>
           <li id="contact-address">Tekirdağ, Türkiye</li>
-          <li><a href="https://www.instagram.com/maltstudio.co/" id="social-instagram">Instagram</a></li>
+          <!-- Temporarily hidden; keep markup for easy re-enable -->
+          <li hidden><a href="https://www.instagram.com/maltstudio.co/" id="social-instagram">Instagram</a></li>
           <li><a href="#teklif">Mesaj / Teklif</a></li>
         </ul>
       </div>"""
