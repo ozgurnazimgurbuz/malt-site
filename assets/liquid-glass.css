@@ -1,0 +1,131 @@
+/* Experimental Apple-like liquid glass — toggle via html.liquid-glass
+   Scoped to header, theme toggle, cards, section heads. */
+
+html.liquid-glass{
+  --glass-blur: 16px;
+  --glass-saturate: 1.35;
+  --glass-bg: rgba(26,26,26,0.42);
+  --glass-bg-strong: rgba(26,26,26,0.58);
+  --glass-border: rgba(241,238,231,0.18);
+  --glass-highlight: inset 0 1px 0 rgba(241,238,231,0.14);
+  --glass-card: rgba(26,26,26,0.38);
+  --glass-card-hover: rgba(36,28,28,0.55);
+  --glass-on-paper: rgba(241,238,231,0.55);
+  --glass-on-paper-hover: rgba(241,238,231,0.72);
+  --glass-on-paper-border: rgba(26,26,26,0.1);
+  --glass-section: rgba(26,26,26,0.28);
+}
+
+html.liquid-glass[data-theme="light"]{
+  --glass-bg: rgba(241,238,231,0.55);
+  --glass-bg-strong: rgba(241,238,231,0.72);
+  --glass-border: rgba(26,26,26,0.12);
+  --glass-highlight: inset 0 1px 0 rgba(255,255,255,0.55);
+  --glass-card: rgba(241,238,231,0.48);
+  --glass-card-hover: rgba(241,238,231,0.7);
+  --glass-on-paper: rgba(255,255,255,0.42);
+  --glass-on-paper-hover: rgba(255,255,255,0.62);
+  --glass-on-paper-border: rgba(26,26,26,0.1);
+  --glass-section: rgba(241,238,231,0.4);
+}
+
+@supports ((-webkit-backdrop-filter: blur(1px)) or (backdrop-filter: blur(1px))){
+  html.liquid-glass header{
+    background: var(--glass-bg-strong);
+    -webkit-backdrop-filter: blur(var(--glass-blur)) saturate(var(--glass-saturate));
+    backdrop-filter: blur(var(--glass-blur)) saturate(var(--glass-saturate));
+    border-bottom: 1px solid var(--glass-border);
+    box-shadow: var(--glass-highlight);
+  }
+
+  html.liquid-glass .theme-toggle{
+    background: var(--glass-bg);
+    -webkit-backdrop-filter: blur(12px) saturate(var(--glass-saturate));
+    backdrop-filter: blur(12px) saturate(var(--glass-saturate));
+    border-color: var(--glass-border);
+    box-shadow: var(--glass-highlight);
+    border-radius: 10px;
+  }
+  html.liquid-glass .theme-toggle:hover{
+    background: var(--glass-bg-strong);
+  }
+
+  html.liquid-glass .section-head{
+    background: var(--glass-section);
+    -webkit-backdrop-filter: blur(12px) saturate(1.2);
+    backdrop-filter: blur(12px) saturate(1.2);
+    border: 1px solid var(--glass-border);
+    border-radius: 14px;
+    padding: 22px 24px;
+    box-shadow: var(--glass-highlight);
+  }
+
+  html.liquid-glass .local-card,
+  html.liquid-glass .card{
+    background: var(--glass-card);
+    -webkit-backdrop-filter: blur(14px) saturate(var(--glass-saturate));
+    backdrop-filter: blur(14px) saturate(var(--glass-saturate));
+    border: 1px solid var(--glass-border);
+    box-shadow: var(--glass-highlight);
+    border-radius: 14px;
+  }
+  html.liquid-glass .local-card:hover,
+  html.liquid-glass .card:hover{
+    background: var(--glass-card-hover);
+  }
+
+  /* Cards on light paper bands (services / paper-band) */
+  html.liquid-glass .services .service-card,
+  html.liquid-glass .paper-band .card{
+    background: var(--glass-on-paper);
+    -webkit-backdrop-filter: blur(14px) saturate(var(--glass-saturate));
+    backdrop-filter: blur(14px) saturate(var(--glass-saturate));
+    border: 1px solid var(--glass-on-paper-border);
+    box-shadow: var(--glass-highlight);
+    border-radius: 14px;
+  }
+  html.liquid-glass .services .service-card:hover,
+  html.liquid-glass .paper-band .card:hover{
+    background: var(--glass-on-paper-hover);
+  }
+
+  /* Soften 1px grid gutters so rounded glass cards breathe */
+  html.liquid-glass .local-grid,
+  html.liquid-glass .card-grid,
+  html.liquid-glass .service-grid{
+    gap: 10px;
+    background: transparent;
+    border: none;
+  }
+
+  html.liquid-glass .work-meta{
+    background: var(--glass-bg);
+    -webkit-backdrop-filter: blur(14px) saturate(var(--glass-saturate));
+    backdrop-filter: blur(14px) saturate(var(--glass-saturate));
+    border: 1px solid var(--glass-border);
+    border-radius: 12px;
+    padding: 14px 16px;
+    box-shadow: var(--glass-highlight);
+    width: 100%;
+  }
+}
+
+/* No backdrop-filter support / reduced transparency: solid fallbacks */
+@media (prefers-reduced-transparency: reduce){
+  html.liquid-glass header,
+  html.liquid-glass .theme-toggle,
+  html.liquid-glass .section-head,
+  html.liquid-glass .local-card,
+  html.liquid-glass .card,
+  html.liquid-glass .services .service-card,
+  html.liquid-glass .paper-band .card,
+  html.liquid-glass .work-meta{
+    -webkit-backdrop-filter: none !important;
+    backdrop-filter: none !important;
+  }
+  html.liquid-glass header{background: var(--header-scrim-a);}
+  html.liquid-glass .local-card,
+  html.liquid-glass .card{background: var(--surface-deep);}
+  html.liquid-glass .services .service-card,
+  html.liquid-glass .paper-band .card{background: var(--paper);}
+}

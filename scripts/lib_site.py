@@ -142,7 +142,7 @@ def head(
     )
     ga = gtag_snippet()
     return f"""<!DOCTYPE html>
-<html lang="tr">
+<html lang="tr" class="liquid-glass">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -165,6 +165,7 @@ def head(
 <link rel="icon" type="image/png" href="/images/icon-192.png">
 <link rel="manifest" href="/manifest.json">
 {fonts_head()}<link rel="stylesheet" href="/assets/site.css?v=theme1">
+<link rel="stylesheet" href="/assets/liquid-glass.css?v=lg1">
 </head>
 """
 
