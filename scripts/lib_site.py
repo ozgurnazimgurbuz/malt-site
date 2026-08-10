@@ -101,15 +101,19 @@ def logo() -> str:
 
 THEME_BOOT = (
     "<script>"
-    "(function(){try{if(localStorage.getItem('malt-theme')==='light')"
-    "document.documentElement.setAttribute('data-theme','light');}catch(e){}})"
-    "();"
+    "(function(){try{"
+    "var t=localStorage.getItem('malt-theme');"
+    "var r=document.documentElement;"
+    "if(t==='light')r.setAttribute('data-theme','light');"
+    "else if(t==='liquid')r.classList.add('liquid-glass');"
+    "}catch(e){}})();"
     "</script>\n"
 )
 
 THEME_TOGGLE = (
     '<button type="button" class="theme-toggle" data-theme-toggle '
-    'aria-pressed="false" aria-label="Açık arayüze geç" title="Açık">'
+    'aria-pressed="false" aria-label="Açık arayüze geç" title="Koyu" '
+    'data-theme-current="dark">'
     '<svg class="icon-moon" viewBox="0 0 24 24" aria-hidden="true" fill="none" '
     'stroke="currentColor" stroke-width="1.75">'
     '<path d="M20.2 14.3A8.5 8.5 0 0 1 9.7 3.8 7 7 0 1 0 20.2 14.3z"/>'
@@ -120,12 +124,18 @@ THEME_TOGGLE = (
     '<path d="M12 2.5v2.2M12 19.3v2.2M2.5 12h2.2M19.3 12h2.2'
     'M5.4 5.4l1.6 1.6M17 17l1.6 1.6M18.6 5.4 17 7M7 17l-1.6 1.6"/>'
     "</svg>"
+    '<svg class="icon-glass" viewBox="0 0 24 24" aria-hidden="true" fill="none" '
+    'stroke="currentColor" stroke-width="1.75">'
+    '<circle cx="12" cy="12" r="7"/>'
+    '<path d="M8.5 11.5c1.2-2.2 3-3.5 3.5-3.5s2.3 1.3 3.5 3.5"/>'
+    '<path d="M9 15.5c.8.9 1.9 1.5 3 1.5s2.2-.6 3-1.5"/>'
+    "</svg>"
     "</button>"
 )
 
 
 def theme_script() -> str:
-    return '<script src="/assets/theme.js?v=theme1" defer></script>\n'
+    return '<script src="/assets/theme.js?v=theme2" defer></script>\n'
 
 
 def head(
@@ -142,7 +152,7 @@ def head(
     )
     ga = gtag_snippet()
     return f"""<!DOCTYPE html>
-<html lang="tr" class="liquid-glass">
+<html lang="tr">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -164,7 +174,7 @@ def head(
 <meta name="twitter:image" content="{SITE}/images/og.jpg">
 <link rel="icon" type="image/png" href="/images/icon-192.png">
 <link rel="manifest" href="/manifest.json">
-{fonts_head()}<link rel="stylesheet" href="/assets/site.css?v=theme1">
+{fonts_head()}<link rel="stylesheet" href="/assets/site.css?v=theme2">
 <link rel="stylesheet" href="/assets/liquid-glass.css?v=lg1">
 </head>
 """
