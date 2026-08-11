@@ -10,14 +10,8 @@
 
 # Projeler
 
-Tamamladığımız işlerden örnekler. Görseller geldikçe güncellenir.
+Tamamladığımız işlerden örnekler.
 [WhatsApp ile Teklif](https://wa.me/905525826959?text=Yeni%20proje) [Teklif](https://maltstudio.co/#teklif)
-
-## Neden proje sayfaları?
-
-Gerçek saha fotoğrafları ana sayfada yer alır.
-
-Ayrı proje URL’si yalnızca içerik hazır olduğunda açılır.
 
 ## Üretim, deneyim ve yerel uzmanlık
 
@@ -30,6 +24,32 @@ Malt Studio Tekirdağ merkezli çalışır. Bu proje hub içeriği; atölye üre
 - **Kanıt:** Gerçek fotoğraflar proje sayfalarına bağlanır; stok görsel kullanılmaz.
 
 [WhatsApp ile Teklif](https://wa.me/905525826959?text=Yeni%20proje) [Teklif](https://maltstudio.co/#teklif) [Ara](tel:+905525826959)
+
+## Seçili işler
+
+###
+
+[OFİSOUygulama projesi.Proje](https://maltstudio.co/projeler/ofiso/)
+
+###
+
+[Yamanlar EkspertizUygulama projesi.Proje](https://maltstudio.co/projeler/yamanlar-ekspertiz/)
+
+###
+
+[Anka AnaokuluUygulama projesi.Proje](https://maltstudio.co/projeler/anka/)
+
+###
+
+[Köşem DönerUygulama projesi.Proje](https://maltstudio.co/projeler/kosem-doner/)
+
+###
+
+[Pembe Pasta EviUygulama projesi.Proje](https://maltstudio.co/projeler/pembe-pasta-evi/)
+
+###
+
+[Okka TarımUygulama projesi.Proje](https://maltstudio.co/projeler/okka-tarim/)
 
 ## İlgili hizmetler
 

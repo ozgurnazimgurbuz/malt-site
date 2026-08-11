@@ -83,7 +83,7 @@ collections:
             summary: "{{fields.name}} — {{fields.category}}"
             fields:
               - { label: "Proje / Marka Adı", name: "name", widget: "string" }
-              - { label: "Slug", name: "slug", widget: "string", required: false, hint: "URL-dostu proje kimliği. Örn: liman-kahve" }
+              - { label: "Slug", name: "slug", widget: "string", required: false, hint: "URL-dostu proje kimliği. Örn: ofiso" }
               - { label: "Kategori", name: "category", widget: "string" }
               - { label: "Açıklama", name: "description", widget: "text", required: false }
               - label: "Kapak Görseli"

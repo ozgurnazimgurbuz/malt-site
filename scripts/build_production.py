@@ -3,6 +3,8 @@
 
 from __future__ import annotations
 
+import html
+import json
 import sys
 from pathlib import Path
 
@@ -41,7 +43,7 @@ from lib_site import (  # noqa: E402
     webpage_ld,
     write,
 )
-from project_cases_a4 import CASES, INDUSTRY_LABEL, KNOWLEDGE_BY_SERVICE  # noqa: E402
+from project_cases_a4 import KNOWLEDGE_BY_SERVICE  # noqa: E402
 from a5_copy import (  # noqa: E402
     ARTICLE_A5,
     ARTICLE_EXPAND,
@@ -119,6 +121,88 @@ def ul(items: list[str]) -> str:
 
 def block(title: str, body_html: str) -> str:
     return f'<div class="content-block"><h2>{title}</h2>{body_html}</div>'
+
+
+def load_portfolio() -> list[dict]:
+    """Real CMS portfolio items that have a slug + name. Empty fields stay unpublished."""
+    data = json.loads((ROOT / "content.json").read_text(encoding="utf-8"))
+    out = []
+    for item in data.get("portfolio") or []:
+        slug = str(item.get("slug") or "").strip().strip("/")
+        name = str(item.get("name") or "").strip()
+        if slug and name:
+            out.append(item)
+    return out
+
+
+def _service_labels(raw) -> list[str]:
+    labels = []
+    for x in raw or []:
+        if isinstance(x, str):
+            v = x.strip()
+        elif isinstance(x, dict):
+            v = str(x.get("service") or x.get("name") or "").strip()
+        else:
+            v = ""
+        if v:
+            labels.append(v)
+    return labels
+
+
+def _service_slug(label: str) -> str | None:
+    key = label.casefold().strip()
+    aliases = {
+        "iş güvenliği": "is-guvenligi-tabelalari",
+        "is güvenliği": "is-guvenligi-tabelalari",
+        "iş güvenliği tabelaları": "is-guvenligi-tabelalari",
+    }
+    if key in aliases:
+        return aliases[key]
+    for slug, name in ALL_SERVICES.items():
+        if name.casefold() == key or slug == key:
+            return slug
+    return None
+
+
+def _project_images(item: dict) -> list[str]:
+    seen: list[str] = []
+    cover = str(item.get("image") or "").strip()
+    if cover:
+        seen.append(cover)
+    for g in item.get("gallery") or []:
+        if isinstance(g, str):
+            src = g.strip()
+        elif isinstance(g, dict):
+            src = str(g.get("image") or g.get("src") or "").strip()
+        else:
+            src = ""
+        if src and src not in seen:
+            seen.append(src)
+    return seen
+
+
+def _picture(src: str, alt: str, *, lazy: bool) -> str:
+    webp = ""
+    lower = src.lower()
+    for ext in (".jpeg", ".jpg", ".png"):
+        if lower.endswith(ext):
+            candidate = src[: -len(ext)] + ".webp"
+            if (ROOT / candidate.lstrip("/")).is_file():
+                webp = candidate
+            break
+    sizes = "(max-width:720px) 100vw, 780px"
+    loading = ' loading="lazy"' if lazy else ""
+    img = (
+        f'<img src="{html.escape(src)}" alt="{html.escape(alt)}" '
+        f'width="800" height="1000" sizes="{sizes}"'
+        f'{loading} decoding="async">'
+    )
+    if webp:
+        return (
+            f'<picture><source type="image/webp" srcset="{html.escape(webp)}" '
+            f'sizes="{sizes}">{img}</picture>'
+        )
+    return img
 
 
 def depth_pad(topic: str, focus: str) -> str:
@@ -823,174 +907,197 @@ def _knowledge_for(services: list[str]) -> list[tuple[str, str]]:
     return out[:4]
 
 
-def build_project(slug: str, name: str, industry: str, services: list[str]) -> None:
-    """Wave A4 case-study template. noindex until real evidence exists."""
-    case = CASES.get(slug)
-    if not case:
-        raise SystemExit(f"A4 case seed missing for {slug}")
-    name = case["name"]
-    industry = case["industry"]
-    services = case["services"]
-    ind_label = INDUSTRY_LABEL.get(industry, industry)
+def build_project(item: dict) -> None:
+    """Indexable case page from CMS portfolio. Renders only fields that have values."""
+    slug = str(item.get("slug") or "").strip().strip("/")
+    name = str(item.get("name") or "").strip()
+    if not slug or not name:
+        return
     canonical = f"{SITE}/projeler/{slug}/"
-    noindex = True  # EEAT gate — do not remove until real photos exist
+    title = f"{name} Projesi | Malt Studio"
+    safe_name = html.escape(name)
+    labels = _service_labels(item.get("services"))
+    resolved = []
+    for label in labels:
+        s = _service_slug(label)
+        resolved.append((label, s))
+    known = [(label, s) for label, s in resolved if s]
+    desc = (
+        f"{name} için Malt Studio tarafından gerçekleştirilen uygulama projesi. "
+        "Proje fotoğraflarını ve ilgili hizmet detaylarını inceleyin."
+    )
+    location = str(item.get("location") or "").strip()
+    description = str(item.get("description") or "").strip()
+    year = str(item.get("year") or "").strip()
+    completed = str(item.get("completedDate") or "").strip()
+    client = str(item.get("client") or "").strip()
+    images = _project_images(item)
+
+    meta_bits = []
+    if client:
+        meta_bits.append(f"<div><dt>Müşteri</dt><dd>{html.escape(client)}</dd></div>")
+    if location:
+        loc = html.escape(location)
+        if location.casefold() in {"tekirdağ", "tekirdag"}:
+            loc = f'<a href="/bolgeler/tekirdag/">{loc}</a>'
+        meta_bits.append(f"<div><dt>Konum</dt><dd>{loc}</dd></div>")
+    if year:
+        meta_bits.append(f"<div><dt>Yıl</dt><dd>{html.escape(year)}</dd></div>")
+    if completed:
+        meta_bits.append(f"<div><dt>Tarih</dt><dd>{html.escape(completed)}</dd></div>")
+    meta_html = f'<dl class="case-meta">{"".join(meta_bits)}</dl>' if meta_bits else ""
+
+    about = block("Proje hakkında", p(html.escape(description))) if description else ""
+
+    applied = ""
+    if labels:
+        lis = []
+        for label, s in resolved:
+            text = html.escape(ALL_SERVICES[s] if s else label)
+            if s:
+                lis.append(f'<li><a href="/hizmetler/{s}/">{text}</a></li>')
+            else:
+                lis.append(f"<li>{text}</li>")
+        applied = block("Uygulanan hizmet", f'<ul class="scope-list">{"".join(lis)}</ul>')
+
+    photo_html = ""
+    if images:
+        figs = []
+        for i, src in enumerate(images):
+            figs.append(_picture(src, f"{name} uygulama projesi", lazy=i > 0))
+        photo_html = (
+            '<div class="content-block"><h2>Proje fotoğrafları</h2>'
+            + "".join(figs)
+            + "</div>"
+        )
 
     svc_cards = cards(
         [
-            (f"/hizmetler/{s}/", ALL_SERVICES[s], f"{name} kapsamında aday hizmet.", "Hizmet")
-            for s in services
-            if s in ALL_SERVICES
+            (f"/hizmetler/{s}/", ALL_SERVICES[s], f"{ALL_SERVICES[s]} hizmeti.", "Hizmet")
+            for _, s in known
         ]
     )
-    bil_cards = cards(
-        [(href, label, "Karar vermenize yardımcı rehber.", "Bilgi") for href, label in _knowledge_for(services)]
-    )
-    rel = case["related_projects"]
+    svc_section = ""
+    if svc_cards:
+        svc_section = f"""<section class="section-band paper-band" aria-labelledby="rel-svc">
+  <div class="wrap">
+    <h2 id="rel-svc">İlgili hizmet</h2>
+    <div class="card-grid">{svc_cards}</div>
+  </div>
+</section>"""
+
+    others = [
+        p for p in load_portfolio() if str(p.get("slug") or "").strip().strip("/") != slug
+    ]
     rel_cards = cards(
         [
             (
-                f"/projeler/{s}/",
-                CASES[s]["name"] if s in CASES else s,
-                "Benzer proje örneği.",
+                f"/projeler/{html.escape(str(p['slug']).strip().strip('/'))}/",
+                html.escape(str(p["name"]).strip()),
+                "Uygulama projesi.",
                 "Proje",
             )
-            for s in rel
-            if s != slug
+            for p in others
         ]
     )
+    rel_section = ""
+    if rel_cards:
+        rel_section = f"""<section class="section-band" aria-labelledby="rel-prj">
+  <div class="wrap">
+    <h2 id="rel-prj">Diğer projeler</h2>
+    <div class="card-grid">{rel_cards}</div>
+  </div>
+</section>"""
 
-    meta = f"""<dl class="case-meta">
-  <div><dt>Proje</dt><dd>{name}</dd></div>
-  <div><dt>Konum</dt><dd><a href="/bolgeler/tekirdag/">Tekirdağ</a></dd></div>
-  <div><dt>Sektör</dt><dd><a href="/sektorler/{industry}/">{ind_label}</a></dd></div>
-</dl>"""
+    json_ld = page_graph(
+        webpage_ld(canonical, title, desc),
+        breadcrumb_ld(
+            [
+                ("Ana Sayfa", f"{SITE}/"),
+                ("Projeler", f"{SITE}/projeler/"),
+                (name, canonical),
+            ]
+        ),
+    )
 
-    applied = "<ul class='scope-list'>" + "".join(
-        f"<li><a href='/hizmetler/{s}/'>{ALL_SERVICES[s]}</a></li>"
-        for s in services
-        if s in ALL_SERVICES
-    ) + "</ul>"
-
-    order = [s for s, *_ in PROJECTS]
-    idx = order.index(slug)
-    prev_s = order[(idx - 1) % len(order)]
-    next_s = order[(idx + 1) % len(order)]
-    prev_n = CASES[prev_s]["name"]
-    next_n = CASES[next_s]["name"]
-    nav = f"""<nav class="case-nav" aria-label="Proje gezintisi">
-  <a class="btn btn-ghost" href="/projeler/{prev_s}/">← {prev_n}</a>
-  <a class="btn btn-ghost" href="/projeler/">Tüm projeler</a>
-  <a class="btn btn-ghost" href="/projeler/{next_s}/">{next_n} →</a>
-</nav>"""
-
-    html = f"""{head(case["title"], case["desc"], canonical, noindex=noindex)}
+    page = f"""{head(html.escape(title), html.escape(desc), canonical, json_ld=json_ld)}
 <body>
 {header()}
-<article class="case-study" data-project="{slug}">
+<article class="case-study">
 <section class="page-hero">
   <div class="wrap">
-    {crumbs(("Ana Sayfa","/"),("Projeler","/projeler/"),(name,None))}
+    {crumbs(("Ana Sayfa","/"),("Projeler","/projeler/"),(safe_name,None))}
     <div class="eyebrow">Proje</div>
-    <h1>{case["h1"]}</h1>
-    <p class="lede">{case["lede"]}</p>
-    {meta}
+    <h1>{safe_name}</h1>
+    <p class="lede">{html.escape(desc)}</p>
+    {meta_html}
     <div class="hero-actions">
-      <a class="btn btn-primary" href="{wa(f"Merhaba, {name} benzeri proje için teklif almak istiyorum.")}" target="_blank" rel="noopener">Teklif Al</a>
-      <a class="btn btn-ghost" href="{wa(f"{name} benzeri proje")}" target="_blank" rel="noopener">WhatsApp</a>
-      <a class="btn btn-ghost" href="tel:{PHONE_TEL}">Telefon</a>
+      <a class="btn btn-primary" href="{wa(f"Merhaba, {name} benzeri bir proje için teklif almak istiyorum.")}" target="_blank" rel="noopener">WhatsApp</a>
+      <a class="btn btn-ghost" href="/#teklif">Teklif</a>
+      <a class="btn btn-ghost" href="tel:{PHONE_TEL}">Ara: {PHONE_DISPLAY}</a>
     </div>
   </div>
 </section>
 <section class="page-main">
   <div class="wrap">
-    {block("Proje özeti", p(*case["summary"]))}
-    {block("Müşteri ihtiyacı", p(*case["need"]))}
-    {block("İş kapsamı", p(*case["scope"]))}
-    {block("Uygulanan hizmetler", applied)}
-    {block("Üretim süreci", p(*case["process"]))}
-    {block("Montaj / uygulama", p(*case["installation"]))}
-    {block("Kullanılan malzemeler", p(*case["materials"]))}
-    {block("Teknik detaylar", p(*case["technical"]))}
-    {block("Sonuç", p(*case["result"]))}
-    <div class="content-block">
-      <h2>Proje Görselleri</h2>
-      <p class="awaiting">Bu projenin saha ve teslim fotoğrafları yakında eklenecek.</p>
-      <ul>
-        <li>Atölye üretimi ve saha montajı aynı operasyonel hat üzerinden planlanır.</li>
-        <li>Yayın öncesi müşteri onayı alınır.</li>
-      </ul>
-    </div>
+    {about}
+    {applied}
+    {photo_html}
   </div>
 </section>
-{evidence_gallery(name)}
-<section class="section-band paper-band" aria-labelledby="applied-services-title">
-  <div class="wrap">
-    <h2 id="applied-services-title">İlgili hizmetler</h2>
-    <p class="intro">Bu projede kullandığımız hizmetler.</p>
-    <div class="card-grid">{svc_cards}</div>
-  </div>
-</section>
-<section class="section-band" aria-labelledby="related-industry-title">
-  <div class="wrap">
-    <h2 id="related-industry-title">İlgili sektör</h2>
-    <div class="card-grid">{cards([
-        (f"/sektorler/{industry}/", ind_label, "Dikey bağlam sayfası.", "Sektör"),
-        ("/bolgeler/tekirdag/", "Tekirdağ", "Tekirdağ yerel hizmet rehberi.", "City"),
-        ("/projeler/", "Tüm projeler", "Tüm proje örnekleri.", "Proje"),
-    ])}</div>
-  </div>
-</section>
-<section class="section-band paper-band" aria-labelledby="related-knowledge-title">
-  <div class="wrap">
-    <h2 id="related-knowledge-title">İlgili rehberler</h2>
-    <p class="intro">Karar vermenize yardımcı olacak rehberler.</p>
-    <div class="card-grid">{bil_cards}</div>
-  </div>
-</section>
-<section class="section-band" aria-labelledby="related-projects-title">
-  <div class="wrap">
-    <h2 id="related-projects-title">İlgili projeler</h2>
-    <div class="card-grid">{rel_cards}</div>
-    <div style="margin-top:32px;display:flex;gap:12px;flex-wrap:wrap;justify-content:space-between;">{nav}</div>
-  </div>
-</section>
+{svc_section}
+{rel_section}
 {related_rail(hubs=[
     ("/projeler/", "Projeler", "Tamamladığımız işlerden örnekler."),
     ("/hizmetler/", "Hizmetler", "Tüm hizmetlerimize göz atın."),
-    ("/bilgi/", "Bilgi", "Rehberler ve karar içerikleri."),
-    ("/sektorler/", "Sektörler", "Sektöre özel çözümler."),
     ("/bolgeler/tekirdag/", "Tekirdağ", "Tekirdağ yerel hizmet rehberi."),
     ("/", "Ana sayfa", "Malt Studio ana sayfa."),
 ])}
-{project_cta(name)}
+{cta_band("Benzer bir iş için yazın", f"{name} benzeri proje")}
 </article>
 {footer()}
 </body></html>
 """
-    write(ROOT / "projeler" / slug / "index.html", html)
+    write(ROOT / "projeler" / slug / "index.html", page)
 
 
 def build_projeler_hub() -> None:
-    html = f"""{head("Projeler | Malt Studio İş Örnekleri", "Tabela, ışıklı tabela, kutu harf ve giydirme proje örnekleri.", f"{SITE}/projeler/")}
+    items = load_portfolio()
+    project_cards = cards(
+        [
+            (
+                f"/projeler/{html.escape(str(p['slug']).strip().strip('/'))}/",
+                html.escape(str(p["name"]).strip()),
+                "Uygulama projesi.",
+                "Proje",
+            )
+            for p in items
+        ]
+    )
+    listing = (
+        f'<section class="section-band paper-band"><div class="wrap">'
+        f'<h2>Seçili işler</h2>'
+        f'<div class="card-grid">{project_cards}</div></div></section>'
+        if project_cards
+        else ""
+    )
+    html_doc = f"""{head("Projeler | Malt Studio İş Örnekleri", "Tabela, ışıklı tabela, kutu harf ve giydirme proje örnekleri.", f"{SITE}/projeler/")}
 <body>
 {header()}
 <section class="page-hero">
   <div class="wrap">
     {crumbs(("Ana Sayfa","/"),("Projeler",None))}
     <h1>Projeler</h1>
-    <p class="lede">Tamamladığımız işlerden örnekler. Görseller geldikçe güncellenir.</p>
+    <p class="lede">Tamamladığımız işlerden örnekler.</p>
     <div class="hero-actions">
       <a class="btn btn-primary" href="{wa("Yeni proje")}" target="_blank" rel="noopener">WhatsApp ile Teklif</a>
       <a class="btn btn-ghost" href="/#teklif">Teklif</a>
     </div>
   </div>
 </section>
+{listing}
 <section class="page-main">
   <div class="wrap">
-    {block("Neden proje sayfaları?", p(
-        "Gerçek saha fotoğrafları ana sayfada yer alır.",
-        "Ayrı proje URL’si yalnızca içerik hazır olduğunda açılır.",
-    ))}
     {eeat_block("proje hub")}
     {mid_cta("Yeni proje")}
   </div>
@@ -1004,7 +1111,7 @@ def build_projeler_hub() -> None:
 {footer()}
 </body></html>
 """
-    write(ROOT / "projeler" / "index.html", html)
+    write(ROOT / "projeler" / "index.html", html_doc)
 
 
 INDUSTRY_COPY = {
@@ -1336,6 +1443,10 @@ def merge_sitemap() -> None:
     ]
     for s in ALL_SERVICES:
         urls.append(f"{SITE}/hizmetler/{s}/")
+    for item in load_portfolio():
+        loc = f"{SITE}/projeler/{str(item['slug']).strip().strip('/')}/"
+        urls.append(loc)
+        updated.add(loc)
     for slug, *_ in INDUSTRIES:
         urls.append(f"{SITE}/sektorler/{slug}/")
     for slug, *_ in ARTICLES:
@@ -1362,6 +1473,8 @@ def main() -> None:
         build_service(slug)
     build_city()
     build_projeler_hub()
+    for item in load_portfolio():
+        build_project(item)
     build_sektorler_hub()
     for slug, name, pk in INDUSTRIES:
         build_industry(slug, name, pk)
@@ -1378,7 +1491,7 @@ def main() -> None:
     assert spec.loader is not None
     spec.loader.exec_module(mod)
     mod.main()
-    print("Production upgrade complete. URL count frozen.")
+    print("Production upgrade complete.")
 
 
 if __name__ == "__main__":

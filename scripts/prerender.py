@@ -202,7 +202,7 @@ def build_portfolio(c: dict) -> str:
         slug = (p.get("slug") or "").strip().strip("/")
         cat_attr = f' data-cat="{category}"' if category else ""
         if image:
-            alt = esc(f'{p.get("name") or ""} - {p.get("category") or ""}')
+            alt = esc(f'{p.get("name") or ""} uygulama projesi')
             swatch = portfolio_image_markup(image, alt)
         else:
             color1 = esc(p.get("color1") or "#B08D72")
