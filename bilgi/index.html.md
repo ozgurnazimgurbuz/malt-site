@@ -10,7 +10,7 @@
 
 # Bilgi
 
-Eğitici katman. Hizmet sayfalarını destekler; onların H1’ini çalmaz.
+Tabela, malzeme ve süreç hakkında kısa rehberler.
 [WhatsApp ile Teklif](https://wa.me/905525826959?text=Bilgi%20sonras%C4%B1%20teklif) [Teklif](https://maltstudio.co/#teklif)
 
 ## Nasıl okumalı?
@@ -84,22 +84,6 @@ Malt Studio Tekirdağ merkezli çalışır. Bu rehber hub içeriği; atölye ür
 ###
 
 [Cam GiydirmeCam Giydirme hizmeti.Hizmet](https://maltstudio.co/hizmetler/cam-giydirme/)
-
-## İlgili projeler
-
-###
-
-[Liman KahveTamamlanan proje örneği.Proje](https://maltstudio.co/projeler/liman-kahve/)
-
-###
-
-[Mera OtelTamamlanan proje örneği.Proje](https://maltstudio.co/projeler/mera-otel/)
-
-###
-
-[DörtnalTamamlanan proje örneği.Proje](https://maltstudio.co/projeler/dortnal/)
-
-[Tüm projeler →](https://maltstudio.co/projeler/)
 
 ## İlgili sektörler
 

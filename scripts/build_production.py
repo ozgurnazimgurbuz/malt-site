@@ -11,25 +11,34 @@ from lib_site import (  # noqa: E402
     A0,
     A2,
     ALL_SERVICES,
+    ADDRESS_COUNTRY,
+    ADDRESS_LOCALITY,
+    ADDRESS_ONE_LINE,
+    ADDRESS_POSTAL,
+    ADDRESS_REGION,
+    ADDRESS_STREET,
+    EMAIL,
+    HOURS_DISPLAY,
     PHONE_DISPLAY,
     PHONE_TEL,
     ROOT,
     SITE,
+    breadcrumb_ld,
     cards,
     crumbs,
     cta_band,
     eeat_block,
-    evidence_gallery,
     faq_html,
     footer,
     head,
     header,
     mid_cta,
+    page_graph,
     process_steps,
-    project_cta,
-    project_placeholders,
     related_rail,
+    service_ld,
     wa,
+    webpage_ld,
     write,
 )
 from project_cases_a4 import CASES, INDUSTRY_LABEL, KNOWLEDGE_BY_SERVICE  # noqa: E402
@@ -122,10 +131,11 @@ def depth_pad(topic: str, focus: str) -> str:
 # ===========================================================================
 SERVICE_DEPTH = {
     "tabela": {
-        "h1": "Tabela",
+        "h1": "Tekirdağ Tabela İmalatı ve Montajı",
         "pk": "tabela",
-        "title": "Tabela | Üretim, Montaj ve Reklam Tabelası",
-        "desc": "Tabela üretimi ve montajı. Dış-iç mekan, mağaza ve tesis tabelaları. Tekirdağ merkezli Malt Studio.",
+        "title": "Tekirdağ Tabela İmalatı ve Montajı | Malt Studio",
+        "desc": "Tekirdağ tabela üretimi: ışıklı ve ışıksız tabela, kutu harf, kompozit cephe ve mağaza tabelası. Keşif, imalat ve montaj için teklif alın.",
+        "service_type": "Tabela üretimi ve montajı",
         "lede": "Ölçüye özel tabela üretimi: doğru malzeme, okunur tasarım ve güvenli montaj.",
         "extra": [
             "Tabela, markanın sokaktaki ve tesis girişindeki kalıcı imzasıdır. Doğru tabela; mesafeden okunur, malzemesi sahaya uygundur ve montajı uzun ömürlü planlanır.",
@@ -150,17 +160,18 @@ SERVICE_DEPTH = {
         ],
     },
     "isikli-tabela": {
-        "h1": "Işıklı Tabela",
+        "h1": "Tekirdağ Işıklı Tabela Üretim ve Montaj",
         "pk": "ışıklı tabela",
-        "title": "Işıklı Tabela | LED Tabela Üretimi ve Montajı",
-        "desc": "Işıklı tabela ve LED tabela üretimi-montajı. Gece görünür mağaza ve kurumsal tabelalar.",
+        "title": "Tekirdağ Işıklı Tabela | LED Üretim ve Montaj | Malt Studio",
+        "desc": "Tekirdağ’da LED ışıklı tabela üretimi ve montajı. Gece görünür mağaza ve kurumsal tabelalar için keşif ve teklif.",
+        "service_type": "Işıklı tabela üretimi ve montajı",
         "lede": "Gündüz taşıyan, gece de okunan LED ışıklı tabela sistemleri.",
         "extra": [
             "Işıklı tabela; kasa, LED modül, güç kaynağı ve yüzey malzemesinin birlikte çalıştığı bir üründür. Amaç gece saatlerinde de markayı okunur kılmaktır.",
             "Lightbox (ışıklı kutu / SEG) ayrı üründür ve /hizmetler/lightbox/ altındadır.",
             "Cephe derinliği, elektrik hattı ve servis erişimi keşifte kontrol edilir. Yanlış LED yoğunluğu hem ışığı bozar hem servisi zorlaştırır.",
             "Mağaza, eczane, klinik ve plaza girişlerinde gece trafiği varsa ışıklı sistem çoğu zaman doğru yatırımdır.",
-            "Tekirdağ’da ışıklı tabela için yerel sayfamız: /hizmet-bolge/tekirdag-isikli-tabela/.",
+            "Tekirdağ ve Süleymanpaşa keşifleri atölyeden planlanır.",
         ],
         "apps": ["Mağaza cepheleri", "Plaza girişleri", "Klinik / eczane", "Hizmet noktaları", "Kurumsal tesisler"],
         "materials": "Alüminyum kasa, LED modül, SMPS, akrilik/pleksi veya uygun yüzeyler.",
@@ -179,17 +190,18 @@ SERVICE_DEPTH = {
         ],
     },
     "kutu-harf": {
-        "h1": "Kutu Harf",
+        "h1": "Tekirdağ Kutu Harf Tabela",
         "pk": "kutu harf",
-        "title": "Kutu Harf | Pleksi ve Paslanmaz Cephe Yazıları",
-        "desc": "Kutu harf üretimi ve montajı. Pleksi, paslanmaz ve ışıklı kutu harf.",
+        "title": "Tekirdağ Kutu Harf Tabela | Malt Studio",
+        "desc": "Tekirdağ’da kutu harf tabela üretimi ve montajı. Pleksi, paslanmaz ve ışıklı kutu harf.",
+        "service_type": "Kutu harf tabela üretimi ve montajı",
         "lede": "Cepheye derinlik katan ölçüye özel kutu harf sistemleri.",
         "extra": [
             "Kutu harf (channel letters), marka adını üç boyutlu taşıyan cephe yazısıdır. Pleksi ve paslanmaz en sık malzeme aileleridir.",
             "Channel letters ayrı bir ürün adı değildir; kutu harf ailesinde anlatılır.",
             "Harf yüksekliği, derinlik, ışıklı/ışıksız tercih ve montaj yüzeyi okunurluğu belirler.",
             "Plaza, ofis ve mağaza cephelerinde prestij algısını en hızlı yükselten uygulamalardan biridir.",
-            "Tekirdağ yerel niyeti /hizmet-bolge/tekirdag-kutu-harf/ sayfasındadır.",
+            "Tekirdağ plaza ve mağaza cephelerinde keşif sonrası ölçüye özel üretilir.",
         ],
         "apps": ["Plaza cepheleri", "Mağaza isim yazıları", "Ofis girişleri", "Fabrika girişi", "Resepsiyon 3D logo"],
         "materials": "Pleksi/akrilik, paslanmaz, LED (ışıklı modeller), yan/montaj aparatları.",
@@ -208,17 +220,18 @@ SERVICE_DEPTH = {
         ],
     },
     "totem": {
-        "h1": "Totem",
+        "h1": "Tekirdağ Totem Tabela",
         "pk": "totem tabela",
-        "title": "Totem Tabela | Yol ve Tesis Totem Üretimi",
-        "desc": "Totem tabela üretimi ve montajı. Tesis girişi ve yol kenarı sistemleri.",
+        "title": "Tekirdağ Totem Tabela | Üretim ve Montaj | Malt Studio",
+        "desc": "Tekirdağ’da totem tabela üretimi ve montajı. Tesis girişi ve yol kenarı sistemleri.",
+        "service_type": "Totem tabela üretimi ve montajı",
         "lede": "Uzaktan görülen, yönlendiren totem tabela sistemleri.",
         "extra": [
             "Totem; yol kenarı, tesis girişi ve otopark yaklaşımında markayı ve yönü taşır.",
             "Pylon/monument alt tipleri bu sayfada anlatılır; ayrı doorway URL açılmaz.",
             "Taşınabilir indoor display totem /hizmetler/display-pos/ ailesindedir.",
             "Yükseklik, temel, ışıklı tercih ve görüş mesafesi keşifte hesaplanır.",
-            "Tekirdağ geo sayfası: /hizmet-bolge/tekirdag-totem/.",
+            "Tekirdağ tesis ve OSB girişlerinde keşif sonrası temel ve yükseklik netleşir.",
         ],
         "apps": ["Fabrika/OSB girişi", "Plaza yaklaşımı", "Yol kenarı", "Otopark", "Kurumsal kampüs"],
         "materials": "Çelik/alüminyum konstrüksiyon, kompozit yüzey, ışıklı kasa seçenekleri.",
@@ -237,17 +250,18 @@ SERVICE_DEPTH = {
         ],
     },
     "arac-giydirme": {
-        "h1": "Araç Giydirme",
+        "h1": "Tekirdağ Araç Giydirme",
         "pk": "araç giydirme",
-        "title": "Araç Giydirme | Filo ve Ticari Araç Kaplama",
-        "desc": "Araç giydirme, filo kaplama ve ticari araç reklam uygulamaları.",
+        "title": "Tekirdağ Araç Giydirme | Ticari Araç ve Filo | Malt Studio",
+        "desc": "Tekirdağ’da ticari araç ve filo giydirme. Baskı, uygulama ve keşif için teklif alın.",
+        "service_type": "Araç giydirme",
         "lede": "Filo ve ticari araçlarda tutarlı, dayanıklı giydirme uygulamaları.",
         "extra": [
             "Araç giydirme; baskılı folyonun araca uygulanmasıyla mobil marka yüzeyi oluşturur.",
             "Full wrap ve parça giydirme bu hizmetin alt uygulamalarıdır.",
             "Folyo baskı üretim adımıdır; sonuç ürün bu sayfada hedeflenir.",
             "Filo işlerinde şablon standardı ve araç tipi uyarlaması kritiktir.",
-            "Tekirdağ geo: /hizmet-bolge/tekirdag-arac-giydirme/.",
+            "Tekirdağ merkezli filolar için uygulama atölyeden planlanır.",
         ],
         "apps": ["Panelvan", "Kurumsal filo", "Servis araçları", "Dağıtım", "Demo araçları"],
         "materials": "Araç folyoları, laminasyon (ihtiyaca göre), dijital baskı.",
@@ -266,17 +280,18 @@ SERVICE_DEPTH = {
         ],
     },
     "cam-giydirme": {
-        "h1": "Cam Giydirme",
+        "h1": "Tekirdağ Cam Giydirme",
         "pk": "cam giydirme",
-        "title": "Cam Giydirme | One Way Vision ve Vitrin Folyosu",
-        "desc": "Cam giydirme, one way vision, vitrin ve cam folyo uygulamaları.",
+        "title": "Tekirdağ Cam Giydirme | One Way Vision ve Folyo | Malt Studio",
+        "desc": "Tekirdağ’da cam giydirme: one way vision, vitrin ve cam folyo uygulamaları.",
+        "service_type": "Cam giydirme",
         "lede": "Vitrin ve camda görünürlük, gizlilik ve mesaj dengesini kuran uygulamalar.",
         "extra": [
             "Cam giydirme; OWV, transparan/baskılı folyo ve vitrin grafiklerini kapsar.",
             "Window graphics / cam yazısı / vitrin reklamı aynı ailededir; ayrı URL yok.",
             "Ofis gizlilik paketi ofis branding ile birlikte yönetilebilir; malzeme bilgisi burada.",
             "Mağaza kampanyalarında hızlı yenileme avantajı sağlar.",
-            "Tekirdağ geo: /hizmet-bolge/tekirdag-cam-giydirme/.",
+            "Tekirdağ mağaza vitrinlerinde keşif sonrası uygulanır.",
         ],
         "apps": ["Mağaza vitrini", "Showroom", "Ofis cam bölme", "Kampanya dönemleri", "Giriş cephe camı"],
         "materials": "One way vision, transparan folyo, kumlama/frosted, baskılı vinil.",
@@ -295,14 +310,15 @@ SERVICE_DEPTH = {
         ],
     },
     "lightbox": {
-        "h1": "Lightbox",
+        "h1": "Tekirdağ Lightbox Tabela",
         "pk": "lightbox",
-        "title": "Lightbox | Işıklı Kutu ve Backlit Frame",
+        "title": "Tekirdağ Lightbox Tabela | Işıklı Kutu ve Backlit | Malt Studio",
+        "service_type": "Lightbox tabela üretimi ve montajı",
         "desc": "Lightbox, ışıklı kutu, SEG ve backlit frame sistemleri.",
         "lede": "İnce kasa lightbox ve ışıklı kutu sistemleriyle premium aydınlatmalı görsel alanlar.",
         "extra": [
             "Lightbox; arkadan veya kenardan aydınlatmalı çerçeve sistemidir. Retail ve AVM’de sık tercih edilir.",
-            "PK lock: ışıklı tabela / LED tabela → /hizmetler/isikli-tabela/. Bu sayfa lightbox ailesidir.",
+            "Işıklı tabela / LED cephe sistemleri ayrı sayfadadır: /hizmetler/isikli-tabela/. Bu sayfa lightbox ailesidir.",
             "SEG / backlit fabric hızlı görsel değişimi sağlar.",
             "Yerel talep Tekirdağ üssünden keşif ile yönetilir.",
             "Ofis ve resepsiyon duvarlarında lightbox + ofis branding birlikte planlanabilir.",
@@ -413,7 +429,7 @@ SERVICE_DEPTH = {
 }
 
 
-def service_process():
+def service_process(title: str = "Süreç"):
     return process_steps(
         [
             ("Keşif", "Ölçü, yüzey, erişim ve ihtiyaç netleştirilir."),
@@ -421,14 +437,14 @@ def service_process():
             ("Üretim", "Atölyede imalat ve kontrol."),
             ("Uygulama", "Saha montajı / giydirme."),
             ("Teslim", "Kontrol ve teslim notları."),
-        ]
+        ],
+        title=title,
     )
 
 
 def build_service(slug: str) -> None:
     s = SERVICE_DEPTH[slug]
     a5 = SERVICE_A5[slug]
-    has_sxc = slug in A0
     canonical = f"{SITE}/hizmetler/{slug}/"
     ind_labels = {
         "fabrika-osb": "Fabrika & OSB",
@@ -448,24 +464,80 @@ def build_service(slug: str) -> None:
         if r in ALL_SERVICES
     ]
     knowledge = [(b, "Rehber", "Karar vermenize yardımcı rehber.") for b in s["bilgi"]]
-    local_extra = ""
-    if has_sxc:
-        local_extra = block(
-            "Tekirdağ’da bu hizmet",
+    local_h2 = (
+        "Süleymanpaşa ve çevre ilçelerde tabela montajı"
+        if slug == "tabela"
+        else "Süleymanpaşa ve çevre ilçelerde montaj"
+    )
+    local_extra = block(
+        local_h2,
+        p(
+            "Keşif ve montaj Tekirdağ Süleymanpaşa atölyesinden planlanır.",
+            'Adres, saat ve iletişim: <a href="/bolgeler/tekirdag/">Malt Studio Tekirdağ atölye ve iletişim</a>.',
+        ),
+    )
+    if slug == "tabela":
+        intro = block(
+            "Tekirdağ’da ürettiğimiz tabela çeşitleri",
+            p(*s["extra"], *a5["intro"]) + ul(s["apps"]),
+        )
+        choice = block(
+            "Işıklı, ışıksız, kutu harf veya kompozit: hangisi?",
             p(
-                f"Tekirdağ’da {tr_service_phrase(s['h1'])} için yerel sayfamız: /hizmet-bolge/tekirdag-{slug}/.",
+                s["materials"],
+                *a5["materials_extra"],
+                'Gece görünürlük için <a href="/hizmetler/isikli-tabela/">ışıklı tabela seçenekleri</a>, cephe yazısı için <a href="/hizmetler/kutu-harf/">kutu harf tabela</a>, yol/tesis için <a href="/hizmetler/totem/">totem tabela üretimi</a>.',
             ),
         )
+        proof = block(
+            "Gerçek Tekirdağ tabela projeleri",
+            p(
+                'Seçili işler ana sayfada yer alır: <a href="/#isler">gerçek Tekirdağ tabela ve uygulama projeleri</a>.',
+                'Liste: <a href="/projeler/">projeler</a>.',
+            ),
+        )
+        price = block(
+            "Tabela fiyatını belirleyen ölçü, malzeme ve montaj koşulları",
+            p(
+                "Ölçü, malzeme, ışıklı/özel üretim, montaj yüksekliği, saha lojistiği ve adet fiyatı belirler.",
+                "Sabit internet fiyat listesi yayınlanmaz; keşif sonrası net teklif verilir.",
+                'Ayrıntı: <a href="/bilgi/tabela-fiyati/">tabela fiyatını neler etkiler</a>.',
+            ),
+        )
+        process = service_process("Keşiften montaja çalışma sürecimiz") + p(*a5["process_extra"])
+        body_blocks = intro + choice + proof + price + process + eeat_block("hizmet") + local_extra
     else:
-        local_extra = block(
-            "Yerel bağlantı",
-            p(
-                "Yerel keşif ve montaj Tekirdağ üssünden planlanır.",
-                "Detay için /bolgeler/tekirdag/ sayfasına bakabilirsiniz.",
-            ),
+        body_blocks = (
+            block("Bu hizmet nedir?", p(*s["extra"], *a5["intro"]))
+            + block("Nerelerde kullanılır?", ul(s["apps"]) + p(*a5["where"]))
+            + block("Malzeme ve seçenekler", p(s["materials"], *a5["materials_extra"]))
+            + service_process()
+            + block("Süreç notları", p(*a5["process_extra"]))
+            + eeat_block("hizmet")
+            + block("Deneyim ve üretim", p(*a5["eeat"]))
+            + block(
+                "Fiyatı neler etkiler?",
+                p(
+                    "Ölçü, malzeme, ışıklı/özel üretim, montaj yüksekliği, saha lojistiği ve adet fiyatı belirler.",
+                    "Sabit internet fiyat listesi yayınlanmaz; keşif sonrası net teklif verilir.",
+                ),
+            )
+            + block("Bakım ve sonrası", p(*a5["maintenance"]))
+            + local_extra
         )
+    json_ld = page_graph(
+        webpage_ld(canonical, s["title"], s["desc"]),
+        service_ld(canonical, s["h1"], s.get("service_type") or s["h1"]),
+        breadcrumb_ld(
+            [
+                ("Ana Sayfa", "/"),
+                ("Hizmetler", "/hizmetler/"),
+                (s["h1"], canonical),
+            ]
+        ),
+    )
 
-    html = f"""{head(s["title"], s["desc"], canonical)}
+    html = f"""{head(s["title"], s["desc"], canonical, json_ld=json_ld)}
 <body>
 {header()}
 <section class="page-hero">
@@ -477,38 +549,13 @@ def build_service(slug: str) -> None:
     <div class="hero-actions">
       <a class="btn btn-primary" href="{wa(f"Merhaba, {s['h1']} hakkında teklif almak istiyorum.")}" target="_blank" rel="noopener">Teklif Al</a>
       <a class="btn btn-ghost" href="{wa(f"Merhaba, {s['h1']} hakkında bilgi almak istiyorum.")}" target="_blank" rel="noopener">WhatsApp</a>
-      <a class="btn btn-ghost" href="tel:{PHONE_TEL}">Telefon · {PHONE_DISPLAY}</a>
+      <a class="btn btn-ghost" href="tel:{PHONE_TEL}">Telefon</a>
     </div>
   </div>
 </section>
 <section class="page-main">
   <div class="wrap">
-    {block("Bu hizmet nedir?", p(*s["extra"], *a5["intro"]))}
-    {block("Nerelerde kullanılır?", ul(s["apps"]) + p(*a5["where"]))}
-    {block("Malzeme ve seçenekler", p(s["materials"], *a5["materials_extra"]))}
-    {service_process()}
-    {block("Süreç notları", p(*a5["process_extra"]))}
-    {eeat_block("hizmet")}
-    {block("Deneyim ve üretim", p(*a5["eeat"]))}
-    {block("Fiyatı neler etkiler?", p(
-        "Ölçü, malzeme, ışıklı/özel üretim, montaj yüksekliği, saha lojistiği ve adet fiyatı belirler.",
-        "Sabit internet fiyat listesi yayınlanmaz; keşif sonrası net teklif verilir.",
-        "Faktör eğitimi için /bilgi/tabela-fiyati/ rehberine bakabilirsiniz.",
-    ))}
-    {block("Süre ve planlama", p(
-        "Tasarım onayı sonrası süre işin ölçeğine göre değişir.",
-        "Acil işler operasyon kapasitesine göre değerlendirilir; garanti edilemeyen vaat verilmez.",
-    ))}
-    {block("Bakım ve sonrası", p(*a5["maintenance"]))}
-    {block("Uygulama notları", p(*SERVICE_EXPAND[slug], *SERVICE_EXPAND2[slug]))}
-    {block("Karar ve teslim özeti", p(
-        SERVICE_LONG[slug],
-        SERVICE_LONG2[slug],
-        *([SERVICE_BRIDGE[slug]] if slug in SERVICE_BRIDGE else []),
-        *([SERVICE_NUDGE[slug]] if slug in SERVICE_NUDGE else []),
-    ))}
-    {block("Keşif kontrol listesi", ul(SERVICE_CHECKLIST[slug]))}
-    {local_extra}
+    {body_blocks}
     {mid_cta(f"Merhaba, {s['h1']} için keşif istiyorum.")}
   </div>
 </section>
@@ -641,25 +688,28 @@ def build_sxc(slug: str) -> None:
 
 def build_city() -> None:
     canonical = f"{SITE}/bolgeler/tekirdag/"
-    svc = cards([(f"/hizmetler/{s}/", n, f"{n} hizmeti.", "Hizmet") for s, n in ALL_SERVICES.items()])
-    sxc = cards([(f"/hizmet-bolge/tekirdag-{s}/", f"Tekirdağ {n}", f"Tekirdağ’da {tr_service_phrase(n)}.", "Yerel") for s, n in A0.items()])
+    title = "Malt Studio Tekirdağ Atölye ve İletişim"
+    desc = "Malt Studio’nun Tekirdağ Süleymanpaşa iletişim, çalışma saatleri, hizmet alanları ve keşif bilgileri. Telefon, WhatsApp ve yol tarifi."
+    svc = cards([(f"/hizmetler/{s}/", n, f"{n} hizmeti.", "Hizmet") for s, n in A0.items()])
     faqs = [
-        ("Tekirdağ’da tabela / reklam firması mısınız?", "Evet. Malt Studio Tekirdağ merkezlidir."),
-        ("Süleymanpaşa sayfası?", "Ayrı sayfa yok; Süleymanpaşa talepleri Tekirdağ sayfalarında toplanır."),
-        ("Çorlu / Çerkezköy?", "Evet; keşif ve montaj Tekirdağ üssünden planlanır."),
-        ("Hangi hizmetler?", "Tabela, ışıklı tabela, kutu harf ve diğer tüm hizmetlerimize bakın."),
-        ("Proje var mı?", "/projeler/ altında vaka sayfaları vardır."),
-        ("Keşif?", "WhatsApp veya telefon ile randevu."),
+        ("Atölye nerede?", f"{ADDRESS_ONE_LINE}."),
+        ("Çalışma saatleri?", HOURS_DISPLAY + "."),
+        ("Süleymanpaşa ayrı sayfa mı?", "Hayır; Süleymanpaşa talepleri bu atölye sayfasında toplanır."),
+        ("Keşif nasıl alınır?", "WhatsApp veya telefon ile kısa brief bırakın."),
     ]
-    html = f"""{head("Tekirdağ Reklam ve Tabela | Yerel Hizmet Rehberi", "Tekirdağ reklam firması ve tabela üreticisi Malt Studio. Yerel hizmetler ve iletişim.", canonical)}
+    json_ld = page_graph(
+        webpage_ld(canonical, title, desc),
+        breadcrumb_ld([("Ana Sayfa", "/"), (title, canonical)]),
+    )
+    html = f"""{head(title, desc, canonical, json_ld=json_ld)}
 <body>
 {header()}
 <section class="page-hero">
   <div class="wrap">
     {crumbs(("Ana Sayfa","/"),("Tekirdağ",None))}
-    <div class="eyebrow">Tekirdağ Yerel Rehber</div>
-    <h1>Tekirdağ Reklam Ajansı &amp; Üretici</h1>
-    <p class="lede">Tekirdağ’da üreten ve uygulayan ekip. Yerel hizmetler, keşif ve montaj buradan planlanır.</p>
+    <div class="eyebrow">Atölye</div>
+    <h1>{title}</h1>
+    <p class="lede">Adres, telefon, e-posta ve keşif bilgisi. Bu sayfa ikinci bir reklam ajansı landing’i değildir.</p>
     <div class="hero-actions">
       <a class="btn btn-primary" href="{wa("Tekirdağ keşif")}" target="_blank" rel="noopener">WhatsApp ile Teklif</a>
       <a class="btn btn-ghost" href="/#teklif">Teklif</a>
@@ -670,31 +720,24 @@ def build_city() -> None:
 </section>
 <section class="page-main">
   <div class="wrap">
-    {block("Tekirdağ’da ne sunuyoruz?", p(
-        "Malt Studio; tabela, ışıklı tabela, kutu harf, totem, araç giydirme, cam giydirme ile lightbox, display/POS, ofis branding ve iş güvenliği tabelaları üretir.",
-        "Merkez Tekirdağ’dır. Süleymanpaşa ve merkez talepleri bu sayfa ile ilgili yerel hizmet sayfalarında toplanır.",
-        "Sanayi koridoru (Çorlu, Çerkezköy, Kapaklı, Ergene) talepleri Tekirdağ üssünden planlanır.",
-        "Yerel güven için proje sayfaları ve saha görselleri kritiktir. Görseller onaylandıkça proje URL’lerine eklenir.",
+    {block("İletişim", p(
+        f"<strong>Adres:</strong> {ADDRESS_STREET}<br>{ADDRESS_POSTAL} {ADDRESS_LOCALITY} / {ADDRESS_REGION}<br>{ADDRESS_COUNTRY}",
+        f'<strong>Telefon:</strong> <a href="tel:{PHONE_TEL}">{PHONE_DISPLAY}</a>',
+        f'<strong>E-posta:</strong> <a href="mailto:{EMAIL}">{EMAIL}</a>',
+        f"<strong>Çalışma saatleri:</strong> {HOURS_DISPLAY}",
+        'WhatsApp veya telefon ile keşif randevusu alınır.',
     ))}
-    {block("Yerel nasıl çalışırız?", p(
-        "Keşif randevusu → ölçü → tasarım onayı → atölye üretimi → saha montajı.",
-        "Mağaza, plaza, fabrika ve ofis işlerinde montaj penceresi işletmeye göre ayarlanır.",
-        "Acil montaj/tamir talepleri kapasiteye göre değerlendirilir; tutulmayan süre vaadi verilmez.",
+    {block("Ulaşım", p(
+        "Atölye Süleymanpaşa / Tekirdağ’dadır. Keşif randevusu sonrası ölçü ve montaj planı çıkarılır.",
+        "Yol tarifi için Google Haritalar’da Malt Studio veya adresi arayın.",
     ))}
-    {eeat_block("şehir")}
-    {block("Süleymanpaşa ve merkez", p(
-        "Süleymanpaşa için ayrı bir sayfa ağacı açılmaz.",
-        "Merkez ve Süleymanpaşa talepleri Tekirdağ hizmet sayfalarında toplanır.",
+    {block("Hizmet bölgeleri", p(
+        "Süleymanpaşa ve Tekirdağ merkez başta olmak üzere çevre ilçelere keşif ve montaj planlanır.",
+        "Çorlu, Çerkezköy, Kapaklı, Ergene, Muratlı ve diğer ilçe işleri aynı atölyeden yönetilir.",
     ))}
-    {block("Yerel talep senaryoları", ul([
-        "Çarşı / mağaza: tabela + ışıklı + cam giydirme",
-        "OSB / fabrika: totem + tabela + İSG + filo",
-        "Plaza / ofis: kutu harf + ofis branding",
-        "Perakende açılış: ışıklı + vitrin paketi",
-    ]))}
-    {block("İletişim ve keşif", p(
-        "WhatsApp veya telefon ile kısa brief bırakın; uygunsa keşif planlanır.",
-        "Tekirdağ’daki spesifik hizmetler için aşağıdaki yerel sayfalara bakın.",
+    {block("Gerçek işler", p(
+        'Ana sayfadaki <a href="/#isler">seçili işler</a> gerçek saha fotoğraflarıdır.',
+        'Hizmet sayfaları: <a href="/hizmetler/tabela/">tabela</a>, <a href="/hizmetler/isikli-tabela/">ışıklı tabela</a>, <a href="/hizmetler/kutu-harf/">kutu harf</a>.',
     ))}
     {mid_cta("Tekirdağ keşif")}
   </div>
@@ -702,30 +745,12 @@ def build_city() -> None:
 {related_rail(
     services=[(f"/hizmetler/{s}/", n, f"{n} hizmeti.") for s, n in list(A0.items())[:6]],
     knowledge=[(f"/bilgi/{s}/", t, "Rehber.") for s, t, _, _ in ARTICLES[:4]],
-    projects=["liman-kahve","volt-enerji","dortnal","mera-otel","ekip-yazilim","kuzey-tekstil"],
     industries=[(f"/sektorler/{s}/", n, f"{n} çözümleri.") for s, n, _ in INDUSTRIES[:4]],
 )}
-<section class="section-band">
-  <div class="wrap">
-    <h2>Tekirdağ yerel hizmetler</h2>
-    <p class="intro">Tekirdağ’da sunduğumuz başlıca hizmetler.</p>
-    <div class="card-grid">{sxc}</div>
-  </div>
-</section>
 <section class="section-band paper-band">
   <div class="wrap">
-    <h2>Tüm hizmetler</h2>
+    <h2>Hizmetler</h2>
     <div class="card-grid">{svc}</div>
-  </div>
-</section>
-<section class="section-band">
-  <div class="wrap">
-    <h2>Sektörler ve bilgi</h2>
-    <div class="card-grid">{cards([
-        ("/sektorler/", "Sektörler", "Fabrika, restoran, sağlık…", "A1"),
-        ("/bilgi/", "Bilgi", "Rehberler ve karşılaştırmalar.", "A1"),
-        ("/projeler/", "Projeler", "Vaka kanıtı.", "A1"),
-    ])}</div>
   </div>
 </section>
 <section class="section-band paper-band">
@@ -742,9 +767,8 @@ def build_city() -> None:
 
 
 def build_hizmetler_hub() -> None:
-    a0 = cards([(f"/hizmetler/{s}/", n, "Çekirdek hizmet.", "A0") for s, n in A0.items()])
-    a2 = cards([(f"/hizmetler/{s}/", n, "A2 hizmet.", "A2") for s, n in A2.items()])
-    sxc = cards([(f"/hizmet-bolge/tekirdag-{s}/", f"Tekirdağ {n}", f"Tekirdağ’da {tr_service_phrase(n)}.", "Yerel") for s, n in A0.items()])
+    a0 = cards([(f"/hizmetler/{s}/", n, f"{n} hizmeti.", "Hizmet") for s, n in A0.items()])
+    a2 = cards([(f"/hizmetler/{s}/", n, f"{n} hizmeti.", "Hizmet") for s, n in A2.items()])
     html = f"""{head("Hizmetler | Tabela, Lightbox, Ofis Branding ve Daha Fazlası", "Malt Studio tüm hizmetleri: tabela, ışıklı tabela, kutu harf, totem, araç ve cam giydirme, lightbox, display, ofis branding, İSG.", f"{SITE}/hizmetler/")}
 <body>
 {header()}
@@ -765,7 +789,7 @@ def build_hizmetler_hub() -> None:
     {block("Nasıl seçmelisiniz?", p(
         "Önce ihtiyacı netleştirin: cephe tabela, ışıklı sistem, kutu harf, araç, cam, lightbox, display veya ofis paketi.",
         'Kararsızsanız <a href="/bilgi/">rehberleri</a> okuyun veya WhatsApp ile kısa keşif isteyin.',
-        "Tekirdağ’daki yerel hizmet sayfalarına aşağıdan ulaşabilirsiniz.",
+        "Tekirdağ atölye ve iletişim için /bolgeler/tekirdag/ sayfasına bakın.",
     ))}
     {eeat_block("hizmet hub")}
     {mid_cta("Hizmet seçimi için yardımcı olur musunuz?")}
@@ -773,17 +797,13 @@ def build_hizmetler_hub() -> None:
 </section>
 {related_rail(
     knowledge=[(f"/bilgi/{s}/", t, "Rehber.") for s, t, _, _ in ARTICLES[:4]],
-    projects=["liman-kahve", "dortnal", "volt-enerji"],
     industries=[(f"/sektorler/{s}/", n, f"{n} çözümleri.") for s, n, _ in INDUSTRIES[:4]],
 )}
 <section class="section-band paper-band">
-  <div class="wrap"><h2>Çekirdek hizmetler (A0)</h2><div class="card-grid">{a0}</div></div>
+  <div class="wrap"><h2>Çekirdek hizmetler</h2><div class="card-grid">{a0}</div></div>
 </section>
 <section class="section-band">
   <div class="wrap"><h2>Ek hizmetler</h2><div class="card-grid">{a2}</div></div>
-</section>
-<section class="section-band paper-band">
-  <div class="wrap"><h2>Tekirdağ yerel sayfalar</h2><div class="card-grid">{sxc}</div></div>
 </section>
 {cta_band("Hangi hizmet size uygun?", "Hizmet seçimi için yardımcı olur musunuz?")}
 {footer()}
@@ -968,9 +988,8 @@ def build_projeler_hub() -> None:
 <section class="page-main">
   <div class="wrap">
     {block("Neden proje sayfaları?", p(
-        "Google ve kullanıcılar gerçek iş ister. Proje sayfaları benzersiz kanıttır.",
-        "Görseller onaylandıkça proje sayfaları güncellenecek.",
-        "Hub indexlenebilir; listelemeyi ve iç link akışını taşır.",
+        "Gerçek saha fotoğrafları ana sayfada yer alır.",
+        "Ayrı proje URL’si yalnızca içerik hazır olduğunda açılır.",
     ))}
     {eeat_block("proje hub")}
     {mid_cta("Yeni proje")}
@@ -1073,7 +1092,7 @@ def build_industry(slug: str, name: str, pk: str) -> None:
     {mid_cta(f"{name} sektörü keşif")}
   </div>
 </section>
-{related_rail(services=svc_links, knowledge=bil_links, projects=projs or ["liman-kahve", "volt-enerji"])}
+{related_rail(services=svc_links, knowledge=bil_links)}
 <section class="section-band paper-band">
   <div class="wrap"><h2>SSS</h2><div class="faq">{faq_html([
       (f"{name} için hangi hizmetler?", ", ".join(ALL_SERVICES[s] for s in services if s in ALL_SERVICES)+"."),
@@ -1252,7 +1271,6 @@ def build_article(slug: str, title: str, primary: str, pk: str) -> None:
 {related_rail(
     services=[
         (f"/hizmetler/{primary}/", ALL_SERVICES.get(primary, primary), f"{ALL_SERVICES.get(primary, primary)} hizmeti."),
-        *([(f"/hizmet-bolge/tekirdag-{primary}/", f"Tekirdağ {ALL_SERVICES.get(primary, primary)}", f"Tekirdağ’da {tr_service_phrase(ALL_SERVICES.get(primary, primary))}.")] if primary in A0 else []),
     ],
     knowledge=other_bilgi,
     projects=projs,
@@ -1277,7 +1295,7 @@ def build_bilgi_hub() -> None:
   <div class="wrap">
     {crumbs(("Ana Sayfa","/"),("Bilgi",None))}
     <h1>Bilgi</h1>
-    <p class="lede">Eğitici katman. Hizmet sayfalarını destekler; onların H1’ini çalmaz.</p>
+    <p class="lede">Tabela, malzeme ve süreç hakkında kısa rehberler.</p>
     <div class="hero-actions">
       <a class="btn btn-primary" href="{wa("Bilgi sonrası teklif")}" target="_blank" rel="noopener">WhatsApp ile Teklif</a>
       <a class="btn btn-ghost" href="/#teklif">Teklif</a>
@@ -1299,6 +1317,15 @@ def build_bilgi_hub() -> None:
 
 
 def merge_sitemap() -> None:
+    """Indexable owner URLs only. lastmod only on pages rewritten this pass."""
+    updated = {
+        f"{SITE}/",
+        f"{SITE}/hizmetler/",
+        f"{SITE}/bolgeler/tekirdag/",
+        f"{SITE}/projeler/",
+    }
+    for s in ALL_SERVICES:
+        updated.add(f"{SITE}/hizmetler/{s}/")
     urls = [
         f"{SITE}/",
         f"{SITE}/hizmetler/",
@@ -1307,27 +1334,23 @@ def merge_sitemap() -> None:
         f"{SITE}/sektorler/",
         f"{SITE}/bilgi/",
     ]
-    for s in A0:
-        urls += [f"{SITE}/hizmetler/{s}/", f"{SITE}/hizmet-bolge/tekirdag-{s}/"]
-    for s in A2:
+    for s in ALL_SERVICES:
         urls.append(f"{SITE}/hizmetler/{s}/")
-    for slug, *_ in PROJECTS:
-        urls.append(f"{SITE}/projeler/{slug}/")
     for slug, *_ in INDUSTRIES:
         urls.append(f"{SITE}/sektorler/{slug}/")
     for slug, *_ in ARTICLES:
         urls.append(f"{SITE}/bilgi/{slug}/")
-    body = "\n".join(
-        f"""  <url>
-    <loc>{u}</loc>
-    <lastmod>2026-08-06</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>{"1.0" if u.endswith("maltstudio.co/") else "0.7"}</priority>
-  </url>"""
-        for u in urls
-    )
+    parts = []
+    for u in urls:
+        if u in updated:
+            parts.append(f"  <url>\n    <loc>{u}</loc>\n    <lastmod>2026-08-11</lastmod>\n  </url>")
+        else:
+            parts.append(f"  <url>\n    <loc>{u}</loc>\n  </url>")
     (ROOT / "sitemap.xml").write_text(
-        f'<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n{body}\n</urlset>\n',
+        '<?xml version="1.0" encoding="UTF-8"?>\n'
+        '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+        + "\n".join(parts)
+        + "\n</urlset>\n",
         encoding="utf-8",
     )
     print("sitemap", len(urls))
@@ -1337,12 +1360,8 @@ def main() -> None:
     build_hizmetler_hub()
     for slug in ALL_SERVICES:
         build_service(slug)
-    for slug in A0:
-        build_sxc(slug)
     build_city()
     build_projeler_hub()
-    for slug, name, ind, svcs in PROJECTS:
-        build_project(slug, name, ind, svcs)
     build_sektorler_hub()
     for slug, name, pk in INDUSTRIES:
         build_industry(slug, name, pk)

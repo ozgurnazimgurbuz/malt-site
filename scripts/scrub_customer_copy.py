@@ -10,9 +10,13 @@ ROOT = Path(__file__).resolve().parents[1]
 
 FORBIDDEN = re.compile(
     r"S×C|money keyword|money H1|Money H1|Geo-money|geo-money|geo niyet|Geo niyet|"
-    r"geo fiyat|Geo fiyat|Ownership:|owner URL|Wave A2|city hub|City hub|"
+    r"geo fiyat|Geo fiyat|Ownership:|owner URL|city URL|Wave A2|city hub|City hub|"
     r"Service × City|Non-geo|geo-money H1|Owner PK|owner PK|"
-    r"Anti-doorway|doorway|cannibalization|money PK|Service×City|EEAT|ticari niyet|kanıt düğümü|kapsam adayı|birbirini yemez|Authority Hub|Production content|görsel kanıt kapısı|Index durumu",
+    r"Anti-doorway|doorway|cannibalization|money PK|Service×City|EEAT|"
+    r"ticari niyet|kanıt düğümü|kapsam adayı|birbirini yemez|Authority Hub|"
+    r"Production content|görsel kanıt kapısı|Index durumu|"
+    r"H1’ini çalmaz|hub indexlenebilir|proje verisi bekleniyor|"
+    r"portfolyo içerikleri yer tutucudur|ownership",
     re.I,
 )
 

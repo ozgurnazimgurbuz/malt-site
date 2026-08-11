@@ -134,18 +134,6 @@ Malt Studio Tekirdağ merkezli çalışır. Bu sektör içeriği; atölye üreti
 
 [RehberKarar vermenize yardımcı rehber.Bilgi](https://maltstudio.co/bilgi/arac-giydirme-rehberi/)
 
-## İlgili projeler
-
-###
-
-[Volt EnerjiTamamlanan proje örneği.Proje](https://maltstudio.co/projeler/volt-enerji/)
-
-###
-
-[Kuzey TekstilTamamlanan proje örneği.Proje](https://maltstudio.co/projeler/kuzey-tekstil/)
-
-[Tüm projeler →](https://maltstudio.co/projeler/)
-
 ## Keşfet
 
 ###

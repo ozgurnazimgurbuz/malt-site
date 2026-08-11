@@ -110,10 +110,6 @@ Malt Studio Tekirdağ merkezli çalışır. Bu rehber içeriği; atölye üretim
 
 [TotemTotem hizmeti.Hizmet](https://maltstudio.co/hizmetler/totem/)
 
-###
-
-[Tekirdağ TotemTekirdağ’da totem tabela uygulamaları.Hizmet](https://maltstudio.co/hizmet-bolge/tekirdag-totem/)
-
 ## İlgili rehberler
 
 ###
@@ -127,18 +123,6 @@ Malt Studio Tekirdağ merkezli çalışır. Bu rehber içeriği; atölye üretim
 ###
 
 [Kutu Harf Malzemeleri: Pleksi mi Paslanmaz mı?İlgili rehber.Bilgi](https://maltstudio.co/bilgi/kutu-harf-malzemeler/)
-
-## İlgili projeler
-
-###
-
-[Volt EnerjiTamamlanan proje örneği.Proje](https://maltstudio.co/projeler/volt-enerji/)
-
-###
-
-[Kuzey TekstilTamamlanan proje örneği.Proje](https://maltstudio.co/projeler/kuzey-tekstil/)
-
-[Tüm projeler →](https://maltstudio.co/projeler/)
 
 ## İlgili sektörler
 

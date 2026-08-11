@@ -13,7 +13,7 @@ Hizmet
 # Ofis Branding
 
 Resepsiyon, lobi ve toplantı alanlarında kurumsal kimliğin mekâna uygulanması.
-[Teklif Al](https://wa.me/905525826959?text=Merhaba%2C%20Ofis%20Branding%20hakk%C4%B1nda%20teklif%20almak%20istiyorum.) [WhatsApp](https://wa.me/905525826959?text=Merhaba%2C%20Ofis%20Branding%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum.) [Telefon · 0552 582 69 59](tel:+905525826959)
+[Teklif Al](https://wa.me/905525826959?text=Merhaba%2C%20Ofis%20Branding%20hakk%C4%B1nda%20teklif%20almak%20istiyorum.) [WhatsApp](https://wa.me/905525826959?text=Merhaba%2C%20Ofis%20Branding%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum.) [Telefon](tel:+905525826959)
 
 ## Bu hizmet nedir?
 
@@ -93,14 +93,6 @@ Uydurma ‘X ofiste uygulandı’ metriği eklenmez; proje sayfaları kanıt kap
 
 Sabit internet fiyat listesi yayınlanmaz; keşif sonrası net teklif verilir.
 
-Faktör eğitimi için /bilgi/tabela-fiyati/ rehberine bakabilirsiniz.
-
-## Süre ve planlama
-
-Tasarım onayı sonrası süre işin ölçeğine göre değişir.
-
-Acil işler operasyon kapasitesine göre değerlendirilir; garanti edilemeyen vaat verilmez.
-
 ## Bakım ve sonrası
 
 Cam ve folyo temizliği aşındırıcı olmadan yapılmalıdır.
@@ -109,68 +101,11 @@ Yenileme veya ek oda işaretleri aynı hat üzerinden eklenir.
 
 Söküm gerektiğinde yüzey koruması konuşulur.
 
-## Uygulama notları
+## Süleymanpaşa ve çevre ilçelerde montaj
 
-Ofis işinde ilk izlenim resepsiyonda kurulur; koridor işaretleri ikinci katmandır.
+Keşif ve montaj Tekirdağ Süleymanpaşa atölyesinden planlanır.
 
-Plaza yönetimi onayı gecikirse takvim kayar; keşifte sorulur.
-
-Cam folyo ile kutu harf aynı günde uygulanabilir ama alan sırası planlanır.
-
-Aşırı logo tekrarı kurumsal algıyı zayıflatır; sade dil tercih edilir.
-
-Mesai içi uygulama gürültü/kesinti yaratabilir; alternatif pencere sunulur.
-
-Kapı isimlikleri pakete eklenebilir; standart set varsayılmaz.
-
-İç mekân için ayrı ‘giydirme’ URL’si açılmaz — paket burada kalır.
-
-Koridor uzunsa işaret sıklığı abartılmadan planlanır.
-
-Camda marka + yön birlikte verilecekse hiyerarşi kurulur.
-
-Renkler marka kılavuzundan sapmadan tutulur.
-
-Uygulama sonrası yapışkan gazı için havalandırma önerilebilir.
-
-Kanıt için proje sayfalarına gerçek fotoğraf bağlanır.
-
-## Karar ve teslim özeti
-
-Ofis branding workplace’te tutarlı ilk izlenim üretir. Resepsiyon, cam ve koridor işaretleri aynı dilde tutulur; aşırı logo tekrarı zayıflatır. Plaza yönetimi onayı takvimi etkiler. Cam folyo malzemesi cam giydirme ile paylaşılır, paket burada yönetilir. Mesai içi kesinti riski varsa alternatif pencere sunulur. Kapı isimlikleri opsiyoneldir. Koridor uzunsa işaret sıklığı abartılmaz. Renkler marka kılavuzundan sapmadan tutulur. Uygulama sonrası yapışkan kokusu için havalandırma önerilebilir. Kanıt proje sayfalarına gerçek fotoğrafla bağlanır; uydurma ofis sayısı yazılmaz. İç mekân için yeni URL açılmaz. Kutu harf ihtiyacı varsa ilgili hizmetle birlikte aşamalandırılır. Klinik ve plaza ofisleri sakin dil ister.
-
-Ofis keşfinde elektrik prizi, cam tipi ve güvenlik kartı erişimi not edilir. Renk örneği onaylanmadan toplu baskı yapılmaz. Sessiz alanlarda düşük gürültülü uygulama tercih edilir. Teslimde yapışma ve hizalama kontrol listesi işlenir. Ek oda talepleri aynı proje koduna bağlanabilir. Marka kılavuzu yoksa sade sistem önerilir.
-
-Ofis branding’de sessiz ve tutarlı dil, kalabalık grafikten daha güçlü ilk izlenim bırakır. Resepsiyon, cam ve koridor aynı sistemin parçalarıdır. Plaza kartı/erişim ve yönetim onayı takvimi belirler. Cam folyo ihtiyacı malzemede cam giydirme ile paylaşılsa da paket burada yönetilir. Mesai içi kesinti riski varsa alternatif pencere sunulur. Yeni URL açılmaz. Kanıt için gerçek ofis fotoğrafları proje sayfalarına eklenene kadar noindex kapısı proje tarafında durur. Uydurma ofis sayısı yazılmaz. Renk örneği onayı toplu baskıdan önce alınır. Koridor işaret sıklığı abartılmaz. Ek oda talepleri aynı hatta bağlanır.
-
-Ofis tesliminde yapışkan artığı ve hizalama sapması kontrol edilir. Yeni çalışan karşılama yüzeyleri sonradan eklenebilir. Marka renkleri monitör ile gerçek yüzey farkı için örnekle doğrulanır. Plaza ortak alan kuralları ihlal edilmez. Sessiz alanlarda düşük gürültülü uygulama tercih edilir. Toplantı odası camlarında sade yön ve isim hiyerarşisi korunur.
-
-## Keşif kontrol listesi
-
-- Plaza yönetimi onayı takvimi etkiler.
-- Alan listesi olmadan paket çıkmaz.
-- Cam folyo ile kutu harf ihtiyaçları ayrılır.
-- Mesai penceresi kesintiye göre seçilir.
-- Marka kılavuzu yoksa sade sistem önerilir.
-- Aşırı logo tekrarı engellenir.
-- Kapı isimliği opsiyonel kalemdir.
-- Saf cam uygulaması cam giydirme ile paylaşılabilir.
-- Renk örneği onayı toplu baskıdan önce alınır.
-- Gürültü riski olan alanlar planlanır.
-- Yeni iç mekân URL’si açılmaz.
-- Teslim kontrol listesi işlenir.
-- Ek oda talepleri aynı hatta bağlanır.
-- Lightbox resepsiyonda opsiyoneldir.
-- Vektörel logo kaliteyi yükseltir.
-- Yapışkan kokusu için havalandırma önerilebilir.
-- Uydurma ofis metriği yazılmaz.
-- Kanıt fotoğrafı planlanır.
-
-## Yerel bağlantı
-
-Yerel keşif ve montaj Tekirdağ üssünden planlanır.
-
-Detay için /bolgeler/tekirdag/ sayfasına bakabilirsiniz.
+Adres, saat ve iletişim: [Malt Studio Tekirdağ atölye ve iletişim](https://maltstudio.co/bolgeler/tekirdag/) .
 
 [WhatsApp ile Teklif](https://wa.me/905525826959?text=Merhaba%2C%20Ofis%20Branding%20i%C3%A7in%20ke%C5%9Fif%20istiyorum.) [Teklif](https://maltstudio.co/#teklif) [Ara](tel:+905525826959)
 
@@ -197,18 +132,6 @@ Detay için /bolgeler/tekirdag/ sayfasına bakabilirsiniz.
 ###
 
 [RehberKarar vermenize yardımcı rehber.Bilgi](https://maltstudio.co/bilgi/kutu-harf-malzemeler/)
-
-## İlgili projeler
-
-###
-
-[Ekip YazılımTamamlanan proje örneği.Proje](https://maltstudio.co/projeler/ekip-yazilim/)
-
-###
-
-[Mera OtelTamamlanan proje örneği.Proje](https://maltstudio.co/projeler/mera-otel/)
-
-[Tüm projeler →](https://maltstudio.co/projeler/)
 
 ## İlgili sektörler
 

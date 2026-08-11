@@ -128,18 +128,6 @@ Malt Studio Tekirdağ merkezli çalışır. Bu sektör içeriği; atölye üreti
 
 [RehberKarar vermenize yardımcı rehber.Bilgi](https://maltstudio.co/bilgi/one-way-vision-nedir/)
 
-## İlgili projeler
-
-###
-
-[Mera OtelTamamlanan proje örneği.Proje](https://maltstudio.co/projeler/mera-otel/)
-
-###
-
-[Ekip YazılımTamamlanan proje örneği.Proje](https://maltstudio.co/projeler/ekip-yazilim/)
-
-[Tüm projeler →](https://maltstudio.co/projeler/)
-
 ## Keşfet
 
 ###

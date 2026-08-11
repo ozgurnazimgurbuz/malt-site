@@ -1,6 +1,6 @@
-# Tekirdağ Reklam ve Tabela | Yerel Hizmet Rehberi
+# Malt Studio Tekirdağ Atölye ve İletişim
 
-> Tekirdağ reklam firması ve tabela üreticisi Malt Studio. Yerel hizmetler ve iletişim.
+> Malt Studio’nun Tekirdağ Süleymanpaşa iletişim, çalışma saatleri, hizmet alanları ve keşif bilgileri. Telefon, WhatsApp ve yol tarifi.
 
 - Canonical HTML: https://maltstudio.co/bolgeler/tekirdag/
 - Markdown twin: https://maltstudio.co/bolgeler/tekirdag/index.html.md
@@ -8,59 +8,44 @@
 
 ---
 
-Tekirdağ Yerel Rehber
+Atölye
 
-# Tekirdağ Reklam Ajansı & Üretici
+# Malt Studio Tekirdağ Atölye ve İletişim
 
-Tekirdağ’da üreten ve uygulayan ekip. Yerel hizmetler, keşif ve montaj buradan planlanır.
+Adres, telefon, e-posta ve keşif bilgisi. Bu sayfa ikinci bir reklam ajansı landing’i değildir.
 [WhatsApp ile Teklif](https://wa.me/905525826959?text=Tekirda%C4%9F%20ke%C5%9Fif) [Teklif](https://maltstudio.co/#teklif) [Ara](tel:+905525826959) [Hizmetler](https://maltstudio.co/hizmetler/)
 
-## Tekirdağ’da ne sunuyoruz?
+## İletişim
 
-Malt Studio; tabela, ışıklı tabela, kutu harf, totem, araç giydirme, cam giydirme ile lightbox, display/POS, ofis branding ve iş güvenliği tabelaları üretir.
+**Adres:** Yavuz Mahallesi, Ruşen Güneş Sokak, D Blok No:2
+59100 Süleymanpaşa / Tekirdağ
+Türkiye
 
-Merkez Tekirdağ’dır. Süleymanpaşa ve merkez talepleri bu sayfa ile ilgili yerel hizmet sayfalarında toplanır.
+**Telefon:**[+90 552 582 69 59](tel:+905525826959)
 
-Sanayi koridoru (Çorlu, Çerkezköy, Kapaklı, Ergene) talepleri Tekirdağ üssünden planlanır.
+**E-posta:**[merhaba@maltstudio.co](mailto:merhaba@maltstudio.co)
 
-Yerel güven için proje sayfaları ve saha görselleri kritiktir. Görseller onaylandıkça proje URL’lerine eklenir.
+**Çalışma saatleri:** Pazartesi–Cumartesi 09:00–19:00
 
-## Yerel nasıl çalışırız?
+WhatsApp veya telefon ile keşif randevusu alınır.
 
-Keşif randevusu → ölçü → tasarım onayı → atölye üretimi → saha montajı.
+## Ulaşım
 
-Mağaza, plaza, fabrika ve ofis işlerinde montaj penceresi işletmeye göre ayarlanır.
+Atölye Süleymanpaşa / Tekirdağ’dadır. Keşif randevusu sonrası ölçü ve montaj planı çıkarılır.
 
-Acil montaj/tamir talepleri kapasiteye göre değerlendirilir; tutulmayan süre vaadi verilmez.
+Yol tarifi için Google Haritalar’da Malt Studio veya adresi arayın.
 
-## Üretim, deneyim ve yerel uzmanlık
+## Hizmet bölgeleri
 
-Malt Studio Tekirdağ merkezli çalışır. Bu şehir içeriği; atölye üretimi, saha keşfi ve montajın aynı operasyonel hatta planlandığı gerçek iş modeline dayanır. Şube sayısı, uydurma sertifika, sahte yorum veya proje metriği eklenmez.
+Süleymanpaşa ve Tekirdağ merkez başta olmak üzere çevre ilçelere keşif ve montaj planlanır.
 
-- **Deneyim:** Keşif notları (ölçü, yüzey, erişim, işletme saati) teklif ve üretimi şekillendirir.
-- **Üretim:** Ölçüye özel imalat; stok tabela mantığı yerine yüzeye ve markaya göre üretim.
-- **Kalite süreci:** Atölye kontrolü → saha hizalama/sabitleme → teslim kontrolü.
-- **Yerel uzmanlık:** Tekirdağ üssünden merkez ve çevre ilçe işleri planlanır; Süleymanpaşa dahil merkez ve çevre ilçelere hizmet verilir.
-- **Kanıt:** Gerçek fotoğraflar proje sayfalarına bağlanır; stok görsel kullanılmaz.
+Çorlu, Çerkezköy, Kapaklı, Ergene, Muratlı ve diğer ilçe işleri aynı atölyeden yönetilir.
 
-## Süleymanpaşa ve merkez
+## Gerçek işler
 
-Süleymanpaşa için ayrı bir sayfa ağacı açılmaz.
+Ana sayfadaki [seçili işler](https://maltstudio.co/#isler)  gerçek saha fotoğraflarıdır.
 
-Merkez ve Süleymanpaşa talepleri Tekirdağ hizmet sayfalarında toplanır.
-
-## Yerel talep senaryoları
-
-- Çarşı / mağaza: tabela + ışıklı + cam giydirme
-- OSB / fabrika: totem + tabela + İSG + filo
-- Plaza / ofis: kutu harf + ofis branding
-- Perakende açılış: ışıklı + vitrin paketi
-
-## İletişim ve keşif
-
-WhatsApp veya telefon ile kısa brief bırakın; uygunsa keşif planlanır.
-
-Tekirdağ’daki spesifik hizmetler için aşağıdaki yerel sayfalara bakın.
+Hizmet sayfaları: [tabela](https://maltstudio.co/hizmetler/tabela/) , [ışıklı tabela](https://maltstudio.co/hizmetler/isikli-tabela/) , [kutu harf](https://maltstudio.co/hizmetler/kutu-harf/) .
 
 [WhatsApp ile Teklif](https://wa.me/905525826959?text=Tekirda%C4%9F%20ke%C5%9Fif) [Teklif](https://maltstudio.co/#teklif) [Ara](tel:+905525826959)
 
@@ -108,34 +93,6 @@ Tekirdağ’daki spesifik hizmetler için aşağıdaki yerel sayfalara bakın.
 
 [One Way Vision Nedir?Rehber.Bilgi](https://maltstudio.co/bilgi/one-way-vision-nedir/)
 
-## İlgili projeler
-
-###
-
-[Liman KahveTamamlanan proje örneği.Proje](https://maltstudio.co/projeler/liman-kahve/)
-
-###
-
-[Volt EnerjiTamamlanan proje örneği.Proje](https://maltstudio.co/projeler/volt-enerji/)
-
-###
-
-[DörtnalTamamlanan proje örneği.Proje](https://maltstudio.co/projeler/dortnal/)
-
-###
-
-[Mera OtelTamamlanan proje örneği.Proje](https://maltstudio.co/projeler/mera-otel/)
-
-###
-
-[Ekip YazılımTamamlanan proje örneği.Proje](https://maltstudio.co/projeler/ekip-yazilim/)
-
-###
-
-[Kuzey TekstilTamamlanan proje örneği.Proje](https://maltstudio.co/projeler/kuzey-tekstil/)
-
-[Tüm projeler →](https://maltstudio.co/projeler/)
-
 ## İlgili sektörler
 
 ###
@@ -180,35 +137,7 @@ Tekirdağ’daki spesifik hizmetler için aşağıdaki yerel sayfalara bakın.
 
 [Ana sayfaMalt Studio ana sayfa.Keşif](https://maltstudio.co/)
 
-## Tekirdağ yerel hizmetler
-
-Tekirdağ’da sunduğumuz başlıca hizmetler.
-
-###
-
-[Tekirdağ TabelaTekirdağ’da tabela üretimi ve montajı.Yerel](https://maltstudio.co/hizmet-bolge/tekirdag-tabela/)
-
-###
-
-[Tekirdağ Işıklı TabelaTekirdağ’da ışıklı tabela hizmeti.Yerel](https://maltstudio.co/hizmet-bolge/tekirdag-isikli-tabela/)
-
-###
-
-[Tekirdağ Kutu HarfTekirdağ’da kutu harf üretimi.Yerel](https://maltstudio.co/hizmet-bolge/tekirdag-kutu-harf/)
-
-###
-
-[Tekirdağ TotemTekirdağ’da totem tabela uygulamaları.Yerel](https://maltstudio.co/hizmet-bolge/tekirdag-totem/)
-
-###
-
-[Tekirdağ Araç GiydirmeTekirdağ’da araç giydirme hizmeti.Yerel](https://maltstudio.co/hizmet-bolge/tekirdag-arac-giydirme/)
-
-###
-
-[Tekirdağ Cam GiydirmeTekirdağ’da cam giydirme uygulamaları.Yerel](https://maltstudio.co/hizmet-bolge/tekirdag-cam-giydirme/)
-
-## Tüm hizmetler
+## Hizmetler
 
 ###
 
@@ -234,52 +163,16 @@ Tekirdağ’da sunduğumuz başlıca hizmetler.
 
 [Cam GiydirmeCam Giydirme hizmeti.Hizmet](https://maltstudio.co/hizmetler/cam-giydirme/)
 
-###
-
-[LightboxLightbox hizmeti.Hizmet](https://maltstudio.co/hizmetler/lightbox/)
-
-###
-
-[Display & POSDisplay & POS hizmeti.Hizmet](https://maltstudio.co/hizmetler/display-pos/)
-
-###
-
-[Ofis BrandingOfis Branding hizmeti.Hizmet](https://maltstudio.co/hizmetler/ofis-branding/)
-
-###
-
-[İş Güvenliği Tabelalarıİş Güvenliği Tabelaları hizmeti.Hizmet](https://maltstudio.co/hizmetler/is-guvenligi-tabelalari/)
-
-## Sektörler ve bilgi
-
-###
-
-[SektörlerFabrika, restoran, sağlık…A1](https://maltstudio.co/sektorler/)
-
-###
-
-[BilgiRehberler ve karşılaştırmalar.A1](https://maltstudio.co/bilgi/)
-
-###
-
-[ProjelerVaka kanıtı.A1](https://maltstudio.co/projeler/)
-
 ## Sık sorulan sorular
-Tekirdağ’da tabela / reklam firması mısınız?
+Atölye nerede?
 
-Evet. Malt Studio Tekirdağ merkezlidir.
-Süleymanpaşa sayfası?
+Yavuz Mahallesi, Ruşen Güneş Sokak, D Blok No:2, 59100 Süleymanpaşa / Tekirdağ, Türkiye.
+Çalışma saatleri?
 
-Ayrı sayfa yok; Süleymanpaşa talepleri Tekirdağ sayfalarında toplanır.
-Çorlu / Çerkezköy?
+Pazartesi–Cumartesi 09:00–19:00.
+Süleymanpaşa ayrı sayfa mı?
 
-Evet; keşif ve montaj Tekirdağ üssünden planlanır.
-Hangi hizmetler?
+Hayır; Süleymanpaşa talepleri bu atölye sayfasında toplanır.
+Keşif nasıl alınır?
 
-Tabela, ışıklı tabela, kutu harf ve diğer tüm hizmetlerimize bakın.
-Proje var mı?
-
-/projeler/ altında vaka sayfaları vardır.
-Keşif?
-
-WhatsApp veya telefon ile randevu.
+WhatsApp veya telefon ile kısa brief bırakın.

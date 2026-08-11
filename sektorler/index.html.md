@@ -95,22 +95,6 @@ Malt Studio Tekirdağ merkezli çalışır. Bu sektör hub içeriği; atölye ü
 
 [Kutu Harf Malzemeleri: Pleksi mi Paslanmaz mı?Rehber.Bilgi](https://maltstudio.co/bilgi/kutu-harf-malzemeler/)
 
-## İlgili projeler
-
-###
-
-[Liman KahveTamamlanan proje örneği.Proje](https://maltstudio.co/projeler/liman-kahve/)
-
-###
-
-[Volt EnerjiTamamlanan proje örneği.Proje](https://maltstudio.co/projeler/volt-enerji/)
-
-###
-
-[DörtnalTamamlanan proje örneği.Proje](https://maltstudio.co/projeler/dortnal/)
-
-[Tüm projeler →](https://maltstudio.co/projeler/)
-
 ## Keşfet
 
 ###

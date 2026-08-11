@@ -548,12 +548,12 @@ ARTICLE_A5 = {
 SERVICE_EXPAND = {
     "tabela": [
         "Tabela işinde en sık hata, ölçü almadan katalog fiyatı istemektir. Cephe eğimi, bağlantı yüzeyi ve görüş mesafesi rakamı değiştirir.",
-        "Işıksız tabela gece ihtiyacı yoksa doğru tercihtir; gece trafiği varsa Işıklı Tabela sayfasına geçmek gerekir. Bu ayrım ownership’i de korur.",
+        "Işıksız tabela gece ihtiyacı yoksa doğru tercihtir; gece trafiği varsa Işıklı Tabela sayfasına geçmek gerekir.",
         "İç yön tabelası ile cephe tabelası aynı malzeme ailesinden gelse bile okunurluk ve dayanım kriterleri farklıdır.",
         "Yenileme işlerinde eski söküm, delik izleri ve boya rötuşu teklife ayrıca yansıyabilir; peşin ‘dahil’ varsayılmamalıdır.",
         "Kurumsal zincirlerde şablon standardı birim maliyeti düşürebilir; tek şube işinde ise ölçüye özel üretim öne çıkar.",
         "Kalite kontrolde hizalama, kenar bitiş ve montaj güvenliği teslim öncesi kontrol edilir; eksik varsa sahada konuşulur.",
-        "Tekirdağ dışı koridor işlerinde lojistik süresi keşif notuna yazılır; ayrı city URL’si olmayan ilçeler operasyonel kapsamda kalır.",
+        "Tekirdağ dışı koridor işlerinde lojistik süresi keşif notuna yazılır.",
     ],
     "isikli-tabela": [
         "Işıklı tabela kararında ilk filtre işletme saatleridir. Gece kapalı bir noktada LED yatırımı çoğu zaman gereksizdir.",
@@ -687,7 +687,7 @@ ARTICLE_EXPAND = {
     "tabela-cesitleri": [
         "Çeşit seçerken ‘en pahalı = en iyi’ yaklaşımı işe yaramaz; okuma koşulu belirleyicidir.",
         "İç mekân bilgilendirme ile dış cephe aynı kategoride toplanmamalıdır.",
-        "Karşılaştırmayı hizmet satış sayfasına taşımak ownership’i bozar; burada eğitim kalır.",
+        "Karşılaştırma bu rehberde kalır; üretim ve teklif ilgili hizmet sayfasındadır.",
         "Birden fazla tip aynı cephede kullanılacaksa hiyerarşi çizilir: ana kimlik + destek yüzey.",
         "Bakım maliyeti ilk yatırım kadar önemlidir; LED’li sistemlerde servis katmanı vardır.",
         "Yanlış tür seçimi montajdan sonra pahalıya yenilenir.",
@@ -769,7 +769,7 @@ SERVICE_EXPAND2 = {
         "Zemin altı engel (kablo, boru) riski keşifte sorulur.",
         "Grafik alanı ileride değişecekse manyetik/vidalı panel düşünülür.",
         "İzin süreçleri müşteri veya site yönetimine bağlıdır; süre garanti edilmez.",
-        "Yerel niyet /hizmet-bolge/tekirdag-totem/ altındadır.",
+        "Tekirdağ totem işleri /hizmetler/totem/ sayfasında anlatılır.",
     ],
     "arac-giydirme": [
         "Araç tesliminden önce yıkama ve kuru yüzey şarttır.",

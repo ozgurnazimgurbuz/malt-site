@@ -6,7 +6,7 @@ Her kamu sayfasının temiz Markdown ikizi vardır: HTML URL’sinin sonuna `.md
 (dizin URL’leri için `index.html.md`). Örnek: `https://maltstudio.co/hizmetler/tabela/index.html.md`.
 
 Önemli notlar:
-- İletişim: merhaba@maltstudio.com · 05525826959
+- İletişim: merhaba@maltstudio.co · 05525826959
 - Adres: Süleymanpaşa/Tekirdağ, Türkiye (Süleymanpaşa = Tekirdağ merkez alias)
 - Teklif: keşif sonrası yazılı; internette sabit fiyat listesi yok
 - Uydurma şube/sertifika/metrik yazılmaz; kanıt proje sayfalarına bağlanır
@@ -14,29 +14,23 @@ Her kamu sayfasının temiz Markdown ikizi vardır: HTML URL’sinin sonuna `.md
 - Tam birleşik Markdown: https://maltstudio.co/llms-full.txt
 
 ## Ana sayfa
-- [Malt Studio | Tekirdağ Reklam Ajansı](https://maltstudio.co/index.html.md): Tekirdağ reklam ajansı Malt Studio. Tabela üretimi, kurumsal kimlik, dijital baskı ve uygulama. Keşiften montaja Teki…
+- [Tekirdağ Reklam Ajansı ve Tabela | Malt Studio](https://maltstudio.co/index.html.md): Tekirdağ’da tabela, ışıklı tabela, kutu harf, dijital baskı ve araç giydirme. Keşif, tasarım, üretim ve montaj için M…
 
 ## Hizmetler
 - [Hizmetler | Tabela, Lightbox, Ofis Branding ve Daha Fazlası](https://maltstudio.co/hizmetler/index.html.md): Malt Studio tüm hizmetleri: tabela, ışıklı tabela, kutu harf, totem, araç ve cam giydirme, lightbox, display, ofis br…
-- [Araç Giydirme | Filo ve Ticari Araç Kaplama](https://maltstudio.co/hizmetler/arac-giydirme/index.html.md): Araç giydirme, filo kaplama ve ticari araç reklam uygulamaları.
-- [Cam Giydirme | One Way Vision ve Vitrin Folyosu](https://maltstudio.co/hizmetler/cam-giydirme/index.html.md): Cam giydirme, one way vision, vitrin ve cam folyo uygulamaları.
-- [Işıklı Tabela | LED Tabela Üretimi ve Montajı](https://maltstudio.co/hizmetler/isikli-tabela/index.html.md): Işıklı tabela ve LED tabela üretimi-montajı. Gece görünür mağaza ve kurumsal tabelalar.
 - [İş Güvenliği Tabelaları | Uyarı ve Acil Çıkış](https://maltstudio.co/hizmetler/is-guvenligi-tabelalari/index.html.md): İSG tabelaları, uyarı levhaları, yangın çıkışı ve acil durum işaretleri.
-- [Kutu Harf | Pleksi ve Paslanmaz Cephe Yazıları](https://maltstudio.co/hizmetler/kutu-harf/index.html.md): Kutu harf üretimi ve montajı. Pleksi, paslanmaz ve ışıklı kutu harf.
-- [Lightbox | Işıklı Kutu ve Backlit Frame](https://maltstudio.co/hizmetler/lightbox/index.html.md): Lightbox, ışıklı kutu, SEG ve backlit frame sistemleri.
 - [Ofis Branding | Resepsiyon ve Lobi Uygulamaları](https://maltstudio.co/hizmetler/ofis-branding/index.html.md): Ofis branding, resepsiyon, lobi ve kurumsal ofis grafikleri.
 - [Roll-Up, X-Banner ve POS Display](https://maltstudio.co/hizmetler/display-pos/index.html.md): Roll-up, X-banner, bayrak ve POS display sistemleri.
-- [Tabela | Üretim, Montaj ve Reklam Tabelası](https://maltstudio.co/hizmetler/tabela/index.html.md): Tabela üretimi ve montajı. Dış-iç mekan, mağaza ve tesis tabelaları. Tekirdağ merkezli Malt Studio.
-- [Totem Tabela | Yol ve Tesis Totem Üretimi](https://maltstudio.co/hizmetler/totem/index.html.md): Totem tabela üretimi ve montajı. Tesis girişi ve yol kenarı sistemleri.
+- [Tekirdağ Araç Giydirme | Ticari Araç ve Filo | Malt Studio](https://maltstudio.co/hizmetler/arac-giydirme/index.html.md): Tekirdağ’da ticari araç ve filo giydirme. Baskı, uygulama ve keşif için teklif alın.
+- [Tekirdağ Cam Giydirme | One Way Vision ve Folyo | Malt Studio](https://maltstudio.co/hizmetler/cam-giydirme/index.html.md): Tekirdağ’da cam giydirme: one way vision, vitrin ve cam folyo uygulamaları.
+- [Tekirdağ Işıklı Tabela | LED Üretim ve Montaj | Malt Studio](https://maltstudio.co/hizmetler/isikli-tabela/index.html.md): Tekirdağ’da LED ışıklı tabela üretimi ve montajı. Gece görünür mağaza ve kurumsal tabelalar için keşif ve teklif.
+- [Tekirdağ Kutu Harf Tabela | Malt Studio](https://maltstudio.co/hizmetler/kutu-harf/index.html.md): Tekirdağ’da kutu harf tabela üretimi ve montajı. Pleksi, paslanmaz ve ışıklı kutu harf.
+- [Tekirdağ Lightbox Tabela | Işıklı Kutu ve Backlit | Malt Studio](https://maltstudio.co/hizmetler/lightbox/index.html.md): Lightbox, ışıklı kutu, SEG ve backlit frame sistemleri.
+- [Tekirdağ Tabela İmalatı ve Montajı | Malt Studio](https://maltstudio.co/hizmetler/tabela/index.html.md): Tekirdağ tabela üretimi: ışıklı ve ışıksız tabela, kutu harf, kompozit cephe ve mağaza tabelası. Keşif, imalat ve mon…
+- [Tekirdağ Totem Tabela | Üretim ve Montaj | Malt Studio](https://maltstudio.co/hizmetler/totem/index.html.md): Tekirdağ’da totem tabela üretimi ve montajı. Tesis girişi ve yol kenarı sistemleri.
 
 ## Tekirdağ / yerel
-- [Tekirdağ Araç Giydirme | Yerel Üretim ve Montaj](https://maltstudio.co/hizmet-bolge/tekirdag-arac-giydirme/index.html.md): Tekirdağ araç giydirme üretimi ve montajı. Araç giydirme, filo kaplama ve ticari araç reklam uygulamaları.
-- [Tekirdağ Cam Giydirme | Yerel Üretim ve Montaj](https://maltstudio.co/hizmet-bolge/tekirdag-cam-giydirme/index.html.md): Tekirdağ cam giydirme üretimi ve montajı. Cam giydirme, one way vision, vitrin ve cam folyo uygulamaları.
-- [Tekirdağ Işıklı Tabela | Yerel Üretim ve Montaj](https://maltstudio.co/hizmet-bolge/tekirdag-isikli-tabela/index.html.md): Tekirdağ işıklı tabela üretimi ve montajı. Işıklı tabela ve LED tabela üretimi-montajı. Gece görünür mağaza ve kurums…
-- [Tekirdağ Kutu Harf | Yerel Üretim ve Montaj](https://maltstudio.co/hizmet-bolge/tekirdag-kutu-harf/index.html.md): Tekirdağ kutu harf üretimi ve montajı. Kutu harf üretimi ve montajı. Pleksi, paslanmaz ve ışıklı kutu harf.
-- [Tekirdağ Reklam ve Tabela | Yerel Hizmet Rehberi](https://maltstudio.co/bolgeler/tekirdag/index.html.md): Tekirdağ reklam firması ve tabela üreticisi Malt Studio. Yerel hizmetler ve iletişim.
-- [Tekirdağ Tabela | Yerel Üretim ve Montaj](https://maltstudio.co/hizmet-bolge/tekirdag-tabela/index.html.md): Tekirdağ tabela üretimi ve montajı. Tabela üretimi ve montajı. Dış-iç mekan, mağaza ve tesis tabelaları. Tekirdağ mer…
-- [Tekirdağ Totem | Yerel Üretim ve Montaj](https://maltstudio.co/hizmet-bolge/tekirdag-totem/index.html.md): Tekirdağ totem üretimi ve montajı. Totem tabela üretimi ve montajı. Tesis girişi ve yol kenarı sistemleri.
+- [Malt Studio Tekirdağ Atölye ve İletişim](https://maltstudio.co/bolgeler/tekirdag/index.html.md): Malt Studio’nun Tekirdağ Süleymanpaşa iletişim, çalışma saatleri, hizmet alanları ve keşif bilgileri. Telefon, WhatsA…
 
 ## Sektörler
 - [Sektörler | Fabrika, Restoran, Sağlık, Plaza](https://maltstudio.co/sektorler/index.html.md): Sektörel tabela ve görünürlük çözümleri.
@@ -59,12 +53,6 @@ Her kamu sayfasının temiz Markdown ikizi vardır: HTML URL’sinin sonuna `.md
 
 ## Projeler
 - [Projeler | Malt Studio İş Örnekleri](https://maltstudio.co/projeler/index.html.md): Tabela, ışıklı tabela, kutu harf ve giydirme proje örnekleri.
-- [Dörtnal Vaka Çalışması | Mağaza Tabela & Vitrin](https://maltstudio.co/projeler/dortnal/index.html.md): Dörtnal için perakende mağaza cephe ve vitrin vaka sayfası. Kanıt görselleri onay sonrası eklenecek.
-- [Ekip Yazılım Vaka Çalışması | Ofis Branding & Kutu Harf](https://maltstudio.co/projeler/ekip-yazilim/index.html.md): Ekip Yazılım için ofis iç kimlik ve giriş uygulamaları vaka sayfası. Kanıt görselleri onay sonrası eklenecek.
-- [Kuzey Tekstil Vaka Çalışması | OSB Tabela & Filo](https://maltstudio.co/projeler/kuzey-tekstil/index.html.md): Kuzey Tekstil için tesis tabela ve filo giydirme vaka sayfası. Kanıt görselleri onay sonrası eklenecek.
-- [Liman Kahve Vaka Çalışması | Cafe Tabela & Vitrin](https://maltstudio.co/projeler/liman-kahve/index.html.md): Liman Kahve için cafe cephe ve vitrin görünürlüğü vaka sayfası. Kanıt görselleri onay sonrası eklenecek.
-- [Mera Otel Vaka Çalışması | Konaklama Kutu Harf & Tabela](https://maltstudio.co/projeler/mera-otel/index.html.md): Mera Otel için giriş ve cephe kimliği vaka sayfası. Kanıt görselleri onay sonrası eklenecek.
-- [Volt Enerji Vaka Çalışması | Tesis Totem & Tabela](https://maltstudio.co/projeler/volt-enerji/index.html.md): Volt Enerji için tesis girişi ve cephe kimliği vaka sayfası. Kanıt görselleri onay sonrası eklenecek.
 
 ## Optional
 - [Sitemap](https://maltstudio.co/sitemap.xml): Arama motorları için HTML URL listesi (Markdown ikizleri dahil değil)

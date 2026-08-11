@@ -12,7 +12,7 @@ SITE = "https://maltstudio.co"
 PHONE_DISPLAY = "0552 582 69 59"
 PHONE_TEL = "+905525826959"
 WA = "905525826959"
-EMAIL = "merhaba@maltstudio.com"
+EMAIL = "merhaba@maltstudio.co"
 
 A0_SERVICES = {
     "tabela": "Tabela",

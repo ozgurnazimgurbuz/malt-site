@@ -1,6 +1,6 @@
-# Tabela | Üretim, Montaj ve Reklam Tabelası
+# Tekirdağ Tabela İmalatı ve Montajı | Malt Studio
 
-> Tabela üretimi ve montajı. Dış-iç mekan, mağaza ve tesis tabelaları. Tekirdağ merkezli Malt Studio.
+> Tekirdağ tabela üretimi: ışıklı ve ışıksız tabela, kutu harf, kompozit cephe ve mağaza tabelası. Keşif, imalat ve montaj için teklif alın.
 
 - Canonical HTML: https://maltstudio.co/hizmetler/tabela/
 - Markdown twin: https://maltstudio.co/hizmetler/tabela/index.html.md
@@ -10,12 +10,12 @@
 
 Hizmet
 
-# Tabela
+# Tekirdağ Tabela İmalatı ve Montajı
 
 Ölçüye özel tabela üretimi: doğru malzeme, okunur tasarım ve güvenli montaj.
-[Teklif Al](https://wa.me/905525826959?text=Merhaba%2C%20Tabela%20hakk%C4%B1nda%20teklif%20almak%20istiyorum.) [WhatsApp](https://wa.me/905525826959?text=Merhaba%2C%20Tabela%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum.) [Telefon · 0552 582 69 59](tel:+905525826959)
+[Teklif Al](https://wa.me/905525826959?text=Merhaba%2C%20Tekirda%C4%9F%20Tabela%20%C4%B0malat%C4%B1%20ve%20Montaj%C4%B1%20hakk%C4%B1nda%20teklif%20almak%20istiyorum.) [WhatsApp](https://wa.me/905525826959?text=Merhaba%2C%20Tekirda%C4%9F%20Tabela%20%C4%B0malat%C4%B1%20ve%20Montaj%C4%B1%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum.) [Telefon](tel:+905525826959)
 
-## Bu hizmet nedir?
+## Tekirdağ’da ürettiğimiz tabela çeşitleri
 
 Tabela, markanın sokaktaki ve tesis girişindeki kalıcı imzasıdır. Doğru tabela; mesafeden okunur, malzemesi sahaya uygundur ve montajı uzun ömürlü planlanır.
 
@@ -29,23 +29,13 @@ Tabela seçimi; mesajın kim tarafından, hangi mesafeden ve hangi ışık koşu
 
 Bu sayfada genel tabela hizmetini anlatıyoruz: ışıksız/ışığa hazır paneller, cephe kimliği ve iç bilgilendirme yüzeyleri. LED cephe sistemleri için Işıklı Tabela, ışıklı kutu için Lightbox ayrıdır.
 
-## Nerelerde kullanılır?
-
 - Mağaza ve dükkan cepheleri
 - Plaza / ofis girişleri
 - Fabrika ve depo
 - Kurumsal tesis kimliği
 - İç mekan bilgilendirme
 
-Mağaza ve dükkân cephelerinde ilk okunan yüzey çoğu zaman tabeladır.
-
-Plaza ve ofis girişlerinde sade, kurumsal bir panel yön ve kimlik taşır.
-
-Fabrika/depo sahasında dayanımlı dış mekân tabelaları yön ve tesis adını sabitler.
-
-İç mekânda oda, kat veya birim bilgilendirmesi için daha ince malzeme setleri tercih edilebilir.
-
-## Malzeme ve seçenekler
+## Işıklı, ışıksız, kutu harf veya kompozit: hangisi?
 
 Kompozit panel, forex/PVC, vinil baskı, ışıklı/ışıksız kasa seçenekleri. Malzeme; konum, dayanım ve bütçeye göre seçilir.
 
@@ -55,15 +45,29 @@ Vinil baskı kampanya veya yenilenebilir mesajlarda; sabit kurumsal yazılarda k
 
 Montaj yüzeyi (kompozit, beton, cam, sandwich panel) aparat ve delik planını belirler — keşif notu olmadan net teklif çıkmaz.
 
-## Süreç
+Gece görünürlük için [ışıklı tabela seçenekleri](https://maltstudio.co/hizmetler/isikli-tabela/) , cephe yazısı için [kutu harf tabela](https://maltstudio.co/hizmetler/kutu-harf/) , yol/tesis için [totem tabela üretimi](https://maltstudio.co/hizmetler/totem/) .
+
+## Gerçek Tekirdağ tabela projeleri
+
+Seçili işler ana sayfada yer alır: [gerçek Tekirdağ tabela ve uygulama projeleri](https://maltstudio.co/#isler) .
+
+Liste: [projeler](https://maltstudio.co/projeler/) .
+
+## Tabela fiyatını belirleyen ölçü, malzeme ve montaj koşulları
+
+Ölçü, malzeme, ışıklı/özel üretim, montaj yüksekliği, saha lojistiği ve adet fiyatı belirler.
+
+Sabit internet fiyat listesi yayınlanmaz; keşif sonrası net teklif verilir.
+
+Ayrıntı: [tabela fiyatını neler etkiler](https://maltstudio.co/bilgi/tabela-fiyati/) .
+
+## Keşiften montaja çalışma sürecimiz
 
 1. **Keşif:** Ölçü, yüzey, erişim ve ihtiyaç netleştirilir.
 2. **Tasarım onayı:** Görsel ve teknik onay alınır.
 3. **Üretim:** Atölyede imalat ve kontrol.
 4. **Uygulama:** Saha montajı / giydirme.
 5. **Teslim:** Kontrol ve teslim notları.
-
-## Süreç notları
 
 Keşifte ölçü, erişim, rüzgâr/yükseklik ve varsa site yönetimi kuralları yazılır.
 
@@ -81,91 +85,13 @@ Malt Studio Tekirdağ merkezli çalışır. Bu hizmet içeriği; atölye üretim
 - **Yerel uzmanlık:** Tekirdağ üssünden merkez ve çevre ilçe işleri planlanır; Süleymanpaşa dahil merkez ve çevre ilçelere hizmet verilir.
 - **Kanıt:** Gerçek fotoğraflar proje sayfalarına bağlanır; stok görsel kullanılmaz.
 
-## Deneyim ve üretim
+## Süleymanpaşa ve çevre ilçelerde tabela montajı
 
-Malt Studio tabela işlerini Tekirdağ üssünden planlar: ölçüye özel üretim, saha montajı ve sonraki servis aynı iletişim hattından yürür.
+Keşif ve montaj Tekirdağ Süleymanpaşa atölyesinden planlanır.
 
-Sertifika, şube sayısı veya uydurma proje metriği eklenmez. Kanıt proje sayfalarına gerçek görsellerle bağlanır.
+Adres, saat ve iletişim: [Malt Studio Tekirdağ atölye ve iletişim](https://maltstudio.co/bolgeler/tekirdag/) .
 
-## Fiyatı neler etkiler?
-
-Ölçü, malzeme, ışıklı/özel üretim, montaj yüksekliği, saha lojistiği ve adet fiyatı belirler.
-
-Sabit internet fiyat listesi yayınlanmaz; keşif sonrası net teklif verilir.
-
-Faktör eğitimi için /bilgi/tabela-fiyati/ rehberine bakabilirsiniz.
-
-## Süre ve planlama
-
-Tasarım onayı sonrası süre işin ölçeğine göre değişir.
-
-Acil işler operasyon kapasitesine göre değerlendirilir; garanti edilemeyen vaat verilmez.
-
-## Bakım ve sonrası
-
-Dış mekân tabelalarında periyodik temizlik ve bağlantı kontrolü ömrü uzatır.
-
-Solma, darbe veya yenileme ihtiyacı oluşursa mevcut montaj noktaları üzerinden revizyon planlanabilir.
-
-Garanti kapsamı teklifte yazılıdır; genel internet vaadi verilmez.
-
-## Uygulama notları
-
-Tabela işinde en sık hata, ölçü almadan katalog fiyatı istemektir. Cephe eğimi, bağlantı yüzeyi ve görüş mesafesi rakamı değiştirir.
-
-Işıksız tabela gece ihtiyacı yoksa doğru tercihtir; gece trafiği varsa Işıklı Tabela sayfasına geçmek gerekir. Bu ayrım ownership’i de korur.
-
-İç yön tabelası ile cephe tabelası aynı malzeme ailesinden gelse bile okunurluk ve dayanım kriterleri farklıdır.
-
-Yenileme işlerinde eski söküm, delik izleri ve boya rötuşu teklife ayrıca yansıyabilir; peşin ‘dahil’ varsayılmamalıdır.
-
-Kurumsal zincirlerde şablon standardı birim maliyeti düşürebilir; tek şube işinde ise ölçüye özel üretim öne çıkar.
-
-Kalite kontrolde hizalama, kenar bitiş ve montaj güvenliği teslim öncesi kontrol edilir; eksik varsa sahada konuşulur.
-
-Tekirdağ dışı koridor işlerinde lojistik süresi keşif notuna yazılır; ayrı city URL’si olmayan ilçeler operasyonel kapsamda kalır.
-
-Montaj yüksekliği arttıkça iskele veya vinç ihtiyacı doğabilir; bu kalem keşifte görünür.
-
-Marka kılavuzu yoksa sade, yüksek kontrastlı bir düzen önerilir; abartılı efektler okumayı bozabilir.
-
-Aynı cephede birden fazla tabela varsa ana kimlik ile destek yüzey ayrılır.
-
-Teslim sonrası ek tabela talepleri mevcut montaj noktaları üzerinden hızlanabilir.
-
-Tekirdağ’daki tabela işleri için yerel hizmet sayfamıza bakabilirsiniz.
-
-## Karar ve teslim özeti
-
-Tabela projesinde başarı; doğru yüzey, doğru mesaj hiyerarşisi ve güvenli montajın toplamıdır. Malt Studio bu üçlüyü Tekirdağ üssünden yönetir: keşif notları üretime, üretim sahaya bağlanır. Stok tabela yerine ölçüye özel imalat tercih edilir çünkü her cephe aynı aparat ve dayanım ihtiyacını taşımaz. Fiyat tarafında internet listesi yoktur; ölçü, malzeme, yükseklik ve lojistik keşif sonrası yazılı teklife döner. Bakımda periyodik temizlik ve bağlantı kontrolü yeterlidir; garanti kapsamı teklifte netleşir. Kanıt için proje sayfalarına gerçek fotoğraf eklenene kadar uydurma metrik yazılmaz. Yenileme işlerinde söküm ve yüzey rötuşu ayrıca konuşulur. Kurumsal zincirlerde şablon standardı hız kazandırabilir; tek noktada ise ölçüye özel çözüm öne çıkar. İç bilgilendirme ile dış cephe aynı brief’te karıştırılmaz. Montaj yüksekliği iskele veya vinç ihtiyacını doğurabilir. Teslimde hizalama ve kenar bitiş kontrol edilir.
-
-Keşif formunda ölçü, yüzey fotoğrafı, gece ihtiyacı ve erişim notları birlikte tutulur. Bu notlar hem atölyeyi hem montaj ekibini yönlendirir. Aynı markanın birden fazla şubesinde şablon kullanılacaksa tipik ölçü seti çıkarılır; yine de her cephe doğrulanır. Söküm gerektiren yenilemelerde eski bağlantı izleri ve boya durumu teklife yansıtılır. Acil tabela talepleri kapasiteye göre sıralanır. Üretim kalite kontrolünde ölçü sapması ve kenar bitiş kontrol edilir. Sahada su terazisi ve hizalama teslimin parçasıdır. Müşteri onayı olmadan görsel yayına alınmaz. Proje kanıtı geldikçe ilgili vaka URL’sine bağlanır.
-
-## Keşif kontrol listesi
-
-- Keşifte net ölçü alınmadan üretim veya bağlayıcı fiyat verilmez.
-- Yüzey fotoğrafı aparat ve delik planını görünür kılar.
-- Gece ihtiyacı varsa Işıklı Tabela sayfasına bilinçli geçiş yapılır.
-- Lightbox talebi retail kutu ise bu sayfada tutulmaz.
-- Montaj yüksekliği iskele veya vinç kalemini doğurabilir.
-- Yenilemede söküm ve yüzey rötuşu ayrıca konuşulur.
-- Site yönetimi kuralı varsa keşif notuna yazılır.
-- Vektörel marka dosyası kaliteyi yükseltir; yoksa sade alternatif önerilir.
-- İç bilgilendirme ile dış cephe brief’te ayrılır.
-- Lojistik süresi koridor işlerinde teklife yansır.
-- Bakım beklentisi garanti kapsamıyla birlikte netleştirilir.
-- Teklif satırları ölçü, malzeme, montaj ve lojistiği ayırır.
-- Onaylı görsel olmadan kesim/baskı başlamaz.
-- Teslimde hizalama ve kenar bitiş kontrol edilir.
-- Acil talepler kapasiteye göre sıralanır; tutulmayan süre vaadi yok.
-- Ek tabela ihtimali varsa montaj noktaları buna göre düşünülür.
-- Kanıt fotoğrafları proje sayfasına bağlanmak üzere planlanır.
-
-## Tekirdağ’da bu hizmet
-
-Tekirdağ’da tabela üretimi ve montajı için yerel sayfamız: /hizmet-bolge/tekirdag-tabela/.
-
-[WhatsApp ile Teklif](https://wa.me/905525826959?text=Merhaba%2C%20Tabela%20i%C3%A7in%20ke%C5%9Fif%20istiyorum.) [Teklif](https://maltstudio.co/#teklif) [Ara](tel:+905525826959)
+[WhatsApp ile Teklif](https://wa.me/905525826959?text=Merhaba%2C%20Tekirda%C4%9F%20Tabela%20%C4%B0malat%C4%B1%20ve%20Montaj%C4%B1%20i%C3%A7in%20ke%C5%9Fif%20istiyorum.) [Teklif](https://maltstudio.co/#teklif) [Ara](tel:+905525826959)
 
 ## İlgili hizmetler
 
@@ -194,22 +120,6 @@ Tekirdağ’da tabela üretimi ve montajı için yerel sayfamız: /hizmet-bolge/
 ###
 
 [RehberKarar vermenize yardımcı rehber.Bilgi](https://maltstudio.co/bilgi/tabela-fiyati/)
-
-## İlgili projeler
-
-###
-
-[Liman KahveTamamlanan proje örneği.Proje](https://maltstudio.co/projeler/liman-kahve/)
-
-###
-
-[Volt EnerjiTamamlanan proje örneği.Proje](https://maltstudio.co/projeler/volt-enerji/)
-
-###
-
-[DörtnalTamamlanan proje örneği.Proje](https://maltstudio.co/projeler/dortnal/)
-
-[Tüm projeler →](https://maltstudio.co/projeler/)
 
 ## İlgili sektörler
 

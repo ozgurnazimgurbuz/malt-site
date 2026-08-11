@@ -19,6 +19,147 @@
   to = "/images/icon-192.png"
   status = 301
 
+[[redirects]]
+  from = "/index.html"
+  to = "/"
+  status = 301
+
+# Service×city doorway URLs → service owner pages
+[[redirects]]
+  from = "/hizmet-bolge/tekirdag-tabela"
+  to = "/hizmetler/tabela/"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/hizmet-bolge/tekirdag-tabela/"
+  to = "/hizmetler/tabela/"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/hizmet-bolge/tekirdag-isikli-tabela"
+  to = "/hizmetler/isikli-tabela/"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/hizmet-bolge/tekirdag-isikli-tabela/"
+  to = "/hizmetler/isikli-tabela/"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/hizmet-bolge/tekirdag-kutu-harf"
+  to = "/hizmetler/kutu-harf/"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/hizmet-bolge/tekirdag-kutu-harf/"
+  to = "/hizmetler/kutu-harf/"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/hizmet-bolge/tekirdag-totem"
+  to = "/hizmetler/totem/"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/hizmet-bolge/tekirdag-totem/"
+  to = "/hizmetler/totem/"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/hizmet-bolge/tekirdag-arac-giydirme"
+  to = "/hizmetler/arac-giydirme/"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/hizmet-bolge/tekirdag-arac-giydirme/"
+  to = "/hizmetler/arac-giydirme/"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/hizmet-bolge/tekirdag-cam-giydirme"
+  to = "/hizmetler/cam-giydirme/"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/hizmet-bolge/tekirdag-cam-giydirme/"
+  to = "/hizmetler/cam-giydirme/"
+  status = 301
+  force = true
+
+# Placeholder case URLs — 410 Gone (not redirected to homepage)
+[[redirects]]
+  from = "/projeler/liman-kahve"
+  to = "/projeler/"
+  status = 410
+[[redirects]]
+  from = "/projeler/liman-kahve/"
+  to = "/projeler/"
+  status = 410
+[[redirects]]
+  from = "/projeler/liman-kahve/*"
+  to = "/projeler/"
+  status = 410
+[[redirects]]
+  from = "/projeler/volt-enerji"
+  to = "/projeler/"
+  status = 410
+[[redirects]]
+  from = "/projeler/volt-enerji/"
+  to = "/projeler/"
+  status = 410
+[[redirects]]
+  from = "/projeler/volt-enerji/*"
+  to = "/projeler/"
+  status = 410
+[[redirects]]
+  from = "/projeler/kuzey-tekstil"
+  to = "/projeler/"
+  status = 410
+[[redirects]]
+  from = "/projeler/kuzey-tekstil/"
+  to = "/projeler/"
+  status = 410
+[[redirects]]
+  from = "/projeler/kuzey-tekstil/*"
+  to = "/projeler/"
+  status = 410
+[[redirects]]
+  from = "/projeler/mera-otel"
+  to = "/projeler/"
+  status = 410
+[[redirects]]
+  from = "/projeler/mera-otel/"
+  to = "/projeler/"
+  status = 410
+[[redirects]]
+  from = "/projeler/mera-otel/*"
+  to = "/projeler/"
+  status = 410
+[[redirects]]
+  from = "/projeler/dortnal"
+  to = "/projeler/"
+  status = 410
+[[redirects]]
+  from = "/projeler/dortnal/"
+  to = "/projeler/"
+  status = 410
+[[redirects]]
+  from = "/projeler/dortnal/*"
+  to = "/projeler/"
+  status = 410
+[[redirects]]
+  from = "/projeler/ekip-yazilim"
+  to = "/projeler/"
+  status = 410
+[[redirects]]
+  from = "/projeler/ekip-yazilim/"
+  to = "/projeler/"
+  status = 410
+[[redirects]]
+  from = "/projeler/ekip-yazilim/*"
+  to = "/projeler/"
+  status = 410
+
 # Decap medya dosyaları içerik değişince aynı adı koruyabildiği için süresiz önbelleğe alınmaz.
 [[headers]]
   for = "/images/*"

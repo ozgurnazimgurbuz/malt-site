@@ -113,10 +113,6 @@ Malt Studio Tekirdağ merkezli çalışır. Bu rehber içeriği; atölye üretim
 
 [Işıklı TabelaIşıklı Tabela hizmeti.Hizmet](https://maltstudio.co/hizmetler/isikli-tabela/)
 
-###
-
-[Tekirdağ Işıklı TabelaTekirdağ’da ışıklı tabela hizmeti.Hizmet](https://maltstudio.co/hizmet-bolge/tekirdag-isikli-tabela/)
-
 ## İlgili rehberler
 
 ###
@@ -130,22 +126,6 @@ Malt Studio Tekirdağ merkezli çalışır. Bu rehber içeriği; atölye üretim
 ###
 
 [One Way Vision Nedir?İlgili rehber.Bilgi](https://maltstudio.co/bilgi/one-way-vision-nedir/)
-
-## İlgili projeler
-
-###
-
-[Liman KahveTamamlanan proje örneği.Proje](https://maltstudio.co/projeler/liman-kahve/)
-
-###
-
-[DörtnalTamamlanan proje örneği.Proje](https://maltstudio.co/projeler/dortnal/)
-
-###
-
-[Mera OtelTamamlanan proje örneği.Proje](https://maltstudio.co/projeler/mera-otel/)
-
-[Tüm projeler →](https://maltstudio.co/projeler/)
 
 ## İlgili sektörler
 

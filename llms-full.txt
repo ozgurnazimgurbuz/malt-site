@@ -2,9 +2,9 @@
 
 <!-- page: https://maltstudio.co/ -->
 
-# Malt Studio | Tekirdağ Reklam Ajansı
+# Tekirdağ Reklam Ajansı ve Tabela | Malt Studio
 
-> Tekirdağ reklam ajansı Malt Studio. Tabela üretimi, kurumsal kimlik, dijital baskı ve uygulama. Keşiften montaja Tekirdağ merkezli üretim.
+> Tekirdağ’da tabela, ışıklı tabela, kutu harf, dijital baskı ve araç giydirme. Keşif, tasarım, üretim ve montaj için Malt Studio’dan teklif alın.
 
 - Canonical HTML: https://maltstudio.co/
 - Markdown twin: https://maltstudio.co/index.html.md
@@ -14,13 +14,12 @@
 
 Malt Studio · Tekirdağ Reklam Ajansı
 
-# Markanızı sahada
-görünür kılarız.
+# Tekirdağ Reklam Ajansı ve Tabela Üreticisi
 
-Tabela üretimi, kurumsal kimlik, dijital baskı ve uygulama. Keşiften montaja Tekirdağ merkezli üretim.
+Tekirdağ’da tabela, ışıklı tabela, kutu harf, dijital baskı ve araç giydirme. Keşif, tasarım, üretim ve montaj.
 [Teklif Al](#teklif) [WhatsApp](https://wa.me/905525826959?text=Merhaba%2C%20teklif%20almak%20istiyorum.) Aşağı kaydır Teklif / Keşif
 
-## Projenizi konuşalım.
+## Teklif ve keşif
 [WhatsApp](https://wa.me/905525826959?text=Merhaba%2C%20teklif%20almak%20istiyorum.) [Ara](tel:+905525826959)
 - Yerinde Keşif
 - Tasarım
@@ -29,8 +28,7 @@ Tabela üretimi, kurumsal kimlik, dijital baskı ve uygulama. Keşiften montaja 
 - Tek Noktadan Hizmet
 Hizmetler
 
-## Çekirdek
-Hizmetler
+## Tekirdağ’da hangi reklam ve tabela hizmetlerini veriyoruz?
 
 Üretimden montaja, ihtiyacınıza uygun çözümler.
 
@@ -155,7 +153,7 @@ Tabela üretiminden montaja, ihtiyacınıza uygun hizmetler.
 
 Kararsızsanız [rehberleri](https://maltstudio.co/bilgi/)  okuyun veya WhatsApp ile kısa keşif isteyin.
 
-Tekirdağ’daki yerel hizmet sayfalarına aşağıdan ulaşabilirsiniz.
+Tekirdağ atölye ve iletişim için /bolgeler/tekirdag/ sayfasına bakın.
 
 ## Üretim, deneyim ve yerel uzmanlık
 
@@ -186,22 +184,6 @@ Malt Studio Tekirdağ merkezli çalışır. Bu hizmet hub içeriği; atölye ür
 ###
 
 [One Way Vision Nedir?Rehber.Bilgi](https://maltstudio.co/bilgi/one-way-vision-nedir/)
-
-## İlgili projeler
-
-###
-
-[Liman KahveTamamlanan proje örneği.Proje](https://maltstudio.co/projeler/liman-kahve/)
-
-###
-
-[DörtnalTamamlanan proje örneği.Proje](https://maltstudio.co/projeler/dortnal/)
-
-###
-
-[Volt EnerjiTamamlanan proje örneği.Proje](https://maltstudio.co/projeler/volt-enerji/)
-
-[Tüm projeler →](https://maltstudio.co/projeler/)
 
 ## İlgili sektörler
 
@@ -247,82 +229,56 @@ Malt Studio Tekirdağ merkezli çalışır. Bu hizmet hub içeriği; atölye ür
 
 [Ana sayfaMalt Studio ana sayfa.Keşif](https://maltstudio.co/)
 
-## Çekirdek hizmetler (A0)
+## Çekirdek hizmetler
 
 ###
 
-[TabelaÇekirdek hizmet.A0](https://maltstudio.co/hizmetler/tabela/)
+[TabelaTabela hizmeti.Hizmet](https://maltstudio.co/hizmetler/tabela/)
 
 ###
 
-[Işıklı TabelaÇekirdek hizmet.A0](https://maltstudio.co/hizmetler/isikli-tabela/)
+[Işıklı TabelaIşıklı Tabela hizmeti.Hizmet](https://maltstudio.co/hizmetler/isikli-tabela/)
 
 ###
 
-[Kutu HarfÇekirdek hizmet.A0](https://maltstudio.co/hizmetler/kutu-harf/)
+[Kutu HarfKutu Harf hizmeti.Hizmet](https://maltstudio.co/hizmetler/kutu-harf/)
 
 ###
 
-[TotemÇekirdek hizmet.A0](https://maltstudio.co/hizmetler/totem/)
+[TotemTotem hizmeti.Hizmet](https://maltstudio.co/hizmetler/totem/)
 
 ###
 
-[Araç GiydirmeÇekirdek hizmet.A0](https://maltstudio.co/hizmetler/arac-giydirme/)
+[Araç GiydirmeAraç Giydirme hizmeti.Hizmet](https://maltstudio.co/hizmetler/arac-giydirme/)
 
 ###
 
-[Cam GiydirmeÇekirdek hizmet.A0](https://maltstudio.co/hizmetler/cam-giydirme/)
+[Cam GiydirmeCam Giydirme hizmeti.Hizmet](https://maltstudio.co/hizmetler/cam-giydirme/)
 
 ## Ek hizmetler
 
 ###
 
-[LightboxA2 hizmet.A2](https://maltstudio.co/hizmetler/lightbox/)
+[LightboxLightbox hizmeti.Hizmet](https://maltstudio.co/hizmetler/lightbox/)
 
 ###
 
-[Display & POSA2 hizmet.A2](https://maltstudio.co/hizmetler/display-pos/)
+[Display & POSDisplay & POS hizmeti.Hizmet](https://maltstudio.co/hizmetler/display-pos/)
 
 ###
 
-[Ofis BrandingA2 hizmet.A2](https://maltstudio.co/hizmetler/ofis-branding/)
+[Ofis BrandingOfis Branding hizmeti.Hizmet](https://maltstudio.co/hizmetler/ofis-branding/)
 
 ###
 
-[İş Güvenliği TabelalarıA2 hizmet.A2](https://maltstudio.co/hizmetler/is-guvenligi-tabelalari/)
-
-## Tekirdağ yerel sayfalar
-
-###
-
-[Tekirdağ TabelaTekirdağ’da tabela üretimi ve montajı.Yerel](https://maltstudio.co/hizmet-bolge/tekirdag-tabela/)
-
-###
-
-[Tekirdağ Işıklı TabelaTekirdağ’da ışıklı tabela hizmeti.Yerel](https://maltstudio.co/hizmet-bolge/tekirdag-isikli-tabela/)
-
-###
-
-[Tekirdağ Kutu HarfTekirdağ’da kutu harf üretimi.Yerel](https://maltstudio.co/hizmet-bolge/tekirdag-kutu-harf/)
-
-###
-
-[Tekirdağ TotemTekirdağ’da totem tabela uygulamaları.Yerel](https://maltstudio.co/hizmet-bolge/tekirdag-totem/)
-
-###
-
-[Tekirdağ Araç GiydirmeTekirdağ’da araç giydirme hizmeti.Yerel](https://maltstudio.co/hizmet-bolge/tekirdag-arac-giydirme/)
-
-###
-
-[Tekirdağ Cam GiydirmeTekirdağ’da cam giydirme uygulamaları.Yerel](https://maltstudio.co/hizmet-bolge/tekirdag-cam-giydirme/)
+[İş Güvenliği Tabelalarıİş Güvenliği Tabelaları hizmeti.Hizmet](https://maltstudio.co/hizmetler/is-guvenligi-tabelalari/)
 
 
 <!-- page: https://maltstudio.co/bolgeler/tekirdag/ -->
 
-# Tekirdağ Reklam ve Tabela | Yerel Hizmet Rehberi
+# Malt Studio Tekirdağ Atölye ve İletişim
 
-> Tekirdağ reklam firması ve tabela üreticisi Malt Studio. Yerel hizmetler ve iletişim.
+> Malt Studio’nun Tekirdağ Süleymanpaşa iletişim, çalışma saatleri, hizmet alanları ve keşif bilgileri. Telefon, WhatsApp ve yol tarifi.
 
 - Canonical HTML: https://maltstudio.co/bolgeler/tekirdag/
 - Markdown twin: https://maltstudio.co/bolgeler/tekirdag/index.html.md
@@ -330,59 +286,44 @@ Malt Studio Tekirdağ merkezli çalışır. Bu hizmet hub içeriği; atölye ür
 
 ---
 
-Tekirdağ Yerel Rehber
+Atölye
 
-# Tekirdağ Reklam Ajansı & Üretici
+# Malt Studio Tekirdağ Atölye ve İletişim
 
-Tekirdağ’da üreten ve uygulayan ekip. Yerel hizmetler, keşif ve montaj buradan planlanır.
+Adres, telefon, e-posta ve keşif bilgisi. Bu sayfa ikinci bir reklam ajansı landing’i değildir.
 [WhatsApp ile Teklif](https://wa.me/905525826959?text=Tekirda%C4%9F%20ke%C5%9Fif) [Teklif](https://maltstudio.co/#teklif) [Ara](tel:+905525826959) [Hizmetler](https://maltstudio.co/hizmetler/)
 
-## Tekirdağ’da ne sunuyoruz?
+## İletişim
 
-Malt Studio; tabela, ışıklı tabela, kutu harf, totem, araç giydirme, cam giydirme ile lightbox, display/POS, ofis branding ve iş güvenliği tabelaları üretir.
+**Adres:** Yavuz Mahallesi, Ruşen Güneş Sokak, D Blok No:2
+59100 Süleymanpaşa / Tekirdağ
+Türkiye
 
-Merkez Tekirdağ’dır. Süleymanpaşa ve merkez talepleri bu sayfa ile ilgili yerel hizmet sayfalarında toplanır.
+**Telefon:**[+90 552 582 69 59](tel:+905525826959)
 
-Sanayi koridoru (Çorlu, Çerkezköy, Kapaklı, Ergene) talepleri Tekirdağ üssünden planlanır.
+**E-posta:**[merhaba@maltstudio.co](mailto:merhaba@maltstudio.co)
 
-Yerel güven için proje sayfaları ve saha görselleri kritiktir. Görseller onaylandıkça proje URL’lerine eklenir.
+**Çalışma saatleri:** Pazartesi–Cumartesi 09:00–19:00
 
-## Yerel nasıl çalışırız?
+WhatsApp veya telefon ile keşif randevusu alınır.
 
-Keşif randevusu → ölçü → tasarım onayı → atölye üretimi → saha montajı.
+## Ulaşım
 
-Mağaza, plaza, fabrika ve ofis işlerinde montaj penceresi işletmeye göre ayarlanır.
+Atölye Süleymanpaşa / Tekirdağ’dadır. Keşif randevusu sonrası ölçü ve montaj planı çıkarılır.
 
-Acil montaj/tamir talepleri kapasiteye göre değerlendirilir; tutulmayan süre vaadi verilmez.
+Yol tarifi için Google Haritalar’da Malt Studio veya adresi arayın.
 
-## Üretim, deneyim ve yerel uzmanlık
+## Hizmet bölgeleri
 
-Malt Studio Tekirdağ merkezli çalışır. Bu şehir içeriği; atölye üretimi, saha keşfi ve montajın aynı operasyonel hatta planlandığı gerçek iş modeline dayanır. Şube sayısı, uydurma sertifika, sahte yorum veya proje metriği eklenmez.
+Süleymanpaşa ve Tekirdağ merkez başta olmak üzere çevre ilçelere keşif ve montaj planlanır.
 
-- **Deneyim:** Keşif notları (ölçü, yüzey, erişim, işletme saati) teklif ve üretimi şekillendirir.
-- **Üretim:** Ölçüye özel imalat; stok tabela mantığı yerine yüzeye ve markaya göre üretim.
-- **Kalite süreci:** Atölye kontrolü → saha hizalama/sabitleme → teslim kontrolü.
-- **Yerel uzmanlık:** Tekirdağ üssünden merkez ve çevre ilçe işleri planlanır; Süleymanpaşa dahil merkez ve çevre ilçelere hizmet verilir.
-- **Kanıt:** Gerçek fotoğraflar proje sayfalarına bağlanır; stok görsel kullanılmaz.
+Çorlu, Çerkezköy, Kapaklı, Ergene, Muratlı ve diğer ilçe işleri aynı atölyeden yönetilir.
 
-## Süleymanpaşa ve merkez
+## Gerçek işler
 
-Süleymanpaşa için ayrı bir sayfa ağacı açılmaz.
+Ana sayfadaki [seçili işler](https://maltstudio.co/#isler)  gerçek saha fotoğraflarıdır.
 
-Merkez ve Süleymanpaşa talepleri Tekirdağ hizmet sayfalarında toplanır.
-
-## Yerel talep senaryoları
-
-- Çarşı / mağaza: tabela + ışıklı + cam giydirme
-- OSB / fabrika: totem + tabela + İSG + filo
-- Plaza / ofis: kutu harf + ofis branding
-- Perakende açılış: ışıklı + vitrin paketi
-
-## İletişim ve keşif
-
-WhatsApp veya telefon ile kısa brief bırakın; uygunsa keşif planlanır.
-
-Tekirdağ’daki spesifik hizmetler için aşağıdaki yerel sayfalara bakın.
+Hizmet sayfaları: [tabela](https://maltstudio.co/hizmetler/tabela/) , [ışıklı tabela](https://maltstudio.co/hizmetler/isikli-tabela/) , [kutu harf](https://maltstudio.co/hizmetler/kutu-harf/) .
 
 [WhatsApp ile Teklif](https://wa.me/905525826959?text=Tekirda%C4%9F%20ke%C5%9Fif) [Teklif](https://maltstudio.co/#teklif) [Ara](tel:+905525826959)
 
@@ -430,34 +371,6 @@ Tekirdağ’daki spesifik hizmetler için aşağıdaki yerel sayfalara bakın.
 
 [One Way Vision Nedir?Rehber.Bilgi](https://maltstudio.co/bilgi/one-way-vision-nedir/)
 
-## İlgili projeler
-
-###
-
-[Liman KahveTamamlanan proje örneği.Proje](https://maltstudio.co/projeler/liman-kahve/)
-
-###
-
-[Volt EnerjiTamamlanan proje örneği.Proje](https://maltstudio.co/projeler/volt-enerji/)
-
-###
-
-[DörtnalTamamlanan proje örneği.Proje](https://maltstudio.co/projeler/dortnal/)
-
-###
-
-[Mera OtelTamamlanan proje örneği.Proje](https://maltstudio.co/projeler/mera-otel/)
-
-###
-
-[Ekip YazılımTamamlanan proje örneği.Proje](https://maltstudio.co/projeler/ekip-yazilim/)
-
-###
-
-[Kuzey TekstilTamamlanan proje örneği.Proje](https://maltstudio.co/projeler/kuzey-tekstil/)
-
-[Tüm projeler →](https://maltstudio.co/projeler/)
-
 ## İlgili sektörler
 
 ###
@@ -502,35 +415,7 @@ Tekirdağ’daki spesifik hizmetler için aşağıdaki yerel sayfalara bakın.
 
 [Ana sayfaMalt Studio ana sayfa.Keşif](https://maltstudio.co/)
 
-## Tekirdağ yerel hizmetler
-
-Tekirdağ’da sunduğumuz başlıca hizmetler.
-
-###
-
-[Tekirdağ TabelaTekirdağ’da tabela üretimi ve montajı.Yerel](https://maltstudio.co/hizmet-bolge/tekirdag-tabela/)
-
-###
-
-[Tekirdağ Işıklı TabelaTekirdağ’da ışıklı tabela hizmeti.Yerel](https://maltstudio.co/hizmet-bolge/tekirdag-isikli-tabela/)
-
-###
-
-[Tekirdağ Kutu HarfTekirdağ’da kutu harf üretimi.Yerel](https://maltstudio.co/hizmet-bolge/tekirdag-kutu-harf/)
-
-###
-
-[Tekirdağ TotemTekirdağ’da totem tabela uygulamaları.Yerel](https://maltstudio.co/hizmet-bolge/tekirdag-totem/)
-
-###
-
-[Tekirdağ Araç GiydirmeTekirdağ’da araç giydirme hizmeti.Yerel](https://maltstudio.co/hizmet-bolge/tekirdag-arac-giydirme/)
-
-###
-
-[Tekirdağ Cam GiydirmeTekirdağ’da cam giydirme uygulamaları.Yerel](https://maltstudio.co/hizmet-bolge/tekirdag-cam-giydirme/)
-
-## Tüm hizmetler
+## Hizmetler
 
 ###
 
@@ -556,55 +441,19 @@ Tekirdağ’da sunduğumuz başlıca hizmetler.
 
 [Cam GiydirmeCam Giydirme hizmeti.Hizmet](https://maltstudio.co/hizmetler/cam-giydirme/)
 
-###
-
-[LightboxLightbox hizmeti.Hizmet](https://maltstudio.co/hizmetler/lightbox/)
-
-###
-
-[Display & POSDisplay & POS hizmeti.Hizmet](https://maltstudio.co/hizmetler/display-pos/)
-
-###
-
-[Ofis BrandingOfis Branding hizmeti.Hizmet](https://maltstudio.co/hizmetler/ofis-branding/)
-
-###
-
-[İş Güvenliği Tabelalarıİş Güvenliği Tabelaları hizmeti.Hizmet](https://maltstudio.co/hizmetler/is-guvenligi-tabelalari/)
-
-## Sektörler ve bilgi
-
-###
-
-[SektörlerFabrika, restoran, sağlık…A1](https://maltstudio.co/sektorler/)
-
-###
-
-[BilgiRehberler ve karşılaştırmalar.A1](https://maltstudio.co/bilgi/)
-
-###
-
-[ProjelerVaka kanıtı.A1](https://maltstudio.co/projeler/)
-
 ## Sık sorulan sorular
-Tekirdağ’da tabela / reklam firması mısınız?
+Atölye nerede?
 
-Evet. Malt Studio Tekirdağ merkezlidir.
-Süleymanpaşa sayfası?
+Yavuz Mahallesi, Ruşen Güneş Sokak, D Blok No:2, 59100 Süleymanpaşa / Tekirdağ, Türkiye.
+Çalışma saatleri?
 
-Ayrı sayfa yok; Süleymanpaşa talepleri Tekirdağ sayfalarında toplanır.
-Çorlu / Çerkezköy?
+Pazartesi–Cumartesi 09:00–19:00.
+Süleymanpaşa ayrı sayfa mı?
 
-Evet; keşif ve montaj Tekirdağ üssünden planlanır.
-Hangi hizmetler?
+Hayır; Süleymanpaşa talepleri bu atölye sayfasında toplanır.
+Keşif nasıl alınır?
 
-Tabela, ışıklı tabela, kutu harf ve diğer tüm hizmetlerimize bakın.
-Proje var mı?
-
-/projeler/ altında vaka sayfaları vardır.
-Keşif?
-
-WhatsApp veya telefon ile randevu.
+WhatsApp veya telefon ile kısa brief bırakın.
 
 
 <!-- page: https://maltstudio.co/projeler/ -->
@@ -626,11 +475,9 @@ Tamamladığımız işlerden örnekler. Görseller geldikçe güncellenir.
 
 ## Neden proje sayfaları?
 
-Google ve kullanıcılar gerçek iş ister. Proje sayfaları benzersiz kanıttır.
+Gerçek saha fotoğrafları ana sayfada yer alır.
 
-Görseller onaylandıkça proje sayfaları güncellenecek.
-
-Hub indexlenebilir; listelemeyi ve iç link akışını taşır.
+Ayrı proje URL’si yalnızca içerik hazır olduğunda açılır.
 
 ## Üretim, deneyim ve yerel uzmanlık
 
@@ -828,22 +675,6 @@ Malt Studio Tekirdağ merkezli çalışır. Bu sektör hub içeriği; atölye ü
 
 [Kutu Harf Malzemeleri: Pleksi mi Paslanmaz mı?Rehber.Bilgi](https://maltstudio.co/bilgi/kutu-harf-malzemeler/)
 
-## İlgili projeler
-
-###
-
-[Liman KahveTamamlanan proje örneği.Proje](https://maltstudio.co/projeler/liman-kahve/)
-
-###
-
-[Volt EnerjiTamamlanan proje örneği.Proje](https://maltstudio.co/projeler/volt-enerji/)
-
-###
-
-[DörtnalTamamlanan proje örneği.Proje](https://maltstudio.co/projeler/dortnal/)
-
-[Tüm projeler →](https://maltstudio.co/projeler/)
-
 ## Keşfet
 
 ###
@@ -885,7 +716,7 @@ Malt Studio Tekirdağ merkezli çalışır. Bu sektör hub içeriği; atölye ü
 
 # Bilgi
 
-Eğitici katman. Hizmet sayfalarını destekler; onların H1’ini çalmaz.
+Tabela, malzeme ve süreç hakkında kısa rehberler.
 [WhatsApp ile Teklif](https://wa.me/905525826959?text=Bilgi%20sonras%C4%B1%20teklif) [Teklif](https://maltstudio.co/#teklif)
 
 ## Nasıl okumalı?
@@ -908,31 +739,31 @@ Malt Studio Tekirdağ merkezli çalışır. Bu rehber hub içeriği; atölye ür
 
 ###
 
-[Tabela Çeşitleri: Hangisi Ne İşe Yarar?PK: tabela çeşitleriRehber](https://maltstudio.co/bilgi/tabela-cesitleri/)
+[Tabela Çeşitleri: Hangisi Ne İşe Yarar?İlgili sayfa.Rehber](https://maltstudio.co/bilgi/tabela-cesitleri/)
 
 ###
 
-[Işıklı Tabela mı Işıksız mı?PK: ışıklı mı ışıksız mıRehber](https://maltstudio.co/bilgi/isikli-mi-isiksiz-mi/)
+[Işıklı Tabela mı Işıksız mı?İlgili sayfa.Rehber](https://maltstudio.co/bilgi/isikli-mi-isiksiz-mi/)
 
 ###
 
-[Kutu Harf Malzemeleri: Pleksi mi Paslanmaz mı?PK: kutu harf malzemeleriRehber](https://maltstudio.co/bilgi/kutu-harf-malzemeler/)
+[Kutu Harf Malzemeleri: Pleksi mi Paslanmaz mı?İlgili sayfa.Rehber](https://maltstudio.co/bilgi/kutu-harf-malzemeler/)
 
 ###
 
-[One Way Vision Nedir?PK: one way vision nedirRehber](https://maltstudio.co/bilgi/one-way-vision-nedir/)
+[One Way Vision Nedir?Vitrin folyo mantığı.Rehber](https://maltstudio.co/bilgi/one-way-vision-nedir/)
 
 ###
 
-[Araç Giydirme Rehberi: Süreç, Ömür, FiloPK: araç giydirme süreciRehber](https://maltstudio.co/bilgi/arac-giydirme-rehberi/)
+[Araç Giydirme Rehberi: Süreç, Ömür, Filoİlgili sayfa.Rehber](https://maltstudio.co/bilgi/arac-giydirme-rehberi/)
 
 ###
 
-[Tabela Fiyatını Neler Etkiler?PK: tabela fiyatını neler etkilerRehber](https://maltstudio.co/bilgi/tabela-fiyati/)
+[Tabela Fiyatını Neler Etkiler?Fiyatı etkileyen faktörler.Rehber](https://maltstudio.co/bilgi/tabela-fiyati/)
 
 ###
 
-[Totem Tabela Seçim RehberiPK: totem tabela nasıl seçilirRehber](https://maltstudio.co/bilgi/totem-secim-rehberi/)
+[Totem Tabela Seçim Rehberiİlgili sayfa.Rehber](https://maltstudio.co/bilgi/totem-secim-rehberi/)
 
 ## İlgili hizmetler
 
@@ -959,22 +790,6 @@ Malt Studio Tekirdağ merkezli çalışır. Bu rehber hub içeriği; atölye ür
 ###
 
 [Cam GiydirmeCam Giydirme hizmeti.Hizmet](https://maltstudio.co/hizmetler/cam-giydirme/)
-
-## İlgili projeler
-
-###
-
-[Liman KahveTamamlanan proje örneği.Proje](https://maltstudio.co/projeler/liman-kahve/)
-
-###
-
-[Mera OtelTamamlanan proje örneği.Proje](https://maltstudio.co/projeler/mera-otel/)
-
-###
-
-[DörtnalTamamlanan proje örneği.Proje](https://maltstudio.co/projeler/dortnal/)
-
-[Tüm projeler →](https://maltstudio.co/projeler/)
 
 ## İlgili sektörler
 
@@ -1023,9 +838,9 @@ Malt Studio Tekirdağ merkezli çalışır. Bu rehber hub içeriği; atölye ür
 
 <!-- page: https://maltstudio.co/hizmetler/tabela/ -->
 
-# Tabela | Üretim, Montaj ve Reklam Tabelası
+# Tekirdağ Tabela İmalatı ve Montajı | Malt Studio
 
-> Tabela üretimi ve montajı. Dış-iç mekan, mağaza ve tesis tabelaları. Tekirdağ merkezli Malt Studio.
+> Tekirdağ tabela üretimi: ışıklı ve ışıksız tabela, kutu harf, kompozit cephe ve mağaza tabelası. Keşif, imalat ve montaj için teklif alın.
 
 - Canonical HTML: https://maltstudio.co/hizmetler/tabela/
 - Markdown twin: https://maltstudio.co/hizmetler/tabela/index.html.md
@@ -1035,12 +850,12 @@ Malt Studio Tekirdağ merkezli çalışır. Bu rehber hub içeriği; atölye ür
 
 Hizmet
 
-# Tabela
+# Tekirdağ Tabela İmalatı ve Montajı
 
 Ölçüye özel tabela üretimi: doğru malzeme, okunur tasarım ve güvenli montaj.
-[Teklif Al](https://wa.me/905525826959?text=Merhaba%2C%20Tabela%20hakk%C4%B1nda%20teklif%20almak%20istiyorum.) [WhatsApp](https://wa.me/905525826959?text=Merhaba%2C%20Tabela%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum.) [Telefon · 0552 582 69 59](tel:+905525826959)
+[Teklif Al](https://wa.me/905525826959?text=Merhaba%2C%20Tekirda%C4%9F%20Tabela%20%C4%B0malat%C4%B1%20ve%20Montaj%C4%B1%20hakk%C4%B1nda%20teklif%20almak%20istiyorum.) [WhatsApp](https://wa.me/905525826959?text=Merhaba%2C%20Tekirda%C4%9F%20Tabela%20%C4%B0malat%C4%B1%20ve%20Montaj%C4%B1%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum.) [Telefon](tel:+905525826959)
 
-## Bu hizmet nedir?
+## Tekirdağ’da ürettiğimiz tabela çeşitleri
 
 Tabela, markanın sokaktaki ve tesis girişindeki kalıcı imzasıdır. Doğru tabela; mesafeden okunur, malzemesi sahaya uygundur ve montajı uzun ömürlü planlanır.
 
@@ -1054,23 +869,13 @@ Tabela seçimi; mesajın kim tarafından, hangi mesafeden ve hangi ışık koşu
 
 Bu sayfada genel tabela hizmetini anlatıyoruz: ışıksız/ışığa hazır paneller, cephe kimliği ve iç bilgilendirme yüzeyleri. LED cephe sistemleri için Işıklı Tabela, ışıklı kutu için Lightbox ayrıdır.
 
-## Nerelerde kullanılır?
-
 - Mağaza ve dükkan cepheleri
 - Plaza / ofis girişleri
 - Fabrika ve depo
 - Kurumsal tesis kimliği
 - İç mekan bilgilendirme
 
-Mağaza ve dükkân cephelerinde ilk okunan yüzey çoğu zaman tabeladır.
-
-Plaza ve ofis girişlerinde sade, kurumsal bir panel yön ve kimlik taşır.
-
-Fabrika/depo sahasında dayanımlı dış mekân tabelaları yön ve tesis adını sabitler.
-
-İç mekânda oda, kat veya birim bilgilendirmesi için daha ince malzeme setleri tercih edilebilir.
-
-## Malzeme ve seçenekler
+## Işıklı, ışıksız, kutu harf veya kompozit: hangisi?
 
 Kompozit panel, forex/PVC, vinil baskı, ışıklı/ışıksız kasa seçenekleri. Malzeme; konum, dayanım ve bütçeye göre seçilir.
 
@@ -1080,15 +885,29 @@ Vinil baskı kampanya veya yenilenebilir mesajlarda; sabit kurumsal yazılarda k
 
 Montaj yüzeyi (kompozit, beton, cam, sandwich panel) aparat ve delik planını belirler — keşif notu olmadan net teklif çıkmaz.
 
-## Süreç
+Gece görünürlük için [ışıklı tabela seçenekleri](https://maltstudio.co/hizmetler/isikli-tabela/) , cephe yazısı için [kutu harf tabela](https://maltstudio.co/hizmetler/kutu-harf/) , yol/tesis için [totem tabela üretimi](https://maltstudio.co/hizmetler/totem/) .
+
+## Gerçek Tekirdağ tabela projeleri
+
+Seçili işler ana sayfada yer alır: [gerçek Tekirdağ tabela ve uygulama projeleri](https://maltstudio.co/#isler) .
+
+Liste: [projeler](https://maltstudio.co/projeler/) .
+
+## Tabela fiyatını belirleyen ölçü, malzeme ve montaj koşulları
+
+Ölçü, malzeme, ışıklı/özel üretim, montaj yüksekliği, saha lojistiği ve adet fiyatı belirler.
+
+Sabit internet fiyat listesi yayınlanmaz; keşif sonrası net teklif verilir.
+
+Ayrıntı: [tabela fiyatını neler etkiler](https://maltstudio.co/bilgi/tabela-fiyati/) .
+
+## Keşiften montaja çalışma sürecimiz
 
 1. **Keşif:** Ölçü, yüzey, erişim ve ihtiyaç netleştirilir.
 2. **Tasarım onayı:** Görsel ve teknik onay alınır.
 3. **Üretim:** Atölyede imalat ve kontrol.
 4. **Uygulama:** Saha montajı / giydirme.
 5. **Teslim:** Kontrol ve teslim notları.
-
-## Süreç notları
 
 Keşifte ölçü, erişim, rüzgâr/yükseklik ve varsa site yönetimi kuralları yazılır.
 
@@ -1106,91 +925,13 @@ Malt Studio Tekirdağ merkezli çalışır. Bu hizmet içeriği; atölye üretim
 - **Yerel uzmanlık:** Tekirdağ üssünden merkez ve çevre ilçe işleri planlanır; Süleymanpaşa dahil merkez ve çevre ilçelere hizmet verilir.
 - **Kanıt:** Gerçek fotoğraflar proje sayfalarına bağlanır; stok görsel kullanılmaz.
 
-## Deneyim ve üretim
+## Süleymanpaşa ve çevre ilçelerde tabela montajı
 
-Malt Studio tabela işlerini Tekirdağ üssünden planlar: ölçüye özel üretim, saha montajı ve sonraki servis aynı iletişim hattından yürür.
+Keşif ve montaj Tekirdağ Süleymanpaşa atölyesinden planlanır.
 
-Sertifika, şube sayısı veya uydurma proje metriği eklenmez. Kanıt proje sayfalarına gerçek görsellerle bağlanır.
+Adres, saat ve iletişim: [Malt Studio Tekirdağ atölye ve iletişim](https://maltstudio.co/bolgeler/tekirdag/) .
 
-## Fiyatı neler etkiler?
-
-Ölçü, malzeme, ışıklı/özel üretim, montaj yüksekliği, saha lojistiği ve adet fiyatı belirler.
-
-Sabit internet fiyat listesi yayınlanmaz; keşif sonrası net teklif verilir.
-
-Faktör eğitimi için /bilgi/tabela-fiyati/ rehberine bakabilirsiniz.
-
-## Süre ve planlama
-
-Tasarım onayı sonrası süre işin ölçeğine göre değişir.
-
-Acil işler operasyon kapasitesine göre değerlendirilir; garanti edilemeyen vaat verilmez.
-
-## Bakım ve sonrası
-
-Dış mekân tabelalarında periyodik temizlik ve bağlantı kontrolü ömrü uzatır.
-
-Solma, darbe veya yenileme ihtiyacı oluşursa mevcut montaj noktaları üzerinden revizyon planlanabilir.
-
-Garanti kapsamı teklifte yazılıdır; genel internet vaadi verilmez.
-
-## Uygulama notları
-
-Tabela işinde en sık hata, ölçü almadan katalog fiyatı istemektir. Cephe eğimi, bağlantı yüzeyi ve görüş mesafesi rakamı değiştirir.
-
-Işıksız tabela gece ihtiyacı yoksa doğru tercihtir; gece trafiği varsa Işıklı Tabela sayfasına geçmek gerekir. Bu ayrım ownership’i de korur.
-
-İç yön tabelası ile cephe tabelası aynı malzeme ailesinden gelse bile okunurluk ve dayanım kriterleri farklıdır.
-
-Yenileme işlerinde eski söküm, delik izleri ve boya rötuşu teklife ayrıca yansıyabilir; peşin ‘dahil’ varsayılmamalıdır.
-
-Kurumsal zincirlerde şablon standardı birim maliyeti düşürebilir; tek şube işinde ise ölçüye özel üretim öne çıkar.
-
-Kalite kontrolde hizalama, kenar bitiş ve montaj güvenliği teslim öncesi kontrol edilir; eksik varsa sahada konuşulur.
-
-Tekirdağ dışı koridor işlerinde lojistik süresi keşif notuna yazılır; ayrı city URL’si olmayan ilçeler operasyonel kapsamda kalır.
-
-Montaj yüksekliği arttıkça iskele veya vinç ihtiyacı doğabilir; bu kalem keşifte görünür.
-
-Marka kılavuzu yoksa sade, yüksek kontrastlı bir düzen önerilir; abartılı efektler okumayı bozabilir.
-
-Aynı cephede birden fazla tabela varsa ana kimlik ile destek yüzey ayrılır.
-
-Teslim sonrası ek tabela talepleri mevcut montaj noktaları üzerinden hızlanabilir.
-
-Tekirdağ’daki tabela işleri için yerel hizmet sayfamıza bakabilirsiniz.
-
-## Karar ve teslim özeti
-
-Tabela projesinde başarı; doğru yüzey, doğru mesaj hiyerarşisi ve güvenli montajın toplamıdır. Malt Studio bu üçlüyü Tekirdağ üssünden yönetir: keşif notları üretime, üretim sahaya bağlanır. Stok tabela yerine ölçüye özel imalat tercih edilir çünkü her cephe aynı aparat ve dayanım ihtiyacını taşımaz. Fiyat tarafında internet listesi yoktur; ölçü, malzeme, yükseklik ve lojistik keşif sonrası yazılı teklife döner. Bakımda periyodik temizlik ve bağlantı kontrolü yeterlidir; garanti kapsamı teklifte netleşir. Kanıt için proje sayfalarına gerçek fotoğraf eklenene kadar uydurma metrik yazılmaz. Yenileme işlerinde söküm ve yüzey rötuşu ayrıca konuşulur. Kurumsal zincirlerde şablon standardı hız kazandırabilir; tek noktada ise ölçüye özel çözüm öne çıkar. İç bilgilendirme ile dış cephe aynı brief’te karıştırılmaz. Montaj yüksekliği iskele veya vinç ihtiyacını doğurabilir. Teslimde hizalama ve kenar bitiş kontrol edilir.
-
-Keşif formunda ölçü, yüzey fotoğrafı, gece ihtiyacı ve erişim notları birlikte tutulur. Bu notlar hem atölyeyi hem montaj ekibini yönlendirir. Aynı markanın birden fazla şubesinde şablon kullanılacaksa tipik ölçü seti çıkarılır; yine de her cephe doğrulanır. Söküm gerektiren yenilemelerde eski bağlantı izleri ve boya durumu teklife yansıtılır. Acil tabela talepleri kapasiteye göre sıralanır. Üretim kalite kontrolünde ölçü sapması ve kenar bitiş kontrol edilir. Sahada su terazisi ve hizalama teslimin parçasıdır. Müşteri onayı olmadan görsel yayına alınmaz. Proje kanıtı geldikçe ilgili vaka URL’sine bağlanır.
-
-## Keşif kontrol listesi
-
-- Keşifte net ölçü alınmadan üretim veya bağlayıcı fiyat verilmez.
-- Yüzey fotoğrafı aparat ve delik planını görünür kılar.
-- Gece ihtiyacı varsa Işıklı Tabela sayfasına bilinçli geçiş yapılır.
-- Lightbox talebi retail kutu ise bu sayfada tutulmaz.
-- Montaj yüksekliği iskele veya vinç kalemini doğurabilir.
-- Yenilemede söküm ve yüzey rötuşu ayrıca konuşulur.
-- Site yönetimi kuralı varsa keşif notuna yazılır.
-- Vektörel marka dosyası kaliteyi yükseltir; yoksa sade alternatif önerilir.
-- İç bilgilendirme ile dış cephe brief’te ayrılır.
-- Lojistik süresi koridor işlerinde teklife yansır.
-- Bakım beklentisi garanti kapsamıyla birlikte netleştirilir.
-- Teklif satırları ölçü, malzeme, montaj ve lojistiği ayırır.
-- Onaylı görsel olmadan kesim/baskı başlamaz.
-- Teslimde hizalama ve kenar bitiş kontrol edilir.
-- Acil talepler kapasiteye göre sıralanır; tutulmayan süre vaadi yok.
-- Ek tabela ihtimali varsa montaj noktaları buna göre düşünülür.
-- Kanıt fotoğrafları proje sayfasına bağlanmak üzere planlanır.
-
-## Tekirdağ’da bu hizmet
-
-Tekirdağ’da tabela üretimi ve montajı için yerel sayfamız: /hizmet-bolge/tekirdag-tabela/.
-
-[WhatsApp ile Teklif](https://wa.me/905525826959?text=Merhaba%2C%20Tabela%20i%C3%A7in%20ke%C5%9Fif%20istiyorum.) [Teklif](https://maltstudio.co/#teklif) [Ara](tel:+905525826959)
+[WhatsApp ile Teklif](https://wa.me/905525826959?text=Merhaba%2C%20Tekirda%C4%9F%20Tabela%20%C4%B0malat%C4%B1%20ve%20Montaj%C4%B1%20i%C3%A7in%20ke%C5%9Fif%20istiyorum.) [Teklif](https://maltstudio.co/#teklif) [Ara](tel:+905525826959)
 
 ## İlgili hizmetler
 
@@ -1219,22 +960,6 @@ Tekirdağ’da tabela üretimi ve montajı için yerel sayfamız: /hizmet-bolge/
 ###
 
 [RehberKarar vermenize yardımcı rehber.Bilgi](https://maltstudio.co/bilgi/tabela-fiyati/)
-
-## İlgili projeler
-
-###
-
-[Liman KahveTamamlanan proje örneği.Proje](https://maltstudio.co/projeler/liman-kahve/)
-
-###
-
-[Volt EnerjiTamamlanan proje örneği.Proje](https://maltstudio.co/projeler/volt-enerji/)
-
-###
-
-[DörtnalTamamlanan proje örneği.Proje](https://maltstudio.co/projeler/dortnal/)
-
-[Tüm projeler →](https://maltstudio.co/projeler/)
 
 ## İlgili sektörler
 
@@ -1303,223 +1028,11 @@ Garanti?
 Malzeme ve işçilik kapsamı teklifte yazılı netleştirilir.
 
 
-<!-- page: https://maltstudio.co/hizmet-bolge/tekirdag-tabela/ -->
-
-# Tekirdağ Tabela | Yerel Üretim ve Montaj
-
-> Tekirdağ tabela üretimi ve montajı. Tabela üretimi ve montajı. Dış-iç mekan, mağaza ve tesis tabelaları. Tekirdağ merkezli Malt Studio.
-
-- Canonical HTML: https://maltstudio.co/hizmet-bolge/tekirdag-tabela/
-- Markdown twin: https://maltstudio.co/hizmet-bolge/tekirdag-tabela/index.html.md
-- Site: https://maltstudio.co/
-
----
-
-Tekirdağ’da Hizmet
-
-# Tekirdağ Tabela
-
-Tekirdağ merkez ve Süleymanpaşa çarşı aksında mağaza tabela talepleri yoğundur. OSB koridoruna giden işler Tekirdağ üssünden planlanır. Çorlu ve Çerkezköy için de hizmet veriyoruz, iletişime geçebilirsiniz.
-[WhatsApp](https://wa.me/905525826959?text=Merhaba%2C%20Tekirda%C4%9F%20Tabela%20teklifi%20istiyorum.) [Ara](tel:+905525826959) [Tabela (genel)](https://maltstudio.co/hizmetler/tabela/)
-
-## Tekirdağ’da tabela
-
-Tekirdağ merkez ve Süleymanpaşa çarşı aksında mağaza tabela talepleri yoğundur. OSB koridoruna giden işler Tekirdağ üssünden planlanır. Çorlu ve Çerkezköy için de hizmet veriyoruz, iletişime geçebilirsiniz.
-
-Tabela, markanın sokaktaki ve tesis girişindeki kalıcı imzasıdır. Doğru tabela; mesafeden okunur, malzemesi sahaya uygundur ve montajı uzun ömürlü planlanır.
-
-Işıksız kompozit tabeladan ışıklı sistemlere, iç yön tabelasından cephe kimliğine kadar ihtiyaçlar değişir.
-
-Bu sayfa Tekirdağ’daki yerel üretim, montaj ve lojistik bağlamını taşır.
-
-Süleymanpaşa ve merkez talepleri bu sayfada toplanır.
-
-## Yerel uygulamalar
-
-- Mağaza ve dükkan cepheleri
-- Plaza / ofis girişleri
-- Fabrika ve depo
-- Kurumsal tesis kimliği
-- İç mekan bilgilendirme
-
-Mağaza ve dükkân cephelerinde ilk okunan yüzey çoğu zaman tabeladır.
-
-Plaza ve ofis girişlerinde sade, kurumsal bir panel yön ve kimlik taşır.
-
-Fabrika/depo sahasında dayanımlı dış mekân tabelaları yön ve tesis adını sabitler.
-
-İç mekânda oda, kat veya birim bilgilendirmesi için daha ince malzeme setleri tercih edilebilir.
-
-## Üretim ve montaj lojistiği
-
-Keşifte ölçüler, montaj yüzeyi, rüzgâr/yükseklik ve gece görünürlük ihtiyacı birlikte değerlendirilir. Katalog fiyatı yerine sahaya göre teklif çıkarılır.
-
-Keşif, üretim ve saha montajı Tekirdağ üssünden koordine edilir. Çevre ilçe ve OSB sahalarında lojistik teklife yansır.
-
-Montaj penceresi işletme saatleri ve saha erişimine göre planlanır.
-
-Keşifte ölçü, erişim, rüzgâr/yükseklik ve varsa site yönetimi kuralları yazılır.
-
-Tasarımda okunurluk (kontrast, harf yüksekliği, boşluk) marka dilinden önce gelir; süsleme okumayı bozuyorsa sadeleştirilir.
-
-Atölyede üretim sonrası kontrol; sahada hizalama, sabitleme ve teslim kontrolü yapılır.
-
-## Süreç
-
-1. **Keşif:** Ölçü, yüzey, erişim ve ihtiyaç netleştirilir.
-2. **Tasarım onayı:** Görsel ve teknik onay alınır.
-3. **Üretim:** Atölyede imalat ve kontrol.
-4. **Uygulama:** Saha montajı / giydirme.
-5. **Teslim:** Kontrol ve teslim notları.
-
-## Üretim, deneyim ve yerel uzmanlık
-
-Malt Studio Tekirdağ merkezli çalışır. Bu yerel hizmet içeriği; atölye üretimi, saha keşfi ve montajın aynı operasyonel hatta planlandığı gerçek iş modeline dayanır. Şube sayısı, uydurma sertifika, sahte yorum veya proje metriği eklenmez.
-
-- **Deneyim:** Keşif notları (ölçü, yüzey, erişim, işletme saati) teklif ve üretimi şekillendirir.
-- **Üretim:** Ölçüye özel imalat; stok tabela mantığı yerine yüzeye ve markaya göre üretim.
-- **Kalite süreci:** Atölye kontrolü → saha hizalama/sabitleme → teslim kontrolü.
-- **Yerel uzmanlık:** Tekirdağ üssünden merkez ve çevre ilçe işleri planlanır; Süleymanpaşa dahil merkez ve çevre ilçelere hizmet verilir.
-- **Kanıt:** Gerçek fotoğraflar proje sayfalarına bağlanır; stok görsel kullanılmaz.
-
-## Yerel fiyat faktörleri
-
-Kompozit panel, forex/PVC, vinil baskı, ışıklı/ışıksız kasa seçenekleri. Malzeme; konum, dayanım ve bütçeye göre seçilir.
-
-Tekirdağ içi erişim genelde standarttır; vinç, yükseklik, izin ve OSB girişi ek maliyet doğurabilir.
-
-Net rakam keşif sonrası verilir.
-
-## Bakım (yerel)
-
-Dış mekân tabelalarında periyodik temizlik ve bağlantı kontrolü ömrü uzatır.
-
-Solma, darbe veya yenileme ihtiyacı oluşursa mevcut montaj noktaları üzerinden revizyon planlanabilir.
-
-Garanti kapsamı teklifte yazılıdır; genel internet vaadi verilmez.
-
-[WhatsApp ile Teklif](https://wa.me/905525826959?text=Tekirda%C4%9F%20Tabela%20ke%C5%9Fif) [Teklif](https://maltstudio.co/#teklif) [Ara](tel:+905525826959)
-
-## İlgili hizmetler
-
-###
-
-[TabelaTabela genel hizmet sayfası.Hizmet](https://maltstudio.co/hizmetler/tabela/)
-
-###
-
-[Işıklı TabelaIşıklı Tabela hizmeti.Hizmet](https://maltstudio.co/hizmetler/isikli-tabela/)
-
-###
-
-[Kutu HarfKutu Harf hizmeti.Hizmet](https://maltstudio.co/hizmetler/kutu-harf/)
-
-###
-
-[TotemTotem hizmeti.Hizmet](https://maltstudio.co/hizmetler/totem/)
-
-## İlgili rehberler
-
-###
-
-[RehberEğitim.Bilgi](https://maltstudio.co/bilgi/tabela-cesitleri/)
-
-###
-
-[RehberEğitim.Bilgi](https://maltstudio.co/bilgi/tabela-fiyati/)
-
-## İlgili projeler
-
-###
-
-[Liman KahveTamamlanan proje örneği.Proje](https://maltstudio.co/projeler/liman-kahve/)
-
-###
-
-[Volt EnerjiTamamlanan proje örneği.Proje](https://maltstudio.co/projeler/volt-enerji/)
-
-###
-
-[DörtnalTamamlanan proje örneği.Proje](https://maltstudio.co/projeler/dortnal/)
-
-[Tüm projeler →](https://maltstudio.co/projeler/)
-
-## İlgili sektörler
-
-###
-
-[PerakendeSektöre özel çözümler.Sektör](https://maltstudio.co/sektorler/perakende/)
-
-###
-
-[Fabrika & OSBSektöre özel çözümler.Sektör](https://maltstudio.co/sektorler/fabrika-osb/)
-
-## Keşfet
-
-###
-
-[TekirdağTekirdağ yerel hizmet rehberi.Keşif](https://maltstudio.co/bolgeler/tekirdag/)
-
-###
-
-[HizmetlerTüm hizmetlerimize göz atın.Keşif](https://maltstudio.co/hizmetler/)
-
-###
-
-[ProjelerTamamladığımız işlerden örnekler.Keşif](https://maltstudio.co/projeler/)
-
-###
-
-[Ana sayfaMalt Studio ana sayfa.Keşif](https://maltstudio.co/)
-
-## İlgili Tekirdağ sayfaları
-
-###
-
-[Tekirdağ Işıklı TabelaTekirdağ’da ışıklı tabela hizmeti.Yerel](https://maltstudio.co/hizmet-bolge/tekirdag-isikli-tabela/)
-
-###
-
-[Tekirdağ Kutu HarfTekirdağ’da kutu harf üretimi.Yerel](https://maltstudio.co/hizmet-bolge/tekirdag-kutu-harf/)
-
-###
-
-[Tekirdağ TotemTekirdağ’da totem tabela uygulamaları.Yerel](https://maltstudio.co/hizmet-bolge/tekirdag-totem/)
-
-###
-
-[Tekirdağ Araç GiydirmeTekirdağ’da araç giydirme hizmeti.Yerel](https://maltstudio.co/hizmet-bolge/tekirdag-arac-giydirme/)
-
-###
-
-[Tekirdağ Cam GiydirmeTekirdağ’da cam giydirme uygulamaları.Yerel](https://maltstudio.co/hizmet-bolge/tekirdag-cam-giydirme/)
-
-## Sık sorulan sorular
-Tekirdağ’da tabela yaptırabilir miyim?
-
-Evet, Tekirdağ’da tabela üretimi ve montajı yapıyoruz.
-Genel hizmet sayfasından farkı?
-
-Bu sayfa özellikle Tekirdağ’daki müşterilerimize yöneliktir.
-Süleymanpaşa ayrı mı?
-
-Hayır; Süleymanpaşa talepleri Tekirdağ hizmet sayfalarında toplanır.
-Fiyat?
-
-Yerel erişim + ölçü/malzeme/montaj keşifle netleşir.
-Keşif?
-
-Tekirdağ üssünden planlanır.
-Proje örneği?
-
-İlgili proje sayfalarına bakın; görseller eklendikçe güçlenir.
-
-
 <!-- page: https://maltstudio.co/hizmetler/isikli-tabela/ -->
 
-# Işıklı Tabela | LED Tabela Üretimi ve Montajı
+# Tekirdağ Işıklı Tabela | LED Üretim ve Montaj | Malt Studio
 
-> Işıklı tabela ve LED tabela üretimi-montajı. Gece görünür mağaza ve kurumsal tabelalar.
+> Tekirdağ’da LED ışıklı tabela üretimi ve montajı. Gece görünür mağaza ve kurumsal tabelalar için keşif ve teklif.
 
 - Canonical HTML: https://maltstudio.co/hizmetler/isikli-tabela/
 - Markdown twin: https://maltstudio.co/hizmetler/isikli-tabela/index.html.md
@@ -1529,10 +1042,10 @@ Proje örneği?
 
 Hizmet
 
-# Işıklı Tabela
+# Tekirdağ Işıklı Tabela Üretim ve Montaj
 
 Gündüz taşıyan, gece de okunan LED ışıklı tabela sistemleri.
-[Teklif Al](https://wa.me/905525826959?text=Merhaba%2C%20I%C5%9F%C4%B1kl%C4%B1%20Tabela%20hakk%C4%B1nda%20teklif%20almak%20istiyorum.) [WhatsApp](https://wa.me/905525826959?text=Merhaba%2C%20I%C5%9F%C4%B1kl%C4%B1%20Tabela%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum.) [Telefon · 0552 582 69 59](tel:+905525826959)
+[Teklif Al](https://wa.me/905525826959?text=Merhaba%2C%20Tekirda%C4%9F%20I%C5%9F%C4%B1kl%C4%B1%20Tabela%20%C3%9Cretim%20ve%20Montaj%20hakk%C4%B1nda%20teklif%20almak%20istiyorum.) [WhatsApp](https://wa.me/905525826959?text=Merhaba%2C%20Tekirda%C4%9F%20I%C5%9F%C4%B1kl%C4%B1%20Tabela%20%C3%9Cretim%20ve%20Montaj%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum.) [Telefon](tel:+905525826959)
 
 ## Bu hizmet nedir?
 
@@ -1544,7 +1057,7 @@ Cephe derinliği, elektrik hattı ve servis erişimi keşifte kontrol edilir. Ya
 
 Mağaza, eczane, klinik ve plaza girişlerinde gece trafiği varsa ışıklı sistem çoğu zaman doğru yatırımdır.
 
-Tekirdağ’da ışıklı tabela için yerel sayfamız: /hizmet-bolge/tekirdag-isikli-tabela/.
+Tekirdağ ve Süleymanpaşa keşifleri atölyeden planlanır.
 
 Işıklı tabela gece trafiği olan işletmelerde markayı ayakta tutar. Sistem; kasa, LED, güç kaynağı ve yüzeyin birlikte çalışmasıdır.
 
@@ -1612,14 +1125,6 @@ Uydurma ‘ömür garantisi yılı’ veya sahte gece fotoğrafı eklenmez.
 
 Sabit internet fiyat listesi yayınlanmaz; keşif sonrası net teklif verilir.
 
-Faktör eğitimi için /bilgi/tabela-fiyati/ rehberine bakabilirsiniz.
-
-## Süre ve planlama
-
-Tasarım onayı sonrası süre işin ölçeğine göre değişir.
-
-Acil işler operasyon kapasitesine göre değerlendirilir; garanti edilemeyen vaat verilmez.
-
 ## Bakım ve sonrası
 
 LED veya güç kaynağı arızasında servis için iletişime geçilir; rastgele üçüncü parti müdahale önerilmez.
@@ -1628,63 +1133,13 @@ Dış yüzey temizliği aşındırıcı kimyasalsız yapılmalıdır.
 
 Servis kapsamı teklifte netleştirilir.
 
-## Uygulama notları
+## Süleymanpaşa ve çevre ilçelerde montaj
 
-Işıklı tabela kararında ilk filtre işletme saatleridir. Gece kapalı bir noktada LED yatırımı çoğu zaman gereksizdir.
+Keşif ve montaj Tekirdağ Süleymanpaşa atölyesinden planlanır.
 
-Kasa derinliği LED tipini ve servis erişimini etkiler; ince görünüm isteği ile servis kolaylığı dengelenmelidir.
+Adres, saat ve iletişim: [Malt Studio Tekirdağ atölye ve iletişim](https://maltstudio.co/bolgeler/tekirdag/) .
 
-Su ve toz riski dış cephede yüksektir; conta ve drenaj detayı keşifte konuşulmadan üretim başlamamalıdır.
-
-Aşırı parlak LED hem komşuyu rahatsız eder hem okunurluğu bozar; yoğunluk cepheye göre ayarlanır.
-
-Lightbox ihtiyacı retail/AVM içi kutu ise bu sayfa değil Lightbox URL’si doğrudur — yanlış ürün EEAT’yi zedeler.
-
-Gece testi mümkünse montaj sonrası yapılır; mümkün değilse güç ve bağlantı kontrolü teslim kriteridir.
-
-Servis çağrılarında önce güç kaynağı ve bağlantı kontrol edilir; rastgele LED değişimi önerilmez.
-
-Elektrik hazır değilse altyapı işi teklife ayrı satır olarak yazılır.
-
-Servis kapağı olmayan kasa uzun vadede maliyeti artırır.
-
-Cephe rengi LED algısını değiştirir; mock-up veya örnek ton konuşulabilir.
-
-Gece fotoğrafı yokken ‘çok parlak olacak’ iddiası yürütülmez.
-
-Tekirdağ’da ışıklı tabela için yerel sayfamıza bakın.
-
-## Karar ve teslim özeti
-
-Işıklı tabela bir aydınlatma ürününden çok, gece okunan bir kimlik sistemidir. Kasa, LED, güç kaynağı ve yüzey birlikte çalışmazsa sonuç ya karanlık ya da rahatsız edici parlak olur. Keşifte elektrik hattı, servis kapağı ve cephe derinliği not edilmeden üretim başlatılmaz. Neon vaadi veya abartılı ömür yılı eklenmez; konuşulan gerçek bileşenlerdir. Montaj sonrası mümkünse gece kontrolü yapılır; değilse bağlantı ve sızdırmazlık teslim kriteridir. Serviste önce güç ve bağlantı bakılır. Dış mekânda su-toz riski conta ve drenaj detayıyla yönetilir. Aşırı LED yoğunluğu hem komşuyu rahatsız eder hem okumayı bozar. Elektrik hazır değilse altyapı kalemi teklife yazılır. Mağaza, klinik ve plaza girişleri tipik kullanım alanlarıdır. Bakımda aşındırıcı kimyasal önerilmez. Acil arızada kapasiteye göre müdahale planlanır; tutulmayan süre vaadi verilmez.
-
-Işıklı sistemlerde yedek güç kaynağı ihtiyacı konuşulabilir ama stok vaadi verilmez. Cephe rengi ve ambient ışık LED algısını değiştirir. Servis sözleşmesi ayrı bir kalem olabilir; peşin ‘ömür boyu’ ifadesi kullanılmaz. Montaj ekibi elektrik güvenliği kurallarına uyar. İç mekân ışıklı kutu ihtiyacı Lightbox’a yönlendirilir. Dış cephede kaçak riski conta detayıyla azaltılır. Teklifte kasa tipi, LED sınıfı ve montaj yüksekliği satır satır görünür. Onaysız üretim başlamaz.
-
-## Keşif kontrol listesi
-
-- Gece işletme saati yoksa LED yatırımı bilinçli ertelenir.
-- Elektrik hattı hazır değilse altyapı kalemi teklife yazılır.
-- Servis kapağı olmayan kasa uzun vadede maliyeti artırır.
-- Kasa derinliği LED tipi ve servisi birlikte belirler.
-- LED yoğunluğu komşu ve okunurluk dengesiyle ayarlanır.
-- Lightbox ihtiyacı bu sayfanın sahibi değildir.
-- Dış mekânda sızdırmazlık detayı keşifte konuşulur.
-- Gece testi mümkünse montaj sonrası yapılır.
-- Trafo konumu estetik ve servis için planlanır.
-- Cephe rengi LED algısını değiştirebilir.
-- Montaj yüksekliği güvenlik planını etkiler.
-- Servis modeli peşin ‘ömür boyu’ vaadi içermez.
-- Onaylı görsel olmadan üretim başlamaz.
-- Teklifte kasa, LED ve montaj satırları ayrılır.
-- Acil arızada önce güç ve bağlantı kontrol edilir.
-- Temizlik aşındırıcı kimyasalsız önerilir.
-- Kanıt için gerçek gece/gündüz fotoğraf planlanır.
-
-## Tekirdağ’da bu hizmet
-
-Tekirdağ’da ışıklı tabela hizmeti için yerel sayfamız: /hizmet-bolge/tekirdag-isikli-tabela/.
-
-[WhatsApp ile Teklif](https://wa.me/905525826959?text=Merhaba%2C%20I%C5%9F%C4%B1kl%C4%B1%20Tabela%20i%C3%A7in%20ke%C5%9Fif%20istiyorum.) [Teklif](https://maltstudio.co/#teklif) [Ara](tel:+905525826959)
+[WhatsApp ile Teklif](https://wa.me/905525826959?text=Merhaba%2C%20Tekirda%C4%9F%20I%C5%9F%C4%B1kl%C4%B1%20Tabela%20%C3%9Cretim%20ve%20Montaj%20i%C3%A7in%20ke%C5%9Fif%20istiyorum.) [Teklif](https://maltstudio.co/#teklif) [Ara](tel:+905525826959)
 
 ## İlgili hizmetler
 
@@ -1713,22 +1168,6 @@ Tekirdağ’da ışıklı tabela hizmeti için yerel sayfamız: /hizmet-bolge/te
 ###
 
 [RehberKarar vermenize yardımcı rehber.Bilgi](https://maltstudio.co/bilgi/tabela-cesitleri/)
-
-## İlgili projeler
-
-###
-
-[Liman KahveTamamlanan proje örneği.Proje](https://maltstudio.co/projeler/liman-kahve/)
-
-###
-
-[DörtnalTamamlanan proje örneği.Proje](https://maltstudio.co/projeler/dortnal/)
-
-###
-
-[Mera OtelTamamlanan proje örneği.Proje](https://maltstudio.co/projeler/mera-otel/)
-
-[Tüm projeler →](https://maltstudio.co/projeler/)
 
 ## İlgili sektörler
 
@@ -1797,221 +1236,11 @@ Süre?
 Onay sonrası ölçeğe göre netlenir.
 
 
-<!-- page: https://maltstudio.co/hizmet-bolge/tekirdag-isikli-tabela/ -->
-
-# Tekirdağ Işıklı Tabela | Yerel Üretim ve Montaj
-
-> Tekirdağ işıklı tabela üretimi ve montajı. Işıklı tabela ve LED tabela üretimi-montajı. Gece görünür mağaza ve kurumsal tabelalar.
-
-- Canonical HTML: https://maltstudio.co/hizmet-bolge/tekirdag-isikli-tabela/
-- Markdown twin: https://maltstudio.co/hizmet-bolge/tekirdag-isikli-tabela/index.html.md
-- Site: https://maltstudio.co/
-
----
-
-Tekirdağ’da Hizmet
-
-# Tekirdağ Işıklı Tabela
-
-Tekirdağ’da gece açık kalan ticaret ve plaza cephelerinde LED ışıklı tabela sık istenir. Lightbox ihtiyacı ayrıca ayrılır.
-[WhatsApp](https://wa.me/905525826959?text=Merhaba%2C%20Tekirda%C4%9F%20I%C5%9F%C4%B1kl%C4%B1%20Tabela%20teklifi%20istiyorum.) [Ara](tel:+905525826959) [Işıklı Tabela (genel)](https://maltstudio.co/hizmetler/isikli-tabela/)
-
-## Tekirdağ’da işıklı tabela
-
-Tekirdağ’da gece açık kalan ticaret ve plaza cephelerinde LED ışıklı tabela sık istenir. Lightbox ihtiyacı ayrıca ayrılır.
-
-Işıklı tabela; kasa, LED modül, güç kaynağı ve yüzey malzemesinin birlikte çalıştığı bir üründür. Amaç gece saatlerinde de markayı okunur kılmaktır.
-
-Lightbox (ışıklı kutu / SEG) ayrı üründür ve /hizmetler/lightbox/ altındadır.
-
-Bu sayfa Tekirdağ’daki yerel üretim, montaj ve lojistik bağlamını taşır.
-
-Süleymanpaşa ve merkez talepleri bu sayfada toplanır.
-
-## Yerel uygulamalar
-
-- Mağaza cepheleri
-- Plaza girişleri
-- Klinik / eczane
-- Hizmet noktaları
-- Kurumsal tesisler
-
-Cadde mağazaları ve eczane/klinik girişleri gece okunurluk ister.
-
-Plaza ve hizmet noktalarında yol üstü farkındalık için ışıklı kasa sık tercih edilir.
-
-24 saat açık işletmelerde ışıksız paneller çoğu zaman yetersiz kalır.
-
-## Üretim ve montaj lojistiği
-
-Cephe derinliği, elektrik hattı ve servis erişimi keşifte kontrol edilir. Yanlış LED yoğunluğu hem ışığı bozar hem servisi zorlaştırır.
-
-Keşif, üretim ve saha montajı Tekirdağ üssünden koordine edilir. Çevre ilçe ve OSB sahalarında lojistik teklife yansır.
-
-Montaj penceresi işletme saatleri ve saha erişimine göre planlanır.
-
-Elektrik hattı ve servis kapağı erişimi keşifte kontrol edilir.
-
-Tasarım onayı sonrası kasa üretimi ve LED yerleşimi atölyede tamamlanır.
-
-Montajda su/toz riski ve gece test ihtiyacı sahaya göre planlanır.
-
-## Süreç
-
-1. **Keşif:** Ölçü, yüzey, erişim ve ihtiyaç netleştirilir.
-2. **Tasarım onayı:** Görsel ve teknik onay alınır.
-3. **Üretim:** Atölyede imalat ve kontrol.
-4. **Uygulama:** Saha montajı / giydirme.
-5. **Teslim:** Kontrol ve teslim notları.
-
-## Üretim, deneyim ve yerel uzmanlık
-
-Malt Studio Tekirdağ merkezli çalışır. Bu yerel hizmet içeriği; atölye üretimi, saha keşfi ve montajın aynı operasyonel hatta planlandığı gerçek iş modeline dayanır. Şube sayısı, uydurma sertifika, sahte yorum veya proje metriği eklenmez.
-
-- **Deneyim:** Keşif notları (ölçü, yüzey, erişim, işletme saati) teklif ve üretimi şekillendirir.
-- **Üretim:** Ölçüye özel imalat; stok tabela mantığı yerine yüzeye ve markaya göre üretim.
-- **Kalite süreci:** Atölye kontrolü → saha hizalama/sabitleme → teslim kontrolü.
-- **Yerel uzmanlık:** Tekirdağ üssünden merkez ve çevre ilçe işleri planlanır; Süleymanpaşa dahil merkez ve çevre ilçelere hizmet verilir.
-- **Kanıt:** Gerçek fotoğraflar proje sayfalarına bağlanır; stok görsel kullanılmaz.
-
-## Yerel fiyat faktörleri
-
-Alüminyum kasa, LED modül, SMPS, akrilik/pleksi veya uygun yüzeyler.
-
-Tekirdağ içi erişim genelde standarttır; vinç, yükseklik, izin ve OSB girişi ek maliyet doğurabilir.
-
-Net rakam keşif sonrası verilir.
-
-## Bakım (yerel)
-
-LED veya güç kaynağı arızasında servis için iletişime geçilir; rastgele üçüncü parti müdahale önerilmez.
-
-Dış yüzey temizliği aşındırıcı kimyasalsız yapılmalıdır.
-
-Servis kapsamı teklifte netleştirilir.
-
-[WhatsApp ile Teklif](https://wa.me/905525826959?text=Tekirda%C4%9F%20I%C5%9F%C4%B1kl%C4%B1%20Tabela%20ke%C5%9Fif) [Teklif](https://maltstudio.co/#teklif) [Ara](tel:+905525826959)
-
-## İlgili hizmetler
-
-###
-
-[Işıklı TabelaIşıklı Tabela genel hizmet sayfası.Hizmet](https://maltstudio.co/hizmetler/isikli-tabela/)
-
-###
-
-[TabelaTabela hizmeti.Hizmet](https://maltstudio.co/hizmetler/tabela/)
-
-###
-
-[LightboxLightbox hizmeti.Hizmet](https://maltstudio.co/hizmetler/lightbox/)
-
-###
-
-[Kutu HarfKutu Harf hizmeti.Hizmet](https://maltstudio.co/hizmetler/kutu-harf/)
-
-## İlgili rehberler
-
-###
-
-[RehberEğitim.Bilgi](https://maltstudio.co/bilgi/isikli-mi-isiksiz-mi/)
-
-###
-
-[RehberEğitim.Bilgi](https://maltstudio.co/bilgi/tabela-cesitleri/)
-
-## İlgili projeler
-
-###
-
-[Liman KahveTamamlanan proje örneği.Proje](https://maltstudio.co/projeler/liman-kahve/)
-
-###
-
-[DörtnalTamamlanan proje örneği.Proje](https://maltstudio.co/projeler/dortnal/)
-
-###
-
-[Mera OtelTamamlanan proje örneği.Proje](https://maltstudio.co/projeler/mera-otel/)
-
-[Tüm projeler →](https://maltstudio.co/projeler/)
-
-## İlgili sektörler
-
-###
-
-[PerakendeSektöre özel çözümler.Sektör](https://maltstudio.co/sektorler/perakende/)
-
-###
-
-[Restoran & CafeSektöre özel çözümler.Sektör](https://maltstudio.co/sektorler/restoran-cafe/)
-
-## Keşfet
-
-###
-
-[TekirdağTekirdağ yerel hizmet rehberi.Keşif](https://maltstudio.co/bolgeler/tekirdag/)
-
-###
-
-[HizmetlerTüm hizmetlerimize göz atın.Keşif](https://maltstudio.co/hizmetler/)
-
-###
-
-[ProjelerTamamladığımız işlerden örnekler.Keşif](https://maltstudio.co/projeler/)
-
-###
-
-[Ana sayfaMalt Studio ana sayfa.Keşif](https://maltstudio.co/)
-
-## İlgili Tekirdağ sayfaları
-
-###
-
-[Tekirdağ TabelaTekirdağ’da tabela üretimi ve montajı.Yerel](https://maltstudio.co/hizmet-bolge/tekirdag-tabela/)
-
-###
-
-[Tekirdağ Kutu HarfTekirdağ’da kutu harf üretimi.Yerel](https://maltstudio.co/hizmet-bolge/tekirdag-kutu-harf/)
-
-###
-
-[Tekirdağ TotemTekirdağ’da totem tabela uygulamaları.Yerel](https://maltstudio.co/hizmet-bolge/tekirdag-totem/)
-
-###
-
-[Tekirdağ Araç GiydirmeTekirdağ’da araç giydirme hizmeti.Yerel](https://maltstudio.co/hizmet-bolge/tekirdag-arac-giydirme/)
-
-###
-
-[Tekirdağ Cam GiydirmeTekirdağ’da cam giydirme uygulamaları.Yerel](https://maltstudio.co/hizmet-bolge/tekirdag-cam-giydirme/)
-
-## Sık sorulan sorular
-Tekirdağ’da işıklı tabela yaptırabilir miyim?
-
-Evet, Tekirdağ’da ışıklı tabela hizmeti yapıyoruz.
-Genel hizmet sayfasından farkı?
-
-Bu sayfa özellikle Tekirdağ’daki müşterilerimize yöneliktir.
-Süleymanpaşa ayrı mı?
-
-Hayır; Süleymanpaşa talepleri Tekirdağ hizmet sayfalarında toplanır.
-Fiyat?
-
-Yerel erişim + ölçü/malzeme/montaj keşifle netleşir.
-Keşif?
-
-Tekirdağ üssünden planlanır.
-Proje örneği?
-
-İlgili proje sayfalarına bakın; görseller eklendikçe güçlenir.
-
-
 <!-- page: https://maltstudio.co/hizmetler/kutu-harf/ -->
 
-# Kutu Harf | Pleksi ve Paslanmaz Cephe Yazıları
+# Tekirdağ Kutu Harf Tabela | Malt Studio
 
-> Kutu harf üretimi ve montajı. Pleksi, paslanmaz ve ışıklı kutu harf.
+> Tekirdağ’da kutu harf tabela üretimi ve montajı. Pleksi, paslanmaz ve ışıklı kutu harf.
 
 - Canonical HTML: https://maltstudio.co/hizmetler/kutu-harf/
 - Markdown twin: https://maltstudio.co/hizmetler/kutu-harf/index.html.md
@@ -2021,10 +1250,10 @@ Proje örneği?
 
 Hizmet
 
-# Kutu Harf
+# Tekirdağ Kutu Harf Tabela
 
 Cepheye derinlik katan ölçüye özel kutu harf sistemleri.
-[Teklif Al](https://wa.me/905525826959?text=Merhaba%2C%20Kutu%20Harf%20hakk%C4%B1nda%20teklif%20almak%20istiyorum.) [WhatsApp](https://wa.me/905525826959?text=Merhaba%2C%20Kutu%20Harf%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum.) [Telefon · 0552 582 69 59](tel:+905525826959)
+[Teklif Al](https://wa.me/905525826959?text=Merhaba%2C%20Tekirda%C4%9F%20Kutu%20Harf%20Tabela%20hakk%C4%B1nda%20teklif%20almak%20istiyorum.) [WhatsApp](https://wa.me/905525826959?text=Merhaba%2C%20Tekirda%C4%9F%20Kutu%20Harf%20Tabela%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum.) [Telefon](tel:+905525826959)
 
 ## Bu hizmet nedir?
 
@@ -2036,7 +1265,7 @@ Harf yüksekliği, derinlik, ışıklı/ışıksız tercih ve montaj yüzeyi oku
 
 Plaza, ofis ve mağaza cephelerinde prestij algısını en hızlı yükselten uygulamalardan biridir.
 
-Tekirdağ yerel niyeti /hizmet-bolge/tekirdag-kutu-harf/ sayfasındadır.
+Tekirdağ plaza ve mağaza cephelerinde keşif sonrası ölçüye özel üretilir.
 
 Kutu harf, marka adını cepheye üç boyutlu taşır. Channel letters aynı ailedir; ayrı URL açılmaz.
 
@@ -2106,14 +1335,6 @@ Malzeme karşılaştırması eğitim için bilgi sayfasındadır; sipariş bu hi
 
 Sabit internet fiyat listesi yayınlanmaz; keşif sonrası net teklif verilir.
 
-Faktör eğitimi için /bilgi/tabela-fiyati/ rehberine bakabilirsiniz.
-
-## Süre ve planlama
-
-Tasarım onayı sonrası süre işin ölçeğine göre değişir.
-
-Acil işler operasyon kapasitesine göre değerlendirilir; garanti edilemeyen vaat verilmez.
-
 ## Bakım ve sonrası
 
 Dış ortamda toz ve kuş pisliği birikimi periyodik temizlik ister.
@@ -2122,63 +1343,13 @@ Işıklı modellerde LED servisi güç kaynağı erişimine bağlıdır.
 
 Hasarlı tek harf değişimi çoğu zaman tüm yazıyı sökmeden planlanabilir.
 
-## Uygulama notları
+## Süleymanpaşa ve çevre ilçelerde montaj
 
-Harf yüksekliği okuma mesafesine göre seçilir; gösteriş için büyütmek her zaman doğru değildir.
+Keşif ve montaj Tekirdağ Süleymanpaşa atölyesinden planlanır.
 
-Paslanmaz seçildiğinde kaynak/montaj izinin mimariye uyumu konuşulmalıdır.
+Adres, saat ve iletişim: [Malt Studio Tekirdağ atölye ve iletişim](https://maltstudio.co/bolgeler/tekirdag/) .
 
-Işıklı kutu harfte yan aydınlatma ile ön yüz difüzörü farklı görünüm üretir; brief’te netleştirilir.
-
-Cam cepheye montajda delik ve aparat planı kritiktir; keşifsiz sipariş risklidir.
-
-Font lisansları müşteri sorumluluğundadır; biz üretim dosyasını teknik kalite için isteriz.
-
-Tek harf hasarında tüm yazıyı sökmek çoğu zaman gerekmez; parça üretim planlanabilir.
-
-Ofis içi 3D logo ile dış cephe harfi farklı malzeme sınıfına girebilir; paket ofis branding ile ayrılabilir.
-
-Harf aralıkları (kerning) uzaktan okumayı etkiler; sıkışık yazı tercih edilmez.
-
-Işıklı modelde trafo konumu estetik ve servis için planlanır.
-
-Taş veya tuğla cephede dübel seçimi keşif notuna işlenir.
-
-Tekirdağ plaza işleri için yerel kutu harf sayfamıza bakabilirsiniz.
-
-Üretim öncesi onaylı görsel olmadan kesim başlamaz.
-
-## Karar ve teslim özeti
-
-Kutu harf, markayı cepheye üç boyutlu taşır; font, aralık ve derinlik okunurluğu doğrudan etkiler. Pleksi ve paslanmaz yolları karşılaştırmalı anlatılır ama nihai seçim mimari ve bütçeyle keşifte netleşir. Channel letters ayrı URL değildir. Işıklı modelde LED ve trafo planı estetik kadar servisi de belirler. Cam veya taş cephede aparat planı yoksa iş risklidir. Üretim onaylı görsele bağlanır; onaysız kesim yapılmaz. Ofis içi 3D logo ihtiyacı ofis branding paketiyle birleştirilebilir. Harf yüksekliği gösteriş için şişirilmez; okuma mesafesine göre seçilir. Paslanmazda montaj izinin mimariye uyumu konuşulur. Tek harf hasarında tüm yazıyı sökmek çoğu zaman gerekmez. Font lisansları müşteri sorumluluğundadır. Bakımda yumuşak temizlik ve ışıklı modellerde servis erişimi korunur. Plaza ve mağaza cepheleri en sık uygulama alanlarıdır.
-
-Kutu harfte renk eşlemesi marka koduna göre yapılır; ekran ile gerçek yüzey farkı konuşulur. Alüminyum yan band seçenekleri modele göre değişir. Yüksek cephede iskele planı önceden çıkarılır. Rüzgâr yükü büyük harflerde keşif notuna yazılır. İç mekân harflerde farklı yapışkan/montaj kullanılır. Teslimde tek tek harf sabitlemesi kontrol edilir. Revizyon isteği onay döngüsüne bağlanır.
-
-## Keşif kontrol listesi
-
-- Okuma mesafesi harf yüksekliğini belirler; şişirme yapılmaz.
-- Pleksi ve paslanmaz kararları mimariye göre verilir.
-- Işıklı/ışıksız tercih üretimden önce netleşir.
-- Vektörel logo/font kaliteyi yükseltir.
-- Montaj yüzeyi aparat tipini belirler.
-- Kerning uzaktan okumayı etkiler.
-- LED’li modellerde trafo planı şarttır.
-- Yüksek cephede iskele/vinç keşifle planlanır.
-- Channel letters ayrı URL değildir.
-- Ofis içi 3D logo ofis branding ile paketlenebilir.
-- Tek harf servisi tüm yazıyı sökmeyi gerektirmeyebilir.
-- Onaylı mock-up olmadan kesim başlamaz.
-- Dış temizlik yumuşak yapılmalıdır.
-- Renk kodu marka kılavuzundan sapmaz.
-- Teslimde her harf sabitlemesi kontrol edilir.
-- Font lisansı müşteri sorumluluğundadır.
-- Kanıt fotoğrafı proje sayfasına bağlanır.
-
-## Tekirdağ’da bu hizmet
-
-Tekirdağ’da kutu harf üretimi için yerel sayfamız: /hizmet-bolge/tekirdag-kutu-harf/.
-
-[WhatsApp ile Teklif](https://wa.me/905525826959?text=Merhaba%2C%20Kutu%20Harf%20i%C3%A7in%20ke%C5%9Fif%20istiyorum.) [Teklif](https://maltstudio.co/#teklif) [Ara](tel:+905525826959)
+[WhatsApp ile Teklif](https://wa.me/905525826959?text=Merhaba%2C%20Tekirda%C4%9F%20Kutu%20Harf%20Tabela%20i%C3%A7in%20ke%C5%9Fif%20istiyorum.) [Teklif](https://maltstudio.co/#teklif) [Ara](tel:+905525826959)
 
 ## İlgili hizmetler
 
@@ -2207,22 +1378,6 @@ Tekirdağ’da kutu harf üretimi için yerel sayfamız: /hizmet-bolge/tekirdag-
 ###
 
 [RehberKarar vermenize yardımcı rehber.Bilgi](https://maltstudio.co/bilgi/tabela-cesitleri/)
-
-## İlgili projeler
-
-###
-
-[Mera OtelTamamlanan proje örneği.Proje](https://maltstudio.co/projeler/mera-otel/)
-
-###
-
-[Ekip YazılımTamamlanan proje örneği.Proje](https://maltstudio.co/projeler/ekip-yazilim/)
-
-###
-
-[Volt EnerjiTamamlanan proje örneği.Proje](https://maltstudio.co/projeler/volt-enerji/)
-
-[Tüm projeler →](https://maltstudio.co/projeler/)
 
 ## İlgili sektörler
 
@@ -2291,223 +1446,11 @@ Ofis içi logo?
 Ofis branding paketiyle birlikte planlanabilir.
 
 
-<!-- page: https://maltstudio.co/hizmet-bolge/tekirdag-kutu-harf/ -->
-
-# Tekirdağ Kutu Harf | Yerel Üretim ve Montaj
-
-> Tekirdağ kutu harf üretimi ve montajı. Kutu harf üretimi ve montajı. Pleksi, paslanmaz ve ışıklı kutu harf.
-
-- Canonical HTML: https://maltstudio.co/hizmet-bolge/tekirdag-kutu-harf/
-- Markdown twin: https://maltstudio.co/hizmet-bolge/tekirdag-kutu-harf/index.html.md
-- Site: https://maltstudio.co/
-
----
-
-Tekirdağ’da Hizmet
-
-# Tekirdağ Kutu Harf
-
-Tekirdağ plaza ve ofis cephelerinde kutu harf, prestij algısını hızlı yükseltir. Channel letters aynı ailede değerlendirilir.
-[WhatsApp](https://wa.me/905525826959?text=Merhaba%2C%20Tekirda%C4%9F%20Kutu%20Harf%20teklifi%20istiyorum.) [Ara](tel:+905525826959) [Kutu Harf (genel)](https://maltstudio.co/hizmetler/kutu-harf/)
-
-## Tekirdağ’da kutu harf
-
-Tekirdağ plaza ve ofis cephelerinde kutu harf, prestij algısını hızlı yükseltir. Channel letters aynı ailede değerlendirilir.
-
-Kutu harf (channel letters), marka adını üç boyutlu taşıyan cephe yazısıdır. Pleksi ve paslanmaz en sık malzeme aileleridir.
-
-Channel letters ayrı bir ürün adı değildir; kutu harf ailesinde anlatılır.
-
-Bu sayfa Tekirdağ’daki yerel üretim, montaj ve lojistik bağlamını taşır.
-
-Süleymanpaşa ve merkez talepleri bu sayfada toplanır.
-
-## Yerel uygulamalar
-
-- Plaza cepheleri
-- Mağaza isim yazıları
-- Ofis girişleri
-- Fabrika girişi
-- Resepsiyon 3D logo
-
-Plaza ve ofis cephelerinde prestij algısını hızlı yükseltir.
-
-Mağaza isim yazılarında uzak okunurluk için harf yüksekliği kritiktir.
-
-Fabrika girişlerinde dayanımlı paslanmaz veya uygun dış setler tercih edilebilir.
-
-Resepsiyon içi 3D logo ofis branding ile birlikte planlanabilir.
-
-## Üretim ve montaj lojistiği
-
-Harf yüksekliği, derinlik, ışıklı/ışıksız tercih ve montaj yüzeyi okunurluğu belirler.
-
-Keşif, üretim ve saha montajı Tekirdağ üssünden koordine edilir. Çevre ilçe ve OSB sahalarında lojistik teklife yansır.
-
-Montaj penceresi işletme saatleri ve saha erişimine göre planlanır.
-
-Vektörel logo/font kaliteyi yükseltir; yoksa sade okunur alternatif önerilir.
-
-Harf adedi, derinlik ve ışıklı tercih üretim süresini etkiler.
-
-Sahada hizalama ve sabitleme sonrası teslim kontrolü yapılır.
-
-## Süreç
-
-1. **Keşif:** Ölçü, yüzey, erişim ve ihtiyaç netleştirilir.
-2. **Tasarım onayı:** Görsel ve teknik onay alınır.
-3. **Üretim:** Atölyede imalat ve kontrol.
-4. **Uygulama:** Saha montajı / giydirme.
-5. **Teslim:** Kontrol ve teslim notları.
-
-## Üretim, deneyim ve yerel uzmanlık
-
-Malt Studio Tekirdağ merkezli çalışır. Bu yerel hizmet içeriği; atölye üretimi, saha keşfi ve montajın aynı operasyonel hatta planlandığı gerçek iş modeline dayanır. Şube sayısı, uydurma sertifika, sahte yorum veya proje metriği eklenmez.
-
-- **Deneyim:** Keşif notları (ölçü, yüzey, erişim, işletme saati) teklif ve üretimi şekillendirir.
-- **Üretim:** Ölçüye özel imalat; stok tabela mantığı yerine yüzeye ve markaya göre üretim.
-- **Kalite süreci:** Atölye kontrolü → saha hizalama/sabitleme → teslim kontrolü.
-- **Yerel uzmanlık:** Tekirdağ üssünden merkez ve çevre ilçe işleri planlanır; Süleymanpaşa dahil merkez ve çevre ilçelere hizmet verilir.
-- **Kanıt:** Gerçek fotoğraflar proje sayfalarına bağlanır; stok görsel kullanılmaz.
-
-## Yerel fiyat faktörleri
-
-Pleksi/akrilik, paslanmaz, LED (ışıklı modeller), yan/montaj aparatları.
-
-Tekirdağ içi erişim genelde standarttır; vinç, yükseklik, izin ve OSB girişi ek maliyet doğurabilir.
-
-Net rakam keşif sonrası verilir.
-
-## Bakım (yerel)
-
-Dış ortamda toz ve kuş pisliği birikimi periyodik temizlik ister.
-
-Işıklı modellerde LED servisi güç kaynağı erişimine bağlıdır.
-
-Hasarlı tek harf değişimi çoğu zaman tüm yazıyı sökmeden planlanabilir.
-
-[WhatsApp ile Teklif](https://wa.me/905525826959?text=Tekirda%C4%9F%20Kutu%20Harf%20ke%C5%9Fif) [Teklif](https://maltstudio.co/#teklif) [Ara](tel:+905525826959)
-
-## İlgili hizmetler
-
-###
-
-[Kutu HarfKutu Harf genel hizmet sayfası.Hizmet](https://maltstudio.co/hizmetler/kutu-harf/)
-
-###
-
-[Ofis BrandingOfis Branding hizmeti.Hizmet](https://maltstudio.co/hizmetler/ofis-branding/)
-
-###
-
-[Işıklı TabelaIşıklı Tabela hizmeti.Hizmet](https://maltstudio.co/hizmetler/isikli-tabela/)
-
-###
-
-[TabelaTabela hizmeti.Hizmet](https://maltstudio.co/hizmetler/tabela/)
-
-## İlgili rehberler
-
-###
-
-[RehberEğitim.Bilgi](https://maltstudio.co/bilgi/kutu-harf-malzemeler/)
-
-###
-
-[RehberEğitim.Bilgi](https://maltstudio.co/bilgi/tabela-cesitleri/)
-
-## İlgili projeler
-
-###
-
-[Mera OtelTamamlanan proje örneği.Proje](https://maltstudio.co/projeler/mera-otel/)
-
-###
-
-[Ekip YazılımTamamlanan proje örneği.Proje](https://maltstudio.co/projeler/ekip-yazilim/)
-
-###
-
-[Volt EnerjiTamamlanan proje örneği.Proje](https://maltstudio.co/projeler/volt-enerji/)
-
-[Tüm projeler →](https://maltstudio.co/projeler/)
-
-## İlgili sektörler
-
-###
-
-[Plaza & OfisSektöre özel çözümler.Sektör](https://maltstudio.co/sektorler/plaza-ofis/)
-
-###
-
-[PerakendeSektöre özel çözümler.Sektör](https://maltstudio.co/sektorler/perakende/)
-
-## Keşfet
-
-###
-
-[TekirdağTekirdağ yerel hizmet rehberi.Keşif](https://maltstudio.co/bolgeler/tekirdag/)
-
-###
-
-[HizmetlerTüm hizmetlerimize göz atın.Keşif](https://maltstudio.co/hizmetler/)
-
-###
-
-[ProjelerTamamladığımız işlerden örnekler.Keşif](https://maltstudio.co/projeler/)
-
-###
-
-[Ana sayfaMalt Studio ana sayfa.Keşif](https://maltstudio.co/)
-
-## İlgili Tekirdağ sayfaları
-
-###
-
-[Tekirdağ TabelaTekirdağ’da tabela üretimi ve montajı.Yerel](https://maltstudio.co/hizmet-bolge/tekirdag-tabela/)
-
-###
-
-[Tekirdağ Işıklı TabelaTekirdağ’da ışıklı tabela hizmeti.Yerel](https://maltstudio.co/hizmet-bolge/tekirdag-isikli-tabela/)
-
-###
-
-[Tekirdağ TotemTekirdağ’da totem tabela uygulamaları.Yerel](https://maltstudio.co/hizmet-bolge/tekirdag-totem/)
-
-###
-
-[Tekirdağ Araç GiydirmeTekirdağ’da araç giydirme hizmeti.Yerel](https://maltstudio.co/hizmet-bolge/tekirdag-arac-giydirme/)
-
-###
-
-[Tekirdağ Cam GiydirmeTekirdağ’da cam giydirme uygulamaları.Yerel](https://maltstudio.co/hizmet-bolge/tekirdag-cam-giydirme/)
-
-## Sık sorulan sorular
-Tekirdağ’da kutu harf yaptırabilir miyim?
-
-Evet, Tekirdağ’da kutu harf üretimi yapıyoruz.
-Genel hizmet sayfasından farkı?
-
-Bu sayfa özellikle Tekirdağ’daki müşterilerimize yöneliktir.
-Süleymanpaşa ayrı mı?
-
-Hayır; Süleymanpaşa talepleri Tekirdağ hizmet sayfalarında toplanır.
-Fiyat?
-
-Yerel erişim + ölçü/malzeme/montaj keşifle netleşir.
-Keşif?
-
-Tekirdağ üssünden planlanır.
-Proje örneği?
-
-İlgili proje sayfalarına bakın; görseller eklendikçe güçlenir.
-
-
 <!-- page: https://maltstudio.co/hizmetler/totem/ -->
 
-# Totem Tabela | Yol ve Tesis Totem Üretimi
+# Tekirdağ Totem Tabela | Üretim ve Montaj | Malt Studio
 
-> Totem tabela üretimi ve montajı. Tesis girişi ve yol kenarı sistemleri.
+> Tekirdağ’da totem tabela üretimi ve montajı. Tesis girişi ve yol kenarı sistemleri.
 
 - Canonical HTML: https://maltstudio.co/hizmetler/totem/
 - Markdown twin: https://maltstudio.co/hizmetler/totem/index.html.md
@@ -2517,22 +1460,20 @@ Proje örneği?
 
 Hizmet
 
-# Totem
+# Tekirdağ Totem Tabela
 
 Uzaktan görülen, yönlendiren totem tabela sistemleri.
-[Teklif Al](https://wa.me/905525826959?text=Merhaba%2C%20Totem%20hakk%C4%B1nda%20teklif%20almak%20istiyorum.) [WhatsApp](https://wa.me/905525826959?text=Merhaba%2C%20Totem%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum.) [Telefon · 0552 582 69 59](tel:+905525826959)
+[Teklif Al](https://wa.me/905525826959?text=Merhaba%2C%20Tekirda%C4%9F%20Totem%20Tabela%20hakk%C4%B1nda%20teklif%20almak%20istiyorum.) [WhatsApp](https://wa.me/905525826959?text=Merhaba%2C%20Tekirda%C4%9F%20Totem%20Tabela%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum.) [Telefon](tel:+905525826959)
 
 ## Bu hizmet nedir?
 
 Totem; yol kenarı, tesis girişi ve otopark yaklaşımında markayı ve yönü taşır.
 
-Pylon/monument alt tipleri bu sayfada anlatılır; ayrı doorway URL açılmaz.
-
 Taşınabilir indoor display totem /hizmetler/display-pos/ ailesindedir.
 
 Yükseklik, temel, ışıklı tercih ve görüş mesafesi keşifte hesaplanır.
 
-Tekirdağ geo sayfası: /hizmet-bolge/tekirdag-totem/.
+Tekirdağ tesis ve OSB girişlerinde keşif sonrası temel ve yükseklik netleşir.
 
 Totem; yol, otopark ve tesis yaklaşımında uzaktan algı üretir. Pylon/monument alt tipleri aynı ailede anlatılır.
 
@@ -2602,14 +1543,6 @@ Temel/statik için uydurma mühendislik iddiası yazılmaz; keşif sonrası netl
 
 Sabit internet fiyat listesi yayınlanmaz; keşif sonrası net teklif verilir.
 
-Faktör eğitimi için /bilgi/tabela-fiyati/ rehberine bakabilirsiniz.
-
-## Süre ve planlama
-
-Tasarım onayı sonrası süre işin ölçeğine göre değişir.
-
-Acil işler operasyon kapasitesine göre değerlendirilir; garanti edilemeyen vaat verilmez.
-
 ## Bakım ve sonrası
 
 Bağlantı ve yüzey kontrolleri periyodik önerilir.
@@ -2618,65 +1551,13 @@ Işıklı totemlerde LED/servis erişimi tasarımda bırakılmalıdır.
 
 Darbe veya grafiti sonrası panel yenileme planlanabilir.
 
-## Uygulama notları
+## Süleymanpaşa ve çevre ilçelerde montaj
 
-Totem yüksekliği araç hızı ve görüş açısına göre belirlenir; ‘ne kadar yüksekse o kadar iyi’ yaklaşımı yanlıştır.
+Keşif ve montaj Tekirdağ Süleymanpaşa atölyesinden planlanır.
 
-Temel tipi zemin koşullarına bağlıdır; uydurma statik hesap yayınlanmaz, keşif sonrası netleşir.
+Adres, saat ve iletişim: [Malt Studio Tekirdağ atölye ve iletişim](https://maltstudio.co/bolgeler/tekirdag/) .
 
-Işıklı totemlerde kaçak ve servis erişimi tasarımda bırakılmazsa bakım maliyeti artar.
-
-Pylon adı aynı ailede kalır; ayrı doorway URL açılmaz.
-
-Indoor display totem ile outdoor tesis totemi karıştırılmamalıdır — Display & POS ayrıdır.
-
-OSB girişlerinde güvenlik ve araç trafiği montaj penceresini belirler.
-
-Grafik paneli değişebilir tasarlanırsa ileride yenileme maliyeti düşer.
-
-Çift yüzlü totem iki yönlü yaklaşımda anlamlıdır; tek yön yetiyorsa maliyet düşer.
-
-Zemin altı engel (kablo, boru) riski keşifte sorulur.
-
-Grafik alanı ileride değişecekse manyetik/vidalı panel düşünülür.
-
-İzin süreçleri müşteri veya site yönetimine bağlıdır; süre garanti edilmez.
-
-Yerel niyet /hizmet-bolge/tekirdag-totem/ altındadır.
-
-## Karar ve teslim özeti
-
-Totem işi üretim kadar saha lojistiğidir. Yükseklik, görüş açısı, zemin ve varsa ışıklı ihtiyaç keşifte birlikte okunur. Pylon adı aynı ailede kalır; indoor display ayrıdır. Temel ve izin konuları uydurma mühendislik iddiası olmadan, keşif sonrası konuşulur. OSB girişlerinde araç trafiği montaj penceresini belirler. Grafik paneli değişebilir bırakılırsa ileride yenileme kolaylaşır. Çift yüzlü totem iki yönlü yaklaşımda anlamlıdır. Zemin altı engel riski sorulur. Işıklı totemlerde servis erişimi tasarımda bırakılır. Bakımda bağlantı ve LED kontrolü periyodik önerilir. Yol kenarı mesajı sade tutulur çünkü okuma süresi kısadır. Bu sayfa sabit dış/tesis totemine odaklanır. Display & POS taşınabilir ihtiyaçlar içindir.
-
-Totem grafik alanında az metin daha iyi okunur. Logo + yön oku sık pakettir. Temel kürü bekleme süresi takvime yazılır; mucize hızlı kurulum vaadi yok. Çevrede ağaç veya tabela perdesi varsa yükseklik yeniden değerlendirilir. Işıklı modelde gece test imkânı sorulur. Panel vidaları vandalizme karşı dayanıklı seçilebilir. Teslim tutanağı bağlantı ve dikeylik kontrolünü içerir.
-
-Totem seçiminde yaklaşım hızı, görüş açısı ve zemin koşulları birlikte değerlendirilir. Yüksek yapmak her zaman daha iyi okutmaz. Temel ve izin konuları keşif sonrası netleşir; peşin statik iddia yayınlanmaz. Işıklı totem gece lojistik girişlerinde anlam kazanır. Indoor display ihtiyaçları Display & POS’a aittir. OSB sahalarında montaj penceresi güvenlik kurallarına bağlanır. Kanıt görselleri onayla yayınlanır.
-
-## Keşif kontrol listesi
-
-- Yaklaşım yönü tek/çift yüz kararını belirler.
-- Yükseklik görüş açısına göre seçilir.
-- Temel ihtiyacı keşif sonrası netleşir.
-- İzin riski peşinen sorulur; süre garanti edilmez.
-- Işıklı ihtiyaç gece lojistiğe göre konuşulur.
-- Indoor display bu sayfada çözülmez.
-- Pylon aynı ailede anlatılır.
-- Zemin altı engel riski sorulur.
-- Grafik alanı az metinle tutulur.
-- Vinç planı OSB kurallarına bağlanır.
-- Değişebilir panel yenilemeyi kolaylaştırır.
-- Teslimde dikeylik kontrol edilir.
-- Bakım için LED/servis erişimi bırakılır.
-- Mesaj sade tutulur çünkü okuma süresi kısadır.
-- Rüzgâr perdesi varsa yükseklik yeniden değerlendirilir.
-- Temel kürü takvime yazılır.
-- Kanıt fotoğrafı planlanır.
-
-## Tekirdağ’da bu hizmet
-
-Tekirdağ’da totem tabela uygulamaları için yerel sayfamız: /hizmet-bolge/tekirdag-totem/.
-
-[WhatsApp ile Teklif](https://wa.me/905525826959?text=Merhaba%2C%20Totem%20i%C3%A7in%20ke%C5%9Fif%20istiyorum.) [Teklif](https://maltstudio.co/#teklif) [Ara](tel:+905525826959)
+[WhatsApp ile Teklif](https://wa.me/905525826959?text=Merhaba%2C%20Tekirda%C4%9F%20Totem%20Tabela%20i%C3%A7in%20ke%C5%9Fif%20istiyorum.) [Teklif](https://maltstudio.co/#teklif) [Ara](tel:+905525826959)
 
 ## İlgili hizmetler
 
@@ -2705,18 +1586,6 @@ Tekirdağ’da totem tabela uygulamaları için yerel sayfamız: /hizmet-bolge/t
 ###
 
 [RehberKarar vermenize yardımcı rehber.Bilgi](https://maltstudio.co/bilgi/tabela-cesitleri/)
-
-## İlgili projeler
-
-###
-
-[Volt EnerjiTamamlanan proje örneği.Proje](https://maltstudio.co/projeler/volt-enerji/)
-
-###
-
-[Kuzey TekstilTamamlanan proje örneği.Proje](https://maltstudio.co/projeler/kuzey-tekstil/)
-
-[Tüm projeler →](https://maltstudio.co/projeler/)
 
 ## İlgili sektörler
 
@@ -2785,219 +1654,11 @@ Bakım?
 Periyodik kontrol önerilir.
 
 
-<!-- page: https://maltstudio.co/hizmet-bolge/tekirdag-totem/ -->
-
-# Tekirdağ Totem | Yerel Üretim ve Montaj
-
-> Tekirdağ totem üretimi ve montajı. Totem tabela üretimi ve montajı. Tesis girişi ve yol kenarı sistemleri.
-
-- Canonical HTML: https://maltstudio.co/hizmet-bolge/tekirdag-totem/
-- Markdown twin: https://maltstudio.co/hizmet-bolge/tekirdag-totem/index.html.md
-- Site: https://maltstudio.co/
-
----
-
-Tekirdağ’da Hizmet
-
-# Tekirdağ Totem
-
-Tesis girişi ve yol yaklaşımında totem, Tekirdağ çevre sanayi taleplerinde öne çıkar. Temel/montaj keşifle planlanır.
-[WhatsApp](https://wa.me/905525826959?text=Merhaba%2C%20Tekirda%C4%9F%20Totem%20teklifi%20istiyorum.) [Ara](tel:+905525826959) [Totem (genel)](https://maltstudio.co/hizmetler/totem/)
-
-## Tekirdağ’da totem
-
-Tesis girişi ve yol yaklaşımında totem, Tekirdağ çevre sanayi taleplerinde öne çıkar. Temel/montaj keşifle planlanır.
-
-Totem; yol kenarı, tesis girişi ve otopark yaklaşımında markayı ve yönü taşır.
-
-Pylon/monument alt tipleri bu sayfada anlatılır; ayrı doorway URL açılmaz.
-
-Bu sayfa Tekirdağ’daki yerel üretim, montaj ve lojistik bağlamını taşır.
-
-Süleymanpaşa ve merkez talepleri bu sayfada toplanır.
-
-## Yerel uygulamalar
-
-- Fabrika/OSB girişi
-- Plaza yaklaşımı
-- Yol kenarı
-- Otopark
-- Kurumsal kampüs
-
-OSB ve fabrika kapılarında tesis adı ve yön için.
-
-Plaza ve kampüs yaklaşımında marka + yön kombinasyonu.
-
-Yol kenarı görünürlükte yükseklik ve görüş açısı kritiktir.
-
-İnşaat/şantiye çevrelerinde geçici veya yarı kalıcı dikey işaretler.
-
-## Üretim ve montaj lojistiği
-
-Taşınabilir indoor display totem /hizmetler/display-pos/ ailesindedir.
-
-Keşif, üretim ve saha montajı Tekirdağ üssünden koordine edilir. Çevre ilçe ve OSB sahalarında lojistik teklife yansır.
-
-Montaj penceresi işletme saatleri ve saha erişimine göre planlanır.
-
-Keşifte zemin, görüş mesafesi, elektrik (ışıklıysa) ve güvenlik mesafesi not edilir.
-
-Tasarım onayı sonrası gövde üretimi; saha montajı vinç/iskele planıyla yapılır.
-
-Teslimde dikeylik, bağlantı ve varsa aydınlatma kontrol edilir.
-
-## Süreç
-
-1. **Keşif:** Ölçü, yüzey, erişim ve ihtiyaç netleştirilir.
-2. **Tasarım onayı:** Görsel ve teknik onay alınır.
-3. **Üretim:** Atölyede imalat ve kontrol.
-4. **Uygulama:** Saha montajı / giydirme.
-5. **Teslim:** Kontrol ve teslim notları.
-
-## Üretim, deneyim ve yerel uzmanlık
-
-Malt Studio Tekirdağ merkezli çalışır. Bu yerel hizmet içeriği; atölye üretimi, saha keşfi ve montajın aynı operasyonel hatta planlandığı gerçek iş modeline dayanır. Şube sayısı, uydurma sertifika, sahte yorum veya proje metriği eklenmez.
-
-- **Deneyim:** Keşif notları (ölçü, yüzey, erişim, işletme saati) teklif ve üretimi şekillendirir.
-- **Üretim:** Ölçüye özel imalat; stok tabela mantığı yerine yüzeye ve markaya göre üretim.
-- **Kalite süreci:** Atölye kontrolü → saha hizalama/sabitleme → teslim kontrolü.
-- **Yerel uzmanlık:** Tekirdağ üssünden merkez ve çevre ilçe işleri planlanır; Süleymanpaşa dahil merkez ve çevre ilçelere hizmet verilir.
-- **Kanıt:** Gerçek fotoğraflar proje sayfalarına bağlanır; stok görsel kullanılmaz.
-
-## Yerel fiyat faktörleri
-
-Çelik/alüminyum konstrüksiyon, kompozit yüzey, ışıklı kasa seçenekleri.
-
-Tekirdağ içi erişim genelde standarttır; vinç, yükseklik, izin ve OSB girişi ek maliyet doğurabilir.
-
-Net rakam keşif sonrası verilir.
-
-## Bakım (yerel)
-
-Bağlantı ve yüzey kontrolleri periyodik önerilir.
-
-Işıklı totemlerde LED/servis erişimi tasarımda bırakılmalıdır.
-
-Darbe veya grafiti sonrası panel yenileme planlanabilir.
-
-[WhatsApp ile Teklif](https://wa.me/905525826959?text=Tekirda%C4%9F%20Totem%20ke%C5%9Fif) [Teklif](https://maltstudio.co/#teklif) [Ara](tel:+905525826959)
-
-## İlgili hizmetler
-
-###
-
-[TotemTotem genel hizmet sayfası.Hizmet](https://maltstudio.co/hizmetler/totem/)
-
-###
-
-[TabelaTabela hizmeti.Hizmet](https://maltstudio.co/hizmetler/tabela/)
-
-###
-
-[İş Güvenliği Tabelalarıİş Güvenliği Tabelaları hizmeti.Hizmet](https://maltstudio.co/hizmetler/is-guvenligi-tabelalari/)
-
-###
-
-[Kutu HarfKutu Harf hizmeti.Hizmet](https://maltstudio.co/hizmetler/kutu-harf/)
-
-## İlgili rehberler
-
-###
-
-[RehberEğitim.Bilgi](https://maltstudio.co/bilgi/totem-secim-rehberi/)
-
-###
-
-[RehberEğitim.Bilgi](https://maltstudio.co/bilgi/tabela-cesitleri/)
-
-## İlgili projeler
-
-###
-
-[Volt EnerjiTamamlanan proje örneği.Proje](https://maltstudio.co/projeler/volt-enerji/)
-
-###
-
-[Kuzey TekstilTamamlanan proje örneği.Proje](https://maltstudio.co/projeler/kuzey-tekstil/)
-
-[Tüm projeler →](https://maltstudio.co/projeler/)
-
-## İlgili sektörler
-
-###
-
-[Fabrika & OSBSektöre özel çözümler.Sektör](https://maltstudio.co/sektorler/fabrika-osb/)
-
-###
-
-[İnşaat & ŞantiyeSektöre özel çözümler.Sektör](https://maltstudio.co/sektorler/insaat-santiye/)
-
-## Keşfet
-
-###
-
-[TekirdağTekirdağ yerel hizmet rehberi.Keşif](https://maltstudio.co/bolgeler/tekirdag/)
-
-###
-
-[HizmetlerTüm hizmetlerimize göz atın.Keşif](https://maltstudio.co/hizmetler/)
-
-###
-
-[ProjelerTamamladığımız işlerden örnekler.Keşif](https://maltstudio.co/projeler/)
-
-###
-
-[Ana sayfaMalt Studio ana sayfa.Keşif](https://maltstudio.co/)
-
-## İlgili Tekirdağ sayfaları
-
-###
-
-[Tekirdağ TabelaTekirdağ’da tabela üretimi ve montajı.Yerel](https://maltstudio.co/hizmet-bolge/tekirdag-tabela/)
-
-###
-
-[Tekirdağ Işıklı TabelaTekirdağ’da ışıklı tabela hizmeti.Yerel](https://maltstudio.co/hizmet-bolge/tekirdag-isikli-tabela/)
-
-###
-
-[Tekirdağ Kutu HarfTekirdağ’da kutu harf üretimi.Yerel](https://maltstudio.co/hizmet-bolge/tekirdag-kutu-harf/)
-
-###
-
-[Tekirdağ Araç GiydirmeTekirdağ’da araç giydirme hizmeti.Yerel](https://maltstudio.co/hizmet-bolge/tekirdag-arac-giydirme/)
-
-###
-
-[Tekirdağ Cam GiydirmeTekirdağ’da cam giydirme uygulamaları.Yerel](https://maltstudio.co/hizmet-bolge/tekirdag-cam-giydirme/)
-
-## Sık sorulan sorular
-Tekirdağ’da totem yaptırabilir miyim?
-
-Evet, Tekirdağ’da totem tabela uygulamaları yapıyoruz.
-Genel hizmet sayfasından farkı?
-
-Bu sayfa özellikle Tekirdağ’daki müşterilerimize yöneliktir.
-Süleymanpaşa ayrı mı?
-
-Hayır; Süleymanpaşa talepleri Tekirdağ hizmet sayfalarında toplanır.
-Fiyat?
-
-Yerel erişim + ölçü/malzeme/montaj keşifle netleşir.
-Keşif?
-
-Tekirdağ üssünden planlanır.
-Proje örneği?
-
-İlgili proje sayfalarına bakın; görseller eklendikçe güçlenir.
-
-
 <!-- page: https://maltstudio.co/hizmetler/arac-giydirme/ -->
 
-# Araç Giydirme | Filo ve Ticari Araç Kaplama
+# Tekirdağ Araç Giydirme | Ticari Araç ve Filo | Malt Studio
 
-> Araç giydirme, filo kaplama ve ticari araç reklam uygulamaları.
+> Tekirdağ’da ticari araç ve filo giydirme. Baskı, uygulama ve keşif için teklif alın.
 
 - Canonical HTML: https://maltstudio.co/hizmetler/arac-giydirme/
 - Markdown twin: https://maltstudio.co/hizmetler/arac-giydirme/index.html.md
@@ -3007,10 +1668,10 @@ Proje örneği?
 
 Hizmet
 
-# Araç Giydirme
+# Tekirdağ Araç Giydirme
 
 Filo ve ticari araçlarda tutarlı, dayanıklı giydirme uygulamaları.
-[Teklif Al](https://wa.me/905525826959?text=Merhaba%2C%20Ara%C3%A7%20Giydirme%20hakk%C4%B1nda%20teklif%20almak%20istiyorum.) [WhatsApp](https://wa.me/905525826959?text=Merhaba%2C%20Ara%C3%A7%20Giydirme%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum.) [Telefon · 0552 582 69 59](tel:+905525826959)
+[Teklif Al](https://wa.me/905525826959?text=Merhaba%2C%20Tekirda%C4%9F%20Ara%C3%A7%20Giydirme%20hakk%C4%B1nda%20teklif%20almak%20istiyorum.) [WhatsApp](https://wa.me/905525826959?text=Merhaba%2C%20Tekirda%C4%9F%20Ara%C3%A7%20Giydirme%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum.) [Telefon](tel:+905525826959)
 
 ## Bu hizmet nedir?
 
@@ -3022,7 +1683,7 @@ Folyo baskı üretim adımıdır; sonuç ürün bu sayfada hedeflenir.
 
 Filo işlerinde şablon standardı ve araç tipi uyarlaması kritiktir.
 
-Tekirdağ geo: /hizmet-bolge/tekirdag-arac-giydirme/.
+Tekirdağ merkezli filolar için uygulama atölyeden planlanır.
 
 Araç giydirme; baskılı folyonun araca uygulanmasıyla hareketli marka yüzeyi oluşturur. Full wrap ve parça giydirme aynı hizmetin alt yollarıdır.
 
@@ -3090,14 +1751,6 @@ Uydurma ‘X yıl solmaz’ vaadi eklenmez; folyo tipi ve kullanım ömrü konu�
 
 Sabit internet fiyat listesi yayınlanmaz; keşif sonrası net teklif verilir.
 
-Faktör eğitimi için /bilgi/tabela-fiyati/ rehberine bakabilirsiniz.
-
-## Süre ve planlama
-
-Tasarım onayı sonrası süre işin ölçeğine göre değişir.
-
-Acil işler operasyon kapasitesine göre değerlendirilir; garanti edilemeyen vaat verilmez.
-
 ## Bakım ve sonrası
 
 Yıkamada yüksek basınç ve sert kimyasallar kenar kaldırmayı hızlandırabilir.
@@ -3106,65 +1759,13 @@ Sökümde doğru folyo ile kontrollü kaldırma hedeflenir; boya durumu araca g�
 
 Hasarlı panel yenilemesi filo şablonundan yeniden basılabilir.
 
-## Uygulama notları
+## Süleymanpaşa ve çevre ilçelerde montaj
 
-Parça giydirme çoğu filoda yeterli görünürlük sağlar; full wrap her zaman zorunlu değildir.
+Keşif ve montaj Tekirdağ Süleymanpaşa atölyesinden planlanır.
 
-Eğri yüzeylerde cast folyo tercih nedeni uygulama kalitesidir; her işte şart değildir ama konuşulur.
+Adres, saat ve iletişim: [Malt Studio Tekirdağ atölye ve iletişim](https://maltstudio.co/bolgeler/tekirdag/) .
 
-Araç boyasının durumu söküm sonucunu etkiler; peşin ‘boya bozulmaz’ garantisi verilmez.
-
-Filo şablonunda kapı tutacakları ve cam sınırları standartlaştırılır.
-
-Uygulama sonrası kenar kontrolü yapılmadan araç teslim edilmez.
-
-Kış uygulamasında ortam sıcaklığı uygun değilse iş ertelenir; kalitesiz yapışma riski alınmaz.
-
-Bina camı ihtiyacı bu sayfada değil Cam Giydirme’dedir.
-
-Araç tesliminden önce yıkama ve kuru yüzey şarttır.
-
-Cam filmleri görüş güvenliğini bozmuyorsa uygulanır; yasal sınırlar müşteri sorumluluğundadır.
-
-Filo teslimatı araç araç yapılabilir; tek seferde bitirme vaadi yok.
-
-Tasarımda plaka ve cam alanları boş bırakılır.
-
-Tekirdağ filo işleri için yerel araç giydirme sayfamıza bakabilirsiniz.
-
-## Karar ve teslim özeti
-
-Araç giydirme mobil bir marka yüzeyidir; başarı yüzey hazırlığı ve doğru folyo sınıfına bağlıdır. Full wrap her filoda zorunlu değildir. Parça giydirme çoğu senaryoda yeterlidir. Boya durumu söküm sonucunu etkiler; genel ‘boya bozulmaz’ vaadi verilmez. Filoda şablon standardı hız kazandırır ama araç tipi çeşitliliği şablon sayısını artırır. Uygulama sıcaklığı uygun değilse iş ertelenir. Yıkama alışkanlığı ömrü belirler; kenara yüksek basınç zarar verebilir. Tasarımda plaka ve cam sınırları boş bırakılır. Araç tesliminden önce kuru ve temiz yüzey şarttır. Cam filmlerinde yasal sınırlar müşteri sorumluluğundadır. Filo teslimatı araç araç yapılabilir. Bina camı bu sayfanın konusu değildir. Hasarlı panel şablondan yenilenebilir.
-
-Araç giydirmede marka renkleri baskı profiliyle doğrulanır. Kaput ve çamurluk gibi eğri alanlar ek süre isteyebilir. Filo araçları sırayla planlanır; aynı anda tüm filoyu bağlamak her zaman mümkün değildir. Uygulama sonrası ilk yıkama için bekleme süresi önerilir. Sökümde ısı ve doğru spatula kullanılır. Müşteri araç sigortası/işletme kuralları kendi sorumluluğundadır.
-
-Araç giydirme sürecinde tasarım onayı ile uygulama günü arasında baskı ve folyo hazırlığı vardır. Bu sürede araçların işletmeden çekileceği saatler netleştirilir. Panelvan, kamyonet ve binek kasa tipleri farklı şablon ister. Filo standardı marka alanlarını sabitlerken kapı tutacakları ve ayna dipleri araç özelinde uyarlanır. Uygulama sonrası kenar kaldırma riskini azaltmak için ilk günlerde otomatik yıkama önerilmez. Söküm planı baştan konuşulursa sonraki dönem yenilemesi daha öngörülebilir olur. Tekirdağ üssü filo işlerini planlı takvimle yönetir; uydurma ‘aynı gün tüm filo’ vaadi verilmez. Kanıt görselleri onaylandıkça proje sayfalarına eklenir.
-
-## Keşif kontrol listesi
-
-- Full wrap zorunlu değildir; parça çoğu filoda yeter.
-- Araç listesi ve fotoğraflar olmadan şablon çıkmaz.
-- Yüzey durumu söküm sonucunu etkiler.
-- Folyo sınıfı eğrilik ve süreye göre seçilir.
-- Filo şablonu standart + araç uyarlamasıdır.
-- Plaka ve cam alanları boş bırakılır.
-- Uygulama sıcaklığı uygun değilse iş ertelenir.
-- Filo takvimi araç araç ilerleyebilir.
-- Yıkamada kenara yüksek basınç önerilmez.
-- Sökümde kontrollü yöntem hedeflenir.
-- Boya bozulmaz genel vaadi verilmez.
-- Bina camı cam giydirme sayfasındadır.
-- Baskı prooflu onay hatayı azaltır.
-- Kenar kontrolü teslim kriteridir.
-- Hasarlı panel şablondan yenilenir.
-- İşletme/sigorta kuralları müşteriye aittir.
-- Kanıt fotoğrafı planlanır.
-
-## Tekirdağ’da bu hizmet
-
-Tekirdağ’da araç giydirme hizmeti için yerel sayfamız: /hizmet-bolge/tekirdag-arac-giydirme/.
-
-[WhatsApp ile Teklif](https://wa.me/905525826959?text=Merhaba%2C%20Ara%C3%A7%20Giydirme%20i%C3%A7in%20ke%C5%9Fif%20istiyorum.) [Teklif](https://maltstudio.co/#teklif) [Ara](tel:+905525826959)
+[WhatsApp ile Teklif](https://wa.me/905525826959?text=Merhaba%2C%20Tekirda%C4%9F%20Ara%C3%A7%20Giydirme%20i%C3%A7in%20ke%C5%9Fif%20istiyorum.) [Teklif](https://maltstudio.co/#teklif) [Ara](tel:+905525826959)
 
 ## İlgili hizmetler
 
@@ -3189,14 +1790,6 @@ Tekirdağ’da araç giydirme hizmeti için yerel sayfamız: /hizmet-bolge/tekir
 ###
 
 [RehberKarar vermenize yardımcı rehber.Bilgi](https://maltstudio.co/bilgi/arac-giydirme-rehberi/)
-
-## İlgili projeler
-
-###
-
-[Kuzey TekstilTamamlanan proje örneği.Proje](https://maltstudio.co/projeler/kuzey-tekstil/)
-
-[Tüm projeler →](https://maltstudio.co/projeler/)
 
 ## İlgili sektörler
 
@@ -3261,209 +1854,11 @@ Ortam sıcaklığı uygunluğu kontrol edilir.
 Folyo tipi ve kullanıma bağlıdır.
 
 
-<!-- page: https://maltstudio.co/hizmet-bolge/tekirdag-arac-giydirme/ -->
-
-# Tekirdağ Araç Giydirme | Yerel Üretim ve Montaj
-
-> Tekirdağ araç giydirme üretimi ve montajı. Araç giydirme, filo kaplama ve ticari araç reklam uygulamaları.
-
-- Canonical HTML: https://maltstudio.co/hizmet-bolge/tekirdag-arac-giydirme/
-- Markdown twin: https://maltstudio.co/hizmet-bolge/tekirdag-arac-giydirme/index.html.md
-- Site: https://maltstudio.co/
-
----
-
-Tekirdağ’da Hizmet
-
-# Tekirdağ Araç Giydirme
-
-Tekirdağ merkezli filolar ve ticari araçlar için giydirme, lojistik görünürlüğü artırır.
-[WhatsApp](https://wa.me/905525826959?text=Merhaba%2C%20Tekirda%C4%9F%20Ara%C3%A7%20Giydirme%20teklifi%20istiyorum.) [Ara](tel:+905525826959) [Araç Giydirme (genel)](https://maltstudio.co/hizmetler/arac-giydirme/)
-
-## Tekirdağ’da araç giydirme
-
-Tekirdağ merkezli filolar ve ticari araçlar için giydirme, lojistik görünürlüğü artırır.
-
-Araç giydirme; baskılı folyonun araca uygulanmasıyla mobil marka yüzeyi oluşturur.
-
-Full wrap ve parça giydirme bu hizmetin alt uygulamalarıdır.
-
-Bu sayfa Tekirdağ’daki yerel üretim, montaj ve lojistik bağlamını taşır.
-
-Süleymanpaşa ve merkez talepleri bu sayfada toplanır.
-
-## Yerel uygulamalar
-
-- Panelvan
-- Kurumsal filo
-- Servis araçları
-- Dağıtım
-- Demo araçları
-
-Panelvan ve dağıtım araçlarında cadde görünürlüğü.
-
-Kurumsal filoda şablon standardı + araç tipi uyarlaması.
-
-Servis ve demo araçlarında saha ziyaretlerinde marka taşır.
-
-## Üretim ve montaj lojistiği
-
-Folyo baskı üretim adımıdır; sonuç ürün bu sayfada hedeflenir.
-
-Keşif, üretim ve saha montajı Tekirdağ üssünden koordine edilir. Çevre ilçe ve OSB sahalarında lojistik teklife yansır.
-
-Montaj penceresi işletme saatleri ve saha erişimine göre planlanır.
-
-Ölçü/şablon → tasarım onayı → baskı → uygulama → kenar kontrolü.
-
-Filo işlerinde araç başına takvim çıkarılır; tek günde tüm filo iddiası verilmez.
-
-Ortam sıcaklığı uygulamayı etkiler; uygun koşul kontrol edilir.
-
-## Süreç
-
-1. **Keşif:** Ölçü, yüzey, erişim ve ihtiyaç netleştirilir.
-2. **Tasarım onayı:** Görsel ve teknik onay alınır.
-3. **Üretim:** Atölyede imalat ve kontrol.
-4. **Uygulama:** Saha montajı / giydirme.
-5. **Teslim:** Kontrol ve teslim notları.
-
-## Üretim, deneyim ve yerel uzmanlık
-
-Malt Studio Tekirdağ merkezli çalışır. Bu yerel hizmet içeriği; atölye üretimi, saha keşfi ve montajın aynı operasyonel hatta planlandığı gerçek iş modeline dayanır. Şube sayısı, uydurma sertifika, sahte yorum veya proje metriği eklenmez.
-
-- **Deneyim:** Keşif notları (ölçü, yüzey, erişim, işletme saati) teklif ve üretimi şekillendirir.
-- **Üretim:** Ölçüye özel imalat; stok tabela mantığı yerine yüzeye ve markaya göre üretim.
-- **Kalite süreci:** Atölye kontrolü → saha hizalama/sabitleme → teslim kontrolü.
-- **Yerel uzmanlık:** Tekirdağ üssünden merkez ve çevre ilçe işleri planlanır; Süleymanpaşa dahil merkez ve çevre ilçelere hizmet verilir.
-- **Kanıt:** Gerçek fotoğraflar proje sayfalarına bağlanır; stok görsel kullanılmaz.
-
-## Yerel fiyat faktörleri
-
-Araç folyoları, laminasyon (ihtiyaca göre), dijital baskı.
-
-Tekirdağ içi erişim genelde standarttır; vinç, yükseklik, izin ve OSB girişi ek maliyet doğurabilir.
-
-Net rakam keşif sonrası verilir.
-
-## Bakım (yerel)
-
-Yıkamada yüksek basınç ve sert kimyasallar kenar kaldırmayı hızlandırabilir.
-
-Sökümde doğru folyo ile kontrollü kaldırma hedeflenir; boya durumu araca göre değişir.
-
-Hasarlı panel yenilemesi filo şablonundan yeniden basılabilir.
-
-[WhatsApp ile Teklif](https://wa.me/905525826959?text=Tekirda%C4%9F%20Ara%C3%A7%20Giydirme%20ke%C5%9Fif) [Teklif](https://maltstudio.co/#teklif) [Ara](tel:+905525826959)
-
-## İlgili hizmetler
-
-###
-
-[Araç GiydirmeAraç Giydirme genel hizmet sayfası.Hizmet](https://maltstudio.co/hizmetler/arac-giydirme/)
-
-###
-
-[TabelaTabela hizmeti.Hizmet](https://maltstudio.co/hizmetler/tabela/)
-
-###
-
-[Cam GiydirmeCam Giydirme hizmeti.Hizmet](https://maltstudio.co/hizmetler/cam-giydirme/)
-
-###
-
-[Display & POSDisplay & POS hizmeti.Hizmet](https://maltstudio.co/hizmetler/display-pos/)
-
-## İlgili rehberler
-
-###
-
-[RehberEğitim.Bilgi](https://maltstudio.co/bilgi/arac-giydirme-rehberi/)
-
-## İlgili projeler
-
-###
-
-[Kuzey TekstilTamamlanan proje örneği.Proje](https://maltstudio.co/projeler/kuzey-tekstil/)
-
-[Tüm projeler →](https://maltstudio.co/projeler/)
-
-## İlgili sektörler
-
-###
-
-[Fabrika & OSBSektöre özel çözümler.Sektör](https://maltstudio.co/sektorler/fabrika-osb/)
-
-###
-
-[PerakendeSektöre özel çözümler.Sektör](https://maltstudio.co/sektorler/perakende/)
-
-## Keşfet
-
-###
-
-[TekirdağTekirdağ yerel hizmet rehberi.Keşif](https://maltstudio.co/bolgeler/tekirdag/)
-
-###
-
-[HizmetlerTüm hizmetlerimize göz atın.Keşif](https://maltstudio.co/hizmetler/)
-
-###
-
-[ProjelerTamamladığımız işlerden örnekler.Keşif](https://maltstudio.co/projeler/)
-
-###
-
-[Ana sayfaMalt Studio ana sayfa.Keşif](https://maltstudio.co/)
-
-## İlgili Tekirdağ sayfaları
-
-###
-
-[Tekirdağ TabelaTekirdağ’da tabela üretimi ve montajı.Yerel](https://maltstudio.co/hizmet-bolge/tekirdag-tabela/)
-
-###
-
-[Tekirdağ Işıklı TabelaTekirdağ’da ışıklı tabela hizmeti.Yerel](https://maltstudio.co/hizmet-bolge/tekirdag-isikli-tabela/)
-
-###
-
-[Tekirdağ Kutu HarfTekirdağ’da kutu harf üretimi.Yerel](https://maltstudio.co/hizmet-bolge/tekirdag-kutu-harf/)
-
-###
-
-[Tekirdağ TotemTekirdağ’da totem tabela uygulamaları.Yerel](https://maltstudio.co/hizmet-bolge/tekirdag-totem/)
-
-###
-
-[Tekirdağ Cam GiydirmeTekirdağ’da cam giydirme uygulamaları.Yerel](https://maltstudio.co/hizmet-bolge/tekirdag-cam-giydirme/)
-
-## Sık sorulan sorular
-Tekirdağ’da araç giydirme yaptırabilir miyim?
-
-Evet, Tekirdağ’da araç giydirme hizmeti yapıyoruz.
-Genel hizmet sayfasından farkı?
-
-Bu sayfa özellikle Tekirdağ’daki müşterilerimize yöneliktir.
-Süleymanpaşa ayrı mı?
-
-Hayır; Süleymanpaşa talepleri Tekirdağ hizmet sayfalarında toplanır.
-Fiyat?
-
-Yerel erişim + ölçü/malzeme/montaj keşifle netleşir.
-Keşif?
-
-Tekirdağ üssünden planlanır.
-Proje örneği?
-
-İlgili proje sayfalarına bakın; görseller eklendikçe güçlenir.
-
-
 <!-- page: https://maltstudio.co/hizmetler/cam-giydirme/ -->
 
-# Cam Giydirme | One Way Vision ve Vitrin Folyosu
+# Tekirdağ Cam Giydirme | One Way Vision ve Folyo | Malt Studio
 
-> Cam giydirme, one way vision, vitrin ve cam folyo uygulamaları.
+> Tekirdağ’da cam giydirme: one way vision, vitrin ve cam folyo uygulamaları.
 
 - Canonical HTML: https://maltstudio.co/hizmetler/cam-giydirme/
 - Markdown twin: https://maltstudio.co/hizmetler/cam-giydirme/index.html.md
@@ -3473,10 +1868,10 @@ Proje örneği?
 
 Hizmet
 
-# Cam Giydirme
+# Tekirdağ Cam Giydirme
 
 Vitrin ve camda görünürlük, gizlilik ve mesaj dengesini kuran uygulamalar.
-[Teklif Al](https://wa.me/905525826959?text=Merhaba%2C%20Cam%20Giydirme%20hakk%C4%B1nda%20teklif%20almak%20istiyorum.) [WhatsApp](https://wa.me/905525826959?text=Merhaba%2C%20Cam%20Giydirme%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum.) [Telefon · 0552 582 69 59](tel:+905525826959)
+[Teklif Al](https://wa.me/905525826959?text=Merhaba%2C%20Tekirda%C4%9F%20Cam%20Giydirme%20hakk%C4%B1nda%20teklif%20almak%20istiyorum.) [WhatsApp](https://wa.me/905525826959?text=Merhaba%2C%20Tekirda%C4%9F%20Cam%20Giydirme%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum.) [Telefon](tel:+905525826959)
 
 ## Bu hizmet nedir?
 
@@ -3488,7 +1883,7 @@ Ofis gizlilik paketi ofis branding ile birlikte yönetilebilir; malzeme bilgisi 
 
 Mağaza kampanyalarında hızlı yenileme avantajı sağlar.
 
-Tekirdağ geo: /hizmet-bolge/tekirdag-cam-giydirme/.
+Tekirdağ mağaza vitrinlerinde keşif sonrası uygulanır.
 
 Cam giydirme; one way vision, transparan/baskılı folyo ve vitrin grafiklerini kapsar. Window graphics aynı ailedir.
 
@@ -3558,14 +1953,6 @@ OWV eğitimi bilgi sayfasında; ticari uygulama bu URL’dedir.
 
 Sabit internet fiyat listesi yayınlanmaz; keşif sonrası net teklif verilir.
 
-Faktör eğitimi için /bilgi/tabela-fiyati/ rehberine bakabilirsiniz.
-
-## Süre ve planlama
-
-Tasarım onayı sonrası süre işin ölçeğine göre değişir.
-
-Acil işler operasyon kapasitesine göre değerlendirilir; garanti edilemeyen vaat verilmez.
-
 ## Bakım ve sonrası
 
 Temizlikte aşındırıcı sünger kullanılmamalıdır.
@@ -3574,67 +1961,13 @@ Kampanya sonunda kontrollü söküm planlanır.
 
 Buğu veya kenar kalkması görülürse erken müdahale önerilir.
 
-## Uygulama notları
+## Süleymanpaşa ve çevre ilçelerde montaj
 
-Vitrinde mesaj hiyerarşisi bozulursa ürün değil kalabalık görünür; sade brief daha iyidir.
+Keşif ve montaj Tekirdağ Süleymanpaşa atölyesinden planlanır.
 
-OWV delik oranı iç aydınlatmaya göre seçilir; karanlık mağazada görüş zayıflayabilir.
+Adres, saat ve iletişim: [Malt Studio Tekirdağ atölye ve iletişim](https://maltstudio.co/bolgeler/tekirdag/) .
 
-Frosted görünüm mahremiyet isterken marka logosunu boğmamalıdır.
-
-Köşe ve fitil detayı uygulama kalitesinin göstergesidir.
-
-Kampanya folyosu sabit tabela gibi düşünülmemelidir; yenileme döngüsü baştan planlanır.
-
-Plaza camında yönetim kuralları yapışkan tipini kısıtlayabilir.
-
-Araç camı filo işlerinde araç giydirme kapsamında ele alınır.
-
-Baskı çözünürlüğü vitrin mesafesine göre seçilir.
-
-Güneşe bakan cephede solma riski konuşulur; mucize vaadi yok.
-
-Kapı camında açılır-kapanır tolerans bırakılır.
-
-Ofis gizlilik paketleri Ofis Branding ile birlikte yönetilebilir.
-
-Tekirdağ cam giydirme için yerel sayfamıza bakabilirsiniz.
-
-## Karar ve teslim özeti
-
-Cam giydirme görünürlük ile gizlilik arasında denge kurar. OWV, frosted ve opak yolları ihtiyaca göre seçilir; her vitrin aynı reçeteyi istemez. Kirli cam ve kötü gergi en sık hata kaynağıdır. Kampanya yüzeyi sabit tabela gibi düşünülmez. Plaza kuralları yapışkan tipini kısıtlayabilir. Temizlikte aşındırıcı sünger kullanılmaz. Ofis gizlilik paketleri ofis branding ile birlikte yönetilebilir. Araç camı filo işlerinde araç giydirme kapsamına girer. Delik oranı iç aydınlatmayı etkiler. Kapı camında açılır-kapanır tolerans bırakılır. Baskı çözünürlüğü görüş mesafesine göre seçilir. Güneşe bakan cephede solma riski konuşulur; mucize vaadi yok. Kampanya bitiminde kontrollü söküm planlanır.
-
-Cam giydirmede ek yerleri mümkün olduğunca görüş hattı dışına alınır. Büyük vitrinde panel planı önceden çizilir. Gece aydınlatması grafiğin okunmasını değiştirir. Kapalı gün uygulama kalitesini yükseltir. Folyo kenarlarında kabarcık kontrolü yapılır. Kampanya takvimi varsa baskı ve söküm slotları peşinen konuşulur.
-
-Cam giydirme işinde başarı çoğu zaman baskıdan çok uygulamadadır. Toz, yağ filmi ve fitil kenarları hataları gizler. Büyük vitrinlerde panel planı önceden çizilmeden işe başlanmaz. Kampanya dönemlerinde sök-tak döngüsü için malzeme sınıfı baştan seçilir. Ofis camlarında mahremiyet ile marka dengesi brief’te yazılır. Gece vitrin aydınlatması grafiği farklı okutabilir; mümkünse akşam kontrolü yapılır. Uydurma metrekare fiyatı veya stok görsel kullanılmaz. Teslimde kenar kabarcığı ve ek yeri kontrol edilir. Kampanya slotu peşinen planlanırsa aksama riski düşer. Kapı camında açılır-kapanır tolerans bırakılır.
-
-Cam giydirme tesliminden sonra ilk temizlik yumuşak bezle yapılmalıdır. Fitil kenarlarına su baskısı uygulanmaz. Kampanya grafikleri sabit tabela gibi bırakılmaz; bitiş tarihi varsa söküm slotu peşinen konuşulur. Showroom camlarında ürün görünürlüğü ile marka mesajı dengelenir.
-
-## Keşif kontrol listesi
-
-- OWV, frosted ve opak ihtiyaçla seçilir.
-- Cam ölçüleri keşifte doğrulanır.
-- İç aydınlatma OWV dengesini etkiler.
-- Kampanya yüzeyi sabit tabela değildir.
-- Plaza yapışkan kuralları sorulur.
-- Kapı camında tolerans bırakılır.
-- Aşındırıcı temizlik önerilmez.
-- Söküm kampanya bitiminde planlanır.
-- Araç camı filo işinde araç giydirmededir.
-- Ek yerleri görüş hattı dışına alınır.
-- Mesaj hiyerarşisi sade tutulur.
-- Ofis gizlilik paketi ofis branding ile yönetilebilir.
-- Onaylı görsel olmadan baskı başlamaz.
-- Kapalı gün uygulama kalitesini yükseltir.
-- Solma riski konuşulur; mucize vaadi yok.
-- Baskı çözünürlüğü mesafeye göre seçilir.
-- Kanıt fotoğrafı planlanır.
-
-## Tekirdağ’da bu hizmet
-
-Tekirdağ’da cam giydirme uygulamaları için yerel sayfamız: /hizmet-bolge/tekirdag-cam-giydirme/.
-
-[WhatsApp ile Teklif](https://wa.me/905525826959?text=Merhaba%2C%20Cam%20Giydirme%20i%C3%A7in%20ke%C5%9Fif%20istiyorum.) [Teklif](https://maltstudio.co/#teklif) [Ara](tel:+905525826959)
+[WhatsApp ile Teklif](https://wa.me/905525826959?text=Merhaba%2C%20Tekirda%C4%9F%20Cam%20Giydirme%20i%C3%A7in%20ke%C5%9Fif%20istiyorum.) [Teklif](https://maltstudio.co/#teklif) [Ara](tel:+905525826959)
 
 ## İlgili hizmetler
 
@@ -3659,22 +1992,6 @@ Tekirdağ’da cam giydirme uygulamaları için yerel sayfamız: /hizmet-bolge/t
 ###
 
 [RehberKarar vermenize yardımcı rehber.Bilgi](https://maltstudio.co/bilgi/one-way-vision-nedir/)
-
-## İlgili projeler
-
-###
-
-[Liman KahveTamamlanan proje örneği.Proje](https://maltstudio.co/projeler/liman-kahve/)
-
-###
-
-[DörtnalTamamlanan proje örneği.Proje](https://maltstudio.co/projeler/dortnal/)
-
-###
-
-[Ekip YazılımTamamlanan proje örneği.Proje](https://maltstudio.co/projeler/ekip-yazilim/)
-
-[Tüm projeler →](https://maltstudio.co/projeler/)
 
 ## İlgili sektörler
 
@@ -3743,217 +2060,9 @@ Tasarım?
 Mesaj hiyerarşisi okunur tutulur.
 
 
-<!-- page: https://maltstudio.co/hizmet-bolge/tekirdag-cam-giydirme/ -->
-
-# Tekirdağ Cam Giydirme | Yerel Üretim ve Montaj
-
-> Tekirdağ cam giydirme üretimi ve montajı. Cam giydirme, one way vision, vitrin ve cam folyo uygulamaları.
-
-- Canonical HTML: https://maltstudio.co/hizmet-bolge/tekirdag-cam-giydirme/
-- Markdown twin: https://maltstudio.co/hizmet-bolge/tekirdag-cam-giydirme/index.html.md
-- Site: https://maltstudio.co/
-
----
-
-Tekirdağ’da Hizmet
-
-# Tekirdağ Cam Giydirme
-
-Tekirdağ mağaza vitrinlerinde OWV ve kampanya folyosu hızlı yenilenebilir yüzey sağlar.
-[WhatsApp](https://wa.me/905525826959?text=Merhaba%2C%20Tekirda%C4%9F%20Cam%20Giydirme%20teklifi%20istiyorum.) [Ara](tel:+905525826959) [Cam Giydirme (genel)](https://maltstudio.co/hizmetler/cam-giydirme/)
-
-## Tekirdağ’da cam giydirme
-
-Tekirdağ mağaza vitrinlerinde OWV ve kampanya folyosu hızlı yenilenebilir yüzey sağlar.
-
-Cam giydirme; OWV, transparan/baskılı folyo ve vitrin grafiklerini kapsar.
-
-Window graphics / cam yazısı / vitrin reklamı aynı ailededir; ayrı URL yok.
-
-Bu sayfa Tekirdağ’daki yerel üretim, montaj ve lojistik bağlamını taşır.
-
-Süleymanpaşa ve merkez talepleri bu sayfada toplanır.
-
-## Yerel uygulamalar
-
-- Mağaza vitrini
-- Showroom
-- Ofis cam bölme
-- Kampanya dönemleri
-- Giriş cephe camı
-
-Mağaza vitrinlerinde kampanya ve vitrin kimliği.
-
-Showroom cephelerinde ürün/marka anlatımı.
-
-Ofis cam bölmelerinde sade gizlilik veya kurumsal desen.
-
-Giriş cephe camlarında yön ve karşılama mesajı.
-
-## Üretim ve montaj lojistiği
-
-Ofis gizlilik paketi ofis branding ile birlikte yönetilebilir; malzeme bilgisi burada.
-
-Keşif, üretim ve saha montajı Tekirdağ üssünden koordine edilir. Çevre ilçe ve OSB sahalarında lojistik teklife yansır.
-
-Montaj penceresi işletme saatleri ve saha erişimine göre planlanır.
-
-Cam temizliği ve köşe detayı uygulama kalitesini belirler.
-
-Kampanya işlerinde hızlı yenileme için sökülebilir setler planlanabilir.
-
-Büyük yüzeylerde eklem ve gergi hatası okumayı bozar — keşif ölçüsü şarttır.
-
-## Süreç
-
-1. **Keşif:** Ölçü, yüzey, erişim ve ihtiyaç netleştirilir.
-2. **Tasarım onayı:** Görsel ve teknik onay alınır.
-3. **Üretim:** Atölyede imalat ve kontrol.
-4. **Uygulama:** Saha montajı / giydirme.
-5. **Teslim:** Kontrol ve teslim notları.
-
-## Üretim, deneyim ve yerel uzmanlık
-
-Malt Studio Tekirdağ merkezli çalışır. Bu yerel hizmet içeriği; atölye üretimi, saha keşfi ve montajın aynı operasyonel hatta planlandığı gerçek iş modeline dayanır. Şube sayısı, uydurma sertifika, sahte yorum veya proje metriği eklenmez.
-
-- **Deneyim:** Keşif notları (ölçü, yüzey, erişim, işletme saati) teklif ve üretimi şekillendirir.
-- **Üretim:** Ölçüye özel imalat; stok tabela mantığı yerine yüzeye ve markaya göre üretim.
-- **Kalite süreci:** Atölye kontrolü → saha hizalama/sabitleme → teslim kontrolü.
-- **Yerel uzmanlık:** Tekirdağ üssünden merkez ve çevre ilçe işleri planlanır; Süleymanpaşa dahil merkez ve çevre ilçelere hizmet verilir.
-- **Kanıt:** Gerçek fotoğraflar proje sayfalarına bağlanır; stok görsel kullanılmaz.
-
-## Yerel fiyat faktörleri
-
-One way vision, transparan folyo, kumlama/frosted, baskılı vinil.
-
-Tekirdağ içi erişim genelde standarttır; vinç, yükseklik, izin ve OSB girişi ek maliyet doğurabilir.
-
-Net rakam keşif sonrası verilir.
-
-## Bakım (yerel)
-
-Temizlikte aşındırıcı sünger kullanılmamalıdır.
-
-Kampanya sonunda kontrollü söküm planlanır.
-
-Buğu veya kenar kalkması görülürse erken müdahale önerilir.
-
-[WhatsApp ile Teklif](https://wa.me/905525826959?text=Tekirda%C4%9F%20Cam%20Giydirme%20ke%C5%9Fif) [Teklif](https://maltstudio.co/#teklif) [Ara](tel:+905525826959)
-
-## İlgili hizmetler
-
-###
-
-[Cam GiydirmeCam Giydirme genel hizmet sayfası.Hizmet](https://maltstudio.co/hizmetler/cam-giydirme/)
-
-###
-
-[Işıklı TabelaIşıklı Tabela hizmeti.Hizmet](https://maltstudio.co/hizmetler/isikli-tabela/)
-
-###
-
-[Ofis BrandingOfis Branding hizmeti.Hizmet](https://maltstudio.co/hizmetler/ofis-branding/)
-
-###
-
-[TabelaTabela hizmeti.Hizmet](https://maltstudio.co/hizmetler/tabela/)
-
-## İlgili rehberler
-
-###
-
-[RehberEğitim.Bilgi](https://maltstudio.co/bilgi/one-way-vision-nedir/)
-
-## İlgili projeler
-
-###
-
-[Liman KahveTamamlanan proje örneği.Proje](https://maltstudio.co/projeler/liman-kahve/)
-
-###
-
-[DörtnalTamamlanan proje örneği.Proje](https://maltstudio.co/projeler/dortnal/)
-
-###
-
-[Ekip YazılımTamamlanan proje örneği.Proje](https://maltstudio.co/projeler/ekip-yazilim/)
-
-[Tüm projeler →](https://maltstudio.co/projeler/)
-
-## İlgili sektörler
-
-###
-
-[PerakendeSektöre özel çözümler.Sektör](https://maltstudio.co/sektorler/perakende/)
-
-###
-
-[Restoran & CafeSektöre özel çözümler.Sektör](https://maltstudio.co/sektorler/restoran-cafe/)
-
-## Keşfet
-
-###
-
-[TekirdağTekirdağ yerel hizmet rehberi.Keşif](https://maltstudio.co/bolgeler/tekirdag/)
-
-###
-
-[HizmetlerTüm hizmetlerimize göz atın.Keşif](https://maltstudio.co/hizmetler/)
-
-###
-
-[ProjelerTamamladığımız işlerden örnekler.Keşif](https://maltstudio.co/projeler/)
-
-###
-
-[Ana sayfaMalt Studio ana sayfa.Keşif](https://maltstudio.co/)
-
-## İlgili Tekirdağ sayfaları
-
-###
-
-[Tekirdağ TabelaTekirdağ’da tabela üretimi ve montajı.Yerel](https://maltstudio.co/hizmet-bolge/tekirdag-tabela/)
-
-###
-
-[Tekirdağ Işıklı TabelaTekirdağ’da ışıklı tabela hizmeti.Yerel](https://maltstudio.co/hizmet-bolge/tekirdag-isikli-tabela/)
-
-###
-
-[Tekirdağ Kutu HarfTekirdağ’da kutu harf üretimi.Yerel](https://maltstudio.co/hizmet-bolge/tekirdag-kutu-harf/)
-
-###
-
-[Tekirdağ TotemTekirdağ’da totem tabela uygulamaları.Yerel](https://maltstudio.co/hizmet-bolge/tekirdag-totem/)
-
-###
-
-[Tekirdağ Araç GiydirmeTekirdağ’da araç giydirme hizmeti.Yerel](https://maltstudio.co/hizmet-bolge/tekirdag-arac-giydirme/)
-
-## Sık sorulan sorular
-Tekirdağ’da cam giydirme yaptırabilir miyim?
-
-Evet, Tekirdağ’da cam giydirme uygulamaları yapıyoruz.
-Genel hizmet sayfasından farkı?
-
-Bu sayfa özellikle Tekirdağ’daki müşterilerimize yöneliktir.
-Süleymanpaşa ayrı mı?
-
-Hayır; Süleymanpaşa talepleri Tekirdağ hizmet sayfalarında toplanır.
-Fiyat?
-
-Yerel erişim + ölçü/malzeme/montaj keşifle netleşir.
-Keşif?
-
-Tekirdağ üssünden planlanır.
-Proje örneği?
-
-İlgili proje sayfalarına bakın; görseller eklendikçe güçlenir.
-
-
 <!-- page: https://maltstudio.co/hizmetler/lightbox/ -->
 
-# Lightbox | Işıklı Kutu ve Backlit Frame
+# Tekirdağ Lightbox Tabela | Işıklı Kutu ve Backlit | Malt Studio
 
 > Lightbox, ışıklı kutu, SEG ve backlit frame sistemleri.
 
@@ -3965,16 +2074,16 @@ Proje örneği?
 
 Hizmet
 
-# Lightbox
+# Tekirdağ Lightbox Tabela
 
 İnce kasa lightbox ve ışıklı kutu sistemleriyle premium aydınlatmalı görsel alanlar.
-[Teklif Al](https://wa.me/905525826959?text=Merhaba%2C%20Lightbox%20hakk%C4%B1nda%20teklif%20almak%20istiyorum.) [WhatsApp](https://wa.me/905525826959?text=Merhaba%2C%20Lightbox%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum.) [Telefon · 0552 582 69 59](tel:+905525826959)
+[Teklif Al](https://wa.me/905525826959?text=Merhaba%2C%20Tekirda%C4%9F%20Lightbox%20Tabela%20hakk%C4%B1nda%20teklif%20almak%20istiyorum.) [WhatsApp](https://wa.me/905525826959?text=Merhaba%2C%20Tekirda%C4%9F%20Lightbox%20Tabela%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum.) [Telefon](tel:+905525826959)
 
 ## Bu hizmet nedir?
 
 Lightbox; arkadan veya kenardan aydınlatmalı çerçeve sistemidir. Retail ve AVM’de sık tercih edilir.
 
-PK lock: ışıklı tabela / LED tabela → /hizmetler/isikli-tabela/. Bu sayfa lightbox ailesidir.
+Işıklı tabela / LED cephe sistemleri ayrı sayfadadır: /hizmetler/isikli-tabela/. Bu sayfa lightbox ailesidir.
 
 SEG / backlit fabric hızlı görsel değişimi sağlar.
 
@@ -4038,8 +2147,6 @@ Malt Studio Tekirdağ merkezli çalışır. Bu hizmet içeriği; atölye üretim
 
 ## Deneyim ve üretim
 
-Lightbox ile ışıklı tabela ayrımı bilinçli tutulur; kullanıcıyı yanlış ürüne sürüklememek EEAT’nin parçasıdır.
-
 Yerel talep Tekirdağ üssünden keşif ile yönetilir.
 
 ## Fiyatı neler etkiler?
@@ -4047,14 +2154,6 @@ Yerel talep Tekirdağ üssünden keşif ile yönetilir.
 Ölçü, malzeme, ışıklı/özel üretim, montaj yüksekliği, saha lojistiği ve adet fiyatı belirler.
 
 Sabit internet fiyat listesi yayınlanmaz; keşif sonrası net teklif verilir.
-
-Faktör eğitimi için /bilgi/tabela-fiyati/ rehberine bakabilirsiniz.
-
-## Süre ve planlama
-
-Tasarım onayı sonrası süre işin ölçeğine göre değişir.
-
-Acil işler operasyon kapasitesine göre değerlendirilir; garanti edilemeyen vaat verilmez.
 
 ## Bakım ve sonrası
 
@@ -4064,69 +2163,13 @@ LED arızasında servis erişimi kasa tipine bağlıdır.
 
 AVM kuralları varsa uygulama penceresi ona göre planlanır.
 
-## Uygulama notları
+## Süleymanpaşa ve çevre ilçelerde montaj
 
-Lightbox’ta kumaş gergisi bozulursa ışık lekesi oluşur; SEG kenar kalitesi kritiktir.
+Keşif ve montaj Tekirdağ Süleymanpaşa atölyesinden planlanır.
 
-AVM kuralları kasa tipi ve montaj saatini belirleyebilir.
+Adres, saat ve iletişim: [Malt Studio Tekirdağ atölye ve iletişim](https://maltstudio.co/bolgeler/tekirdag/) .
 
-Görsel değişim sıklığı yüksekse SEG avantajı öne çıkar.
-
-Cephe LED tabela ihtiyacı buraya düşmemelidir; Işıklı Tabela owner’ıdır.
-
-Resepsiyon duvarında lightbox + ofis branding birlikte planlanabilir.
-
-İnce kasa isteği elektrik ve soğutma ihtiyacıyla dengelenir.
-
-Serviste kumaş değişimi ile LED değişimi ayrı kalemlerdir.
-
-Görsel dosyası renk profili bozulmadan istenmelidir.
-
-Asma tavan veya alçıpan taşıma kapasitesi keşifte kontrol edilir.
-
-Sürekli açık lightbox’ta ısı yönetimi konuşulur.
-
-Kumaş stoğu müşteriye teslim edilmezse sonraki değişim için saklama planı yapılır.
-
-Keşif Tekirdağ üssünden planlanır.
-
-## Karar ve teslim özeti
-
-Lightbox, ışıklı kutu/frame ailesidir ve cephe LED tabeladan bilinçli ayrılır. SEG ve backlit fabric hızlı görsel değişim ister. Kasa tipi mekân, elektrik ve askı yöntemine göre seçilir. AVM kuralları saat ve malzemeyi etkileyebilir. Kumaş gergisi bozulursa ışık lekesi oluşur. Serviste kumaş değişimi ile LED değişimi ayrı kalemlerdir. Görsel dosyası renk profili korunarak istenmelidir. Asma tavan taşıma kapasitesi keşifte kontrol edilir. Sürekli açık sistemlerde ısı yönetimi konuşulur. Resepsiyon duvarında ofis branding ile birlikte planlanabilir. Uydurma stok adedi veya sahte ömür yılı eklenmez. Mağaza içi, showroom ve klinik bekleme tipik alanlardır. Yanlışlıkla cephe tabela talebi Işıklı Tabela’ya yönlendirilir.
-
-Lightbox görsellerinde güvenli alan (safe margin) bırakılır. Kumaş kırışıklığı teslim öncesi giderilir. Duvar tipi alçıpan ise ek taşıyıcı gerekebilir. Sürekli açık/kapalı senaryosu LED tipini etkiler. Müşteri görsel değişimini kendi yapacaksa kısa eğitim verilebilir. Magazin/AVM güvenlik prosedürlerine uyulur.
-
-Lightbox projelerinde mekân ölçüsü, askı yöntemi ve görsel değişim sıklığı birlikte okunur. SEG tercihinde kumaş gergisi teslim kalitesinin göstergesidir. AVM veya plaza kuralları montaj saatini kısıtlayabilir. Cephe LED tabela isteyen müşteri bilinçli biçimde Işıklı Tabela’ya yönlendirilir; Servis kalemleri kumaş ve LED olarak ayrılır. Uydurma ömür yılı eklenmez. Görsel safe margin bırakılır. Sürekli açık senaryoda ısı yönetimi konuşulur.
-
-Lightbox tesliminde uzaktan kumanda veya sensör istenirse ayrıca konuşulur; standart varsayılmaz. Kumaş yedek baskı opsiyoneldir. Duvar arkası kablo gizliği keşifte planlanır. Retail değişim sıklığı yüksekse SEG avantajı tekrar hatırlatılır.
-
-## Keşif kontrol listesi
-
-- Cephe LED tabela ihtiyacı Işıklı Tabela’yadır.
-- SEG veya akrilik yüz mekâna göre seçilir.
-- Duvar taşıma kapasitesi kontrol edilir.
-- Elektrik noktası keşifte doğrulanır.
-- Görselde safe margin bırakılır.
-- AVM kuralları saat ve malzemeyi etkiler.
-- Kumaş değişim sıklığı malzeme kararını etkiler.
-- İnce kasa isteği servisle dengelenir.
-- LED servis erişimi tasarımda bırakılır.
-- Renk profili bozulmadan dosya istenir.
-- Asma planı onaysız uygulanmaz.
-- Ofis branding ile paketlenebilir.
-- Teslimde gergi ve ışık homojenliği kontrol edilir.
-- Uydurma stok adedi yazılmaz.
-- Müşteri değişimi yapacaksa kısa eğitim verilebilir.
-- Sürekli açık senaryosu LED tipini etkiler.
-- Kanıt fotoğrafı planlanır.
-
-## Yerel bağlantı
-
-Yerel keşif ve montaj Tekirdağ üssünden planlanır.
-
-Detay için /bolgeler/tekirdag/ sayfasına bakabilirsiniz.
-
-[WhatsApp ile Teklif](https://wa.me/905525826959?text=Merhaba%2C%20Lightbox%20i%C3%A7in%20ke%C5%9Fif%20istiyorum.) [Teklif](https://maltstudio.co/#teklif) [Ara](tel:+905525826959)
+[WhatsApp ile Teklif](https://wa.me/905525826959?text=Merhaba%2C%20Tekirda%C4%9F%20Lightbox%20Tabela%20i%C3%A7in%20ke%C5%9Fif%20istiyorum.) [Teklif](https://maltstudio.co/#teklif) [Ara](tel:+905525826959)
 
 ## İlgili hizmetler
 
@@ -4151,22 +2194,6 @@ Detay için /bolgeler/tekirdag/ sayfasına bakabilirsiniz.
 ###
 
 [RehberKarar vermenize yardımcı rehber.Bilgi](https://maltstudio.co/bilgi/isikli-mi-isiksiz-mi/)
-
-## İlgili projeler
-
-###
-
-[Mera OtelTamamlanan proje örneği.Proje](https://maltstudio.co/projeler/mera-otel/)
-
-###
-
-[DörtnalTamamlanan proje örneği.Proje](https://maltstudio.co/projeler/dortnal/)
-
-###
-
-[Ekip YazılımTamamlanan proje örneği.Proje](https://maltstudio.co/projeler/ekip-yazilim/)
-
-[Tüm projeler →](https://maltstudio.co/projeler/)
 
 ## İlgili sektörler
 
@@ -4252,7 +2279,7 @@ Hizmet
 # Display & POS
 
 Taşınabilir display ve POS: roll-up, X-banner, beach flag ve teşhir.
-[Teklif Al](https://wa.me/905525826959?text=Merhaba%2C%20Display%20%26%20POS%20hakk%C4%B1nda%20teklif%20almak%20istiyorum.) [WhatsApp](https://wa.me/905525826959?text=Merhaba%2C%20Display%20%26%20POS%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum.) [Telefon · 0552 582 69 59](tel:+905525826959)
+[Teklif Al](https://wa.me/905525826959?text=Merhaba%2C%20Display%20%26%20POS%20hakk%C4%B1nda%20teklif%20almak%20istiyorum.) [WhatsApp](https://wa.me/905525826959?text=Merhaba%2C%20Display%20%26%20POS%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum.) [Telefon](tel:+905525826959)
 
 ## Bu hizmet nedir?
 
@@ -4332,14 +2359,6 @@ Kalıcı cephe/totem ihtiyacı yanlışlıkla buraya düşerse Totem veya Tabela
 
 Sabit internet fiyat listesi yayınlanmaz; keşif sonrası net teklif verilir.
 
-Faktör eğitimi için /bilgi/tabela-fiyati/ rehberine bakabilirsiniz.
-
-## Süre ve planlama
-
-Tasarım onayı sonrası süre işin ölçeğine göre değişir.
-
-Acil işler operasyon kapasitesine göre değerlendirilir; garanti edilemeyen vaat verilmez.
-
 ## Bakım ve sonrası
 
 Kısa ömürlü POS’ta ‘ömür garantisi’ beklenmez; yenileme modeli konuşulur.
@@ -4348,68 +2367,11 @@ Roll-up mekaniklerinde dikkatli taşıma şarttır.
 
 Depolama koşulları baskı ömrünü etkiler.
 
-## Uygulama notları
+## Süleymanpaşa ve çevre ilçelerde montaj
 
-POS ömrü kısa olabilir; malzeme sınıfı kullanım süresine göre seçilir.
+Keşif ve montaj Tekirdağ Süleymanpaşa atölyesinden planlanır.
 
-Fuar standında taşıma ve kurulum süresi brief’in parçasıdır.
-
-Outdoor kalıcı totem ihtiyacı Display sayfasında çözülmez.
-
-Tekrarlayan kampanyalarda baskı şablonu saklanır.
-
-Roll-up mekaniği ucuz ama hassastır; taşıma eğitimi gerekir.
-
-Adet arttıkça birim maliyet düşebilir; peşin oran vaadi yoktur.
-
-Şantiye panoları geçici ise söküm planı baştan konuşulur.
-
-Taşıma çantası ve yedek ayak gibi aksesuarlar pakete eklenebilir.
-
-Dış mekân kısa süreli kullanımda rüzgâr riski vardır.
-
-Baskı prooflu onay büyük adetlerde hatayı azaltır.
-
-Depolama nemi baskıyı bozabilir; müşteriye not düşülür.
-
-Kalıcı cephe ihtiyacı Tabela/Totem’e yönlendirilir.
-
-## Karar ve teslim özeti
-
-Display ve POS kısa–orta ömürlü görünürlük içindir. Kalıcı outdoor totem buraya zorlanmaz. Malzeme sınıfı kullanım süresine göre seçilir; fuar ile mağaza içi farklıdır. Tekrarlayan kampanyalarda şablon saklanır. Roll-up mekanikleri taşımaya hassastır. Adet arttıkça birim maliyet düşebilir ama peşin oran ilan edilmez. Şantiye panolarında söküm planı baştan konuşulur. Taşıma çantası ve yedek ayak pakete eklenebilir. Dış mekân kısa kullanımda rüzgâr riski vardır. Baskı prooflu onay büyük adetlerde hatayı azaltır. Depolama nemi baskıyı bozabilir. Yanlışlıkla cephe tabela talebi gelirse Tabela veya Totem’e yönlendirilir. Amaç satış anında veya etkinlikte hızlı kurulan yüzeyi sağlamaktır. Uydurma stok adedi yazılmaz.
-
-Display işlerinde kargo hasarı riski ambalajla azaltılır. Kurulum gerektiren standlarda zemin tipi not edilir. Kısa süreli açık hava kullanımında su riski konuşulur. Baskı sonrası kuruma/laminasyon ihtiyacı modele bağlıdır. Müşteri deposunda saklama koşulları hatırlatılır. Yeniden baskı için kaynak dosya saklanır.
-
-Display ve POS üretiminde hız önemlidir ama dayanım sınıfı kullanım süresine göre seçilmeden hızlandırılmaz. Fuar standı ile mağaza içi shelf talker aynı reçete değildir. Taşıma ve kurulum adımları brief’e yazılır. Açık hava kısa kullanımında ıslanma ve rüzgâr riski müşteriye anlatılır. Tekrarlayan kampanyalarda baskı şablonu saklanır; kaynak dosya kaybolursa yeniden iş bedeli doğabilir. Kalıcı cephe veya tesis totemi talebi geldiğinde Totem/Tabela sayfalarına yönlendirilir. Uydurma stok ve sahte adet yazılmaz. Kurulumda zemin tipi not edilir. Yeniden baskı için kaynak dosya saklanır. Ambalaj kargo hasarını azaltmak için güçlendirilir. Kısa ömürlü işte ‘ömür garantisi’ beklenmez.
-
-Display ve POS tesliminde kurulum kılavuzu kısa tutulur. Mekanik aksamlar taşımada ayrı korunur. Mağaza içi yerleşimde yangın çıkışı ve koridor genişliği engellenmez. Sezon sonunda söküm veya depolama seçenekleri konuşulur. Kalıcı dış tabela ihtiyacı bu paketin parçası değildir ve ilgili hizmete yönlendirilir. Baskı renkleri mağaza aydınlatmasına göre kontrol edilir. Tekrar siparişte önceki şablon referans alınır. Açılış günü kurulum penceresi peşinen rezerve edilir. Yedek baskı adedi opsiyonel kalem olarak teklife yazılabilir.
-
-## Keşif kontrol listesi
-
-- Kalıcı outdoor totem Totem sayfasınadır.
-- Kullanım süresi malzeme sınıfını belirler.
-- İç/dış ortam ayrımı başta yapılır.
-- Büyük adette baskı proof istenir.
-- Kargo hasarı ambalajla azaltılır.
-- Kurulum gerektiren standlarda zemin tipi not edilir.
-- Açık havada rüzgâr riski konuşulur.
-- Depolama nemi hatırlatılır.
-- Tekrarlayan işte şablon saklanır.
-- Roll-up taşıma hassasiyeti anlatılır.
-- Şantiye panolarında söküm planı vardır.
-- Aksesuarlar pakete eklenebilir.
-- Cephe tabela talebi ilgili hizmete yönlenir.
-- Teklif kalemleri net yazılır.
-- Yeniden baskı için kaynak dosya tutulur.
-- Fuar ve mağaza içi farklı reçetelerdir.
-- Uydurma stok adedi yoktur.
-- Kanıt fotoğrafı planlanır.
-
-## Yerel bağlantı
-
-Yerel keşif ve montaj Tekirdağ üssünden planlanır.
-
-Detay için /bolgeler/tekirdag/ sayfasına bakabilirsiniz.
+Adres, saat ve iletişim: [Malt Studio Tekirdağ atölye ve iletişim](https://maltstudio.co/bolgeler/tekirdag/) .
 
 [WhatsApp ile Teklif](https://wa.me/905525826959?text=Merhaba%2C%20Display%20%26%20POS%20i%C3%A7in%20ke%C5%9Fif%20istiyorum.) [Teklif](https://maltstudio.co/#teklif) [Ara](tel:+905525826959)
 
@@ -4436,18 +2398,6 @@ Detay için /bolgeler/tekirdag/ sayfasına bakabilirsiniz.
 ###
 
 [RehberKarar vermenize yardımcı rehber.Bilgi](https://maltstudio.co/bilgi/tabela-cesitleri/)
-
-## İlgili projeler
-
-###
-
-[DörtnalTamamlanan proje örneği.Proje](https://maltstudio.co/projeler/dortnal/)
-
-###
-
-[Liman KahveTamamlanan proje örneği.Proje](https://maltstudio.co/projeler/liman-kahve/)
-
-[Tüm projeler →](https://maltstudio.co/projeler/)
 
 ## İlgili sektörler
 
@@ -4529,7 +2479,7 @@ Hizmet
 # Ofis Branding
 
 Resepsiyon, lobi ve toplantı alanlarında kurumsal kimliğin mekâna uygulanması.
-[Teklif Al](https://wa.me/905525826959?text=Merhaba%2C%20Ofis%20Branding%20hakk%C4%B1nda%20teklif%20almak%20istiyorum.) [WhatsApp](https://wa.me/905525826959?text=Merhaba%2C%20Ofis%20Branding%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum.) [Telefon · 0552 582 69 59](tel:+905525826959)
+[Teklif Al](https://wa.me/905525826959?text=Merhaba%2C%20Ofis%20Branding%20hakk%C4%B1nda%20teklif%20almak%20istiyorum.) [WhatsApp](https://wa.me/905525826959?text=Merhaba%2C%20Ofis%20Branding%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum.) [Telefon](tel:+905525826959)
 
 ## Bu hizmet nedir?
 
@@ -4609,14 +2559,6 @@ Uydurma ‘X ofiste uygulandı’ metriği eklenmez; proje sayfaları kanıt kap
 
 Sabit internet fiyat listesi yayınlanmaz; keşif sonrası net teklif verilir.
 
-Faktör eğitimi için /bilgi/tabela-fiyati/ rehberine bakabilirsiniz.
-
-## Süre ve planlama
-
-Tasarım onayı sonrası süre işin ölçeğine göre değişir.
-
-Acil işler operasyon kapasitesine göre değerlendirilir; garanti edilemeyen vaat verilmez.
-
 ## Bakım ve sonrası
 
 Cam ve folyo temizliği aşındırıcı olmadan yapılmalıdır.
@@ -4625,68 +2567,11 @@ Yenileme veya ek oda işaretleri aynı hat üzerinden eklenir.
 
 Söküm gerektiğinde yüzey koruması konuşulur.
 
-## Uygulama notları
+## Süleymanpaşa ve çevre ilçelerde montaj
 
-Ofis işinde ilk izlenim resepsiyonda kurulur; koridor işaretleri ikinci katmandır.
+Keşif ve montaj Tekirdağ Süleymanpaşa atölyesinden planlanır.
 
-Plaza yönetimi onayı gecikirse takvim kayar; keşifte sorulur.
-
-Cam folyo ile kutu harf aynı günde uygulanabilir ama alan sırası planlanır.
-
-Aşırı logo tekrarı kurumsal algıyı zayıflatır; sade dil tercih edilir.
-
-Mesai içi uygulama gürültü/kesinti yaratabilir; alternatif pencere sunulur.
-
-Kapı isimlikleri pakete eklenebilir; standart set varsayılmaz.
-
-İç mekân için ayrı ‘giydirme’ URL’si açılmaz — paket burada kalır.
-
-Koridor uzunsa işaret sıklığı abartılmadan planlanır.
-
-Camda marka + yön birlikte verilecekse hiyerarşi kurulur.
-
-Renkler marka kılavuzundan sapmadan tutulur.
-
-Uygulama sonrası yapışkan gazı için havalandırma önerilebilir.
-
-Kanıt için proje sayfalarına gerçek fotoğraf bağlanır.
-
-## Karar ve teslim özeti
-
-Ofis branding workplace’te tutarlı ilk izlenim üretir. Resepsiyon, cam ve koridor işaretleri aynı dilde tutulur; aşırı logo tekrarı zayıflatır. Plaza yönetimi onayı takvimi etkiler. Cam folyo malzemesi cam giydirme ile paylaşılır, paket burada yönetilir. Mesai içi kesinti riski varsa alternatif pencere sunulur. Kapı isimlikleri opsiyoneldir. Koridor uzunsa işaret sıklığı abartılmaz. Renkler marka kılavuzundan sapmadan tutulur. Uygulama sonrası yapışkan kokusu için havalandırma önerilebilir. Kanıt proje sayfalarına gerçek fotoğrafla bağlanır; uydurma ofis sayısı yazılmaz. İç mekân için yeni URL açılmaz. Kutu harf ihtiyacı varsa ilgili hizmetle birlikte aşamalandırılır. Klinik ve plaza ofisleri sakin dil ister.
-
-Ofis keşfinde elektrik prizi, cam tipi ve güvenlik kartı erişimi not edilir. Renk örneği onaylanmadan toplu baskı yapılmaz. Sessiz alanlarda düşük gürültülü uygulama tercih edilir. Teslimde yapışma ve hizalama kontrol listesi işlenir. Ek oda talepleri aynı proje koduna bağlanabilir. Marka kılavuzu yoksa sade sistem önerilir.
-
-Ofis branding’de sessiz ve tutarlı dil, kalabalık grafikten daha güçlü ilk izlenim bırakır. Resepsiyon, cam ve koridor aynı sistemin parçalarıdır. Plaza kartı/erişim ve yönetim onayı takvimi belirler. Cam folyo ihtiyacı malzemede cam giydirme ile paylaşılsa da paket burada yönetilir. Mesai içi kesinti riski varsa alternatif pencere sunulur. Yeni URL açılmaz. Kanıt için gerçek ofis fotoğrafları proje sayfalarına eklenene kadar noindex kapısı proje tarafında durur. Uydurma ofis sayısı yazılmaz. Renk örneği onayı toplu baskıdan önce alınır. Koridor işaret sıklığı abartılmaz. Ek oda talepleri aynı hatta bağlanır.
-
-Ofis tesliminde yapışkan artığı ve hizalama sapması kontrol edilir. Yeni çalışan karşılama yüzeyleri sonradan eklenebilir. Marka renkleri monitör ile gerçek yüzey farkı için örnekle doğrulanır. Plaza ortak alan kuralları ihlal edilmez. Sessiz alanlarda düşük gürültülü uygulama tercih edilir. Toplantı odası camlarında sade yön ve isim hiyerarşisi korunur.
-
-## Keşif kontrol listesi
-
-- Plaza yönetimi onayı takvimi etkiler.
-- Alan listesi olmadan paket çıkmaz.
-- Cam folyo ile kutu harf ihtiyaçları ayrılır.
-- Mesai penceresi kesintiye göre seçilir.
-- Marka kılavuzu yoksa sade sistem önerilir.
-- Aşırı logo tekrarı engellenir.
-- Kapı isimliği opsiyonel kalemdir.
-- Saf cam uygulaması cam giydirme ile paylaşılabilir.
-- Renk örneği onayı toplu baskıdan önce alınır.
-- Gürültü riski olan alanlar planlanır.
-- Yeni iç mekân URL’si açılmaz.
-- Teslim kontrol listesi işlenir.
-- Ek oda talepleri aynı hatta bağlanır.
-- Lightbox resepsiyonda opsiyoneldir.
-- Vektörel logo kaliteyi yükseltir.
-- Yapışkan kokusu için havalandırma önerilebilir.
-- Uydurma ofis metriği yazılmaz.
-- Kanıt fotoğrafı planlanır.
-
-## Yerel bağlantı
-
-Yerel keşif ve montaj Tekirdağ üssünden planlanır.
-
-Detay için /bolgeler/tekirdag/ sayfasına bakabilirsiniz.
+Adres, saat ve iletişim: [Malt Studio Tekirdağ atölye ve iletişim](https://maltstudio.co/bolgeler/tekirdag/) .
 
 [WhatsApp ile Teklif](https://wa.me/905525826959?text=Merhaba%2C%20Ofis%20Branding%20i%C3%A7in%20ke%C5%9Fif%20istiyorum.) [Teklif](https://maltstudio.co/#teklif) [Ara](tel:+905525826959)
 
@@ -4713,18 +2598,6 @@ Detay için /bolgeler/tekirdag/ sayfasına bakabilirsiniz.
 ###
 
 [RehberKarar vermenize yardımcı rehber.Bilgi](https://maltstudio.co/bilgi/kutu-harf-malzemeler/)
-
-## İlgili projeler
-
-###
-
-[Ekip YazılımTamamlanan proje örneği.Proje](https://maltstudio.co/projeler/ekip-yazilim/)
-
-###
-
-[Mera OtelTamamlanan proje örneği.Proje](https://maltstudio.co/projeler/mera-otel/)
-
-[Tüm projeler →](https://maltstudio.co/projeler/)
 
 ## İlgili sektörler
 
@@ -4806,7 +2679,7 @@ Hizmet
 # İş Güvenliği Tabelaları
 
 Fabrika, depo ve şantiyeler için uyarı, zorunlu işaret ve acil çıkış tabelaları.
-[Teklif Al](https://wa.me/905525826959?text=Merhaba%2C%20%C4%B0%C5%9F%20G%C3%BCvenli%C4%9Fi%20Tabelalar%C4%B1%20hakk%C4%B1nda%20teklif%20almak%20istiyorum.) [WhatsApp](https://wa.me/905525826959?text=Merhaba%2C%20%C4%B0%C5%9F%20G%C3%BCvenli%C4%9Fi%20Tabelalar%C4%B1%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum.) [Telefon · 0552 582 69 59](tel:+905525826959)
+[Teklif Al](https://wa.me/905525826959?text=Merhaba%2C%20%C4%B0%C5%9F%20G%C3%BCvenli%C4%9Fi%20Tabelalar%C4%B1%20hakk%C4%B1nda%20teklif%20almak%20istiyorum.) [WhatsApp](https://wa.me/905525826959?text=Merhaba%2C%20%C4%B0%C5%9F%20G%C3%BCvenli%C4%9Fi%20Tabelalar%C4%B1%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum.) [Telefon](tel:+905525826959)
 
 ## Bu hizmet nedir?
 
@@ -4888,14 +2761,6 @@ Uydurma uygunluk belgesi veya denetim vaadi eklenmez.
 
 Sabit internet fiyat listesi yayınlanmaz; keşif sonrası net teklif verilir.
 
-Faktör eğitimi için /bilgi/tabela-fiyati/ rehberine bakabilirsiniz.
-
-## Süre ve planlama
-
-Tasarım onayı sonrası süre işin ölçeğine göre değişir.
-
-Acil işler operasyon kapasitesine göre değerlendirilir; garanti edilemeyen vaat verilmez.
-
 ## Bakım ve sonrası
 
 Solma veya darbe sonrası tekil değişim planlanır.
@@ -4904,68 +2769,11 @@ Yasal güncellemeler müşteri tarafında takip edilir; tabela üreticisi mevzua
 
 Toplu yenilemede mevcut delik/montaj noktaları kullanılabilir.
 
-## Uygulama notları
+## Süleymanpaşa ve çevre ilçelerde montaj
 
-İSG tabelası tıbbi veya yasal danışmanlık yerine geçmez; doğru konum müşteri onayıyla işlenir.
+Keşif ve montaj Tekirdağ Süleymanpaşa atölyesinden planlanır.
 
-Acil çıkış işaretinde yükseklik ve görüş hattı kritiktir.
-
-Wayfinding (oda numarası) bu ailenin H1’i değildir.
-
-Toplu setlerde Excel/liste ile üretim hatası azalır.
-
-Dış mekân İSG’de UV ve darbe dayanımı yükseltilir.
-
-Reflektif ihtiyaç gece saha hareketine göre konuşulur.
-
-Belgelendirme kuruluşu değiliz; uydurma uygunluk belgesi eklenmez.
-
-Saha listesi eksikse üretim eksik kalır; liste müşteriden istenir.
-
-Çok dilli ihtiyaç varsa metin onayı çift dilde alınır.
-
-Fosforlu/reflektif seçenekler gece saha için ayrıca konuşulur.
-
-Yanlış konumlandırılmış acil çıkış işaretini düzeltmek yeniden keşif ister.
-
-Uydurma denetim veya belge hizmeti sunulmaz.
-
-## Karar ve teslim özeti
-
-İş güvenliği tabelaları uyarı ve acil durum işaretleridir; wayfinding değildir. Belgelendirme kuruluşu olunmaz, uydurma uygunluk belgesi eklenmez. Saha listesi müşteriden alınır; liste yoksa üretim eksik kalır. Acil çıkış konumları görüş hattına göre onaylanır. Dış mekânda dayanım sınıfı yükseltilir. Reflektif ihtiyaç gece harekete göre konuşulur. Toplu setlerde standartlaşma hız kazandırır. Mevzuat takibi müşteri tarafındadır; tabela üreticisi danışman değildir. Çok dilli ihtiyaçta metin onayı çift dilde alınır. Yanlış konumlandırılmış işaret düzeltmesi yeniden keşif ister. Fabrika, depo ve şantiye tipik sahalardır. Yangın çıkışı bu ailededir. Soluma ve darbede tekil değişim planlanır.
-
-İSG setinde piktogram netliği metinden önce gelir. Saha numaralandırması varsa listeyle eşleştirilir. Dış mekânda UV dayanımlı baskı konuşulur. Montaj yüksekliği görüş ve vandalizm dengesine göre seçilir. Eksik levha sonradan tamamlanabilir. Müşteri iç denetim checklist’i varsa ona göre set genişletilir. Danışmanlık ücreti veya belge satışı yoktur.
-
-İSG tabela setlerinde listenin doğruluğu üretimin yarısıdır. Eksik veya yanlış konumlandırılmış acil çıkış işaretleri sahada güvenliği zedeler. Bu yüzden yerleşim onayı olmadan rastgele asım yapılmaz. Reflektif ihtiyaç gece forklift trafiğine göre konuşulur. Dış mekân setlerinde UV ve darbe dayanımı yükseltilir. Malt Studio belge satmaz; üretim ve montaj yapar. Wayfinding talepleri bu sayfanın H1’ine zorlanmaz. Kanıt fotoğrafları onaylandıkça ilgili proje veya sektör sayfalarına bağlanır. Teslim liste eşleşmesiyle yapılır. Piktogram netliği metinden önce gelir. Eksik levha sonradan tamamlanabilir. Danışmanlık ücreti satılmaz.
-
-İSG tabela montajında delik ve dübel seçimi yüzey tipine göre yapılır. Solmuş levhalar tekil değiştirilebilir. Acil durum işaretleri başka yön tabelalarıyla karıştırılmaz. Saha denetim öncesi eksik kontrol listesi müşteriye bırakılabilir. Üretim hızı liste netliğine bağlıdır. Çok dilli ihtiyaçta metinler ayrı onaylanır. Dış setlerde bağlantı korozyona karşı seçilir. Yangın çıkışı görüş hattı engellenmeden yerleştirilir. Toplanma alanı işaretleri gerektiğinde listeye ayrıca eklenir.
-
-## Keşif kontrol listesi
-
-- Saha listesi yoksa üretim eksik kalır.
-- Wayfinding bu ailenin H1’i değildir.
-- Acil çıkış konumları müşteri onayıyla işlenir.
-- Uygunluk belgesi vaadi verilmez.
-- Dış mekânda dayanım sınıfı yükseltilir.
-- Reflektif ihtiyaç gece harekete göre konuşulur.
-- Piktogram netliği metinden önce gelir.
-- Çok dilli metinler çift onay ister.
-- Montaj yüksekliği görüş ve vandalizme göre seçilir.
-- Toplu setlerde standartlaşma hız kazandırır.
-- Mevzuat takibi müşteri tarafındadır.
-- Eksik levha sonradan tamamlanabilir.
-- Şantiye ve fabrika reçeteleri ayrılabilir.
-- UV dayanımlı baskı dış için konuşulur.
-- Danışmanlık veya belge satışı yoktur.
-- Teslim liste eşleşmesiyle yapılır.
-- Soluma/darbede tekil değişim planlanır.
-- Kanıt fotoğrafı planlanır.
-
-## Yerel bağlantı
-
-Yerel keşif ve montaj Tekirdağ üssünden planlanır.
-
-Detay için /bolgeler/tekirdag/ sayfasına bakabilirsiniz.
+Adres, saat ve iletişim: [Malt Studio Tekirdağ atölye ve iletişim](https://maltstudio.co/bolgeler/tekirdag/) .
 
 [WhatsApp ile Teklif](https://wa.me/905525826959?text=Merhaba%2C%20%C4%B0%C5%9F%20G%C3%BCvenli%C4%9Fi%20Tabelalar%C4%B1%20i%C3%A7in%20ke%C5%9Fif%20istiyorum.) [Teklif](https://maltstudio.co/#teklif) [Ara](tel:+905525826959)
 
@@ -4992,18 +2800,6 @@ Detay için /bolgeler/tekirdag/ sayfasına bakabilirsiniz.
 ###
 
 [RehberKarar vermenize yardımcı rehber.Bilgi](https://maltstudio.co/bilgi/tabela-cesitleri/)
-
-## İlgili projeler
-
-###
-
-[Volt EnerjiTamamlanan proje örneği.Proje](https://maltstudio.co/projeler/volt-enerji/)
-
-###
-
-[Kuzey TekstilTamamlanan proje örneği.Proje](https://maltstudio.co/projeler/kuzey-tekstil/)
-
-[Tüm projeler →](https://maltstudio.co/projeler/)
 
 ## İlgili sektörler
 
@@ -5066,1058 +2862,6 @@ Standart setlerde hızlı.
 Özel uyarı metni?
 
 Evet, onaya göre.
-
-
-<!-- page: https://maltstudio.co/projeler/liman-kahve/ -->
-
-# Liman Kahve Vaka Çalışması | Cafe Tabela & Vitrin
-
-> Liman Kahve için cafe cephe ve vitrin görünürlüğü vaka sayfası. Kanıt görselleri onay sonrası eklenecek.
-
-- Canonical HTML: https://maltstudio.co/projeler/liman-kahve/
-- Markdown twin: https://maltstudio.co/projeler/liman-kahve/index.html.md
-- Site: https://maltstudio.co/
-
----
-
-Proje
-
-# Liman Kahve
-
-Tekirdağ’da cafe işletmesi için cephe okunurluğu ve vitrin yüzeyini aynı dilde toplayan bir uygulama vakası.
-Proje Liman Kahve Konum[Tekirdağ](https://maltstudio.co/bolgeler/tekirdag/) Sektör[Restoran & Cafe](https://maltstudio.co/sektorler/restoran-cafe/) [Teklif Al](https://wa.me/905525826959?text=Merhaba%2C%20Liman%20Kahve%20benzeri%20proje%20i%C3%A7in%20teklif%20almak%20istiyorum.) [WhatsApp](https://wa.me/905525826959?text=Liman%20Kahve%20benzeri%20proje) [Telefon](tel:+905525826959)
-
-## Proje özeti
-
-Bu sayfa Liman Kahve işinin vaka iskeletidir. Amaç; cafe ölçeğinde tabela, ışıklı görünürlük ve cam yüzey kararlarının nasıl birlikte ele alındığını göstermektir.
-
-Müşteri onayı ve gerçek saha fotoğrafları gelene kadar ölçüm, tarih ve sonuç iddiası yazılmaz. Eksik alanlar açıkça “proje verisi bekleniyor” olarak işaretlenir.
-
-## Müşteri ihtiyacı
-
-Cafe cephesinde gündüz/gece okunurluk ve vitrinde kampanya değişimine uygun yüzey ihtiyacı konuşulmuştur.
-
-Kesin brief maddeleri, ölçüler ve öncelik sırası: proje verisi bekleniyor.
-
-## İş kapsamı
-
-Kapsam adayları: ışıklı tabela, cam giydirme ve genel tabela yüzeyi. Nihai kalem listesi onaylı iş emrine göre güncellenir.
-
-Kapsam dışı iddialar (metrekare, bütçe, süre garantisi) bu aşamada yayınlanmaz.
-
-## Uygulanan hizmetler
-
-- [Işıklı Tabela](https://maltstudio.co/hizmetler/isikli-tabela/)
-- [Cam Giydirme](https://maltstudio.co/hizmetler/cam-giydirme/)
-- [Tabela](https://maltstudio.co/hizmetler/tabela/)
-
-## Üretim süreci
-
-Keşif ve ölçü notları → tasarım onayı → atölye üretimi → saha uygulama → teslim kontrolü.
-
-Bu projedeki gerçek takvim ve saha notları: proje verisi bekleniyor.
-
-## Montaj / uygulama
-
-Cafe işletme saatlerine göre montaj penceresi planlanır; trafik ve vitrin erişimi keşifte kontrol edilir.
-
-Montaj günü fotoğrafları ve teslim tutanağı: proje verisi bekleniyor.
-
-## Kullanılan malzemeler
-
-Aday malzeme ailesi: LED ışıklı sistem, cam folyo / OWV ve tabela paneli. Marka renkleri ve yüzey tipi onaya bağlıdır.
-
-Kesin malzeme listesi ve tedarikçi notları: proje verisi bekleniyor.
-
-## Teknik detaylar
-
-Teknik detaylar (ölçü, güç kaynağı, folyo tipi, montaj yüzeyi) keşif formu ile tutulur.
-
-Yayınlanabilir teknik özet: proje verisi bekleniyor.
-
-## Sonuç
-
-Hedeflenen sonuç: cafe kimliğinin cephe ve vitrinde tutarlı okunması. Nicel sonuç veya “önce/sonra” iddiası görseller olmadan yazılmaz.
-
-Sonuç kanıtı (galeri, before/after): proje verisi bekleniyor.
-
-## Proje Görselleri
-
-Bu projenin saha ve teslim fotoğrafları yakında eklenecek.
-
-- Atölye üretimi ve saha montajı aynı operasyonel hat üzerinden planlanır.
-- Yayın öncesi müşteri onayı alınır.
-
-## Proje görselleri
-
-Gerçek fotoğraflar eklenene kadar yer tutucu çerçeveler gösteriliyor.
-Proje galerisi Onaylı saha ve teslim fotoğrafları eklenecek. Liman Kahve · Proje galerisi · proje verisi bekleniyor Before / After Önce–sonra karşılaştırması onay sonrası eklenecek. Liman Kahve · Before / After · proje verisi bekleniyor Montaj fotoğrafları Kurulum günü görselleri bekleniyor. Liman Kahve · Montaj fotoğrafları · proje verisi bekleniyor Atölye fotoğrafları Üretim süreci görselleri bekleniyor. Liman Kahve · Atölye fotoğrafları · proje verisi bekleniyor Malzeme close-up Yüzey/malzeme detay fotoğrafları bekleniyor. Liman Kahve · Malzeme close-up · proje verisi bekleniyor
-
-## İlgili hizmetler
-
-Bu projede kullandığımız hizmetler.
-
-###
-
-[Işıklı TabelaLiman Kahve kapsamında aday hizmet.Hizmet](https://maltstudio.co/hizmetler/isikli-tabela/)
-
-###
-
-[Cam GiydirmeLiman Kahve kapsamında aday hizmet.Hizmet](https://maltstudio.co/hizmetler/cam-giydirme/)
-
-###
-
-[TabelaLiman Kahve kapsamında aday hizmet.Hizmet](https://maltstudio.co/hizmetler/tabela/)
-
-## İlgili sektör
-
-###
-
-[Restoran & CafeDikey bağlam sayfası.Sektör](https://maltstudio.co/sektorler/restoran-cafe/)
-
-###
-
-[TekirdağTekirdağ yerel hizmet rehberi.City](https://maltstudio.co/bolgeler/tekirdag/)
-
-###
-
-[Tüm projelerTüm proje örnekleri.Proje](https://maltstudio.co/projeler/)
-
-## İlgili rehberler
-
-Karar vermenize yardımcı olacak rehberler.
-
-###
-
-[Işıklı mı Işıksız mı?Karar vermenize yardımcı rehber.Bilgi](https://maltstudio.co/bilgi/isikli-mi-isiksiz-mi/)
-
-###
-
-[One Way Vision Nedir?Karar vermenize yardımcı rehber.Bilgi](https://maltstudio.co/bilgi/one-way-vision-nedir/)
-
-###
-
-[Tabela ÇeşitleriKarar vermenize yardımcı rehber.Bilgi](https://maltstudio.co/bilgi/tabela-cesitleri/)
-
-###
-
-[Tabela Fiyatını Neler Etkiler?Karar vermenize yardımcı rehber.Bilgi](https://maltstudio.co/bilgi/tabela-fiyati/)
-
-## İlgili projeler
-
-###
-
-[DörtnalBenzer proje örneği.Proje](https://maltstudio.co/projeler/dortnal/)
-
-###
-
-[Mera OtelBenzer proje örneği.Proje](https://maltstudio.co/projeler/mera-otel/)
-
-###
-
-[Ekip YazılımBenzer proje örneği.Proje](https://maltstudio.co/projeler/ekip-yazilim/)
-
-## Keşfet
-
-###
-
-[ProjelerTamamladığımız işlerden örnekler.Keşif](https://maltstudio.co/projeler/)
-
-###
-
-[HizmetlerTüm hizmetlerimize göz atın.Keşif](https://maltstudio.co/hizmetler/)
-
-###
-
-[BilgiRehberler ve karar içerikleri.Keşif](https://maltstudio.co/bilgi/)
-
-###
-
-[SektörlerSektöre özel çözümler.Keşif](https://maltstudio.co/sektorler/)
-
-###
-
-[TekirdağTekirdağ yerel hizmet rehberi.Keşif](https://maltstudio.co/bolgeler/tekirdag/)
-
-###
-
-[Ana sayfaMalt Studio ana sayfa.Keşif](https://maltstudio.co/)
-
-
-<!-- page: https://maltstudio.co/projeler/volt-enerji/ -->
-
-# Volt Enerji Vaka Çalışması | Tesis Totem & Tabela
-
-> Volt Enerji için tesis girişi ve cephe kimliği vaka sayfası. Kanıt görselleri onay sonrası eklenecek.
-
-- Canonical HTML: https://maltstudio.co/projeler/volt-enerji/
-- Markdown twin: https://maltstudio.co/projeler/volt-enerji/index.html.md
-- Site: https://maltstudio.co/
-
----
-
-Proje
-
-# Volt Enerji
-
-Enerji / tesis bağlamında yol yaklaşımı ve giriş kimliğini totem ve tabela ile kurgulayan sanayi vakası.
-Proje Volt Enerji Konum[Tekirdağ](https://maltstudio.co/bolgeler/tekirdag/) Sektör[Fabrika & OSB](https://maltstudio.co/sektorler/fabrika-osb/) [Teklif Al](https://wa.me/905525826959?text=Merhaba%2C%20Volt%20Enerji%20benzeri%20proje%20i%C3%A7in%20teklif%20almak%20istiyorum.) [WhatsApp](https://wa.me/905525826959?text=Volt%20Enerji%20benzeri%20proje) [Telefon](tel:+905525826959)
-
-## Proje özeti
-
-Volt Enerji sayfası, OSB veya tesis tipi işlerde uzaktan okunan kimlik ihtiyacını anlatmak için yapılandırılmıştır.
-
-Tesis adı portföy yer tutucusudur. Şantiye fotoğrafı, temel detayı ve onaylı ölçüler gelmeden kesin teknik iddia eklenmez.
-
-## Müşteri ihtiyacı
-
-Yol ve kapı aksında tesisin bulunabilirliği; cephede kurumsal yazı ihtiyacı değerlendirme konusudur.
-
-Hangi yüzeylerin öncelikli olduğu ve mevcut tabela durumu: proje verisi bekleniyor.
-
-## İş kapsamı
-
-Kapsam adayları: totem, tabela ve kutu harf. Vinç, temel ve izin kalemleri keşifle netleşir.
-
-Onaylı kapsam dokümanı: proje verisi bekleniyor.
-
-## Uygulanan hizmetler
-
-- [Totem](https://maltstudio.co/hizmetler/totem/)
-- [Tabela](https://maltstudio.co/hizmetler/tabela/)
-- [Kutu Harf](https://maltstudio.co/hizmetler/kutu-harf/)
-
-## Üretim süreci
-
-Saha keşfi (zemin/erişim) → tasarım → üretim → saha montajı → teslim.
-
-Temel ve montaj günlüğü: proje verisi bekleniyor.
-
-## Montaj / uygulama
-
-Totem ve cephe işlerinde zemin hazırlığı, ankraj ve güvenlik mesafesi kritiktir.
-
-Kurulum fotoğrafları ve güvenlik notları: proje verisi bekleniyor.
-
-## Kullanılan malzemeler
-
-Adaylar: çelik/alu totem gövde, tabela paneli, kutu harf yüzeyleri. Renk ve kaplama onaya bağlıdır.
-
-Kesin malzeme spesifikasyonu: proje verisi bekleniyor.
-
-## Teknik detaylar
-
-Rüzgâr yükü, temel tipi, harf derinliği ve aydınlatma ihtiyacı keşifte ayrılır.
-
-Yayınlanabilir teknik tablo: proje verisi bekleniyor.
-
-## Sonuç
-
-Hedef: tesisin yaklaşım ve girişte doğru okunması. Performans iddiası fotoğraf ve müşteri onayı sonrası yazılır.
-
-Sonuç kanıtı: proje verisi bekleniyor.
-
-## Proje Görselleri
-
-Bu projenin saha ve teslim fotoğrafları yakında eklenecek.
-
-- Atölye üretimi ve saha montajı aynı operasyonel hat üzerinden planlanır.
-- Yayın öncesi müşteri onayı alınır.
-
-## Proje görselleri
-
-Gerçek fotoğraflar eklenene kadar yer tutucu çerçeveler gösteriliyor.
-Proje galerisi Onaylı saha ve teslim fotoğrafları eklenecek. Volt Enerji · Proje galerisi · proje verisi bekleniyor Before / After Önce–sonra karşılaştırması onay sonrası eklenecek. Volt Enerji · Before / After · proje verisi bekleniyor Montaj fotoğrafları Kurulum günü görselleri bekleniyor. Volt Enerji · Montaj fotoğrafları · proje verisi bekleniyor Atölye fotoğrafları Üretim süreci görselleri bekleniyor. Volt Enerji · Atölye fotoğrafları · proje verisi bekleniyor Malzeme close-up Yüzey/malzeme detay fotoğrafları bekleniyor. Volt Enerji · Malzeme close-up · proje verisi bekleniyor
-
-## İlgili hizmetler
-
-Bu projede kullandığımız hizmetler.
-
-###
-
-[TotemVolt Enerji kapsamında aday hizmet.Hizmet](https://maltstudio.co/hizmetler/totem/)
-
-###
-
-[TabelaVolt Enerji kapsamında aday hizmet.Hizmet](https://maltstudio.co/hizmetler/tabela/)
-
-###
-
-[Kutu HarfVolt Enerji kapsamında aday hizmet.Hizmet](https://maltstudio.co/hizmetler/kutu-harf/)
-
-## İlgili sektör
-
-###
-
-[Fabrika & OSBDikey bağlam sayfası.Sektör](https://maltstudio.co/sektorler/fabrika-osb/)
-
-###
-
-[TekirdağTekirdağ yerel hizmet rehberi.City](https://maltstudio.co/bolgeler/tekirdag/)
-
-###
-
-[Tüm projelerTüm proje örnekleri.Proje](https://maltstudio.co/projeler/)
-
-## İlgili rehberler
-
-Karar vermenize yardımcı olacak rehberler.
-
-###
-
-[Totem Seçim RehberiKarar vermenize yardımcı rehber.Bilgi](https://maltstudio.co/bilgi/totem-secim-rehberi/)
-
-###
-
-[Tabela ÇeşitleriKarar vermenize yardımcı rehber.Bilgi](https://maltstudio.co/bilgi/tabela-cesitleri/)
-
-###
-
-[Tabela Fiyatını Neler Etkiler?Karar vermenize yardımcı rehber.Bilgi](https://maltstudio.co/bilgi/tabela-fiyati/)
-
-###
-
-[Kutu Harf MalzemeleriKarar vermenize yardımcı rehber.Bilgi](https://maltstudio.co/bilgi/kutu-harf-malzemeler/)
-
-## İlgili projeler
-
-###
-
-[Kuzey TekstilBenzer proje örneği.Proje](https://maltstudio.co/projeler/kuzey-tekstil/)
-
-###
-
-[Mera OtelBenzer proje örneği.Proje](https://maltstudio.co/projeler/mera-otel/)
-
-###
-
-[Liman KahveBenzer proje örneği.Proje](https://maltstudio.co/projeler/liman-kahve/)
-
-## Keşfet
-
-###
-
-[ProjelerTamamladığımız işlerden örnekler.Keşif](https://maltstudio.co/projeler/)
-
-###
-
-[HizmetlerTüm hizmetlerimize göz atın.Keşif](https://maltstudio.co/hizmetler/)
-
-###
-
-[BilgiRehberler ve karar içerikleri.Keşif](https://maltstudio.co/bilgi/)
-
-###
-
-[SektörlerSektöre özel çözümler.Keşif](https://maltstudio.co/sektorler/)
-
-###
-
-[TekirdağTekirdağ yerel hizmet rehberi.Keşif](https://maltstudio.co/bolgeler/tekirdag/)
-
-###
-
-[Ana sayfaMalt Studio ana sayfa.Keşif](https://maltstudio.co/)
-
-
-<!-- page: https://maltstudio.co/projeler/kuzey-tekstil/ -->
-
-# Kuzey Tekstil Vaka Çalışması | OSB Tabela & Filo
-
-> Kuzey Tekstil için tesis tabela ve filo giydirme vaka sayfası. Kanıt görselleri onay sonrası eklenecek.
-
-- Canonical HTML: https://maltstudio.co/projeler/kuzey-tekstil/
-- Markdown twin: https://maltstudio.co/projeler/kuzey-tekstil/index.html.md
-- Site: https://maltstudio.co/
-
----
-
-Proje
-
-# Kuzey Tekstil
-
-Tekstil / üretim tesisi ölçeğinde sabit tabela ile hareketli filo görünürlüğünü aynı marka dilinde ele alan vaka.
-Proje Kuzey Tekstil Konum[Tekirdağ](https://maltstudio.co/bolgeler/tekirdag/) Sektör[Fabrika & OSB](https://maltstudio.co/sektorler/fabrika-osb/) [Teklif Al](https://wa.me/905525826959?text=Merhaba%2C%20Kuzey%20Tekstil%20benzeri%20proje%20i%C3%A7in%20teklif%20almak%20istiyorum.) [WhatsApp](https://wa.me/905525826959?text=Kuzey%20Tekstil%20benzeri%20proje) [Telefon](tel:+905525826959)
-
-## Proje özeti
-
-Kuzey Tekstil, fabrika kimliği ile araç filosunun birlikte okunması gereken iş tipini temsil eder.
-
-Filo adedi, araç tipleri ve tesis cephe ölçüleri doğrulanmadan sayısal iddia yayınlanmaz.
-
-## Müşteri ihtiyacı
-
-Tesis girişi ve saha içi yönlendirme ile filo üzeri marka görünürlüğü ihtiyacı konuşulmuştur.
-
-Öncelikli yüzeyler ve mevcut uygulamalar: proje verisi bekleniyor.
-
-## İş kapsamı
-
-Kapsam adayları: tabela, totem ve araç giydirme. Filo araç listesi iş emrine bağlanır.
-
-Onaylı kapsam: proje verisi bekleniyor.
-
-## Uygulanan hizmetler
-
-- [Tabela](https://maltstudio.co/hizmetler/tabela/)
-- [Araç Giydirme](https://maltstudio.co/hizmetler/arac-giydirme/)
-- [Totem](https://maltstudio.co/hizmetler/totem/)
-
-## Üretim süreci
-
-Keşif (tesis + araç) → tasarım şablonları → üretim/baskı → montaj ve giydirme → kontrol.
-
-Gerçek süreç günlüğü: proje verisi bekleniyor.
-
-## Montaj / uygulama
-
-Tesis montajı ile araç giydirme ayrı pencerelerde planlanabilir; filo için kuru/temiz yüzey şarttır.
-
-Uygulama fotoğrafları: proje verisi bekleniyor.
-
-## Kullanılan malzemeler
-
-Adaylar: dış mekân tabela malzemeleri, totem gövde, araç cast/kalender folyo seçenekleri.
-
-Kesin malzeme ve folyo tipi: proje verisi bekleniyor.
-
-## Teknik detaylar
-
-Araç şablonları, tabela ölçüleri ve montaj yüzeyi teknik dosyada tutulur.
-
-Yayın özeti: proje verisi bekleniyor.
-
-## Sonuç
-
-Hedef: tesis ve filoda tutarlı marka okuması. Before/after olmadan başarı iddiası yok.
-
-Sonuç kanıtı: proje verisi bekleniyor.
-
-## Proje Görselleri
-
-Bu projenin saha ve teslim fotoğrafları yakında eklenecek.
-
-- Atölye üretimi ve saha montajı aynı operasyonel hat üzerinden planlanır.
-- Yayın öncesi müşteri onayı alınır.
-
-## Proje görselleri
-
-Gerçek fotoğraflar eklenene kadar yer tutucu çerçeveler gösteriliyor.
-Proje galerisi Onaylı saha ve teslim fotoğrafları eklenecek. Kuzey Tekstil · Proje galerisi · proje verisi bekleniyor Before / After Önce–sonra karşılaştırması onay sonrası eklenecek. Kuzey Tekstil · Before / After · proje verisi bekleniyor Montaj fotoğrafları Kurulum günü görselleri bekleniyor. Kuzey Tekstil · Montaj fotoğrafları · proje verisi bekleniyor Atölye fotoğrafları Üretim süreci görselleri bekleniyor. Kuzey Tekstil · Atölye fotoğrafları · proje verisi bekleniyor Malzeme close-up Yüzey/malzeme detay fotoğrafları bekleniyor. Kuzey Tekstil · Malzeme close-up · proje verisi bekleniyor
-
-## İlgili hizmetler
-
-Bu projede kullandığımız hizmetler.
-
-###
-
-[TabelaKuzey Tekstil kapsamında aday hizmet.Hizmet](https://maltstudio.co/hizmetler/tabela/)
-
-###
-
-[Araç GiydirmeKuzey Tekstil kapsamında aday hizmet.Hizmet](https://maltstudio.co/hizmetler/arac-giydirme/)
-
-###
-
-[TotemKuzey Tekstil kapsamında aday hizmet.Hizmet](https://maltstudio.co/hizmetler/totem/)
-
-## İlgili sektör
-
-###
-
-[Fabrika & OSBDikey bağlam sayfası.Sektör](https://maltstudio.co/sektorler/fabrika-osb/)
-
-###
-
-[TekirdağTekirdağ yerel hizmet rehberi.City](https://maltstudio.co/bolgeler/tekirdag/)
-
-###
-
-[Tüm projelerTüm proje örnekleri.Proje](https://maltstudio.co/projeler/)
-
-## İlgili rehberler
-
-Karar vermenize yardımcı olacak rehberler.
-
-###
-
-[Tabela ÇeşitleriKarar vermenize yardımcı rehber.Bilgi](https://maltstudio.co/bilgi/tabela-cesitleri/)
-
-###
-
-[Tabela Fiyatını Neler Etkiler?Karar vermenize yardımcı rehber.Bilgi](https://maltstudio.co/bilgi/tabela-fiyati/)
-
-###
-
-[Araç Giydirme RehberiKarar vermenize yardımcı rehber.Bilgi](https://maltstudio.co/bilgi/arac-giydirme-rehberi/)
-
-###
-
-[Totem Seçim RehberiKarar vermenize yardımcı rehber.Bilgi](https://maltstudio.co/bilgi/totem-secim-rehberi/)
-
-## İlgili projeler
-
-###
-
-[Volt EnerjiBenzer proje örneği.Proje](https://maltstudio.co/projeler/volt-enerji/)
-
-###
-
-[DörtnalBenzer proje örneği.Proje](https://maltstudio.co/projeler/dortnal/)
-
-###
-
-[Ekip YazılımBenzer proje örneği.Proje](https://maltstudio.co/projeler/ekip-yazilim/)
-
-## Keşfet
-
-###
-
-[ProjelerTamamladığımız işlerden örnekler.Keşif](https://maltstudio.co/projeler/)
-
-###
-
-[HizmetlerTüm hizmetlerimize göz atın.Keşif](https://maltstudio.co/hizmetler/)
-
-###
-
-[BilgiRehberler ve karar içerikleri.Keşif](https://maltstudio.co/bilgi/)
-
-###
-
-[SektörlerSektöre özel çözümler.Keşif](https://maltstudio.co/sektorler/)
-
-###
-
-[TekirdağTekirdağ yerel hizmet rehberi.Keşif](https://maltstudio.co/bolgeler/tekirdag/)
-
-###
-
-[Ana sayfaMalt Studio ana sayfa.Keşif](https://maltstudio.co/)
-
-
-<!-- page: https://maltstudio.co/projeler/mera-otel/ -->
-
-# Mera Otel Vaka Çalışması | Konaklama Kutu Harf & Tabela
-
-> Mera Otel için giriş ve cephe kimliği vaka sayfası. Kanıt görselleri onay sonrası eklenecek.
-
-- Canonical HTML: https://maltstudio.co/projeler/mera-otel/
-- Markdown twin: https://maltstudio.co/projeler/mera-otel/index.html.md
-- Site: https://maltstudio.co/
-
----
-
-Proje
-
-# Mera Otel
-
-Konaklama girişinde prestij algısı ve gece okunurluğu için kutu harf / ışıklı tabela odaklı vaka iskeleti.
-Proje Mera Otel Konum[Tekirdağ](https://maltstudio.co/bolgeler/tekirdag/) Sektör[Plaza & Ofis](https://maltstudio.co/sektorler/plaza-ofis/) [Teklif Al](https://wa.me/905525826959?text=Merhaba%2C%20Mera%20Otel%20benzeri%20proje%20i%C3%A7in%20teklif%20almak%20istiyorum.) [WhatsApp](https://wa.me/905525826959?text=Mera%20Otel%20benzeri%20proje) [Telefon](tel:+905525826959)
-
-## Proje özeti
-
-Mera Otel sayfası, misafir yaklaşımında okunan cephe kimliği ihtiyacını anlatır. Sektör bağı plaza/ofis dikeyinde tutulur; konaklama bağlamı metinde açılır.
-
-Otel logosu, cephe kısıtları ve aydınlatma kuralları onaylanmadan kesin görsel iddia eklenmez.
-
-## Müşteri ihtiyacı
-
-Giriş aksında markanın uzaktan okunması ve gece görünürlük ihtiyacı değerlendirme konusudur.
-
-Mevcut tabela durumu ve site yönetimi kuralları: proje verisi bekleniyor.
-
-## İş kapsamı
-
-Kapsam adayları: kutu harf, ışıklı tabela ve destekleyici tabela yüzeyleri.
-
-Onaylı kalem listesi: proje verisi bekleniyor.
-
-## Uygulanan hizmetler
-
-- [Kutu Harf](https://maltstudio.co/hizmetler/kutu-harf/)
-- [Işıklı Tabela](https://maltstudio.co/hizmetler/isikli-tabela/)
-- [Tabela](https://maltstudio.co/hizmetler/tabela/)
-
-## Üretim süreci
-
-Keşif (cephe/elektrik) → tasarım onayı → üretim → gece testi ihtiyacına göre montaj → teslim.
-
-Gerçek süreç kayıtları: proje verisi bekleniyor.
-
-## Montaj / uygulama
-
-Yükseklik, iskele/vinç ve misafir trafiği montaj penceresini belirler.
-
-Kurulum kanıtı: proje verisi bekleniyor.
-
-## Kullanılan malzemeler
-
-Adaylar: pleksi/paslanmaz kutu harf, LED ışıklı kasa, cepheye uygun tabela paneli.
-
-Kesin malzeme seçimi: proje verisi bekleniyor.
-
-## Teknik detaylar
-
-Harf derinliği, LED tipi ve bağlantı detayı teknik dosyada tutulur.
-
-Yayınlanabilir teknik özet: proje verisi bekleniyor.
-
-## Sonuç
-
-Hedef: giriş kimliğinin gündüz ve gece tutarlı okunması. Kanıt görselleri şarttır.
-
-Sonuç kanıtı: proje verisi bekleniyor.
-
-## Proje Görselleri
-
-Bu projenin saha ve teslim fotoğrafları yakında eklenecek.
-
-- Atölye üretimi ve saha montajı aynı operasyonel hat üzerinden planlanır.
-- Yayın öncesi müşteri onayı alınır.
-
-## Proje görselleri
-
-Gerçek fotoğraflar eklenene kadar yer tutucu çerçeveler gösteriliyor.
-Proje galerisi Onaylı saha ve teslim fotoğrafları eklenecek. Mera Otel · Proje galerisi · proje verisi bekleniyor Before / After Önce–sonra karşılaştırması onay sonrası eklenecek. Mera Otel · Before / After · proje verisi bekleniyor Montaj fotoğrafları Kurulum günü görselleri bekleniyor. Mera Otel · Montaj fotoğrafları · proje verisi bekleniyor Atölye fotoğrafları Üretim süreci görselleri bekleniyor. Mera Otel · Atölye fotoğrafları · proje verisi bekleniyor Malzeme close-up Yüzey/malzeme detay fotoğrafları bekleniyor. Mera Otel · Malzeme close-up · proje verisi bekleniyor
-
-## İlgili hizmetler
-
-Bu projede kullandığımız hizmetler.
-
-###
-
-[Kutu HarfMera Otel kapsamında aday hizmet.Hizmet](https://maltstudio.co/hizmetler/kutu-harf/)
-
-###
-
-[Işıklı TabelaMera Otel kapsamında aday hizmet.Hizmet](https://maltstudio.co/hizmetler/isikli-tabela/)
-
-###
-
-[TabelaMera Otel kapsamında aday hizmet.Hizmet](https://maltstudio.co/hizmetler/tabela/)
-
-## İlgili sektör
-
-###
-
-[Plaza & OfisDikey bağlam sayfası.Sektör](https://maltstudio.co/sektorler/plaza-ofis/)
-
-###
-
-[TekirdağTekirdağ yerel hizmet rehberi.City](https://maltstudio.co/bolgeler/tekirdag/)
-
-###
-
-[Tüm projelerTüm proje örnekleri.Proje](https://maltstudio.co/projeler/)
-
-## İlgili rehberler
-
-Karar vermenize yardımcı olacak rehberler.
-
-###
-
-[Kutu Harf MalzemeleriKarar vermenize yardımcı rehber.Bilgi](https://maltstudio.co/bilgi/kutu-harf-malzemeler/)
-
-###
-
-[Işıklı mı Işıksız mı?Karar vermenize yardımcı rehber.Bilgi](https://maltstudio.co/bilgi/isikli-mi-isiksiz-mi/)
-
-###
-
-[Tabela ÇeşitleriKarar vermenize yardımcı rehber.Bilgi](https://maltstudio.co/bilgi/tabela-cesitleri/)
-
-###
-
-[Tabela Fiyatını Neler Etkiler?Karar vermenize yardımcı rehber.Bilgi](https://maltstudio.co/bilgi/tabela-fiyati/)
-
-## İlgili projeler
-
-###
-
-[Liman KahveBenzer proje örneği.Proje](https://maltstudio.co/projeler/liman-kahve/)
-
-###
-
-[Ekip YazılımBenzer proje örneği.Proje](https://maltstudio.co/projeler/ekip-yazilim/)
-
-###
-
-[Volt EnerjiBenzer proje örneği.Proje](https://maltstudio.co/projeler/volt-enerji/)
-
-## Keşfet
-
-###
-
-[ProjelerTamamladığımız işlerden örnekler.Keşif](https://maltstudio.co/projeler/)
-
-###
-
-[HizmetlerTüm hizmetlerimize göz atın.Keşif](https://maltstudio.co/hizmetler/)
-
-###
-
-[BilgiRehberler ve karar içerikleri.Keşif](https://maltstudio.co/bilgi/)
-
-###
-
-[SektörlerSektöre özel çözümler.Keşif](https://maltstudio.co/sektorler/)
-
-###
-
-[TekirdağTekirdağ yerel hizmet rehberi.Keşif](https://maltstudio.co/bolgeler/tekirdag/)
-
-###
-
-[Ana sayfaMalt Studio ana sayfa.Keşif](https://maltstudio.co/)
-
-
-<!-- page: https://maltstudio.co/projeler/dortnal/ -->
-
-# Dörtnal Vaka Çalışması | Mağaza Tabela & Vitrin
-
-> Dörtnal için perakende mağaza cephe ve vitrin vaka sayfası. Kanıt görselleri onay sonrası eklenecek.
-
-- Canonical HTML: https://maltstudio.co/projeler/dortnal/
-- Markdown twin: https://maltstudio.co/projeler/dortnal/index.html.md
-- Site: https://maltstudio.co/
-
----
-
-Proje
-
-# Dörtnal
-
-Perakende vitrin ve cephede hızlı okunan mağaza kimliği ile yenilenebilir cam yüzeyini birleştiren vaka.
-Proje Dörtnal Konum[Tekirdağ](https://maltstudio.co/bolgeler/tekirdag/) Sektör[Perakende](https://maltstudio.co/sektorler/perakende/) [Teklif Al](https://wa.me/905525826959?text=Merhaba%2C%20D%C3%B6rtnal%20benzeri%20proje%20i%C3%A7in%20teklif%20almak%20istiyorum.) [WhatsApp](https://wa.me/905525826959?text=D%C3%B6rtnal%20benzeri%20proje) [Telefon](tel:+905525826959)
-
-## Proje özeti
-
-Dörtnal, cadde/mağaza tipinde ışıklı okunurluk ve vitrin kampanya alanını aynı işte toplayan örnektir.
-
-Mağaza adresi, vitrin ölçüleri ve kampanya takvimi doğrulanmadan kesin iddia yazılmaz.
-
-## Müşteri ihtiyacı
-
-Mağaza cephesinde gece görünürlük ve vitrinde değişebilir mesaj alanı ihtiyacı konuşulmuştur.
-
-Mevcut yüzey durumu: proje verisi bekleniyor.
-
-## İş kapsamı
-
-Kapsam adayları: ışıklı tabela, cam giydirme ve tabela. Kampanya baskı adetleri ayrıca tanımlanır.
-
-Onaylı kapsam: proje verisi bekleniyor.
-
-## Uygulanan hizmetler
-
-- [Işıklı Tabela](https://maltstudio.co/hizmetler/isikli-tabela/)
-- [Cam Giydirme](https://maltstudio.co/hizmetler/cam-giydirme/)
-- [Tabela](https://maltstudio.co/hizmetler/tabela/)
-
-## Üretim süreci
-
-Keşif → tasarım → üretim/baskı → montaj ve folyo uygulama → teslim.
-
-Saha günlüğü: proje verisi bekleniyor.
-
-## Montaj / uygulama
-
-Vitrin temizliği, folyo uygulaması ve tabela montajı işletme saatlerine göre planlanır.
-
-Uygulama fotoğrafları: proje verisi bekleniyor.
-
-## Kullanılan malzemeler
-
-Adaylar: LED tabela bileşenleri, OWV/folyo, tabela paneli.
-
-Kesin malzeme: proje verisi bekleniyor.
-
-## Teknik detaylar
-
-Vitrin cam tipi, folyo yönü ve tabela bağlantısı teknik notlara işlenir.
-
-Yayın özeti: proje verisi bekleniyor.
-
-## Sonuç
-
-Hedef: mağazanın cadde kotunda net okunması ve vitrinin güncellenebilir olması.
-
-Sonuç kanıtı: proje verisi bekleniyor.
-
-## Proje Görselleri
-
-Bu projenin saha ve teslim fotoğrafları yakında eklenecek.
-
-- Atölye üretimi ve saha montajı aynı operasyonel hat üzerinden planlanır.
-- Yayın öncesi müşteri onayı alınır.
-
-## Proje görselleri
-
-Gerçek fotoğraflar eklenene kadar yer tutucu çerçeveler gösteriliyor.
-Proje galerisi Onaylı saha ve teslim fotoğrafları eklenecek. Dörtnal · Proje galerisi · proje verisi bekleniyor Before / After Önce–sonra karşılaştırması onay sonrası eklenecek. Dörtnal · Before / After · proje verisi bekleniyor Montaj fotoğrafları Kurulum günü görselleri bekleniyor. Dörtnal · Montaj fotoğrafları · proje verisi bekleniyor Atölye fotoğrafları Üretim süreci görselleri bekleniyor. Dörtnal · Atölye fotoğrafları · proje verisi bekleniyor Malzeme close-up Yüzey/malzeme detay fotoğrafları bekleniyor. Dörtnal · Malzeme close-up · proje verisi bekleniyor
-
-## İlgili hizmetler
-
-Bu projede kullandığımız hizmetler.
-
-###
-
-[Işıklı TabelaDörtnal kapsamında aday hizmet.Hizmet](https://maltstudio.co/hizmetler/isikli-tabela/)
-
-###
-
-[Cam GiydirmeDörtnal kapsamında aday hizmet.Hizmet](https://maltstudio.co/hizmetler/cam-giydirme/)
-
-###
-
-[TabelaDörtnal kapsamında aday hizmet.Hizmet](https://maltstudio.co/hizmetler/tabela/)
-
-## İlgili sektör
-
-###
-
-[PerakendeDikey bağlam sayfası.Sektör](https://maltstudio.co/sektorler/perakende/)
-
-###
-
-[TekirdağTekirdağ yerel hizmet rehberi.City](https://maltstudio.co/bolgeler/tekirdag/)
-
-###
-
-[Tüm projelerTüm proje örnekleri.Proje](https://maltstudio.co/projeler/)
-
-## İlgili rehberler
-
-Karar vermenize yardımcı olacak rehberler.
-
-###
-
-[Işıklı mı Işıksız mı?Karar vermenize yardımcı rehber.Bilgi](https://maltstudio.co/bilgi/isikli-mi-isiksiz-mi/)
-
-###
-
-[One Way Vision Nedir?Karar vermenize yardımcı rehber.Bilgi](https://maltstudio.co/bilgi/one-way-vision-nedir/)
-
-###
-
-[Tabela ÇeşitleriKarar vermenize yardımcı rehber.Bilgi](https://maltstudio.co/bilgi/tabela-cesitleri/)
-
-###
-
-[Tabela Fiyatını Neler Etkiler?Karar vermenize yardımcı rehber.Bilgi](https://maltstudio.co/bilgi/tabela-fiyati/)
-
-## İlgili projeler
-
-###
-
-[Liman KahveBenzer proje örneği.Proje](https://maltstudio.co/projeler/liman-kahve/)
-
-###
-
-[Kuzey TekstilBenzer proje örneği.Proje](https://maltstudio.co/projeler/kuzey-tekstil/)
-
-###
-
-[Mera OtelBenzer proje örneği.Proje](https://maltstudio.co/projeler/mera-otel/)
-
-## Keşfet
-
-###
-
-[ProjelerTamamladığımız işlerden örnekler.Keşif](https://maltstudio.co/projeler/)
-
-###
-
-[HizmetlerTüm hizmetlerimize göz atın.Keşif](https://maltstudio.co/hizmetler/)
-
-###
-
-[BilgiRehberler ve karar içerikleri.Keşif](https://maltstudio.co/bilgi/)
-
-###
-
-[SektörlerSektöre özel çözümler.Keşif](https://maltstudio.co/sektorler/)
-
-###
-
-[TekirdağTekirdağ yerel hizmet rehberi.Keşif](https://maltstudio.co/bolgeler/tekirdag/)
-
-###
-
-[Ana sayfaMalt Studio ana sayfa.Keşif](https://maltstudio.co/)
-
-
-<!-- page: https://maltstudio.co/projeler/ekip-yazilim/ -->
-
-# Ekip Yazılım Vaka Çalışması | Ofis Branding & Kutu Harf
-
-> Ekip Yazılım için ofis iç kimlik ve giriş uygulamaları vaka sayfası. Kanıt görselleri onay sonrası eklenecek.
-
-- Canonical HTML: https://maltstudio.co/projeler/ekip-yazilim/
-- Markdown twin: https://maltstudio.co/projeler/ekip-yazilim/index.html.md
-- Site: https://maltstudio.co/
-
----
-
-Proje
-
-# Ekip Yazılım
-
-Plaza / ofis katında karşılama, cam yüzey ve iç kimlik uygulamalarını bir araya getiren kurumsal vaka iskeleti.
-Proje Ekip Yazılım Konum[Tekirdağ](https://maltstudio.co/bolgeler/tekirdag/) Sektör[Plaza & Ofis](https://maltstudio.co/sektorler/plaza-ofis/) [Teklif Al](https://wa.me/905525826959?text=Merhaba%2C%20Ekip%20Yaz%C4%B1l%C4%B1m%20benzeri%20proje%20i%C3%A7in%20teklif%20almak%20istiyorum.) [WhatsApp](https://wa.me/905525826959?text=Ekip%20Yaz%C4%B1l%C4%B1m%20benzeri%20proje) [Telefon](tel:+905525826959)
-
-## Proje özeti
-
-Ekip Yazılım, B2B ofis ortamında markanın kapı, cam ve iç yüzeylerde tutarlı görünmesi gereken iş tipini temsil eder.
-
-Kat planı, site yönetimi kuralları ve logo dosyaları onaylanmadan kesin uygulama iddiası eklenmez.
-
-## Müşteri ihtiyacı
-
-Ofis girişi ve cam yüzeylerde kurumsal kimlik; iç mekânda sade marka dili ihtiyacı değerlendirme konusudur.
-
-Kat/alan kısıtları: proje verisi bekleniyor.
-
-## İş kapsamı
-
-Kapsam adayları: ofis branding, kutu harf ve cam giydirme.
-
-Onaylı kapsam: proje verisi bekleniyor.
-
-## Uygulanan hizmetler
-
-- [Kutu Harf](https://maltstudio.co/hizmetler/kutu-harf/)
-- [Cam Giydirme](https://maltstudio.co/hizmetler/cam-giydirme/)
-- [Ofis Branding](https://maltstudio.co/hizmetler/ofis-branding/)
-
-## Üretim süreci
-
-Keşif (iç mekân) → tasarım → üretim → uygulama → teslim.
-
-Gerçek süreç kayıtları: proje verisi bekleniyor.
-
-## Montaj / uygulama
-
-Plaza çalışma saatleri ve asansör/erişim kuralları uygulama penceresini belirler.
-
-Kurulum kanıtı: proje verisi bekleniyor.
-
-## Kullanılan malzemeler
-
-Adaylar: iç mekân uygun folyo/baskı, kutu harf malzemeleri, cam uygulama filmleri.
-
-Kesin malzeme: proje verisi bekleniyor.
-
-## Teknik detaylar
-
-Cam tipi, yapışkan seçimi ve harf montaj yüzeyi teknik dosyada tutulur.
-
-Yayın özeti: proje verisi bekleniyor.
-
-## Sonuç
-
-Hedef: ofiste tutarlı ve sade marka deneyimi. Fotoğraf onayı olmadan sonuç iddiası yok.
-
-Sonuç kanıtı: proje verisi bekleniyor.
-
-## Proje Görselleri
-
-Bu projenin saha ve teslim fotoğrafları yakında eklenecek.
-
-- Atölye üretimi ve saha montajı aynı operasyonel hat üzerinden planlanır.
-- Yayın öncesi müşteri onayı alınır.
-
-## Proje görselleri
-
-Gerçek fotoğraflar eklenene kadar yer tutucu çerçeveler gösteriliyor.
-Proje galerisi Onaylı saha ve teslim fotoğrafları eklenecek. Ekip Yazılım · Proje galerisi · proje verisi bekleniyor Before / After Önce–sonra karşılaştırması onay sonrası eklenecek. Ekip Yazılım · Before / After · proje verisi bekleniyor Montaj fotoğrafları Kurulum günü görselleri bekleniyor. Ekip Yazılım · Montaj fotoğrafları · proje verisi bekleniyor Atölye fotoğrafları Üretim süreci görselleri bekleniyor. Ekip Yazılım · Atölye fotoğrafları · proje verisi bekleniyor Malzeme close-up Yüzey/malzeme detay fotoğrafları bekleniyor. Ekip Yazılım · Malzeme close-up · proje verisi bekleniyor
-
-## İlgili hizmetler
-
-Bu projede kullandığımız hizmetler.
-
-###
-
-[Kutu HarfEkip Yazılım kapsamında aday hizmet.Hizmet](https://maltstudio.co/hizmetler/kutu-harf/)
-
-###
-
-[Cam GiydirmeEkip Yazılım kapsamında aday hizmet.Hizmet](https://maltstudio.co/hizmetler/cam-giydirme/)
-
-###
-
-[Ofis BrandingEkip Yazılım kapsamında aday hizmet.Hizmet](https://maltstudio.co/hizmetler/ofis-branding/)
-
-## İlgili sektör
-
-###
-
-[Plaza & OfisDikey bağlam sayfası.Sektör](https://maltstudio.co/sektorler/plaza-ofis/)
-
-###
-
-[TekirdağTekirdağ yerel hizmet rehberi.City](https://maltstudio.co/bolgeler/tekirdag/)
-
-###
-
-[Tüm projelerTüm proje örnekleri.Proje](https://maltstudio.co/projeler/)
-
-## İlgili rehberler
-
-Karar vermenize yardımcı olacak rehberler.
-
-###
-
-[Kutu Harf MalzemeleriKarar vermenize yardımcı rehber.Bilgi](https://maltstudio.co/bilgi/kutu-harf-malzemeler/)
-
-###
-
-[One Way Vision Nedir?Karar vermenize yardımcı rehber.Bilgi](https://maltstudio.co/bilgi/one-way-vision-nedir/)
-
-###
-
-[Tabela ÇeşitleriKarar vermenize yardımcı rehber.Bilgi](https://maltstudio.co/bilgi/tabela-cesitleri/)
-
-## İlgili projeler
-
-###
-
-[Mera OtelBenzer proje örneği.Proje](https://maltstudio.co/projeler/mera-otel/)
-
-###
-
-[Liman KahveBenzer proje örneği.Proje](https://maltstudio.co/projeler/liman-kahve/)
-
-###
-
-[Volt EnerjiBenzer proje örneği.Proje](https://maltstudio.co/projeler/volt-enerji/)
-
-## Keşfet
-
-###
-
-[ProjelerTamamladığımız işlerden örnekler.Keşif](https://maltstudio.co/projeler/)
-
-###
-
-[HizmetlerTüm hizmetlerimize göz atın.Keşif](https://maltstudio.co/hizmetler/)
-
-###
-
-[BilgiRehberler ve karar içerikleri.Keşif](https://maltstudio.co/bilgi/)
-
-###
-
-[SektörlerSektöre özel çözümler.Keşif](https://maltstudio.co/sektorler/)
-
-###
-
-[TekirdağTekirdağ yerel hizmet rehberi.Keşif](https://maltstudio.co/bolgeler/tekirdag/)
-
-###
-
-[Ana sayfaMalt Studio ana sayfa.Keşif](https://maltstudio.co/)
 
 
 <!-- page: https://maltstudio.co/sektorler/fabrika-osb/ -->
@@ -6257,18 +3001,6 @@ Malt Studio Tekirdağ merkezli çalışır. Bu sektör içeriği; atölye üreti
 ###
 
 [RehberKarar vermenize yardımcı rehber.Bilgi](https://maltstudio.co/bilgi/arac-giydirme-rehberi/)
-
-## İlgili projeler
-
-###
-
-[Volt EnerjiTamamlanan proje örneği.Proje](https://maltstudio.co/projeler/volt-enerji/)
-
-###
-
-[Kuzey TekstilTamamlanan proje örneği.Proje](https://maltstudio.co/projeler/kuzey-tekstil/)
-
-[Tüm projeler →](https://maltstudio.co/projeler/)
 
 ## Keşfet
 
@@ -6442,14 +3174,6 @@ Malt Studio Tekirdağ merkezli çalışır. Bu sektör içeriği; atölye üreti
 
 [RehberKarar vermenize yardımcı rehber.Bilgi](https://maltstudio.co/bilgi/tabela-cesitleri/)
 
-## İlgili projeler
-
-###
-
-[Liman KahveTamamlanan proje örneği.Proje](https://maltstudio.co/projeler/liman-kahve/)
-
-[Tüm projeler →](https://maltstudio.co/projeler/)
-
 ## Keşfet
 
 ###
@@ -6619,18 +3343,6 @@ Malt Studio Tekirdağ merkezli çalışır. Bu sektör içeriği; atölye üreti
 ###
 
 [RehberKarar vermenize yardımcı rehber.Bilgi](https://maltstudio.co/bilgi/one-way-vision-nedir/)
-
-## İlgili projeler
-
-###
-
-[Liman KahveTamamlanan proje örneği.Proje](https://maltstudio.co/projeler/liman-kahve/)
-
-###
-
-[Volt EnerjiTamamlanan proje örneği.Proje](https://maltstudio.co/projeler/volt-enerji/)
-
-[Tüm projeler →](https://maltstudio.co/projeler/)
 
 ## Keşfet
 
@@ -6805,18 +3517,6 @@ Malt Studio Tekirdağ merkezli çalışır. Bu sektör içeriği; atölye üreti
 
 [RehberKarar vermenize yardımcı rehber.Bilgi](https://maltstudio.co/bilgi/one-way-vision-nedir/)
 
-## İlgili projeler
-
-###
-
-[Mera OtelTamamlanan proje örneği.Proje](https://maltstudio.co/projeler/mera-otel/)
-
-###
-
-[Ekip YazılımTamamlanan proje örneği.Proje](https://maltstudio.co/projeler/ekip-yazilim/)
-
-[Tüm projeler →](https://maltstudio.co/projeler/)
-
 ## Keşfet
 
 ###
@@ -6984,18 +3684,6 @@ Malt Studio Tekirdağ merkezli çalışır. Bu sektör içeriği; atölye üreti
 ###
 
 [RehberKarar vermenize yardımcı rehber.Bilgi](https://maltstudio.co/bilgi/tabela-fiyati/)
-
-## İlgili projeler
-
-###
-
-[Liman KahveTamamlanan proje örneği.Proje](https://maltstudio.co/projeler/liman-kahve/)
-
-###
-
-[Volt EnerjiTamamlanan proje örneği.Proje](https://maltstudio.co/projeler/volt-enerji/)
-
-[Tüm projeler →](https://maltstudio.co/projeler/)
 
 ## Keşfet
 
@@ -7170,18 +3858,6 @@ Malt Studio Tekirdağ merkezli çalışır. Bu sektör içeriği; atölye üreti
 
 [RehberKarar vermenize yardımcı rehber.Bilgi](https://maltstudio.co/bilgi/tabela-fiyati/)
 
-## İlgili projeler
-
-###
-
-[DörtnalTamamlanan proje örneği.Proje](https://maltstudio.co/projeler/dortnal/)
-
-###
-
-[Liman KahveTamamlanan proje örneği.Proje](https://maltstudio.co/projeler/liman-kahve/)
-
-[Tüm projeler →](https://maltstudio.co/projeler/)
-
 ## Keşfet
 
 ###
@@ -7316,7 +3992,7 @@ Konum, gece ihtiyacı, bütçe, izin ve montaj yüzeyi birlikte değerlendirilir
 
 İç mekân bilgilendirme ile dış cephe aynı kategoride toplanmamalıdır.
 
-Karşılaştırmayı hizmet satış sayfasına taşımak ownership’i bozar; burada eğitim kalır.
+Karşılaştırma bu rehberde kalır; üretim ve teklif ilgili hizmet sayfasındadır.
 
 Birden fazla tip aynı cephede kullanılacaksa hiyerarşi çizilir: ana kimlik + destek yüzey.
 
@@ -7346,10 +4022,6 @@ Malt Studio Tekirdağ merkezli çalışır. Bu rehber içeriği; atölye üretim
 
 [TabelaTabela hizmeti.Hizmet](https://maltstudio.co/hizmetler/tabela/)
 
-###
-
-[Tekirdağ TabelaTekirdağ’da tabela üretimi ve montajı.Hizmet](https://maltstudio.co/hizmet-bolge/tekirdag-tabela/)
-
 ## İlgili rehberler
 
 ###
@@ -7363,22 +4035,6 @@ Malt Studio Tekirdağ merkezli çalışır. Bu rehber içeriği; atölye üretim
 ###
 
 [One Way Vision Nedir?İlgili rehber.Bilgi](https://maltstudio.co/bilgi/one-way-vision-nedir/)
-
-## İlgili projeler
-
-###
-
-[Liman KahveTamamlanan proje örneği.Proje](https://maltstudio.co/projeler/liman-kahve/)
-
-###
-
-[Volt EnerjiTamamlanan proje örneği.Proje](https://maltstudio.co/projeler/volt-enerji/)
-
-###
-
-[DörtnalTamamlanan proje örneği.Proje](https://maltstudio.co/projeler/dortnal/)
-
-[Tüm projeler →](https://maltstudio.co/projeler/)
 
 ## İlgili sektörler
 
@@ -7551,10 +4207,6 @@ Malt Studio Tekirdağ merkezli çalışır. Bu rehber içeriği; atölye üretim
 
 [Işıklı TabelaIşıklı Tabela hizmeti.Hizmet](https://maltstudio.co/hizmetler/isikli-tabela/)
 
-###
-
-[Tekirdağ Işıklı TabelaTekirdağ’da ışıklı tabela hizmeti.Hizmet](https://maltstudio.co/hizmet-bolge/tekirdag-isikli-tabela/)
-
 ## İlgili rehberler
 
 ###
@@ -7568,22 +4220,6 @@ Malt Studio Tekirdağ merkezli çalışır. Bu rehber içeriği; atölye üretim
 ###
 
 [One Way Vision Nedir?İlgili rehber.Bilgi](https://maltstudio.co/bilgi/one-way-vision-nedir/)
-
-## İlgili projeler
-
-###
-
-[Liman KahveTamamlanan proje örneği.Proje](https://maltstudio.co/projeler/liman-kahve/)
-
-###
-
-[DörtnalTamamlanan proje örneği.Proje](https://maltstudio.co/projeler/dortnal/)
-
-###
-
-[Mera OtelTamamlanan proje örneği.Proje](https://maltstudio.co/projeler/mera-otel/)
-
-[Tüm projeler →](https://maltstudio.co/projeler/)
 
 ## İlgili sektörler
 
@@ -7755,10 +4391,6 @@ Malt Studio Tekirdağ merkezli çalışır. Bu rehber içeriği; atölye üretim
 
 [Kutu HarfKutu Harf hizmeti.Hizmet](https://maltstudio.co/hizmetler/kutu-harf/)
 
-###
-
-[Tekirdağ Kutu HarfTekirdağ’da kutu harf üretimi.Hizmet](https://maltstudio.co/hizmet-bolge/tekirdag-kutu-harf/)
-
 ## İlgili rehberler
 
 ###
@@ -7772,22 +4404,6 @@ Malt Studio Tekirdağ merkezli çalışır. Bu rehber içeriği; atölye üretim
 ###
 
 [One Way Vision Nedir?İlgili rehber.Bilgi](https://maltstudio.co/bilgi/one-way-vision-nedir/)
-
-## İlgili projeler
-
-###
-
-[Mera OtelTamamlanan proje örneği.Proje](https://maltstudio.co/projeler/mera-otel/)
-
-###
-
-[Ekip YazılımTamamlanan proje örneği.Proje](https://maltstudio.co/projeler/ekip-yazilim/)
-
-###
-
-[Volt EnerjiTamamlanan proje örneği.Proje](https://maltstudio.co/projeler/volt-enerji/)
-
-[Tüm projeler →](https://maltstudio.co/projeler/)
 
 ## İlgili sektörler
 
@@ -7954,10 +4570,6 @@ Malt Studio Tekirdağ merkezli çalışır. Bu rehber içeriği; atölye üretim
 
 [Cam GiydirmeCam Giydirme hizmeti.Hizmet](https://maltstudio.co/hizmetler/cam-giydirme/)
 
-###
-
-[Tekirdağ Cam GiydirmeTekirdağ’da cam giydirme uygulamaları.Hizmet](https://maltstudio.co/hizmet-bolge/tekirdag-cam-giydirme/)
-
 ## İlgili rehberler
 
 ###
@@ -7971,22 +4583,6 @@ Malt Studio Tekirdağ merkezli çalışır. Bu rehber içeriği; atölye üretim
 ###
 
 [Kutu Harf Malzemeleri: Pleksi mi Paslanmaz mı?İlgili rehber.Bilgi](https://maltstudio.co/bilgi/kutu-harf-malzemeler/)
-
-## İlgili projeler
-
-###
-
-[Liman KahveTamamlanan proje örneği.Proje](https://maltstudio.co/projeler/liman-kahve/)
-
-###
-
-[DörtnalTamamlanan proje örneği.Proje](https://maltstudio.co/projeler/dortnal/)
-
-###
-
-[Ekip YazılımTamamlanan proje örneği.Proje](https://maltstudio.co/projeler/ekip-yazilim/)
-
-[Tüm projeler →](https://maltstudio.co/projeler/)
 
 ## İlgili sektörler
 
@@ -8154,10 +4750,6 @@ Malt Studio Tekirdağ merkezli çalışır. Bu rehber içeriği; atölye üretim
 
 [Araç GiydirmeAraç Giydirme hizmeti.Hizmet](https://maltstudio.co/hizmetler/arac-giydirme/)
 
-###
-
-[Tekirdağ Araç GiydirmeTekirdağ’da araç giydirme hizmeti.Hizmet](https://maltstudio.co/hizmet-bolge/tekirdag-arac-giydirme/)
-
 ## İlgili rehberler
 
 ###
@@ -8171,14 +4763,6 @@ Malt Studio Tekirdağ merkezli çalışır. Bu rehber içeriği; atölye üretim
 ###
 
 [Kutu Harf Malzemeleri: Pleksi mi Paslanmaz mı?İlgili rehber.Bilgi](https://maltstudio.co/bilgi/kutu-harf-malzemeler/)
-
-## İlgili projeler
-
-###
-
-[Kuzey TekstilTamamlanan proje örneği.Proje](https://maltstudio.co/projeler/kuzey-tekstil/)
-
-[Tüm projeler →](https://maltstudio.co/projeler/)
 
 ## İlgili sektörler
 
@@ -8349,10 +4933,6 @@ Malt Studio Tekirdağ merkezli çalışır. Bu rehber içeriği; atölye üretim
 
 [TabelaTabela hizmeti.Hizmet](https://maltstudio.co/hizmetler/tabela/)
 
-###
-
-[Tekirdağ TabelaTekirdağ’da tabela üretimi ve montajı.Hizmet](https://maltstudio.co/hizmet-bolge/tekirdag-tabela/)
-
 ## İlgili rehberler
 
 ###
@@ -8366,22 +4946,6 @@ Malt Studio Tekirdağ merkezli çalışır. Bu rehber içeriği; atölye üretim
 ###
 
 [Kutu Harf Malzemeleri: Pleksi mi Paslanmaz mı?İlgili rehber.Bilgi](https://maltstudio.co/bilgi/kutu-harf-malzemeler/)
-
-## İlgili projeler
-
-###
-
-[Liman KahveTamamlanan proje örneği.Proje](https://maltstudio.co/projeler/liman-kahve/)
-
-###
-
-[Volt EnerjiTamamlanan proje örneği.Proje](https://maltstudio.co/projeler/volt-enerji/)
-
-###
-
-[DörtnalTamamlanan proje örneği.Proje](https://maltstudio.co/projeler/dortnal/)
-
-[Tüm projeler →](https://maltstudio.co/projeler/)
 
 ## İlgili sektörler
 
@@ -8480,8 +5044,6 @@ Statik ve saha koşulları.
 
 ## Pylon
 
-Aynı aile; ayrı doorway yok.
-
 ## Indoor display
 
 Display/POS sayfasına aittir.
@@ -8553,10 +5115,6 @@ Malt Studio Tekirdağ merkezli çalışır. Bu rehber içeriği; atölye üretim
 
 [TotemTotem hizmeti.Hizmet](https://maltstudio.co/hizmetler/totem/)
 
-###
-
-[Tekirdağ TotemTekirdağ’da totem tabela uygulamaları.Hizmet](https://maltstudio.co/hizmet-bolge/tekirdag-totem/)
-
 ## İlgili rehberler
 
 ###
@@ -8570,18 +5128,6 @@ Malt Studio Tekirdağ merkezli çalışır. Bu rehber içeriği; atölye üretim
 ###
 
 [Kutu Harf Malzemeleri: Pleksi mi Paslanmaz mı?İlgili rehber.Bilgi](https://maltstudio.co/bilgi/kutu-harf-malzemeler/)
-
-## İlgili projeler
-
-###
-
-[Volt EnerjiTamamlanan proje örneği.Proje](https://maltstudio.co/projeler/volt-enerji/)
-
-###
-
-[Kuzey TekstilTamamlanan proje örneği.Proje](https://maltstudio.co/projeler/kuzey-tekstil/)
-
-[Tüm projeler →](https://maltstudio.co/projeler/)
 
 ## İlgili sektörler
 
@@ -8620,10 +5166,7 @@ Malt Studio Tekirdağ merkezli çalışır. Bu rehber içeriği; atölye üretim
 [Ana sayfaMalt Studio ana sayfa.Keşif](https://maltstudio.co/)
 
 ## SSS
-Pylon ayrı mı?
-
-Aynı aile; ayrı doorway yok.
-Display totem?
+Pylon ayrı mı? Display totem?
 
 /hizmetler/display-pos/.
 Sipariş?

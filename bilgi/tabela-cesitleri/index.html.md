@@ -89,7 +89,7 @@ Konum, gece ihtiyacı, bütçe, izin ve montaj yüzeyi birlikte değerlendirilir
 
 İç mekân bilgilendirme ile dış cephe aynı kategoride toplanmamalıdır.
 
-Karşılaştırmayı hizmet satış sayfasına taşımak ownership’i bozar; burada eğitim kalır.
+Karşılaştırma bu rehberde kalır; üretim ve teklif ilgili hizmet sayfasındadır.
 
 Birden fazla tip aynı cephede kullanılacaksa hiyerarşi çizilir: ana kimlik + destek yüzey.
 
@@ -119,10 +119,6 @@ Malt Studio Tekirdağ merkezli çalışır. Bu rehber içeriği; atölye üretim
 
 [TabelaTabela hizmeti.Hizmet](https://maltstudio.co/hizmetler/tabela/)
 
-###
-
-[Tekirdağ TabelaTekirdağ’da tabela üretimi ve montajı.Hizmet](https://maltstudio.co/hizmet-bolge/tekirdag-tabela/)
-
 ## İlgili rehberler
 
 ###
@@ -136,22 +132,6 @@ Malt Studio Tekirdağ merkezli çalışır. Bu rehber içeriği; atölye üretim
 ###
 
 [One Way Vision Nedir?İlgili rehber.Bilgi](https://maltstudio.co/bilgi/one-way-vision-nedir/)
-
-## İlgili projeler
-
-###
-
-[Liman KahveTamamlanan proje örneği.Proje](https://maltstudio.co/projeler/liman-kahve/)
-
-###
-
-[Volt EnerjiTamamlanan proje örneği.Proje](https://maltstudio.co/projeler/volt-enerji/)
-
-###
-
-[DörtnalTamamlanan proje örneği.Proje](https://maltstudio.co/projeler/dortnal/)
-
-[Tüm projeler →](https://maltstudio.co/projeler/)
 
 ## İlgili sektörler
 

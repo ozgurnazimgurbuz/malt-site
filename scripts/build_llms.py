@@ -372,7 +372,7 @@ def section_of(url: str) -> str:
 def build_llms_txt(pages: list[tuple[str, str, str]]) -> str:
     """pages: (url, title, blurb) — HTML canonical URLs."""
     c = load_contact()
-    email = c.get("email") or "merhaba@maltstudio.com"
+    email = c.get("email") or "merhaba@maltstudio.co"
     phone = c.get("phone") or "05525826959"
     city = c.get("addressLocality") or "Süleymanpaşa"
     region = c.get("addressRegion") or "Tekirdağ"

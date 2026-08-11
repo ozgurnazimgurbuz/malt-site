@@ -1,4 +1,4 @@
-# Lightbox | Işıklı Kutu ve Backlit Frame
+# Tekirdağ Lightbox Tabela | Işıklı Kutu ve Backlit | Malt Studio
 
 > Lightbox, ışıklı kutu, SEG ve backlit frame sistemleri.
 
@@ -10,16 +10,16 @@
 
 Hizmet
 
-# Lightbox
+# Tekirdağ Lightbox Tabela
 
 İnce kasa lightbox ve ışıklı kutu sistemleriyle premium aydınlatmalı görsel alanlar.
-[Teklif Al](https://wa.me/905525826959?text=Merhaba%2C%20Lightbox%20hakk%C4%B1nda%20teklif%20almak%20istiyorum.) [WhatsApp](https://wa.me/905525826959?text=Merhaba%2C%20Lightbox%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum.) [Telefon · 0552 582 69 59](tel:+905525826959)
+[Teklif Al](https://wa.me/905525826959?text=Merhaba%2C%20Tekirda%C4%9F%20Lightbox%20Tabela%20hakk%C4%B1nda%20teklif%20almak%20istiyorum.) [WhatsApp](https://wa.me/905525826959?text=Merhaba%2C%20Tekirda%C4%9F%20Lightbox%20Tabela%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum.) [Telefon](tel:+905525826959)
 
 ## Bu hizmet nedir?
 
 Lightbox; arkadan veya kenardan aydınlatmalı çerçeve sistemidir. Retail ve AVM’de sık tercih edilir.
 
-PK lock: ışıklı tabela / LED tabela → /hizmetler/isikli-tabela/. Bu sayfa lightbox ailesidir.
+Işıklı tabela / LED cephe sistemleri ayrı sayfadadır: /hizmetler/isikli-tabela/. Bu sayfa lightbox ailesidir.
 
 SEG / backlit fabric hızlı görsel değişimi sağlar.
 
@@ -91,14 +91,6 @@ Yerel talep Tekirdağ üssünden keşif ile yönetilir.
 
 Sabit internet fiyat listesi yayınlanmaz; keşif sonrası net teklif verilir.
 
-Faktör eğitimi için /bilgi/tabela-fiyati/ rehberine bakabilirsiniz.
-
-## Süre ve planlama
-
-Tasarım onayı sonrası süre işin ölçeğine göre değişir.
-
-Acil işler operasyon kapasitesine göre değerlendirilir; garanti edilemeyen vaat verilmez.
-
 ## Bakım ve sonrası
 
 Görsel değişimi SEG’de hızlıdır; kumaş kirlenmesi için doğru temizlik önerilir.
@@ -107,69 +99,13 @@ LED arızasında servis erişimi kasa tipine bağlıdır.
 
 AVM kuralları varsa uygulama penceresi ona göre planlanır.
 
-## Uygulama notları
+## Süleymanpaşa ve çevre ilçelerde montaj
 
-Lightbox’ta kumaş gergisi bozulursa ışık lekesi oluşur; SEG kenar kalitesi kritiktir.
+Keşif ve montaj Tekirdağ Süleymanpaşa atölyesinden planlanır.
 
-AVM kuralları kasa tipi ve montaj saatini belirleyebilir.
+Adres, saat ve iletişim: [Malt Studio Tekirdağ atölye ve iletişim](https://maltstudio.co/bolgeler/tekirdag/) .
 
-Görsel değişim sıklığı yüksekse SEG avantajı öne çıkar.
-
-Cephe LED tabela ihtiyacı buraya düşmemelidir; Işıklı Tabela owner’ıdır.
-
-Resepsiyon duvarında lightbox + ofis branding birlikte planlanabilir.
-
-İnce kasa isteği elektrik ve soğutma ihtiyacıyla dengelenir.
-
-Serviste kumaş değişimi ile LED değişimi ayrı kalemlerdir.
-
-Görsel dosyası renk profili bozulmadan istenmelidir.
-
-Asma tavan veya alçıpan taşıma kapasitesi keşifte kontrol edilir.
-
-Sürekli açık lightbox’ta ısı yönetimi konuşulur.
-
-Kumaş stoğu müşteriye teslim edilmezse sonraki değişim için saklama planı yapılır.
-
-Keşif Tekirdağ üssünden planlanır.
-
-## Karar ve teslim özeti
-
-Lightbox, ışıklı kutu/frame ailesidir ve cephe LED tabeladan bilinçli ayrılır. SEG ve backlit fabric hızlı görsel değişim ister. Kasa tipi mekân, elektrik ve askı yöntemine göre seçilir. AVM kuralları saat ve malzemeyi etkileyebilir. Kumaş gergisi bozulursa ışık lekesi oluşur. Serviste kumaş değişimi ile LED değişimi ayrı kalemlerdir. Görsel dosyası renk profili korunarak istenmelidir. Asma tavan taşıma kapasitesi keşifte kontrol edilir. Sürekli açık sistemlerde ısı yönetimi konuşulur. Resepsiyon duvarında ofis branding ile birlikte planlanabilir. Uydurma stok adedi veya sahte ömür yılı eklenmez. Mağaza içi, showroom ve klinik bekleme tipik alanlardır. Yanlışlıkla cephe tabela talebi Işıklı Tabela’ya yönlendirilir.
-
-Lightbox görsellerinde güvenli alan (safe margin) bırakılır. Kumaş kırışıklığı teslim öncesi giderilir. Duvar tipi alçıpan ise ek taşıyıcı gerekebilir. Sürekli açık/kapalı senaryosu LED tipini etkiler. Müşteri görsel değişimini kendi yapacaksa kısa eğitim verilebilir. Magazin/AVM güvenlik prosedürlerine uyulur.
-
-Lightbox projelerinde mekân ölçüsü, askı yöntemi ve görsel değişim sıklığı birlikte okunur. SEG tercihinde kumaş gergisi teslim kalitesinin göstergesidir. AVM veya plaza kuralları montaj saatini kısıtlayabilir. Cephe LED tabela isteyen müşteri bilinçli biçimde Işıklı Tabela’ya yönlendirilir; Servis kalemleri kumaş ve LED olarak ayrılır. Uydurma ömür yılı eklenmez. Görsel safe margin bırakılır. Sürekli açık senaryoda ısı yönetimi konuşulur.
-
-Lightbox tesliminde uzaktan kumanda veya sensör istenirse ayrıca konuşulur; standart varsayılmaz. Kumaş yedek baskı opsiyoneldir. Duvar arkası kablo gizliği keşifte planlanır. Retail değişim sıklığı yüksekse SEG avantajı tekrar hatırlatılır.
-
-## Keşif kontrol listesi
-
-- Cephe LED tabela ihtiyacı Işıklı Tabela’yadır.
-- SEG veya akrilik yüz mekâna göre seçilir.
-- Duvar taşıma kapasitesi kontrol edilir.
-- Elektrik noktası keşifte doğrulanır.
-- Görselde safe margin bırakılır.
-- AVM kuralları saat ve malzemeyi etkiler.
-- Kumaş değişim sıklığı malzeme kararını etkiler.
-- İnce kasa isteği servisle dengelenir.
-- LED servis erişimi tasarımda bırakılır.
-- Renk profili bozulmadan dosya istenir.
-- Asma planı onaysız uygulanmaz.
-- Ofis branding ile paketlenebilir.
-- Teslimde gergi ve ışık homojenliği kontrol edilir.
-- Uydurma stok adedi yazılmaz.
-- Müşteri değişimi yapacaksa kısa eğitim verilebilir.
-- Sürekli açık senaryosu LED tipini etkiler.
-- Kanıt fotoğrafı planlanır.
-
-## Yerel bağlantı
-
-Yerel keşif ve montaj Tekirdağ üssünden planlanır.
-
-Detay için /bolgeler/tekirdag/ sayfasına bakabilirsiniz.
-
-[WhatsApp ile Teklif](https://wa.me/905525826959?text=Merhaba%2C%20Lightbox%20i%C3%A7in%20ke%C5%9Fif%20istiyorum.) [Teklif](https://maltstudio.co/#teklif) [Ara](tel:+905525826959)
+[WhatsApp ile Teklif](https://wa.me/905525826959?text=Merhaba%2C%20Tekirda%C4%9F%20Lightbox%20Tabela%20i%C3%A7in%20ke%C5%9Fif%20istiyorum.) [Teklif](https://maltstudio.co/#teklif) [Ara](tel:+905525826959)
 
 ## İlgili hizmetler
 
@@ -194,22 +130,6 @@ Detay için /bolgeler/tekirdag/ sayfasına bakabilirsiniz.
 ###
 
 [RehberKarar vermenize yardımcı rehber.Bilgi](https://maltstudio.co/bilgi/isikli-mi-isiksiz-mi/)
-
-## İlgili projeler
-
-###
-
-[Mera OtelTamamlanan proje örneği.Proje](https://maltstudio.co/projeler/mera-otel/)
-
-###
-
-[DörtnalTamamlanan proje örneği.Proje](https://maltstudio.co/projeler/dortnal/)
-
-###
-
-[Ekip YazılımTamamlanan proje örneği.Proje](https://maltstudio.co/projeler/ekip-yazilim/)
-
-[Tüm projeler →](https://maltstudio.co/projeler/)
 
 ## İlgili sektörler
 

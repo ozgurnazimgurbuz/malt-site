@@ -1,13 +1,13 @@
 {
   "addressCountry": "TR",
-  "ctaSectionTitle": "Projenizi konuşalım.",
+  "ctaSectionTitle": "Teklif ve keşif",
   "youtube": "",
   "legalName": "",
   "ctaSecondary": "WhatsApp",
   "portfolioIntro": "Tamamladığımız işlerden öne çıkanlar.",
   "ctaSectionTag": "Teklif / Keşif",
   "seoOgImage": "/images/og.jpg",
-  "heroSub": "Tabela üretimi, kurumsal kimlik, dijital baskı ve uygulama. Keşiften montaja Tekirdağ merkezli üretim.",
+  "heroSub": "Tekirdağ’da tabela, ışıklı tabela, kutu harf, dijital baskı ve araç giydirme. Keşif, tasarım, üretim ve montaj.",
   "googleTagManagerId": "",
   "seoKeywords": "Tekirdağ reklam ajansı, Tekirdağ reklam firması, Malt Studio, tabela, ışıklı tabela, kutu harf, totem, araç giydirme, cam giydirme",
   "addressRegion": "Tekirdağ",
@@ -124,7 +124,7 @@
   "servicesIntro": "Üretimden montaja, ihtiyacınıza uygun çözümler.",
   "foundingDate": "",
   "phone": "05525826959",
-  "portfolioTitle": "Seçili İşler",
+  "portfolioTitle": "Gerçek Tekirdağ tabela ve uygulama projeleri",
   "googleSearchConsoleVerification": "",
   "portfolioTag": "Projeler",
   "ctaPrimary": "Teklif Al",
@@ -143,20 +143,20 @@
       "closes": "19:00"
     }
   ],
-  "addressStreet": "Ruşen Güneş Sokak, D Blok No:2",
+  "addressStreet": "Yavuz Mahallesi, Ruşen Güneş Sokak, D Blok No:2",
   "addressLocality": "Süleymanpaşa",
   "heroTitleTop": "Markanızı",
   "seoFavicon": "",
   "defaultLanguage": "tr",
-  "servicesTitle": "Çekirdek Hizmetler",
+  "servicesTitle": "Tekirdağ’da hangi reklam ve tabela hizmetlerini veriyoruz?",
   "heroHighlight": "sahada",
   "facebookPixelId": "",
   "whatsappNumber": "905525826959",
   "canonicalUrl": "https://maltstudio.co/",
-  "seoTitle": "Malt Studio | Tekirdağ Reklam Ajansı",
+  "seoTitle": "Tekirdağ Reklam Ajansı ve Tabela | Malt Studio",
   "defaultLocale": "tr-TR",
   "servicesTag": "Hizmetler",
-  "email": "merhaba@maltstudio.com",
+  "email": "merhaba@maltstudio.co",
   "geoLatitude": "40.9769375",
   "services": [
     {
@@ -239,20 +239,20 @@
   "geoLongitude": "27.5041875",
   "stats": [
     {
-      "number": "30+",
-      "label": "Tamamlanan Proje"
+      "number": "01",
+      "label": "Keşif"
     },
     {
-      "number": "2",
-      "label": "Yıllık Deneyim"
+      "number": "02",
+      "label": "Tasarım"
     },
     {
-      "number": "12",
-      "label": "Aktif Marka"
+      "number": "03",
+      "label": "Üretim"
     },
     {
-      "number": "3",
-      "label": "Sektör Ödülü"
+      "number": "04",
+      "label": "Montaj"
     }
   ],
   "schemaServices": [
@@ -268,5 +268,6 @@
     "İş güvenliği tabelaları"
   ],
   "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=40.9769375,27.5041875",
-  "seoDescription": "Tekirdağ reklam ajansı Malt Studio. Tabela üretimi, kurumsal kimlik, dijital baskı ve uygulama. Keşiften montaja Tekirdağ merkezli üretim."
+  "seoDescription": "Tekirdağ’da tabela, ışıklı tabela, kutu harf, dijital baskı ve araç giydirme. Keşif, tasarım, üretim ve montaj için Malt Studio’dan teklif alın.",
+  "heroH1": "Tekirdağ Reklam Ajansı ve Tabela Üreticisi"
 }

@@ -125,18 +125,6 @@ Malt Studio Tekirdağ merkezli çalışır. Bu sektör içeriği; atölye üreti
 
 [RehberKarar vermenize yardımcı rehber.Bilgi](https://maltstudio.co/bilgi/one-way-vision-nedir/)
 
-## İlgili projeler
-
-###
-
-[Liman KahveTamamlanan proje örneği.Proje](https://maltstudio.co/projeler/liman-kahve/)
-
-###
-
-[Volt EnerjiTamamlanan proje örneği.Proje](https://maltstudio.co/projeler/volt-enerji/)
-
-[Tüm projeler →](https://maltstudio.co/projeler/)
-
 ## Keşfet
 
 ###

@@ -112,10 +112,6 @@ Malt Studio Tekirdağ merkezli çalışır. Bu rehber içeriği; atölye üretim
 
 [Kutu HarfKutu Harf hizmeti.Hizmet](https://maltstudio.co/hizmetler/kutu-harf/)
 
-###
-
-[Tekirdağ Kutu HarfTekirdağ’da kutu harf üretimi.Hizmet](https://maltstudio.co/hizmet-bolge/tekirdag-kutu-harf/)
-
 ## İlgili rehberler
 
 ###
@@ -129,22 +125,6 @@ Malt Studio Tekirdağ merkezli çalışır. Bu rehber içeriği; atölye üretim
 ###
 
 [One Way Vision Nedir?İlgili rehber.Bilgi](https://maltstudio.co/bilgi/one-way-vision-nedir/)
-
-## İlgili projeler
-
-###
-
-[Mera OtelTamamlanan proje örneği.Proje](https://maltstudio.co/projeler/mera-otel/)
-
-###
-
-[Ekip YazılımTamamlanan proje örneği.Proje](https://maltstudio.co/projeler/ekip-yazilim/)
-
-###
-
-[Volt EnerjiTamamlanan proje örneği.Proje](https://maltstudio.co/projeler/volt-enerji/)
-
-[Tüm projeler →](https://maltstudio.co/projeler/)
 
 ## İlgili sektörler
 

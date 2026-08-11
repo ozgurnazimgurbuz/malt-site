@@ -108,10 +108,6 @@ Malt Studio Tekirdağ merkezli çalışır. Bu rehber içeriği; atölye üretim
 
 [Araç GiydirmeAraç Giydirme hizmeti.Hizmet](https://maltstudio.co/hizmetler/arac-giydirme/)
 
-###
-
-[Tekirdağ Araç GiydirmeTekirdağ’da araç giydirme hizmeti.Hizmet](https://maltstudio.co/hizmet-bolge/tekirdag-arac-giydirme/)
-
 ## İlgili rehberler
 
 ###
@@ -125,14 +121,6 @@ Malt Studio Tekirdağ merkezli çalışır. Bu rehber içeriği; atölye üretim
 ###
 
 [Kutu Harf Malzemeleri: Pleksi mi Paslanmaz mı?İlgili rehber.Bilgi](https://maltstudio.co/bilgi/kutu-harf-malzemeler/)
-
-## İlgili projeler
-
-###
-
-[Kuzey TekstilTamamlanan proje örneği.Proje](https://maltstudio.co/projeler/kuzey-tekstil/)
-
-[Tüm projeler →](https://maltstudio.co/projeler/)
 
 ## İlgili sektörler
 

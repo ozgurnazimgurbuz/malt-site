@@ -37,6 +37,11 @@ A3_CSS = """
   .section-head h2{line-height:1.08;}
   /* Section intros: --muted (0.62) reads too dim on mobile OLED */
   .section-head p{color:var(--muted-chip);}
+  .home-faq details{border-top:1px solid var(--line); padding:18px 0;}
+  .home-faq details:last-child{border-bottom:1px solid var(--line);}
+  .home-faq summary{cursor:pointer; font-weight:600; font-size:16px; list-style:none;}
+  .home-faq summary::-webkit-details-marker{display:none;}
+  .home-faq details p{margin-top:12px; font-size:15px; line-height:1.65; color:var(--muted-chip);}
   /* Logo already brands the page — drop redundant eyebrow brand on all viewports. */
   #hero-eyebrow .eyebrow-brand{display:none;}
   .trust-strip{
@@ -148,7 +153,7 @@ MAIN = f"""
   </svg>
   <div class="wrap">
     <div class="eyebrow" id="hero-eyebrow"><span class="eyebrow-brand">Malt Studio · </span>Tekirdağ Reklam Ajansı</div>
-    <h1 id="hero-title">Markanızı <span id="hero-highlight">sahada</span><br id="hero-br">görünür kılarız.</h1>
+    <h1 id="hero-title">Tekirdağ Reklam Ajansı ve Tabela Üreticisi</h1>
     <p class="hero-sub" id="hero-sub">Tabela üretimi, kurumsal kimlik, dijital baskı ve uygulama. Keşiften montaja Tekirdağ merkezli üretim.</p>
     <div class="hero-actions">
       <a href="#teklif" class="btn btn-primary" id="cta-primary">Teklif Al</a>
@@ -224,7 +229,7 @@ MAIN = f"""
     <div class="section-head">
       <div>
         <div class="tag">Süreç</div>
-        <h2 id="process-title">Üretim<br>Süreci</h2>
+        <h2 id="process-title">Keşiften montaja üretim sürecimiz</h2>
       </div>
       <p>Keşiften teslimata kadar birlikte yürüdüğümüz süreç.</p>
     </div>
@@ -270,7 +275,7 @@ MAIN = f"""
     <div class="section-head">
       <div>
         <div class="tag">Neden Biz</div>
-        <h2 id="why-title">Neden<br>Malt Studio</h2>
+        <h2 id="why-title">Neden Malt Studio?</h2>
       </div>
       <p>Üreten ekip, sahada montaj, kurumsal yaklaşım ve yerel destek.</p>
     </div>
@@ -289,9 +294,9 @@ MAIN = f"""
     <div class="section-head">
       <div>
         <div class="tag">Kapsama</div>
-        <h2 id="coverage-title">Hizmet<br>Bölgesi</h2>
+        <h2 id="coverage-title">Süleymanpaşa ve çevre ilçelerde hizmet</h2>
       </div>
-      <p>Tekirdağ merkezliyiz; çevre ilçe ve komşu illere keşif ve montaj desteği sunuyoruz.</p>
+      <p>Tekirdağ merkezliyiz; Süleymanpaşa ve çevre ilçelere keşif ve montaj desteği sunuyoruz.</p>
     </div>
     <div class="chip-grid" aria-label="Hizmet verilen bölgeler">
       <a class="chip" href="/bolgeler/tekirdag/">Tekirdağ</a>
@@ -311,14 +316,21 @@ MAIN = f"""
       <span class="chip">Çanakkale</span>
       <span class="chip">Kırklareli</span>
     </div>
-    <div class="local-grid" style="margin-top:40px;">
-      <a class="local-card" href="/bolgeler/tekirdag/"><h3>Tekirdağ Reklam Ajansı</h3><p>Tekirdağ’da tabela üretimi, keşif ve montaj — yerel hizmet rehberi.</p><span class="meta">Yerel</span></a>
-      <a class="local-card" href="/hizmet-bolge/tekirdag-tabela/"><h3>Tekirdağ Tabela</h3><p>Tekirdağ’da tabela üretimi ve montajı.</p><span class="meta">Yerel</span></a>
-      <a class="local-card" href="/hizmet-bolge/tekirdag-isikli-tabela/"><h3>Tekirdağ Işıklı</h3><p>Tekirdağ’da ışıklı tabela hizmeti.</p><span class="meta">Yerel</span></a>
-      <a class="local-card" href="/hizmet-bolge/tekirdag-kutu-harf/"><h3>Tekirdağ Kutu Harf</h3><p>Tekirdağ’da kutu harf üretimi.</p><span class="meta">Yerel</span></a>
-      <a class="local-card" href="/hizmet-bolge/tekirdag-totem/"><h3>Tekirdağ Totem</h3><p>Tekirdağ’da totem tabela uygulamaları.</p><span class="meta">Yerel</span></a>
-      <a class="local-card" href="/hizmet-bolge/tekirdag-arac-giydirme/"><h3>Tekirdağ Araç</h3><p>Tekirdağ’da araç giydirme hizmeti.</p><span class="meta">Yerel</span></a>
-      <a class="local-card" href="/hizmet-bolge/tekirdag-cam-giydirme/"><h3>Tekirdağ Cam</h3><p>Tekirdağ’da cam giydirme uygulamaları.</p><span class="meta">Yerel</span></a>
+    <div class="section-head" style="margin-top:48px;">
+      <div>
+        <div class="tag">Atölye</div>
+        <h2 id="workshop-title">Malt Studio Tekirdağ atölyesi</h2>
+      </div>
+      <p>Adres, çalışma saatleri, telefon ve yol tarifi atölye sayfasında.</p>
+    </div>
+    <div class="local-grid" style="margin-top:24px;">
+      <a class="local-card" href="/bolgeler/tekirdag/"><h3>Atölye ve iletişim</h3><p>Adres, çalışma saatleri, telefon ve keşif bilgisi.</p><span class="meta">Atölye</span></a>
+      <a class="local-card" href="/hizmetler/tabela/"><h3>Tekirdağ tabela imalatı ve montajı</h3><p>Işıklı, ışıksız, kutu harf ve kompozit tabela.</p><span class="meta">Hizmet</span></a>
+      <a class="local-card" href="/hizmetler/isikli-tabela/"><h3>Tekirdağ ışıklı tabela</h3><p>LED üretim ve montaj.</p><span class="meta">Hizmet</span></a>
+      <a class="local-card" href="/hizmetler/kutu-harf/"><h3>Kutu harf tabela</h3><p>Pleksi ve paslanmaz kutu harf.</p><span class="meta">Hizmet</span></a>
+      <a class="local-card" href="/hizmetler/totem/"><h3>Totem tabela üretimi</h3><p>Yol ve tesis totem sistemleri.</p><span class="meta">Hizmet</span></a>
+      <a class="local-card" href="/hizmetler/arac-giydirme/"><h3>Tekirdağ araç giydirme</h3><p>Ticari araç ve filo kaplama.</p><span class="meta">Hizmet</span></a>
+      <a class="local-card" href="/hizmetler/cam-giydirme/"><h3>Tekirdağ cam giydirme</h3><p>One way vision ve vitrin folyo.</p><span class="meta">Hizmet</span></a>
       <a class="local-card" href="/projeler/"><h3>Projeler</h3><p>Tekirdağ’da seçili tabela ve uygulama işleri.</p><span class="meta">Keşif</span></a>
       <a class="local-card" href="/hizmetler/"><h3>Tüm Hizmetler</h3><p>Tüm hizmetlerimize göz atın.</p><span class="meta">Hizmet</span></a>
     </div>
@@ -328,6 +340,24 @@ MAIN = f"""
 <section id="kultur" aria-label="Özet göstergeler">
   <div class="wrap">
     <div class="stats" id="stats-grid"></div>
+  </div>
+</section>
+
+<section id="sss" aria-labelledby="faq-title">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <div class="tag">SSS</div>
+        <h2 id="faq-title">Sık sorulan sorular</h2>
+      </div>
+      <p>Keşif, fiyat ve hizmet bölgesi hakkında kısa yanıtlar.</p>
+    </div>
+    <div class="home-faq">
+      <details><summary>Tekirdağ’da tabela ve reklam işi yapıyor musunuz?</summary><p>Evet. Malt Studio Tekirdağ Süleymanpaşa merkezlidir; tabela, ışıklı tabela, kutu harf, totem, cam ve araç giydirme üretimi ile montajını aynı hatta planlarız.</p></details>
+      <details><summary>Keşif ücretli mi?</summary><p>Keşif randevusu WhatsApp veya telefon ile alınır. Ölçü ve saha notları teklifi şekillendirir; sabit internet fiyatı yayınlanmaz.</p></details>
+      <details><summary>Süleymanpaşa ve çevre ilçelere geliyor musunuz?</summary><p>Evet. Süleymanpaşa, merkez ve çevre ilçe işleri Tekirdağ atölyesinden planlanır. Detay için <a href="/bolgeler/tekirdag/">atölye ve iletişim</a> sayfasına bakın.</p></details>
+      <details><summary>Hangi tabela türünü seçmeliyim?</summary><p>Gece görünürlük için <a href="/hizmetler/isikli-tabela/">ışıklı tabela</a>, cephe yazısı için <a href="/hizmetler/kutu-harf/">kutu harf</a>, genel üretim için <a href="/hizmetler/tabela/">tabela imalatı</a> sayfalarına bakın.</p></details>
+    </div>
   </div>
 </section>
 
@@ -375,7 +405,7 @@ FOOTER_COLS = """      <div>
       <div>
         <h4>İletişim</h4>
         <ul>
-          <li id="contact-email">merhaba@maltstudio.com</li>
+          <li id="contact-email">merhaba@maltstudio.co</li>
           <li><a id="contact-phone" href="tel:+905525826959">05525826959</a></li>
           <li id="contact-address">Tekirdağ, Türkiye</li>
           <!-- Temporarily hidden; keep markup for easy re-enable -->

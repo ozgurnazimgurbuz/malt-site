@@ -15,11 +15,9 @@ Tamamladığımız işlerden örnekler. Görseller geldikçe güncellenir.
 
 ## Neden proje sayfaları?
 
-Google ve kullanıcılar gerçek iş ister. Proje sayfaları benzersiz kanıttır.
+Gerçek saha fotoğrafları ana sayfada yer alır.
 
-Görseller onaylandıkça proje sayfaları güncellenecek.
-
-Hub indexlenebilir; listelemeyi ve iç link akışını taşır.
+Ayrı proje URL’si yalnızca içerik hazır olduğunda açılır.
 
 ## Üretim, deneyim ve yerel uzmanlık
 

@@ -1,6 +1,6 @@
-# Kutu Harf | Pleksi ve Paslanmaz Cephe Yazıları
+# Tekirdağ Kutu Harf Tabela | Malt Studio
 
-> Kutu harf üretimi ve montajı. Pleksi, paslanmaz ve ışıklı kutu harf.
+> Tekirdağ’da kutu harf tabela üretimi ve montajı. Pleksi, paslanmaz ve ışıklı kutu harf.
 
 - Canonical HTML: https://maltstudio.co/hizmetler/kutu-harf/
 - Markdown twin: https://maltstudio.co/hizmetler/kutu-harf/index.html.md
@@ -10,10 +10,10 @@
 
 Hizmet
 
-# Kutu Harf
+# Tekirdağ Kutu Harf Tabela
 
 Cepheye derinlik katan ölçüye özel kutu harf sistemleri.
-[Teklif Al](https://wa.me/905525826959?text=Merhaba%2C%20Kutu%20Harf%20hakk%C4%B1nda%20teklif%20almak%20istiyorum.) [WhatsApp](https://wa.me/905525826959?text=Merhaba%2C%20Kutu%20Harf%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum.) [Telefon · 0552 582 69 59](tel:+905525826959)
+[Teklif Al](https://wa.me/905525826959?text=Merhaba%2C%20Tekirda%C4%9F%20Kutu%20Harf%20Tabela%20hakk%C4%B1nda%20teklif%20almak%20istiyorum.) [WhatsApp](https://wa.me/905525826959?text=Merhaba%2C%20Tekirda%C4%9F%20Kutu%20Harf%20Tabela%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum.) [Telefon](tel:+905525826959)
 
 ## Bu hizmet nedir?
 
@@ -25,7 +25,7 @@ Harf yüksekliği, derinlik, ışıklı/ışıksız tercih ve montaj yüzeyi oku
 
 Plaza, ofis ve mağaza cephelerinde prestij algısını en hızlı yükselten uygulamalardan biridir.
 
-Tekirdağ yerel niyeti /hizmet-bolge/tekirdag-kutu-harf/ sayfasındadır.
+Tekirdağ plaza ve mağaza cephelerinde keşif sonrası ölçüye özel üretilir.
 
 Kutu harf, marka adını cepheye üç boyutlu taşır. Channel letters aynı ailedir; ayrı URL açılmaz.
 
@@ -95,14 +95,6 @@ Malzeme karşılaştırması eğitim için bilgi sayfasındadır; sipariş bu hi
 
 Sabit internet fiyat listesi yayınlanmaz; keşif sonrası net teklif verilir.
 
-Faktör eğitimi için /bilgi/tabela-fiyati/ rehberine bakabilirsiniz.
-
-## Süre ve planlama
-
-Tasarım onayı sonrası süre işin ölçeğine göre değişir.
-
-Acil işler operasyon kapasitesine göre değerlendirilir; garanti edilemeyen vaat verilmez.
-
 ## Bakım ve sonrası
 
 Dış ortamda toz ve kuş pisliği birikimi periyodik temizlik ister.
@@ -111,63 +103,13 @@ Işıklı modellerde LED servisi güç kaynağı erişimine bağlıdır.
 
 Hasarlı tek harf değişimi çoğu zaman tüm yazıyı sökmeden planlanabilir.
 
-## Uygulama notları
+## Süleymanpaşa ve çevre ilçelerde montaj
 
-Harf yüksekliği okuma mesafesine göre seçilir; gösteriş için büyütmek her zaman doğru değildir.
+Keşif ve montaj Tekirdağ Süleymanpaşa atölyesinden planlanır.
 
-Paslanmaz seçildiğinde kaynak/montaj izinin mimariye uyumu konuşulmalıdır.
+Adres, saat ve iletişim: [Malt Studio Tekirdağ atölye ve iletişim](https://maltstudio.co/bolgeler/tekirdag/) .
 
-Işıklı kutu harfte yan aydınlatma ile ön yüz difüzörü farklı görünüm üretir; brief’te netleştirilir.
-
-Cam cepheye montajda delik ve aparat planı kritiktir; keşifsiz sipariş risklidir.
-
-Font lisansları müşteri sorumluluğundadır; biz üretim dosyasını teknik kalite için isteriz.
-
-Tek harf hasarında tüm yazıyı sökmek çoğu zaman gerekmez; parça üretim planlanabilir.
-
-Ofis içi 3D logo ile dış cephe harfi farklı malzeme sınıfına girebilir; paket ofis branding ile ayrılabilir.
-
-Harf aralıkları (kerning) uzaktan okumayı etkiler; sıkışık yazı tercih edilmez.
-
-Işıklı modelde trafo konumu estetik ve servis için planlanır.
-
-Taş veya tuğla cephede dübel seçimi keşif notuna işlenir.
-
-Tekirdağ plaza işleri için yerel kutu harf sayfamıza bakabilirsiniz.
-
-Üretim öncesi onaylı görsel olmadan kesim başlamaz.
-
-## Karar ve teslim özeti
-
-Kutu harf, markayı cepheye üç boyutlu taşır; font, aralık ve derinlik okunurluğu doğrudan etkiler. Pleksi ve paslanmaz yolları karşılaştırmalı anlatılır ama nihai seçim mimari ve bütçeyle keşifte netleşir. Channel letters ayrı URL değildir. Işıklı modelde LED ve trafo planı estetik kadar servisi de belirler. Cam veya taş cephede aparat planı yoksa iş risklidir. Üretim onaylı görsele bağlanır; onaysız kesim yapılmaz. Ofis içi 3D logo ihtiyacı ofis branding paketiyle birleştirilebilir. Harf yüksekliği gösteriş için şişirilmez; okuma mesafesine göre seçilir. Paslanmazda montaj izinin mimariye uyumu konuşulur. Tek harf hasarında tüm yazıyı sökmek çoğu zaman gerekmez. Font lisansları müşteri sorumluluğundadır. Bakımda yumuşak temizlik ve ışıklı modellerde servis erişimi korunur. Plaza ve mağaza cepheleri en sık uygulama alanlarıdır.
-
-Kutu harfte renk eşlemesi marka koduna göre yapılır; ekran ile gerçek yüzey farkı konuşulur. Alüminyum yan band seçenekleri modele göre değişir. Yüksek cephede iskele planı önceden çıkarılır. Rüzgâr yükü büyük harflerde keşif notuna yazılır. İç mekân harflerde farklı yapışkan/montaj kullanılır. Teslimde tek tek harf sabitlemesi kontrol edilir. Revizyon isteği onay döngüsüne bağlanır.
-
-## Keşif kontrol listesi
-
-- Okuma mesafesi harf yüksekliğini belirler; şişirme yapılmaz.
-- Pleksi ve paslanmaz kararları mimariye göre verilir.
-- Işıklı/ışıksız tercih üretimden önce netleşir.
-- Vektörel logo/font kaliteyi yükseltir.
-- Montaj yüzeyi aparat tipini belirler.
-- Kerning uzaktan okumayı etkiler.
-- LED’li modellerde trafo planı şarttır.
-- Yüksek cephede iskele/vinç keşifle planlanır.
-- Channel letters ayrı URL değildir.
-- Ofis içi 3D logo ofis branding ile paketlenebilir.
-- Tek harf servisi tüm yazıyı sökmeyi gerektirmeyebilir.
-- Onaylı mock-up olmadan kesim başlamaz.
-- Dış temizlik yumuşak yapılmalıdır.
-- Renk kodu marka kılavuzundan sapmaz.
-- Teslimde her harf sabitlemesi kontrol edilir.
-- Font lisansı müşteri sorumluluğundadır.
-- Kanıt fotoğrafı proje sayfasına bağlanır.
-
-## Tekirdağ’da bu hizmet
-
-Tekirdağ’da kutu harf üretimi için yerel sayfamız: /hizmet-bolge/tekirdag-kutu-harf/.
-
-[WhatsApp ile Teklif](https://wa.me/905525826959?text=Merhaba%2C%20Kutu%20Harf%20i%C3%A7in%20ke%C5%9Fif%20istiyorum.) [Teklif](https://maltstudio.co/#teklif) [Ara](tel:+905525826959)
+[WhatsApp ile Teklif](https://wa.me/905525826959?text=Merhaba%2C%20Tekirda%C4%9F%20Kutu%20Harf%20Tabela%20i%C3%A7in%20ke%C5%9Fif%20istiyorum.) [Teklif](https://maltstudio.co/#teklif) [Ara](tel:+905525826959)
 
 ## İlgili hizmetler
 
@@ -196,22 +138,6 @@ Tekirdağ’da kutu harf üretimi için yerel sayfamız: /hizmet-bolge/tekirdag-
 ###
 
 [RehberKarar vermenize yardımcı rehber.Bilgi](https://maltstudio.co/bilgi/tabela-cesitleri/)
-
-## İlgili projeler
-
-###
-
-[Mera OtelTamamlanan proje örneği.Proje](https://maltstudio.co/projeler/mera-otel/)
-
-###
-
-[Ekip YazılımTamamlanan proje örneği.Proje](https://maltstudio.co/projeler/ekip-yazilim/)
-
-###
-
-[Volt EnerjiTamamlanan proje örneği.Proje](https://maltstudio.co/projeler/volt-enerji/)
-
-[Tüm projeler →](https://maltstudio.co/projeler/)
 
 ## İlgili sektörler
 

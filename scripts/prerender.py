@@ -63,17 +63,18 @@ def replace_inner_by_id(doc: str, element_id: str, inner: str) -> str:
 
 
 def set_attr_by_id(doc: str, element_id: str, attr: str, value: str) -> str:
-    pattern = re.compile(rf'(id="{re.escape(element_id)}"[^>]*)>', re.S)
+    pattern = re.compile(
+        rf'<([a-zA-Z][\w-]*)([^>]*\sid="{re.escape(element_id)}"[^>]*)>',
+        re.S,
+    )
     match = pattern.search(doc)
     if not match:
         raise SystemExit(f'prerender: element id="{element_id}" not found for attr')
-    tag = match.group(1)
-    attr_pat = re.compile(rf'\s{attr}="[^"]*"')
-    if attr_pat.search(tag):
-        tag = attr_pat.sub(f' {attr}="{esc(value)}"', tag)
-    else:
-        tag = f'{tag} {attr}="{esc(value)}"'
-    return doc[: match.start(1)] + tag + doc[match.end(1) :]
+    tag_name, attrs = match.group(1), match.group(2)
+    attr_pat = re.compile(rf'\s{re.escape(attr)}="[^"]*"')
+    attrs = attr_pat.sub("", attrs)
+    attrs = f'{attrs} {attr}="{esc(value)}"'
+    return doc[: match.start()] + f"<{tag_name}{attrs}>" + doc[match.end() :]
 
 
 def abs_url(site_url: str, path: str) -> str:
@@ -239,13 +240,16 @@ def build_stats(c: dict) -> str:
 
 def services_title_html(title: str) -> str:
     title = title or ""
-    cut = title.find(" ")
-    if cut == -1:
-        return esc(title)
-    return esc(title[:cut]) + "<br>" + esc(title[cut + 1 :])
+    if title.count(" ") == 1:
+        cut = title.find(" ")
+        return esc(title[:cut]) + "<br>" + esc(title[cut + 1 :])
+    return esc(title)
 
 
 def hero_title_html(c: dict) -> str:
+    h1 = (c.get("heroH1") or "").strip()
+    if h1:
+        return esc(h1)
     top = esc(c.get("heroTitleTop"))
     highlight = esc(c.get("heroHighlight"))
     bottom = esc(c.get("heroTitleBottom"))
@@ -271,210 +275,45 @@ def replace_hero_title(doc: str, c: dict) -> str:
 
 
 def build_json_ld(c: dict) -> dict:
+    """Single LocalBusiness identity for the homepage. No duplicate Organization."""
     site = (c.get("siteUrl") or "").rstrip("/")
     if not site or not c.get("siteName"):
         return {}
     telephone = to_e164(c.get("phone", ""), c.get("whatsappNumber", ""))
-    description = c.get("seoDescription") or c.get("footerAbout") or ""
-    page_url = c.get("canonicalUrl") or (site + "/")
-    logo_url = abs_url(site, c.get("logo") or "/images/icon-512.png")
-    og_url = abs_url(site, c.get("seoOgImage") or "")
-    image_url = og_url or logo_url
     same_as = [
         u
-        for u in [c.get("instagram"), c.get("linkedin"), c.get("behance"), c.get("youtube")]
+        for u in [c.get("instagram")]
         if u and is_profile_url(u)
     ]
-    schema_services = []
-    for s in c.get("schemaServices") or []:
-        schema_services.append(s if isinstance(s, str) else (s or {}).get("service"))
-    schema_services = [s for s in schema_services if s]
-    page_services = [s.get("title") for s in (c.get("services") or []) if s.get("title")]
-    service_names = list(dict.fromkeys([*schema_services, *page_services]))
-
-    postal = prune(
-        {
-            "@type": "PostalAddress",
-            "streetAddress": c.get("addressStreet"),
-            "addressLocality": c.get("addressLocality")
-            or ((c.get("address") or "").split(",")[0].strip() or None),
-            "addressRegion": c.get("addressRegion"),
-            "postalCode": c.get("addressPostalCode"),
-            "addressCountry": c.get("addressCountry") or "TR",
-        }
-    )
-    geo = None
-    if c.get("geoLatitude") and c.get("geoLongitude"):
-        geo = prune(
-            {
-                "@type": "GeoCoordinates",
-                "latitude": c.get("geoLatitude"),
-                "longitude": c.get("geoLongitude"),
-            }
-        )
-    opening = []
-    for h in c.get("openingHours") or []:
-        days = [d for d in re.split(r"[,\s]+", h.get("days") or "") if d]
-        item = prune(
-            {
-                "@type": "OpeningHoursSpecification",
-                "dayOfWeek": days,
-                "opens": h.get("opens"),
-                "closes": h.get("closes"),
-            }
-        )
-        if item.get("dayOfWeek") and item.get("opens") and item.get("closes"):
-            opening.append(item)
-
-    logo_obj = prune(
-        {
-            "@type": "ImageObject",
-            "@id": site + "/#logo",
-            "url": logo_url,
-            "contentUrl": logo_url,
-            "width": None if c.get("logo") else 512,
-            "height": None if c.get("logo") else 512,
-            "caption": c.get("siteName") + " logo",
-        }
-    )
-    primary = prune(
-        {
-            "@type": "ImageObject",
-            "@id": site + "/#primaryimage",
-            "url": image_url,
-            "contentUrl": image_url,
-            "width": 1200 if og_url else None,
-            "height": 630 if og_url else None,
-            "caption": c.get("seoTitle") or c.get("siteName"),
-        }
-    )
-    contact = prune(
-        {
-            "@type": "ContactPoint",
-            "contactType": "customer service",
-            "email": c.get("email"),
-            "telephone": telephone,
-            "areaServed": "TR",
-            "availableLanguage": ["Turkish", "tr"],
-        }
-    )
-    area = [
-        prune(
-            {
-                "@type": "AdministrativeArea",
-                "name": c.get("addressLocality") or "Tekirdağ",
-            }
-        ),
-        prune(
-            {
-                "@type": "Country",
-                "name": "Türkiye",
-                "sameAs": "https://www.wikidata.org/wiki/Q43",
-            }
-        ),
-    ]
-    catalog = None
-    if service_names:
-        catalog = {
-            "@type": "OfferCatalog",
-            "name": "Hizmetler",
-            "itemListElement": [
-                {
-                    "@type": "ListItem",
-                    "position": i,
-                    "item": prune(
-                        {
-                            "@type": "Offer",
-                            "itemOffered": prune(
-                                {
-                                    "@type": "Service",
-                                    "name": name,
-                                    "provider": {"@id": site + "/#localbusiness"},
-                                }
-                            ),
-                        }
-                    ),
-                }
-                for i, name in enumerate(service_names, 1)
-            ],
-        }
-
-    org = prune(
-        {
-            "@type": "Organization",
-            "@id": site + "/#organization",
-            "name": c.get("siteName"),
-            "legalName": c.get("legalName"),
-            "brand": prune({"@type": "Brand", "name": c.get("siteName")}),
-            "url": site + "/",
-            "logo": {"@id": site + "/#logo"} if logo_obj else None,
-            "image": {"@id": site + "/#primaryimage"} if primary else None,
-            "description": description,
-            "foundingDate": c.get("foundingDate"),
-            "email": c.get("email"),
-            "telephone": telephone,
-            "sameAs": same_as,
-            "areaServed": area,
-            "knowsAbout": service_names,
-            "contactPoint": contact,
-        }
-    )
     biz = prune(
         {
             "@type": ["LocalBusiness", "ProfessionalService"],
-            "@id": site + "/#localbusiness",
+            "@id": site + "/#business",
             "name": c.get("siteName"),
-            "legalName": c.get("legalName"),
             "url": site + "/",
-            "parentOrganization": {"@id": site + "/#organization"},
-            "image": {"@id": site + "/#primaryimage"} if primary else None,
-            "logo": {"@id": site + "/#logo"} if logo_obj else None,
-            "description": description,
-            "email": c.get("email"),
             "telephone": telephone,
-            "address": postal,
-            "geo": geo,
-            "hasMap": c.get("googleMapsUrl"),
-            "openingHoursSpecification": opening,
-            "priceRange": c.get("priceRange"),
-            "contactPoint": contact,
-            "sameAs": same_as,
-            "areaServed": area,
-            "knowsAbout": service_names,
-            "hasOfferCatalog": catalog,
-            "foundingDate": c.get("foundingDate"),
+            "email": c.get("email"),
+            "address": prune(
+                {
+                    "@type": "PostalAddress",
+                    "streetAddress": c.get("addressStreet"),
+                    "postalCode": c.get("addressPostalCode"),
+                    "addressLocality": c.get("addressLocality"),
+                    "addressRegion": c.get("addressRegion"),
+                    "addressCountry": c.get("addressCountry") or "TR",
+                }
+            ),
+            "areaServed": [
+                {"@type": "City", "name": "Tekirdağ"},
+                {
+                    "@type": "AdministrativeArea",
+                    "name": c.get("addressLocality") or "Süleymanpaşa",
+                },
+            ],
+            "sameAs": same_as or None,
         }
     )
-    website = prune(
-        {
-            "@type": "WebSite",
-            "@id": site + "/#website",
-            "url": site + "/",
-            "name": c.get("siteName"),
-            "description": description,
-            "publisher": {"@id": site + "/#organization"},
-            "inLanguage": c.get("defaultLocale") or "tr-TR",
-        }
-    )
-    webpage = prune(
-        {
-            "@type": "WebPage",
-            "@id": site + "/#webpage",
-            "url": page_url,
-            "name": c.get("seoTitle") or c.get("siteName"),
-            "description": description,
-            "isPartOf": {"@id": site + "/#website"},
-            "about": {"@id": site + "/#localbusiness"},
-            "primaryImageOfPage": {"@id": site + "/#primaryimage"} if primary else None,
-            "inLanguage": c.get("defaultLocale") or "tr-TR",
-        }
-    )
-    graph = [org, biz, website, webpage]
-    if logo_obj:
-        graph.append(logo_obj)
-    if primary:
-        graph.append(primary)
-    return {"@context": "https://schema.org", "@graph": [g for g in graph if g]}
+    return {"@context": "https://schema.org", "@graph": [g for g in [biz] if g]}
 
 
 def set_meta(doc: str, attr: str, key: str, content: str) -> str:
@@ -602,7 +441,8 @@ def main() -> int:
 
     doc = replace_inner_by_id(doc, "footer-about", esc(c.get("footerAbout")))
     doc = replace_inner_by_id(doc, "contact-email", esc(c.get("email")))
-    doc = replace_inner_by_id(doc, "contact-phone", esc(c.get("phone")))
+    phone_display = c.get("phoneDisplay") or "+90 552 582 69 59"
+    doc = replace_inner_by_id(doc, "contact-phone", esc(phone_display))
     doc = replace_inner_by_id(doc, "contact-address", esc(c.get("address")))
     doc = replace_inner_by_id(doc, "copyright-text", esc(c.get("copyrightText")))
 

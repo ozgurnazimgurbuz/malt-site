@@ -10,10 +10,19 @@ from urllib.parse import quote
 
 ROOT = Path(__file__).resolve().parents[1]
 SITE = "https://maltstudio.co"
-PHONE_DISPLAY = "0552 582 69 59"
+PHONE_DISPLAY = "+90 552 582 69 59"
 PHONE_TEL = "+905525826959"
 WA = "905525826959"
-EMAIL = "merhaba@maltstudio.com"
+EMAIL = "merhaba@maltstudio.co"
+ADDRESS_STREET = "Yavuz Mahallesi, Ruşen Güneş Sokak, D Blok No:2"
+ADDRESS_POSTAL = "59100"
+ADDRESS_LOCALITY = "Süleymanpaşa"
+ADDRESS_REGION = "Tekirdağ"
+ADDRESS_COUNTRY = "Türkiye"
+ADDRESS_ONE_LINE = (
+    f"{ADDRESS_STREET}, {ADDRESS_POSTAL} {ADDRESS_LOCALITY} / {ADDRESS_REGION}, {ADDRESS_COUNTRY}"
+)
+HOURS_DISPLAY = "Pazartesi–Cumartesi 09:00–19:00"
 _GA_ID_RE = re.compile(r"^G-[A-Z0-9]+$")
 
 
@@ -138,12 +147,74 @@ def theme_script() -> str:
     return '<script src="/assets/theme.js?v=theme2" defer></script>\n'
 
 
+def ld_script(data: dict) -> str:
+    payload = json.dumps(data, ensure_ascii=False, separators=(",", ":"))
+    return f'<script type="application/ld+json">{payload}</script>\n'
+
+
+def business_ref() -> dict:
+    return {"@id": f"{SITE}/#business"}
+
+
+def breadcrumb_ld(parts: list[tuple[str, str]]) -> dict:
+    """parts: (name, absolute_or_path url). Last item is the current page."""
+    items = []
+    for i, (name, url) in enumerate(parts, 1):
+        loc = url if url.startswith("http") else f"{SITE}{url}"
+        items.append(
+            {
+                "@type": "ListItem",
+                "position": i,
+                "name": name,
+                "item": loc,
+            }
+        )
+    return {
+        "@type": "BreadcrumbList",
+        "@id": f"{parts[-1][1] if parts[-1][1].startswith('http') else SITE + parts[-1][1]}#breadcrumb",
+        "itemListElement": items,
+    }
+
+
+def webpage_ld(url: str, name: str, description: str) -> dict:
+    return {
+        "@type": "WebPage",
+        "@id": f"{url}#webpage",
+        "url": url,
+        "name": name,
+        "description": description,
+        "isPartOf": {"@id": f"{SITE}/#website"},
+        "about": business_ref(),
+        "inLanguage": "tr-TR",
+    }
+
+
+def service_ld(url: str, name: str, service_type: str) -> dict:
+    return {
+        "@type": "Service",
+        "@id": f"{url}#service",
+        "name": name,
+        "serviceType": service_type,
+        "url": url,
+        "provider": business_ref(),
+        "areaServed": [
+            {"@type": "City", "name": "Tekirdağ"},
+            {"@type": "AdministrativeArea", "name": "Süleymanpaşa"},
+        ],
+    }
+
+
+def page_graph(*nodes: dict) -> dict:
+    return {"@context": "https://schema.org", "@graph": [n for n in nodes if n]}
+
+
 def head(
     title: str,
     description: str,
     canonical: str,
     *,
     noindex: bool = False,
+    json_ld: dict | None = None,
 ) -> str:
     robots = (
         '<meta name="robots" content="noindex,follow">\n'
@@ -151,6 +222,7 @@ def head(
         else '<meta name="robots" content="index,follow">\n'
     )
     ga = gtag_snippet()
+    ld = ld_script(json_ld) if json_ld else ""
     return f"""<!DOCTYPE html>
 <html lang="tr">
 <head>
@@ -176,7 +248,7 @@ def head(
 <link rel="manifest" href="/manifest.json">
 {fonts_head()}<link rel="stylesheet" href="/assets/site.css?v=theme2">
 <link rel="stylesheet" href="/assets/liquid-glass.css?v=lg1">
-</head>
+{ld}</head>
 """
 
 
@@ -228,7 +300,9 @@ def footer() -> str:
         <ul>
           <li><a href="tel:{PHONE_TEL}">{PHONE_DISPLAY}</a></li>
           <li><a href="mailto:{EMAIL}">{EMAIL}</a></li>
-          <li>Tekirdağ, Türkiye</li>
+          <li>{ADDRESS_STREET}</li>
+          <li>{ADDRESS_POSTAL} {ADDRESS_LOCALITY} / {ADDRESS_REGION}</li>
+          <li>{ADDRESS_COUNTRY}</li>
           <li><a href="/#iletisim">Mesaj</a></li>
         </ul>
       </div>
@@ -290,7 +364,7 @@ def project_cta(name: str) -> str:
     <h2 id="project-cta-title">Benzer bir proje konuşalım</h2>
     <p class="intro" style="margin:0 auto 28px;text-align:center;">Keşif ve net teklif için yazın veya arayın. Uydurma süre/fiyat vaadi verilmez.</p>
     <div class="cta-actions" style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap;">
-      <a class="btn btn-primary" href="{wa(msg)}" target="_blank" rel="noopener">Teklif Al</a>
+      <a class="btn btn-primary" href="/#teklif">Teklif Al</a>
       <a class="btn btn-ghost" href="{wa(msg)}" target="_blank" rel="noopener">WhatsApp</a>
       <a class="btn btn-ghost" href="tel:{PHONE_TEL}">Telefon · {PHONE_DISPLAY}</a>
     </div>
@@ -361,14 +435,8 @@ def related_rail(
     hubs: list[tuple[str, str, str]] | None = None,
 ) -> str:
     """Consistent internal-link sections. tuples: (href, title, desc)."""
-    names = {
-        "liman-kahve": "Liman Kahve",
-        "volt-enerji": "Volt Enerji",
-        "kuzey-tekstil": "Kuzey Tekstil",
-        "mera-otel": "Mera Otel",
-        "dortnal": "Dörtnal",
-        "ekip-yazilim": "Ekip Yazılım",
-    }
+    # Dedicated case URLs are placeholders — do not link them from indexable pages.
+    names: dict[str, str] = {}
     parts: list[str] = []
     if services:
         parts.append(
@@ -386,16 +454,18 @@ def related_rail(
         )
     if projects:
         items = [
-            (f"/projeler/{s}/", names.get(s, s), "Tamamlanan proje örneği.", "Proje")
+            (f"/projeler/{s}/", names[s], "Tamamlanan proje örneği.", "Proje")
             for s in projects
+            if s in names
         ]
-        parts.append(
-            '<section class="section-band paper-band" aria-labelledby="rel-prj">'
-            '<div class="wrap"><h2 id="rel-prj">İlgili projeler</h2>'
-            f'<div class="card-grid">{cards(items)}</div>'
-            '<p style="margin-top:20px;"><a href="/projeler/">Tüm projeler →</a></p>'
-            "</div></section>"
-        )
+        if items:
+            parts.append(
+                '<section class="section-band paper-band" aria-labelledby="rel-prj">'
+                '<div class="wrap"><h2 id="rel-prj">İlgili projeler</h2>'
+                f'<div class="card-grid">{cards(items)}</div>'
+                '<p style="margin-top:20px;"><a href="/projeler/">Tüm projeler →</a></p>'
+                "</div></section>"
+            )
     if industries:
         parts.append(
             '<section class="section-band" aria-labelledby="rel-ind">'
@@ -422,10 +492,10 @@ def related_rail(
     return "\n".join(parts)
 
 
-def process_steps(steps: list[tuple[str, str]]) -> str:
+def process_steps(steps: list[tuple[str, str]], title: str = "Süreç") -> str:
     lis = "".join(f"<li><strong>{t}:</strong> {d}</li>" for t, d in steps)
     return f"""<div class="content-block">
-  <h2>Süreç</h2>
+  <h2>{title}</h2>
   <ol>{lis}</ol>
 </div>"""
 

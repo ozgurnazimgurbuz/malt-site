@@ -1,6 +1,6 @@
-# Totem Tabela | Yol ve Tesis Totem Üretimi
+# Tekirdağ Totem Tabela | Üretim ve Montaj | Malt Studio
 
-> Totem tabela üretimi ve montajı. Tesis girişi ve yol kenarı sistemleri.
+> Tekirdağ’da totem tabela üretimi ve montajı. Tesis girişi ve yol kenarı sistemleri.
 
 - Canonical HTML: https://maltstudio.co/hizmetler/totem/
 - Markdown twin: https://maltstudio.co/hizmetler/totem/index.html.md
@@ -10,10 +10,10 @@
 
 Hizmet
 
-# Totem
+# Tekirdağ Totem Tabela
 
 Uzaktan görülen, yönlendiren totem tabela sistemleri.
-[Teklif Al](https://wa.me/905525826959?text=Merhaba%2C%20Totem%20hakk%C4%B1nda%20teklif%20almak%20istiyorum.) [WhatsApp](https://wa.me/905525826959?text=Merhaba%2C%20Totem%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum.) [Telefon · 0552 582 69 59](tel:+905525826959)
+[Teklif Al](https://wa.me/905525826959?text=Merhaba%2C%20Tekirda%C4%9F%20Totem%20Tabela%20hakk%C4%B1nda%20teklif%20almak%20istiyorum.) [WhatsApp](https://wa.me/905525826959?text=Merhaba%2C%20Tekirda%C4%9F%20Totem%20Tabela%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum.) [Telefon](tel:+905525826959)
 
 ## Bu hizmet nedir?
 
@@ -23,7 +23,7 @@ Taşınabilir indoor display totem /hizmetler/display-pos/ ailesindedir.
 
 Yükseklik, temel, ışıklı tercih ve görüş mesafesi keşifte hesaplanır.
 
-Tekirdağ geo sayfası: /hizmet-bolge/tekirdag-totem/.
+Tekirdağ tesis ve OSB girişlerinde keşif sonrası temel ve yükseklik netleşir.
 
 Totem; yol, otopark ve tesis yaklaşımında uzaktan algı üretir. Pylon/monument alt tipleri aynı ailede anlatılır.
 
@@ -93,14 +93,6 @@ Temel/statik için uydurma mühendislik iddiası yazılmaz; keşif sonrası netl
 
 Sabit internet fiyat listesi yayınlanmaz; keşif sonrası net teklif verilir.
 
-Faktör eğitimi için /bilgi/tabela-fiyati/ rehberine bakabilirsiniz.
-
-## Süre ve planlama
-
-Tasarım onayı sonrası süre işin ölçeğine göre değişir.
-
-Acil işler operasyon kapasitesine göre değerlendirilir; garanti edilemeyen vaat verilmez.
-
 ## Bakım ve sonrası
 
 Bağlantı ve yüzey kontrolleri periyodik önerilir.
@@ -109,63 +101,13 @@ Işıklı totemlerde LED/servis erişimi tasarımda bırakılmalıdır.
 
 Darbe veya grafiti sonrası panel yenileme planlanabilir.
 
-## Uygulama notları
+## Süleymanpaşa ve çevre ilçelerde montaj
 
-Totem yüksekliği araç hızı ve görüş açısına göre belirlenir; ‘ne kadar yüksekse o kadar iyi’ yaklaşımı yanlıştır.
+Keşif ve montaj Tekirdağ Süleymanpaşa atölyesinden planlanır.
 
-Temel tipi zemin koşullarına bağlıdır; uydurma statik hesap yayınlanmaz, keşif sonrası netleşir.
+Adres, saat ve iletişim: [Malt Studio Tekirdağ atölye ve iletişim](https://maltstudio.co/bolgeler/tekirdag/) .
 
-Işıklı totemlerde kaçak ve servis erişimi tasarımda bırakılmazsa bakım maliyeti artar.
-
-Indoor display totem ile outdoor tesis totemi karıştırılmamalıdır — Display & POS ayrıdır.
-
-OSB girişlerinde güvenlik ve araç trafiği montaj penceresini belirler.
-
-Grafik paneli değişebilir tasarlanırsa ileride yenileme maliyeti düşer.
-
-Çift yüzlü totem iki yönlü yaklaşımda anlamlıdır; tek yön yetiyorsa maliyet düşer.
-
-Zemin altı engel (kablo, boru) riski keşifte sorulur.
-
-Grafik alanı ileride değişecekse manyetik/vidalı panel düşünülür.
-
-İzin süreçleri müşteri veya site yönetimine bağlıdır; süre garanti edilmez.
-
-Yerel niyet /hizmet-bolge/tekirdag-totem/ altındadır.
-
-## Karar ve teslim özeti
-
-Totem işi üretim kadar saha lojistiğidir. Yükseklik, görüş açısı, zemin ve varsa ışıklı ihtiyaç keşifte birlikte okunur. Pylon adı aynı ailede kalır; indoor display ayrıdır. Temel ve izin konuları uydurma mühendislik iddiası olmadan, keşif sonrası konuşulur. OSB girişlerinde araç trafiği montaj penceresini belirler. Grafik paneli değişebilir bırakılırsa ileride yenileme kolaylaşır. Çift yüzlü totem iki yönlü yaklaşımda anlamlıdır. Zemin altı engel riski sorulur. Işıklı totemlerde servis erişimi tasarımda bırakılır. Bakımda bağlantı ve LED kontrolü periyodik önerilir. Yol kenarı mesajı sade tutulur çünkü okuma süresi kısadır. Bu sayfa sabit dış/tesis totemine odaklanır. Display & POS taşınabilir ihtiyaçlar içindir.
-
-Totem grafik alanında az metin daha iyi okunur. Logo + yön oku sık pakettir. Temel kürü bekleme süresi takvime yazılır; mucize hızlı kurulum vaadi yok. Çevrede ağaç veya tabela perdesi varsa yükseklik yeniden değerlendirilir. Işıklı modelde gece test imkânı sorulur. Panel vidaları vandalizme karşı dayanıklı seçilebilir. Teslim tutanağı bağlantı ve dikeylik kontrolünü içerir.
-
-Totem seçiminde yaklaşım hızı, görüş açısı ve zemin koşulları birlikte değerlendirilir. Yüksek yapmak her zaman daha iyi okutmaz. Temel ve izin konuları keşif sonrası netleşir; peşin statik iddia yayınlanmaz. Işıklı totem gece lojistik girişlerinde anlam kazanır. Indoor display ihtiyaçları Display & POS’a aittir. OSB sahalarında montaj penceresi güvenlik kurallarına bağlanır. Kanıt görselleri onayla yayınlanır.
-
-## Keşif kontrol listesi
-
-- Yaklaşım yönü tek/çift yüz kararını belirler.
-- Yükseklik görüş açısına göre seçilir.
-- Temel ihtiyacı keşif sonrası netleşir.
-- İzin riski peşinen sorulur; süre garanti edilmez.
-- Işıklı ihtiyaç gece lojistiğe göre konuşulur.
-- Indoor display bu sayfada çözülmez.
-- Pylon aynı ailede anlatılır.
-- Zemin altı engel riski sorulur.
-- Grafik alanı az metinle tutulur.
-- Vinç planı OSB kurallarına bağlanır.
-- Değişebilir panel yenilemeyi kolaylaştırır.
-- Teslimde dikeylik kontrol edilir.
-- Bakım için LED/servis erişimi bırakılır.
-- Mesaj sade tutulur çünkü okuma süresi kısadır.
-- Rüzgâr perdesi varsa yükseklik yeniden değerlendirilir.
-- Temel kürü takvime yazılır.
-- Kanıt fotoğrafı planlanır.
-
-## Tekirdağ’da bu hizmet
-
-Tekirdağ’da totem tabela uygulamaları için yerel sayfamız: /hizmet-bolge/tekirdag-totem/.
-
-[WhatsApp ile Teklif](https://wa.me/905525826959?text=Merhaba%2C%20Totem%20i%C3%A7in%20ke%C5%9Fif%20istiyorum.) [Teklif](https://maltstudio.co/#teklif) [Ara](tel:+905525826959)
+[WhatsApp ile Teklif](https://wa.me/905525826959?text=Merhaba%2C%20Tekirda%C4%9F%20Totem%20Tabela%20i%C3%A7in%20ke%C5%9Fif%20istiyorum.) [Teklif](https://maltstudio.co/#teklif) [Ara](tel:+905525826959)
 
 ## İlgili hizmetler
 
@@ -194,18 +136,6 @@ Tekirdağ’da totem tabela uygulamaları için yerel sayfamız: /hizmet-bolge/t
 ###
 
 [RehberKarar vermenize yardımcı rehber.Bilgi](https://maltstudio.co/bilgi/tabela-cesitleri/)
-
-## İlgili projeler
-
-###
-
-[Volt EnerjiTamamlanan proje örneği.Proje](https://maltstudio.co/projeler/volt-enerji/)
-
-###
-
-[Kuzey TekstilTamamlanan proje örneği.Proje](https://maltstudio.co/projeler/kuzey-tekstil/)
-
-[Tüm projeler →](https://maltstudio.co/projeler/)
 
 ## İlgili sektörler
 
