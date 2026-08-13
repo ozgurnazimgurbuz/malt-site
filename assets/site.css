@@ -368,11 +368,13 @@ footer{border-top:1px solid var(--line); padding:64px 0 40px;}
   color:var(--ink);
   overflow-wrap:anywhere;
 }
-.track-now-text{
-  margin:10px 0 0;
+.track-now-desc{
+  margin:12px 0 0;
   font-size:16px;
-  line-height:1.45;
+  line-height:1.55;
   color:var(--muted-soft);
+  overflow-wrap:anywhere;
+  max-width:100%;
 }
 .track-updated{
   margin:18px 0 0;
@@ -459,25 +461,19 @@ footer{border-top:1px solid var(--line); padding:64px 0 40px;}
   margin-top:2px;
 }
 .track-step--current .track-step-status{color:#710014;}
-.track-step-now-hint{
-  margin:8px 0 0;
-  font-size:14px;
-  line-height:1.45;
-  color:var(--muted-soft);
-}
 .track-step-desc{
   margin:8px 0 0;
   font-size:14px;
   line-height:1.55;
   color:var(--muted-soft);
   overflow-wrap:anywhere;
+  max-width:100%;
 }
-.track-step-date{
-  display:block;
-  margin-top:6px;
+.track-step--pending .track-step-desc{
+  color:var(--muted-faint);
   font-size:13px;
-  color:var(--muted-dim);
 }
+.track-step-status time{font-style:normal;}
 .track-cta{padding:72px 0;}
 .track-cta h2{
   font-size:clamp(24px,5vw,40px);

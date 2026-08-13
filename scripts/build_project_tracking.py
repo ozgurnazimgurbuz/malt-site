@@ -168,20 +168,19 @@ def _timeline_html(steps: list[dict]) -> str:
         st = s["status"]
         mark = {"completed": "✓", "current": "●", "pending": "○"}[st]
         label = {"completed": "Tamamlandı", "current": "Şu an", "pending": "Bekliyor"}[st]
-        hint = (
-            '<p class="track-step-now-hint">Şu anda bu aşamadayız.</p>'
-            if st == "current"
-            else ""
-        )
+        # completedDate only on completed steps (never invent for current/pending).
+        if st == "completed" and s["completedDate"]:
+            done_disp = _format_tr_date(s["completedDate"])
+            dt = html.escape(s["completedDate"][:10])
+            label_html = (
+                f'<div class="track-step-status">{label} · '
+                f'<time datetime="{dt}">{html.escape(done_disp)}</time></div>'
+            )
+        else:
+            label_html = f'<div class="track-step-status">{label}</div>'
         desc = (
             f'<p class="track-step-desc">{html.escape(s["description"])}</p>'
             if s["description"]
-            else ""
-        )
-        done = (
-            f'<time class="track-step-date" datetime="{html.escape(s["completedDate"])}">'
-            f"{html.escape(_format_tr_date(s['completedDate']))}</time>"
-            if s["completedDate"]
             else ""
         )
         items.append(
@@ -189,8 +188,7 @@ def _timeline_html(steps: list[dict]) -> str:
             f'<span class="track-mark" aria-hidden="true">{mark}</span>'
             f'<div class="track-step-body">'
             f'<div class="track-step-title">{html.escape(s["title"])}</div>'
-            f'<div class="track-step-status">{label}</div>'
-            f"{hint}{desc}{done}"
+            f"{label_html}{desc}"
             f"</div></li>"
         )
     return f'<ol class="track-timeline">{"".join(items)}</ol>'
@@ -224,7 +222,9 @@ def build_one(item: dict) -> str | None:
         raise TrackValidationError(f"{source}: currentStep sayı olmalı") from exc
 
     steps, current_n = validate_and_resolve(steps, cs, source=source)
-    current_title = steps[current_n - 1]["title"] if current_n else ""
+    current = steps[current_n - 1] if current_n else {}
+    current_title = str(current.get("title") or "")
+    current_desc = str(current.get("description") or "").strip()
 
     desc_raw = str(item.get("description") or "").strip()
     last_raw = str(item.get("lastUpdated") or "").strip()
@@ -247,6 +247,12 @@ def build_one(item: dict) -> str | None:
             f'width="800" height="500" decoding="async"></div>'
         )
 
+    current_desc_html = (
+        f'<p class="track-now-desc">{html.escape(current_desc)}</p>'
+        if current_desc
+        else ""
+    )
+
     last_html = ""
     if last_disp:
         dt = html.escape(last_raw[:10] if last_raw else "")
@@ -258,7 +264,7 @@ def build_one(item: dict) -> str | None:
         )
 
     wa_msg = f"Merhaba, {client} / {project} projesi hakkında sorum var."
-    # Current status first — müşteri 3 sn içinde cevabı görsün.
+    # Hierarchy: client → project → ŞU ANDA → title → desc → lastUpdated → timeline → CTA
     page = f"""{head(
         html.escape(title),
         html.escape(meta_desc),
@@ -279,7 +285,7 @@ def build_one(item: dict) -> str | None:
     <div class="track-now" role="status">
       <div class="track-now-label">Şu anda</div>
       <p class="track-now-name">{html.escape(current_title)}</p>
-      <p class="track-now-text">Şu anda bu aşamadayız.</p>
+      {current_desc_html}
       {last_html}
     </div>
   </div>
@@ -304,7 +310,7 @@ def build_one(item: dict) -> str | None:
 </body></html>
 """
     # Cache-bust track CSS without rebuilding every public page.
-    page = page.replace("site.css?v=theme2", "site.css?v=track2")
+    page = page.replace("site.css?v=theme2", "site.css?v=track3")
     write(OUT_DIR / slug / "index.html", page)
     return slug
 

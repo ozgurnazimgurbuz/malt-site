@@ -57,7 +57,7 @@ def test_demo_page() -> None:
     assert "Mantar Garage Tabela" in html
     assert "noindex, nofollow" in html
     assert "Üretim" in html
-    assert "Şu anda bu aşamadayız." in html
+    assert "track-now-name" in html
     assert "13 Ağustos 2026" in html
     assert "Son güncelleme" in html
     assert "wa.me" in html
@@ -73,20 +73,100 @@ def test_demo_page() -> None:
     assert "mantar-garage" not in cj
 
 
+def test_step_copy_fixture() -> None:
+    """UI with descriptions/dates via temp fixture — does not alter Mantar Garage CMS data."""
+    slug = "ui-fixture-desc-9k2m"
+    path = t.TRACK_DIR / f"{slug}.json"
+    payload = {
+        "projectName": "Fixture Tabela",
+        "clientName": "Fixture Client",
+        "slug": slug,
+        "description": "UI test only",
+        "steps": [
+            {
+                "title": "Tasarım",
+                "description": "İlk tasarım çalışması hazırlanarak proje için görsel yön belirlendi.",
+                "status": "completed",
+                "completedDate": "2026-08-11",
+            },
+            {
+                "title": "Tasarım Onayı",
+                "description": "Onaylanan tasarım üretim aşamasına aktarıldı.",
+                "status": "completed",
+                "completedDate": "2026-08-12",
+            },
+            {
+                "title": "Üretim",
+                "description": (
+                    "Tabelanın üretimi devam ediyor. "
+                    "Üretim tamamlandığında montaj aşamasına geçilecek."
+                ),
+                "status": "current",
+                "completedDate": "2099-01-01",  # must NOT render on current
+            },
+            {
+                "title": "Montaj",
+                "description": "Üretim tamamlandıktan sonra montaj gerçekleştirilecek.",
+                "status": "pending",
+                "completedDate": "",
+            },
+            {
+                "title": "Teslim",
+                "description": "",
+                "status": "pending",
+                "completedDate": "",
+            },
+        ],
+        "currentStep": 3,
+        "lastUpdated": "2026-08-13",
+        "public": True,
+    }
+    path.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    try:
+        t.main()
+        html = Path(t.OUT_DIR / slug / "index.html").read_text(encoding="utf-8")
+        # current description in hero
+        assert "track-now-desc" in html
+        assert "Tabelanın üretimi devam ediyor" in html
+        # timeline descriptions
+        assert "İlk tasarım çalışması" in html
+        assert "Onaylanan tasarım" in html
+        assert "montaj gerçekleştirilecek" in html
+        # empty Teslim description → no empty box / placeholder
+        assert "Açıklama yok" not in html
+        # completed dates only on completed
+        assert "11 Ağustos 2026" in html
+        assert "12 Ağustos 2026" in html
+        assert "2099" not in html
+        assert "Tamamlandı ·" in html
+        # long description wrap class present
+        assert "track-step-desc" in html
+        assert "overflow-wrap" in Path(t.ROOT / "assets" / "site.css").read_text(encoding="utf-8")
+        # hierarchy: now-desc before timeline
+        assert html.find("track-now-desc") < html.find("track-timeline")
+        # isolation
+        assert slug not in Path(t.ROOT / "content.json").read_text(encoding="utf-8")
+        assert slug not in Path(t.ROOT / "sitemap.xml").read_text(encoding="utf-8")
+    finally:
+        path.unlink(missing_ok=True)
+        t.main()
+        assert not (t.OUT_DIR / slug).exists()
+        # Mantar CMS JSON unchanged path still empty descriptions
+        mantar = json.loads((t.TRACK_DIR / "mantar-garage-7f3k9x.json").read_text(encoding="utf-8"))
+        assert all(not str(s.get("description") or "").strip() for s in mantar["steps"])
+
+
 def test_public_false_and_slug_orphan() -> None:
     """public:false skips write; orphan slug dirs are removed."""
     demo = t.TRACK_DIR / "mantar-garage-7f3k9x.json"
     raw = json.loads(demo.read_text(encoding="utf-8"))
-    # Ensure page exists first
     t.main()
     assert (t.OUT_DIR / "mantar-garage-7f3k9x" / "index.html").exists()
 
-    # Simulate old slug left behind
     orphan = t.OUT_DIR / "old-slug-orphan"
     orphan.mkdir(parents=True, exist_ok=True)
     (orphan / "index.html").write_text("x", encoding="utf-8")
 
-    # public false → not in keep → demo HTML removed; orphan removed
     tmp = dict(raw)
     tmp["public"] = False
     demo.write_text(json.dumps(tmp, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
@@ -109,8 +189,9 @@ def main() -> None:
     test_validation()
     test_date_format()
     test_demo_page()
+    test_step_copy_fixture()
     test_public_false_and_slug_orphan()
-    print("test_project_tracking: PASS (4 suites)")
+    print("test_project_tracking: PASS (5 suites)")
 
 
 if __name__ == "__main__":
