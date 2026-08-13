@@ -24,6 +24,18 @@
   to = "/"
   status = 301
 
+# Old tracking slug typo → Mantra Garage
+[[redirects]]
+  from = "/proje/mantar-garage-7f3k9x"
+  to = "/proje/mantra-garage-7f3k9x/"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/proje/mantar-garage-7f3k9x/"
+  to = "/proje/mantra-garage-7f3k9x/"
+  status = 301
+  force = true
+
 # Service×city doorway URLs → service owner pages
 [[redirects]]
   from = "/hizmet-bolge/tekirdag-tabela"

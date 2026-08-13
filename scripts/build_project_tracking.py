@@ -206,7 +206,7 @@ def build_one(item: dict) -> str | None:
     if not slug or not SLUG_RE.fullmatch(slug):
         raise TrackValidationError(
             f"{source}: geçersiz slug {slug!r} "
-            "(yalnızca küçük harf, rakam, tire; örn. mantar-garage-7f3k9x)"
+            "(yalnızca küçük harf, rakam, tire; örn. mantra-garage-7f3k9x)"
         )
     if not item.get("public", True):
         return None
