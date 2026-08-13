@@ -242,19 +242,21 @@ collections:
     identifier_field: "slug"
     summary: "{{clientName}} — {{projectName}}"
     fields:
+      - { label: "Müşteri Adı", name: "clientName", widget: "string", hint: "Sayfada görünen müşteri adı. Örn: Mantar Garage" }
       - { label: "Proje Adı", name: "projectName", widget: "string", hint: "Örn: Mantar Garage Tabela" }
-      - { label: "Müşteri Adı", name: "clientName", widget: "string", hint: "Sayfada görünen müşteri adı." }
+      - { label: "Proje Açıklaması", name: "description", widget: "text", required: false, hint: "Örn: Tabela Tasarımı ve Üretimi" }
       - label: "Slug (URL)"
         name: "slug"
         widget: "string"
         pattern: ['^[a-z0-9]+(?:-[a-z0-9]+)*$', 'Sadece küçük harf, rakam ve tire. Örn: mantar-garage-7f3k9x']
-        hint: "Bu değer müşteriye gönderilecek proje linkinin bir parçasıdır. Proje yayınlandıktan sonra değiştirmeyin."
-      - { label: "Kısa Açıklama", name: "description", widget: "text", required: false, hint: "Örn: Tabela Tasarımı ve Üretimi" }
+        hint: "Bu değer müşteriye gönderilecek proje linkinin bir parçasıdır. Yayınlandıktan sonra değiştirmeyin."
+      - { label: "Proje Aktif mi?", name: "public", widget: "boolean", default: true, hint: "Kapalıysa müşteri sayfası oluşturulmaz." }
       - label: "Aşamalar"
         name: "steps"
         widget: "list"
         summary: "{{title}} — {{status}}"
         min: 1
+        hint: "Sürükleyerek sıralayın. Yalnızca bir aşama 'Şu an' olmalı."
         fields:
           - { label: "Başlık", name: "title", widget: "string" }
           - { label: "Açıklama", name: "description", widget: "text", required: false }
@@ -267,10 +269,9 @@ collections:
               - { label: "Bekliyor", value: "pending" }
             default: "pending"
           - { label: "Tamamlanma Tarihi", name: "completedDate", widget: "string", required: false, hint: "Örn: 2026-08-10" }
-      - { label: "Güncel Aşama (1 = ilk)", name: "currentStep", widget: "number", value_type: "int", min: 1, required: false, hint: "Bir aşamada status=Şu an varsa bu sayı o aşamanın sırasıyla aynı olmalı. Çelişirse build hata verir." }
-      - { label: "Son Güncelleme", name: "lastUpdated", widget: "datetime", date_format: "YYYY-MM-DD", time_format: false, format: "YYYY-MM-DD" }
-      - { label: "Yayında (müşteri linki aktif)", name: "public", widget: "boolean", default: true }
-      - label: "Kapak (opsiyonel)"
+      - { label: "Mevcut Aşama (1 = ilk)", name: "currentStep", widget: "number", value_type: "int", min: 1, required: false, hint: "Bir aşamada status=Şu an varsa bu sayı o aşamanın sırasıyla aynı olmalı. Çelişirse build hata verir." }
+      - { label: "Son Güncelleme", name: "lastUpdated", widget: "datetime", date_format: "YYYY-MM-DD", time_format: false, format: "YYYY-MM-DD", hint: "Durum değişince bu tarihi elle güncelleyin. Decap/statik sitede güvenilir otomatik timestamp yok." }
+      - label: "Kapak Görseli (opsiyonel)"
         name: "coverImage"
         widget: "image"
         required: false
