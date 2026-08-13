@@ -267,7 +267,7 @@ collections:
               - { label: "Bekliyor", value: "pending" }
             default: "pending"
           - { label: "Tamamlanma Tarihi", name: "completedDate", widget: "string", required: false, hint: "Örn: 2026-08-10" }
-      - { label: "Güncel Aşama (1 = ilk)", name: "currentStep", widget: "number", value_type: "int", min: 1, required: false, hint: "steps içinde status=current olanla uyumlu tutun." }
+      - { label: "Güncel Aşama (1 = ilk)", name: "currentStep", widget: "number", value_type: "int", min: 1, required: false, hint: "Bir aşamada status=Şu an varsa bu sayı o aşamanın sırasıyla aynı olmalı. Çelişirse build hata verir." }
       - { label: "Son Güncelleme", name: "lastUpdated", widget: "datetime", date_format: "YYYY-MM-DD", time_format: false, format: "YYYY-MM-DD" }
       - { label: "Yayında (müşteri linki aktif)", name: "public", widget: "boolean", default: true }
       - label: "Kapak (opsiyonel)"

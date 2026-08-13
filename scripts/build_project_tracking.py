@@ -47,11 +47,14 @@ _TR_MONTHS = (
 )
 
 
+class TrackValidationError(ValueError):
+    """CMS data conflict — fail the build instead of guessing."""
+
+
 def _format_tr_date(raw: str) -> str:
     s = (raw or "").strip()
     if not s:
         return ""
-    # datetime widget may emit YYYY-MM-DD or ISO with time
     m = re.match(r"^(\d{4})-(\d{2})-(\d{2})", s)
     if not m:
         return s
@@ -69,7 +72,7 @@ def _load_items() -> list[dict]:
         try:
             data = json.loads(path.read_text(encoding="utf-8"))
         except (OSError, json.JSONDecodeError) as exc:
-            print(f"track: skip {path.name}: {exc}")
+            print(f"track: skip {path.name}: {exc}", file=sys.stderr)
             continue
         if not isinstance(data, dict):
             continue
@@ -102,30 +105,61 @@ def _normalize_steps(raw) -> list[dict]:
     return out
 
 
-def _resolve_current(steps: list[dict], current_step: int | None) -> tuple[list[dict], int]:
-    """Ensure exactly one current when possible; return 1-based index."""
+def validate_and_resolve(
+    steps: list[dict],
+    current_step: int | None,
+    *,
+    source: str = "proje",
+) -> tuple[list[dict], int]:
+    """Resolve current step; raise on currentStep vs status conflict.
+
+    Rules:
+    - >1 status=current → error
+    - 1 status=current and currentStep set to a different index → error
+    - 0 status=current and currentStep in range → derive statuses from currentStep
+    - 0 status=current and no currentStep → error
+    """
     if not steps:
-        return steps, 0
+        raise TrackValidationError(f"{source}: en az bir aşama gerekli")
+
     currents = [i for i, s in enumerate(steps) if s["status"] == "current"]
+    if len(currents) > 1:
+        nums = ", ".join(str(i + 1) for i in currents)
+        raise TrackValidationError(
+            f"{source}: birden fazla aşamada status=current ({nums}). "
+            "Yalnızca bir aşama 'Şu an' olmalı."
+        )
+
     if len(currents) == 1:
-        return steps, currents[0] + 1
-    if current_step and 1 <= current_step <= len(steps):
-        idx = current_step - 1
-        for i, s in enumerate(steps):
-            if i < idx:
-                s["status"] = "completed"
-            elif i == idx:
-                s["status"] = "current"
-            else:
-                s["status"] = "pending"
-        return steps, current_step
-    # Fallback: first pending, else last
+        idx = currents[0]
+        if current_step is not None and current_step != idx + 1:
+            raise TrackValidationError(
+                f"{source}: currentStep={current_step} ama steps[{idx + 1}] "
+                f"('{steps[idx]['title']}') status=current. "
+                "currentStep ile steps[].status çelişiyor — birini düzeltin."
+            )
+        return steps, idx + 1
+
+    if current_step is None:
+        raise TrackValidationError(
+            f"{source}: hiçbir aşamada status=current yok ve currentStep boş. "
+            "Bir aşamayı 'Şu an' yapın veya currentStep girin."
+        )
+    if not (1 <= current_step <= len(steps)):
+        raise TrackValidationError(
+            f"{source}: currentStep={current_step} geçersiz "
+            f"(1–{len(steps)} arası olmalı)."
+        )
+
+    idx = current_step - 1
     for i, s in enumerate(steps):
-        if s["status"] == "pending":
+        if i < idx:
+            s["status"] = "completed"
+        elif i == idx:
             s["status"] = "current"
-            return steps, i + 1
-    steps[-1]["status"] = "current"
-    return steps, len(steps)
+        else:
+            s["status"] = "pending"
+    return steps, current_step
 
 
 def _timeline_html(steps: list[dict]) -> str:
@@ -134,6 +168,11 @@ def _timeline_html(steps: list[dict]) -> str:
         st = s["status"]
         mark = {"completed": "✓", "current": "●", "pending": "○"}[st]
         label = {"completed": "Tamamlandı", "current": "Şu an", "pending": "Bekliyor"}[st]
+        hint = (
+            '<p class="track-step-now-hint">Şu anda bu aşamadayız.</p>'
+            if st == "current"
+            else ""
+        )
         desc = (
             f'<p class="track-step-desc">{html.escape(s["description"])}</p>'
             if s["description"]
@@ -151,38 +190,40 @@ def _timeline_html(steps: list[dict]) -> str:
             f'<div class="track-step-body">'
             f'<div class="track-step-title">{html.escape(s["title"])}</div>'
             f'<div class="track-step-status">{label}</div>'
-            f"{desc}{done}"
+            f"{hint}{desc}{done}"
             f"</div></li>"
         )
     return f'<ol class="track-timeline">{"".join(items)}</ol>'
 
 
 def build_one(item: dict) -> str | None:
-    """Write one page; return slug if written."""
+    """Write one page; return slug if written. Raises TrackValidationError on bad data."""
+    source = str(item.get("_source") or item.get("slug") or "proje")
     slug = str(item.get("slug") or "").strip().strip("/")
     if not slug or not SLUG_RE.fullmatch(slug):
-        print(f"track: invalid slug in {item.get('_source')}: {slug!r}")
-        return None
+        raise TrackValidationError(
+            f"{source}: geçersiz slug {slug!r} "
+            "(yalnızca küçük harf, rakam, tire; örn. mantar-garage-7f3k9x)"
+        )
     if not item.get("public", True):
         return None
 
     project = str(item.get("projectName") or "").strip()
     client = str(item.get("clientName") or "").strip()
     if not project or not client:
-        print(f"track: missing name fields for {slug}")
-        return None
+        raise TrackValidationError(f"{source}: projectName ve clientName zorunlu")
 
     steps = _normalize_steps(item.get("steps"))
     if not steps:
-        print(f"track: no steps for {slug}")
-        return None
+        raise TrackValidationError(f"{source}: en az bir aşama gerekli")
 
     raw_cs = item.get("currentStep")
     try:
         cs = int(raw_cs) if raw_cs not in (None, "") else None
-    except (TypeError, ValueError):
-        cs = None
-    steps, current_n = _resolve_current(steps, cs)
+    except (TypeError, ValueError) as exc:
+        raise TrackValidationError(f"{source}: currentStep sayı olmalı") from exc
+
+    steps, current_n = validate_and_resolve(steps, cs, source=source)
     current_title = steps[current_n - 1]["title"] if current_n else ""
 
     desc_raw = str(item.get("description") or "").strip()
@@ -206,15 +247,18 @@ def build_one(item: dict) -> str | None:
             f'width="800" height="500" decoding="async"></div>'
         )
 
-    last_html = (
-        f'<p class="track-updated">Son güncelleme: '
-        f'<time datetime="{html.escape(last_raw[:10] if last_raw else "")}">'
-        f"{html.escape(last_disp)}</time></p>"
-        if last_disp
-        else ""
-    )
+    last_html = ""
+    if last_disp:
+        dt = html.escape(last_raw[:10] if last_raw else "")
+        last_html = (
+            f'<div class="track-updated">'
+            f'<div class="track-updated-label">Son güncelleme</div>'
+            f'<time datetime="{dt}">{html.escape(last_disp)}</time>'
+            f"</div>"
+        )
 
     wa_msg = f"Merhaba, {client} / {project} projesi hakkında sorum var."
+    # Current status first — müşteri 3 sn içinde cevabı görsün.
     page = f"""{head(
         html.escape(title),
         html.escape(meta_desc),
@@ -232,17 +276,18 @@ def build_one(item: dict) -> str | None:
     <h1>{html.escape(project)}</h1>
     {f'<p class="lede">{html.escape(desc_raw)}</p>' if desc_raw else ""}
     {cover_html}
+    <div class="track-now" role="status">
+      <div class="track-now-label">Şu anda</div>
+      <p class="track-now-name">{html.escape(current_title)}</p>
+      <p class="track-now-text">Şu anda bu aşamadayız.</p>
+      {last_html}
+    </div>
   </div>
 </section>
 <section class="page-main track-main">
   <div class="wrap track-wrap">
     <h2 class="track-status-heading">Proje durumu</h2>
     {_timeline_html(steps)}
-    <div class="track-now" role="status">
-      <div class="track-now-label">Şu anda</div>
-      <p class="track-now-text">{html.escape(current_title)} aşamasındayız.</p>
-      {last_html}
-    </div>
   </div>
 </section>
 <section class="cta-band track-cta" aria-labelledby="track-cta-title">
@@ -258,6 +303,8 @@ def build_one(item: dict) -> str | None:
 {footer()}
 </body></html>
 """
+    # Cache-bust track CSS without rebuilding every public page.
+    page = page.replace("site.css?v=theme2", "site.css?v=track2")
     write(OUT_DIR / slug / "index.html", page)
     return slug
 
@@ -274,7 +321,6 @@ def sync_orphan_dirs(keep: set[str]) -> None:
         index = child / "index.html"
         if index.exists():
             index.unlink()
-        # remove empty md twin if any
         md = child / "index.html.md"
         if md.exists():
             md.unlink()
@@ -288,12 +334,21 @@ def sync_orphan_dirs(keep: set[str]) -> None:
 def main() -> None:
     # Never create /proje/index.html listing.
     keep: set[str] = set()
+    errors: list[str] = []
     for item in _load_items():
-        slug = build_one(item)
+        try:
+            slug = build_one(item)
+        except TrackValidationError as exc:
+            errors.append(str(exc))
+            continue
         if slug:
             keep.add(slug)
     sync_orphan_dirs(keep)
     print(f"track: published {len(keep)} page(s)")
+    if errors:
+        for e in errors:
+            print(f"track ERROR: {e}", file=sys.stderr)
+        raise SystemExit(1)
 
 
 if __name__ == "__main__":
