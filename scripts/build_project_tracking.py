@@ -269,7 +269,7 @@ def build_one(item: dict) -> str | None:
     if balance:
         balance_html = (
             f'<div class="track-balance">'
-            f'<div class="track-balance-label">Bakiye</div>'
+            f'<div class="track-balance-label">Kalan bakiye</div>'
             f'<p class="track-balance-value">{html.escape(balance)}</p>'
             f"</div>"
         )
@@ -343,7 +343,7 @@ def build_one(item: dict) -> str | None:
 </body></html>
 """
     # Cache-bust track CSS without rebuilding every public page.
-    page = page.replace("site.css?v=theme2", "site.css?v=track11")
+    page = page.replace("site.css?v=theme2", "site.css?v=track12")
     write(OUT_DIR / slug / "index.html", page)
     return slug
 

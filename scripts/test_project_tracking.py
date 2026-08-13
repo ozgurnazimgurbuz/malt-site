@@ -76,7 +76,7 @@ def test_demo_page() -> None:
     assert html.count('data-status="pending"') == 1
     assert "Teslim" not in html
     assert "22.500₺/45.000₺" in html
-    assert "Bakiye" in html
+    assert "Kalan bakiye" in html
     assert not (t.OUT_DIR / "index.html").exists()
     assert not (t.OUT_DIR / "mantar-garage-7f3k9x").exists()
     assert "/proje/" not in Path(t.ROOT / "sitemap.xml").read_text(encoding="utf-8")

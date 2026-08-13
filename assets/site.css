@@ -370,9 +370,9 @@ h1.track-client{
   align-items:flex-start;
   justify-content:space-between;
   gap:16px 24px;
-  flex-wrap:wrap;
+  flex-wrap:nowrap;
 }
-.track-now-main{min-width:0; flex:1 1 180px;}
+.track-now-main{min-width:0; flex:1 1 auto;}
 .track-now-label{
   font-size:11px;
   letter-spacing:0.14em;
@@ -393,6 +393,7 @@ h1.track-client{
 .track-balance{
   text-align:right;
   flex:0 0 auto;
+  margin-left:auto;
   min-width:0;
 }
 .track-balance-label{
@@ -542,7 +543,7 @@ h1.track-client{
 }
 @media (max-width:560px){
   .track-hero{padding-top:28px;}
-  .track-balance{text-align:left; width:100%;}
+  .track-balance{text-align:right; width:auto; margin-left:auto;}
   .track-step{grid-template-columns:24px minmax(0,1fr); gap:2px 12px; padding-bottom:22px;}
   .track-mark{width:24px; height:24px; margin-left:-13px; font-size:11px;}
   .track-step--current .track-step-title{font-size:18px;}
