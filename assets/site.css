@@ -318,6 +318,13 @@ footer{border-top:1px solid var(--line); padding:64px 0 40px;}
   max-width:560px;
   min-width:0;
 }
+h1.track-client{
+  text-transform:none;
+  font-weight:800;
+  letter-spacing:0.02em;
+  line-height:1.05;
+  margin:0 0 8px;
+}
 .track-client{
   margin:0 0 8px;
   font-family:'Big Shoulders Display','Big Shoulders Fallback',sans-serif;
@@ -329,7 +336,7 @@ footer{border-top:1px solid var(--line); padding:64px 0 40px;}
   color:var(--paper);
   overflow-wrap:anywhere;
 }
-.track-hero h1{
+.track-hero h1:not(.track-client){
   font-size:clamp(20px,4.8vw,30px);
   font-weight:600;
   color:var(--muted-soft);

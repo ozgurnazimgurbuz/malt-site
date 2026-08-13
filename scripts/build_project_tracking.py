@@ -213,8 +213,9 @@ def build_one(item: dict) -> str | None:
 
     project = str(item.get("projectName") or "").strip()
     client = str(item.get("clientName") or "").strip()
-    if not project or not client:
-        raise TrackValidationError(f"{source}: projectName ve clientName zorunlu")
+    if not client:
+        raise TrackValidationError(f"{source}: clientName zorunlu")
+    job_label = project or client
 
     steps = _normalize_steps(item.get("steps"))
     if not steps:
@@ -238,7 +239,7 @@ def build_one(item: dict) -> str | None:
     canonical = f"{SITE}/proje/{slug}/"
     title = f"{client} — Proje Durumu | Malt Studio"
     meta_desc = (
-        f"{client} / {project} proje durumu."
+        f"{client} proje durumu."
         if not desc_raw
         else f"{client} — {desc_raw}."
     )
@@ -278,8 +279,16 @@ def build_one(item: dict) -> str | None:
             f"</div>"
         )
 
-    wa_msg = f"Merhaba, {client} / {project} projesi hakkında sorum var."
-    # Hierarchy: client → project → ŞU ANDA (+ bakiye sağda) → desc → lastUpdated → timeline → CTA
+    wa_msg = f"Merhaba, {client} / {job_label} projesi hakkında sorum var."
+    # Client is the brand H1. Optional projectName is a secondary line only.
+    if project:
+        title_block = (
+            f'<p class="track-client">{html.escape(client)}</p>\n'
+            f"    <h1>{html.escape(project)}</h1>"
+        )
+    else:
+        title_block = f'<h1 class="track-client">{html.escape(client)}</h1>'
+    # Hierarchy: client → (optional project) → ŞU ANDA (+ bakiye) → timeline → CTA
     page = f"""{head(
         html.escape(title),
         html.escape(meta_desc),
@@ -293,8 +302,7 @@ def build_one(item: dict) -> str | None:
 <section class="page-hero track-hero">
   <div class="wrap track-wrap">
     <div class="eyebrow">Malt Studio</div>
-    <p class="track-client">{html.escape(client)}</p>
-    <h1>{html.escape(project)}</h1>
+    {title_block}
     {f'<p class="lede">{html.escape(desc_raw)}</p>' if desc_raw else ""}
     {cover_html}
     <div class="track-now" role="status">
@@ -330,7 +338,7 @@ def build_one(item: dict) -> str | None:
 </body></html>
 """
     # Cache-bust track CSS without rebuilding every public page.
-    page = page.replace("site.css?v=theme2", "site.css?v=track6")
+    page = page.replace("site.css?v=theme2", "site.css?v=track7")
     write(OUT_DIR / slug / "index.html", page)
     return slug
 

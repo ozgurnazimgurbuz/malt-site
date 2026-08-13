@@ -56,7 +56,7 @@ def test_demo_page() -> None:
     t.main()
     html = Path(t.OUT_DIR / DEMO_SLUG / "index.html").read_text(encoding="utf-8")
     assert "Mantra Garage" in html
-    assert "Mantra Garage Tabela" in html
+    assert "Mantra Garage Tabela" not in html
     assert f"/proje/{DEMO_SLUG}/" in html
     assert "noindex, nofollow" in html
     assert "Üretim" in html
