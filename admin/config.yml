@@ -242,8 +242,8 @@ collections:
     identifier_field: "slug"
     summary: "{{clientName}} — {{projectName}}"
     fields:
-      - { label: "Müşteri Adı", name: "clientName", widget: "string", hint: "Sayfada görünen müşteri adı. Örn: Mantar Garage" }
-      - { label: "Proje Adı", name: "projectName", widget: "string", hint: "Örn: Mantar Garage Tabela" }
+      - { label: "Müşteri Adı", name: "clientName", widget: "string", hint: "Sayfada görünen müşteri adı. Örn: Mantra Garage" }
+      - { label: "Proje Adı", name: "projectName", widget: "string", hint: "Örn: Mantra Garage Tabela" }
       - { label: "Proje Açıklaması", name: "description", widget: "text", required: false, hint: "Örn: Tabela Tasarımı ve Üretimi" }
       - label: "Slug (URL)"
         name: "slug"
