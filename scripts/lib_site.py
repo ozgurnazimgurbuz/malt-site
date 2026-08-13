@@ -214,13 +214,17 @@ def head(
     canonical: str,
     *,
     noindex: bool = False,
+    nofollow: bool = False,
     json_ld: dict | None = None,
 ) -> str:
-    robots = (
-        '<meta name="robots" content="noindex,follow">\n'
-        if noindex
-        else '<meta name="robots" content="index,follow">\n'
-    )
+    # Tracking pages use noindex,nofollow; other noindex pages keep follow.
+    if noindex and nofollow:
+        robots_content = "noindex, nofollow"
+    elif noindex:
+        robots_content = "noindex, follow"
+    else:
+        robots_content = "index, follow"
+    robots = f'<meta name="robots" content="{robots_content}">\n'
     ga = gtag_snippet()
     ld = ld_script(json_ld) if json_ld else ""
     return f"""<!DOCTYPE html>

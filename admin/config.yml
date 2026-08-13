@@ -227,3 +227,53 @@ collections:
           - { label: "Google Tag Manager ID", name: "googleTagManagerId", widget: "string", required: false }
           - { label: "Google Search Console Doğrulama Kodu", name: "googleSearchConsoleVerification", widget: "string", required: false }
           - { label: "Facebook Pixel ID", name: "facebookPixelId", widget: "string", required: false }
+
+  # Müşteri proje takip sayfaları (/proje/{slug}/). Portfolyo /projeler/ ile karışmaz.
+  # Veri content.json içinde DEĞİL — content/proje/*.json (public /content.json sızıntısı yok).
+  - name: "project_tracking"
+    label: "Proje Takip"
+    label_singular: "Proje Takip"
+    folder: "content/proje"
+    create: true
+    delete: true
+    extension: "json"
+    format: "json"
+    slug: "{{fields.slug}}"
+    identifier_field: "slug"
+    summary: "{{clientName}} — {{projectName}}"
+    fields:
+      - { label: "Proje Adı", name: "projectName", widget: "string", hint: "Örn: Mantar Garage Tabela" }
+      - { label: "Müşteri Adı", name: "clientName", widget: "string", hint: "Sayfada görünen müşteri adı." }
+      - label: "Slug (URL)"
+        name: "slug"
+        widget: "string"
+        pattern: ['^[a-z0-9]+(?:-[a-z0-9]+)*$', 'Sadece küçük harf, rakam ve tire. Örn: mantar-garage-7f3k9x']
+        hint: "Bu değer müşteriye gönderilecek proje linkinin bir parçasıdır. Proje yayınlandıktan sonra değiştirmeyin."
+      - { label: "Kısa Açıklama", name: "description", widget: "text", required: false, hint: "Örn: Tabela Tasarımı ve Üretimi" }
+      - label: "Aşamalar"
+        name: "steps"
+        widget: "list"
+        summary: "{{title}} — {{status}}"
+        min: 1
+        fields:
+          - { label: "Başlık", name: "title", widget: "string" }
+          - { label: "Açıklama", name: "description", widget: "text", required: false }
+          - label: "Durum"
+            name: "status"
+            widget: "select"
+            options:
+              - { label: "Tamamlandı", value: "completed" }
+              - { label: "Şu an", value: "current" }
+              - { label: "Bekliyor", value: "pending" }
+            default: "pending"
+          - { label: "Tamamlanma Tarihi", name: "completedDate", widget: "string", required: false, hint: "Örn: 2026-08-10" }
+      - { label: "Güncel Aşama (1 = ilk)", name: "currentStep", widget: "number", value_type: "int", min: 1, required: false, hint: "steps içinde status=current olanla uyumlu tutun." }
+      - { label: "Son Güncelleme", name: "lastUpdated", widget: "datetime", date_format: "YYYY-MM-DD", time_format: false, format: "YYYY-MM-DD" }
+      - { label: "Yayında (müşteri linki aktif)", name: "public", widget: "boolean", default: true }
+      - label: "Kapak (opsiyonel)"
+        name: "coverImage"
+        widget: "image"
+        required: false
+        media_library:
+          config:
+            max_file_size: 3145728

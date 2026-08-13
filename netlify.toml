@@ -1,7 +1,7 @@
 # CMS content.json her deploy'da index.html'e gömülür (JS'siz ilk HTML).
 [build]
-  command = "python3 scripts/optimize_uploads.py && python3 scripts/build_production.py && python3 scripts/scrub_customer_copy.py && python3 scripts/prerender.py && python3 scripts/build_llms.py"
-  # optimize_uploads resizes CMS photos for cards + emits WebP; build_production runs Wave A3 home builder; scrub removes internal SEO jargon; prerender bakes content.json into index.html; build_llms writes llms.txt + .md twins for AI agents
+  command = "python3 scripts/optimize_uploads.py && python3 scripts/build_production.py && python3 scripts/build_project_tracking.py && python3 scripts/scrub_customer_copy.py && python3 scripts/prerender.py && python3 scripts/build_llms.py"
+  # optimize_uploads resizes CMS photos for cards + emits WebP; build_production runs Wave A3 home builder; build_project_tracking emits noindex /proje/{slug}/ pages; scrub removes internal SEO jargon; prerender bakes content.json into index.html; build_llms writes llms.txt + .md twins for AI agents
   publish = "."
 
 [[headers]]

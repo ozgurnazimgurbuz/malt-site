@@ -1,0 +1,41 @@
+{
+  "projectName": "Mantar Garage Tabela",
+  "clientName": "Mantar Garage",
+  "slug": "mantar-garage-7f3k9x",
+  "description": "Tabela Tasarımı ve Üretimi",
+  "steps": [
+    {
+      "title": "Tasarım",
+      "description": "",
+      "status": "completed",
+      "completedDate": ""
+    },
+    {
+      "title": "Tasarım Onayı",
+      "description": "",
+      "status": "completed",
+      "completedDate": ""
+    },
+    {
+      "title": "Üretim",
+      "description": "",
+      "status": "current",
+      "completedDate": ""
+    },
+    {
+      "title": "Montaj",
+      "description": "",
+      "status": "pending",
+      "completedDate": ""
+    },
+    {
+      "title": "Teslim",
+      "description": "",
+      "status": "pending",
+      "completedDate": ""
+    }
+  ],
+  "currentStep": 3,
+  "lastUpdated": "2026-08-13",
+  "public": true
+}
