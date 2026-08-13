@@ -258,6 +258,16 @@ def build_one(item: dict) -> str | None:
         else ""
     )
 
+    balance = str(item.get("balance") or "").strip()
+    balance_html = ""
+    if balance:
+        balance_html = (
+            f'<div class="track-balance">'
+            f'<div class="track-balance-label">Bakiye</div>'
+            f'<p class="track-balance-value">{html.escape(balance)}</p>'
+            f"</div>"
+        )
+
     last_html = ""
     if last_disp:
         dt = html.escape(last_raw[:10] if last_raw else "")
@@ -269,7 +279,7 @@ def build_one(item: dict) -> str | None:
         )
 
     wa_msg = f"Merhaba, {client} / {project} projesi hakkında sorum var."
-    # Hierarchy: client → project → ŞU ANDA → title → desc → lastUpdated → timeline → CTA
+    # Hierarchy: client → project → ŞU ANDA (+ bakiye sağda) → desc → lastUpdated → timeline → CTA
     page = f"""{head(
         html.escape(title),
         html.escape(meta_desc),
@@ -288,8 +298,13 @@ def build_one(item: dict) -> str | None:
     {f'<p class="lede">{html.escape(desc_raw)}</p>' if desc_raw else ""}
     {cover_html}
     <div class="track-now" role="status">
-      <div class="track-now-label">Şu anda</div>
-      <p class="track-now-name">{html.escape(current_title)}</p>
+      <div class="track-now-top">
+        <div class="track-now-main">
+          <div class="track-now-label">Şu anda</div>
+          <p class="track-now-name">{html.escape(current_title)}</p>
+        </div>
+        {balance_html}
+      </div>
       {current_desc_html}
       {last_html}
     </div>
@@ -315,7 +330,7 @@ def build_one(item: dict) -> str | None:
 </body></html>
 """
     # Cache-bust track CSS without rebuilding every public page.
-    page = page.replace("site.css?v=theme2", "site.css?v=track4")
+    page = page.replace("site.css?v=theme2", "site.css?v=track5")
     write(OUT_DIR / slug / "index.html", page)
     return slug
 

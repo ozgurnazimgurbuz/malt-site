@@ -271,6 +271,7 @@ collections:
           - { label: "Tamamlanma Tarihi", name: "completedDate", widget: "string", required: false, hint: "Örn: 2026-08-10" }
       - { label: "Mevcut Aşama (1 = ilk)", name: "currentStep", widget: "number", value_type: "int", min: 1, required: false, hint: "Bir aşamada status=Şu an varsa bu sayı o aşamanın sırasıyla aynı olmalı. Çelişirse build hata verir." }
       - { label: "Son Güncelleme", name: "lastUpdated", widget: "datetime", date_format: "YYYY-MM-DD", time_format: false, format: "YYYY-MM-DD", hint: "Durum değişince bu tarihi elle güncelleyin. Decap/statik sitede güvenilir otomatik timestamp yok." }
+      - { label: "Bakiye", name: "balance", widget: "string", required: false, hint: "Örn: 22.500₺/45.000₺ — boşsa gösterilmez." }
       - label: "Kapak Görseli (opsiyonel)"
         name: "coverImage"
         widget: "image"

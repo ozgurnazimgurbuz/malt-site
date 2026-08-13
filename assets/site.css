@@ -352,6 +352,14 @@ footer{border-top:1px solid var(--line); padding:64px 0 40px;}
   padding:22px 0 0;
   border-top:1px solid var(--line);
 }
+.track-now-top{
+  display:flex;
+  align-items:flex-start;
+  justify-content:space-between;
+  gap:16px 24px;
+  flex-wrap:wrap;
+}
+.track-now-main{min-width:0; flex:1 1 180px;}
 .track-now-label{
   font-size:11px;
   letter-spacing:0.14em;
@@ -365,6 +373,28 @@ footer{border-top:1px solid var(--line); padding:64px 0 40px;}
   font-weight:800;
   font-size:clamp(32px,8vw,48px);
   line-height:1.05;
+  letter-spacing:0.01em;
+  color:var(--paper);
+  overflow-wrap:anywhere;
+}
+.track-balance{
+  text-align:right;
+  flex:0 0 auto;
+  min-width:0;
+}
+.track-balance-label{
+  font-size:11px;
+  letter-spacing:0.14em;
+  text-transform:uppercase;
+  color:var(--taupe);
+  margin-bottom:10px;
+}
+.track-balance-value{
+  margin:0;
+  font-family:'Big Shoulders Display','Big Shoulders Fallback',sans-serif;
+  font-weight:800;
+  font-size:clamp(22px,5vw,32px);
+  line-height:1.1;
   letter-spacing:0.01em;
   color:var(--paper);
   overflow-wrap:anywhere;
@@ -483,6 +513,7 @@ footer{border-top:1px solid var(--line); padding:64px 0 40px;}
 }
 @media (max-width:560px){
   .track-hero{padding-top:28px;}
+  .track-balance{text-align:left; width:100%;}
   .track-step{grid-template-columns:24px minmax(0,1fr); gap:2px 12px; padding-bottom:22px;}
   .track-mark{width:24px; height:24px; margin-left:-13px; font-size:11px;}
   .track-step--current .track-step-title{font-size:18px;}

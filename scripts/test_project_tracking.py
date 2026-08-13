@@ -65,7 +65,10 @@ def test_demo_page() -> None:
     assert "Teklif Al" not in html
     assert html.count('data-status="completed"') == 2
     assert html.count('data-status="current"') == 1
-    assert html.count('data-status="pending"') == 2
+    assert html.count('data-status="pending"') == 1
+    assert "Teslim" not in html
+    assert "22.500₺/45.000₺" in html
+    assert "Bakiye" in html
     assert not (t.OUT_DIR / "index.html").exists()
     assert "/proje/" not in Path(t.ROOT / "sitemap.xml").read_text(encoding="utf-8")
     assert "Disallow: /proje/" in Path(t.ROOT / "robots.txt").read_text(encoding="utf-8")
