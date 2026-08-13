@@ -151,9 +151,9 @@ def test_step_copy_fixture() -> None:
         path.unlink(missing_ok=True)
         t.main()
         assert not (t.OUT_DIR / slug).exists()
-        # Mantar CMS JSON unchanged path still empty descriptions
         mantar = json.loads((t.TRACK_DIR / "mantar-garage-7f3k9x.json").read_text(encoding="utf-8"))
-        assert all(not str(s.get("description") or "").strip() for s in mantar["steps"])
+        assert mantar.get("slug") == "mantar-garage-7f3k9x"
+        assert mantar.get("public") is True
 
 
 def test_public_false_and_slug_orphan() -> None:

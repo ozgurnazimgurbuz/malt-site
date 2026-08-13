@@ -64,6 +64,11 @@ def _format_tr_date(raw: str) -> str:
     return s
 
 
+def _esc_lines(text: str) -> str:
+    """Escape text; preserve intentional newlines as <br>."""
+    return "<br>\n".join(html.escape(line) for line in text.splitlines())
+
+
 def _load_items() -> list[dict]:
     if not TRACK_DIR.is_dir():
         return []
@@ -179,7 +184,7 @@ def _timeline_html(steps: list[dict]) -> str:
         else:
             label_html = f'<div class="track-step-status">{label}</div>'
         desc = (
-            f'<p class="track-step-desc">{html.escape(s["description"])}</p>'
+            f'<p class="track-step-desc">{_esc_lines(s["description"])}</p>'
             if s["description"]
             else ""
         )
@@ -248,7 +253,7 @@ def build_one(item: dict) -> str | None:
         )
 
     current_desc_html = (
-        f'<p class="track-now-desc">{html.escape(current_desc)}</p>'
+        f'<p class="track-now-desc">{_esc_lines(current_desc)}</p>'
         if current_desc
         else ""
     )
