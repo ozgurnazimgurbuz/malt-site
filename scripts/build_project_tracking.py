@@ -181,6 +181,9 @@ def _timeline_html(steps: list[dict]) -> str:
                 f'<div class="track-step-status">{label} · '
                 f'<time datetime="{dt}">{html.escape(done_disp)}</time></div>'
             )
+        elif st == "current" and s["description"]:
+            # Description replaces the "Şu an" status line.
+            label_html = ""
         else:
             label_html = f'<div class="track-step-status">{label}</div>'
         desc = (
@@ -338,7 +341,7 @@ def build_one(item: dict) -> str | None:
 </body></html>
 """
     # Cache-bust track CSS without rebuilding every public page.
-    page = page.replace("site.css?v=theme2", "site.css?v=track7")
+    page = page.replace("site.css?v=theme2", "site.css?v=track8")
     write(OUT_DIR / slug / "index.html", page)
     return slug
 

@@ -59,8 +59,13 @@ def test_demo_page() -> None:
     assert "Mantra Garage Tabela" not in html
     assert f"/proje/{DEMO_SLUG}/" in html
     assert "noindex, nofollow" in html
-    assert "Üretim" in html
-    assert "track-now-name" in html
+    assert "Üretimde" in html
+    assert "Kutu harfler imalatta" in html
+    assert "Demir kasa imalatta" in html
+    assert "Kompozit derz sırası bekliyor" in html
+    # "Şu an" status line hidden when current has description
+    assert 'data-status="current"' in html
+    assert ">Şu an<" not in html
     assert "13 Ağustos 2026" in html
     assert "Son güncelleme" in html
     assert "wa.me" in html
