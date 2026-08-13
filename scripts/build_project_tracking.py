@@ -234,8 +234,18 @@ def build_one(item: dict) -> str | None:
     current = steps[current_n - 1] if current_n else {}
     current_title = str(current.get("title") or "")
     current_desc = str(current.get("description") or "").strip()
-    # Hero state wording: "Üretim" stage → "Üretimde" (distinct from timeline label).
-    current_hero = "Üretimde" if current_title.casefold() == "üretim" else current_title
+    # Hero state wording (distinct from timeline stage title).
+    _hero = (
+        current_title.replace("İ", "i")
+        .replace("I", "i")
+        .replace("ı", "i")
+        .casefold()
+        .strip()
+    )
+    current_hero = {
+        "üretim": "Üretimde",
+        "imalat": "İmalatta",
+    }.get(_hero, current_title)
 
     desc_raw = str(item.get("description") or "").strip()
     last_raw = str(item.get("lastUpdated") or "").strip()

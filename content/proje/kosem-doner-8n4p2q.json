@@ -1,0 +1,35 @@
+{
+  "projectName": "",
+  "clientName": "Köşem Döner",
+  "slug": "kosem-doner-8n4p2q",
+  "description": "",
+  "steps": [
+    {
+      "title": "Tasarım",
+      "description": "",
+      "status": "completed",
+      "completedDate": ""
+    },
+    {
+      "title": "Tasarım Onayı",
+      "description": "",
+      "status": "completed",
+      "completedDate": ""
+    },
+    {
+      "title": "İmalat",
+      "description": "",
+      "status": "current",
+      "completedDate": ""
+    },
+    {
+      "title": "Montaj",
+      "description": "",
+      "status": "pending",
+      "completedDate": ""
+    }
+  ],
+  "currentStep": 3,
+  "lastUpdated": "2026-08-13",
+  "public": true
+}
