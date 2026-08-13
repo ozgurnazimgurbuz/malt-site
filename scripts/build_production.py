@@ -149,8 +149,13 @@ def _service_labels(raw) -> list[str]:
     return labels
 
 
+def _fold_tr(s: str) -> str:
+    # İ.casefold() is not "i"; fold Turkish dotted/dotless I before compare.
+    return s.replace("İ", "i").replace("I", "i").replace("ı", "i").casefold().strip()
+
+
 def _service_slug(label: str) -> str | None:
-    key = label.casefold().strip()
+    key = _fold_tr(label)
     aliases = {
         "iş güvenliği": "is-guvenligi-tabelalari",
         "is güvenliği": "is-guvenligi-tabelalari",
@@ -159,7 +164,8 @@ def _service_slug(label: str) -> str | None:
     if key in aliases:
         return aliases[key]
     for slug, name in ALL_SERVICES.items():
-        if name.casefold() == key or slug == key:
+        nk = _fold_tr(name)
+        if nk == key or slug == key or (key and nk.startswith(key + " ")):
             return slug
     return None
 
@@ -927,6 +933,7 @@ def build_project(item: dict) -> None:
         "Proje fotoğraflarını ve ilgili hizmet detaylarını inceleyin."
     )
     location = str(item.get("location") or "").strip()
+    category = str(item.get("category") or "").strip()
     description = str(item.get("description") or "").strip()
     year = str(item.get("year") or "").strip()
     completed = str(item.get("completedDate") or "").strip()
@@ -941,6 +948,8 @@ def build_project(item: dict) -> None:
         if location.casefold() in {"tekirdağ", "tekirdag"}:
             loc = f'<a href="/bolgeler/tekirdag/">{loc}</a>'
         meta_bits.append(f"<div><dt>Konum</dt><dd>{loc}</dd></div>")
+    if category:
+        meta_bits.append(f"<div><dt>Kategori</dt><dd>{html.escape(category)}</dd></div>")
     if year:
         meta_bits.append(f"<div><dt>Yıl</dt><dd>{html.escape(year)}</dd></div>")
     if completed:
