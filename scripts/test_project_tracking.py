@@ -60,12 +60,12 @@ def test_demo_page() -> None:
     assert f"/proje/{DEMO_SLUG}/" in html
     assert "noindex, nofollow" in html
     assert "Üretimde" in html
-    assert "Kutu harfler imalatta" in html
-    assert "Demir kasa imalatta" in html
-    assert "Kompozit derz sırası bekliyor" in html
-    # "Şu an" status line hidden when current has description
-    assert 'data-status="current"' in html
-    assert ">Şu an<" not in html
+    assert "Kutu harfler imalatta" not in html
+    assert "Demir kasa imalatta" not in html
+    assert "Kompozit derz sırası bekliyor" not in html
+    assert "track-now-name" in html
+    # Timeline keeps stage name "Üretim"; hero shows "Üretimde"
+    assert 'track-step-title">Üretim</div>' in html
     assert "13 Ağustos 2026" in html
     assert "Son güncelleme" in html
     assert "wa.me" in html

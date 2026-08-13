@@ -356,9 +356,15 @@ h1.track-client{
 }
 .track-now{
   margin-top:28px;
-  padding:22px 0 0;
+  margin-bottom:8px;
+  padding:22px 0 24px;
   border-top:1px solid var(--line);
+  border-bottom:1px solid var(--line);
 }
+.track-main .track-status-heading{
+  margin-top:8px;
+}
+
 .track-now-top{
   display:flex;
   align-items:flex-start;

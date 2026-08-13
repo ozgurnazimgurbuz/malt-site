@@ -234,6 +234,8 @@ def build_one(item: dict) -> str | None:
     current = steps[current_n - 1] if current_n else {}
     current_title = str(current.get("title") or "")
     current_desc = str(current.get("description") or "").strip()
+    # Hero state wording: "Üretim" stage → "Üretimde" (distinct from timeline label).
+    current_hero = "Üretimde" if current_title.casefold() == "üretim" else current_title
 
     desc_raw = str(item.get("description") or "").strip()
     last_raw = str(item.get("lastUpdated") or "").strip()
@@ -312,7 +314,7 @@ def build_one(item: dict) -> str | None:
       <div class="track-now-top">
         <div class="track-now-main">
           <div class="track-now-label">Şu anda</div>
-          <p class="track-now-name">{html.escape(current_title)}</p>
+          <p class="track-now-name">{html.escape(current_hero)}</p>
         </div>
         {balance_html}
       </div>
@@ -341,7 +343,7 @@ def build_one(item: dict) -> str | None:
 </body></html>
 """
     # Cache-bust track CSS without rebuilding every public page.
-    page = page.replace("site.css?v=theme2", "site.css?v=track8")
+    page = page.replace("site.css?v=theme2", "site.css?v=track9")
     write(OUT_DIR / slug / "index.html", page)
     return slug
 
