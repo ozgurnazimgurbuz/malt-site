@@ -471,6 +471,15 @@ footer{border-top:1px solid var(--line); padding:64px 0 40px;}
   border-color:#710014;
   color:#fff;
   box-shadow:0 0 0 3px rgba(113,0,20,0.2);
+  animation:track-pulse 1.8s ease-out infinite;
+}
+@keyframes track-pulse{
+  0%{box-shadow:0 0 0 0 rgba(196,90,104,0.55);}
+  70%{box-shadow:0 0 0 12px rgba(196,90,104,0);}
+  100%{box-shadow:0 0 0 0 rgba(196,90,104,0);}
+}
+@media (prefers-reduced-motion:reduce){
+  .track-step--current .track-mark{animation:none;}
 }
 .track-step-title{
   font-size:17px;
