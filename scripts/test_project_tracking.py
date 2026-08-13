@@ -53,8 +53,8 @@ def test_validation() -> None:
 def test_demo_page() -> None:
     t.main()
     html = Path(t.OUT_DIR / "mantar-garage-7f3k9x" / "index.html").read_text(encoding="utf-8")
-    assert "Mantar Garage" in html
-    assert "Mantar Garage Tabela" in html
+    assert "Mantra Garage" in html
+    assert "Mantra Garage Tabela" in html
     assert "noindex, nofollow" in html
     assert "Üretim" in html
     assert "track-now-name" in html
