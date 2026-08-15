@@ -294,6 +294,14 @@ def build_one(item: dict) -> str | None:
             f"</div>"
         )
 
+    notes = str(item.get("notes") or "").strip()
+    notes_html = (
+        f'<p class="track-notes">{_esc_lines(notes)}</p>' if notes else ""
+    )
+    meta_html = ""
+    if last_html or notes_html:
+        meta_html = f'<div class="track-now-bottom">{last_html}{notes_html}</div>'
+
     wa_msg = f"Merhaba, {client} / {job_label} projesi hakkında sorum var."
     # Client is the brand H1. Optional projectName is a secondary line only.
     if project:
@@ -329,7 +337,7 @@ def build_one(item: dict) -> str | None:
         {balance_html}
       </div>
       {current_desc_html}
-      {last_html}
+      {meta_html}
     </div>
   </div>
 </section>
@@ -353,7 +361,7 @@ def build_one(item: dict) -> str | None:
 </body></html>
 """
     # Cache-bust track CSS without rebuilding every public page.
-    page = page.replace("site.css?v=theme2", "site.css?v=track13")
+    page = page.replace("site.css?v=theme2", "site.css?v=track14")
     write(OUT_DIR / slug / "index.html", page)
     return slug
 

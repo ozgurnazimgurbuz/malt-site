@@ -60,6 +60,15 @@ def test_demo_page() -> None:
     assert f"/proje/{DEMO_SLUG}/" in html
     assert "noindex, nofollow" in html
     assert "Üretimde" in html
+    assert "Kutu harfler hazırlandı" in html
+    assert "Kasa imalatta" in html
+    assert "Kompozit derz sırasında" in html
+    assert "track-notes" in html
+    notes_at = html.find("track-notes")
+    timeline_at = html.find("track-timeline")
+    assert 0 <= notes_at < timeline_at
+    assert "Kutu harfler hazırlandı" not in html[timeline_at:]
+    assert "track-now-desc" not in html
     assert "Kutu harfler imalatta" not in html
     assert "Demir kasa imalatta" not in html
     assert "Kompozit derz sırası bekliyor" not in html

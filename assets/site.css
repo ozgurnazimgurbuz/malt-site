@@ -421,8 +421,26 @@ h1.track-client{
   overflow-wrap:anywhere;
   max-width:100%;
 }
+.track-now-bottom{
+  display:flex;
+  align-items:flex-start;
+  justify-content:space-between;
+  gap:16px 24px;
+  flex-wrap:nowrap;
+  margin-top:18px;
+}
 .track-updated{
-  margin:18px 0 0;
+  margin:0;
+  min-width:0;
+}
+.track-notes{
+  margin:0 0 0 auto;
+  text-align:right;
+  font-size:14px;
+  line-height:1.55;
+  color:var(--muted-soft);
+  overflow-wrap:anywhere;
+  max-width:52%;
 }
 .track-updated-label{
   font-size:11px;
