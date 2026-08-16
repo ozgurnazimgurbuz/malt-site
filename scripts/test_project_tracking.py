@@ -75,7 +75,7 @@ def test_demo_page() -> None:
     assert "track-now-name" in html
     # Timeline keeps stage name "Üretim"; hero shows "Üretimde"
     assert 'track-step-title">Üretim</div>' in html
-    assert "13 Ağustos 2026" in html
+    assert "16 Ağustos 2026" in html
     assert "Son güncelleme" in html
     assert "wa.me" in html
     assert "tel:+905525826959" in html
