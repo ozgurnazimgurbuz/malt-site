@@ -60,14 +60,14 @@ def test_demo_page() -> None:
     assert f"/proje/{DEMO_SLUG}/" in html
     assert "noindex, nofollow" in html
     assert "Üretimde" in html
-    assert "Kutu harfler hazırlanıyor" in html
+    assert "Kutu harfler hazır" in html
     assert "Kasa imalatta" in html
     assert "Kompozit derz sırasında" in html
     assert "track-notes" in html
     notes_at = html.find("track-notes")
     timeline_at = html.find("track-timeline")
     assert 0 <= notes_at < timeline_at
-    assert "Kutu harfler hazırlanıyor" not in html[timeline_at:]
+    assert "Kutu harfler hazır" not in html[timeline_at:]
     assert "track-now-desc" not in html
     assert "Kutu harfler imalatta" not in html
     assert "Demir kasa imalatta" not in html
@@ -75,7 +75,7 @@ def test_demo_page() -> None:
     assert "track-now-name" in html
     # Timeline keeps stage name "Üretim"; hero shows "Üretimde"
     assert 'track-step-title">Üretim</div>' in html
-    assert "16 Ağustos 2026" in html
+    assert "17 Ağustos 2026" in html
     assert "Son güncelleme" in html
     assert "wa.me" in html
     assert "tel:+905525826959" in html
