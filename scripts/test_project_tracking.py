@@ -59,30 +59,28 @@ def test_demo_page() -> None:
     assert "Mantra Garage Tabela" not in html
     assert f"/proje/{DEMO_SLUG}/" in html
     assert "noindex, nofollow" in html
-    assert "Üretimde" in html
-    assert "Kutu harfler hazır" in html
-    assert "Kasa imalatta" in html
-    assert "Kompozit derzlendi" in html
-    assert "track-notes" in html
-    notes_at = html.find("track-notes")
-    timeline_at = html.find("track-timeline")
-    assert 0 <= notes_at < timeline_at
-    assert "Kutu harfler hazır" not in html[timeline_at:]
+    assert "HAZIR" in html
+    assert "Üretimde" not in html
+    assert "Kutu harfler hazır" not in html
+    assert "Kasa imalatta" not in html
+    assert "Kompozit derzlendi" not in html
+    assert "track-notes" not in html
     assert "track-now-desc" not in html
     assert "Kutu harfler imalatta" not in html
     assert "Demir kasa imalatta" not in html
     assert "Kompozit derz sırası bekliyor" not in html
     assert "track-now-name" in html
-    # Timeline keeps stage name "Üretim"; hero shows "Üretimde"
     assert 'track-step-title">Üretim</div>' in html
-    assert "18 Ağustos 2026" in html
+    assert 'track-step--completed" data-status="completed"' in html
+    assert 'track-step-title">Montaj</div>' in html
+    assert "19 Ağustos 2026" in html
     assert "Son güncelleme" in html
     assert "wa.me" in html
     assert "tel:+905525826959" in html
     assert "Teklif Al" not in html
-    assert html.count('data-status="completed"') == 2
+    assert html.count('data-status="completed"') == 3
     assert html.count('data-status="current"') == 1
-    assert html.count('data-status="pending"') == 1
+    assert html.count('data-status="pending"') == 0
     assert "Teslim" not in html
     assert "22.500₺/45.000₺" in html
     assert "Kalan bakiye" in html

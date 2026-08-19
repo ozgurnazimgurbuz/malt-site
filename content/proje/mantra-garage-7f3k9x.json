@@ -19,19 +19,19 @@
     {
       "title": "Üretim",
       "description": "",
-      "status": "current",
+      "status": "completed",
       "completedDate": ""
     },
     {
       "title": "Montaj",
       "description": "",
-      "status": "pending",
+      "status": "current",
       "completedDate": ""
     }
   ],
-  "currentStep": 3,
-  "lastUpdated": "2026-08-18",
+  "currentStep": 4,
+  "lastUpdated": "2026-08-19",
   "public": true,
   "balance": "22.500₺/45.000₺",
-  "notes": "Kutu harfler hazır\nKompozit derzlendi\nKasa imalatta"
+  "notes": ""
 }

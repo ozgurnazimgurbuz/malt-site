@@ -245,6 +245,7 @@ def build_one(item: dict) -> str | None:
     current_hero = {
         "üretim": "Üretimde",
         "imalat": "İmalatta",
+        "montaj": "HAZIR",
     }.get(_hero, current_title)
 
     desc_raw = str(item.get("description") or "").strip()
