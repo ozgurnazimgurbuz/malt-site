@@ -73,6 +73,8 @@ def test_demo_page() -> None:
     assert 'track-step-title">Üretim</div>' in html
     assert 'track-step--completed" data-status="completed"' in html
     assert 'track-step-title">Montaj</div>' in html
+    assert 'track-step-status">Planlanıyor</div>' in html
+    assert 'track-step-status">Şu an</div>' not in html
     assert "19 Ağustos 2026" in html
     assert "Son güncelleme" in html
     assert "wa.me" in html

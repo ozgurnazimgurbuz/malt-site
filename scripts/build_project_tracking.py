@@ -173,6 +173,8 @@ def _timeline_html(steps: list[dict]) -> str:
         st = s["status"]
         mark = {"completed": "✓", "current": "●", "pending": "○"}[st]
         label = {"completed": "Tamamlandı", "current": "Şu an", "pending": "Bekliyor"}[st]
+        if st == "current" and s["title"].casefold() == "montaj":
+            label = "Planlanıyor"
         # completedDate only on completed steps (never invent for current/pending).
         if st == "completed" and s["completedDate"]:
             done_disp = _format_tr_date(s["completedDate"])
