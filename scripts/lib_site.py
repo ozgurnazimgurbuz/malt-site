@@ -144,7 +144,7 @@ THEME_TOGGLE = (
 
 
 def theme_script() -> str:
-    return '<script src="/assets/theme.js?v=theme2" defer></script>\n'
+    return '<script src="/assets/theme.js?v=theme3" defer></script>\n'
 
 
 def ld_script(data: dict) -> str:
@@ -250,8 +250,8 @@ def head(
 <meta name="twitter:image" content="{SITE}/images/og.jpg">
 <link rel="icon" type="image/png" href="/images/icon-192.png">
 <link rel="manifest" href="/manifest.json">
-{fonts_head()}<link rel="stylesheet" href="/assets/site.css?v=theme2">
-<link rel="stylesheet" href="/assets/liquid-glass.css?v=lg1">
+{fonts_head()}<link rel="stylesheet" href="/assets/site.css?v=theme3">
+<link rel="stylesheet" href="/assets/liquid-glass.css?v=lg2">
 {ld}</head>
 """
 

@@ -364,7 +364,7 @@ def build_one(item: dict) -> str | None:
 </body></html>
 """
     # Cache-bust track CSS without rebuilding every public page.
-    page = page.replace("site.css?v=theme2", "site.css?v=track14")
+    page = page.replace("site.css?v=theme3", "site.css?v=track15")
     write(OUT_DIR / slug / "index.html", page)
     return slug
 
