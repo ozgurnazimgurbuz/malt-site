@@ -51,6 +51,12 @@ def test_validation() -> None:
     except t.TrackValidationError as e:
         assert "currentStep boş" in str(e)
 
+    # All completed = project done
+    steps, n = t.validate_and_resolve(
+        _steps("completed", "completed", "completed", "completed"), None
+    )
+    assert n == 4 and all(s["status"] == "completed" for s in steps)
+
 
 def test_demo_page() -> None:
     t.main()
@@ -59,8 +65,10 @@ def test_demo_page() -> None:
     assert "Mantra Garage Tabela" not in html
     assert f"/proje/{DEMO_SLUG}/" in html
     assert "noindex, nofollow" in html
-    assert "HAZIR" in html
+    assert "Tamamlandı" in html
+    assert "HAZIR" not in html
     assert "Üretimde" not in html
+    assert "Planlanıyor" not in html
     assert "Kutu harfler hazır" not in html
     assert "Kasa imalatta" not in html
     assert "Kompozit derzlendi" not in html
@@ -73,15 +81,14 @@ def test_demo_page() -> None:
     assert 'track-step-title">Üretim</div>' in html
     assert 'track-step--completed" data-status="completed"' in html
     assert 'track-step-title">Montaj</div>' in html
-    assert 'track-step-status">Planlanıyor</div>' in html
     assert 'track-step-status">Şu an</div>' not in html
-    assert "19 Ağustos 2026" in html
+    assert "24 Ağustos 2026" in html
     assert "Son güncelleme" in html
     assert "wa.me" in html
     assert "tel:+905525826959" in html
     assert "Teklif Al" not in html
-    assert html.count('data-status="completed"') == 3
-    assert html.count('data-status="current"') == 1
+    assert html.count('data-status="completed"') == 4
+    assert html.count('data-status="current"') == 0
     assert html.count('data-status="pending"') == 0
     assert "Teslim" not in html
     assert "22.500₺/45.000₺" in html

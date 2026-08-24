@@ -121,6 +121,7 @@ def validate_and_resolve(
     Rules:
     - >1 status=current → error
     - 1 status=current and currentStep set to a different index → error
+    - 0 status=current and every step completed → project done (pointer = last step)
     - 0 status=current and currentStep in range → derive statuses from currentStep
     - 0 status=current and no currentStep → error
     """
@@ -144,6 +145,9 @@ def validate_and_resolve(
                 "currentStep ile steps[].status çelişiyor — birini düzeltin."
             )
         return steps, idx + 1
+
+    if all(s["status"] == "completed" for s in steps):
+        return steps, len(steps)
 
     if current_step is None:
         raise TrackValidationError(
@@ -237,18 +241,21 @@ def build_one(item: dict) -> str | None:
     current_title = str(current.get("title") or "")
     current_desc = str(current.get("description") or "").strip()
     # Hero state wording (distinct from timeline stage title).
-    _hero = (
-        current_title.replace("İ", "i")
-        .replace("I", "i")
-        .replace("ı", "i")
-        .casefold()
-        .strip()
-    )
-    current_hero = {
-        "üretim": "Üretimde",
-        "imalat": "İmalatta",
-        "montaj": "HAZIR",
-    }.get(_hero, current_title)
+    if all(s["status"] == "completed" for s in steps):
+        current_hero = "Tamamlandı"
+    else:
+        _hero = (
+            current_title.replace("İ", "i")
+            .replace("I", "i")
+            .replace("ı", "i")
+            .casefold()
+            .strip()
+        )
+        current_hero = {
+            "üretim": "Üretimde",
+            "imalat": "İmalatta",
+            "montaj": "HAZIR",
+        }.get(_hero, current_title)
 
     desc_raw = str(item.get("description") or "").strip()
     last_raw = str(item.get("lastUpdated") or "").strip()
