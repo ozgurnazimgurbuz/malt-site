@@ -64,6 +64,16 @@ def _format_tr_date(raw: str) -> str:
     return s
 
 
+def _format_tr_date_short(raw: str) -> str:
+    """Compact dd.mm.yyyy for timeline step dates."""
+    s = (raw or "").strip()
+    m = re.match(r"^(\d{4})-(\d{2})-(\d{2})", s)
+    if not m:
+        return s
+    y, mo, d = int(m.group(1)), int(m.group(2)), int(m.group(3))
+    return f"{d:02d}.{mo:02d}.{y}"
+
+
 def _esc_lines(text: str) -> str:
     """Escape text; preserve intentional newlines as <br>."""
     return "<br>\n".join(html.escape(line) for line in text.splitlines())
@@ -181,10 +191,10 @@ def _timeline_html(steps: list[dict]) -> str:
             label = "Planlanıyor"
         # completedDate only on completed steps (never invent for current/pending).
         if st == "completed" and s["completedDate"]:
-            done_disp = _format_tr_date(s["completedDate"])
+            done_disp = _format_tr_date_short(s["completedDate"])
             dt = html.escape(s["completedDate"][:10])
             label_html = (
-                f'<div class="track-step-status">{label} · '
+                f'<div class="track-step-status">{label} '
                 f'<time datetime="{dt}">{html.escape(done_disp)}</time></div>'
             )
         elif st == "current" and s["description"]:

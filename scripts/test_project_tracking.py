@@ -81,6 +81,7 @@ def test_demo_page() -> None:
     assert 'track-step-title">Üretim</div>' in html
     assert 'track-step--completed" data-status="completed"' in html
     assert 'track-step-title">Montaj</div>' in html
+    assert 'track-step-status">Tamamlandı <time datetime="2026-08-24">24.08.2026</time></div>' in html
     assert 'track-step-status">Şu an</div>' not in html
     assert "24 Ağustos 2026" in html
     assert "Son güncelleme" in html
@@ -159,10 +160,10 @@ def test_step_copy_fixture() -> None:
         assert "Onaylanan tasarım" in html
         assert "montaj gerçekleştirilecek" in html
         assert "Açıklama yok" not in html
-        assert "11 Ağustos 2026" in html
-        assert "12 Ağustos 2026" in html
+        assert "11.08.2026" in html
+        assert "12.08.2026" in html
         assert "2099" not in html
-        assert "Tamamlandı ·" in html
+        assert "Tamamlandı <time" in html
         assert "track-step-desc" in html
         assert "overflow-wrap" in Path(t.ROOT / "assets" / "site.css").read_text(encoding="utf-8")
         assert html.find("track-now-desc") < html.find("track-timeline")
