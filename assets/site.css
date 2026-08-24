@@ -370,9 +370,9 @@ h1.track-client{
   align-items:flex-start;
   justify-content:space-between;
   gap:16px 24px;
-  flex-wrap:nowrap;
+  flex-wrap:wrap;
 }
-.track-now-main{min-width:0; flex:1 1 auto;}
+.track-now-main{flex:1 1 auto; min-width:min-content;}
 .track-now-label{
   font-size:11px;
   letter-spacing:0.14em;
@@ -388,7 +388,7 @@ h1.track-client{
   line-height:1.05;
   letter-spacing:0.01em;
   color:var(--paper);
-  overflow-wrap:anywhere;
+  white-space:nowrap;
 }
 .track-balance{
   text-align:right;
@@ -411,7 +411,7 @@ h1.track-client{
   line-height:1.05;
   letter-spacing:0.01em;
   color:var(--paper);
-  overflow-wrap:anywhere;
+  white-space:nowrap;
 }
 .track-now-desc{
   margin:12px 0 0;
