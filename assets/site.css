@@ -366,13 +366,13 @@ h1.track-client{
 }
 
 .track-now-top{
-  display:flex;
-  align-items:flex-start;
-  justify-content:space-between;
-  gap:16px 24px;
-  flex-wrap:wrap;
+  display:grid;
+  grid-template-columns:minmax(0,1fr) auto;
+  column-gap:20px;
+  row-gap:0;
+  align-items:start;
 }
-.track-now-main{flex:1 1 auto; min-width:min-content;}
+.track-now-main{min-width:0;}
 .track-now-label{
   font-size:11px;
   letter-spacing:0.14em;
@@ -392,8 +392,6 @@ h1.track-client{
 }
 .track-balance{
   text-align:right;
-  flex:0 0 auto;
-  margin-left:auto;
   min-width:0;
 }
 .track-balance-label{
@@ -407,7 +405,7 @@ h1.track-client{
   margin:0;
   font-family:'Big Shoulders Display','Big Shoulders Fallback',sans-serif;
   font-weight:900;
-  font-size:clamp(26px,6vw,36px);
+  font-size:clamp(20px,4.8vw,32px);
   line-height:1.05;
   letter-spacing:0.01em;
   color:var(--paper);
@@ -426,8 +424,16 @@ h1.track-client{
   align-items:flex-start;
   justify-content:space-between;
   gap:16px 24px;
-  flex-wrap:nowrap;
-  margin-top:18px;
+  margin-top:20px;
+  padding-top:20px;
+  border-top:1px solid var(--line);
+}
+@media (max-width:380px){
+  .track-now-top{
+    grid-template-columns:1fr;
+    row-gap:18px;
+  }
+  .track-balance{text-align:left;}
 }
 .track-updated{
   margin:0;
