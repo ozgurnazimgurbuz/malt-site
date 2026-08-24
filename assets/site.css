@@ -368,12 +368,16 @@ h1.track-client{
 .track-now-top{
   display:grid;
   grid-template-columns:minmax(0,1fr) auto;
+  grid-template-rows:auto auto;
   column-gap:20px;
   row-gap:0;
   align-items:start;
 }
-.track-now-main{min-width:0;}
+.track-now-main,
+.track-balance{display:contents;}
 .track-now-label{
+  grid-column:1;
+  grid-row:1;
   font-size:11px;
   letter-spacing:0.14em;
   text-transform:uppercase;
@@ -381,7 +385,10 @@ h1.track-client{
   margin-bottom:10px;
 }
 .track-now-name{
+  grid-column:1;
+  grid-row:2;
   margin:0;
+  min-width:0;
   font-family:'Big Shoulders Display','Big Shoulders Fallback',sans-serif;
   font-weight:900;
   font-size:clamp(26px,6vw,36px);
@@ -390,11 +397,10 @@ h1.track-client{
   color:var(--paper);
   white-space:nowrap;
 }
-.track-balance{
-  text-align:right;
-  min-width:0;
-}
 .track-balance-label{
+  grid-column:2;
+  grid-row:1;
+  text-align:right;
   font-size:11px;
   letter-spacing:0.14em;
   text-transform:uppercase;
@@ -402,7 +408,10 @@ h1.track-client{
   margin-bottom:10px;
 }
 .track-balance-value{
+  grid-column:2;
+  grid-row:2;
   margin:0;
+  text-align:right;
   font-family:'Big Shoulders Display','Big Shoulders Fallback',sans-serif;
   font-weight:900;
   font-size:clamp(20px,4.8vw,32px);
@@ -428,12 +437,10 @@ h1.track-client{
   padding-top:20px;
   border-top:1px solid var(--line);
 }
-@media (max-width:380px){
-  .track-now-top{
-    grid-template-columns:1fr;
-    row-gap:18px;
-  }
-  .track-balance{text-align:left;}
+@media (max-width:420px){
+  .track-now-top{column-gap:12px;}
+  .track-now-name{font-size:clamp(22px,5.6vw,36px);}
+  .track-balance-value{font-size:clamp(15px,3.9vw,32px);}
 }
 .track-updated{
   margin:0;
