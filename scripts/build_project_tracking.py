@@ -299,7 +299,7 @@ def build_one(item: dict) -> str | None:
     if balance:
         balance_html = (
             f'<div class="track-balance">'
-            f'<div class="track-balance-label">Kalan bakiye</div>'
+            f'<div class="track-balance-label">Kalan Bakiye</div>'
             f'<p class="track-balance-value">{html.escape(balance)}</p>'
             f"</div>"
         )
