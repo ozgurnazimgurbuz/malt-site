@@ -1,0 +1,39 @@
+# Cloudflare Pages — Netlify netlify.toml ile aynı kurallar
+/favicon.ico /images/icon-192.png 301
+/index.html / 301
+
+/proje/mantar-garage-7f3k9x /proje/mantra-garage-7f3k9x/ 301
+/proje/mantar-garage-7f3k9x/ /proje/mantra-garage-7f3k9x/ 301
+
+/hizmet-bolge/tekirdag-tabela /hizmetler/tabela/ 301
+/hizmet-bolge/tekirdag-tabela/ /hizmetler/tabela/ 301
+/hizmet-bolge/tekirdag-isikli-tabela /hizmetler/isikli-tabela/ 301
+/hizmet-bolge/tekirdag-isikli-tabela/ /hizmetler/isikli-tabela/ 301
+/hizmet-bolge/tekirdag-kutu-harf /hizmetler/kutu-harf/ 301
+/hizmet-bolge/tekirdag-kutu-harf/ /hizmetler/kutu-harf/ 301
+/hizmet-bolge/tekirdag-totem /hizmetler/totem/ 301
+/hizmet-bolge/tekirdag-totem/ /hizmetler/totem/ 301
+/hizmet-bolge/tekirdag-arac-giydirme /hizmetler/arac-giydirme/ 301
+/hizmet-bolge/tekirdag-arac-giydirme/ /hizmetler/arac-giydirme/ 301
+/hizmet-bolge/tekirdag-cam-giydirme /hizmetler/cam-giydirme/ 301
+/hizmet-bolge/tekirdag-cam-giydirme/ /hizmetler/cam-giydirme/ 301
+
+# Placeholder projeler — 410 Gone
+/projeler/liman-kahve /projeler/ 410
+/projeler/liman-kahve/ /projeler/ 410
+/projeler/liman-kahve/* /projeler/ 410
+/projeler/volt-enerji /projeler/ 410
+/projeler/volt-enerji/ /projeler/ 410
+/projeler/volt-enerji/* /projeler/ 410
+/projeler/kuzey-tekstil /projeler/ 410
+/projeler/kuzey-tekstil/ /projeler/ 410
+/projeler/kuzey-tekstil/* /projeler/ 410
+/projeler/mera-otel /projeler/ 410
+/projeler/mera-otel/ /projeler/ 410
+/projeler/mera-otel/* /projeler/ 410
+/projeler/dortnal /projeler/ 410
+/projeler/dortnal/ /projeler/ 410
+/projeler/dortnal/* /projeler/ 410
+/projeler/ekip-yazilim /projeler/ 410
+/projeler/ekip-yazilim/ /projeler/ 410
+/projeler/ekip-yazilim/* /projeler/ 410

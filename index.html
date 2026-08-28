@@ -43,23 +43,6 @@
 <meta name="twitter:description" content="Tekirdağ’da tabela, ışıklı tabela, kutu harf, dijital baskı ve araç giydirme. Keşif, tasarım, üretim ve montaj için Malt Studio’dan teklif alın.">
 <meta name="twitter:image" content="https://maltstudio.co/images/og.jpg">
 <meta name="twitter:image:alt" content="Malt Studio — Marka Stratejisi ve Yaratıcı Ajans">
-<script>
-/* Netlify Identity davet ve şifre kurtarma bağlantıları site köküne düşer ve
-   token'ı adres parçasında taşır. Akışı yalnızca böyle bir token varken
-   yüklenen widget tamamlar; normal ziyaretçiye üçüncü taraf script inmez. */
-(function () {
-  if (!/[#&](invite_token|recovery_token|confirmation_token|email_change_token)=/.test(location.hash)) return;
-  var s = document.createElement('script');
-  s.src = 'https://identity.netlify.com/v1/netlify-identity-widget.js';
-  /* init() ÇAĞIRMAYIN: widget yüklendiğinde kendini başlatır ve her ek init
-     çağrısı yeni bir iframe oluşturup formu görünmeyen kopyaya render eder. */
-  s.onload = function () {
-    if (!window.netlifyIdentity) return;
-    window.netlifyIdentity.on('login', function () { location.href = '/admin/'; });
-  };
-  document.head.appendChild(s);
-})();
-</script>
 <link rel="icon" type="image/png" href="/images/icon-192.png">
 <link rel="apple-touch-icon" href="/images/icon-192.png">
 <link rel="manifest" href="/manifest.json">

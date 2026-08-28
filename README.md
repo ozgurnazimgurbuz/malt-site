@@ -1,8 +1,8 @@
 # Malt Studio
 
 Tekirdağ merkezli marka stratejisi ve yaratıcı ajans için tek sayfalık tanıtım sitesi.
-Her Netlify deploy’unda `scripts/prerender.py`, `content.json` içeriğini `index.html` içine gömer.
-Böylece kritik metin View Source’da JS olmadan görünür. Decap CMS yalnızca `content.json` yazar.
+Her Cloudflare Pages deploy’unda build pipeline çalışır; `scripts/prerender.py`, `content.json` içeriğini `index.html` içine gömer.
+Böylece kritik metin View Source’da JS olmadan görünür. İçerik `content.json` ve proje JSON dosyalarından gelir (Cursor üzerinden düzenlenir).
 
 Üretim adresi: https://maltstudio.co
 
@@ -12,14 +12,14 @@ Böylece kritik metin View Source’da JS olmadan görünür. Decap CMS yalnızc
 | --- | --- |
 | `index.html` | İşaretleme, stil; kritik içerik prerender ile gömülür |
 | `content.json` | CMS tarafından yazılan tek içerik kaynağı (düz JSON) |
-| `scripts/prerender.py` | `content.json` → `index.html` (Netlify build) |
-| `admin/index.html` | Decap CMS giriş noktası (sürüm sabitlenmiş) |
-| `admin/config.yml` | CMS alan tanımları, Git Gateway ayarı |
+| `scripts/prerender.py` | `content.json` → `index.html` (deploy build) |
+| `_redirects`, `_headers` | Cloudflare Pages yönlendirme ve önbellek kuralları |
+| `DEPLOY-CLOUDFLARE.md` | Hosting kurulum rehberi (adım adım) |
 | `images/` | Statik görseller ve uygulama ikonları |
 | `images/uploads/` | CMS üzerinden yüklenen medya (ilk yüklemede oluşur) |
 | `manifest.json` | Web app manifest |
 | `robots.txt`, `sitemap.xml` | Arama motoru yönlendirmesi |
-| `netlify.toml` | Build, güvenlik başlıkları, önbellek |
+| `netlify.toml` | Eski Netlify ayarları (referans; aktif hosting Cloudflare) |
 
 ## Yerel geliştirme
 
@@ -28,24 +28,21 @@ python3 scripts/prerender.py
 python3 -m http.server 8800
 ```
 
-`http://localhost:8800` adresini açın. Yönetim paneli (`/admin/`) yerelde giriş yapamaz;
-Netlify Identity yalnızca yayımlanmış ortamda çalışır.
+`http://localhost:8800` adresini açın.
 
 ## Yayın
 
-Netlify, `main` dalını izler. Build komutu: `python3 scripts/prerender.py` — ardından kök dizin yayımlanır.
+Cloudflare Pages, `main` dalını izler. Kurulum: **`DEPLOY-CLOUDFLARE.md`**.
 
-CMS'in çalışması için Netlify tarafında şunlar açık olmalıdır:
+Build komutu (Netlify ile aynı pipeline):
 
-1. **Identity** etkin
-2. **Registration: Invite only**
-3. **Services → Git Gateway** etkin
-
-Kullanıcılar Identity üzerinden davet edilir; davet bağlantısı `/admin/` adresine yönlenir.
+```bash
+pip install -r requirements.txt && python3 scripts/optimize_uploads.py && python3 scripts/build_production.py && python3 scripts/build_project_tracking.py && python3 scripts/scrub_customer_copy.py && python3 scripts/prerender.py && python3 scripts/build_llms.py && python3 scripts/minify_assets.py
+```
 
 ## İçerik yönetimi
 
-Tüm alanlar `admin/config.yml` içinde tanımlıdır. Boş bırakılan alanlar sitedeki
+Ana içerik `content.json`; proje takip sayfaları `content/proje/*.json`. Boş bırakılan alanlar sitedeki
 mevcut değeri ezmez:
 
 - **Logo** boşsa gömülü SVG logo gösterilir.
