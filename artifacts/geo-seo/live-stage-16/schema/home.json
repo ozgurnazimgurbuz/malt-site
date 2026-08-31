@@ -1,0 +1,356 @@
+{
+  "url": "https://maltstudio.co/",
+  "schema": {
+    "block_count": 1,
+    "parse_ok": true,
+    "parse_failures": [],
+    "schema_types": [
+      "FAQPage",
+      "LocalBusiness",
+      "ProfessionalService",
+      "WebPage",
+      "WebSite"
+    ],
+    "defined_ids": [
+      "https://maltstudio.co/#business",
+      "https://maltstudio.co/#website",
+      "https://maltstudio.co/#webpage",
+      "https://maltstudio.co/#faq"
+    ],
+    "dangling_refs": [],
+    "duplicate_ids": [],
+    "conflicting_ids": [
+      {
+        "id": "https://maltstudio.co/#business",
+        "types": [
+          "LocalBusiness",
+          "ProfessionalService"
+        ]
+      }
+    ],
+    "important_properties": [
+      {
+        "@id": "https://maltstudio.co/#business",
+        "@type": [
+          "LocalBusiness",
+          "ProfessionalService"
+        ],
+        "name": "Malt Studio",
+        "url": "https://maltstudio.co/",
+        "telephone": "+905525826959",
+        "email": "merhaba@maltstudio.co",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Yavuz Mahallesi, Ruşen Güneş Sokak, D Blok No:2",
+          "postalCode": "59100",
+          "addressLocality": "Süleymanpaşa",
+          "addressRegion": "Tekirdağ",
+          "addressCountry": "TR"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": "40.9769375",
+          "longitude": "27.5041875"
+        },
+        "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": [
+              "Monday",
+              "Tuesday",
+              "Wednesday",
+              "Thursday",
+              "Friday",
+              "Saturday"
+            ],
+            "opens": "09:00",
+            "closes": "19:00"
+          }
+        ],
+        "sameAs": [
+          "https://www.instagram.com/maltstudio.co/"
+        ],
+        "logo": "https://maltstudio.co/images/icon-512.png",
+        "image": "https://maltstudio.co/images/og.jpg",
+        "description": "Tekirdağ’da tabela, ışıklı tabela, kutu harf, dijital baskı ve araç giydirme. Keşif, tasarım, üretim ve montaj için Malt Studio’dan teklif alın.",
+        "knowsAbout": [
+          "Tabela",
+          "Işıklı Tabela",
+          "Kutu Harf",
+          "Totem",
+          "Cam Giydirme",
+          "Araç Giydirme",
+          "Cephe Giydirme",
+          "Kompozit Tabela",
+          "Dijital Baskı",
+          "Germe Tabela",
+          "Lightbox",
+          "Display & POS",
+          "Ofis Branding",
+          "İş Güvenliği",
+          "Kurumsal Kimlik"
+        ],
+        "hasMap": "https://www.google.com/maps/search/?api=1&query=40.9769375,27.5041875"
+      },
+      {
+        "@id": "https://maltstudio.co/#website",
+        "@type": "WebSite",
+        "name": "Malt Studio",
+        "url": "https://maltstudio.co/",
+        "description": "Tekirdağ’da tabela, ışıklı tabela, kutu harf, dijital baskı ve araç giydirme. Keşif, tasarım, üretim ve montaj için Malt Studio’dan teklif alın.",
+        "publisher": {
+          "@id": "https://maltstudio.co/#business"
+        }
+      },
+      {
+        "@id": "https://maltstudio.co/#webpage",
+        "@type": "WebPage",
+        "name": "Tekirdağ Reklam Ajansı ve Tabela | Malt Studio",
+        "url": "https://maltstudio.co/",
+        "description": "Tekirdağ’da tabela, ışıklı tabela, kutu harf, dijital baskı ve araç giydirme. Keşif, tasarım, üretim ve montaj için Malt Studio’dan teklif alın.",
+        "isPartOf": {
+          "@id": "https://maltstudio.co/#website"
+        },
+        "about": {
+          "@id": "https://maltstudio.co/#business"
+        }
+      },
+      {
+        "@id": "https://maltstudio.co/#faq",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Tekirdağ’da tabela ve reklam işi yapıyor musunuz?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Evet. Malt Studio Tekirdağ Süleymanpaşa merkezlidir; tabela, ışıklı tabela, kutu harf, totem, cam ve araç giydirme üretimi ile montajını aynı hatta planlarız."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Keşif ücretli mi?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Keşif randevusu WhatsApp veya telefon ile alınır. Ölçü ve saha notları teklifi şekillendirir; sabit internet fiyatı yayınlanmaz."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Süleymanpaşa ve çevre ilçelere geliyor musunuz?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Evet. Süleymanpaşa, merkez ve çevre ilçe işleri Tekirdağ atölyesinden planlanır. Detay için atölye ve iletişim sayfasına bakın."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Hangi tabela türünü seçmeliyim?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Gece görünürlük için ışıklı tabela , cephe yazısı için kutu harf , genel üretim için tabela imalatı sayfalarına bakın."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Çalışma saatleriniz nedir?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Pazartesi–Cumartesi 09:00–19:00. Keşif ve montaj randevusu WhatsApp veya telefon ile alınır. Adres ve yol tarifi Tekirdağ atölye sayfasında ."
+            }
+          }
+        ]
+      }
+    ],
+    "has_geo": true,
+    "has_hours": true,
+    "has_logo_or_image": true,
+    "knowsAbout": [
+      "Tabela",
+      "Işıklı Tabela",
+      "Kutu Harf",
+      "Totem",
+      "Cam Giydirme",
+      "Araç Giydirme",
+      "Cephe Giydirme",
+      "Kompozit Tabela",
+      "Dijital Baskı",
+      "Germe Tabela",
+      "Lightbox",
+      "Display & POS",
+      "Ofis Branding",
+      "İş Güvenliği",
+      "Kurumsal Kimlik"
+    ],
+    "sameAs": [
+      "https://www.instagram.com/maltstudio.co/"
+    ],
+    "homepage_schema": true,
+    "has_website_node": true,
+    "has_business_node": true,
+    "has_faqpage": true,
+    "has_article": false,
+    "has_service": false,
+    "has_breadcrumb_list": false,
+    "has_localbusiness": true,
+    "has_webpage": true,
+    "ispartof_website": true
+  },
+  "blocks": [
+    {
+      "index": 0,
+      "parse_ok": true,
+      "error": null,
+      "data": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": [
+              "LocalBusiness",
+              "ProfessionalService"
+            ],
+            "@id": "https://maltstudio.co/#business",
+            "name": "Malt Studio",
+            "url": "https://maltstudio.co/",
+            "telephone": "+905525826959",
+            "email": "merhaba@maltstudio.co",
+            "description": "Tekirdağ’da tabela, ışıklı tabela, kutu harf, dijital baskı ve araç giydirme. Keşif, tasarım, üretim ve montaj için Malt Studio’dan teklif alın.",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Yavuz Mahallesi, Ruşen Güneş Sokak, D Blok No:2",
+              "postalCode": "59100",
+              "addressLocality": "Süleymanpaşa",
+              "addressRegion": "Tekirdağ",
+              "addressCountry": "TR"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": "40.9769375",
+              "longitude": "27.5041875"
+            },
+            "openingHoursSpecification": [
+              {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [
+                  "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday",
+                  "Friday",
+                  "Saturday"
+                ],
+                "opens": "09:00",
+                "closes": "19:00"
+              }
+            ],
+            "logo": "https://maltstudio.co/images/icon-512.png",
+            "image": "https://maltstudio.co/images/og.jpg",
+            "hasMap": "https://www.google.com/maps/search/?api=1&query=40.9769375,27.5041875",
+            "areaServed": [
+              {
+                "@type": "City",
+                "name": "Tekirdağ"
+              },
+              {
+                "@type": "AdministrativeArea",
+                "name": "Süleymanpaşa"
+              }
+            ],
+            "knowsAbout": [
+              "Tabela",
+              "Işıklı Tabela",
+              "Kutu Harf",
+              "Totem",
+              "Cam Giydirme",
+              "Araç Giydirme",
+              "Cephe Giydirme",
+              "Kompozit Tabela",
+              "Dijital Baskı",
+              "Germe Tabela",
+              "Lightbox",
+              "Display & POS",
+              "Ofis Branding",
+              "İş Güvenliği",
+              "Kurumsal Kimlik"
+            ],
+            "sameAs": [
+              "https://www.instagram.com/maltstudio.co/"
+            ],
+            "priceRange": "₺₺"
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://maltstudio.co/#website",
+            "url": "https://maltstudio.co/",
+            "name": "Malt Studio",
+            "description": "Tekirdağ’da tabela, ışıklı tabela, kutu harf, dijital baskı ve araç giydirme. Keşif, tasarım, üretim ve montaj için Malt Studio’dan teklif alın.",
+            "publisher": {
+              "@id": "https://maltstudio.co/#business"
+            },
+            "inLanguage": "tr-TR"
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://maltstudio.co/#webpage",
+            "url": "https://maltstudio.co/",
+            "name": "Tekirdağ Reklam Ajansı ve Tabela | Malt Studio",
+            "description": "Tekirdağ’da tabela, ışıklı tabela, kutu harf, dijital baskı ve araç giydirme. Keşif, tasarım, üretim ve montaj için Malt Studio’dan teklif alın.",
+            "isPartOf": {
+              "@id": "https://maltstudio.co/#website"
+            },
+            "about": {
+              "@id": "https://maltstudio.co/#business"
+            },
+            "inLanguage": "tr-TR"
+          },
+          {
+            "@type": "FAQPage",
+            "@id": "https://maltstudio.co/#faq",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Tekirdağ’da tabela ve reklam işi yapıyor musunuz?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Evet. Malt Studio Tekirdağ Süleymanpaşa merkezlidir; tabela, ışıklı tabela, kutu harf, totem, cam ve araç giydirme üretimi ile montajını aynı hatta planlarız."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Keşif ücretli mi?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Keşif randevusu WhatsApp veya telefon ile alınır. Ölçü ve saha notları teklifi şekillendirir; sabit internet fiyatı yayınlanmaz."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Süleymanpaşa ve çevre ilçelere geliyor musunuz?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Evet. Süleymanpaşa, merkez ve çevre ilçe işleri Tekirdağ atölyesinden planlanır. Detay için atölye ve iletişim sayfasına bakın."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Hangi tabela türünü seçmeliyim?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Gece görünürlük için ışıklı tabela , cephe yazısı için kutu harf , genel üretim için tabela imalatı sayfalarına bakın."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Çalışma saatleriniz nedir?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Pazartesi–Cumartesi 09:00–19:00. Keşif ve montaj randevusu WhatsApp veya telefon ile alınır. Adres ve yol tarifi Tekirdağ atölye sayfasında ."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

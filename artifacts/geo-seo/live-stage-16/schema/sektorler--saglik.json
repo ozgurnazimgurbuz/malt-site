@@ -1,0 +1,204 @@
+{
+  "url": "https://maltstudio.co/sektorler/saglik/",
+  "schema": {
+    "block_count": 1,
+    "parse_ok": true,
+    "parse_failures": [],
+    "schema_types": [
+      "BreadcrumbList",
+      "FAQPage",
+      "WebPage",
+      "WebSite"
+    ],
+    "defined_ids": [
+      "https://maltstudio.co/sektorler/saglik/#webpage",
+      "https://maltstudio.co/#website",
+      "https://maltstudio.co/sektorler/saglik/#breadcrumb",
+      "https://maltstudio.co/sektorler/saglik/#faq"
+    ],
+    "dangling_refs": [
+      "https://maltstudio.co/#business"
+    ],
+    "duplicate_ids": [],
+    "conflicting_ids": [],
+    "important_properties": [
+      {
+        "@id": "https://maltstudio.co/sektorler/saglik/#webpage",
+        "@type": "WebPage",
+        "name": "Sağlık Tabela ve Görünürlük Çözümleri",
+        "url": "https://maltstudio.co/sektorler/saglik/",
+        "description": "Sağlık sektörü için tabela ve görünürlük. Malt Studio.",
+        "isPartOf": {
+          "@id": "https://maltstudio.co/#website"
+        },
+        "about": {
+          "@id": "https://maltstudio.co/#business"
+        }
+      },
+      {
+        "@id": "https://maltstudio.co/#website",
+        "@type": "WebSite",
+        "name": "Malt Studio",
+        "url": "https://maltstudio.co/",
+        "publisher": {
+          "@id": "https://maltstudio.co/#business"
+        }
+      },
+      {
+        "@id": "https://maltstudio.co/sektorler/saglik/#breadcrumb",
+        "@type": "BreadcrumbList"
+      },
+      {
+        "@id": "https://maltstudio.co/sektorler/saglik/#faq",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Sağlık için hangi hizmetler?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Işıklı Tabela , Tabela , Cam Giydirme , Ofis Branding ."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Bu hizmet sayfasının yerine geçer mi?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Hayır; sektör sayfası dikey girişidir. Üretim ilgili hizmet URL’sindedir."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Tekirdağ’da uygulanır mı?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Evet; keşif Tekirdağ atölyesinden planlanır."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Teklif nasıl alınır?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "WhatsApp veya telefon ile keşif talebi bırakın. Sabit internet fiyatı yoktur."
+            }
+          }
+        ]
+      }
+    ],
+    "has_geo": false,
+    "has_hours": false,
+    "has_logo_or_image": false,
+    "knowsAbout": [],
+    "sameAs": [],
+    "homepage_schema": false,
+    "has_website_node": true,
+    "has_business_node": false,
+    "has_faqpage": true,
+    "has_article": false,
+    "has_service": false,
+    "has_breadcrumb_list": true,
+    "has_localbusiness": false,
+    "has_webpage": true,
+    "ispartof_website": true
+  },
+  "blocks": [
+    {
+      "index": 0,
+      "parse_ok": true,
+      "error": null,
+      "data": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebPage",
+            "@id": "https://maltstudio.co/sektorler/saglik/#webpage",
+            "url": "https://maltstudio.co/sektorler/saglik/",
+            "name": "Sağlık Tabela ve Görünürlük Çözümleri",
+            "description": "Sağlık sektörü için tabela ve görünürlük. Malt Studio.",
+            "isPartOf": {
+              "@id": "https://maltstudio.co/#website"
+            },
+            "about": {
+              "@id": "https://maltstudio.co/#business"
+            },
+            "inLanguage": "tr-TR"
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://maltstudio.co/#website",
+            "url": "https://maltstudio.co/",
+            "name": "Malt Studio",
+            "publisher": {
+              "@id": "https://maltstudio.co/#business"
+            },
+            "inLanguage": "tr-TR"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://maltstudio.co/sektorler/saglik/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Ana Sayfa",
+                "item": "https://maltstudio.co/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Sektörler",
+                "item": "https://maltstudio.co/sektorler/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Sağlık",
+                "item": "https://maltstudio.co/sektorler/saglik/"
+              }
+            ]
+          },
+          {
+            "@type": "FAQPage",
+            "@id": "https://maltstudio.co/sektorler/saglik/#faq",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Sağlık için hangi hizmetler?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Işıklı Tabela , Tabela , Cam Giydirme , Ofis Branding ."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Bu hizmet sayfasının yerine geçer mi?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Hayır; sektör sayfası dikey girişidir. Üretim ilgili hizmet URL’sindedir."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Tekirdağ’da uygulanır mı?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Evet; keşif Tekirdağ atölyesinden planlanır."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Teklif nasıl alınır?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "WhatsApp veya telefon ile keşif talebi bırakın. Sabit internet fiyatı yoktur."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

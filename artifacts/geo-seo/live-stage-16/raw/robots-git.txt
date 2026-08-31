@@ -1,0 +1,17 @@
+User-agent: *
+Allow: /
+
+# Yönetim paneli indekslenmemeli; herkese açık içerik barındırmıyor.
+Disallow: /admin/
+
+# Müşteri proje takip sayfaları (link-bilen erişim; arama motoruna kapalı).
+Disallow: /proje/
+
+Sitemap: https://maltstudio.co/sitemap.xml
+
+# AI ajanları için küratörlü indeks (https://llmstxt.org/). Google sitemap’e eklenmez.
+# LLM-Txt: https://maltstudio.co/llms.txt
+# LLM-Full: https://maltstudio.co/llms-full.txt
+#
+# Live origin: Cloudflare Managed Content may Disallow AI crawlers (GPTBot,
+# ClaudeBot, Google-Extended). That file is not this git robots.txt.
