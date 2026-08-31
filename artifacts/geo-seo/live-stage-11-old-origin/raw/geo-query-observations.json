@@ -1,0 +1,104 @@
+{
+  "captured_at": "2026-08-31T07:32:00Z",
+  "method": "Web search index snippets only. Not a ranked SERP scrape. Not ChatGPT/Perplexity/Gemini/AIO sessions. Frozen queries from seo/benchmark/geo-queries.json (unedited).",
+  "note": "Appearance in this tool's search snippets is not a ranking. 'not_observed_here' is not 'does not exist'.",
+  "groups": {
+    "branded_informational": [
+      {
+        "query": "Malt Studio Tekirdağ",
+        "organic_ranking": "unable_to_measure",
+        "organic_url_observed": true,
+        "urls_seen": ["https://maltstudio.co/", "https://maltstudio.co/bolgeler/tekirdag/"],
+        "ai_citation": "unable_to_measure",
+        "entity_mention": "observed in search snippets as Tekirdağ tabela/reklam",
+        "source_citation": "maltstudio.co pages appeared in search results",
+        "no_appearance": false,
+        "notes": "Also surfaced unrelated Jakarta LinkedIn company/malt-studio and Studio Malt (US)."
+      },
+      {
+        "query": "Malt Studio Süleymanpaşa",
+        "organic_ranking": "unable_to_measure",
+        "organic_url_observed": true,
+        "urls_seen": ["https://maltstudio.co/"],
+        "ai_citation": "unable_to_measure",
+        "entity_mention": "observed",
+        "source_citation": "observed",
+        "no_appearance": false
+      },
+      {
+        "query": "Malt Studio tabela",
+        "organic_ranking": "unable_to_measure",
+        "organic_url_observed": true,
+        "urls_seen": ["https://maltstudio.co/", "https://maltstudio.co/hizmetler/tabela/"],
+        "ai_citation": "unable_to_measure",
+        "entity_mention": "observed",
+        "source_citation": "observed",
+        "no_appearance": false
+      }
+    ],
+    "branded_transactional": [
+      {"query": "Malt Studio teklif", "organic_ranking": "unable_to_measure", "organic_url_observed": null, "ai_citation": "unable_to_measure", "entity_mention": "unable_to_measure", "source_citation": "unable_to_measure", "no_appearance": null, "notes": "Not separately fetched."},
+      {"query": "Malt Studio keşif randevusu", "organic_ranking": "unable_to_measure", "ai_citation": "unable_to_measure", "no_appearance": null},
+      {"query": "Malt Studio WhatsApp tabela", "organic_ranking": "unable_to_measure", "ai_citation": "unable_to_measure", "no_appearance": null}
+    ],
+    "non_branded_informational": [
+      {
+        "query": "Tekirdağ tabela",
+        "organic_ranking": "unable_to_measure",
+        "organic_url_observed": true,
+        "urls_seen": ["https://maltstudio.co/", "https://maltstudio.co/hizmetler/tabela/", "https://maltstudio.co/hizmetler/isikli-tabela/"],
+        "ai_citation": "unable_to_measure",
+        "entity_mention": "observed among other Tekirdağ tabela firms",
+        "source_citation": "maltstudio.co URLs present in search mix",
+        "no_appearance": false
+      },
+      {"query": "Tekirdağ ışıklı tabela", "organic_ranking": "unable_to_measure", "organic_url_observed": true, "urls_seen": ["https://maltstudio.co/hizmetler/isikli-tabela/"], "ai_citation": "unable_to_measure", "no_appearance": false},
+      {"query": "Süleymanpaşa tabela imalatı", "organic_ranking": "unable_to_measure", "ai_citation": "unable_to_measure", "no_appearance": null}
+    ],
+    "definition": [
+      {
+        "query": "ışıklı tabela nedir",
+        "organic_ranking": "unable_to_measure",
+        "organic_url_observed": true,
+        "urls_seen": ["https://maltstudio.co/hizmetler/tabela/", "https://maltstudio.co/"],
+        "competitors_seen": ["tabela34.com", "bunedy.com", "jetreklam.com.tr"],
+        "ai_citation": "unable_to_measure",
+        "entity_mention": "maltstudio.co appeared in the mix; definition SERP dominated by other sites",
+        "source_citation": "observed, not primary",
+        "no_appearance": false
+      },
+      {"query": "kutu harf nedir", "organic_ranking": "unable_to_measure", "ai_citation": "unable_to_measure", "no_appearance": null},
+      {"query": "one way vision nedir", "organic_ranking": "unable_to_measure", "ai_citation": "unable_to_measure", "no_appearance": null},
+      {"query": "lightbox ile ışıklı tabela farkı", "organic_ranking": "unable_to_measure", "ai_citation": "unable_to_measure", "no_appearance": null}
+    ],
+    "problem_solution": [
+      {"query": "tabela fiyatını neler etkiler", "organic_ranking": "unable_to_measure", "ai_citation": "unable_to_measure", "no_appearance": null},
+      {"query": "gece görünmeyen tabela ne yapılmalı", "organic_ranking": "unable_to_measure", "ai_citation": "unable_to_measure", "no_appearance": null},
+      {"query": "mağaza tabelası nasıl seçilir", "organic_ranking": "unable_to_measure", "ai_citation": "unable_to_measure", "no_appearance": null}
+    ],
+    "recommendation": [
+      {"query": "Tekirdağ tabela kim yapar", "organic_ranking": "unable_to_measure", "ai_citation": "unable_to_measure", "no_appearance": null},
+      {"query": "Tekirdağ ışıklı tabela üreticisi", "organic_ranking": "unable_to_measure", "ai_citation": "unable_to_measure", "no_appearance": null},
+      {"query": "Süleymanpaşa reklam tabela önerisi", "organic_ranking": "unable_to_measure", "ai_citation": "unable_to_measure", "no_appearance": null}
+    ],
+    "comparison": [
+      {"query": "ışıklı tabela mı ışıksız mı", "organic_ranking": "unable_to_measure", "ai_citation": "unable_to_measure", "no_appearance": null},
+      {"query": "pleksi kutu harf mi paslanmaz mı", "organic_ranking": "unable_to_measure", "ai_citation": "unable_to_measure", "no_appearance": null},
+      {"query": "totem mi cephe tabelası mı", "organic_ranking": "unable_to_measure", "ai_citation": "unable_to_measure", "no_appearance": null}
+    ],
+    "local_tekirdag": [
+      {"query": "Tekirdağ tabela montaj", "organic_ranking": "unable_to_measure", "ai_citation": "unable_to_measure", "no_appearance": null},
+      {"query": "Çorlu tabela üretim", "organic_ranking": "unable_to_measure", "ai_citation": "unable_to_measure", "no_appearance": null},
+      {"query": "Çerkezköy ışıklı tabela", "organic_ranking": "unable_to_measure", "ai_citation": "unable_to_measure", "no_appearance": null},
+      {"query": "Süleymanpaşa kutu harf", "organic_ranking": "unable_to_measure", "ai_citation": "unable_to_measure", "no_appearance": null}
+    ]
+  },
+  "platforms": {
+    "google_organic": "partial_snippet_observation_only",
+    "google_ai_overviews": "unable_to_measure",
+    "bing": "unable_to_measure",
+    "chatgpt": "unable_to_measure",
+    "perplexity": "unable_to_measure",
+    "gemini": "unable_to_measure"
+  }
+}

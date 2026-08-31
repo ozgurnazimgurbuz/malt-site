@@ -1,0 +1,12 @@
+{
+  "status": "runtime_not_collected",
+  "lighthouse": "not-installed",
+  "browser_cdp": "MCP browser opened live homepage then disconnected; LCP/CLS/TBT and selected-image transfer not recorded",
+  "http_document_bytes_uncompressed": {
+    "home": 77293,
+    "tabela": 22294,
+    "guide": 19402
+  },
+  "webp_requested_by_browser": "NOT_MEASURED",
+  "note": "Source HTML contains <picture> WebP on live homepage work grid; that is markup, not proof the browser transferred WebP."
+}

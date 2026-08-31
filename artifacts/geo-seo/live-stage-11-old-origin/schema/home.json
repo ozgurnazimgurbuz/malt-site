@@ -1,0 +1,39 @@
+[
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": [
+          "LocalBusiness",
+          "ProfessionalService"
+        ],
+        "@id": "https://maltstudio.co/#business",
+        "name": "Malt Studio",
+        "url": "https://maltstudio.co/",
+        "telephone": "+905525826959",
+        "email": "merhaba@maltstudio.co",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Yavuz Mahallesi, Ruşen Güneş Sokak, D Blok No:2",
+          "postalCode": "59100",
+          "addressLocality": "Süleymanpaşa",
+          "addressRegion": "Tekirdağ",
+          "addressCountry": "TR"
+        },
+        "areaServed": [
+          {
+            "@type": "City",
+            "name": "Tekirdağ"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Süleymanpaşa"
+          }
+        ],
+        "sameAs": [
+          "https://www.instagram.com/maltstudio.co/"
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,26 @@
+{
+  "captured_at": "2026-08-31T08:12:00Z",
+  "commit": "7034fed7240c2f319305e068844b38d4ca1c60b4",
+  "github_check": {
+    "name": "Cloudflare Pages",
+    "conclusion": "success",
+    "html_url": "https://github.com/ozgurnazimgurbuz/malt-site/runs/99421892318",
+    "preview_url": "https://134055e1.malt-site.pages.dev",
+    "dashboard": "https://dash.cloudflare.com/?to=/47c42d8bf8dea65321eb4cdc66502f49/pages/view/malt-site/134055e1-1575-4c7b-ae61-0029dd650b24"
+  },
+  "local_curl_to_pages_dev": "SSL connection timeout (curl 28); WebFetch succeeded",
+  "webfetch_observed": {
+    "/": "200 — homepage with SSS / FAQ copy present",
+    "/hakkimizda/": "200 — Hakkımızda",
+    "/gizlilik/": "200 — Gizlilik",
+    "/kvkk/": "followed to Gizlilik content (status code not visible via WebFetch)",
+    "/hizmetler/tabela/": "200",
+    "/bilgi/tabela-cesitleri/": "200 — guide copy present",
+    "/bolgeler/tekirdag/": "200",
+    "/projeler/ofiso/": "200",
+    "/robots.txt": "git robots (Allow /; Disallow /admin/ /proje/; no GPTBot Disallow)",
+    "/404.html": "custom 404 copy present",
+    "/llms.txt": "200 — includes hakkimizda and gizlilik entries",
+    "/sitemap.xml": "WebFetch 500 (not used as a pass/fail for HTML routes)"
+  }
+}

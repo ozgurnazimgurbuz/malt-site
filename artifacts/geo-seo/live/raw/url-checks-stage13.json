@@ -1,0 +1,130 @@
+[
+  {
+    "path": "/",
+    "http": 200,
+    "redir": "",
+    "bytes": 76934,
+    "x_robots": "",
+    "cache": "\"Netlify Edge\"; hit; ttl=31535447"
+  },
+  {
+    "path": "/hizmetler/tabela/",
+    "http": 200,
+    "redir": "",
+    "bytes": 21935,
+    "x_robots": "",
+    "cache": "\"Netlify Edge\"; hit; ttl=31494973"
+  },
+  {
+    "path": "/bilgi/tabela-cesitleri/",
+    "http": 200,
+    "redir": "",
+    "bytes": 19043,
+    "x_robots": "",
+    "cache": "\"Netlify Edge\"; hit; ttl=31494975"
+  },
+  {
+    "path": "/bolgeler/tekirdag/",
+    "http": 200,
+    "redir": "",
+    "bytes": 18545,
+    "x_robots": "",
+    "cache": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored"
+  },
+  {
+    "path": "/projeler/ofiso/",
+    "http": 200,
+    "redir": "",
+    "bytes": 14520,
+    "x_robots": "",
+    "cache": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored"
+  },
+  {
+    "path": "/hakkimizda/",
+    "http": 404,
+    "redir": "",
+    "bytes": 3449,
+    "x_robots": "",
+    "cache": "\"Netlify Edge\"; hit; ttl=31533887"
+  },
+  {
+    "path": "/gizlilik/",
+    "http": 404,
+    "redir": "",
+    "bytes": 3449,
+    "x_robots": "",
+    "cache": "\"Netlify Edge\"; fwd=miss; fwd-status=404; stored"
+  },
+  {
+    "path": "/kvkk/",
+    "http": 404,
+    "redir": "",
+    "bytes": 3449,
+    "x_robots": "",
+    "cache": "\"Netlify Edge\"; fwd=miss; fwd-status=404; stored"
+  },
+  {
+    "path": "/404.html",
+    "http": 404,
+    "redir": "",
+    "bytes": 3449,
+    "x_robots": "",
+    "cache": "\"Netlify Edge\"; fwd=miss; fwd-status=404; stored"
+  },
+  {
+    "path": "/robots.txt",
+    "http": 200,
+    "redir": "",
+    "bytes": 2283,
+    "x_robots": "",
+    "cache": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored"
+  },
+  {
+    "path": "/sitemap.xml",
+    "http": 200,
+    "redir": "",
+    "bytes": 3421,
+    "x_robots": "",
+    "cache": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored"
+  },
+  {
+    "path": "/llms.txt",
+    "http": 200,
+    "redir": "",
+    "bytes": 8305,
+    "x_robots": "",
+    "cache": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored"
+  },
+  {
+    "path": "/llms-full.txt",
+    "http": 200,
+    "redir": "",
+    "bytes": 174290,
+    "x_robots": "",
+    "cache": "\"Netlify Edge\"; hit; ttl=31494966"
+  },
+  {
+    "path": "/index.html.md",
+    "http": 200,
+    "redir": "",
+    "bytes": 3635,
+    "x_robots": "",
+    "cache": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored"
+  },
+  {
+    "path": "/hizmetler/tabela/index.html.md",
+    "http": 200,
+    "redir": "",
+    "bytes": 7699,
+    "x_robots": "",
+    "cache": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored"
+  },
+  {
+    "path": "/bilgi/tabela-cesitleri/index.html.md",
+    "http": 200,
+    "redir": "",
+    "bytes": 6355,
+    "x_robots": "",
+    "cache": "\"Netlify Edge\"; hit; ttl=31533917"
+  }
+]
