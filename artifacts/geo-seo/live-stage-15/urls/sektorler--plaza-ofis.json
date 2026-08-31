@@ -1,0 +1,989 @@
+{
+  "url": "https://maltstudio.co/sektorler/plaza-ofis/",
+  "local_path": "sektorler/plaza-ofis/index.html",
+  "status": 200,
+  "title": "Plaza & Ofis Tabela ve Görünürlük Çözümleri",
+  "description": "Plaza & Ofis sektörü için tabela ve görünürlük. Malt Studio.",
+  "canonical": "https://maltstudio.co/sektorler/plaza-ofis/",
+  "robots": "index, follow",
+  "h1": [
+    "Plaza & Ofis"
+  ],
+  "headings": [
+    {
+      "tag": "h1",
+      "text": "Plaza & Ofis",
+      "text_br_stripped": "Plaza & Ofis"
+    },
+    {
+      "tag": "h2",
+      "text": "Sektör ihtiyacı",
+      "text_br_stripped": "Sektör ihtiyacı"
+    },
+    {
+      "tag": "h2",
+      "text": "Sık karşılaşılan sorunlar",
+      "text_br_stripped": "Sık karşılaşılan sorunlar"
+    },
+    {
+      "tag": "h2",
+      "text": "Tipik ihtiyaçlar",
+      "text_br_stripped": "Tipik ihtiyaçlar"
+    },
+    {
+      "tag": "h2",
+      "text": "Önerilen hizmet seti",
+      "text_br_stripped": "Önerilen hizmet seti"
+    },
+    {
+      "tag": "h2",
+      "text": "Proje iş akışı",
+      "text_br_stripped": "Proje iş akışı"
+    },
+    {
+      "tag": "h2",
+      "text": "Malzeme önerileri",
+      "text_br_stripped": "Malzeme önerileri"
+    },
+    {
+      "tag": "h2",
+      "text": "Bakım ve saha notları",
+      "text_br_stripped": "Bakım ve saha notları"
+    },
+    {
+      "tag": "h2",
+      "text": "Saha pratikleri",
+      "text_br_stripped": "Saha pratikleri"
+    },
+    {
+      "tag": "h2",
+      "text": "İlgili hizmetler",
+      "text_br_stripped": "İlgili hizmetler"
+    },
+    {
+      "tag": "h3",
+      "text": "Kutu Harf",
+      "text_br_stripped": "Kutu Harf"
+    },
+    {
+      "tag": "h3",
+      "text": "Ofis Branding",
+      "text_br_stripped": "Ofis Branding"
+    },
+    {
+      "tag": "h3",
+      "text": "Cam Giydirme",
+      "text_br_stripped": "Cam Giydirme"
+    },
+    {
+      "tag": "h3",
+      "text": "Lightbox",
+      "text_br_stripped": "Lightbox"
+    },
+    {
+      "tag": "h3",
+      "text": "Tabela",
+      "text_br_stripped": "Tabela"
+    },
+    {
+      "tag": "h2",
+      "text": "İlgili rehberler",
+      "text_br_stripped": "İlgili rehberler"
+    },
+    {
+      "tag": "h3",
+      "text": "Kutu Harf Malzemeleri: Pleksi mi Paslanmaz mı?",
+      "text_br_stripped": "Kutu Harf Malzemeleri: Pleksi mi Paslanmaz mı?"
+    },
+    {
+      "tag": "h3",
+      "text": "Tabela Çeşitleri: Hangisi Ne İşe Yarar?",
+      "text_br_stripped": "Tabela Çeşitleri: Hangisi Ne İşe Yarar?"
+    },
+    {
+      "tag": "h3",
+      "text": "One Way Vision Nedir?",
+      "text_br_stripped": "One Way Vision Nedir?"
+    },
+    {
+      "tag": "h2",
+      "text": "Keşfet",
+      "text_br_stripped": "Keşfet"
+    },
+    {
+      "tag": "h3",
+      "text": "Hizmetler",
+      "text_br_stripped": "Hizmetler"
+    },
+    {
+      "tag": "h3",
+      "text": "Bilgi",
+      "text_br_stripped": "Bilgi"
+    },
+    {
+      "tag": "h3",
+      "text": "Projeler",
+      "text_br_stripped": "Projeler"
+    },
+    {
+      "tag": "h3",
+      "text": "Sektörler",
+      "text_br_stripped": "Sektörler"
+    },
+    {
+      "tag": "h3",
+      "text": "Tekirdağ",
+      "text_br_stripped": "Tekirdağ"
+    },
+    {
+      "tag": "h3",
+      "text": "Ana sayfa",
+      "text_br_stripped": "Ana sayfa"
+    },
+    {
+      "tag": "h2",
+      "text": "SSS",
+      "text_br_stripped": "SSS"
+    },
+    {
+      "tag": "h2",
+      "text": "Plaza & Ofis için keşif",
+      "text_br_stripped": "Plaza & Ofis için keşif"
+    },
+    {
+      "tag": "h3",
+      "text": "Hizmetler",
+      "text_br_stripped": "Hizmetler"
+    },
+    {
+      "tag": "h3",
+      "text": "Keşif",
+      "text_br_stripped": "Keşif"
+    },
+    {
+      "tag": "h3",
+      "text": "İletişim",
+      "text_br_stripped": "İletişim"
+    }
+  ],
+  "internal_links": [
+    "https://maltstudio.co/",
+    "https://maltstudio.co/#teklif",
+    "https://maltstudio.co/#iletisim",
+    "https://maltstudio.co/",
+    "https://maltstudio.co/sektorler/",
+    "https://maltstudio.co/#teklif",
+    "https://maltstudio.co/#teklif",
+    "https://maltstudio.co/hizmetler/kutu-harf/",
+    "https://maltstudio.co/hizmetler/ofis-branding/",
+    "https://maltstudio.co/hizmetler/cam-giydirme/",
+    "https://maltstudio.co/hizmetler/lightbox/",
+    "https://maltstudio.co/hizmetler/tabela/",
+    "https://maltstudio.co/bilgi/kutu-harf-malzemeler/",
+    "https://maltstudio.co/bilgi/tabela-cesitleri/",
+    "https://maltstudio.co/bilgi/one-way-vision-nedir/",
+    "https://maltstudio.co/hizmetler/",
+    "https://maltstudio.co/bilgi/",
+    "https://maltstudio.co/projeler/",
+    "https://maltstudio.co/sektorler/",
+    "https://maltstudio.co/bolgeler/tekirdag/",
+    "https://maltstudio.co/",
+    "https://maltstudio.co/hizmetler/kutu-harf/",
+    "https://maltstudio.co/hizmetler/ofis-branding/",
+    "https://maltstudio.co/hizmetler/cam-giydirme/",
+    "https://maltstudio.co/hizmetler/lightbox/",
+    "https://maltstudio.co/hizmetler/tabela/",
+    "https://maltstudio.co/bolgeler/tekirdag/",
+    "https://maltstudio.co/#teklif",
+    "https://maltstudio.co/hizmetler/tabela/",
+    "https://maltstudio.co/hizmetler/isikli-tabela/",
+    "https://maltstudio.co/hizmetler/kutu-harf/",
+    "https://maltstudio.co/hizmetler/totem/",
+    "https://maltstudio.co/hizmetler/arac-giydirme/",
+    "https://maltstudio.co/hizmetler/cam-giydirme/",
+    "https://maltstudio.co/hizmetler/lightbox/",
+    "https://maltstudio.co/hizmetler/display-pos/",
+    "https://maltstudio.co/hizmetler/ofis-branding/",
+    "https://maltstudio.co/hizmetler/is-guvenligi-tabelalari/",
+    "https://maltstudio.co/projeler/",
+    "https://maltstudio.co/sektorler/",
+    "https://maltstudio.co/bilgi/",
+    "https://maltstudio.co/bolgeler/tekirdag/",
+    "https://maltstudio.co/hizmetler/",
+    "https://maltstudio.co/gizlilik/",
+    "https://maltstudio.co/hakkimizda/",
+    "https://maltstudio.co/#iletisim"
+  ],
+  "word_count": 387,
+  "indexable": true,
+  "structured_data": [
+    {
+      "index": 0,
+      "parse_ok": true,
+      "error": null,
+      "data": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebPage",
+            "@id": "https://maltstudio.co/sektorler/plaza-ofis/#webpage",
+            "url": "https://maltstudio.co/sektorler/plaza-ofis/",
+            "name": "Plaza & Ofis Tabela ve Görünürlük Çözümleri",
+            "description": "Plaza & Ofis sektörü için tabela ve görünürlük. Malt Studio.",
+            "isPartOf": {
+              "@id": "https://maltstudio.co/#website"
+            },
+            "about": {
+              "@id": "https://maltstudio.co/#business"
+            },
+            "inLanguage": "tr-TR"
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://maltstudio.co/#website",
+            "url": "https://maltstudio.co/",
+            "name": "Malt Studio",
+            "publisher": {
+              "@id": "https://maltstudio.co/#business"
+            },
+            "inLanguage": "tr-TR"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://maltstudio.co/sektorler/plaza-ofis/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Ana Sayfa",
+                "item": "https://maltstudio.co/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Sektörler",
+                "item": "https://maltstudio.co/sektorler/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Plaza & Ofis",
+                "item": "https://maltstudio.co/sektorler/plaza-ofis/"
+              }
+            ]
+          },
+          {
+            "@type": "FAQPage",
+            "@id": "https://maltstudio.co/sektorler/plaza-ofis/#faq",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Plaza & Ofis için hangi hizmetler?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Kutu Harf , Ofis Branding , Cam Giydirme , Lightbox , Tabela ."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Bu hizmet sayfasının yerine geçer mi?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Hayır; sektör sayfası dikey girişidir. Üretim ilgili hizmet URL’sindedir."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Tekirdağ’da uygulanır mı?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Evet; keşif Tekirdağ atölyesinden planlanır."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Teklif nasıl alınır?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "WhatsApp veya telefon ile keşif talebi bırakın. Sabit internet fiyatı yoktur."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "schema_types": [
+    "BreadcrumbList",
+    "FAQPage",
+    "WebPage",
+    "WebSite"
+  ],
+  "image_count": 2,
+  "image_sources": [
+    "/images/logo.svg",
+    "/images/logo.svg"
+  ],
+  "html_bytes": 18779,
+  "og_title": "Plaza & Ofis Tabela ve Görünürlük Çözümleri",
+  "og_description": "Plaza & Ofis sektörü için tabela ve görünürlük. Malt Studio.",
+  "og_image": "https://maltstudio.co/images/og.jpg",
+  "og_image_alt": "Plaza & Ofis Tabela ve Görünürlük Çözümleri",
+  "og_url": "https://maltstudio.co/sektorler/plaza-ofis/",
+  "twitter_title": "Plaza & Ofis Tabela ve Görünürlük Çözümleri",
+  "twitter_description": "Plaza & Ofis sektörü için tabela ve görünürlük. Malt Studio.",
+  "twitter_image": "https://maltstudio.co/images/og.jpg",
+  "twitter_image_alt": "Plaza & Ofis Tabela ve Görünürlük Çözümleri",
+  "twitter_card": "summary_large_image",
+  "gsc_verification": "",
+  "meta": {
+    "description": "Plaza & Ofis sektörü için tabela ve görünürlük. Malt Studio.",
+    "og:description": "Plaza & Ofis sektörü için tabela ve görünürlük. Malt Studio.",
+    "og:image": "https://maltstudio.co/images/og.jpg",
+    "og:image:alt": "Plaza & Ofis Tabela ve Görünürlük Çözümleri",
+    "og:image:height": "630",
+    "og:image:width": "1200",
+    "og:locale": "tr_TR",
+    "og:site_name": "Malt Studio",
+    "og:title": "Plaza & Ofis Tabela ve Görünürlük Çözümleri",
+    "og:type": "website",
+    "og:url": "https://maltstudio.co/sektorler/plaza-ofis/",
+    "robots": "index, follow",
+    "twitter:card": "summary_large_image",
+    "twitter:description": "Plaza & Ofis sektörü için tabela ve görünürlük. Malt Studio.",
+    "twitter:image": "https://maltstudio.co/images/og.jpg",
+    "twitter:image:alt": "Plaza & Ofis Tabela ve Görünürlük Çözümleri",
+    "twitter:title": "Plaza & Ofis Tabela ve Görünürlük Çözümleri",
+    "viewport": "width=device-width, initial-scale=1.0"
+  },
+  "preload": [
+    {
+      "as": "font",
+      "href": "/assets/fonts/big-shoulders-latin.woff2",
+      "type": "font/woff2"
+    },
+    {
+      "as": "font",
+      "href": "/assets/fonts/big-shoulders-latin-ext.woff2",
+      "type": "font/woff2"
+    },
+    {
+      "as": "font",
+      "href": "/assets/fonts/inter-latin.woff2",
+      "type": "font/woff2"
+    },
+    {
+      "as": "font",
+      "href": "/assets/fonts/inter-latin-ext.woff2",
+      "type": "font/woff2"
+    }
+  ],
+  "title_length": 43,
+  "description_length": 60,
+  "canonical_absolute": true,
+  "canonical_self": true,
+  "canonical_matches_url": true,
+  "h1_count": 1,
+  "heading_skips": [],
+  "faq": [
+    {
+      "q": "Plaza & Ofis için hangi hizmetler?",
+      "a": "Kutu Harf, Ofis Branding, Cam Giydirme, Lightbox, Tabela.",
+      "a_words": 8
+    },
+    {
+      "q": "Bu hizmet sayfasının yerine geçer mi?",
+      "a": "Hayır; sektör sayfası dikey girişidir. Üretim ilgili hizmet URL’sindedir.",
+      "a_words": 9
+    },
+    {
+      "q": "Tekirdağ’da uygulanır mı?",
+      "a": "Evet; keşif Tekirdağ atölyesinden planlanır.",
+      "a_words": 5
+    },
+    {
+      "q": "Teklif nasıl alınır?",
+      "a": "WhatsApp veya telefon ile keşif talebi bırakın. Sabit internet fiyatı yoktur.",
+      "a_words": 11
+    }
+  ],
+  "faq_count": 4,
+  "breadcrumb_html": true,
+  "table_count": 0,
+  "ol_count": 0,
+  "ul_count": 6,
+  "data_prerendered": false,
+  "images": [
+    {
+      "src": "/images/logo.svg",
+      "alt": "Malt Studio",
+      "width": "120",
+      "height": "19",
+      "loading": "",
+      "decoding": "",
+      "fetchpriority": "",
+      "in_picture": false,
+      "class": "logo-mark"
+    },
+    {
+      "src": "/images/logo.svg",
+      "alt": "Malt Studio",
+      "width": "120",
+      "height": "19",
+      "loading": "",
+      "decoding": "",
+      "fetchpriority": "",
+      "in_picture": false,
+      "class": "logo-mark"
+    }
+  ],
+  "picture_count": 0,
+  "source_tags": [],
+  "paragraphs": [
+    "Plaza ve ofiste ilk izlenim resepsiyon ve cephede kurulur.",
+    "Plaza ve ofiste ilk izlenim resepsiyon ve cephede kurulur.",
+    "Bu sayfa sektör bağlamı sunar; teklif ilgili hizmet sayfalarından alınır.",
+    "Tekirdağ üssünden keşif yapılır; koridor ilçeleri operasyonel kapsamda değerlendirilir.",
+    "Aşağıdaki hizmetler bu sektörde sık bir araya gelir.",
+    "Yönetim kuralları + kat keşfi → alan listesi → tasarım → üretim → mesaiye göre uygulama.",
+    "Kutu harf, cam ve ofis branding aynı pakette aşamalandırılabilir.",
+    "Cephede kutu harf / uygun tabela; içerde folyo ve panel setleri.",
+    "Lightbox resepsiyon duvarında opsiyonel premium katmandır.",
+    "Cam folyo temizliği yumuşak yapılmalıdır.",
+    "Ek oda/isimlik talepleri aynı hat üzerinden eklenir.",
+    "Plaza’da asansör ve güvenlik kuralları uygulama penceresini belirler.",
+    "Resepsiyon duvarı premium algı için lightbox veya sade panel olabilir.",
+    "Kat içi cam işaretleri aşırıya kaçmadan tutulmalıdır.",
+    "Yönetim onayı olmayan cephe işi risklidir; keşifte sorulur.",
+    "Ofis paketleri aşamalı teslim edilebilir.",
+    "Plaza ve ofiste ilk izlenim resepsiyon ve cephede kurulur. Yönetim onayı takvimi belirler. Kutu harf, cam ve ofis branding aşamalı teslim edilebilir. Koridor işaretleri abartılmadan planlanır. Lightbox premium katman olabilir. Mesai dışı uygulama kesintiyi azaltır. Bu sayfa dikeydir; sipariş hizmet URL’lerindedir.",
+    "Plaza dikeyinde yönetim onayı ve kat erişimi takvimin parçasıdır. Resepsiyon ilk izlenimdir. Ofis branding ve kutu harf sık pakettir. Dikey sayfa sipariş yerine geçmez. Kanıt proje sayfalarındadır.",
+    "WhatsApp ile Teklif Teklif Ara",
+    "Kutu Harf hizmeti.",
+    "Ofis Branding hizmeti.",
+    "Cam Giydirme hizmeti.",
+    "Lightbox hizmeti.",
+    "Tabela hizmeti.",
+    "Karar rehberi.",
+    "Karar rehberi.",
+    "Karar rehberi.",
+    "Tüm hizmetlerimize göz atın.",
+    "Rehberler ve karar içerikleri.",
+    "Tamamladığımız işlerden örnekler.",
+    "Sektöre özel çözümler.",
+    "Tekirdağ yerel hizmet rehberi.",
+    "Malt Studio ana sayfa.",
+    "Kutu Harf, Ofis Branding, Cam Giydirme, Lightbox, Tabela.",
+    "Hayır; sektör sayfası dikey girişidir. Üretim ilgili hizmet URL’sindedir.",
+    "Evet; keşif Tekirdağ atölyesinden planlanır.",
+    "WhatsApp veya telefon ile keşif talebi bırakın. Sabit internet fiyatı yoktur.",
+    "Keşif, ölçü ve net teklif için yazın veya arayın.",
+    "Malt Studio — Tekirdağ merkezli reklam ve tabela üreticisi. Üretim, montaj ve marka görünürlüğü."
+  ],
+  "paragraph_word_counts": [
+    9,
+    9,
+    10,
+    9,
+    8,
+    16,
+    9,
+    11,
+    6,
+    5,
+    7,
+    8,
+    10,
+    7,
+    8,
+    5,
+    41,
+    27,
+    5,
+    3,
+    3,
+    3,
+    2,
+    2,
+    2,
+    2,
+    2,
+    4,
+    4,
+    3,
+    3,
+    4,
+    4,
+    8,
+    9,
+    5,
+    11,
+    9,
+    14
+  ],
+  "max_paragraph_words": 41,
+  "passages_80_160": 0,
+  "eeat_block_present": false,
+  "answer_first": true,
+  "internal_link_objects": [
+    {
+      "href": "/",
+      "abs": "https://maltstudio.co/",
+      "rel": "",
+      "text": ""
+    },
+    {
+      "href": "/#teklif",
+      "abs": "https://maltstudio.co/#teklif",
+      "rel": "",
+      "text": "Teklif"
+    },
+    {
+      "href": "/#iletisim",
+      "abs": "https://maltstudio.co/#iletisim",
+      "rel": "",
+      "text": "İletişim"
+    },
+    {
+      "href": "/",
+      "abs": "https://maltstudio.co/",
+      "rel": "",
+      "text": "Ana Sayfa"
+    },
+    {
+      "href": "/sektorler/",
+      "abs": "https://maltstudio.co/sektorler/",
+      "rel": "",
+      "text": "Sektörler"
+    },
+    {
+      "href": "/#teklif",
+      "abs": "https://maltstudio.co/#teklif",
+      "rel": "",
+      "text": "Teklif"
+    },
+    {
+      "href": "/#teklif",
+      "abs": "https://maltstudio.co/#teklif",
+      "rel": "",
+      "text": "Teklif"
+    },
+    {
+      "href": "/hizmetler/kutu-harf/",
+      "abs": "https://maltstudio.co/hizmetler/kutu-harf/",
+      "rel": "",
+      "text": "Kutu HarfKutu Harf hizmeti.Hizmet"
+    },
+    {
+      "href": "/hizmetler/ofis-branding/",
+      "abs": "https://maltstudio.co/hizmetler/ofis-branding/",
+      "rel": "",
+      "text": "Ofis BrandingOfis Branding hizmeti.Hizmet"
+    },
+    {
+      "href": "/hizmetler/cam-giydirme/",
+      "abs": "https://maltstudio.co/hizmetler/cam-giydirme/",
+      "rel": "",
+      "text": "Cam GiydirmeCam Giydirme hizmeti.Hizmet"
+    },
+    {
+      "href": "/hizmetler/lightbox/",
+      "abs": "https://maltstudio.co/hizmetler/lightbox/",
+      "rel": "",
+      "text": "LightboxLightbox hizmeti.Hizmet"
+    },
+    {
+      "href": "/hizmetler/tabela/",
+      "abs": "https://maltstudio.co/hizmetler/tabela/",
+      "rel": "",
+      "text": "TabelaTabela hizmeti.Hizmet"
+    },
+    {
+      "href": "/bilgi/kutu-harf-malzemeler/",
+      "abs": "https://maltstudio.co/bilgi/kutu-harf-malzemeler/",
+      "rel": "",
+      "text": "Kutu Harf Malzemeleri: Pleksi mi Paslanmaz mı?Karar rehberi.Bilgi"
+    },
+    {
+      "href": "/bilgi/tabela-cesitleri/",
+      "abs": "https://maltstudio.co/bilgi/tabela-cesitleri/",
+      "rel": "",
+      "text": "Tabela Çeşitleri: Hangisi Ne İşe Yarar?Karar rehberi.Bilgi"
+    },
+    {
+      "href": "/bilgi/one-way-vision-nedir/",
+      "abs": "https://maltstudio.co/bilgi/one-way-vision-nedir/",
+      "rel": "",
+      "text": "One Way Vision Nedir?Karar rehberi.Bilgi"
+    },
+    {
+      "href": "/hizmetler/",
+      "abs": "https://maltstudio.co/hizmetler/",
+      "rel": "",
+      "text": "HizmetlerTüm hizmetlerimize göz atın.Keşif"
+    },
+    {
+      "href": "/bilgi/",
+      "abs": "https://maltstudio.co/bilgi/",
+      "rel": "",
+      "text": "BilgiRehberler ve karar içerikleri.Keşif"
+    },
+    {
+      "href": "/projeler/",
+      "abs": "https://maltstudio.co/projeler/",
+      "rel": "",
+      "text": "ProjelerTamamladığımız işlerden örnekler.Keşif"
+    },
+    {
+      "href": "/sektorler/",
+      "abs": "https://maltstudio.co/sektorler/",
+      "rel": "",
+      "text": "SektörlerSektöre özel çözümler.Keşif"
+    },
+    {
+      "href": "/bolgeler/tekirdag/",
+      "abs": "https://maltstudio.co/bolgeler/tekirdag/",
+      "rel": "",
+      "text": "TekirdağTekirdağ yerel hizmet rehberi.Keşif"
+    },
+    {
+      "href": "/",
+      "abs": "https://maltstudio.co/",
+      "rel": "",
+      "text": "Ana sayfaMalt Studio ana sayfa.Keşif"
+    },
+    {
+      "href": "/hizmetler/kutu-harf/",
+      "abs": "https://maltstudio.co/hizmetler/kutu-harf/",
+      "rel": "",
+      "text": "Kutu Harf"
+    },
+    {
+      "href": "/hizmetler/ofis-branding/",
+      "abs": "https://maltstudio.co/hizmetler/ofis-branding/",
+      "rel": "",
+      "text": "Ofis Branding"
+    },
+    {
+      "href": "/hizmetler/cam-giydirme/",
+      "abs": "https://maltstudio.co/hizmetler/cam-giydirme/",
+      "rel": "",
+      "text": "Cam Giydirme"
+    },
+    {
+      "href": "/hizmetler/lightbox/",
+      "abs": "https://maltstudio.co/hizmetler/lightbox/",
+      "rel": "",
+      "text": "Lightbox"
+    },
+    {
+      "href": "/hizmetler/tabela/",
+      "abs": "https://maltstudio.co/hizmetler/tabela/",
+      "rel": "",
+      "text": "Tabela"
+    },
+    {
+      "href": "/bolgeler/tekirdag/",
+      "abs": "https://maltstudio.co/bolgeler/tekirdag/",
+      "rel": "",
+      "text": "Tekirdağ atölyesinden"
+    },
+    {
+      "href": "/#teklif",
+      "abs": "https://maltstudio.co/#teklif",
+      "rel": "",
+      "text": "Teklif"
+    },
+    {
+      "href": "/hizmetler/tabela/",
+      "abs": "https://maltstudio.co/hizmetler/tabela/",
+      "rel": "",
+      "text": "Tabela"
+    },
+    {
+      "href": "/hizmetler/isikli-tabela/",
+      "abs": "https://maltstudio.co/hizmetler/isikli-tabela/",
+      "rel": "",
+      "text": "Işıklı Tabela"
+    },
+    {
+      "href": "/hizmetler/kutu-harf/",
+      "abs": "https://maltstudio.co/hizmetler/kutu-harf/",
+      "rel": "",
+      "text": "Kutu Harf"
+    },
+    {
+      "href": "/hizmetler/totem/",
+      "abs": "https://maltstudio.co/hizmetler/totem/",
+      "rel": "",
+      "text": "Totem"
+    },
+    {
+      "href": "/hizmetler/arac-giydirme/",
+      "abs": "https://maltstudio.co/hizmetler/arac-giydirme/",
+      "rel": "",
+      "text": "Araç Giydirme"
+    },
+    {
+      "href": "/hizmetler/cam-giydirme/",
+      "abs": "https://maltstudio.co/hizmetler/cam-giydirme/",
+      "rel": "",
+      "text": "Cam Giydirme"
+    },
+    {
+      "href": "/hizmetler/lightbox/",
+      "abs": "https://maltstudio.co/hizmetler/lightbox/",
+      "rel": "",
+      "text": "Lightbox"
+    },
+    {
+      "href": "/hizmetler/display-pos/",
+      "abs": "https://maltstudio.co/hizmetler/display-pos/",
+      "rel": "",
+      "text": "Display & POS"
+    },
+    {
+      "href": "/hizmetler/ofis-branding/",
+      "abs": "https://maltstudio.co/hizmetler/ofis-branding/",
+      "rel": "",
+      "text": "Ofis Branding"
+    },
+    {
+      "href": "/hizmetler/is-guvenligi-tabelalari/",
+      "abs": "https://maltstudio.co/hizmetler/is-guvenligi-tabelalari/",
+      "rel": "",
+      "text": "İş Güvenliği Tabelaları"
+    },
+    {
+      "href": "/projeler/",
+      "abs": "https://maltstudio.co/projeler/",
+      "rel": "",
+      "text": "Projeler"
+    },
+    {
+      "href": "/sektorler/",
+      "abs": "https://maltstudio.co/sektorler/",
+      "rel": "",
+      "text": "Sektörler"
+    },
+    {
+      "href": "/bilgi/",
+      "abs": "https://maltstudio.co/bilgi/",
+      "rel": "",
+      "text": "Bilgi"
+    },
+    {
+      "href": "/bolgeler/tekirdag/",
+      "abs": "https://maltstudio.co/bolgeler/tekirdag/",
+      "rel": "",
+      "text": "Tekirdağ"
+    },
+    {
+      "href": "/hizmetler/",
+      "abs": "https://maltstudio.co/hizmetler/",
+      "rel": "",
+      "text": "Tüm hizmetler"
+    },
+    {
+      "href": "/gizlilik/",
+      "abs": "https://maltstudio.co/gizlilik/",
+      "rel": "",
+      "text": "Gizlilik"
+    },
+    {
+      "href": "/hakkimizda/",
+      "abs": "https://maltstudio.co/hakkimizda/",
+      "rel": "",
+      "text": "Hakkımızda"
+    },
+    {
+      "href": "/#iletisim",
+      "abs": "https://maltstudio.co/#iletisim",
+      "rel": "",
+      "text": "Mesaj"
+    }
+  ],
+  "internal_link_count": 46,
+  "external_link_count": 4,
+  "external_links": [
+    {
+      "href": "https://wa.me/905525826959?text=Plaza%20%26%20Ofis%20sekt%C3%B6r%C3%BC%20ke%C5%9Fif",
+      "abs": "https://wa.me/905525826959?text=Plaza%20%26%20Ofis%20sekt%C3%B6r%C3%BC%20ke%C5%9Fif",
+      "rel": "noopener",
+      "text": "Teklif Al"
+    },
+    {
+      "href": "https://wa.me/905525826959?text=Plaza%20%26%20Ofis%20sekt%C3%B6r%C3%BC%20ke%C5%9Fif",
+      "abs": "https://wa.me/905525826959?text=Plaza%20%26%20Ofis%20sekt%C3%B6r%C3%BC%20ke%C5%9Fif",
+      "rel": "noopener",
+      "text": "WhatsApp ile Teklif"
+    },
+    {
+      "href": "https://wa.me/905525826959?text=Plaza%20%26%20Ofis%20ke%C5%9Fif",
+      "abs": "https://wa.me/905525826959?text=Plaza%20%26%20Ofis%20ke%C5%9Fif",
+      "rel": "noopener",
+      "text": "WhatsApp ile Teklif"
+    },
+    {
+      "href": "https://wa.me/905525826959?text=Merhaba%2C%20Malt%20Studio%20hizmetleri%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum.",
+      "abs": "https://wa.me/905525826959?text=Merhaba%2C%20Malt%20Studio%20hizmetleri%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum.",
+      "rel": "noopener",
+      "text": "WhatsApp"
+    }
+  ],
+  "schema": {
+    "block_count": 1,
+    "parse_ok": true,
+    "parse_failures": [],
+    "schema_types": [
+      "BreadcrumbList",
+      "FAQPage",
+      "WebPage",
+      "WebSite"
+    ],
+    "defined_ids": [
+      "https://maltstudio.co/sektorler/plaza-ofis/#webpage",
+      "https://maltstudio.co/#website",
+      "https://maltstudio.co/sektorler/plaza-ofis/#breadcrumb",
+      "https://maltstudio.co/sektorler/plaza-ofis/#faq"
+    ],
+    "dangling_refs": [
+      "https://maltstudio.co/#business"
+    ],
+    "duplicate_ids": [],
+    "conflicting_ids": [],
+    "important_properties": [
+      {
+        "@id": "https://maltstudio.co/sektorler/plaza-ofis/#webpage",
+        "@type": "WebPage",
+        "name": "Plaza & Ofis Tabela ve Görünürlük Çözümleri",
+        "url": "https://maltstudio.co/sektorler/plaza-ofis/",
+        "description": "Plaza & Ofis sektörü için tabela ve görünürlük. Malt Studio.",
+        "isPartOf": {
+          "@id": "https://maltstudio.co/#website"
+        },
+        "about": {
+          "@id": "https://maltstudio.co/#business"
+        }
+      },
+      {
+        "@id": "https://maltstudio.co/#website",
+        "@type": "WebSite",
+        "name": "Malt Studio",
+        "url": "https://maltstudio.co/",
+        "publisher": {
+          "@id": "https://maltstudio.co/#business"
+        }
+      },
+      {
+        "@id": "https://maltstudio.co/sektorler/plaza-ofis/#breadcrumb",
+        "@type": "BreadcrumbList"
+      },
+      {
+        "@id": "https://maltstudio.co/sektorler/plaza-ofis/#faq",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Plaza & Ofis için hangi hizmetler?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Kutu Harf , Ofis Branding , Cam Giydirme , Lightbox , Tabela ."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Bu hizmet sayfasının yerine geçer mi?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Hayır; sektör sayfası dikey girişidir. Üretim ilgili hizmet URL’sindedir."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Tekirdağ’da uygulanır mı?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Evet; keşif Tekirdağ atölyesinden planlanır."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Teklif nasıl alınır?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "WhatsApp veya telefon ile keşif talebi bırakın. Sabit internet fiyatı yoktur."
+            }
+          }
+        ]
+      }
+    ],
+    "has_geo": false,
+    "has_hours": false,
+    "has_logo_or_image": false,
+    "knowsAbout": [],
+    "sameAs": [],
+    "homepage_schema": false,
+    "has_website_node": true,
+    "has_business_node": false,
+    "has_faqpage": true,
+    "has_article": false,
+    "has_service": false,
+    "has_breadcrumb_list": true,
+    "has_localbusiness": false,
+    "has_webpage": true,
+    "ispartof_website": true
+  },
+  "jsonld_parse_ok": true,
+  "h2_br_raw": [],
+  "md_twin_exists": true,
+  "md_twin_bytes": 4769,
+  "md_twin_words": 478,
+  "md_twin_ratio": 1.2351421188630491,
+  "has_hours_html": false,
+  "has_maps_link": false,
+  "has_phone": true,
+  "has_address": true,
+  "footer_legal_href": true,
+  "og_alt_stale": false,
+  "h2_concat_sektorler": false,
+  "h2_concat_bilgi": false,
+  "images_measured": {
+    "jpeg_fallback_bytes": 0,
+    "webp_source_bytes": 0,
+    "picture_count": 0,
+    "img_count": 2,
+    "files": [
+      {
+        "src": "/images/logo.svg",
+        "exists": true,
+        "bytes": 4531,
+        "ext": ".svg",
+        "width_attr": "120",
+        "height_attr": "19",
+        "loading": "",
+        "in_picture": false,
+        "file_width": null,
+        "file_height": null
+      },
+      {
+        "src": "/images/logo.svg",
+        "exists": true,
+        "bytes": 4531,
+        "ext": ".svg",
+        "width_attr": "120",
+        "height_attr": "19",
+        "loading": "",
+        "in_picture": false,
+        "file_width": null,
+        "file_height": null
+      }
+    ],
+    "webp_sources": [],
+    "lazy_imgs": 0,
+    "preload_images": [],
+    "browser_selected_bytes": null,
+    "browser_selected_note": "HAR/Lighthouse not run. JPEG vs WebP are disk sizes of referenced files, not transfer."
+  }
+}

@@ -1,0 +1,51 @@
+[
+  {
+    "start": "https://maltstudio.co/",
+    "hops": [
+      {
+        "url": "https://maltstudio.co/",
+        "status": 200,
+        "location": null
+      }
+    ],
+    "chain_length": 0
+  },
+  {
+    "start": "https://maltstudio.co/hizmetler/tabela",
+    "hops": [
+      {
+        "url": "https://maltstudio.co/hizmetler/tabela",
+        "status": 308,
+        "location": "/hizmetler/tabela/"
+      },
+      {
+        "url": "https://maltstudio.co/hizmetler/tabela/",
+        "status": 200,
+        "location": null
+      }
+    ],
+    "chain_length": 1
+  },
+  {
+    "start": "https://www.maltstudio.co/",
+    "hops": [
+      {
+        "url": "https://www.maltstudio.co/",
+        "status": 200,
+        "location": null
+      }
+    ],
+    "chain_length": 0
+  },
+  {
+    "start": "https://maltstudio.co/iletisim/",
+    "hops": [
+      {
+        "url": "https://maltstudio.co/iletisim/",
+        "status": 404,
+        "location": null
+      }
+    ],
+    "chain_length": 0
+  }
+]

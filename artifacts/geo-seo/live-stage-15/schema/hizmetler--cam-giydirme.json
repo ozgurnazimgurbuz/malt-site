@@ -1,0 +1,299 @@
+{
+  "url": "https://maltstudio.co/hizmetler/cam-giydirme/",
+  "schema": {
+    "block_count": 1,
+    "parse_ok": true,
+    "parse_failures": [],
+    "schema_types": [
+      "BreadcrumbList",
+      "FAQPage",
+      "Service",
+      "WebPage",
+      "WebSite"
+    ],
+    "defined_ids": [
+      "https://maltstudio.co/hizmetler/cam-giydirme/#webpage",
+      "https://maltstudio.co/#website",
+      "https://maltstudio.co/hizmetler/cam-giydirme/#service",
+      "https://maltstudio.co/hizmetler/cam-giydirme/#breadcrumb",
+      "https://maltstudio.co/hizmetler/cam-giydirme/#faq"
+    ],
+    "dangling_refs": [
+      "https://maltstudio.co/#business"
+    ],
+    "duplicate_ids": [],
+    "conflicting_ids": [],
+    "important_properties": [
+      {
+        "@id": "https://maltstudio.co/hizmetler/cam-giydirme/#webpage",
+        "@type": "WebPage",
+        "name": "Tekirdağ Cam Giydirme | One Way Vision ve Folyo | Malt Studio",
+        "url": "https://maltstudio.co/hizmetler/cam-giydirme/",
+        "description": "Tekirdağ’da cam giydirme: one way vision, vitrin ve cam folyo uygulamaları.",
+        "isPartOf": {
+          "@id": "https://maltstudio.co/#website"
+        },
+        "about": {
+          "@id": "https://maltstudio.co/#business"
+        }
+      },
+      {
+        "@id": "https://maltstudio.co/#website",
+        "@type": "WebSite",
+        "name": "Malt Studio",
+        "url": "https://maltstudio.co/",
+        "publisher": {
+          "@id": "https://maltstudio.co/#business"
+        }
+      },
+      {
+        "@id": "https://maltstudio.co/hizmetler/cam-giydirme/#service",
+        "@type": "Service",
+        "name": "Tekirdağ Cam Giydirme",
+        "url": "https://maltstudio.co/hizmetler/cam-giydirme/",
+        "provider": {
+          "@id": "https://maltstudio.co/#business"
+        }
+      },
+      {
+        "@id": "https://maltstudio.co/hizmetler/cam-giydirme/#breadcrumb",
+        "@type": "BreadcrumbList"
+      },
+      {
+        "@id": "https://maltstudio.co/hizmetler/cam-giydirme/#faq",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "One way vision nedir?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Dışarıdan grafik görünen, içeriden bakışa izin veren delikli folyodur. Rehber: one way vision nedir ."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "İçerisi kararır mı?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Folyo tipine ve delik oranına göre ışık geçirgenliği değişir. Karanlık mağazada görüş zayıflayabilir."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Araç camı?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Araç camı araç giydirme kapsamında değerlendirilir."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Sökülür mü?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Kampanya sonunda kontrollü söküm planlanır. Kirli cama uygulama kenar/hava hatası yapar."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Buğu / yapışma?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Cam hazırlığı ve doğru gergi kritiktir."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Ofis paketi?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ofis gizlilik folyosu ofis branding paketiyle birlikte yönetilebilir; malzeme bilgisi bu sayfadadır."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Süre?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Çoğu vitrin işi kısa sürer; ölçü ve katman sayısına göre netlenir."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Tasarım?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Mesaj hiyerarşisi okunur tutulur. Aşırı kalabalık vitrin grafiği ürün yerine gürültü üretir."
+            }
+          }
+        ]
+      }
+    ],
+    "has_geo": false,
+    "has_hours": false,
+    "has_logo_or_image": false,
+    "knowsAbout": [],
+    "sameAs": [],
+    "homepage_schema": false,
+    "has_website_node": true,
+    "has_business_node": false,
+    "has_faqpage": true,
+    "has_article": false,
+    "has_service": true,
+    "has_breadcrumb_list": true,
+    "has_localbusiness": false,
+    "has_webpage": true,
+    "ispartof_website": true
+  },
+  "blocks": [
+    {
+      "index": 0,
+      "parse_ok": true,
+      "error": null,
+      "data": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebPage",
+            "@id": "https://maltstudio.co/hizmetler/cam-giydirme/#webpage",
+            "url": "https://maltstudio.co/hizmetler/cam-giydirme/",
+            "name": "Tekirdağ Cam Giydirme | One Way Vision ve Folyo | Malt Studio",
+            "description": "Tekirdağ’da cam giydirme: one way vision, vitrin ve cam folyo uygulamaları.",
+            "isPartOf": {
+              "@id": "https://maltstudio.co/#website"
+            },
+            "about": {
+              "@id": "https://maltstudio.co/#business"
+            },
+            "inLanguage": "tr-TR"
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://maltstudio.co/#website",
+            "url": "https://maltstudio.co/",
+            "name": "Malt Studio",
+            "publisher": {
+              "@id": "https://maltstudio.co/#business"
+            },
+            "inLanguage": "tr-TR"
+          },
+          {
+            "@type": "Service",
+            "@id": "https://maltstudio.co/hizmetler/cam-giydirme/#service",
+            "name": "Tekirdağ Cam Giydirme",
+            "serviceType": "Cam giydirme",
+            "url": "https://maltstudio.co/hizmetler/cam-giydirme/",
+            "provider": {
+              "@id": "https://maltstudio.co/#business"
+            },
+            "areaServed": [
+              {
+                "@type": "City",
+                "name": "Tekirdağ"
+              },
+              {
+                "@type": "AdministrativeArea",
+                "name": "Süleymanpaşa"
+              }
+            ]
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://maltstudio.co/hizmetler/cam-giydirme/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Ana Sayfa",
+                "item": "https://maltstudio.co/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Hizmetler",
+                "item": "https://maltstudio.co/hizmetler/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Tekirdağ Cam Giydirme",
+                "item": "https://maltstudio.co/hizmetler/cam-giydirme/"
+              }
+            ]
+          },
+          {
+            "@type": "FAQPage",
+            "@id": "https://maltstudio.co/hizmetler/cam-giydirme/#faq",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "One way vision nedir?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Dışarıdan grafik görünen, içeriden bakışa izin veren delikli folyodur. Rehber: one way vision nedir ."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "İçerisi kararır mı?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Folyo tipine ve delik oranına göre ışık geçirgenliği değişir. Karanlık mağazada görüş zayıflayabilir."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Araç camı?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Araç camı araç giydirme kapsamında değerlendirilir."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Sökülür mü?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Kampanya sonunda kontrollü söküm planlanır. Kirli cama uygulama kenar/hava hatası yapar."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Buğu / yapışma?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Cam hazırlığı ve doğru gergi kritiktir."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Ofis paketi?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Ofis gizlilik folyosu ofis branding paketiyle birlikte yönetilebilir; malzeme bilgisi bu sayfadadır."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Süre?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Çoğu vitrin işi kısa sürer; ölçü ve katman sayısına göre netlenir."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Tasarım?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Mesaj hiyerarşisi okunur tutulur. Aşırı kalabalık vitrin grafiği ürün yerine gürültü üretir."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

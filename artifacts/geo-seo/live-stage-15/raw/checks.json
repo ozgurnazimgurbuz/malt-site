@@ -1,0 +1,346 @@
+[
+  {
+    "finding_id": "SCHEMA-001",
+    "metric": "home_ld_has_website",
+    "value": true,
+    "pass": true,
+    "detail": "types=['FAQPage', 'LocalBusiness', 'ProfessionalService', 'WebPage', 'WebSite']"
+  },
+  {
+    "finding_id": "SCHEMA-001",
+    "metric": "home_ld_geo",
+    "value": true,
+    "pass": true,
+    "detail": "geo on #business"
+  },
+  {
+    "finding_id": "SCHEMA-001",
+    "metric": "home_ld_hours",
+    "value": true,
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "finding_id": "SCHEMA-001",
+    "metric": "home_ld_logo",
+    "value": true,
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "finding_id": "SCHEMA-001",
+    "metric": "home_ld_knowsAbout_ge3",
+    "value": 15,
+    "pass": true,
+    "detail": "['Tabela', 'Işıklı Tabela', 'Kutu Harf', 'Totem', 'Cam Giydirme', 'Araç Giydirme', 'Cephe Giydirme', 'Kompozit Tabela', 'Dijital Baskı', 'Germe Tabela', 'Lightbox', 'Display & POS', 'Ofis Branding', 'İş Güvenliği', 'Kurumsal Kimlik']"
+  },
+  {
+    "finding_id": "LOCAL-002",
+    "metric": "home_ld_geo_hours",
+    "value": {
+      "geo": true,
+      "hours": true
+    },
+    "pass": true,
+    "detail": "same patch as SCHEMA-001"
+  },
+  {
+    "finding_id": "SCHEMA-002",
+    "metric": "inner_isPartOf_website_id",
+    "value": true,
+    "pass": true,
+    "detail": "dangling=['https://maltstudio.co/#business']"
+  },
+  {
+    "finding_id": "SCHEMA-002",
+    "metric": "website_node_defined_on_home",
+    "value": true,
+    "pass": true,
+    "detail": "inner refs require homepage definition"
+  },
+  {
+    "finding_id": "SCHEMA-003",
+    "metric": "faqpage_parity_home",
+    "value": {
+      "html_faq": 5,
+      "faqpage": true
+    },
+    "pass": true,
+    "detail": "FAQPage must match visible details"
+  },
+  {
+    "finding_id": "SCHEMA-003",
+    "metric": "faqpage_parity_tabela",
+    "value": {
+      "html_faq": 8,
+      "faqpage": true
+    },
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "finding_id": "SCHEMA-004",
+    "metric": "guides_sectors_have_jsonld",
+    "value": true,
+    "pass": true,
+    "detail": []
+  },
+  {
+    "finding_id": "SCHEMA-005",
+    "metric": "sameAs",
+    "value": [
+      "https://www.instagram.com/maltstudio.co/"
+    ],
+    "pass": true,
+    "detail": "Instagram required from CMS; Jakarta LinkedIn must stay absent"
+  },
+  {
+    "finding_id": "TECHSEO-001",
+    "metric": "live_robots_blocks_ai",
+    "value": [
+      "GPTBot",
+      "ClaudeBot",
+      "Google-Extended"
+    ],
+    "pass": false,
+    "detail": "pass = GPTBot/ClaudeBot/Google-Extended not Disallow / on live"
+  },
+  {
+    "finding_id": "TECHSEO-001",
+    "metric": "git_robots_keeps_admin_proje",
+    "value": {
+      "admin": true,
+      "proje": true
+    },
+    "pass": true,
+    "detail": "git robots must keep private paths"
+  },
+  {
+    "finding_id": "TECHSEO-002",
+    "metric": "sitemap_all_lastmod",
+    "value": 0,
+    "pass": true,
+    "detail": []
+  },
+  {
+    "finding_id": "TECHSEO-002",
+    "metric": "sitemap_required_public",
+    "value": [],
+    "pass": true,
+    "detail": "frozen corpus + /gizlilik/ + /hakkimizda/ must appear; count is not frozen"
+  },
+  {
+    "finding_id": "TECHSEO-002",
+    "metric": "sitemap_unique",
+    "value": [],
+    "pass": true,
+    "detail": []
+  },
+  {
+    "finding_id": "TECHSEO-002",
+    "metric": "sitemap_no_private",
+    "value": [],
+    "pass": true,
+    "detail": []
+  },
+  {
+    "finding_id": "TECHSEO-002",
+    "metric": "sitemap_absolute_https",
+    "value": [],
+    "pass": true,
+    "detail": []
+  },
+  {
+    "finding_id": "TECHSEO-002",
+    "metric": "sitemap_url_count",
+    "value": 37,
+    "pass": true,
+    "detail": "required=37 listed=37"
+  },
+  {
+    "finding_id": "TECHSEO-005",
+    "metric": "gsc_meta",
+    "value": "",
+    "pass": false,
+    "detail": "empty expected BEFORE"
+  },
+  {
+    "finding_id": "SEO-001",
+    "metric": "og_image_alt_not_stale",
+    "value": "Tekirdağ Reklam Ajansı ve Tabela | Malt Studio",
+    "pass": true,
+    "detail": "Tekirdağ Reklam Ajansı ve Tabela | Malt Studio"
+  },
+  {
+    "finding_id": "SEO-002",
+    "metric": "h2_br_space_sektorler",
+    "value": false,
+    "pass": true,
+    "detail": "Çalıştığımız<br>Sektörler concat"
+  },
+  {
+    "finding_id": "SEO-002",
+    "metric": "h2_br_space_bilgi",
+    "value": false,
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "finding_id": "SEO-003",
+    "metric": "iletisim_not_required",
+    "value": true,
+    "pass": true,
+    "detail": "canonical contact is /bolgeler/tekirdag/"
+  },
+  {
+    "finding_id": "PERF-001",
+    "metric": "picture_webp_home",
+    "value": true,
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "finding_id": "PERF-002",
+    "metric": "first_work_img_lazy",
+    "value": false,
+    "pass": true,
+    "detail": "first work-item img loading attr"
+  },
+  {
+    "finding_id": "CONTENT-001",
+    "metric": "project_wordcount_min",
+    "value": 123,
+    "pass": false,
+    "detail": {
+      "https://maltstudio.co/projeler/ofiso/": 126,
+      "https://maltstudio.co/projeler/yamanlar-ekspertiz/": 123,
+      "https://maltstudio.co/projeler/anka/": 129,
+      "https://maltstudio.co/projeler/kosem-doner/": 129,
+      "https://maltstudio.co/projeler/pembe-pasta-evi/": 128,
+      "https://maltstudio.co/projeler/okka-tarim/": 129
+    }
+  },
+  {
+    "finding_id": "CONTENT-002",
+    "metric": "eeat_clone_pages",
+    "value": 0,
+    "pass": true,
+    "detail": []
+  },
+  {
+    "finding_id": "CONTENT-003",
+    "metric": "guide_passage_80_160",
+    "value": 1,
+    "pass": true,
+    "detail": "max_p=96"
+  },
+  {
+    "finding_id": "CONTENT-003",
+    "metric": "comparison_table",
+    "value": 1,
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "finding_id": "CONTENT-004",
+    "metric": "about_page",
+    "value": true,
+    "pass": true,
+    "detail": "absence is trust gap, not crawl bug"
+  },
+  {
+    "finding_id": "CONTENT-005",
+    "metric": "kvkk_or_privacy",
+    "value": true,
+    "pass": true,
+    "detail": [
+      "/gizlilik/"
+    ]
+  },
+  {
+    "finding_id": "GEO-001",
+    "metric": "llms_txt_exists",
+    "value": true,
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "finding_id": "GEO-002",
+    "metric": "md_twin_ratio_home",
+    "value": 0.5428109854604201,
+    "pass": false,
+    "detail": "md=336 html=619"
+  },
+  {
+    "finding_id": "LOCAL-001",
+    "metric": "hasMap",
+    "value": true,
+    "pass": true,
+    "detail": "CMS googleMapsUrl coordinate search; not a GBP Place ID"
+  },
+  {
+    "finding_id": "LOCAL-001",
+    "metric": "gbp_place_id",
+    "value": null,
+    "pass": null,
+    "detail": "EXTERNAL GBP not measured here"
+  },
+  {
+    "finding_id": "BRAND-001",
+    "metric": "cms_linkedin_empty",
+    "value": "",
+    "pass": true,
+    "detail": "do not add Jakarta slug"
+  },
+  {
+    "finding_id": "EXTERNAL-001",
+    "metric": "serp_not_collected",
+    "value": null,
+    "pass": null,
+    "detail": "EXTERNAL — no local rank claim"
+  },
+  {
+    "finding_id": "SEO-META",
+    "metric": "duplicate_titles",
+    "value": [],
+    "pass": true,
+    "detail": []
+  },
+  {
+    "finding_id": "SEO-META",
+    "metric": "duplicate_descriptions",
+    "value": [],
+    "pass": true,
+    "detail": []
+  },
+  {
+    "finding_id": "TECHSEO-META",
+    "metric": "title_home_nonempty",
+    "value": 46,
+    "pass": true,
+    "detail": "Tekirdağ Reklam Ajansı ve Tabela | Malt Studio"
+  },
+  {
+    "finding_id": "TECHSEO-META",
+    "metric": "h1_count_home",
+    "value": 1,
+    "pass": true,
+    "detail": [
+      "Tekirdağ Reklam Ajansı ve Tabela Üreticisi"
+    ]
+  },
+  {
+    "finding_id": "TECHSEO-META",
+    "metric": "canonical_home_self",
+    "value": "https://maltstudio.co/",
+    "pass": true,
+    "detail": "https://maltstudio.co/"
+  },
+  {
+    "finding_id": "SCHEMA-PARSE",
+    "metric": "jsonld_parse_ok",
+    "value": true,
+    "pass": true,
+    "detail": []
+  }
+]

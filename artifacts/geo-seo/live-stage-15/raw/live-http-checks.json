@@ -1,0 +1,402 @@
+[
+  {
+    "url": "https://maltstudio.co/",
+    "http": 200,
+    "redir": "",
+    "bytes": 79423,
+    "nf": false,
+    "edge": false,
+    "ld": {
+      "has_ld_json": true,
+      "types": [
+        "LocalBusiness",
+        "ProfessionalService",
+        "WebSite",
+        "WebPage",
+        "FAQPage"
+      ],
+      "ids": [
+        "https://maltstudio.co/#business",
+        "https://maltstudio.co/#website",
+        "https://maltstudio.co/#webpage",
+        "https://maltstudio.co/#faq"
+      ],
+      "keys": [
+        "@id",
+        "@type",
+        "about",
+        "address",
+        "areaServed",
+        "description",
+        "email",
+        "geo",
+        "hasMap",
+        "image",
+        "inLanguage",
+        "isPartOf",
+        "knowsAbout",
+        "logo",
+        "mainEntity",
+        "name",
+        "openingHoursSpecification",
+        "priceRange",
+        "publisher",
+        "sameAs",
+        "telephone",
+        "url"
+      ],
+      "graph_n": 4,
+      "FAQPage": true,
+      "Article": false,
+      "WebPage": true,
+      "WebSite": true,
+      "geo": true,
+      "hours": true,
+      "logo": true,
+      "image": true,
+      "knowsAbout": true,
+      "hasMap": true,
+      "sameAs": true,
+      "instagram": true
+    },
+    "meta": {
+      "title": "Tekirda\u011f Reklam Ajans\u0131 ve Tabela | Malt Studio",
+      "description": "Tekirda\u011f\u2019da tabela, \u0131\u015f\u0131kl\u0131 tabela, kutu harf, dijital bask\u0131 ve ara\u00e7 giydirme. Ke\u015fif, tasar\u0131m, \u00fcretim ve montaj i\u00e7in Malt Studio\u2019dan teklif al\u0131n.",
+      "canonical": "https://maltstudio.co/",
+      "og_title": true,
+      "og_image": true,
+      "twitter_card": true,
+      "robots": null
+    }
+  },
+  {
+    "url": "https://maltstudio.co/hizmetler/tabela/",
+    "http": 200,
+    "redir": "",
+    "bytes": 24664,
+    "nf": false,
+    "edge": false,
+    "ld": {
+      "has_ld_json": false,
+      "types": [
+        "WebPage",
+        "WebSite",
+        "Service",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "ids": [
+        "https://maltstudio.co/hizmetler/tabela/#webpage",
+        "https://maltstudio.co/#website",
+        "https://maltstudio.co/hizmetler/tabela/#service",
+        "https://maltstudio.co/hizmetler/tabela/#breadcrumb",
+        "https://maltstudio.co/hizmetler/tabela/#faq"
+      ],
+      "keys": [
+        "@id",
+        "@type",
+        "about",
+        "areaServed",
+        "description",
+        "inLanguage",
+        "isPartOf",
+        "itemListElement",
+        "mainEntity",
+        "name",
+        "provider",
+        "publisher",
+        "serviceType",
+        "url"
+      ],
+      "graph_n": 5,
+      "ld_blocks": 1
+    },
+    "meta": {
+      "title": "Tekirda\u011f Tabela \u0130malat\u0131 ve Montaj\u0131 | Malt Studio",
+      "description": "Tekirda\u011f tabela \u00fcretimi: \u0131\u015f\u0131kl\u0131 ve \u0131\u015f\u0131ks\u0131z tabela, kutu harf, kompozit cephe ve ma\u011faza tabelas\u0131. Ke\u015fif, imalat ve montaj i\u00e7in teklif al\u0131n.",
+      "canonical": "https://maltstudio.co/hizmetler/tabela/",
+      "og_title": true,
+      "og_image": true,
+      "twitter_card": true,
+      "robots": "index, follow"
+    }
+  },
+  {
+    "url": "https://maltstudio.co/bilgi/tabela-cesitleri/",
+    "http": 200,
+    "redir": "",
+    "bytes": 26573,
+    "nf": false,
+    "edge": false,
+    "ld": {
+      "has_ld_json": false,
+      "types": [
+        "WebPage",
+        "WebSite",
+        "Article",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "ids": [
+        "https://maltstudio.co/bilgi/tabela-cesitleri/#webpage",
+        "https://maltstudio.co/#website",
+        "https://maltstudio.co/bilgi/tabela-cesitleri/#article",
+        "https://maltstudio.co/bilgi/tabela-cesitleri/#breadcrumb",
+        "https://maltstudio.co/bilgi/tabela-cesitleri/#faq"
+      ],
+      "keys": [
+        "@id",
+        "@type",
+        "about",
+        "description",
+        "headline",
+        "inLanguage",
+        "isPartOf",
+        "itemListElement",
+        "mainEntity",
+        "name",
+        "publisher",
+        "url"
+      ],
+      "graph_n": 5,
+      "ld_blocks": 1
+    },
+    "meta": {
+      "title": "Tabela \u00c7e\u015fitleri: Hangisi Ne \u0130\u015fe Yarar?",
+      "description": "Tabela \u00c7e\u015fitleri: Hangisi Ne \u0130\u015fe Yarar? \u2014 e\u011fitici rehber. Malt Studio bilgi merkezi.",
+      "canonical": "https://maltstudio.co/bilgi/tabela-cesitleri/",
+      "og_title": true,
+      "og_image": true,
+      "twitter_card": true,
+      "robots": "index, follow"
+    }
+  },
+  {
+    "url": "https://maltstudio.co/bolgeler/tekirdag/",
+    "http": 200,
+    "redir": "",
+    "bytes": 21733,
+    "nf": false,
+    "edge": false,
+    "ld": {
+      "has_ld_json": false,
+      "types": [
+        "WebPage",
+        "WebSite",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "ids": [
+        "https://maltstudio.co/bolgeler/tekirdag/#webpage",
+        "https://maltstudio.co/#website",
+        "https://maltstudio.co/bolgeler/tekirdag/#breadcrumb",
+        "https://maltstudio.co/bolgeler/tekirdag/#faq"
+      ],
+      "keys": [
+        "@id",
+        "@type",
+        "about",
+        "description",
+        "inLanguage",
+        "isPartOf",
+        "itemListElement",
+        "mainEntity",
+        "name",
+        "publisher",
+        "url"
+      ],
+      "graph_n": 4,
+      "ld_blocks": 1
+    },
+    "meta": {
+      "title": "Malt Studio Tekirda\u011f At\u00f6lye ve \u0130leti\u015fim",
+      "description": "Malt Studio\u2019nun Tekirda\u011f S\u00fcleymanpa\u015fa ileti\u015fim, \u00e7al\u0131\u015fma saatleri, hizmet alanlar\u0131 ve ke\u015fif bilgileri. Telefon, WhatsApp ve yol tarifi.",
+      "canonical": "https://maltstudio.co/bolgeler/tekirdag/",
+      "og_title": true,
+      "og_image": true,
+      "twitter_card": true,
+      "robots": "index, follow"
+    }
+  },
+  {
+    "url": "https://maltstudio.co/projeler/ofiso/",
+    "http": 200,
+    "redir": "",
+    "bytes": 15273,
+    "nf": false,
+    "edge": false,
+    "ld": {
+      "has_ld_json": false,
+      "types": [
+        "WebPage",
+        "WebSite",
+        "BreadcrumbList"
+      ],
+      "ids": [
+        "https://maltstudio.co/projeler/ofiso/#webpage",
+        "https://maltstudio.co/#website",
+        "https://maltstudio.co/projeler/ofiso/#breadcrumb"
+      ],
+      "keys": [
+        "@id",
+        "@type",
+        "about",
+        "description",
+        "inLanguage",
+        "isPartOf",
+        "itemListElement",
+        "name",
+        "publisher",
+        "url"
+      ],
+      "graph_n": 3,
+      "ld_blocks": 1
+    },
+    "meta": {
+      "title": "OF\u0130SO Projesi | Malt Studio",
+      "description": "OF\u0130SO i\u00e7in Malt Studio taraf\u0131ndan ger\u00e7ekle\u015ftirilen uygulama projesi. Proje foto\u011fraflar\u0131n\u0131 ve ilgili hizmet detaylar\u0131n\u0131 inceleyin.",
+      "canonical": "https://maltstudio.co/projeler/ofiso/",
+      "og_title": true,
+      "og_image": true,
+      "twitter_card": true,
+      "robots": "index, follow"
+    }
+  },
+  {
+    "url": "https://maltstudio.co/hakkimizda/",
+    "http": 200,
+    "redir": "",
+    "bytes": 12128,
+    "nf": false,
+    "edge": false,
+    "ld": {
+      "has_ld_json": false,
+      "types": [
+        "WebPage",
+        "WebSite",
+        "BreadcrumbList"
+      ],
+      "ids": [
+        "https://maltstudio.co/hakkimizda/#webpage",
+        "https://maltstudio.co/#website",
+        "https://maltstudio.co/hakkimizda/#breadcrumb"
+      ],
+      "keys": [
+        "@id",
+        "@type",
+        "about",
+        "description",
+        "inLanguage",
+        "isPartOf",
+        "itemListElement",
+        "name",
+        "publisher",
+        "url"
+      ],
+      "graph_n": 3,
+      "ld_blocks": 1
+    },
+    "meta": {
+      "title": "Hakk\u0131m\u0131zda | Malt Studio",
+      "description": "Tekirda\u011f merkezli reklam ve tabela \u00fcreticisi. \u00dcretim, montaj ve ke\u015fif.",
+      "canonical": "https://maltstudio.co/hakkimizda/",
+      "og_title": true,
+      "og_image": true,
+      "twitter_card": true,
+      "robots": "index, follow"
+    }
+  },
+  {
+    "url": "https://maltstudio.co/gizlilik/",
+    "http": 200,
+    "redir": "",
+    "bytes": 12713,
+    "nf": false,
+    "edge": false,
+    "ld": {
+      "has_ld_json": false,
+      "types": [
+        "WebPage",
+        "WebSite",
+        "BreadcrumbList"
+      ],
+      "ids": [
+        "https://maltstudio.co/gizlilik/#webpage",
+        "https://maltstudio.co/#website",
+        "https://maltstudio.co/gizlilik/#breadcrumb"
+      ],
+      "keys": [
+        "@id",
+        "@type",
+        "about",
+        "description",
+        "inLanguage",
+        "isPartOf",
+        "itemListElement",
+        "name",
+        "publisher",
+        "url"
+      ],
+      "graph_n": 3,
+      "ld_blocks": 1
+    },
+    "meta": {
+      "title": "Gizlilik ve Ki\u015fisel Veriler | Malt Studio",
+      "description": "Malt Studio sitesinde ileti\u015fim ve analitik kullan\u0131m\u0131 hakk\u0131nda k\u0131sa bilgilendirme.",
+      "canonical": "https://maltstudio.co/gizlilik/",
+      "og_title": true,
+      "og_image": true,
+      "twitter_card": true,
+      "robots": "index, follow"
+    }
+  },
+  {
+    "url": "https://maltstudio.co/kvkk/",
+    "http": 301,
+    "redir": "https://maltstudio.co/gizlilik/",
+    "bytes": 25,
+    "nf": false,
+    "edge": false
+  },
+  {
+    "url": "https://maltstudio.co/robots.txt",
+    "http": 200,
+    "redir": "",
+    "bytes": 2430,
+    "nf": false,
+    "edge": false,
+    "gpt": true,
+    "claude": true,
+    "gext": true,
+    "managed": true
+  },
+  {
+    "url": "https://maltstudio.co/sitemap.xml",
+    "http": 200,
+    "redir": "",
+    "bytes": 4129,
+    "nf": false,
+    "edge": false,
+    "loc_count": 37,
+    "has_admin": false,
+    "has_proje": false,
+    "has_404": false,
+    "has_md": false
+  },
+  {
+    "url": "https://maltstudio.co/llms.txt",
+    "http": 200,
+    "redir": "",
+    "bytes": 8802,
+    "nf": false,
+    "edge": false
+  },
+  {
+    "url": "https://maltstudio.co/404.html",
+    "http": 308,
+    "redir": "https://maltstudio.co/404",
+    "bytes": 0,
+    "nf": false,
+    "edge": false
+  }
+]
