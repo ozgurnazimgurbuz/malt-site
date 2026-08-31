@@ -1,0 +1,794 @@
+{
+  "url": "https://maltstudio.co/bilgi/tabela-cesitleri/",
+  "local_path": "bilgi/tabela-cesitleri/index.html",
+  "status": 200,
+  "title": "Tabela Çeşitleri: Hangisi Ne İşe Yarar?",
+  "description": "Tabela Çeşitleri: Hangisi Ne İşe Yarar? — eğitici rehber. Malt Studio bilgi merkezi.",
+  "canonical": "https://maltstudio.co/bilgi/tabela-cesitleri/",
+  "robots": "index, follow",
+  "h1": [
+    "Tabela Çeşitleri: Hangisi Ne İşe Yarar?"
+  ],
+  "headings": [
+    {
+      "tag": "h1",
+      "text": "Tabela Çeşitleri: Hangisi Ne İşe Yarar?",
+      "text_br_stripped": "Tabela Çeşitleri: Hangisi Ne İşe Yarar?"
+    },
+    {
+      "tag": "h2",
+      "text": "Bu yazının rolü",
+      "text_br_stripped": "Bu yazının rolü"
+    },
+    {
+      "tag": "h2",
+      "text": "Giriş",
+      "text_br_stripped": "Giriş"
+    },
+    {
+      "tag": "h2",
+      "text": "Işıksız tabela",
+      "text_br_stripped": "Işıksız tabela"
+    },
+    {
+      "tag": "h2",
+      "text": "Işıklı tabela",
+      "text_br_stripped": "Işıklı tabela"
+    },
+    {
+      "tag": "h2",
+      "text": "Kutu harf",
+      "text_br_stripped": "Kutu harf"
+    },
+    {
+      "tag": "h2",
+      "text": "Totem",
+      "text_br_stripped": "Totem"
+    },
+    {
+      "tag": "h2",
+      "text": "Cam giydirme",
+      "text_br_stripped": "Cam giydirme"
+    },
+    {
+      "tag": "h2",
+      "text": "Lightbox",
+      "text_br_stripped": "Lightbox"
+    },
+    {
+      "tag": "h2",
+      "text": "Seçim çerçevesi",
+      "text_br_stripped": "Seçim çerçevesi"
+    },
+    {
+      "tag": "h2",
+      "text": "Avantajlar",
+      "text_br_stripped": "Avantajlar"
+    },
+    {
+      "tag": "h2",
+      "text": "Dezavantajlar / dikkat",
+      "text_br_stripped": "Dezavantajlar / dikkat"
+    },
+    {
+      "tag": "h2",
+      "text": "Sık yapılan hatalar",
+      "text_br_stripped": "Sık yapılan hatalar"
+    },
+    {
+      "tag": "h2",
+      "text": "Satın alma ipuçları",
+      "text_br_stripped": "Satın alma ipuçları"
+    },
+    {
+      "tag": "h2",
+      "text": "Bakım notları",
+      "text_br_stripped": "Bakım notları"
+    },
+    {
+      "tag": "h2",
+      "text": "Pratik ek notlar",
+      "text_br_stripped": "Pratik ek notlar"
+    },
+    {
+      "tag": "h2",
+      "text": "Üretim, deneyim ve yerel uzmanlık",
+      "text_br_stripped": "Üretim, deneyim ve yerel uzmanlık"
+    },
+    {
+      "tag": "h2",
+      "text": "İlgili hizmetler",
+      "text_br_stripped": "İlgili hizmetler"
+    },
+    {
+      "tag": "h3",
+      "text": "Tabela",
+      "text_br_stripped": "Tabela"
+    },
+    {
+      "tag": "h2",
+      "text": "İlgili rehberler",
+      "text_br_stripped": "İlgili rehberler"
+    },
+    {
+      "tag": "h3",
+      "text": "Işıklı Tabela mı Işıksız mı?",
+      "text_br_stripped": "Işıklı Tabela mı Işıksız mı?"
+    },
+    {
+      "tag": "h3",
+      "text": "Kutu Harf Malzemeleri: Pleksi mi Paslanmaz mı?",
+      "text_br_stripped": "Kutu Harf Malzemeleri: Pleksi mi Paslanmaz mı?"
+    },
+    {
+      "tag": "h3",
+      "text": "One Way Vision Nedir?",
+      "text_br_stripped": "One Way Vision Nedir?"
+    },
+    {
+      "tag": "h2",
+      "text": "İlgili sektörler",
+      "text_br_stripped": "İlgili sektörler"
+    },
+    {
+      "tag": "h3",
+      "text": "Perakende",
+      "text_br_stripped": "Perakende"
+    },
+    {
+      "tag": "h3",
+      "text": "Fabrika & OSB",
+      "text_br_stripped": "Fabrika & OSB"
+    },
+    {
+      "tag": "h2",
+      "text": "Keşfet",
+      "text_br_stripped": "Keşfet"
+    },
+    {
+      "tag": "h3",
+      "text": "Hizmetler",
+      "text_br_stripped": "Hizmetler"
+    },
+    {
+      "tag": "h3",
+      "text": "Bilgi",
+      "text_br_stripped": "Bilgi"
+    },
+    {
+      "tag": "h3",
+      "text": "Projeler",
+      "text_br_stripped": "Projeler"
+    },
+    {
+      "tag": "h3",
+      "text": "Sektörler",
+      "text_br_stripped": "Sektörler"
+    },
+    {
+      "tag": "h3",
+      "text": "Tekirdağ",
+      "text_br_stripped": "Tekirdağ"
+    },
+    {
+      "tag": "h3",
+      "text": "Ana sayfa",
+      "text_br_stripped": "Ana sayfa"
+    },
+    {
+      "tag": "h2",
+      "text": "SSS",
+      "text_br_stripped": "SSS"
+    },
+    {
+      "tag": "h2",
+      "text": "Uygulama için yazın",
+      "text_br_stripped": "Uygulama için yazın"
+    },
+    {
+      "tag": "h3",
+      "text": "Hizmetler",
+      "text_br_stripped": "Hizmetler"
+    },
+    {
+      "tag": "h3",
+      "text": "Keşif",
+      "text_br_stripped": "Keşif"
+    },
+    {
+      "tag": "h3",
+      "text": "İletişim",
+      "text_br_stripped": "İletişim"
+    }
+  ],
+  "internal_links": [
+    "https://maltstudio.co/",
+    "https://maltstudio.co/#teklif",
+    "https://maltstudio.co/#iletisim",
+    "https://maltstudio.co/",
+    "https://maltstudio.co/bilgi/",
+    "https://maltstudio.co/#teklif",
+    "https://maltstudio.co/hizmetler/tabela/",
+    "https://maltstudio.co/hizmetler/tabela/",
+    "https://maltstudio.co/#teklif",
+    "https://maltstudio.co/hizmetler/tabela/",
+    "https://maltstudio.co/bilgi/isikli-mi-isiksiz-mi/",
+    "https://maltstudio.co/bilgi/kutu-harf-malzemeler/",
+    "https://maltstudio.co/bilgi/one-way-vision-nedir/",
+    "https://maltstudio.co/sektorler/perakende/",
+    "https://maltstudio.co/sektorler/fabrika-osb/",
+    "https://maltstudio.co/hizmetler/",
+    "https://maltstudio.co/bilgi/",
+    "https://maltstudio.co/projeler/",
+    "https://maltstudio.co/sektorler/",
+    "https://maltstudio.co/bolgeler/tekirdag/",
+    "https://maltstudio.co/",
+    "https://maltstudio.co/#teklif",
+    "https://maltstudio.co/hizmetler/tabela/",
+    "https://maltstudio.co/hizmetler/isikli-tabela/",
+    "https://maltstudio.co/hizmetler/kutu-harf/",
+    "https://maltstudio.co/hizmetler/totem/",
+    "https://maltstudio.co/hizmetler/arac-giydirme/",
+    "https://maltstudio.co/hizmetler/cam-giydirme/",
+    "https://maltstudio.co/hizmetler/lightbox/",
+    "https://maltstudio.co/hizmetler/display-pos/",
+    "https://maltstudio.co/hizmetler/ofis-branding/",
+    "https://maltstudio.co/hizmetler/is-guvenligi-tabelalari/",
+    "https://maltstudio.co/projeler/",
+    "https://maltstudio.co/sektorler/",
+    "https://maltstudio.co/bilgi/",
+    "https://maltstudio.co/bolgeler/tekirdag/",
+    "https://maltstudio.co/hizmetler/",
+    "https://maltstudio.co/#iletisim"
+  ],
+  "word_count": 556,
+  "indexable": true,
+  "structured_data": [],
+  "schema_types": [],
+  "image_count": 2,
+  "image_sources": [
+    "/images/logo.svg",
+    "/images/logo.svg"
+  ],
+  "html_bytes": 18796,
+  "og_title": "Tabela Çeşitleri: Hangisi Ne İşe Yarar?",
+  "og_description": "Tabela Çeşitleri: Hangisi Ne İşe Yarar? — eğitici rehber. Malt Studio bilgi merkezi.",
+  "og_image": "https://maltstudio.co/images/og.jpg",
+  "og_image_alt": "",
+  "og_url": "https://maltstudio.co/bilgi/tabela-cesitleri/",
+  "twitter_title": "Tabela Çeşitleri: Hangisi Ne İşe Yarar?",
+  "twitter_description": "Tabela Çeşitleri: Hangisi Ne İşe Yarar? — eğitici rehber. Malt Studio bilgi merkezi.",
+  "twitter_image": "https://maltstudio.co/images/og.jpg",
+  "twitter_image_alt": "",
+  "twitter_card": "summary_large_image",
+  "gsc_verification": "",
+  "meta": {
+    "description": "Tabela Çeşitleri: Hangisi Ne İşe Yarar? — eğitici rehber. Malt Studio bilgi merkezi.",
+    "og:description": "Tabela Çeşitleri: Hangisi Ne İşe Yarar? — eğitici rehber. Malt Studio bilgi merkezi.",
+    "og:image": "https://maltstudio.co/images/og.jpg",
+    "og:image:height": "630",
+    "og:image:width": "1200",
+    "og:locale": "tr_TR",
+    "og:site_name": "Malt Studio",
+    "og:title": "Tabela Çeşitleri: Hangisi Ne İşe Yarar?",
+    "og:type": "website",
+    "og:url": "https://maltstudio.co/bilgi/tabela-cesitleri/",
+    "robots": "index, follow",
+    "twitter:card": "summary_large_image",
+    "twitter:description": "Tabela Çeşitleri: Hangisi Ne İşe Yarar? — eğitici rehber. Malt Studio bilgi merkezi.",
+    "twitter:image": "https://maltstudio.co/images/og.jpg",
+    "twitter:title": "Tabela Çeşitleri: Hangisi Ne İşe Yarar?",
+    "viewport": "width=device-width, initial-scale=1.0"
+  },
+  "preload": [
+    {
+      "as": "font",
+      "href": "/assets/fonts/big-shoulders-latin.woff2",
+      "type": "font/woff2"
+    },
+    {
+      "as": "font",
+      "href": "/assets/fonts/big-shoulders-latin-ext.woff2",
+      "type": "font/woff2"
+    },
+    {
+      "as": "font",
+      "href": "/assets/fonts/inter-latin.woff2",
+      "type": "font/woff2"
+    },
+    {
+      "as": "font",
+      "href": "/assets/fonts/inter-latin-ext.woff2",
+      "type": "font/woff2"
+    }
+  ],
+  "title_length": 39,
+  "description_length": 84,
+  "canonical_absolute": true,
+  "canonical_self": true,
+  "canonical_matches_url": true,
+  "h1_count": 1,
+  "heading_skips": [],
+  "faq": [
+    {
+      "q": "Bu yazıdan sipariş verilir mi?",
+      "a": "Hayır; eğitimdir. Tabela siparişi /hizmetler/tabela/ altındadır.",
+      "a_words": 6
+    },
+    {
+      "q": "En doğru tabela hangisi?",
+      "a": "Konum, gece ihtiyacı ve bütçeye göre değişir; tek cevap yoktur.",
+      "a_words": 10
+    },
+    {
+      "q": "Tekirdağ’da kim uygular?",
+      "a": "Keşif için /bolgeler/tekirdag/ veya WhatsApp.",
+      "a_words": 5
+    },
+    {
+      "q": "İlgili hizmet nerede?",
+      "a": "/hizmetler/tabela/ sayfasında.",
+      "a_words": 2
+    },
+    {
+      "q": "Daha fazla rehber?",
+      "a": "/bilgi/ hub’ında.",
+      "a_words": 2
+    }
+  ],
+  "faq_count": 5,
+  "breadcrumb_html": true,
+  "table_count": 0,
+  "ol_count": 0,
+  "ul_count": 9,
+  "data_prerendered": false,
+  "images": [
+    {
+      "src": "/images/logo.svg",
+      "alt": "Malt Studio",
+      "width": "120",
+      "height": "19",
+      "loading": "",
+      "decoding": "",
+      "fetchpriority": "",
+      "in_picture": false,
+      "class": "logo-mark"
+    },
+    {
+      "src": "/images/logo.svg",
+      "alt": "Malt Studio",
+      "width": "120",
+      "height": "19",
+      "loading": "",
+      "decoding": "",
+      "fetchpriority": "",
+      "in_picture": false,
+      "class": "logo-mark"
+    }
+  ],
+  "picture_count": 0,
+  "source_tags": [],
+  "paragraphs": [
+    "Eğitici rehber. Tabela hakkında karar vermenize yardımcı olur.",
+    "Üretim ve teklif için Tabela sayfasına bakabilirsiniz.",
+    "Karşılaştırma, avantaj/dezavantaj ve satın alma ipuçları burada; üretim ve teklif keşifte netleşir.",
+    "Tabela seçimi estetik kadar okunurluk, dayanım ve montaj koşullarının toplamıdır. Bu rehber bilgilendirme amaçlıdır; satın alma /hizmetler/tabela/ sayfasındadır.",
+    "Gündüz odaklı, genelde daha ekonomik cephe çözümleridir. Gece ihtiyacı yoksa doğru tercihtir.",
+    "Gece görünürlük gereken noktalarda LED’li sistemler kullanılır. Ayrı hizmet sayfası vardır.",
+    "Üç boyutlu cephe yazısıdır; prestij ve derinlik sağlar.",
+    "Yol ve tesis yaklaşımında uzaktan algı için dikey sistemlerdir.",
+    "Vitrin mesajı ve gizlilik/görünürlük dengesi için folyo uygulamalarıdır.",
+    "İç mekân/retail ışıklı kutu sistemidir; ışıklı tabela ile karıştırılmamalıdır.",
+    "Konum, gece ihtiyacı, bütçe, izin ve montaj yüzeyi birlikte değerlendirilir.",
+    "Çeşit seçerken ‘en pahalı = en iyi’ yaklaşımı işe yaramaz; okuma koşulu belirleyicidir.",
+    "İç mekân bilgilendirme ile dış cephe aynı kategoride toplanmamalıdır.",
+    "Karşılaştırma bu rehberde kalır; üretim ve teklif ilgili hizmet sayfasındadır.",
+    "Birden fazla tip aynı cephede kullanılacaksa hiyerarşi çizilir: ana kimlik + destek yüzey.",
+    "Bakım maliyeti ilk yatırım kadar önemlidir; LED’li sistemlerde servis katmanı vardır.",
+    "Yanlış tür seçimi montajdan sonra pahalıya yenilenir.",
+    "Tabela çeşitleri rehberi eğitimdir. En pahalı seçenek her zaman doğru değildir. İç ve dış ihtiyaç aynı kategoride toplanmaz. Birden fazla tip varsa ana kimlik ve destek yüzey ayrılır. Bakım maliyeti ilk yatırıma eklenerek düşünülür. Yanlış tür sonradan pahalıya yenilenir. Sipariş /hizmetler/tabela/ altındadır. Lightbox ve ışıklı tabela bilinçli ayrılır. Keşif fotoğrafı karar kalitesini yükseltir.",
+    "Bu rehber çeşitleri ayırır; sipariş vermez. Okuma koşulu seçimi belirler. Işıklı tabela ve lightbox bilinçli ayrılır. Son adım ilgili hizmet URL’sidir. Uydurma ‘en iyi tabela’ sıralaması yok.",
+    "Malt Studio Tekirdağ merkezli çalışır. Bu rehber içeriği; atölye üretimi, saha keşfi ve montajın aynı operasyonel hatta planlandığı gerçek iş modeline dayanır. Şube sayısı, uydurma sertifika, sahte yorum veya proje metriği eklenmez.",
+    "WhatsApp ile Teklif Teklif Ara",
+    "Tabela hizmeti.",
+    "İlgili rehber.",
+    "İlgili rehber.",
+    "İlgili rehber.",
+    "Dikey bağlam.",
+    "Dikey bağlam.",
+    "Tüm hizmetlerimize göz atın.",
+    "Rehberler ve karar içerikleri.",
+    "Tamamladığımız işlerden örnekler.",
+    "Sektöre özel çözümler.",
+    "Tekirdağ yerel hizmet rehberi.",
+    "Malt Studio ana sayfa.",
+    "Hayır; eğitimdir. Tabela siparişi /hizmetler/tabela/ altındadır.",
+    "Konum, gece ihtiyacı ve bütçeye göre değişir; tek cevap yoktur.",
+    "Keşif için /bolgeler/tekirdag/ veya WhatsApp.",
+    "/hizmetler/tabela/ sayfasında.",
+    "/bilgi/ hub’ında.",
+    "Keşif, ölçü ve net teklif için yazın veya arayın.",
+    "Malt Studio — Tekirdağ merkezli reklam ve tabela üreticisi. Üretim, montaj ve marka görünürlüğü."
+  ],
+  "paragraph_word_counts": [
+    8,
+    7,
+    12,
+    18,
+    12,
+    11,
+    8,
+    9,
+    8,
+    9,
+    10,
+    13,
+    9,
+    10,
+    13,
+    11,
+    7,
+    53,
+    27,
+    32,
+    5,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    4,
+    4,
+    3,
+    3,
+    4,
+    4,
+    6,
+    10,
+    5,
+    2,
+    2,
+    9,
+    14
+  ],
+  "max_paragraph_words": 53,
+  "passages_80_160": 0,
+  "eeat_block_present": true,
+  "answer_first": true,
+  "internal_link_objects": [
+    {
+      "href": "/",
+      "abs": "https://maltstudio.co/",
+      "rel": "",
+      "text": ""
+    },
+    {
+      "href": "/#teklif",
+      "abs": "https://maltstudio.co/#teklif",
+      "rel": "",
+      "text": "Teklif"
+    },
+    {
+      "href": "/#iletisim",
+      "abs": "https://maltstudio.co/#iletisim",
+      "rel": "",
+      "text": "İletişim"
+    },
+    {
+      "href": "/",
+      "abs": "https://maltstudio.co/",
+      "rel": "",
+      "text": "Ana Sayfa"
+    },
+    {
+      "href": "/bilgi/",
+      "abs": "https://maltstudio.co/bilgi/",
+      "rel": "",
+      "text": "Bilgi"
+    },
+    {
+      "href": "/#teklif",
+      "abs": "https://maltstudio.co/#teklif",
+      "rel": "",
+      "text": "Teklif"
+    },
+    {
+      "href": "/hizmetler/tabela/",
+      "abs": "https://maltstudio.co/hizmetler/tabela/",
+      "rel": "",
+      "text": "Tabela hizmeti"
+    },
+    {
+      "href": "/hizmetler/tabela/",
+      "abs": "https://maltstudio.co/hizmetler/tabela/",
+      "rel": "",
+      "text": "Tabela"
+    },
+    {
+      "href": "/#teklif",
+      "abs": "https://maltstudio.co/#teklif",
+      "rel": "",
+      "text": "Teklif"
+    },
+    {
+      "href": "/hizmetler/tabela/",
+      "abs": "https://maltstudio.co/hizmetler/tabela/",
+      "rel": "",
+      "text": "TabelaTabela hizmeti.Hizmet"
+    },
+    {
+      "href": "/bilgi/isikli-mi-isiksiz-mi/",
+      "abs": "https://maltstudio.co/bilgi/isikli-mi-isiksiz-mi/",
+      "rel": "",
+      "text": "Işıklı Tabela mı Işıksız mı?İlgili rehber.Bilgi"
+    },
+    {
+      "href": "/bilgi/kutu-harf-malzemeler/",
+      "abs": "https://maltstudio.co/bilgi/kutu-harf-malzemeler/",
+      "rel": "",
+      "text": "Kutu Harf Malzemeleri: Pleksi mi Paslanmaz mı?İlgili rehber.Bilgi"
+    },
+    {
+      "href": "/bilgi/one-way-vision-nedir/",
+      "abs": "https://maltstudio.co/bilgi/one-way-vision-nedir/",
+      "rel": "",
+      "text": "One Way Vision Nedir?İlgili rehber.Bilgi"
+    },
+    {
+      "href": "/sektorler/perakende/",
+      "abs": "https://maltstudio.co/sektorler/perakende/",
+      "rel": "",
+      "text": "PerakendeDikey bağlam.Sektör"
+    },
+    {
+      "href": "/sektorler/fabrika-osb/",
+      "abs": "https://maltstudio.co/sektorler/fabrika-osb/",
+      "rel": "",
+      "text": "Fabrika & OSBDikey bağlam.Sektör"
+    },
+    {
+      "href": "/hizmetler/",
+      "abs": "https://maltstudio.co/hizmetler/",
+      "rel": "",
+      "text": "HizmetlerTüm hizmetlerimize göz atın.Keşif"
+    },
+    {
+      "href": "/bilgi/",
+      "abs": "https://maltstudio.co/bilgi/",
+      "rel": "",
+      "text": "BilgiRehberler ve karar içerikleri.Keşif"
+    },
+    {
+      "href": "/projeler/",
+      "abs": "https://maltstudio.co/projeler/",
+      "rel": "",
+      "text": "ProjelerTamamladığımız işlerden örnekler.Keşif"
+    },
+    {
+      "href": "/sektorler/",
+      "abs": "https://maltstudio.co/sektorler/",
+      "rel": "",
+      "text": "SektörlerSektöre özel çözümler.Keşif"
+    },
+    {
+      "href": "/bolgeler/tekirdag/",
+      "abs": "https://maltstudio.co/bolgeler/tekirdag/",
+      "rel": "",
+      "text": "TekirdağTekirdağ yerel hizmet rehberi.Keşif"
+    },
+    {
+      "href": "/",
+      "abs": "https://maltstudio.co/",
+      "rel": "",
+      "text": "Ana sayfaMalt Studio ana sayfa.Keşif"
+    },
+    {
+      "href": "/#teklif",
+      "abs": "https://maltstudio.co/#teklif",
+      "rel": "",
+      "text": "Teklif"
+    },
+    {
+      "href": "/hizmetler/tabela/",
+      "abs": "https://maltstudio.co/hizmetler/tabela/",
+      "rel": "",
+      "text": "Tabela"
+    },
+    {
+      "href": "/hizmetler/isikli-tabela/",
+      "abs": "https://maltstudio.co/hizmetler/isikli-tabela/",
+      "rel": "",
+      "text": "Işıklı Tabela"
+    },
+    {
+      "href": "/hizmetler/kutu-harf/",
+      "abs": "https://maltstudio.co/hizmetler/kutu-harf/",
+      "rel": "",
+      "text": "Kutu Harf"
+    },
+    {
+      "href": "/hizmetler/totem/",
+      "abs": "https://maltstudio.co/hizmetler/totem/",
+      "rel": "",
+      "text": "Totem"
+    },
+    {
+      "href": "/hizmetler/arac-giydirme/",
+      "abs": "https://maltstudio.co/hizmetler/arac-giydirme/",
+      "rel": "",
+      "text": "Araç Giydirme"
+    },
+    {
+      "href": "/hizmetler/cam-giydirme/",
+      "abs": "https://maltstudio.co/hizmetler/cam-giydirme/",
+      "rel": "",
+      "text": "Cam Giydirme"
+    },
+    {
+      "href": "/hizmetler/lightbox/",
+      "abs": "https://maltstudio.co/hizmetler/lightbox/",
+      "rel": "",
+      "text": "Lightbox"
+    },
+    {
+      "href": "/hizmetler/display-pos/",
+      "abs": "https://maltstudio.co/hizmetler/display-pos/",
+      "rel": "",
+      "text": "Display & POS"
+    },
+    {
+      "href": "/hizmetler/ofis-branding/",
+      "abs": "https://maltstudio.co/hizmetler/ofis-branding/",
+      "rel": "",
+      "text": "Ofis Branding"
+    },
+    {
+      "href": "/hizmetler/is-guvenligi-tabelalari/",
+      "abs": "https://maltstudio.co/hizmetler/is-guvenligi-tabelalari/",
+      "rel": "",
+      "text": "İş Güvenliği Tabelaları"
+    },
+    {
+      "href": "/projeler/",
+      "abs": "https://maltstudio.co/projeler/",
+      "rel": "",
+      "text": "Projeler"
+    },
+    {
+      "href": "/sektorler/",
+      "abs": "https://maltstudio.co/sektorler/",
+      "rel": "",
+      "text": "Sektörler"
+    },
+    {
+      "href": "/bilgi/",
+      "abs": "https://maltstudio.co/bilgi/",
+      "rel": "",
+      "text": "Bilgi"
+    },
+    {
+      "href": "/bolgeler/tekirdag/",
+      "abs": "https://maltstudio.co/bolgeler/tekirdag/",
+      "rel": "",
+      "text": "Tekirdağ"
+    },
+    {
+      "href": "/hizmetler/",
+      "abs": "https://maltstudio.co/hizmetler/",
+      "rel": "",
+      "text": "Tüm hizmetler"
+    },
+    {
+      "href": "/#iletisim",
+      "abs": "https://maltstudio.co/#iletisim",
+      "rel": "",
+      "text": "Mesaj"
+    }
+  ],
+  "internal_link_count": 38,
+  "external_link_count": 4,
+  "external_links": [
+    {
+      "href": "https://wa.me/905525826959?text=Tabela%20hakk%C4%B1nda%20bilgi",
+      "abs": "https://wa.me/905525826959?text=Tabela%20hakk%C4%B1nda%20bilgi",
+      "rel": "noopener",
+      "text": "WhatsApp ile Teklif"
+    },
+    {
+      "href": "https://wa.me/905525826959?text=Tabela%20hakk%C4%B1nda%20bilgi",
+      "abs": "https://wa.me/905525826959?text=Tabela%20hakk%C4%B1nda%20bilgi",
+      "rel": "noopener",
+      "text": "WhatsApp ile Teklif"
+    },
+    {
+      "href": "https://wa.me/905525826959?text=Tabela%20hakk%C4%B1nda%20bilgi",
+      "abs": "https://wa.me/905525826959?text=Tabela%20hakk%C4%B1nda%20bilgi",
+      "rel": "noopener",
+      "text": "WhatsApp ile Teklif"
+    },
+    {
+      "href": "https://wa.me/905525826959?text=Merhaba%2C%20Malt%20Studio%20hizmetleri%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum.",
+      "abs": "https://wa.me/905525826959?text=Merhaba%2C%20Malt%20Studio%20hizmetleri%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum.",
+      "rel": "noopener",
+      "text": "WhatsApp"
+    }
+  ],
+  "schema": {
+    "block_count": 0,
+    "parse_ok": true,
+    "parse_failures": [],
+    "schema_types": [],
+    "defined_ids": [],
+    "dangling_refs": [],
+    "duplicate_ids": [],
+    "conflicting_ids": [],
+    "important_properties": [],
+    "has_geo": false,
+    "has_hours": false,
+    "has_logo_or_image": false,
+    "knowsAbout": [],
+    "sameAs": [],
+    "homepage_schema": false,
+    "has_website_node": false,
+    "has_business_node": false,
+    "has_faqpage": false,
+    "has_article": false,
+    "has_service": false,
+    "has_breadcrumb_list": false,
+    "has_localbusiness": false,
+    "has_webpage": false,
+    "ispartof_website": false
+  },
+  "jsonld_parse_ok": true,
+  "h2_br_raw": [],
+  "md_twin_exists": true,
+  "md_twin_bytes": 6355,
+  "md_twin_words": 663,
+  "md_twin_ratio": 1.1924460431654675,
+  "has_hours_html": false,
+  "has_maps_link": false,
+  "has_phone": true,
+  "has_address": true,
+  "footer_legal_href": false,
+  "og_alt_stale": false,
+  "h2_concat_sektorler": false,
+  "h2_concat_bilgi": false,
+  "images_measured": {
+    "jpeg_fallback_bytes": 0,
+    "webp_source_bytes": 0,
+    "picture_count": 0,
+    "img_count": 2,
+    "files": [
+      {
+        "src": "/images/logo.svg",
+        "exists": true,
+        "bytes": 4531,
+        "ext": ".svg",
+        "width_attr": "120",
+        "height_attr": "19",
+        "loading": "",
+        "in_picture": false,
+        "file_width": null,
+        "file_height": null
+      },
+      {
+        "src": "/images/logo.svg",
+        "exists": true,
+        "bytes": 4531,
+        "ext": ".svg",
+        "width_attr": "120",
+        "height_attr": "19",
+        "loading": "",
+        "in_picture": false,
+        "file_width": null,
+        "file_height": null
+      }
+    ],
+    "webp_sources": [],
+    "lazy_imgs": 0,
+    "preload_images": [],
+    "browser_selected_bytes": null,
+    "browser_selected_note": "HAR/Lighthouse not run. JPEG vs WebP are disk sizes of referenced files, not transfer."
+  }
+}

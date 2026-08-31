@@ -41,11 +41,11 @@ Statik ve saha koşulları.
 
 ## Indoor display
 
-Display/POS sayfasına aittir.
+Display/POS sayfasına aittir: [Display & POS](https://maltstudio.co/hizmetler/display-pos/) .
 
 ## Ticari sayfa
 
-/hizmetler/totem/.
+[Totem](https://maltstudio.co/hizmetler/totem/)  hizmet sayfası.
 
 ## Avantajlar
 
@@ -92,84 +92,38 @@ Yaklaşım yönü tek/çift yüzü belirler. Hızlı yolda mesaj sade tutulur. T
 
 Konum ve okuma mesafesi seçimi belirler. Indoor display burada değildir. Sipariş totem hizmetindedir. Temel/izin keşifte netleşir.
 
-## Üretim, deneyim ve yerel uzmanlık
-
-Malt Studio Tekirdağ merkezli çalışır. Bu rehber içeriği; atölye üretimi, saha keşfi ve montajın aynı operasyonel hatta planlandığı gerçek iş modeline dayanır. Şube sayısı, uydurma sertifika, sahte yorum veya proje metriği eklenmez.
-
-- **Deneyim:** Keşif notları (ölçü, yüzey, erişim, işletme saati) teklif ve üretimi şekillendirir.
-- **Üretim:** Ölçüye özel imalat; stok tabela mantığı yerine yüzeye ve markaya göre üretim.
-- **Kalite süreci:** Atölye kontrolü → saha hizalama/sabitleme → teslim kontrolü.
-- **Yerel uzmanlık:** Tekirdağ üssünden merkez ve çevre ilçe işleri planlanır; Süleymanpaşa dahil merkez ve çevre ilçelere hizmet verilir.
-- **Kanıt:** Gerçek fotoğraflar proje sayfalarına bağlanır; stok görsel kullanılmaz.
-
 [WhatsApp ile Teklif](https://wa.me/905525826959?text=Totem%20hakk%C4%B1nda%20bilgi) [Teklif](https://maltstudio.co/#teklif) [Ara](tel:+905525826959)
 
 ## İlgili hizmetler
-
-###
-
-[TotemTotem hizmeti.Hizmet](https://maltstudio.co/hizmetler/totem/)
+[Totem Totem hizmeti. Hizmet](https://maltstudio.co/hizmetler/totem/)
 
 ## İlgili rehberler
+[Tabela Çeşitleri: Hangisi Ne İşe Yarar? İlgili rehber. Bilgi](https://maltstudio.co/bilgi/tabela-cesitleri/) [Işıklı Tabela mı Işıksız mı? İlgili rehber. Bilgi](https://maltstudio.co/bilgi/isikli-mi-isiksiz-mi/) [Kutu Harf Malzemeleri: Pleksi mi Paslanmaz mı? İlgili rehber. Bilgi](https://maltstudio.co/bilgi/kutu-harf-malzemeler/)
 
-###
+## İlgili projeler
+[Yamanlar Ekspertiz Tamamlanan proje örneği. Proje](https://maltstudio.co/projeler/yamanlar-ekspertiz/)
 
-[Tabela Çeşitleri: Hangisi Ne İşe Yarar?İlgili rehber.Bilgi](https://maltstudio.co/bilgi/tabela-cesitleri/)
-
-###
-
-[Işıklı Tabela mı Işıksız mı?İlgili rehber.Bilgi](https://maltstudio.co/bilgi/isikli-mi-isiksiz-mi/)
-
-###
-
-[Kutu Harf Malzemeleri: Pleksi mi Paslanmaz mı?İlgili rehber.Bilgi](https://maltstudio.co/bilgi/kutu-harf-malzemeler/)
+[Tüm projeler →](https://maltstudio.co/projeler/)
 
 ## İlgili sektörler
-
-###
-
-[Fabrika & OSBDikey bağlam.Sektör](https://maltstudio.co/sektorler/fabrika-osb/)
-
-###
-
-[İnşaat & ŞantiyeDikey bağlam.Sektör](https://maltstudio.co/sektorler/insaat-santiye/)
+[Fabrika & OSB Dikey bağlam. Sektör](https://maltstudio.co/sektorler/fabrika-osb/) [İnşaat & Şantiye Dikey bağlam. Sektör](https://maltstudio.co/sektorler/insaat-santiye/)
 
 ## Keşfet
-
-###
-
-[HizmetlerTüm hizmetlerimize göz atın.Keşif](https://maltstudio.co/hizmetler/)
-
-###
-
-[BilgiRehberler ve karar içerikleri.Keşif](https://maltstudio.co/bilgi/)
-
-###
-
-[ProjelerTamamladığımız işlerden örnekler.Keşif](https://maltstudio.co/projeler/)
-
-###
-
-[SektörlerSektöre özel çözümler.Keşif](https://maltstudio.co/sektorler/)
-
-###
-
-[TekirdağTekirdağ yerel hizmet rehberi.Keşif](https://maltstudio.co/bolgeler/tekirdag/)
-
-###
-
-[Ana sayfaMalt Studio ana sayfa.Keşif](https://maltstudio.co/)
+[Hizmetler Tüm hizmetlerimize göz atın. Keşif](https://maltstudio.co/hizmetler/) [Bilgi Rehberler ve karar içerikleri. Keşif](https://maltstudio.co/bilgi/) [Projeler Tamamladığımız işlerden örnekler. Keşif](https://maltstudio.co/projeler/) [Sektörler Sektöre özel çözümler. Keşif](https://maltstudio.co/sektorler/) [Tekirdağ Tekirdağ yerel hizmet rehberi. Keşif](https://maltstudio.co/bolgeler/tekirdag/) [Ana sayfa Malt Studio ana sayfa. Keşif](https://maltstudio.co/)
 
 ## SSS
-Pylon ayrı mı? Display totem?
+Pylon ayrı mı?
 
-/hizmetler/display-pos/.
+Aynı ailede anlatılır.
+Display totem?
+
+Taşınabilir indoor display [Display & POS](https://maltstudio.co/hizmetler/display-pos/)  ailesindedir.
 Sipariş?
 
-/hizmetler/totem/.
+Üretim [totem](https://maltstudio.co/hizmetler/totem/)  sayfasındadır.
 İlgili hizmet nerede?
 
-/hizmetler/totem/ sayfasında.
+Üretim ve teklif [Totem](https://maltstudio.co/hizmetler/totem/)  sayfasındadır.
 Daha fazla rehber?
 
-/bilgi/ hub’ında.
+[Bilgi merkezi](https://maltstudio.co/bilgi/)  diğer karşılaştırmaları listeler.

@@ -1,0 +1,249 @@
+{
+  "url": "https://maltstudio.co/bilgi/tabela-cesitleri/",
+  "schema": {
+    "block_count": 1,
+    "parse_ok": true,
+    "parse_failures": [],
+    "schema_types": [
+      "Article",
+      "BreadcrumbList",
+      "FAQPage",
+      "WebPage",
+      "WebSite"
+    ],
+    "defined_ids": [
+      "https://maltstudio.co/bilgi/tabela-cesitleri/#webpage",
+      "https://maltstudio.co/#website",
+      "https://maltstudio.co/bilgi/tabela-cesitleri/#article",
+      "https://maltstudio.co/bilgi/tabela-cesitleri/#breadcrumb",
+      "https://maltstudio.co/bilgi/tabela-cesitleri/#faq"
+    ],
+    "dangling_refs": [
+      "https://maltstudio.co/#business"
+    ],
+    "duplicate_ids": [],
+    "conflicting_ids": [],
+    "important_properties": [
+      {
+        "@id": "https://maltstudio.co/bilgi/tabela-cesitleri/#webpage",
+        "@type": "WebPage",
+        "name": "Tabela Çeşitleri: Hangisi Ne İşe Yarar?",
+        "url": "https://maltstudio.co/bilgi/tabela-cesitleri/",
+        "description": "Tabela Çeşitleri: Hangisi Ne İşe Yarar? — eğitici rehber. Malt Studio bilgi merkezi.",
+        "isPartOf": {
+          "@id": "https://maltstudio.co/#website"
+        },
+        "about": {
+          "@id": "https://maltstudio.co/#business"
+        }
+      },
+      {
+        "@id": "https://maltstudio.co/#website",
+        "@type": "WebSite",
+        "name": "Malt Studio",
+        "url": "https://maltstudio.co/",
+        "publisher": {
+          "@id": "https://maltstudio.co/#business"
+        }
+      },
+      {
+        "@id": "https://maltstudio.co/bilgi/tabela-cesitleri/#article",
+        "@type": "Article",
+        "url": "https://maltstudio.co/bilgi/tabela-cesitleri/",
+        "description": "Tabela Çeşitleri: Hangisi Ne İşe Yarar? — eğitici rehber. Malt Studio bilgi merkezi.",
+        "isPartOf": {
+          "@id": "https://maltstudio.co/bilgi/tabela-cesitleri/#webpage"
+        },
+        "about": {
+          "@id": "https://maltstudio.co/#business"
+        },
+        "headline": "Tabela Çeşitleri: Hangisi Ne İşe Yarar?"
+      },
+      {
+        "@id": "https://maltstudio.co/bilgi/tabela-cesitleri/#breadcrumb",
+        "@type": "BreadcrumbList"
+      },
+      {
+        "@id": "https://maltstudio.co/bilgi/tabela-cesitleri/#faq",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Bu yazıdan sipariş verilir mi?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Hayır; eğitimdir. Tabela siparişi tabela üretimi sayfasındadır."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "En doğru tabela hangisi?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Konum, gece ihtiyacı ve bütçeye göre değişir. Tek cevap yoktur; tablo türleri ayırır."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Tekirdağ’da kim uygular?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Keşif Tekirdağ atölyesinden planlanır. WhatsApp veya telefon yeterlidir."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "İlgili hizmet nerede?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Üretim ve teklif Tabela sayfasındadır."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Daha fazla rehber?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Bilgi merkezi diğer karşılaştırmaları listeler."
+            }
+          }
+        ]
+      }
+    ],
+    "has_geo": false,
+    "has_hours": false,
+    "has_logo_or_image": false,
+    "knowsAbout": [],
+    "sameAs": [],
+    "homepage_schema": false,
+    "has_website_node": true,
+    "has_business_node": false,
+    "has_faqpage": true,
+    "has_article": true,
+    "has_service": false,
+    "has_breadcrumb_list": true,
+    "has_localbusiness": false,
+    "has_webpage": true,
+    "ispartof_website": true
+  },
+  "blocks": [
+    {
+      "index": 0,
+      "parse_ok": true,
+      "error": null,
+      "data": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebPage",
+            "@id": "https://maltstudio.co/bilgi/tabela-cesitleri/#webpage",
+            "url": "https://maltstudio.co/bilgi/tabela-cesitleri/",
+            "name": "Tabela Çeşitleri: Hangisi Ne İşe Yarar?",
+            "description": "Tabela Çeşitleri: Hangisi Ne İşe Yarar? — eğitici rehber. Malt Studio bilgi merkezi.",
+            "isPartOf": {
+              "@id": "https://maltstudio.co/#website"
+            },
+            "about": {
+              "@id": "https://maltstudio.co/#business"
+            },
+            "inLanguage": "tr-TR"
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://maltstudio.co/#website",
+            "url": "https://maltstudio.co/",
+            "name": "Malt Studio",
+            "publisher": {
+              "@id": "https://maltstudio.co/#business"
+            },
+            "inLanguage": "tr-TR"
+          },
+          {
+            "@type": "Article",
+            "@id": "https://maltstudio.co/bilgi/tabela-cesitleri/#article",
+            "headline": "Tabela Çeşitleri: Hangisi Ne İşe Yarar?",
+            "description": "Tabela Çeşitleri: Hangisi Ne İşe Yarar? — eğitici rehber. Malt Studio bilgi merkezi.",
+            "url": "https://maltstudio.co/bilgi/tabela-cesitleri/",
+            "inLanguage": "tr-TR",
+            "about": {
+              "@id": "https://maltstudio.co/#business"
+            },
+            "isPartOf": {
+              "@id": "https://maltstudio.co/bilgi/tabela-cesitleri/#webpage"
+            }
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://maltstudio.co/bilgi/tabela-cesitleri/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Ana Sayfa",
+                "item": "https://maltstudio.co/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Bilgi",
+                "item": "https://maltstudio.co/bilgi/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Tabela Çeşitleri: Hangisi Ne İşe Yarar?",
+                "item": "https://maltstudio.co/bilgi/tabela-cesitleri/"
+              }
+            ]
+          },
+          {
+            "@type": "FAQPage",
+            "@id": "https://maltstudio.co/bilgi/tabela-cesitleri/#faq",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Bu yazıdan sipariş verilir mi?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Hayır; eğitimdir. Tabela siparişi tabela üretimi sayfasındadır."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "En doğru tabela hangisi?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Konum, gece ihtiyacı ve bütçeye göre değişir. Tek cevap yoktur; tablo türleri ayırır."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Tekirdağ’da kim uygular?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Keşif Tekirdağ atölyesinden planlanır. WhatsApp veya telefon yeterlidir."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "İlgili hizmet nerede?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Üretim ve teklif Tabela sayfasındadır."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Daha fazla rehber?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Bilgi merkezi diğer karşılaştırmaları listeler."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

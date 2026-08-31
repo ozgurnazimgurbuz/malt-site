@@ -55,6 +55,15 @@ Laminasyon ihtiyacı kullanıma göre konuşulur; her işte zorunlu değildir.
 
 Yüzey hazırlığı (temizlik, yağ) uygulama kalitesinin yarısıdır.
 
+## Teklif öncesi ne paylaşın?
+
+Keşif sonrası yazılı teklif çıkar. Aşağıdakiler teklifi hızlandırır; hepsi zorunlu değildir.
+
+- Cephe, cam veya araç fotoğrafı
+- Yaklaşık ölçü veya keşif randevusu
+- Gece görünürlük ihtiyacı (var / yok)
+- Varsa vektörel logo veya marka kılavuzu
+
 ## Süreç
 
 1. **Keşif:** Ölçü, yüzey, erişim ve ihtiyaç netleştirilir.
@@ -70,16 +79,6 @@ Yüzey hazırlığı (temizlik, yağ) uygulama kalitesinin yarısıdır.
 Filo işlerinde araç başına takvim çıkarılır; tek günde tüm filo iddiası verilmez.
 
 Ortam sıcaklığı uygulamayı etkiler; uygun koşul kontrol edilir.
-
-## Üretim, deneyim ve yerel uzmanlık
-
-Malt Studio Tekirdağ merkezli çalışır. Bu hizmet içeriği; atölye üretimi, saha keşfi ve montajın aynı operasyonel hatta planlandığı gerçek iş modeline dayanır. Şube sayısı, uydurma sertifika, sahte yorum veya proje metriği eklenmez.
-
-- **Deneyim:** Keşif notları (ölçü, yüzey, erişim, işletme saati) teklif ve üretimi şekillendirir.
-- **Üretim:** Ölçüye özel imalat; stok tabela mantığı yerine yüzeye ve markaya göre üretim.
-- **Kalite süreci:** Atölye kontrolü → saha hizalama/sabitleme → teslim kontrolü.
-- **Yerel uzmanlık:** Tekirdağ üssünden merkez ve çevre ilçe işleri planlanır; Süleymanpaşa dahil merkez ve çevre ilçelere hizmet verilir.
-- **Kanıt:** Gerçek fotoğraflar proje sayfalarına bağlanır; stok görsel kullanılmaz.
 
 ## Deneyim ve üretim
 
@@ -110,87 +109,39 @@ Adres, saat ve iletişim: [Malt Studio Tekirdağ atölye ve iletişim](https://m
 [WhatsApp ile Teklif](https://wa.me/905525826959?text=Merhaba%2C%20Tekirda%C4%9F%20Ara%C3%A7%20Giydirme%20i%C3%A7in%20ke%C5%9Fif%20istiyorum.) [Teklif](https://maltstudio.co/#teklif) [Ara](tel:+905525826959)
 
 ## İlgili hizmetler
-
-###
-
-[TabelaTabela hizmeti.Hizmet](https://maltstudio.co/hizmetler/tabela/)
-
-###
-
-[Cam GiydirmeCam Giydirme hizmeti.Hizmet](https://maltstudio.co/hizmetler/cam-giydirme/)
-
-###
-
-[Display & POSDisplay & POS hizmeti.Hizmet](https://maltstudio.co/hizmetler/display-pos/)
-
-###
-
-[Ofis BrandingOfis Branding hizmeti.Hizmet](https://maltstudio.co/hizmetler/ofis-branding/)
+[Tabela Tabela hizmeti. Hizmet](https://maltstudio.co/hizmetler/tabela/) [Cam Giydirme Cam Giydirme hizmeti. Hizmet](https://maltstudio.co/hizmetler/cam-giydirme/) [Display & POS Display & POS hizmeti. Hizmet](https://maltstudio.co/hizmetler/display-pos/) [Ofis Branding Ofis Branding hizmeti. Hizmet](https://maltstudio.co/hizmetler/ofis-branding/)
 
 ## İlgili rehberler
-
-###
-
-[RehberKarar vermenize yardımcı rehber.Bilgi](https://maltstudio.co/bilgi/arac-giydirme-rehberi/)
+[Araç Giydirme Rehberi: Süreç, Ömür, Filo Karar rehberi. Bilgi](https://maltstudio.co/bilgi/arac-giydirme-rehberi/)
 
 ## İlgili sektörler
-
-###
-
-[Fabrika & OSBFabrika & OSB projeleri.Sektör](https://maltstudio.co/sektorler/fabrika-osb/)
-
-###
-
-[PerakendePerakende projeleri.Sektör](https://maltstudio.co/sektorler/perakende/)
+[Fabrika & OSB Fabrika & OSB projeleri. Sektör](https://maltstudio.co/sektorler/fabrika-osb/) [Perakende Perakende projeleri. Sektör](https://maltstudio.co/sektorler/perakende/)
 
 ## Keşfet
-
-###
-
-[HizmetlerTüm hizmetlerimize göz atın.Keşif](https://maltstudio.co/hizmetler/)
-
-###
-
-[BilgiRehberler ve karar içerikleri.Keşif](https://maltstudio.co/bilgi/)
-
-###
-
-[ProjelerTamamladığımız işlerden örnekler.Keşif](https://maltstudio.co/projeler/)
-
-###
-
-[SektörlerSektöre özel çözümler.Keşif](https://maltstudio.co/sektorler/)
-
-###
-
-[TekirdağTekirdağ yerel hizmet rehberi.Keşif](https://maltstudio.co/bolgeler/tekirdag/)
-
-###
-
-[Ana sayfaMalt Studio ana sayfa.Keşif](https://maltstudio.co/)
+[Hizmetler Tüm hizmetlerimize göz atın. Keşif](https://maltstudio.co/hizmetler/) [Bilgi Rehberler ve karar içerikleri. Keşif](https://maltstudio.co/bilgi/) [Projeler Tamamladığımız işlerden örnekler. Keşif](https://maltstudio.co/projeler/) [Sektörler Sektöre özel çözümler. Keşif](https://maltstudio.co/sektorler/) [Tekirdağ Tekirdağ yerel hizmet rehberi. Keşif](https://maltstudio.co/bolgeler/tekirdag/) [Ana sayfa Malt Studio ana sayfa. Keşif](https://maltstudio.co/)
 
 ## Sık sorulan sorular
 Boya zarar görür mü?
 
-Doğru folyo ve uygulamada kontrollü söküm hedeflenir.
+Doğru folyo ve uygulamada kontrollü söküm hedeflenir. Araç boyasının durumu sonucu etkiler; peşin ‘boya bozulmaz’ garantisi verilmez.
 Full mu parça mı?
 
-Bütçe ve görünür alana göre.
+Bütçe ve görünür alana göre. Parça giydirme çoğu filoda yeterlidir; full wrap zorunlu değildir.
 Filo indirimi?
 
-Toplu işlerde kurumsal teklif hazırlanır.
+Toplu işlerde kurumsal teklif hazırlanır. Peşin oran ilan edilmez.
 Süre?
 
-Tek araçta genelde kısa; filoda planlı takvim.
+Tek araçta genelde kısa; filoda planlı takvim. Ortam sıcaklığı uygun değilse iş ertelenir.
 Cam giydirme ayrı mı?
 
-Araç camı bu kapsamda; bina camı cam giydirme sayfasında.
+Araç camı bu kapsamdadır. Bina camı [cam giydirme](https://maltstudio.co/hizmetler/cam-giydirme/)  sayfasındadır.
 Tasarım?
 
-Marka kılavuzuna göre uyarlanır.
+Marka kılavuzuna göre uyarlanır. Araç listesi ve fotoğraf olmadan şablon çıkmaz.
 Kışın uygulanır mı?
 
-Ortam sıcaklığı uygunluğu kontrol edilir.
+Ortam sıcaklığı uygunsa. Uygun değilse iş ertelenir; kalitesiz yapışma riski alınmaz.
 Ömür?
 
-Folyo tipi ve kullanıma bağlıdır.
+Folyo tipi, yıkama, güneş ve kullanıma bağlıdır. Sayısal ömür vaadi verilmez.

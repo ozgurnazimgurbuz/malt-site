@@ -19,7 +19,7 @@ Uzaktan görülen, yönlendiren totem tabela sistemleri.
 
 Totem; yol kenarı, tesis girişi ve otopark yaklaşımında markayı ve yönü taşır.
 
-Taşınabilir indoor display totem /hizmetler/display-pos/ ailesindedir.
+Taşınabilir indoor display totem [Display & POS](https://maltstudio.co/hizmetler/display-pos/)  ailesindedir.
 
 Yükseklik, temel, ışıklı tercih ve görüş mesafesi keşifte hesaplanır.
 
@@ -55,6 +55,15 @@ Kompozit yüzeyler baskı veya kesim grafik taşır; ışıklı kasa seçeneği 
 
 Temel ve ankraj saha koşullarına bağlıdır; izin ihtiyacı konuma göre değişir.
 
+## Teklif öncesi ne paylaşın?
+
+Keşif sonrası yazılı teklif çıkar. Aşağıdakiler teklifi hızlandırır; hepsi zorunlu değildir.
+
+- Cephe, cam veya araç fotoğrafı
+- Yaklaşık ölçü veya keşif randevusu
+- Gece görünürlük ihtiyacı (var / yok)
+- Varsa vektörel logo veya marka kılavuzu
+
 ## Süreç
 
 1. **Keşif:** Ölçü, yüzey, erişim ve ihtiyaç netleştirilir.
@@ -70,16 +79,6 @@ Keşifte zemin, görüş mesafesi, elektrik (ışıklıysa) ve güvenlik mesafes
 Tasarım onayı sonrası gövde üretimi; saha montajı vinç/iskele planıyla yapılır.
 
 Teslimde dikeylik, bağlantı ve varsa aydınlatma kontrol edilir.
-
-## Üretim, deneyim ve yerel uzmanlık
-
-Malt Studio Tekirdağ merkezli çalışır. Bu hizmet içeriği; atölye üretimi, saha keşfi ve montajın aynı operasyonel hatta planlandığı gerçek iş modeline dayanır. Şube sayısı, uydurma sertifika, sahte yorum veya proje metriği eklenmez.
-
-- **Deneyim:** Keşif notları (ölçü, yüzey, erişim, işletme saati) teklif ve üretimi şekillendirir.
-- **Üretim:** Ölçüye özel imalat; stok tabela mantığı yerine yüzeye ve markaya göre üretim.
-- **Kalite süreci:** Atölye kontrolü → saha hizalama/sabitleme → teslim kontrolü.
-- **Yerel uzmanlık:** Tekirdağ üssünden merkez ve çevre ilçe işleri planlanır; Süleymanpaşa dahil merkez ve çevre ilçelere hizmet verilir.
-- **Kanıt:** Gerçek fotoğraflar proje sayfalarına bağlanır; stok görsel kullanılmaz.
 
 ## Deneyim ve üretim
 
@@ -110,95 +109,44 @@ Adres, saat ve iletişim: [Malt Studio Tekirdağ atölye ve iletişim](https://m
 [WhatsApp ile Teklif](https://wa.me/905525826959?text=Merhaba%2C%20Tekirda%C4%9F%20Totem%20Tabela%20i%C3%A7in%20ke%C5%9Fif%20istiyorum.) [Teklif](https://maltstudio.co/#teklif) [Ara](tel:+905525826959)
 
 ## İlgili hizmetler
-
-###
-
-[TabelaTabela hizmeti.Hizmet](https://maltstudio.co/hizmetler/tabela/)
-
-###
-
-[İş Güvenliği Tabelalarıİş Güvenliği Tabelaları hizmeti.Hizmet](https://maltstudio.co/hizmetler/is-guvenligi-tabelalari/)
-
-###
-
-[Kutu HarfKutu Harf hizmeti.Hizmet](https://maltstudio.co/hizmetler/kutu-harf/)
-
-###
-
-[Display & POSDisplay & POS hizmeti.Hizmet](https://maltstudio.co/hizmetler/display-pos/)
+[Tabela Tabela hizmeti. Hizmet](https://maltstudio.co/hizmetler/tabela/) [İş Güvenliği Tabelaları İş Güvenliği Tabelaları hizmeti. Hizmet](https://maltstudio.co/hizmetler/is-guvenligi-tabelalari/) [Kutu Harf Kutu Harf hizmeti. Hizmet](https://maltstudio.co/hizmetler/kutu-harf/) [Display & POS Display & POS hizmeti. Hizmet](https://maltstudio.co/hizmetler/display-pos/)
 
 ## İlgili rehberler
+[Totem Tabela Seçim Rehberi Karar rehberi. Bilgi](https://maltstudio.co/bilgi/totem-secim-rehberi/) [Tabela Çeşitleri: Hangisi Ne İşe Yarar? Karar rehberi. Bilgi](https://maltstudio.co/bilgi/tabela-cesitleri/)
 
-###
+## İlgili projeler
+[Yamanlar Ekspertiz Tamamlanan proje örneği. Proje](https://maltstudio.co/projeler/yamanlar-ekspertiz/)
 
-[RehberKarar vermenize yardımcı rehber.Bilgi](https://maltstudio.co/bilgi/totem-secim-rehberi/)
-
-###
-
-[RehberKarar vermenize yardımcı rehber.Bilgi](https://maltstudio.co/bilgi/tabela-cesitleri/)
+[Tüm projeler →](https://maltstudio.co/projeler/)
 
 ## İlgili sektörler
-
-###
-
-[Fabrika & OSBFabrika & OSB projeleri.Sektör](https://maltstudio.co/sektorler/fabrika-osb/)
-
-###
-
-[İnşaat & Şantiyeİnşaat & Şantiye projeleri.Sektör](https://maltstudio.co/sektorler/insaat-santiye/)
-
-###
-
-[Plaza & OfisPlaza & Ofis projeleri.Sektör](https://maltstudio.co/sektorler/plaza-ofis/)
+[Fabrika & OSB Fabrika & OSB projeleri. Sektör](https://maltstudio.co/sektorler/fabrika-osb/) [İnşaat & Şantiye İnşaat & Şantiye projeleri. Sektör](https://maltstudio.co/sektorler/insaat-santiye/) [Plaza & Ofis Plaza & Ofis projeleri. Sektör](https://maltstudio.co/sektorler/plaza-ofis/)
 
 ## Keşfet
-
-###
-
-[HizmetlerTüm hizmetlerimize göz atın.Keşif](https://maltstudio.co/hizmetler/)
-
-###
-
-[BilgiRehberler ve karar içerikleri.Keşif](https://maltstudio.co/bilgi/)
-
-###
-
-[ProjelerTamamladığımız işlerden örnekler.Keşif](https://maltstudio.co/projeler/)
-
-###
-
-[SektörlerSektöre özel çözümler.Keşif](https://maltstudio.co/sektorler/)
-
-###
-
-[TekirdağTekirdağ yerel hizmet rehberi.Keşif](https://maltstudio.co/bolgeler/tekirdag/)
-
-###
-
-[Ana sayfaMalt Studio ana sayfa.Keşif](https://maltstudio.co/)
+[Hizmetler Tüm hizmetlerimize göz atın. Keşif](https://maltstudio.co/hizmetler/) [Bilgi Rehberler ve karar içerikleri. Keşif](https://maltstudio.co/bilgi/) [Projeler Tamamladığımız işlerden örnekler. Keşif](https://maltstudio.co/projeler/) [Sektörler Sektöre özel çözümler. Keşif](https://maltstudio.co/sektorler/) [Tekirdağ Tekirdağ yerel hizmet rehberi. Keşif](https://maltstudio.co/bolgeler/tekirdag/) [Ana sayfa Malt Studio ana sayfa. Keşif](https://maltstudio.co/)
 
 ## Sık sorulan sorular
 Totem ile pylon farkı?
 
-Pylon genelde daha yüksek yol sistemi; aynı ailede ele alınır.
+Pylon genelde daha yüksek yol sistemidir.
 İzin gerekir mi?
 
-Konuma göre değişir; keşifte konuşulur.
+Konuma göre değişir. İzin riski keşifte konuşulur; süre garanti edilmez.
 Işıklı totem?
 
-Evet, gece yaklaşım için.
+Evet, gece yaklaşım için ışıklı üretilebilir. LED servis erişimi tasarımda bırakılır.
 Temel kim yapar?
 
-Saha planına göre koordinasyon sağlanır.
+Saha planına göre koordinasyon sağlanır. Temel tipi zemin koşullarına bağlıdır.
 Indoor totem?
 
-Display/POS sayfasına bakın.
+Taşınabilir indoor display [Display & POS](https://maltstudio.co/hizmetler/display-pos/)  ailesindedir. Bu sayfa outdoor tesis/yol totemidir.
 OSB montajı?
 
-Evet, planlı keşif ile.
+Evet, planlı keşif ile. Vinç ve güvenlik penceresi keşif notuna yazılır.
 Süre?
 
-Temel ve üretime bağlıdır.
+Temel ve üretime bağlıdır. Temel kürü takvime yazılır.
 Bakım?
 
-Periyodik kontrol önerilir.
+Bağlantı ve yüzey kontrolü önerilir. Işıklıysa LED servis erişimi korunmalıdır.

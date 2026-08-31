@@ -11,6 +11,7 @@
     X-Content-Type-Options = "nosniff"
     Referrer-Policy = "strict-origin-when-cross-origin"
     Permissions-Policy = "geolocation=(), microphone=(), camera=()"
+    Strict-Transport-Security = "max-age=31536000"
     Cache-Control = "public, max-age=0, must-revalidate"
 
 # Bazı istemciler <link rel="icon"> etiketine bakmadan doğrudan /favicon.ico ister.
@@ -190,6 +191,11 @@
   [headers.values]
     Cache-Control = "public, max-age=604800"
 
+[[headers]]
+  for = "/assets/*.js"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"
+
 # CMS güncellemelerinin anında görünmesi için her istekte doğrulanır.
 [[headers]]
   for = "/content.json"
@@ -200,6 +206,17 @@
   for = "/admin/*"
   [headers.values]
     Cache-Control = "public, max-age=0, must-revalidate"
+    X-Robots-Tag = "noindex"
+
+[[headers]]
+  for = "/proje/*"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+    X-Robots-Tag = "noindex, nofollow"
+
+[[headers]]
+  for = "/404.html"
+  [headers.values]
     X-Robots-Tag = "noindex"
 
 # AI-agent discovery + Markdown twins (not in sitemap; agents fetch on demand).
@@ -220,9 +237,11 @@
   [headers.values]
     Content-Type = "text/markdown; charset=utf-8"
     Cache-Control = "public, max-age=0, must-revalidate"
+    X-Robots-Tag = "noindex"
 
 [[headers]]
   for = "/**/*.md"
   [headers.values]
     Content-Type = "text/markdown; charset=utf-8"
     Cache-Control = "public, max-age=0, must-revalidate"
+    X-Robots-Tag = "noindex"

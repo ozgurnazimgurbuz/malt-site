@@ -1,0 +1,180 @@
+{
+  "status": "runtime_not_collected",
+  "reason": "Lighthouse CLI is not installed. Node toolchain was not added. Chrome binary exists but HAR was not captured.",
+  "captured_at": "2026-08-30T21:15:34Z",
+  "home_images": {
+    "jpeg_fallback_bytes": 2286525,
+    "webp_source_bytes": 1564562,
+    "picture_count": 6,
+    "img_count": 6,
+    "files": [
+      {
+        "src": "/images/uploads/6c209abf-2af4-4517-a385-92dd52cc044f.jpg",
+        "exists": true,
+        "bytes": 398341,
+        "ext": ".jpg",
+        "width_attr": "800",
+        "height_attr": "1000",
+        "loading": "lazy",
+        "in_picture": true,
+        "file_width": 1012,
+        "file_height": 1800
+      },
+      {
+        "src": "/images/uploads/img_6432.jpg",
+        "exists": true,
+        "bytes": 306055,
+        "ext": ".jpg",
+        "width_attr": "800",
+        "height_attr": "1000",
+        "loading": "lazy",
+        "in_picture": true,
+        "file_width": 1012,
+        "file_height": 1800
+      },
+      {
+        "src": "/images/uploads/img_7536.jpg",
+        "exists": true,
+        "bytes": 373653,
+        "ext": ".jpg",
+        "width_attr": "800",
+        "height_attr": "1000",
+        "loading": "lazy",
+        "in_picture": true,
+        "file_width": 1012,
+        "file_height": 1800
+      },
+      {
+        "src": "/images/uploads/49def14c-ef5f-4f6c-ba65-60a6654072b7-1-.jpg",
+        "exists": true,
+        "bytes": 421218,
+        "ext": ".jpg",
+        "width_attr": "800",
+        "height_attr": "1000",
+        "loading": "lazy",
+        "in_picture": true,
+        "file_width": 1012,
+        "file_height": 1800
+      },
+      {
+        "src": "/images/uploads/img_7847.jpg",
+        "exists": true,
+        "bytes": 355564,
+        "ext": ".jpg",
+        "width_attr": "800",
+        "height_attr": "1000",
+        "loading": "lazy",
+        "in_picture": true,
+        "file_width": 1012,
+        "file_height": 1800
+      },
+      {
+        "src": "/images/uploads/snapinsta.to_721735614_18085976048381838_6119022146079124288_n.jpg",
+        "exists": true,
+        "bytes": 431694,
+        "ext": ".jpg",
+        "width_attr": "800",
+        "height_attr": "1000",
+        "loading": "lazy",
+        "in_picture": true,
+        "file_width": 1200,
+        "file_height": 1600
+      }
+    ],
+    "webp_sources": [
+      {
+        "srcset": "/images/uploads/6c209abf-2af4-4517-a385-92dd52cc044f.webp",
+        "bytes": 261342,
+        "exists": true
+      },
+      {
+        "srcset": "/images/uploads/img_6432.webp",
+        "bytes": 183208,
+        "exists": true
+      },
+      {
+        "srcset": "/images/uploads/img_7536.webp",
+        "bytes": 291790,
+        "exists": true
+      },
+      {
+        "srcset": "/images/uploads/49def14c-ef5f-4f6c-ba65-60a6654072b7-1-.webp",
+        "bytes": 296792,
+        "exists": true
+      },
+      {
+        "srcset": "/images/uploads/img_7847.webp",
+        "bytes": 240134,
+        "exists": true
+      },
+      {
+        "srcset": "/images/uploads/snapinsta.to_721735614_18085976048381838_6119022146079124288_n.webp",
+        "bytes": 291296,
+        "exists": true
+      }
+    ],
+    "lazy_imgs": 6,
+    "preload_images": [],
+    "browser_selected_bytes": null,
+    "browser_selected_note": "HAR/Lighthouse not run. JPEG vs WebP are disk sizes of referenced files, not transfer."
+  },
+  "first_work_img_lazy": true,
+  "redirect_probes": [
+    {
+      "start": "https://maltstudio.co/",
+      "hops": [
+        {
+          "url": "https://maltstudio.co/",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "chain_length": 0
+    },
+    {
+      "start": "https://maltstudio.co/hizmetler/tabela",
+      "hops": [
+        {
+          "url": "https://maltstudio.co/hizmetler/tabela",
+          "status": 301,
+          "location": "/hizmetler/tabela/"
+        },
+        {
+          "url": "https://maltstudio.co/hizmetler/tabela/",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "chain_length": 1
+    },
+    {
+      "start": "https://www.maltstudio.co/",
+      "hops": [
+        {
+          "url": "https://www.maltstudio.co/",
+          "status": 301,
+          "location": "https://maltstudio.co/"
+        },
+        {
+          "url": "https://maltstudio.co/",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "chain_length": 1
+    },
+    {
+      "start": "https://maltstudio.co/iletisim/",
+      "hops": [
+        {
+          "url": "https://maltstudio.co/iletisim/",
+          "status": 404,
+          "location": null
+        }
+      ],
+      "chain_length": 0
+    }
+  ],
+  "runs": [],
+  "median_note": "Fewer than 3 Lighthouse runs; no median."
+}

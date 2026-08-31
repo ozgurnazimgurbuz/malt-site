@@ -6,6 +6,7 @@ from __future__ import annotations
 import html
 import json
 import sys
+from datetime import datetime, timezone
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
@@ -29,8 +30,8 @@ from lib_site import (  # noqa: E402
     cards,
     crumbs,
     cta_band,
-    eeat_block,
     faq_html,
+    faq_ld,
     footer,
     head,
     header,
@@ -38,9 +39,11 @@ from lib_site import (  # noqa: E402
     page_graph,
     process_steps,
     related_rail,
+    article_ld,
     service_ld,
     wa,
     webpage_ld,
+    website_node,
     write,
 )
 from project_cases_a4 import KNOWLEDGE_BY_SERVICE  # noqa: E402
@@ -92,6 +95,11 @@ ARTICLES = [
     ("tabela-fiyati", "Tabela Fiyatını Neler Etkiler?", "tabela", "tabela fiyatını neler etkiler"),
     ("totem-secim-rehberi", "Totem Tabela Seçim Rehberi", "totem", "totem tabela nasıl seçilir"),
 ]
+ARTICLE_TITLES = {f"/bilgi/{s}/": t for s, t, _, _ in ARTICLES}
+
+
+def article_title(href: str) -> str:
+    return ARTICLE_TITLES.get(href, "Rehber")
 
 
 def tr_service_phrase(name: str) -> str:
@@ -198,10 +206,12 @@ def _picture(src: str, alt: str, *, lazy: bool) -> str:
             break
     sizes = "(max-width:720px) 100vw, 780px"
     loading = ' loading="lazy"' if lazy else ""
+    prio = ' fetchpriority="high"' if not lazy else ""
+    decoding = ' decoding="async"' if lazy else ""
     img = (
         f'<img src="{html.escape(src)}" alt="{html.escape(alt)}" '
         f'width="800" height="1000" sizes="{sizes}"'
-        f'{loading} decoding="async">'
+        f"{loading}{prio}{decoding}>"
     )
     if webp:
         return (
@@ -209,6 +219,115 @@ def _picture(src: str, alt: str, *, lazy: bool) -> str:
             f'sizes="{sizes}">{img}</picture>'
         )
     return img
+
+
+def table(headers: list[str], rows: list[list[str]]) -> str:
+    cell = 'style="border:1px solid var(--line);padding:10px 12px;text-align:left;vertical-align:top"'
+    th = "".join(f"<th {cell}>{h}</th>" for h in headers)
+    body = "".join(
+        "<tr>" + "".join(f"<td {cell}>{c}</td>" for c in row) + "</tr>" for row in rows
+    )
+    return (
+        '<div class="table-wrap" style="overflow-x:auto;margin:1.25rem 0">'
+        '<table style="width:100%;border-collapse:collapse;font-size:15px;line-height:1.5">'
+        f"<thead><tr>{th}</tr></thead><tbody>{body}</tbody></table></div>"
+    )
+
+
+def quote_prep() -> str:
+    return block(
+        "Teklif öncesi ne paylaşın?",
+        p("Keşif sonrası yazılı teklif çıkar. Aşağıdakiler teklifi hızlandırır; hepsi zorunlu değildir.")
+        + ul(
+            [
+                "Cephe, cam veya araç fotoğrafı",
+                "Yaklaşık ölçü veya keşif randevusu",
+                "Gece görünürlük ihtiyacı (var / yok)",
+                "Varsa vektörel logo veya marka kılavuzu",
+            ]
+        ),
+    )
+
+
+ARTICLE_TABLES = {
+    "tabela-cesitleri": (
+        "Tabela türleri nasıl ayrılır?",
+        ["Tip", "Ne işe yarar", "Gece", "İlgili hizmet"],
+        [
+            [
+                "Işıksız tabela",
+                "Gündüz odaklı cephe ve iç bilgilendirme",
+                "Yok / düşük",
+                '<a href="/hizmetler/tabela/">Tabela</a>',
+            ],
+            [
+                "Işıklı tabela",
+                "Gece de okunan LED’li cephe sistemi",
+                "Var",
+                '<a href="/hizmetler/isikli-tabela/">Işıklı tabela</a>',
+            ],
+            [
+                "Kutu harf",
+                "Üç boyutlu cephe yazısı",
+                "Modele göre",
+                '<a href="/hizmetler/kutu-harf/">Kutu harf</a>',
+            ],
+            [
+                "Totem",
+                "Yol ve tesis yaklaşımı",
+                "İhtiyaca göre",
+                '<a href="/hizmetler/totem/">Totem</a>',
+            ],
+            [
+                "Cam giydirme",
+                "Vitrin mesajı, gizlilik, kampanya",
+                "Hayır (aydınlatma camın içindedir)",
+                '<a href="/hizmetler/cam-giydirme/">Cam giydirme</a>',
+            ],
+            [
+                "Lightbox",
+                "İç mekân / retail ışıklı kutu ve çerçeve",
+                "Kutu içi ışık",
+                '<a href="/hizmetler/lightbox/">Lightbox</a>',
+            ],
+        ],
+    ),
+    "isikli-mi-isiksiz-mi": (
+        "Işıklı ve ışıksız tabela farkı",
+        ["Kriter", "Işıklı tabela", "Işıksız tabela"],
+        [
+            ["Gece okunurluk", "LED ile okunur", "Gündüz odaklı; gece kaybolabilir"],
+            ["Elektrik", "Hat, kasa ve güç kaynağı gerekir", "Gerekmez"],
+            ["Bakım", "LED ve güç kaynağı servisi planlanır", "Yüzey, solma ve darbe kontrolü"],
+            ["Tipik yer", "Gece açık mağaza, eczane, plaza girişi", "Gündüz işletme, iç yön"],
+            [
+                "Sipariş",
+                '<a href="/hizmetler/isikli-tabela/">Işıklı tabela</a>',
+                '<a href="/hizmetler/tabela/">Tabela</a>',
+            ],
+            [
+                "Lightbox",
+                "Ayrı üründür; cephe LED tabela değildir",
+                "Ayrı üründür",
+            ],
+        ],
+    ),
+    "kutu-harf-malzemeler": (
+        "Pleksi ve paslanmaz nasıl ayrılır?",
+        ["Kriter", "Pleksi / akrilik", "Paslanmaz"],
+        [
+            ["Görünüm", "Renk ve ışık geçirgenliği", "Metal prestij, dış dayanım"],
+            ["Işıklı kullanım", "Işıklı harfte yaygındır", "Işıklı veya ışıksız üretilebilir"],
+            ["Dikkat", "Çizilme ve temizlik hassasiyeti", "Mimariye uyum; bütçe genelde daha yüksek"],
+            ["Montaj", "Keşifte yüzey ve aparat netleşir", "Keşifte yüzey ve aparat netleşir"],
+            [
+                "Sipariş",
+                '<a href="/hizmetler/kutu-harf/">Kutu harf</a>',
+                '<a href="/hizmetler/kutu-harf/">Kutu harf</a>',
+            ],
+        ],
+    ),
+}
 
 
 def depth_pad(topic: str, focus: str) -> str:
@@ -235,18 +354,18 @@ SERVICE_DEPTH = {
         ],
         "apps": ["Mağaza ve dükkan cepheleri", "Plaza / ofis girişleri", "Fabrika ve depo", "Kurumsal tesis kimliği", "İç mekan bilgilendirme"],
         "materials": "Kompozit panel, forex/PVC, vinil baskı, ışıklı/ışıksız kasa seçenekleri. Malzeme; konum, dayanım ve bütçeye göre seçilir.",
-        "related_projects": ["liman-kahve", "volt-enerji", "dortnal"],
+        "related_projects": ["ofiso", "yamanlar-ekspertiz", "pembe-pasta-evi", "anka"],
         "related_services": ["isikli-tabela", "kutu-harf", "totem", "cam-giydirme"],
         "bilgi": ["/bilgi/tabela-cesitleri/", "/bilgi/tabela-fiyati/"],
         "faqs": [
-            ("Tabela ile ışıklı tabela farkı nedir?", "Işıklı tabela gece görünürlük için LED’li sistemdir; ayrı sayfası vardır. Bu sayfa genel tabela hizmetini kapsar."),
-            ("Montajı siz yapıyor musunuz?", "Evet. Üretim ve yerinde montaj birlikte planlanır."),
-            ("Fiyat listesi var mı?", "Hayır. Ölçü, malzeme ve montaj keşiften sonra netleşir."),
-            ("Tekirdağ dışında çalışıyor musunuz?", "Tekirdağ üssünden çevre ilçelere keşif ve montaj planlanır."),
-            ("Ne kadar sürer?", "Onay ve ölçüye göre birkaç iş gününden birkaç haftaya değişir."),
-            ("Tasarım desteği var mı?", "Marka dosyanız yoksa sade ve okunur tasarım önerisi sunulur."),
-            ("Eski tabela sökümü?", "Yenileme işlerinde söküm planlanabilir."),
-            ("Garanti?", "Malzeme ve işçilik kapsamı teklifte yazılı netleştirilir."),
+            ("Tabela ile ışıklı tabela farkı nedir?", 'Işıklı tabela gece görünürlük için LED’li sistemdir. Ayrı sayfa: <a href="/hizmetler/isikli-tabela/">ışıklı tabela</a>. Bu sayfa genel tabela üretimini kapsar.'),
+            ("Montajı siz yapıyor musunuz?", "Evet. Üretim atölyede, montaj sahada birlikte planlanır."),
+            ("Fiyat listesi var mı?", "Hayır. Ölçü, malzeme ve montaj keşiften sonra yazılı netleşir. Sabit internet fiyatı yayınlanmaz."),
+            ("Tekirdağ dışında çalışıyor musunuz?", 'Tekirdağ üssünden çevre ilçelere keşif ve montaj planlanır. Atölye: <a href="/bolgeler/tekirdag/">Tekirdağ iletişim</a>.'),
+            ("Ne kadar sürer?", "Onay ve ölçüye göre birkaç iş gününden birkaç haftaya değişir. Süre teklifte yazılır; tutulmayan süre vaadi yoktur."),
+            ("Tasarım desteği var mı?", "Marka dosyanız yoksa sade ve okunur tasarım önerisi sunulur. Vektörel logo kaliteyi yükseltir."),
+            ("Eski tabela sökümü?", "Yenileme işlerinde söküm ve yüzey rötuşu planlanabilir; peşin dahil varsayılmaz."),
+            ("Garanti?", "Malzeme ve işçilik kapsamı teklifte yazılı netleştirilir. Peşin ‘ömür boyu’ vaadi yoktur."),
         ],
     },
     "isikli-tabela": {
@@ -265,18 +384,18 @@ SERVICE_DEPTH = {
         ],
         "apps": ["Mağaza cepheleri", "Plaza girişleri", "Klinik / eczane", "Hizmet noktaları", "Kurumsal tesisler"],
         "materials": "Alüminyum kasa, LED modül, SMPS, akrilik/pleksi veya uygun yüzeyler.",
-        "related_projects": ["liman-kahve", "dortnal", "mera-otel"],
+        "related_projects": ["kosem-doner"],
         "related_services": ["tabela", "lightbox", "kutu-harf", "cam-giydirme"],
         "bilgi": ["/bilgi/isikli-mi-isiksiz-mi/", "/bilgi/tabela-cesitleri/"],
         "faqs": [
-            ("LED tabela neon mu?", "Hayır. Neon ayrı formdur."),
-            ("Lightbox istiyorum?", "Lightbox ayrı sayfadadır: /hizmetler/lightbox/."),
-            ("Elektrik hazır değilse?", "Keşifte altyapı ihtiyacı konuşulur."),
-            ("Servis ve arıza?", "LED/güç kaynağı servisi için iletişime geçilir."),
-            ("Fiyatı neye göre?", "Ölçü, LED, yüzey ve montaj koşulları."),
-            ("Su ve toz?", "Dış mekân kasalarında sızdırmazlık planı yapılır."),
-            ("Gece çok mu parlak olur?", "LED yoğunluğu cepheye göre ayarlanır."),
-            ("Süre?", "Onay sonrası ölçeğe göre netlenir."),
+            ("LED tabela neon mu?", "Hayır. Neon ayrı formdur. Bu sayfadaki ışıklı tabela LED kasa sistemidir."),
+            ("Lightbox istiyorum?", 'Lightbox ayrı üründür: <a href="/hizmetler/lightbox/">lightbox</a>. Cephe LED tabela bu sayfadadır.'),
+            ("Elektrik hazır değilse?", "Keşifte altyapı ihtiyacı konuşulur. Hat yoksa teklife altyapı kalemi yazılır."),
+            ("Servis ve arıza?", "LED ve güç kaynağı servisi için iletişime geçilir. Peşin ömür boyu vaadi yoktur."),
+            ("Fiyatı neye göre?", "Ölçü, LED, yüzey ve montaj koşulları. Sabit liste yoktur; keşif sonrası yazılı teklif."),
+            ("Su ve toz?", "Dış mekân kasalarında sızdırmazlık planı keşifte konuşulur."),
+            ("Gece çok mu parlak olur?", "LED yoğunluğu cepheye göre ayarlanır; aşırı parlaklık okunurluğu bozar."),
+            ("Süre?", "Onay sonrası ölçeğe göre netlenir ve teklifte yazılır."),
         ],
     },
     "kutu-harf": {
@@ -295,18 +414,18 @@ SERVICE_DEPTH = {
         ],
         "apps": ["Plaza cepheleri", "Mağaza isim yazıları", "Ofis girişleri", "Fabrika girişi", "Resepsiyon 3D logo"],
         "materials": "Pleksi/akrilik, paslanmaz, LED (ışıklı modeller), yan/montaj aparatları.",
-        "related_projects": ["mera-otel", "ekip-yazilim", "volt-enerji"],
+        "related_projects": ["kosem-doner", "okka-tarim"],
         "related_services": ["ofis-branding", "isikli-tabela", "tabela", "lightbox"],
         "bilgi": ["/bilgi/kutu-harf-malzemeler/", "/bilgi/tabela-cesitleri/"],
         "faqs": [
-            ("Pleksi mi paslanmaz mı?", "Bütçe, mimari ve bakım beklentisine göre; rehber sayfada karşılaştırılır."),
-            ("Channel letters nedir?", "Kutu harfin uluslararası adıdır."),
-            ("Işıklı olur mu?", "Evet, modele göre LED’li üretilir."),
-            ("Font şart mı?", "Vektörel logo/font dosyası kaliteyi yükseltir."),
-            ("Montaj her yüzeye olur mu?", "Keşif şarttır."),
-            ("Bakım?", "Dış ortamda periyodik kontrol önerilir."),
-            ("Süre?", "Harf adedi ve malzemeye göre değişir."),
-            ("Ofis içi logo?", "Ofis branding paketiyle birlikte planlanabilir."),
+            ("Pleksi mi paslanmaz mı?", 'Bütçe, mimari ve bakım beklentisine göre değişir. Karşılaştırma: <a href="/bilgi/kutu-harf-malzemeler/">kutu harf malzemeleri</a>.'),
+            ("Channel letters nedir?", "Kutu harfin uluslararası adıdır. Ayrı URL yoktur; üretim bu sayfadadır."),
+            ("Işıklı olur mu?", "Evet, modele göre LED’li üretilir. Işıklı/ışıksız tercih üretimden önce netleşir."),
+            ("Font şart mı?", "Vektörel logo veya font dosyası kaliteyi yükseltir. Font lisansı müşteri sorumluluğundadır."),
+            ("Montaj her yüzeye olur mu?", "Hayır. Kompozit, beton ve cam farklı aparat ister; keşif şarttır."),
+            ("Bakım?", "Dış ortamda periyodik kontrol önerilir. Işıklı harflerde servis erişimi korunmalıdır."),
+            ("Süre?", "Harf adedi ve malzemeye göre değişir; teklifte yazılır."),
+            ("Ofis içi logo?", 'Ofis içi 3D logo <a href="/hizmetler/ofis-branding/">ofis branding</a> paketiyle birlikte planlanabilir.'),
         ],
     },
     "totem": {
@@ -319,24 +438,24 @@ SERVICE_DEPTH = {
         "extra": [
             "Totem; yol kenarı, tesis girişi ve otopark yaklaşımında markayı ve yönü taşır.",
             "Pylon/monument alt tipleri bu sayfada anlatılır; ayrı doorway URL açılmaz.",
-            "Taşınabilir indoor display totem /hizmetler/display-pos/ ailesindedir.",
+            'Taşınabilir indoor display totem <a href="/hizmetler/display-pos/">Display & POS</a> ailesindedir.',
             "Yükseklik, temel, ışıklı tercih ve görüş mesafesi keşifte hesaplanır.",
             "Tekirdağ tesis ve OSB girişlerinde keşif sonrası temel ve yükseklik netleşir.",
         ],
         "apps": ["Fabrika/OSB girişi", "Plaza yaklaşımı", "Yol kenarı", "Otopark", "Kurumsal kampüs"],
         "materials": "Çelik/alüminyum konstrüksiyon, kompozit yüzey, ışıklı kasa seçenekleri.",
-        "related_projects": ["volt-enerji", "kuzey-tekstil"],
+        "related_projects": ["yamanlar-ekspertiz"],
         "related_services": ["tabela", "is-guvenligi-tabelalari", "kutu-harf", "display-pos"],
         "bilgi": ["/bilgi/totem-secim-rehberi/", "/bilgi/tabela-cesitleri/"],
         "faqs": [
-            ("Totem ile pylon farkı?", "Pylon genelde daha yüksek yol sistemi; aynı ailede ele alınır."),
-            ("İzin gerekir mi?", "Konuma göre değişir; keşifte konuşulur."),
-            ("Işıklı totem?", "Evet, gece yaklaşım için."),
-            ("Temel kim yapar?", "Saha planına göre koordinasyon sağlanır."),
-            ("Indoor totem?", "Display/POS sayfasına bakın."),
-            ("OSB montajı?", "Evet, planlı keşif ile."),
-            ("Süre?", "Temel ve üretime bağlıdır."),
-            ("Bakım?", "Periyodik kontrol önerilir."),
+            ("Totem ile pylon farkı?", "Pylon genelde daha yüksek yol sistemidir. Aynı ailede ele alınır; ayrı doorway URL açılmaz."),
+            ("İzin gerekir mi?", "Konuma göre değişir. İzin riski keşifte konuşulur; süre garanti edilmez."),
+            ("Işıklı totem?", "Evet, gece yaklaşım için ışıklı üretilebilir. LED servis erişimi tasarımda bırakılır."),
+            ("Temel kim yapar?", "Saha planına göre koordinasyon sağlanır. Temel tipi zemin koşullarına bağlıdır."),
+            ("Indoor totem?", 'Taşınabilir indoor display <a href="/hizmetler/display-pos/">Display & POS</a> ailesindedir. Bu sayfa outdoor tesis/yol totemidir.'),
+            ("OSB montajı?", "Evet, planlı keşif ile. Vinç ve güvenlik penceresi keşif notuna yazılır."),
+            ("Süre?", "Temel ve üretime bağlıdır. Temel kürü takvime yazılır."),
+            ("Bakım?", "Bağlantı ve yüzey kontrolü önerilir. Işıklıysa LED servis erişimi korunmalıdır."),
         ],
     },
     "arac-giydirme": {
@@ -355,18 +474,18 @@ SERVICE_DEPTH = {
         ],
         "apps": ["Panelvan", "Kurumsal filo", "Servis araçları", "Dağıtım", "Demo araçları"],
         "materials": "Araç folyoları, laminasyon (ihtiyaca göre), dijital baskı.",
-        "related_projects": ["kuzey-tekstil"],
+        "related_projects": [],
         "related_services": ["tabela", "cam-giydirme", "display-pos", "ofis-branding"],
         "bilgi": ["/bilgi/arac-giydirme-rehberi/"],
         "faqs": [
-            ("Boya zarar görür mü?", "Doğru folyo ve uygulamada kontrollü söküm hedeflenir."),
-            ("Full mu parça mı?", "Bütçe ve görünür alana göre."),
-            ("Filo indirimi?", "Toplu işlerde kurumsal teklif hazırlanır."),
-            ("Süre?", "Tek araçta genelde kısa; filoda planlı takvim."),
-            ("Cam giydirme ayrı mı?", "Araç camı bu kapsamda; bina camı cam giydirme sayfasında."),
-            ("Tasarım?", "Marka kılavuzuna göre uyarlanır."),
-            ("Kışın uygulanır mı?", "Ortam sıcaklığı uygunluğu kontrol edilir."),
-            ("Ömür?", "Folyo tipi ve kullanıma bağlıdır."),
+            ("Boya zarar görür mü?", "Doğru folyo ve uygulamada kontrollü söküm hedeflenir. Araç boyasının durumu sonucu etkiler; peşin ‘boya bozulmaz’ garantisi verilmez."),
+            ("Full mu parça mı?", "Bütçe ve görünür alana göre. Parça giydirme çoğu filoda yeterlidir; full wrap zorunlu değildir."),
+            ("Filo indirimi?", "Toplu işlerde kurumsal teklif hazırlanır. Peşin oran ilan edilmez."),
+            ("Süre?", "Tek araçta genelde kısa; filoda planlı takvim. Ortam sıcaklığı uygun değilse iş ertelenir."),
+            ("Cam giydirme ayrı mı?", 'Araç camı bu kapsamdadır. Bina camı <a href="/hizmetler/cam-giydirme/">cam giydirme</a> sayfasındadır.'),
+            ("Tasarım?", "Marka kılavuzuna göre uyarlanır. Araç listesi ve fotoğraf olmadan şablon çıkmaz."),
+            ("Kışın uygulanır mı?", "Ortam sıcaklığı uygunsa. Uygun değilse iş ertelenir; kalitesiz yapışma riski alınmaz."),
+            ("Ömür?", "Folyo tipi, yıkama, güneş ve kullanıma bağlıdır. Sayısal ömür vaadi verilmez."),
         ],
     },
     "cam-giydirme": {
@@ -385,18 +504,18 @@ SERVICE_DEPTH = {
         ],
         "apps": ["Mağaza vitrini", "Showroom", "Ofis cam bölme", "Kampanya dönemleri", "Giriş cephe camı"],
         "materials": "One way vision, transparan folyo, kumlama/frosted, baskılı vinil.",
-        "related_projects": ["liman-kahve", "dortnal", "ekip-yazilim"],
+        "related_projects": ["ofiso", "pembe-pasta-evi"],
         "related_services": ["isikli-tabela", "ofis-branding", "tabela", "display-pos"],
         "bilgi": ["/bilgi/one-way-vision-nedir/"],
         "faqs": [
-            ("One way vision nedir?", "Dışarıdan grafik, içeriden görüş sağlayan delikli folyo."),
-            ("İçerisi kararır mı?", "Folyo tipine göre ışık geçirgenliği değişir."),
-            ("Araç camı?", "Araç giydirme kapsamında değerlendirilir."),
-            ("Sökülür mü?", "Kampanya sonunda kontrollü söküm planlanır."),
-            ("Buğu / yapışma?", "Cam hazırlığı ve uygulama kalitesi kritiktir."),
-            ("Ofis paketi?", "Ofis branding sayfasına bakın."),
-            ("Süre?", "Çoğu vitrin işi kısa sürer."),
-            ("Tasarım?", "Mesaj hiyerarşisi okunur tutulur."),
+            ("One way vision nedir?", 'Dışarıdan grafik görünen, içeriden bakışa izin veren delikli folyodur. Rehber: <a href="/bilgi/one-way-vision-nedir/">one way vision nedir</a>.'),
+            ("İçerisi kararır mı?", "Folyo tipine ve delik oranına göre ışık geçirgenliği değişir. Karanlık mağazada görüş zayıflayabilir."),
+            ("Araç camı?", 'Araç camı <a href="/hizmetler/arac-giydirme/">araç giydirme</a> kapsamında değerlendirilir.'),
+            ("Sökülür mü?", "Kampanya sonunda kontrollü söküm planlanır. Kirli cama uygulama kenar/hava hatası yapar."),
+            ("Buğu / yapışma?", "Cam hazırlığı ve doğru gergi kritiktir."),
+            ("Ofis paketi?", 'Ofis gizlilik folyosu <a href="/hizmetler/ofis-branding/">ofis branding</a> paketiyle birlikte yönetilebilir; malzeme bilgisi bu sayfadadır.'),
+            ("Süre?", "Çoğu vitrin işi kısa sürer; ölçü ve katman sayısına göre netlenir."),
+            ("Tasarım?", "Mesaj hiyerarşisi okunur tutulur. Aşırı kalabalık vitrin grafiği ürün yerine gürültü üretir."),
         ],
     },
     "lightbox": {
@@ -408,25 +527,25 @@ SERVICE_DEPTH = {
         "lede": "İnce kasa lightbox ve ışıklı kutu sistemleriyle premium aydınlatmalı görsel alanlar.",
         "extra": [
             "Lightbox; arkadan veya kenardan aydınlatmalı çerçeve sistemidir. Retail ve AVM’de sık tercih edilir.",
-            "Işıklı tabela / LED cephe sistemleri ayrı sayfadadır: /hizmetler/isikli-tabela/. Bu sayfa lightbox ailesidir.",
+            'Işıklı tabela / LED cephe sistemleri ayrı sayfadadır: <a href="/hizmetler/isikli-tabela/">ışıklı tabela</a>. Bu sayfa lightbox ailesidir.',
             "SEG / backlit fabric hızlı görsel değişimi sağlar.",
             "Yerel talep Tekirdağ üssünden keşif ile yönetilir.",
             "Ofis ve resepsiyon duvarlarında lightbox + ofis branding birlikte planlanabilir.",
         ],
         "apps": ["Mağaza içi", "AVM", "Showroom", "Klinik bekleme", "Resepsiyon duvarı"],
         "materials": "Alüminyum kasa, LED, backlit fabric, SEG, akrilik yüz.",
-        "related_projects": ["mera-otel", "dortnal", "ekip-yazilim"],
+        "related_projects": [],
         "related_services": ["isikli-tabela", "display-pos", "ofis-branding", "cam-giydirme"],
         "bilgi": ["/bilgi/isikli-mi-isiksiz-mi/"],
         "faqs": [
-            ("Işıklı tabeladan farkı?", "Cephe tabela ≠ lightbox kutu/frame."),
-            ("SEG nedir?", "Silikon kenarlı kumaş germe sistem."),
-            ("Görsel değişir mi?", "SEG’de hızlı değişim mümkündür."),
-            ("İnce kasa?", "Mekâna göre kasa tipi seçilir."),
-            ("Servis?", "LED ve kumaş değişimi planlanır."),
-            ("Süre?", "Ölçü ve kasa tipine göre."),
-            ("Fiyat?", "Ölçü + kasa + baskı."),
-            ("Tekirdağ?", "Keşif üsten planlanır."),
+            ("Işıklı tabeladan farkı?", 'Cephe LED tabela <a href="/hizmetler/isikli-tabela/">ışıklı tabela</a> sayfasındadır. Bu sayfa lightbox kutu ve çerçeve ailesidir.'),
+            ("SEG nedir?", "Silikon kenarlı kumaş germe sistemidir. Görsel değişim sıklığı yüksekse avantaj sağlar."),
+            ("Görsel değişir mi?", "SEG’de hızlı kumaş değişimi mümkündür. LED değişimi ayrı kalemdir."),
+            ("İnce kasa?", "Mekâna göre kasa tipi seçilir. İnce görünüm elektrik ve soğutma ile dengelenir."),
+            ("Servis?", "LED ve kumaş değişimi planlanır. Servis kapsamı teklifte yazılır."),
+            ("Süre?", "Ölçü ve kasa tipine göre netlenir."),
+            ("Fiyat?", "Ölçü, kasa ve baskı. Sabit liste yoktur."),
+            ("Tekirdağ’da keşif?", 'Evet. Keşif <a href="/bolgeler/tekirdag/">Tekirdağ atölyesinden</a> planlanır.'),
         ],
     },
     "display-pos": {
@@ -444,18 +563,18 @@ SERVICE_DEPTH = {
         ],
         "apps": ["Mağaza içi", "Etkinlik", "Bayi toplantısı", "Lansman", "Geçici yön noktası"],
         "materials": "Roll-up kasa, X-banner, beach flag, vinil/textile baskı, dekota tamamlayıcı.",
-        "related_projects": ["dortnal", "liman-kahve"],
+        "related_projects": [],
         "related_services": ["lightbox", "tabela", "cam-giydirme", "ofis-branding"],
         "bilgi": ["/bilgi/tabela-cesitleri/"],
         "faqs": [
-            ("Roll-up vs X-banner?", "Roll-up kasalı; X-banner daha ekonomik."),
-            ("Fuar standı?", "Tekil display burada planlanır; tam stand ayrıca değerlendirilir."),
-            ("Indoor totem?", "Bu ailede; yol totemi ayrı."),
-            ("Adet avantajı?", "Toplu siparişte teklif özeldir."),
-            ("Baskı kalitesi?", "Okunur mesafe ve çözünürlük planlanır."),
-            ("Teslimat?", "Donanım + baskı birlikte."),
-            ("Süre?", "Genelde kısa döngü."),
-            ("Yeniden baskı?", "Aynı kasaya yeni baskı yapılabilir."),
+            ("Roll-up vs X-banner?", "Roll-up kasalı sistemdir; X-banner daha ekonomik ve daha hassas taşınır. Seçim kullanım süresine göre yapılır."),
+            ("Fuar standı?", "Tekil display burada planlanır. Tam fuar standı veya backdrop ayrıca değerlendirilir."),
+            ("Indoor totem?", 'Taşınabilir indoor display bu ailededir. Yol ve tesis totemi <a href="/hizmetler/totem/">totem</a> sayfasındadır.'),
+            ("Adet avantajı?", "Toplu siparişte teklif özeldir. Peşin birim oran ilan edilmez."),
+            ("Baskı kalitesi?", "Okunur mesafe ve çözünürlük planlanır. Onaylı görsel olmadan baskı başlamaz."),
+            ("Teslimat?", "Donanım ve baskı birlikte teslim edilebilir."),
+            ("Süre?", "Genelde kısa döngü; adet ve baskı tipine göre netlenir."),
+            ("Yeniden baskı?", "Aynı kasaya yeni baskı yapılabilir. Kampanya yenilemesi için kasa saklanır."),
         ],
     },
     "ofis-branding": {
@@ -466,25 +585,25 @@ SERVICE_DEPTH = {
         "lede": "Resepsiyon, lobi ve toplantı alanlarında kurumsal kimliğin mekâna uygulanması.",
         "extra": [
             "Ofis branding workplace kimlik paketidir: resepsiyon yazısı, logo duvarı, cam grafik, toplantı alanı.",
-            "Genel duvar/zemin giydirme (her mekân) ayrı aile olarak ileride açılabilir; bu sayfa ofis paketini sahiplenır.",
+            "Genel duvar/zemin giydirme (her mekân) ayrı aile olarak ileride açılabilir; bu sayfa ofis paketini sahiplenir.",
             "Cam folyo uygulamaları cam giydirme uzmanlığıyla bağlanır.",
             "Plaza teslimatlarında mesaiye duyarlı montaj planlanır.",
             "Kutu harf / 3D logo sık tamamlayıcıdır.",
         ],
         "apps": ["Plaza ofisleri", "Resepsiyon", "Lobi", "Toplantı odası", "Kat kimliği"],
         "materials": "Kutu harf, cam folyo, duvar grafiği, kapı/oda isimliği (pakete göre).",
-        "related_projects": ["ekip-yazilim", "mera-otel"],
+        "related_projects": ["okka-tarim"],
         "related_services": ["kutu-harf", "cam-giydirme", "lightbox", "tabela"],
         "bilgi": ["/bilgi/kutu-harf-malzemeler/"],
         "faqs": [
-            ("Kapı isimliği dahil mi?", "Pakete eklenebilir."),
-            ("Cam giydirme ayrı mı?", "Malzeme/uygulama cam sayfasıyla; paket burada."),
-            ("İç mekan giydirme farkı?", "Ofis = workplace paketi."),
-            ("Kesinti olur mu?", "Mesai dışı planlanabilir."),
-            ("Logo dosyası?", "Vektörel tercih edilir."),
-            ("Süre?", "Alan büyüklüğüne göre."),
-            ("Plaza yönetimi onayı?", "Gerekirse keşifte konuşulur."),
-            ("Fiyat?", "Alan + malzeme + erişim."),
+            ("Kapı isimliği dahil mi?", "Pakete eklenebilir. Standart set varsayılmaz; brief’te netleştirilir."),
+            ("Cam giydirme ayrı mı?", 'Malzeme ve uygulama <a href="/hizmetler/cam-giydirme/">cam giydirme</a> uzmanlığıyla bağlanır; ofis paketi bu sayfadadır.'),
+            ("İç mekan giydirme farkı?", "Bu sayfa workplace paketidir: resepsiyon, lobi, toplantı, kat kimliği. Her mekân duvar giydirmesi ayrı aile olarak açılmaz."),
+            ("Kesinti olur mu?", "Mesai dışı veya düşük yoğunluklu pencere planlanabilir. Plaza kuralları keşifte sorulur."),
+            ("Logo dosyası?", "Vektörel tercih edilir. Font lisansı müşteri sorumluluğundadır."),
+            ("Süre?", "Alan büyüklüğüne ve onay süresine göre. Yönetim onayı gecikirse takvim kayar."),
+            ("Plaza yönetimi onayı?", "Gerekirse keşifte konuşulur. Onaysız cephe işi risklidir."),
+            ("Fiyat?", "Alan, malzeme ve erişim. Sabit liste yoktur."),
         ],
     },
     "is-guvenligi-tabelalari": {
@@ -502,18 +621,18 @@ SERVICE_DEPTH = {
         ],
         "apps": ["Fabrika/OSB", "Depo", "Şantiye", "Ortak alan acil yön", "Üretim hattı uyarıları"],
         "materials": "Kompozit/forex, vinil, reflektif folyo (ihtiyaca göre).",
-        "related_projects": ["volt-enerji", "kuzey-tekstil"],
+        "related_projects": ["anka"],
         "related_services": ["tabela", "totem", "display-pos", "ofis-branding"],
         "bilgi": ["/bilgi/tabela-cesitleri/"],
         "faqs": [
-            ("Yangın çıkışı burada mı?", "Evet."),
-            ("Yönlendirme aynı mı?", "Hayır; wayfinding ayrı aile."),
-            ("ISO belgesi veriyor musunuz?", "Hayır; tabela üretiriz."),
-            ("Toplu set?", "Listeye göre üretilir."),
-            ("Dış mekân dayanım?", "Malzeme sahaya göre seçilir."),
-            ("Montaj?", "Saha planıyla yapılır."),
-            ("Süre?", "Standart setlerde hızlı."),
-            ("Özel uyarı metni?", "Evet, onaya göre."),
+            ("Yangın çıkışı burada mı?", "Evet. Yangın çıkışı, acil çıkış ve toplanma alanı bu ailededir."),
+            ("Yönlendirme aynı mı?", "Hayır. Oda/kat wayfinding bu ailenin H1’i değildir; iş güvenliği uyarı setidir."),
+            ("ISO belgesi veriyor musunuz?", "Hayır. Malt Studio tabela üretir ve tedarik eder; belgelendirme kuruluşu değildir."),
+            ("Toplu set?", "Listeye veya Excel’e göre üretilir. Toplu saha etiketleme OSB ve depoda sık istenir."),
+            ("Dış mekân dayanım?", "Malzeme sahaya göre seçilir. UV ve darbe ihtiyacı keşifte konuşulur."),
+            ("Montaj?", "Saha planıyla yapılır. Üretim hattı duruşu varsa takvim ona göre yazılır."),
+            ("Süre?", "Standart setlerde hızlıdır; özel metin onayına bağlıdır."),
+            ("Özel uyarı metni?", "Evet, onaya göre. Tıbbi veya yasal danışmanlık yerine geçmez."),
         ],
     },
 }
@@ -553,7 +672,7 @@ def build_service(slug: str) -> None:
         for r in s["related_services"]
         if r in ALL_SERVICES
     ]
-    knowledge = [(b, "Rehber", "Karar vermenize yardımcı rehber.") for b in s["bilgi"]]
+    knowledge = [(b, article_title(b), "Karar rehberi.") for b in s["bilgi"]]
     local_h2 = (
         "Süleymanpaşa ve çevre ilçelerde tabela montajı"
         if slug == "tabela"
@@ -595,15 +714,15 @@ def build_service(slug: str) -> None:
             ),
         )
         process = service_process("Keşiften montaja çalışma sürecimiz") + p(*a5["process_extra"])
-        body_blocks = intro + choice + proof + price + process + eeat_block("hizmet") + local_extra
+        body_blocks = intro + choice + proof + price + process + quote_prep() + local_extra
     else:
         body_blocks = (
             block("Bu hizmet nedir?", p(*s["extra"], *a5["intro"]))
             + block("Nerelerde kullanılır?", ul(s["apps"]) + p(*a5["where"]))
             + block("Malzeme ve seçenekler", p(s["materials"], *a5["materials_extra"]))
+            + quote_prep()
             + service_process()
             + block("Süreç notları", p(*a5["process_extra"]))
-            + eeat_block("hizmet")
             + block("Deneyim ve üretim", p(*a5["eeat"]))
             + block(
                 "Fiyatı neler etkiler?",
@@ -617,6 +736,7 @@ def build_service(slug: str) -> None:
         )
     json_ld = page_graph(
         webpage_ld(canonical, s["title"], s["desc"]),
+        website_node(),
         service_ld(canonical, s["h1"], s.get("service_type") or s["h1"]),
         breadcrumb_ld(
             [
@@ -625,6 +745,7 @@ def build_service(slug: str) -> None:
                 (s["h1"], canonical),
             ]
         ),
+        faq_ld(canonical, s["faqs"]),
     )
 
     html = f"""{head(s["title"], s["desc"], canonical, json_ld=json_ld)}
@@ -729,7 +850,6 @@ def build_sxc(slug: str) -> None:
         *SERVICE_A5[slug]["process_extra"],
     ))}
     {service_process()}
-    {eeat_block("yerel hizmet")}
     {block("Yerel fiyat faktörleri", p(
         s["materials"],
         "Tekirdağ içi erişim genelde standarttır; vinç, yükseklik, izin ve OSB girişi ek maliyet doğurabilir.",
@@ -744,7 +864,7 @@ def build_sxc(slug: str) -> None:
         (f"/hizmetler/{slug}/", name, f"{name} genel hizmet sayfası."),
         *[(f"/hizmetler/{r}/", ALL_SERVICES[r], f"{ALL_SERVICES[r]} hizmeti.") for r in s["related_services"] if r in ALL_SERVICES][:3],
     ],
-    knowledge=[(b, "Rehber", "Eğitim.") for b in s["bilgi"]],
+    knowledge=[(b, article_title(b), "Karar rehberi.") for b in s["bilgi"]],
     projects=s["related_projects"],
     industries=[
         (f"/sektorler/{i}/", {"fabrika-osb":"Fabrika & OSB","restoran-cafe":"Restoran & Cafe","saglik":"Sağlık","plaza-ofis":"Plaza & Ofis","insaat-santiye":"İnşaat & Şantiye","perakende":"Perakende"}.get(i,i), "Sektöre özel çözümler.")
@@ -780,16 +900,36 @@ def build_city() -> None:
     canonical = f"{SITE}/bolgeler/tekirdag/"
     title = "Malt Studio Tekirdağ Atölye ve İletişim"
     desc = "Malt Studio’nun Tekirdağ Süleymanpaşa iletişim, çalışma saatleri, hizmet alanları ve keşif bilgileri. Telefon, WhatsApp ve yol tarifi."
-    svc = cards([(f"/hizmetler/{s}/", n, f"{n} hizmeti.", "Hizmet") for s, n in A0.items()])
+    cms = json.loads((ROOT / "content.json").read_text(encoding="utf-8"))
+    maps = (cms.get("googleMapsUrl") or "").strip().replace("&", "&amp;").replace('"', "&quot;")
+    ig = (cms.get("instagram") or "").strip().replace("&", "&amp;").replace('"', "&quot;")
+    svc = cards([(f"/hizmetler/{s}/", n, f"{n} hizmeti.", "Hizmet") for s, n in ALL_SERVICES.items()])
+    maps_p = (
+        f'Yol tarifi: <a href="{maps}" rel="noopener noreferrer" target="_blank">Google Haritalar’da koordinat araması</a>. Bu bir Place ID veya işletme profili kaydı iddiası değildir.'
+        if maps
+        else "Yol tarifi için Google Haritalar’da adresi arayın."
+    )
+    ig_p = (
+        f'Instagram: <a href="{ig}" rel="noopener noreferrer" target="_blank">@maltstudio.co</a>.'
+        if ig
+        else ""
+    )
     faqs = [
         ("Atölye nerede?", f"{ADDRESS_ONE_LINE}."),
         ("Çalışma saatleri?", HOURS_DISPLAY + "."),
         ("Süleymanpaşa ayrı sayfa mı?", "Hayır; Süleymanpaşa talepleri bu atölye sayfasında toplanır."),
-        ("Keşif nasıl alınır?", "WhatsApp veya telefon ile kısa brief bırakın."),
+        ("Keşif nasıl alınır?", "WhatsApp veya telefon ile kısa brief bırakın. Keşif sonrası yazılı teklif çıkar."),
+        (
+            "Hangi hizmetler Tekirdağ’dan planlanır?",
+            'Tabela, ışıklı tabela, kutu harf, totem, cam ve araç giydirme, lightbox, display, ofis branding ve iş güvenliği tabelaları. Liste: <a href="/hizmetler/">hizmetler</a>.',
+        ),
+        ("Çevre ilçelere geliyor musunuz?", "Süleymanpaşa ve Tekirdağ merkez başta olmak üzere çevre ilçe işleri aynı atölyeden planlanır."),
     ]
     json_ld = page_graph(
         webpage_ld(canonical, title, desc),
+        website_node(),
         breadcrumb_ld([("Ana Sayfa", "/"), (title, canonical)]),
+        faq_ld(canonical, faqs),
     )
     html = f"""{head(title, desc, canonical, json_ld=json_ld)}
 <body>
@@ -815,27 +955,29 @@ def build_city() -> None:
         f'<strong>Telefon:</strong> <a href="tel:{PHONE_TEL}">{PHONE_DISPLAY}</a>',
         f'<strong>E-posta:</strong> <a href="mailto:{EMAIL}">{EMAIL}</a>',
         f"<strong>Çalışma saatleri:</strong> {HOURS_DISPLAY}",
+        ig_p,
         'WhatsApp veya telefon ile keşif randevusu alınır.',
     ))}
     {block("Ulaşım", p(
         "Atölye Süleymanpaşa / Tekirdağ’dadır. Keşif randevusu sonrası ölçü ve montaj planı çıkarılır.",
-        "Yol tarifi için Google Haritalar’da Malt Studio veya adresi arayın.",
+        maps_p,
     ))}
     {block("Hizmet bölgeleri", p(
         "Süleymanpaşa ve Tekirdağ merkez başta olmak üzere çevre ilçelere keşif ve montaj planlanır.",
         "Çorlu, Çerkezköy, Kapaklı, Ergene, Muratlı ve diğer ilçe işleri aynı atölyeden yönetilir.",
+        'Tüm hizmet listesi: <a href="/hizmetler/">hizmetler</a>.',
     ))}
     {block("Gerçek işler", p(
         'Ana sayfadaki <a href="/#isler">seçili işler</a> gerçek saha fotoğraflarıdır.',
-        'Hizmet sayfaları: <a href="/hizmetler/tabela/">tabela</a>, <a href="/hizmetler/isikli-tabela/">ışıklı tabela</a>, <a href="/hizmetler/kutu-harf/">kutu harf</a>.',
+        'Hizmet sayfaları: <a href="/hizmetler/tabela/">tabela</a>, <a href="/hizmetler/isikli-tabela/">ışıklı tabela</a>, <a href="/hizmetler/kutu-harf/">kutu harf</a>, <a href="/hizmetler/totem/">totem</a>, <a href="/hizmetler/cam-giydirme/">cam giydirme</a>, <a href="/hizmetler/arac-giydirme/">araç giydirme</a>.',
+        'Rehberler: <a href="/bilgi/">bilgi merkezi</a>.',
     ))}
     {mid_cta("Tekirdağ keşif")}
   </div>
 </section>
 {related_rail(
-    services=[(f"/hizmetler/{s}/", n, f"{n} hizmeti.") for s, n in list(A0.items())[:6]],
-    knowledge=[(f"/bilgi/{s}/", t, "Rehber.") for s, t, _, _ in ARTICLES[:4]],
-    industries=[(f"/sektorler/{s}/", n, f"{n} çözümleri.") for s, n, _ in INDUSTRIES[:4]],
+    knowledge=[(f"/bilgi/{s}/", t, "Karar rehberi.") for s, t, _, _ in ARTICLES],
+    industries=[(f"/sektorler/{s}/", n, f"{n} çözümleri.") for s, n, _ in INDUSTRIES],
 )}
 <section class="section-band paper-band">
   <div class="wrap">
@@ -859,7 +1001,15 @@ def build_city() -> None:
 def build_hizmetler_hub() -> None:
     a0 = cards([(f"/hizmetler/{s}/", n, f"{n} hizmeti.", "Hizmet") for s, n in A0.items()])
     a2 = cards([(f"/hizmetler/{s}/", n, f"{n} hizmeti.", "Hizmet") for s, n in A2.items()])
-    html = f"""{head("Hizmetler | Tabela, Lightbox, Ofis Branding ve Daha Fazlası", "Malt Studio tüm hizmetleri: tabela, ışıklı tabela, kutu harf, totem, araç ve cam giydirme, lightbox, display, ofis branding, İSG.", f"{SITE}/hizmetler/")}
+    canonical = f"{SITE}/hizmetler/"
+    title = "Hizmetler | Tabela, Lightbox, Ofis Branding ve Daha Fazlası"
+    desc = "Malt Studio tüm hizmetleri: tabela, ışıklı tabela, kutu harf, totem, araç ve cam giydirme, lightbox, display, ofis branding, İSG."
+    json_ld = page_graph(
+        webpage_ld(canonical, title, desc),
+        website_node(),
+        breadcrumb_ld([("Ana Sayfa", "/"), ("Hizmetler", canonical)]),
+    )
+    html = f"""{head(title, desc, canonical, json_ld=json_ld)}
 <body>
 {header()}
 <section class="page-hero">
@@ -879,9 +1029,8 @@ def build_hizmetler_hub() -> None:
     {block("Nasıl seçmelisiniz?", p(
         "Önce ihtiyacı netleştirin: cephe tabela, ışıklı sistem, kutu harf, araç, cam, lightbox, display veya ofis paketi.",
         'Kararsızsanız <a href="/bilgi/">rehberleri</a> okuyun veya WhatsApp ile kısa keşif isteyin.',
-        "Tekirdağ atölye ve iletişim için /bolgeler/tekirdag/ sayfasına bakın.",
+        'Tekirdağ atölye, saat ve adres: <a href="/bolgeler/tekirdag/">atölye ve iletişim</a>.',
     ))}
-    {eeat_block("hizmet hub")}
     {mid_cta("Hizmet seçimi için yardımcı olur musunuz?")}
   </div>
 </section>
@@ -956,7 +1105,16 @@ def build_project(item: dict) -> None:
         meta_bits.append(f"<div><dt>Tarih</dt><dd>{html.escape(completed)}</dd></div>")
     meta_html = f'<dl class="case-meta">{"".join(meta_bits)}</dl>' if meta_bits else ""
 
-    about = block("Proje hakkında", p(html.escape(description))) if description else ""
+    about = block("Proje hakkında", p(html.escape(description))) if description else block(
+        "Proje kaydı",
+        p(
+            f"{html.escape(name)} için Malt Studio uygulama kaydı.",
+            (f"Konum: {html.escape(location)}." if location else ""),
+            (f"Kategori: {html.escape(category)}." if category else ""),
+            "Sayfadaki fotoğraflar bu işe aittir.",
+            "Ölçü, malzeme ve montaj notları teklif dosyasındadır; burada uydurma metrik yazılmaz.",
+        ),
+    )
 
     applied = ""
     if labels:
@@ -1020,6 +1178,7 @@ def build_project(item: dict) -> None:
 
     json_ld = page_graph(
         webpage_ld(canonical, title, desc),
+        website_node(),
         breadcrumb_ld(
             [
                 ("Ana Sayfa", f"{SITE}/"),
@@ -1090,7 +1249,15 @@ def build_projeler_hub() -> None:
         if project_cards
         else ""
     )
-    html_doc = f"""{head("Projeler | Malt Studio İş Örnekleri", "Tabela, ışıklı tabela, kutu harf ve giydirme proje örnekleri.", f"{SITE}/projeler/")}
+    canonical = f"{SITE}/projeler/"
+    title = "Projeler | Malt Studio İş Örnekleri"
+    desc = "Tabela, ışıklı tabela, kutu harf ve giydirme proje örnekleri."
+    json_ld = page_graph(
+        webpage_ld(canonical, title, desc),
+        website_node(),
+        breadcrumb_ld([("Ana Sayfa", "/"), ("Projeler", canonical)]),
+    )
+    html_doc = f"""{head(title, desc, canonical, json_ld=json_ld)}
 <body>
 {header()}
 <section class="page-hero">
@@ -1107,7 +1274,6 @@ def build_projeler_hub() -> None:
 {listing}
 <section class="page-main">
   <div class="wrap">
-    {eeat_block("proje hub")}
     {mid_cta("Yeni proje")}
   </div>
 </section>
@@ -1128,13 +1294,13 @@ INDUSTRY_COPY = {
         "Sanayi tesislerinde tabela; kimlik, yön ve dayanımdır.",
         ["Tesis totemi", "Cephe yazısı", "İSG levhaları", "Filo giydirme", "Saha yön tabelaları"],
         ["totem", "tabela", "kutu-harf", "arac-giydirme", "is-guvenligi-tabelalari"],
-        ["volt-enerji", "kuzey-tekstil"],
+        [],
     ),
     "restoran-cafe": (
         "F&B’de tabela ve vitrin ilk karar anını yönetir.",
         ["Işıklı cephe", "Vitrin giydirme", "Gece okunurluk", "Kampanya yüzeyleri"],
         ["isikli-tabela", "cam-giydirme", "tabela", "lightbox"],
-        ["liman-kahve"],
+        ["kosem-doner", "pembe-pasta-evi"],
     ),
     "saglik": (
         "Sağlık noktalarında sakin, okunur ve güven veren görünürlük gerekir.",
@@ -1146,7 +1312,7 @@ INDUSTRY_COPY = {
         "Plaza ve ofiste ilk izlenim resepsiyon ve cephede kurulur.",
         ["Kutu harf", "Ofis branding", "Cam folyo", "Lightbox"],
         ["kutu-harf", "ofis-branding", "cam-giydirme", "lightbox", "tabela"],
-        ["mera-otel", "ekip-yazilim"],
+        ["ofiso", "okka-tarim"],
     ),
     "insaat-santiye": (
         "Şantiye çevresinde proje mesajı ve saha görünürlüğü gerekir.",
@@ -1158,7 +1324,7 @@ INDUSTRY_COPY = {
         "Mağaza cephesi satışa açılan vitrindir.",
         ["Işıklı mağaza tabela", "OWV / vitrin", "Kampanya yenileme", "Açılış paketi"],
         ["isikli-tabela", "cam-giydirme", "tabela", "display-pos", "lightbox"],
-        ["dortnal", "liman-kahve"],
+        ["pembe-pasta-evi", "kosem-doner"],
     ),
 }
 
@@ -1171,8 +1337,31 @@ def build_industry(slug: str, name: str, pk: str) -> None:
         for s in services
         if s in ALL_SERVICES
     ]
-    bil_links = [(h, "Rehber", "Karar vermenize yardımcı rehber.") for h in a5["knowledge"]]
-    html = f"""{head(f"{name} Tabela ve Görünürlük Çözümleri", f"{name} sektörü için tabela ve görünürlük. Malt Studio.", f"{SITE}/sektorler/{slug}/")}
+    bil_links = [(h, article_title(h), "Karar rehberi.") for h in a5["knowledge"]]
+    canonical = f"{SITE}/sektorler/{slug}/"
+    title = f"{name} Tabela ve Görünürlük Çözümleri"
+    desc = f"{name} sektörü için tabela ve görünürlük. Malt Studio."
+    faqs = [
+        (
+            f"{name} için hangi hizmetler?",
+            ", ".join(
+                f'<a href="/hizmetler/{s}/">{ALL_SERVICES[s]}</a>'
+                for s in services
+                if s in ALL_SERVICES
+            )
+            + ".",
+        ),
+        ("Bu hizmet sayfasının yerine geçer mi?", "Hayır; sektör sayfası dikey girişidir. Üretim ilgili hizmet URL’sindedir."),
+        ("Tekirdağ’da uygulanır mı?", 'Evet; keşif <a href="/bolgeler/tekirdag/">Tekirdağ atölyesinden</a> planlanır.'),
+        ("Teklif nasıl alınır?", "WhatsApp veya telefon ile keşif talebi bırakın. Sabit internet fiyatı yoktur."),
+    ]
+    json_ld = page_graph(
+        webpage_ld(canonical, title, desc),
+        website_node(),
+        breadcrumb_ld([("Ana Sayfa", "/"), ("Sektörler", "/sektorler/"), (name, canonical)]),
+        faq_ld(canonical, faqs),
+    )
+    html = f"""{head(title, desc, canonical, json_ld=json_ld)}
 <body>
 {header()}
 <section class="page-hero">
@@ -1204,18 +1393,12 @@ def build_industry(slug: str, name: str, pk: str) -> None:
     {block("Malzeme önerileri", p(*a5["materials"]))}
     {block("Bakım ve saha notları", p(*a5["maintenance"]))}
     {block("Saha pratikleri", p(*INDUSTRY_EXPAND[slug], INDUSTRY_LONG[slug], INDUSTRY_BRIDGE[slug]))}
-    {eeat_block("sektör")}
     {mid_cta(f"{name} sektörü keşif")}
   </div>
 </section>
 {related_rail(services=svc_links, knowledge=bil_links)}
 <section class="section-band paper-band">
-  <div class="wrap"><h2>SSS</h2><div class="faq">{faq_html([
-      (f"{name} için hangi hizmetler?", ", ".join(ALL_SERVICES[s] for s in services if s in ALL_SERVICES)+"."),
-      ("Bu hizmet sayfasının yerine geçer mi?", "Hayır; dikey girişidir."),
-      ("Tekirdağ’da uygulanır mı?", "Evet; keşif Tekirdağ üssünden planlanır."),
-      ("Teklif?", "WhatsApp veya telefon ile keşif talebi bırakın."),
-  ])}</div></div>
+    <div class="wrap"><h2>SSS</h2><div class="faq">{faq_html(faqs)}</div></div>
 </section>
 {cta_band(f"{name} için keşif", f"{name} keşif")}
 {footer()}
@@ -1226,7 +1409,15 @@ def build_industry(slug: str, name: str, pk: str) -> None:
 
 def build_sektorler_hub() -> None:
     items = cards([(f"/sektorler/{s}/", n, f"{n} çözümleri.", "Sektör") for s, n, pk in INDUSTRIES])
-    html = f"""{head("Sektörler | Fabrika, Restoran, Sağlık, Plaza", "Sektörel tabela ve görünürlük çözümleri.", f"{SITE}/sektorler/")}
+    canonical = f"{SITE}/sektorler/"
+    title = "Sektörler | Fabrika, Restoran, Sağlık, Plaza"
+    desc = "Sektörel tabela ve görünürlük çözümleri."
+    json_ld = page_graph(
+        webpage_ld(canonical, title, desc),
+        website_node(),
+        breadcrumb_ld([("Ana Sayfa", "/"), ("Sektörler", canonical)]),
+    )
+    html = f"""{head(title, desc, canonical, json_ld=json_ld)}
 <body>
 {header()}
 <section class="page-hero">
@@ -1240,12 +1431,12 @@ def build_sektorler_hub() -> None:
     </div>
   </div>
 </section>
-<section class="page-main"><div class="wrap">{block("Nasıl kullanılır?", p("Sektörünüzü seçin, ilgili hizmetlere ve projelere geçin.","Kararsızsanız Tekirdağ hub veya WhatsApp ile yazın."))}{eeat_block("sektör hub")}{mid_cta("Sektör keşfi")}</div></section>
+<section class="page-main"><div class="wrap">{block("Nasıl kullanılır?", p("Sektörünüzü seçin, ilgili hizmetlere ve projelere geçin.",'Kararsızsanız <a href="/bolgeler/tekirdag/">Tekirdağ atölye</a> sayfasına veya WhatsApp ile yazın.'))}{mid_cta("Sektör keşfi")}</div></section>
 <section class="section-band paper-band"><div class="wrap"><div class="card-grid">{items}</div></div></section>
 {related_rail(
     services=[(f"/hizmetler/{s}/", n, "Hizmet.") for s, n in list(A0.items())[:6]],
     knowledge=[(f"/bilgi/{s}/", t, "Rehber.") for s, t, _, _ in ARTICLES[:3]],
-    projects=["liman-kahve", "volt-enerji", "dortnal"],
+    projects=["ofiso", "kosem-doner", "pembe-pasta-evi"],
 )}
 {cta_band("Sektörünüze uygun çözüm", "Sektör keşfi")}
 {footer()}
@@ -1256,26 +1447,40 @@ def build_sektorler_hub() -> None:
 
 ARTICLE_BODY = {
     "tabela-cesitleri": [
-        ("Giriş", "Tabela seçimi estetik kadar okunurluk, dayanım ve montaj koşullarının toplamıdır. Bu rehber bilgilendirme amaçlıdır; satın alma /hizmetler/tabela/ sayfasındadır."),
+        (
+            "Giriş",
+            "Tabela seçimi estetik bir katalog işareti değildir. Okunurluk, dayanım, montaj yüzeyi, rüzgâr/yükseklik ve gece ihtiyacı birlikte bakılır. Gündüz yeten ışıksız tabela, gece açık bir işletmede kaybolur; LED’li sistem ise elektrik ve servis katmanı ister. Kutu harf üç boyutlu cephe yazısıdır. Totem yol ve tesis yaklaşımını taşır; taşınabilir indoor display ayrı ailedir. Cam giydirme vitrin mesajı ile gizliliği dengeler. Lightbox perakende içi ışıklı kutu ve çerçevedir; cephe ışıklı tabela ile karıştırılmamalıdır. Aşağıdaki tablo türleri ayırır. Üretim, keşif ve yazılı teklif "
+            '<a href="/hizmetler/tabela/">tabela üretimi</a> sayfasındadır. Sabit internet fiyatı yoktur. Tekirdağ Süleymanpaşa atölyesinden keşif planlanır; adres ve saat '
+            '<a href="/bolgeler/tekirdag/">atölye sayfasındadır</a>.',
+        ),
         ("Işıksız tabela", "Gündüz odaklı, genelde daha ekonomik cephe çözümleridir. Gece ihtiyacı yoksa doğru tercihtir."),
-        ("Işıklı tabela", "Gece görünürlük gereken noktalarda LED’li sistemler kullanılır. Ayrı hizmet sayfası vardır."),
-        ("Kutu harf", "Üç boyutlu cephe yazısıdır; prestij ve derinlik sağlar."),
-        ("Totem", "Yol ve tesis yaklaşımında uzaktan algı için dikey sistemlerdir."),
-        ("Cam giydirme", "Vitrin mesajı ve gizlilik/görünürlük dengesi için folyo uygulamalarıdır."),
-        ("Lightbox", "İç mekân/retail ışıklı kutu sistemidir; ışıklı tabela ile karıştırılmamalıdır."),
+        ("Işıklı tabela", 'Gece görünürlük gereken noktalarda LED’li sistemler kullanılır. Ayrı hizmet: <a href="/hizmetler/isikli-tabela/">ışıklı tabela</a>.'),
+        ("Kutu harf", 'Üç boyutlu cephe yazısıdır; prestij ve derinlik sağlar. Ayrı hizmet: <a href="/hizmetler/kutu-harf/">kutu harf</a>.'),
+        ("Totem", 'Yol ve tesis yaklaşımında uzaktan algı için dikey sistemlerdir. Ayrı hizmet: <a href="/hizmetler/totem/">totem</a>.'),
+        ("Cam giydirme", 'Vitrin mesajı ve gizlilik/görünürlük dengesi için folyo uygulamalarıdır. Ayrı hizmet: <a href="/hizmetler/cam-giydirme/">cam giydirme</a>.'),
+        ("Lightbox", 'İç mekân/retail ışıklı kutu sistemidir; ışıklı tabela ile karıştırılmamalıdır. Ayrı hizmet: <a href="/hizmetler/lightbox/">lightbox</a>.'),
         ("Seçim çerçevesi", "Konum, gece ihtiyacı, bütçe, izin ve montaj yüzeyi birlikte değerlendirilir."),
     ],
     "isikli-mi-isiksiz-mi": [
-        ("Karar sorusu", "İşletmeniz gece de görünmek zorunda mı? Bu soru çoğu tercihi belirler."),
+        (
+            "Karar sorusu",
+            "İşletmeniz gece de görünmek zorunda mı? Bu soru çoğu tercihi belirler. Gece kapalı bir noktada LED, kasa ve güç kaynağı yatırımı çoğu zaman gereksizdir. Gece açık mağaza, eczane veya plaza girişinde ışıksız tabela kaybolur. Işıklı sistem elektrik hattı, kasa derinliği ve servis erişimi ister; ışıksız sistemde bu katman yoktur. Lightbox ayrı üründür: perakende içi ışıklı kutu veya çerçeve, cephe LED tabela değildir. Neon şart değildir; LED ışıklı tabela yaygındır. Aşağıdaki tablo farkı özetler. Karar sonrası üretim "
+            '<a href="/hizmetler/isikli-tabela/">ışıklı tabela</a> veya '
+            '<a href="/hizmetler/tabela/">tabela</a> sayfasından yürür. Net rakam keşif sonrası yazılı verilir; sabit liste yoktur.',
+        ),
         ("Görünürlük", "Işıklı gece avantajı sağlar; ışıksız gündüz yeterli olabilir."),
-        ("Maliyet", "Işıklıda kasa, LED ve elektrik maliyeti eklenir."),
+        ("Maliyet", "Işıklıda kasa, LED ve elektrik maliyeti eklenir. Sabit m² fiyatı yayınlanmaz."),
         ("Bakım", "LED ve güç kaynakları servis gerektirebilir."),
         ("Cephe ve izin", "Mimari ve elektrik altyapısı seçimi etkiler."),
-        ("Lightbox ayrımı", "Lightbox ayrı üründür; cephe ışıklı tabela değildir."),
-        ("Sonuç", "Ticari uygulama için /hizmetler/isikli-tabela/ veya tabela sayfasına geçin."),
+        ("Lightbox ayrımı", 'Lightbox ayrı üründür; cephe ışıklı tabela değildir. Ayrı hizmet: <a href="/hizmetler/lightbox/">lightbox</a>.'),
+        ("Sonuç", 'Ticari uygulama için <a href="/hizmetler/isikli-tabela/">ışıklı tabela</a> veya <a href="/hizmetler/tabela/">tabela</a> sayfasına geçin.'),
     ],
     "kutu-harf-malzemeler": [
-        ("Amaç", "Malzeme karşılaştırması bilgilendirmedir. Satın alma /hizmetler/kutu-harf/ altındadır."),
+        (
+            "Amaç",
+            "Malzeme karşılaştırması bilgilendirmedir; tek kazanan ilan edilmez. Pleksi (akrilik) ışıklı harfte renk ve ışık geçirgenliği için yaygındır. Paslanmaz dış dayanım ve prestij algısı için seçilir; bütçe genelde daha yüksektir. Işıklı/ışıksız tercih çoğu zaman malzemeden önce netleşir. Montaj yüzeyi — kompozit, beton, cam — aparat tipini belirler; keşifsiz sipariş risklidir. Channel letters kutu harfin uluslararası adıdır; ayrı doorway URL yoktur. Üretim ve teklif "
+            '<a href="/hizmetler/kutu-harf/">kutu harf</a> sayfasındadır. Vektörel logo kaliteyi yükseltir; yoksa sade alternatif konuşulur.',
+        ),
         ("Pleksi / akrilik", "Işıklı harflerde yaygın; renk ve ışık geçirgenliği avantajlıdır."),
         ("Paslanmaz", "Prestij ve dış dayanım; bütçe daha yüksek olabilir."),
         ("Işıklı vs ışıksız", "Gece okunurluk ihtiyacına göre karar verilir."),
@@ -1289,7 +1494,7 @@ ARTICLE_BODY = {
         ("Alternatifler", "Transparan baskı, kumlama folyo, opak folyo."),
         ("Işık ve görüş", "Delik oranı içerisi aydınlığını etkiler."),
         ("Uygulama", "Cam temizliği ve doğru gergi kritiktir."),
-        ("Ticari sayfa", "Uygulama /hizmetler/cam-giydirme/ altındadır."),
+        ("Ticari sayfa", 'Uygulama <a href="/hizmetler/cam-giydirme/">cam giydirme</a> altındadır.'),
     ],
     "arac-giydirme-rehberi": [
         ("Süreç", "Ölçü → tasarım → baskı → yüzey hazırlığı → uygulama."),
@@ -1297,7 +1502,7 @@ ARTICLE_BODY = {
         ("Filo", "Şablon standardı + araç tipi uyarlaması."),
         ("Ömür", "Folyo tipi, yıkama, güneş ve kullanım."),
         ("Söküm", "Doğru folyo ile kontrollü söküm hedeflenir."),
-        ("Ticari sayfa", "/hizmetler/arac-giydirme/ ve Tekirdağ araç giydirme sayfası."),
+        ("Ticari sayfa", '<a href="/hizmetler/arac-giydirme/">Araç giydirme</a> hizmet sayfasından teklif alınır.'),
     ],
     "tabela-fiyati": [
         ("Uyarı", "Bu sayfa fiyat eğitimidir; sabit fiyat listesi değildir. Net teklif keşif sonrası verilir."),
@@ -1314,8 +1519,8 @@ ARTICLE_BODY = {
         ("Işık", "Gece yaklaşım ihtiyacı."),
         ("Temel", "Statik ve saha koşulları."),
         ("Pylon", "Aynı aile; ayrı doorway yok."),
-        ("Indoor display", "Display/POS sayfasına aittir."),
-        ("Ticari sayfa", "/hizmetler/totem/."),
+        ("Indoor display", 'Display/POS sayfasına aittir: <a href="/hizmetler/display-pos/">Display & POS</a>.'),
+        ("Ticari sayfa", '<a href="/hizmetler/totem/">Totem</a> hizmet sayfası.'),
     ],
 }
 
@@ -1323,7 +1528,12 @@ ARTICLE_BODY = {
 def build_article(slug: str, title: str, primary: str, pk: str) -> None:
     sections = ARTICLE_BODY[slug]
     a5 = ARTICLE_A5[slug]
-    body = [block(h, p(para)) for h, para in sections]
+    body: list[str] = []
+    for i, (h, para) in enumerate(sections):
+        body.append(block(h, p(para)))
+        if i == 0 and slug in ARTICLE_TABLES:
+            heading, headers, rows = ARTICLE_TABLES[slug]
+            body.append(block(heading, table(headers, rows)))
     # Related industries via primary service
     inds = SERVICE_INDUSTRIES.get(primary, ["perakende", "plaza-ofis"])[:2]
     ind_labels = {
@@ -1335,23 +1545,32 @@ def build_article(slug: str, title: str, primary: str, pk: str) -> None:
         "perakende": "Perakende",
     }
     # Related projects for primary
-    projs = SERVICE_DEPTH.get(primary, {}).get("related_projects", ["liman-kahve", "dortnal"])
+    projs = SERVICE_DEPTH.get(primary, {}).get("related_projects", [])
     other_bilgi = [
         (f"/bilgi/{s}/", t, "İlgili rehber.")
         for s, t, _, _ in ARTICLES
         if s != slug
     ][:3]
-    faqs = a5["faqs"] + [
-        ("İlgili hizmet nerede?", f"/hizmetler/{primary}/ sayfasında."),
-        ("Daha fazla rehber?", "/bilgi/ hub’ında."),
-    ]
     svc_name = ALL_SERVICES.get(primary, primary)
+    faqs = a5["faqs"] + [
+        ("İlgili hizmet nerede?", f'Üretim ve teklif <a href="/hizmetler/{primary}/">{svc_name}</a> sayfasındadır.'),
+        ("Daha fazla rehber?", '<a href="/bilgi/">Bilgi merkezi</a> diğer karşılaştırmaları listeler.'),
+    ]
     role_link = (
         f'Üretim ve teklif için <a href="/hizmetler/{primary}/">{svc_name}</a> '
         "sayfasına bakabilirsiniz."
     )
     wa_msg = f"{svc_name} hakkında bilgi"
-    html = f"""{head(title, f"{title} — eğitici rehber. Malt Studio bilgi merkezi.", f"{SITE}/bilgi/{slug}/")}
+    canonical = f"{SITE}/bilgi/{slug}/"
+    desc = f"{title} — eğitici rehber. Malt Studio bilgi merkezi."
+    json_ld = page_graph(
+        webpage_ld(canonical, title, desc),
+        website_node(),
+        article_ld(canonical, title, desc),
+        breadcrumb_ld([("Ana Sayfa", "/"), ("Bilgi", "/bilgi/"), (title, canonical)]),
+        faq_ld(canonical, faqs),
+    )
+    html = f"""{head(title, desc, canonical, json_ld=json_ld)}
 <body>
 {header()}
 <section class="page-hero">
@@ -1380,7 +1599,6 @@ def build_article(slug: str, title: str, primary: str, pk: str) -> None:
     {block("Satın alma ipuçları", ul(a5["buying"]))}
     {block("Bakım notları", ul(a5["maintenance"]))}
     {block("Pratik ek notlar", p(*ARTICLE_EXPAND[slug], ARTICLE_LONG[slug], ARTICLE_BRIDGE[slug]))}
-    {eeat_block("rehber")}
     {mid_cta(wa_msg)}
   </div>
 </section>
@@ -1404,7 +1622,15 @@ def build_article(slug: str, title: str, primary: str, pk: str) -> None:
 
 def build_bilgi_hub() -> None:
     items = cards([(f"/bilgi/{s}/", t, f"PK: {pk}", "Rehber") for s, t, _, pk in ARTICLES])
-    html = f"""{head("Bilgi Merkezi | Tabela ve Reklam Rehberleri", "Tabela çeşitleri, karşılaştırmalar ve uygulama rehberleri.", f"{SITE}/bilgi/")}
+    canonical = f"{SITE}/bilgi/"
+    title = "Bilgi Merkezi | Tabela ve Reklam Rehberleri"
+    desc = "Tabela çeşitleri, karşılaştırmalar ve uygulama rehberleri."
+    json_ld = page_graph(
+        webpage_ld(canonical, title, desc),
+        website_node(),
+        breadcrumb_ld([("Ana Sayfa", "/"), ("Bilgi", canonical)]),
+    )
+    html = f"""{head(title, desc, canonical, json_ld=json_ld)}
 <body>
 {header()}
 <section class="page-hero">
@@ -1418,11 +1644,11 @@ def build_bilgi_hub() -> None:
     </div>
   </div>
 </section>
-<section class="page-main"><div class="wrap">{block("Nasıl okumalı?", p("Önce ihtiyacınızı seçin, sonra ilgili hizmete geçin.","Fiyat eğitimi teklif yerine geçmez."))}{eeat_block("rehber hub")}{mid_cta("Bilgi sonrası teklif")}</div></section>
+<section class="page-main"><div class="wrap">{block("Nasıl okumalı?", p("Önce ihtiyacınızı seçin, sonra ilgili hizmete geçin.","Fiyat eğitimi teklif yerine geçmez."))}{mid_cta("Bilgi sonrası teklif")}</div></section>
 <section class="section-band paper-band"><div class="wrap"><div class="card-grid">{items}</div></div></section>
 {related_rail(
     services=[(f"/hizmetler/{s}/", n, f"{n} hizmeti.") for s, n in list(A0.items())[:6]],
-    projects=["liman-kahve", "mera-otel", "dortnal"],
+    projects=["ofiso", "kosem-doner", "anka"],
     industries=[(f"/sektorler/{s}/", n, f"{n} çözümleri.") for s, n, _ in INDUSTRIES[:4]],
 )}
 {cta_band("Rehberden uygulamaya geçin", "Bilgi sonrası teklif")}
@@ -1432,16 +1658,134 @@ def build_bilgi_hub() -> None:
     write(ROOT / "bilgi" / "index.html", html)
 
 
+def _html_for_url(url: str) -> Path:
+    path = url[len(SITE) :] if url.startswith(SITE) else url
+    if path in ("", "/"):
+        return ROOT / "index.html"
+    return ROOT / path.strip("/") / "index.html"
+
+
+def _lastmod(path: Path) -> str | None:
+    if not path.is_file():
+        return None
+    return datetime.fromtimestamp(path.stat().st_mtime, tz=timezone.utc).strftime("%Y-%m-%d")
+
+
+def build_gizlilik() -> None:
+    """Short privacy notice from actual site practices. Not a fabricated KVKK registration."""
+    canonical = f"{SITE}/gizlilik/"
+    title = "Gizlilik ve Kişisel Veriler | Malt Studio"
+    desc = "Malt Studio sitesinde iletişim ve analitik kullanımı hakkında kısa bilgilendirme."
+    json_ld = page_graph(
+        webpage_ld(canonical, title, desc),
+        website_node(),
+        breadcrumb_ld([("Ana Sayfa", "/"), ("Gizlilik", canonical)]),
+    )
+    html = f"""{head(title, desc, canonical, json_ld=json_ld)}
+<body>
+{header()}
+<section class="page-hero">
+  <div class="wrap">
+    {crumbs(("Ana Sayfa", "/"), ("Gizlilik", None))}
+    <h1>Gizlilik</h1>
+    <p class="lede">Sitede hangi bilgilerin işlendiğine dair kısa not. Bu metin avukat onaylı tam KVKK politikası değildir.</p>
+  </div>
+</section>
+<section class="page-main">
+  <div class="wrap">
+    {block("Veri sorumlusu", p(
+        "Malt Studio, Tekirdağ Süleymanpaşa.",
+        f"Adres: {ADDRESS_ONE_LINE}.",
+        f'E-posta: <a href="mailto:{EMAIL}">{EMAIL}</a>. Telefon: <a href="tel:{PHONE_TEL}">{PHONE_DISPLAY}</a>.',
+    ))}
+    {block("İletişim kanalları", p(
+        "WhatsApp, telefon ve e-posta ile gönderdiğiniz keşif/teklif mesajları işin planlanması için kullanılır.",
+        "Mesaj içeriği üçüncü kişilere satılmaz.",
+    ))}
+    {block("Analitik", p(
+        "Sitede Google Analytics 4 (ölçüm kimliği content.json içinde tanımlıysa) sayfa görüntüleme istatistiği için kullanılır.",
+        "Reklam kişiselleştirme veya uydurma kullanıcı profilleri bu sayfada iddia edilmez.",
+    ))}
+    {block("Haklar", p(
+        "Kişisel verilerinizle ilgili talep için e-posta veya telefon kullanın.",
+        'Atölye ve iletişim: <a href="/bolgeler/tekirdag/">Tekirdağ atölye sayfası</a>.',
+    ))}
+  </div>
+</section>
+{cta_band("Keşif için yazın", "Keşif talebi")}
+{footer()}
+</body></html>
+"""
+    write(ROOT / "gizlilik" / "index.html", html)
+
+
+def build_hakkimizda() -> None:
+    """About page from existing CMS/footer copy only. No invented founder or metrics."""
+    canonical = f"{SITE}/hakkimizda/"
+    title = "Hakkımızda | Malt Studio"
+    desc = "Tekirdağ merkezli reklam ve tabela üreticisi. Üretim, montaj ve keşif."
+    json_ld = page_graph(
+        webpage_ld(canonical, title, desc),
+        website_node(),
+        breadcrumb_ld([("Ana Sayfa", "/"), ("Hakkımızda", canonical)]),
+    )
+    html = f"""{head(title, desc, canonical, json_ld=json_ld)}
+<body>
+{header()}
+<section class="page-hero">
+  <div class="wrap">
+    {crumbs(("Ana Sayfa", "/"), ("Hakkımızda", None))}
+    <h1>Hakkımızda</h1>
+    <p class="lede">Tekirdağ Süleymanpaşa merkezli reklam ve tabela üretimi.</p>
+  </div>
+</section>
+<section class="page-main">
+  <div class="wrap">
+    {block("Ne yapıyoruz", p(
+        "Malt Studio Tekirdağ merkezli reklam ajansı ve tabela üreticisidir. Tabela, kurumsal kimlik, dijital baskı ve uygulama — keşiften montaja.",
+        "Şube sayısı, uydurma sertifika veya sahte yorum eklenmez.",
+    ))}
+    {block("Nerede", p(
+        f"{ADDRESS_ONE_LINE}.",
+        f"Çalışma saatleri: {HOURS_DISPLAY}.",
+        f'İletişim: <a href="/bolgeler/tekirdag/">atölye sayfası</a>.',
+        f'Telefon: <a href="tel:{PHONE_TEL}">{PHONE_DISPLAY}</a>.',
+    ))}
+    {block("Hizmetler", p(
+        'Tüm hizmet listesi <a href="/hizmetler/">hizmetler</a> sayfasındadır. Seçili işler <a href="/projeler/">projeler</a> altındadır.',
+    ))}
+  </div>
+</section>
+{cta_band("Keşif için yazın", "Keşif talebi")}
+{footer()}
+</body></html>
+"""
+    write(ROOT / "hakkimizda" / "index.html", html)
+
+
+def write_404() -> None:
+    html = f"""{head("Sayfa bulunamadı | Malt Studio", "İstediğiniz sayfa yok. Hizmetler, projeler veya atölye sayfasına gidin.", f"{SITE}/404.html", noindex=True)}
+<body>
+{header()}
+<section class="page-hero">
+  <div class="wrap">
+    <h1>Sayfa bulunamadı</h1>
+    <p class="lede">Bu adres yayında değil. Aşağıdan devam edin.</p>
+    <div class="hero-actions">
+      <a class="btn btn-primary" href="/">Ana sayfa</a>
+      <a class="btn btn-ghost" href="/hizmetler/">Hizmetler</a>
+      <a class="btn btn-ghost" href="/bolgeler/tekirdag/">Tekirdağ atölye</a>
+    </div>
+  </div>
+</section>
+{footer()}
+</body></html>
+"""
+    write(ROOT / "404.html", html)
+
+
 def merge_sitemap() -> None:
-    """Indexable owner URLs only. lastmod only on pages rewritten this pass."""
-    updated = {
-        f"{SITE}/",
-        f"{SITE}/hizmetler/",
-        f"{SITE}/bolgeler/tekirdag/",
-        f"{SITE}/projeler/",
-    }
-    for s in ALL_SERVICES:
-        updated.add(f"{SITE}/hizmetler/{s}/")
+    """Indexable public URLs. lastmod from the HTML file mtime after this write pass."""
     urls = [
         f"{SITE}/",
         f"{SITE}/hizmetler/",
@@ -1449,21 +1793,22 @@ def merge_sitemap() -> None:
         f"{SITE}/projeler/",
         f"{SITE}/sektorler/",
         f"{SITE}/bilgi/",
+        f"{SITE}/gizlilik/",
+        f"{SITE}/hakkimizda/",
     ]
     for s in ALL_SERVICES:
         urls.append(f"{SITE}/hizmetler/{s}/")
     for item in load_portfolio():
-        loc = f"{SITE}/projeler/{str(item['slug']).strip().strip('/')}/"
-        urls.append(loc)
-        updated.add(loc)
+        urls.append(f"{SITE}/projeler/{str(item['slug']).strip().strip('/')}/")
     for slug, *_ in INDUSTRIES:
         urls.append(f"{SITE}/sektorler/{slug}/")
     for slug, *_ in ARTICLES:
         urls.append(f"{SITE}/bilgi/{slug}/")
     parts = []
     for u in urls:
-        if u in updated:
-            parts.append(f"  <url>\n    <loc>{u}</loc>\n    <lastmod>2026-08-11</lastmod>\n  </url>")
+        lm = _lastmod(_html_for_url(u))
+        if lm:
+            parts.append(f"  <url>\n    <loc>{u}</loc>\n    <lastmod>{lm}</lastmod>\n  </url>")
         else:
             parts.append(f"  <url>\n    <loc>{u}</loc>\n  </url>")
     (ROOT / "sitemap.xml").write_text(
@@ -1490,7 +1835,9 @@ def main() -> None:
     build_bilgi_hub()
     for slug, title, primary, pk in ARTICLES:
         build_article(slug, title, primary, pk)
-    merge_sitemap()
+    build_gizlilik()
+    build_hakkimizda()
+    write_404()
     # Wave A3 homepage authority (no new URLs)
     import importlib.util
 
@@ -1500,6 +1847,7 @@ def main() -> None:
     assert spec.loader is not None
     spec.loader.exec_module(mod)
     mod.main()
+    merge_sitemap()
     print("Production upgrade complete.")
 
 

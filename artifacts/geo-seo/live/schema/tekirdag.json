@@ -1,0 +1,39 @@
+[
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "@id": "https://maltstudio.co/bolgeler/tekirdag/#webpage",
+        "url": "https://maltstudio.co/bolgeler/tekirdag/",
+        "name": "Malt Studio Tekirdağ Atölye ve İletişim",
+        "description": "Malt Studio’nun Tekirdağ Süleymanpaşa iletişim, çalışma saatleri, hizmet alanları ve keşif bilgileri. Telefon, WhatsApp ve yol tarifi.",
+        "isPartOf": {
+          "@id": "https://maltstudio.co/#website"
+        },
+        "about": {
+          "@id": "https://maltstudio.co/#business"
+        },
+        "inLanguage": "tr-TR"
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://maltstudio.co/bolgeler/tekirdag/#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Ana Sayfa",
+            "item": "https://maltstudio.co/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Malt Studio Tekirdağ Atölye ve İletişim",
+            "item": "https://maltstudio.co/bolgeler/tekirdag/"
+          }
+        ]
+      }
+    ]
+  }
+]

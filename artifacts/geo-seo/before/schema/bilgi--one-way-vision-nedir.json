@@ -1,0 +1,30 @@
+{
+  "url": "https://maltstudio.co/bilgi/one-way-vision-nedir/",
+  "schema": {
+    "block_count": 0,
+    "parse_ok": true,
+    "parse_failures": [],
+    "schema_types": [],
+    "defined_ids": [],
+    "dangling_refs": [],
+    "duplicate_ids": [],
+    "conflicting_ids": [],
+    "important_properties": [],
+    "has_geo": false,
+    "has_hours": false,
+    "has_logo_or_image": false,
+    "knowsAbout": [],
+    "sameAs": [],
+    "homepage_schema": false,
+    "has_website_node": false,
+    "has_business_node": false,
+    "has_faqpage": false,
+    "has_article": false,
+    "has_service": false,
+    "has_breadcrumb_list": false,
+    "has_localbusiness": false,
+    "has_webpage": false,
+    "ispartof_website": false
+  },
+  "blocks": []
+}

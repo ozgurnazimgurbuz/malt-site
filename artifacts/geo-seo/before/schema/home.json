@@ -1,0 +1,111 @@
+{
+  "url": "https://maltstudio.co/",
+  "schema": {
+    "block_count": 1,
+    "parse_ok": true,
+    "parse_failures": [],
+    "schema_types": [
+      "LocalBusiness",
+      "ProfessionalService"
+    ],
+    "defined_ids": [
+      "https://maltstudio.co/#business"
+    ],
+    "dangling_refs": [],
+    "duplicate_ids": [],
+    "conflicting_ids": [
+      {
+        "id": "https://maltstudio.co/#business",
+        "types": [
+          "LocalBusiness",
+          "ProfessionalService"
+        ]
+      }
+    ],
+    "important_properties": [
+      {
+        "@id": "https://maltstudio.co/#business",
+        "@type": [
+          "LocalBusiness",
+          "ProfessionalService"
+        ],
+        "name": "Malt Studio",
+        "url": "https://maltstudio.co/",
+        "telephone": "+905525826959",
+        "email": "merhaba@maltstudio.co",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Yavuz Mahallesi, Ruşen Güneş Sokak, D Blok No:2",
+          "postalCode": "59100",
+          "addressLocality": "Süleymanpaşa",
+          "addressRegion": "Tekirdağ",
+          "addressCountry": "TR"
+        },
+        "sameAs": [
+          "https://www.instagram.com/maltstudio.co/"
+        ]
+      }
+    ],
+    "has_geo": false,
+    "has_hours": false,
+    "has_logo_or_image": false,
+    "knowsAbout": [],
+    "sameAs": [
+      "https://www.instagram.com/maltstudio.co/"
+    ],
+    "homepage_schema": true,
+    "has_website_node": false,
+    "has_business_node": true,
+    "has_faqpage": false,
+    "has_article": false,
+    "has_service": false,
+    "has_breadcrumb_list": false,
+    "has_localbusiness": true,
+    "has_webpage": false,
+    "ispartof_website": false
+  },
+  "blocks": [
+    {
+      "index": 0,
+      "parse_ok": true,
+      "error": null,
+      "data": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": [
+              "LocalBusiness",
+              "ProfessionalService"
+            ],
+            "@id": "https://maltstudio.co/#business",
+            "name": "Malt Studio",
+            "url": "https://maltstudio.co/",
+            "telephone": "+905525826959",
+            "email": "merhaba@maltstudio.co",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Yavuz Mahallesi, Ruşen Güneş Sokak, D Blok No:2",
+              "postalCode": "59100",
+              "addressLocality": "Süleymanpaşa",
+              "addressRegion": "Tekirdağ",
+              "addressCountry": "TR"
+            },
+            "areaServed": [
+              {
+                "@type": "City",
+                "name": "Tekirdağ"
+              },
+              {
+                "@type": "AdministrativeArea",
+                "name": "Süleymanpaşa"
+              }
+            ],
+            "sameAs": [
+              "https://www.instagram.com/maltstudio.co/"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

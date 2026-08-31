@@ -23,7 +23,18 @@ Karşılaştırma, avantaj/dezavantaj ve satın alma ipuçları burada; üretim 
 
 ## Karar sorusu
 
-İşletmeniz gece de görünmek zorunda mı? Bu soru çoğu tercihi belirler.
+İşletmeniz gece de görünmek zorunda mı? Bu soru çoğu tercihi belirler. Gece kapalı bir noktada LED, kasa ve güç kaynağı yatırımı çoğu zaman gereksizdir. Gece açık mağaza, eczane veya plaza girişinde ışıksız tabela kaybolur. Işıklı sistem elektrik hattı, kasa derinliği ve servis erişimi ister; ışıksız sistemde bu katman yoktur. Lightbox ayrı üründür: perakende içi ışıklı kutu veya çerçeve, cephe LED tabela değildir. Neon şart değildir; LED ışıklı tabela yaygındır. Aşağıdaki tablo farkı özetler. Karar sonrası üretim [ışıklı tabela](https://maltstudio.co/hizmetler/isikli-tabela/)  veya [tabela](https://maltstudio.co/hizmetler/tabela/)  sayfasından yürür. Net rakam keşif sonrası yazılı verilir; sabit liste yoktur.
+
+## Işıklı ve ışıksız tabela farkı
+
+| Kriter | Işıklı tabela | Işıksız tabela |
+| --- | --- | --- |
+| Gece okunurluk | LED ile okunur | Gündüz odaklı; gece kaybolabilir |
+| Elektrik | Hat, kasa ve güç kaynağı gerekir | Gerekmez |
+| Bakım | LED ve güç kaynağı servisi planlanır | Yüzey, solma ve darbe kontrolü |
+| Tipik yer | Gece açık mağaza, eczane, plaza girişi | Gündüz işletme, iç yön |
+| Sipariş | [Işıklı tabela](https://maltstudio.co/hizmetler/isikli-tabela/) | [Tabela](https://maltstudio.co/hizmetler/tabela/) |
+| Lightbox | Ayrı üründür; cephe LED tabela değildir | Ayrı üründür |
 
 ## Görünürlük
 
@@ -31,7 +42,7 @@ Işıklı gece avantajı sağlar; ışıksız gündüz yeterli olabilir.
 
 ## Maliyet
 
-Işıklıda kasa, LED ve elektrik maliyeti eklenir.
+Işıklıda kasa, LED ve elektrik maliyeti eklenir. Sabit m² fiyatı yayınlanmaz.
 
 ## Bakım
 
@@ -43,11 +54,11 @@ Mimari ve elektrik altyapısı seçimi etkiler.
 
 ## Lightbox ayrımı
 
-Lightbox ayrı üründür; cephe ışıklı tabela değildir.
+Lightbox ayrı üründür; cephe ışıklı tabela değildir. Ayrı hizmet: [lightbox](https://maltstudio.co/hizmetler/lightbox/) .
 
 ## Sonuç
 
-Ticari uygulama için /hizmetler/isikli-tabela/ veya tabela sayfasına geçin.
+Ticari uygulama için [ışıklı tabela](https://maltstudio.co/hizmetler/isikli-tabela/)  veya [tabela](https://maltstudio.co/hizmetler/tabela/)  sayfasına geçin.
 
 ## Avantajlar
 
@@ -95,87 +106,38 @@ Işıklı/ışıksız kararı işletme saatleriyle başlar. Gece kapalıysa LED 
 
 Karar matrisi eğitimdir. Gece ihtiyacı yoksa LED şart değildir. Lightbox ayrı üründür. Sipariş doğru hizmet sayfasından yürür. Abartılı ömür vaadi yok.
 
-## Üretim, deneyim ve yerel uzmanlık
-
-Malt Studio Tekirdağ merkezli çalışır. Bu rehber içeriği; atölye üretimi, saha keşfi ve montajın aynı operasyonel hatta planlandığı gerçek iş modeline dayanır. Şube sayısı, uydurma sertifika, sahte yorum veya proje metriği eklenmez.
-
-- **Deneyim:** Keşif notları (ölçü, yüzey, erişim, işletme saati) teklif ve üretimi şekillendirir.
-- **Üretim:** Ölçüye özel imalat; stok tabela mantığı yerine yüzeye ve markaya göre üretim.
-- **Kalite süreci:** Atölye kontrolü → saha hizalama/sabitleme → teslim kontrolü.
-- **Yerel uzmanlık:** Tekirdağ üssünden merkez ve çevre ilçe işleri planlanır; Süleymanpaşa dahil merkez ve çevre ilçelere hizmet verilir.
-- **Kanıt:** Gerçek fotoğraflar proje sayfalarına bağlanır; stok görsel kullanılmaz.
-
 [WhatsApp ile Teklif](https://wa.me/905525826959?text=I%C5%9F%C4%B1kl%C4%B1%20Tabela%20hakk%C4%B1nda%20bilgi) [Teklif](https://maltstudio.co/#teklif) [Ara](tel:+905525826959)
 
 ## İlgili hizmetler
-
-###
-
-[Işıklı TabelaIşıklı Tabela hizmeti.Hizmet](https://maltstudio.co/hizmetler/isikli-tabela/)
+[Işıklı Tabela Işıklı Tabela hizmeti. Hizmet](https://maltstudio.co/hizmetler/isikli-tabela/)
 
 ## İlgili rehberler
+[Tabela Çeşitleri: Hangisi Ne İşe Yarar? İlgili rehber. Bilgi](https://maltstudio.co/bilgi/tabela-cesitleri/) [Kutu Harf Malzemeleri: Pleksi mi Paslanmaz mı? İlgili rehber. Bilgi](https://maltstudio.co/bilgi/kutu-harf-malzemeler/) [One Way Vision Nedir? İlgili rehber. Bilgi](https://maltstudio.co/bilgi/one-way-vision-nedir/)
 
-###
+## İlgili projeler
+[Köşem Döner Tamamlanan proje örneği. Proje](https://maltstudio.co/projeler/kosem-doner/)
 
-[Tabela Çeşitleri: Hangisi Ne İşe Yarar?İlgili rehber.Bilgi](https://maltstudio.co/bilgi/tabela-cesitleri/)
-
-###
-
-[Kutu Harf Malzemeleri: Pleksi mi Paslanmaz mı?İlgili rehber.Bilgi](https://maltstudio.co/bilgi/kutu-harf-malzemeler/)
-
-###
-
-[One Way Vision Nedir?İlgili rehber.Bilgi](https://maltstudio.co/bilgi/one-way-vision-nedir/)
+[Tüm projeler →](https://maltstudio.co/projeler/)
 
 ## İlgili sektörler
-
-###
-
-[PerakendeDikey bağlam.Sektör](https://maltstudio.co/sektorler/perakende/)
-
-###
-
-[Restoran & CafeDikey bağlam.Sektör](https://maltstudio.co/sektorler/restoran-cafe/)
+[Perakende Dikey bağlam. Sektör](https://maltstudio.co/sektorler/perakende/) [Restoran & Cafe Dikey bağlam. Sektör](https://maltstudio.co/sektorler/restoran-cafe/)
 
 ## Keşfet
-
-###
-
-[HizmetlerTüm hizmetlerimize göz atın.Keşif](https://maltstudio.co/hizmetler/)
-
-###
-
-[BilgiRehberler ve karar içerikleri.Keşif](https://maltstudio.co/bilgi/)
-
-###
-
-[ProjelerTamamladığımız işlerden örnekler.Keşif](https://maltstudio.co/projeler/)
-
-###
-
-[SektörlerSektöre özel çözümler.Keşif](https://maltstudio.co/sektorler/)
-
-###
-
-[TekirdağTekirdağ yerel hizmet rehberi.Keşif](https://maltstudio.co/bolgeler/tekirdag/)
-
-###
-
-[Ana sayfaMalt Studio ana sayfa.Keşif](https://maltstudio.co/)
+[Hizmetler Tüm hizmetlerimize göz atın. Keşif](https://maltstudio.co/hizmetler/) [Bilgi Rehberler ve karar içerikleri. Keşif](https://maltstudio.co/bilgi/) [Projeler Tamamladığımız işlerden örnekler. Keşif](https://maltstudio.co/projeler/) [Sektörler Sektöre özel çözümler. Keşif](https://maltstudio.co/sektorler/) [Tekirdağ Tekirdağ yerel hizmet rehberi. Keşif](https://maltstudio.co/bolgeler/tekirdag/) [Ana sayfa Malt Studio ana sayfa. Keşif](https://maltstudio.co/)
 
 ## SSS
 Lightbox aynı şey mi?
 
-Hayır. Lightbox ayrı sayfadadır.
+Hayır. Lightbox perakende içi kutu/çerçevedir: [lightbox](https://maltstudio.co/hizmetler/lightbox/) .
 Neon şart mı?
 
-Hayır; LED ışıklı tabela yaygındır.
+Hayır. LED ışıklı tabela yaygındır. Neon ayrı formdur.
 Sipariş nereden?
 
-/hizmetler/isikli-tabela/ veya ışıksız için /hizmetler/tabela/.
+Işıklı için [ışıklı tabela](https://maltstudio.co/hizmetler/isikli-tabela/) , ışıksız için [tabela](https://maltstudio.co/hizmetler/tabela/) .
 İlgili hizmet nerede?
 
-/hizmetler/isikli-tabela/ sayfasında.
+Üretim ve teklif [Işıklı Tabela](https://maltstudio.co/hizmetler/isikli-tabela/)  sayfasındadır.
 Daha fazla rehber?
 
-/bilgi/ hub’ında.
+[Bilgi merkezi](https://maltstudio.co/bilgi/)  diğer karşılaştırmaları listeler.

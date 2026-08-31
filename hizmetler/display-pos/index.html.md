@@ -55,6 +55,15 @@ Adet ve süre (tek gün vs sezon) malzeme sınıfını değiştirir.
 
 Taşınabilirlik ile dayanım dengesi brief’te netleştirilir.
 
+## Teklif öncesi ne paylaşın?
+
+Keşif sonrası yazılı teklif çıkar. Aşağıdakiler teklifi hızlandırır; hepsi zorunlu değildir.
+
+- Cephe, cam veya araç fotoğrafı
+- Yaklaşık ölçü veya keşif randevusu
+- Gece görünürlük ihtiyacı (var / yok)
+- Varsa vektörel logo veya marka kılavuzu
+
 ## Süreç
 
 1. **Keşif:** Ölçü, yüzey, erişim ve ihtiyaç netleştirilir.
@@ -70,16 +79,6 @@ Brief → tasarım → baskı/üretim → teslim veya kurulum.
 Tekrarlayan kampanyalarda şablon standardı birim maliyeti düşürebilir.
 
 Kurulum gerekmiyorsa sevk planı ayrıca konuşulur.
-
-## Üretim, deneyim ve yerel uzmanlık
-
-Malt Studio Tekirdağ merkezli çalışır. Bu hizmet içeriği; atölye üretimi, saha keşfi ve montajın aynı operasyonel hatta planlandığı gerçek iş modeline dayanır. Şube sayısı, uydurma sertifika, sahte yorum veya proje metriği eklenmez.
-
-- **Deneyim:** Keşif notları (ölçü, yüzey, erişim, işletme saati) teklif ve üretimi şekillendirir.
-- **Üretim:** Ölçüye özel imalat; stok tabela mantığı yerine yüzeye ve markaya göre üretim.
-- **Kalite süreci:** Atölye kontrolü → saha hizalama/sabitleme → teslim kontrolü.
-- **Yerel uzmanlık:** Tekirdağ üssünden merkez ve çevre ilçe işleri planlanır; Süleymanpaşa dahil merkez ve çevre ilçelere hizmet verilir.
-- **Kanıt:** Gerçek fotoğraflar proje sayfalarına bağlanır; stok görsel kullanılmaz.
 
 ## Deneyim ve üretim
 
@@ -110,87 +109,39 @@ Adres, saat ve iletişim: [Malt Studio Tekirdağ atölye ve iletişim](https://m
 [WhatsApp ile Teklif](https://wa.me/905525826959?text=Merhaba%2C%20Display%20%26%20POS%20i%C3%A7in%20ke%C5%9Fif%20istiyorum.) [Teklif](https://maltstudio.co/#teklif) [Ara](tel:+905525826959)
 
 ## İlgili hizmetler
-
-###
-
-[LightboxLightbox hizmeti.Hizmet](https://maltstudio.co/hizmetler/lightbox/)
-
-###
-
-[TabelaTabela hizmeti.Hizmet](https://maltstudio.co/hizmetler/tabela/)
-
-###
-
-[Cam GiydirmeCam Giydirme hizmeti.Hizmet](https://maltstudio.co/hizmetler/cam-giydirme/)
-
-###
-
-[Ofis BrandingOfis Branding hizmeti.Hizmet](https://maltstudio.co/hizmetler/ofis-branding/)
+[Lightbox Lightbox hizmeti. Hizmet](https://maltstudio.co/hizmetler/lightbox/) [Tabela Tabela hizmeti. Hizmet](https://maltstudio.co/hizmetler/tabela/) [Cam Giydirme Cam Giydirme hizmeti. Hizmet](https://maltstudio.co/hizmetler/cam-giydirme/) [Ofis Branding Ofis Branding hizmeti. Hizmet](https://maltstudio.co/hizmetler/ofis-branding/)
 
 ## İlgili rehberler
-
-###
-
-[RehberKarar vermenize yardımcı rehber.Bilgi](https://maltstudio.co/bilgi/tabela-cesitleri/)
+[Tabela Çeşitleri: Hangisi Ne İşe Yarar? Karar rehberi. Bilgi](https://maltstudio.co/bilgi/tabela-cesitleri/)
 
 ## İlgili sektörler
-
-###
-
-[PerakendePerakende projeleri.Sektör](https://maltstudio.co/sektorler/perakende/)
-
-###
-
-[İnşaat & Şantiyeİnşaat & Şantiye projeleri.Sektör](https://maltstudio.co/sektorler/insaat-santiye/)
+[Perakende Perakende projeleri. Sektör](https://maltstudio.co/sektorler/perakende/) [İnşaat & Şantiye İnşaat & Şantiye projeleri. Sektör](https://maltstudio.co/sektorler/insaat-santiye/)
 
 ## Keşfet
-
-###
-
-[HizmetlerTüm hizmetlerimize göz atın.Keşif](https://maltstudio.co/hizmetler/)
-
-###
-
-[BilgiRehberler ve karar içerikleri.Keşif](https://maltstudio.co/bilgi/)
-
-###
-
-[ProjelerTamamladığımız işlerden örnekler.Keşif](https://maltstudio.co/projeler/)
-
-###
-
-[SektörlerSektöre özel çözümler.Keşif](https://maltstudio.co/sektorler/)
-
-###
-
-[TekirdağTekirdağ yerel hizmet rehberi.Keşif](https://maltstudio.co/bolgeler/tekirdag/)
-
-###
-
-[Ana sayfaMalt Studio ana sayfa.Keşif](https://maltstudio.co/)
+[Hizmetler Tüm hizmetlerimize göz atın. Keşif](https://maltstudio.co/hizmetler/) [Bilgi Rehberler ve karar içerikleri. Keşif](https://maltstudio.co/bilgi/) [Projeler Tamamladığımız işlerden örnekler. Keşif](https://maltstudio.co/projeler/) [Sektörler Sektöre özel çözümler. Keşif](https://maltstudio.co/sektorler/) [Tekirdağ Tekirdağ yerel hizmet rehberi. Keşif](https://maltstudio.co/bolgeler/tekirdag/) [Ana sayfa Malt Studio ana sayfa. Keşif](https://maltstudio.co/)
 
 ## Sık sorulan sorular
 Roll-up vs X-banner?
 
-Roll-up kasalı; X-banner daha ekonomik.
+Roll-up kasalı sistemdir; X-banner daha ekonomik ve daha hassas taşınır. Seçim kullanım süresine göre yapılır.
 Fuar standı?
 
-Tekil display burada planlanır; tam stand ayrıca değerlendirilir.
+Tekil display burada planlanır. Tam fuar standı veya backdrop ayrıca değerlendirilir.
 Indoor totem?
 
-Bu ailede; yol totemi ayrı.
+Taşınabilir indoor display bu ailededir. Yol ve tesis totemi [totem](https://maltstudio.co/hizmetler/totem/)  sayfasındadır.
 Adet avantajı?
 
-Toplu siparişte teklif özeldir.
+Toplu siparişte teklif özeldir. Peşin birim oran ilan edilmez.
 Baskı kalitesi?
 
-Okunur mesafe ve çözünürlük planlanır.
+Okunur mesafe ve çözünürlük planlanır. Onaylı görsel olmadan baskı başlamaz.
 Teslimat?
 
-Donanım + baskı birlikte.
+Donanım ve baskı birlikte teslim edilebilir.
 Süre?
 
-Genelde kısa döngü.
+Genelde kısa döngü; adet ve baskı tipine göre netlenir.
 Yeniden baskı?
 
-Aynı kasaya yeni baskı yapılabilir.
+Aynı kasaya yeni baskı yapılabilir. Kampanya yenilemesi için kasa saklanır.

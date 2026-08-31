@@ -1,0 +1,23 @@
+{
+  "linkedin": {
+    "correct_tekirdag_company_url": null,
+    "jakarta_entity": "https://linkedin.com/company/malt-studio",
+    "jakarta_homepage": "maltstudio.com",
+    "jakarta_hq": "Jakarta, Indonesia",
+    "person_page": "https://www.linkedin.com/in/özgürnazımgürbüz currently attached to Jakarta company (excluded)",
+    "action": "sameAs unchanged; Jakarta URL not added"
+  },
+  "gbp": {
+    "verified_place_id": null,
+    "maps_url_in_cms": "https://www.google.com/maps/search/?api=1&query=40.9769375,27.5041875",
+    "is_place_id": false,
+    "search_for_listing": "no distinct Malt Studio Süleymanpaşa GBP found in this observation",
+    "classification": "LOCAL-001 — EXTERNAL ACTION REQUIRED"
+  },
+  "gsc": {
+    "cms_field": "googleSearchConsoleVerification",
+    "value": "",
+    "live_meta": "",
+    "token_supplied_this_stage": false
+  }
+}

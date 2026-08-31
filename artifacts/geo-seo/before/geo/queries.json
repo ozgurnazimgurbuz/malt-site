@@ -1,0 +1,49 @@
+{
+  "frozen": true,
+  "language": "tr",
+  "note": "Observational query corpus only. Do not claim rankings or AI citations from this file. Do not edit after BEFORE capture.",
+  "groups": {
+    "branded_informational": [
+      "Malt Studio Tekirdağ",
+      "Malt Studio Süleymanpaşa",
+      "Malt Studio tabela"
+    ],
+    "branded_transactional": [
+      "Malt Studio teklif",
+      "Malt Studio keşif randevusu",
+      "Malt Studio WhatsApp tabela"
+    ],
+    "non_branded_informational": [
+      "Tekirdağ tabela",
+      "Tekirdağ ışıklı tabela",
+      "Süleymanpaşa tabela imalatı"
+    ],
+    "definition": [
+      "ışıklı tabela nedir",
+      "kutu harf nedir",
+      "one way vision nedir",
+      "lightbox ile ışıklı tabela farkı"
+    ],
+    "problem_solution": [
+      "tabela fiyatını neler etkiler",
+      "gece görünmeyen tabela ne yapılmalı",
+      "mağaza tabelası nasıl seçilir"
+    ],
+    "recommendation": [
+      "Tekirdağ tabela kim yapar",
+      "Tekirdağ ışıklı tabela üreticisi",
+      "Süleymanpaşa reklam tabela önerisi"
+    ],
+    "comparison": [
+      "ışıklı tabela mı ışıksız mı",
+      "pleksi kutu harf mi paslanmaz mı",
+      "totem mi cephe tabelası mı"
+    ],
+    "local_tekirdag": [
+      "Tekirdağ tabela montaj",
+      "Çorlu tabela üretim",
+      "Çerkezköy ışıklı tabela",
+      "Süleymanpaşa kutu harf"
+    ]
+  }
+}

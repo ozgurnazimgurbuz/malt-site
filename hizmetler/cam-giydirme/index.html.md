@@ -57,6 +57,15 @@ Frosted/kumlama görünümü mahremiyet isterken markayı boğmadan kullanılmal
 
 Opak folyo tam kapatma içindir; vitrin ‘açıklık’ ihtiyacıyla çelişebilir.
 
+## Teklif öncesi ne paylaşın?
+
+Keşif sonrası yazılı teklif çıkar. Aşağıdakiler teklifi hızlandırır; hepsi zorunlu değildir.
+
+- Cephe, cam veya araç fotoğrafı
+- Yaklaşık ölçü veya keşif randevusu
+- Gece görünürlük ihtiyacı (var / yok)
+- Varsa vektörel logo veya marka kılavuzu
+
 ## Süreç
 
 1. **Keşif:** Ölçü, yüzey, erişim ve ihtiyaç netleştirilir.
@@ -72,16 +81,6 @@ Cam temizliği ve köşe detayı uygulama kalitesini belirler.
 Kampanya işlerinde hızlı yenileme için sökülebilir setler planlanabilir.
 
 Büyük yüzeylerde eklem ve gergi hatası okumayı bozar — keşif ölçüsü şarttır.
-
-## Üretim, deneyim ve yerel uzmanlık
-
-Malt Studio Tekirdağ merkezli çalışır. Bu hizmet içeriği; atölye üretimi, saha keşfi ve montajın aynı operasyonel hatta planlandığı gerçek iş modeline dayanır. Şube sayısı, uydurma sertifika, sahte yorum veya proje metriği eklenmez.
-
-- **Deneyim:** Keşif notları (ölçü, yüzey, erişim, işletme saati) teklif ve üretimi şekillendirir.
-- **Üretim:** Ölçüye özel imalat; stok tabela mantığı yerine yüzeye ve markaya göre üretim.
-- **Kalite süreci:** Atölye kontrolü → saha hizalama/sabitleme → teslim kontrolü.
-- **Yerel uzmanlık:** Tekirdağ üssünden merkez ve çevre ilçe işleri planlanır; Süleymanpaşa dahil merkez ve çevre ilçelere hizmet verilir.
-- **Kanıt:** Gerçek fotoğraflar proje sayfalarına bağlanır; stok görsel kullanılmaz.
 
 ## Deneyim ve üretim
 
@@ -112,91 +111,44 @@ Adres, saat ve iletişim: [Malt Studio Tekirdağ atölye ve iletişim](https://m
 [WhatsApp ile Teklif](https://wa.me/905525826959?text=Merhaba%2C%20Tekirda%C4%9F%20Cam%20Giydirme%20i%C3%A7in%20ke%C5%9Fif%20istiyorum.) [Teklif](https://maltstudio.co/#teklif) [Ara](tel:+905525826959)
 
 ## İlgili hizmetler
-
-###
-
-[Işıklı TabelaIşıklı Tabela hizmeti.Hizmet](https://maltstudio.co/hizmetler/isikli-tabela/)
-
-###
-
-[Ofis BrandingOfis Branding hizmeti.Hizmet](https://maltstudio.co/hizmetler/ofis-branding/)
-
-###
-
-[TabelaTabela hizmeti.Hizmet](https://maltstudio.co/hizmetler/tabela/)
-
-###
-
-[Display & POSDisplay & POS hizmeti.Hizmet](https://maltstudio.co/hizmetler/display-pos/)
+[Işıklı Tabela Işıklı Tabela hizmeti. Hizmet](https://maltstudio.co/hizmetler/isikli-tabela/) [Ofis Branding Ofis Branding hizmeti. Hizmet](https://maltstudio.co/hizmetler/ofis-branding/) [Tabela Tabela hizmeti. Hizmet](https://maltstudio.co/hizmetler/tabela/) [Display & POS Display & POS hizmeti. Hizmet](https://maltstudio.co/hizmetler/display-pos/)
 
 ## İlgili rehberler
+[One Way Vision Nedir? Karar rehberi. Bilgi](https://maltstudio.co/bilgi/one-way-vision-nedir/)
 
-###
+## İlgili projeler
+[OFİSO Tamamlanan proje örneği. Proje](https://maltstudio.co/projeler/ofiso/) [Pembe Pasta Evi Tamamlanan proje örneği. Proje](https://maltstudio.co/projeler/pembe-pasta-evi/)
 
-[RehberKarar vermenize yardımcı rehber.Bilgi](https://maltstudio.co/bilgi/one-way-vision-nedir/)
+[Tüm projeler →](https://maltstudio.co/projeler/)
 
 ## İlgili sektörler
-
-###
-
-[PerakendePerakende projeleri.Sektör](https://maltstudio.co/sektorler/perakende/)
-
-###
-
-[Restoran & CafeRestoran & Cafe projeleri.Sektör](https://maltstudio.co/sektorler/restoran-cafe/)
-
-###
-
-[Plaza & OfisPlaza & Ofis projeleri.Sektör](https://maltstudio.co/sektorler/plaza-ofis/)
+[Perakende Perakende projeleri. Sektör](https://maltstudio.co/sektorler/perakende/) [Restoran & Cafe Restoran & Cafe projeleri. Sektör](https://maltstudio.co/sektorler/restoran-cafe/) [Plaza & Ofis Plaza & Ofis projeleri. Sektör](https://maltstudio.co/sektorler/plaza-ofis/)
 
 ## Keşfet
-
-###
-
-[HizmetlerTüm hizmetlerimize göz atın.Keşif](https://maltstudio.co/hizmetler/)
-
-###
-
-[BilgiRehberler ve karar içerikleri.Keşif](https://maltstudio.co/bilgi/)
-
-###
-
-[ProjelerTamamladığımız işlerden örnekler.Keşif](https://maltstudio.co/projeler/)
-
-###
-
-[SektörlerSektöre özel çözümler.Keşif](https://maltstudio.co/sektorler/)
-
-###
-
-[TekirdağTekirdağ yerel hizmet rehberi.Keşif](https://maltstudio.co/bolgeler/tekirdag/)
-
-###
-
-[Ana sayfaMalt Studio ana sayfa.Keşif](https://maltstudio.co/)
+[Hizmetler Tüm hizmetlerimize göz atın. Keşif](https://maltstudio.co/hizmetler/) [Bilgi Rehberler ve karar içerikleri. Keşif](https://maltstudio.co/bilgi/) [Projeler Tamamladığımız işlerden örnekler. Keşif](https://maltstudio.co/projeler/) [Sektörler Sektöre özel çözümler. Keşif](https://maltstudio.co/sektorler/) [Tekirdağ Tekirdağ yerel hizmet rehberi. Keşif](https://maltstudio.co/bolgeler/tekirdag/) [Ana sayfa Malt Studio ana sayfa. Keşif](https://maltstudio.co/)
 
 ## Sık sorulan sorular
 One way vision nedir?
 
-Dışarıdan grafik, içeriden görüş sağlayan delikli folyo.
+Dışarıdan grafik görünen, içeriden bakışa izin veren delikli folyodur. Rehber: [one way vision nedir](https://maltstudio.co/bilgi/one-way-vision-nedir/) .
 İçerisi kararır mı?
 
-Folyo tipine göre ışık geçirgenliği değişir.
+Folyo tipine ve delik oranına göre ışık geçirgenliği değişir. Karanlık mağazada görüş zayıflayabilir.
 Araç camı?
 
-Araç giydirme kapsamında değerlendirilir.
+Araç camı [araç giydirme](https://maltstudio.co/hizmetler/arac-giydirme/)  kapsamında değerlendirilir.
 Sökülür mü?
 
-Kampanya sonunda kontrollü söküm planlanır.
+Kampanya sonunda kontrollü söküm planlanır. Kirli cama uygulama kenar/hava hatası yapar.
 Buğu / yapışma?
 
-Cam hazırlığı ve uygulama kalitesi kritiktir.
+Cam hazırlığı ve doğru gergi kritiktir.
 Ofis paketi?
 
-Ofis branding sayfasına bakın.
+Ofis gizlilik folyosu [ofis branding](https://maltstudio.co/hizmetler/ofis-branding/)  paketiyle birlikte yönetilebilir; malzeme bilgisi bu sayfadadır.
 Süre?
 
-Çoğu vitrin işi kısa sürer.
+Çoğu vitrin işi kısa sürer; ölçü ve katman sayısına göre netlenir.
 Tasarım?
 
-Mesaj hiyerarşisi okunur tutulur.
+Mesaj hiyerarşisi okunur tutulur. Aşırı kalabalık vitrin grafiği ürün yerine gürültü üretir.

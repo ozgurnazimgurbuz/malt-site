@@ -75,15 +75,14 @@ Tasarımda okunurluk (kontrast, harf yüksekliği, boşluk) marka dilinden önce
 
 Atölyede üretim sonrası kontrol; sahada hizalama, sabitleme ve teslim kontrolü yapılır.
 
-## Üretim, deneyim ve yerel uzmanlık
+## Teklif öncesi ne paylaşın?
 
-Malt Studio Tekirdağ merkezli çalışır. Bu hizmet içeriği; atölye üretimi, saha keşfi ve montajın aynı operasyonel hatta planlandığı gerçek iş modeline dayanır. Şube sayısı, uydurma sertifika, sahte yorum veya proje metriği eklenmez.
+Keşif sonrası yazılı teklif çıkar. Aşağıdakiler teklifi hızlandırır; hepsi zorunlu değildir.
 
-- **Deneyim:** Keşif notları (ölçü, yüzey, erişim, işletme saati) teklif ve üretimi şekillendirir.
-- **Üretim:** Ölçüye özel imalat; stok tabela mantığı yerine yüzeye ve markaya göre üretim.
-- **Kalite süreci:** Atölye kontrolü → saha hizalama/sabitleme → teslim kontrolü.
-- **Yerel uzmanlık:** Tekirdağ üssünden merkez ve çevre ilçe işleri planlanır; Süleymanpaşa dahil merkez ve çevre ilçelere hizmet verilir.
-- **Kanıt:** Gerçek fotoğraflar proje sayfalarına bağlanır; stok görsel kullanılmaz.
+- Cephe, cam veya araç fotoğrafı
+- Yaklaşık ölçü veya keşif randevusu
+- Gece görünürlük ihtiyacı (var / yok)
+- Varsa vektörel logo veya marka kılavuzu
 
 ## Süleymanpaşa ve çevre ilçelerde tabela montajı
 
@@ -94,95 +93,44 @@ Adres, saat ve iletişim: [Malt Studio Tekirdağ atölye ve iletişim](https://m
 [WhatsApp ile Teklif](https://wa.me/905525826959?text=Merhaba%2C%20Tekirda%C4%9F%20Tabela%20%C4%B0malat%C4%B1%20ve%20Montaj%C4%B1%20i%C3%A7in%20ke%C5%9Fif%20istiyorum.) [Teklif](https://maltstudio.co/#teklif) [Ara](tel:+905525826959)
 
 ## İlgili hizmetler
-
-###
-
-[Işıklı TabelaIşıklı Tabela hizmeti.Hizmet](https://maltstudio.co/hizmetler/isikli-tabela/)
-
-###
-
-[Kutu HarfKutu Harf hizmeti.Hizmet](https://maltstudio.co/hizmetler/kutu-harf/)
-
-###
-
-[TotemTotem hizmeti.Hizmet](https://maltstudio.co/hizmetler/totem/)
-
-###
-
-[Cam GiydirmeCam Giydirme hizmeti.Hizmet](https://maltstudio.co/hizmetler/cam-giydirme/)
+[Işıklı Tabela Işıklı Tabela hizmeti. Hizmet](https://maltstudio.co/hizmetler/isikli-tabela/) [Kutu Harf Kutu Harf hizmeti. Hizmet](https://maltstudio.co/hizmetler/kutu-harf/) [Totem Totem hizmeti. Hizmet](https://maltstudio.co/hizmetler/totem/) [Cam Giydirme Cam Giydirme hizmeti. Hizmet](https://maltstudio.co/hizmetler/cam-giydirme/)
 
 ## İlgili rehberler
+[Tabela Çeşitleri: Hangisi Ne İşe Yarar? Karar rehberi. Bilgi](https://maltstudio.co/bilgi/tabela-cesitleri/) [Tabela Fiyatını Neler Etkiler? Karar rehberi. Bilgi](https://maltstudio.co/bilgi/tabela-fiyati/)
 
-###
+## İlgili projeler
+[OFİSO Tamamlanan proje örneği. Proje](https://maltstudio.co/projeler/ofiso/) [Yamanlar Ekspertiz Tamamlanan proje örneği. Proje](https://maltstudio.co/projeler/yamanlar-ekspertiz/) [Pembe Pasta Evi Tamamlanan proje örneği. Proje](https://maltstudio.co/projeler/pembe-pasta-evi/) [Anka Anaokulu Tamamlanan proje örneği. Proje](https://maltstudio.co/projeler/anka/)
 
-[RehberKarar vermenize yardımcı rehber.Bilgi](https://maltstudio.co/bilgi/tabela-cesitleri/)
-
-###
-
-[RehberKarar vermenize yardımcı rehber.Bilgi](https://maltstudio.co/bilgi/tabela-fiyati/)
+[Tüm projeler →](https://maltstudio.co/projeler/)
 
 ## İlgili sektörler
-
-###
-
-[PerakendePerakende projeleri.Sektör](https://maltstudio.co/sektorler/perakende/)
-
-###
-
-[Fabrika & OSBFabrika & OSB projeleri.Sektör](https://maltstudio.co/sektorler/fabrika-osb/)
-
-###
-
-[Plaza & OfisPlaza & Ofis projeleri.Sektör](https://maltstudio.co/sektorler/plaza-ofis/)
+[Perakende Perakende projeleri. Sektör](https://maltstudio.co/sektorler/perakende/) [Fabrika & OSB Fabrika & OSB projeleri. Sektör](https://maltstudio.co/sektorler/fabrika-osb/) [Plaza & Ofis Plaza & Ofis projeleri. Sektör](https://maltstudio.co/sektorler/plaza-ofis/)
 
 ## Keşfet
-
-###
-
-[HizmetlerTüm hizmetlerimize göz atın.Keşif](https://maltstudio.co/hizmetler/)
-
-###
-
-[BilgiRehberler ve karar içerikleri.Keşif](https://maltstudio.co/bilgi/)
-
-###
-
-[ProjelerTamamladığımız işlerden örnekler.Keşif](https://maltstudio.co/projeler/)
-
-###
-
-[SektörlerSektöre özel çözümler.Keşif](https://maltstudio.co/sektorler/)
-
-###
-
-[TekirdağTekirdağ yerel hizmet rehberi.Keşif](https://maltstudio.co/bolgeler/tekirdag/)
-
-###
-
-[Ana sayfaMalt Studio ana sayfa.Keşif](https://maltstudio.co/)
+[Hizmetler Tüm hizmetlerimize göz atın. Keşif](https://maltstudio.co/hizmetler/) [Bilgi Rehberler ve karar içerikleri. Keşif](https://maltstudio.co/bilgi/) [Projeler Tamamladığımız işlerden örnekler. Keşif](https://maltstudio.co/projeler/) [Sektörler Sektöre özel çözümler. Keşif](https://maltstudio.co/sektorler/) [Tekirdağ Tekirdağ yerel hizmet rehberi. Keşif](https://maltstudio.co/bolgeler/tekirdag/) [Ana sayfa Malt Studio ana sayfa. Keşif](https://maltstudio.co/)
 
 ## Sık sorulan sorular
 Tabela ile ışıklı tabela farkı nedir?
 
-Işıklı tabela gece görünürlük için LED’li sistemdir; ayrı sayfası vardır. Bu sayfa genel tabela hizmetini kapsar.
+Işıklı tabela gece görünürlük için LED’li sistemdir. Ayrı sayfa: [ışıklı tabela](https://maltstudio.co/hizmetler/isikli-tabela/) . Bu sayfa genel tabela üretimini kapsar.
 Montajı siz yapıyor musunuz?
 
-Evet. Üretim ve yerinde montaj birlikte planlanır.
+Evet. Üretim atölyede, montaj sahada birlikte planlanır.
 Fiyat listesi var mı?
 
-Hayır. Ölçü, malzeme ve montaj keşiften sonra netleşir.
+Hayır. Ölçü, malzeme ve montaj keşiften sonra yazılı netleşir. Sabit internet fiyatı yayınlanmaz.
 Tekirdağ dışında çalışıyor musunuz?
 
-Tekirdağ üssünden çevre ilçelere keşif ve montaj planlanır.
+Tekirdağ üssünden çevre ilçelere keşif ve montaj planlanır. Atölye: [Tekirdağ iletişim](https://maltstudio.co/bolgeler/tekirdag/) .
 Ne kadar sürer?
 
-Onay ve ölçüye göre birkaç iş gününden birkaç haftaya değişir.
+Onay ve ölçüye göre birkaç iş gününden birkaç haftaya değişir. Süre teklifte yazılır; tutulmayan süre vaadi yoktur.
 Tasarım desteği var mı?
 
-Marka dosyanız yoksa sade ve okunur tasarım önerisi sunulur.
+Marka dosyanız yoksa sade ve okunur tasarım önerisi sunulur. Vektörel logo kaliteyi yükseltir.
 Eski tabela sökümü?
 
-Yenileme işlerinde söküm planlanabilir.
+Yenileme işlerinde söküm ve yüzey rötuşu planlanabilir; peşin dahil varsayılmaz.
 Garanti?
 
-Malzeme ve işçilik kapsamı teklifte yazılı netleştirilir.
+Malzeme ve işçilik kapsamı teklifte yazılı netleştirilir. Peşin ‘ömür boyu’ vaadi yoktur.

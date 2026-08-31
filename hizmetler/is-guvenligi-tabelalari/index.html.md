@@ -57,6 +57,15 @@ Reflektif folyo ihtiyaç halinde değerlendirilir.
 
 Toplu setlerde listeye göre üretim yapılır — hazır ‘her yere aynı’ varsayımı yoktur.
 
+## Teklif öncesi ne paylaşın?
+
+Keşif sonrası yazılı teklif çıkar. Aşağıdakiler teklifi hızlandırır; hepsi zorunlu değildir.
+
+- Cephe, cam veya araç fotoğrafı
+- Yaklaşık ölçü veya keşif randevusu
+- Gece görünürlük ihtiyacı (var / yok)
+- Varsa vektörel logo veya marka kılavuzu
+
 ## Süreç
 
 1. **Keşif:** Ölçü, yüzey, erişim ve ihtiyaç netleştirilir.
@@ -72,16 +81,6 @@ Saha listesi / yerleşim → üretim → montaj planı → teslim.
 Acil çıkış ve yangın işaretlerinde konum doğruluğu kritiktir; müşteri yerleşim onayı alınır.
 
 Hızlı standart setlerde süre kısa olabilir; özel metinler onay ister.
-
-## Üretim, deneyim ve yerel uzmanlık
-
-Malt Studio Tekirdağ merkezli çalışır. Bu hizmet içeriği; atölye üretimi, saha keşfi ve montajın aynı operasyonel hatta planlandığı gerçek iş modeline dayanır. Şube sayısı, uydurma sertifika, sahte yorum veya proje metriği eklenmez.
-
-- **Deneyim:** Keşif notları (ölçü, yüzey, erişim, işletme saati) teklif ve üretimi şekillendirir.
-- **Üretim:** Ölçüye özel imalat; stok tabela mantığı yerine yüzeye ve markaya göre üretim.
-- **Kalite süreci:** Atölye kontrolü → saha hizalama/sabitleme → teslim kontrolü.
-- **Yerel uzmanlık:** Tekirdağ üssünden merkez ve çevre ilçe işleri planlanır; Süleymanpaşa dahil merkez ve çevre ilçelere hizmet verilir.
-- **Kanıt:** Gerçek fotoğraflar proje sayfalarına bağlanır; stok görsel kullanılmaz.
 
 ## Deneyim ve üretim
 
@@ -112,87 +111,44 @@ Adres, saat ve iletişim: [Malt Studio Tekirdağ atölye ve iletişim](https://m
 [WhatsApp ile Teklif](https://wa.me/905525826959?text=Merhaba%2C%20%C4%B0%C5%9F%20G%C3%BCvenli%C4%9Fi%20Tabelalar%C4%B1%20i%C3%A7in%20ke%C5%9Fif%20istiyorum.) [Teklif](https://maltstudio.co/#teklif) [Ara](tel:+905525826959)
 
 ## İlgili hizmetler
-
-###
-
-[TabelaTabela hizmeti.Hizmet](https://maltstudio.co/hizmetler/tabela/)
-
-###
-
-[TotemTotem hizmeti.Hizmet](https://maltstudio.co/hizmetler/totem/)
-
-###
-
-[Display & POSDisplay & POS hizmeti.Hizmet](https://maltstudio.co/hizmetler/display-pos/)
-
-###
-
-[Ofis BrandingOfis Branding hizmeti.Hizmet](https://maltstudio.co/hizmetler/ofis-branding/)
+[Tabela Tabela hizmeti. Hizmet](https://maltstudio.co/hizmetler/tabela/) [Totem Totem hizmeti. Hizmet](https://maltstudio.co/hizmetler/totem/) [Display & POS Display & POS hizmeti. Hizmet](https://maltstudio.co/hizmetler/display-pos/) [Ofis Branding Ofis Branding hizmeti. Hizmet](https://maltstudio.co/hizmetler/ofis-branding/)
 
 ## İlgili rehberler
+[Tabela Çeşitleri: Hangisi Ne İşe Yarar? Karar rehberi. Bilgi](https://maltstudio.co/bilgi/tabela-cesitleri/)
 
-###
+## İlgili projeler
+[Anka Anaokulu Tamamlanan proje örneği. Proje](https://maltstudio.co/projeler/anka/)
 
-[RehberKarar vermenize yardımcı rehber.Bilgi](https://maltstudio.co/bilgi/tabela-cesitleri/)
+[Tüm projeler →](https://maltstudio.co/projeler/)
 
 ## İlgili sektörler
-
-###
-
-[Fabrika & OSBFabrika & OSB projeleri.Sektör](https://maltstudio.co/sektorler/fabrika-osb/)
-
-###
-
-[İnşaat & Şantiyeİnşaat & Şantiye projeleri.Sektör](https://maltstudio.co/sektorler/insaat-santiye/)
+[Fabrika & OSB Fabrika & OSB projeleri. Sektör](https://maltstudio.co/sektorler/fabrika-osb/) [İnşaat & Şantiye İnşaat & Şantiye projeleri. Sektör](https://maltstudio.co/sektorler/insaat-santiye/)
 
 ## Keşfet
-
-###
-
-[HizmetlerTüm hizmetlerimize göz atın.Keşif](https://maltstudio.co/hizmetler/)
-
-###
-
-[BilgiRehberler ve karar içerikleri.Keşif](https://maltstudio.co/bilgi/)
-
-###
-
-[ProjelerTamamladığımız işlerden örnekler.Keşif](https://maltstudio.co/projeler/)
-
-###
-
-[SektörlerSektöre özel çözümler.Keşif](https://maltstudio.co/sektorler/)
-
-###
-
-[TekirdağTekirdağ yerel hizmet rehberi.Keşif](https://maltstudio.co/bolgeler/tekirdag/)
-
-###
-
-[Ana sayfaMalt Studio ana sayfa.Keşif](https://maltstudio.co/)
+[Hizmetler Tüm hizmetlerimize göz atın. Keşif](https://maltstudio.co/hizmetler/) [Bilgi Rehberler ve karar içerikleri. Keşif](https://maltstudio.co/bilgi/) [Projeler Tamamladığımız işlerden örnekler. Keşif](https://maltstudio.co/projeler/) [Sektörler Sektöre özel çözümler. Keşif](https://maltstudio.co/sektorler/) [Tekirdağ Tekirdağ yerel hizmet rehberi. Keşif](https://maltstudio.co/bolgeler/tekirdag/) [Ana sayfa Malt Studio ana sayfa. Keşif](https://maltstudio.co/)
 
 ## Sık sorulan sorular
 Yangın çıkışı burada mı?
 
-Evet.
+Evet. Yangın çıkışı, acil çıkış ve toplanma alanı bu ailededir.
 Yönlendirme aynı mı?
 
-Hayır; wayfinding ayrı aile.
+Hayır. Oda/kat wayfinding bu ailenin H1’i değildir; iş güvenliği uyarı setidir.
 ISO belgesi veriyor musunuz?
 
-Hayır; tabela üretiriz.
+Hayır. Malt Studio tabela üretir ve tedarik eder; belgelendirme kuruluşu değildir.
 Toplu set?
 
-Listeye göre üretilir.
+Listeye veya Excel’e göre üretilir. Toplu saha etiketleme OSB ve depoda sık istenir.
 Dış mekân dayanım?
 
-Malzeme sahaya göre seçilir.
+Malzeme sahaya göre seçilir. UV ve darbe ihtiyacı keşifte konuşulur.
 Montaj?
 
-Saha planıyla yapılır.
+Saha planıyla yapılır. Üretim hattı duruşu varsa takvim ona göre yazılır.
 Süre?
 
-Standart setlerde hızlı.
+Standart setlerde hızlıdır; özel metin onayına bağlıdır.
 Özel uyarı metni?
 
-Evet, onaya göre.
+Evet, onaya göre. Tıbbi veya yasal danışmanlık yerine geçmez.

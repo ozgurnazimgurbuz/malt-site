@@ -57,6 +57,15 @@ Paslanmaz dış dayanım ve mimari dil ister; bütçe genelde daha yüksektir.
 
 Montaj yüzeyi (kompozit, taş, cam) aparat tipini belirler — keşifsiz sipariş risklidir.
 
+## Teklif öncesi ne paylaşın?
+
+Keşif sonrası yazılı teklif çıkar. Aşağıdakiler teklifi hızlandırır; hepsi zorunlu değildir.
+
+- Cephe, cam veya araç fotoğrafı
+- Yaklaşık ölçü veya keşif randevusu
+- Gece görünürlük ihtiyacı (var / yok)
+- Varsa vektörel logo veya marka kılavuzu
+
 ## Süreç
 
 1. **Keşif:** Ölçü, yüzey, erişim ve ihtiyaç netleştirilir.
@@ -72,16 +81,6 @@ Vektörel logo/font kaliteyi yükseltir; yoksa sade okunur alternatif önerilir.
 Harf adedi, derinlik ve ışıklı tercih üretim süresini etkiler.
 
 Sahada hizalama ve sabitleme sonrası teslim kontrolü yapılır.
-
-## Üretim, deneyim ve yerel uzmanlık
-
-Malt Studio Tekirdağ merkezli çalışır. Bu hizmet içeriği; atölye üretimi, saha keşfi ve montajın aynı operasyonel hatta planlandığı gerçek iş modeline dayanır. Şube sayısı, uydurma sertifika, sahte yorum veya proje metriği eklenmez.
-
-- **Deneyim:** Keşif notları (ölçü, yüzey, erişim, işletme saati) teklif ve üretimi şekillendirir.
-- **Üretim:** Ölçüye özel imalat; stok tabela mantığı yerine yüzeye ve markaya göre üretim.
-- **Kalite süreci:** Atölye kontrolü → saha hizalama/sabitleme → teslim kontrolü.
-- **Yerel uzmanlık:** Tekirdağ üssünden merkez ve çevre ilçe işleri planlanır; Süleymanpaşa dahil merkez ve çevre ilçelere hizmet verilir.
-- **Kanıt:** Gerçek fotoğraflar proje sayfalarına bağlanır; stok görsel kullanılmaz.
 
 ## Deneyim ve üretim
 
@@ -112,95 +111,44 @@ Adres, saat ve iletişim: [Malt Studio Tekirdağ atölye ve iletişim](https://m
 [WhatsApp ile Teklif](https://wa.me/905525826959?text=Merhaba%2C%20Tekirda%C4%9F%20Kutu%20Harf%20Tabela%20i%C3%A7in%20ke%C5%9Fif%20istiyorum.) [Teklif](https://maltstudio.co/#teklif) [Ara](tel:+905525826959)
 
 ## İlgili hizmetler
-
-###
-
-[Ofis BrandingOfis Branding hizmeti.Hizmet](https://maltstudio.co/hizmetler/ofis-branding/)
-
-###
-
-[Işıklı TabelaIşıklı Tabela hizmeti.Hizmet](https://maltstudio.co/hizmetler/isikli-tabela/)
-
-###
-
-[TabelaTabela hizmeti.Hizmet](https://maltstudio.co/hizmetler/tabela/)
-
-###
-
-[LightboxLightbox hizmeti.Hizmet](https://maltstudio.co/hizmetler/lightbox/)
+[Ofis Branding Ofis Branding hizmeti. Hizmet](https://maltstudio.co/hizmetler/ofis-branding/) [Işıklı Tabela Işıklı Tabela hizmeti. Hizmet](https://maltstudio.co/hizmetler/isikli-tabela/) [Tabela Tabela hizmeti. Hizmet](https://maltstudio.co/hizmetler/tabela/) [Lightbox Lightbox hizmeti. Hizmet](https://maltstudio.co/hizmetler/lightbox/)
 
 ## İlgili rehberler
+[Kutu Harf Malzemeleri: Pleksi mi Paslanmaz mı? Karar rehberi. Bilgi](https://maltstudio.co/bilgi/kutu-harf-malzemeler/) [Tabela Çeşitleri: Hangisi Ne İşe Yarar? Karar rehberi. Bilgi](https://maltstudio.co/bilgi/tabela-cesitleri/)
 
-###
+## İlgili projeler
+[Köşem Döner Tamamlanan proje örneği. Proje](https://maltstudio.co/projeler/kosem-doner/) [Okka Tarım Tamamlanan proje örneği. Proje](https://maltstudio.co/projeler/okka-tarim/)
 
-[RehberKarar vermenize yardımcı rehber.Bilgi](https://maltstudio.co/bilgi/kutu-harf-malzemeler/)
-
-###
-
-[RehberKarar vermenize yardımcı rehber.Bilgi](https://maltstudio.co/bilgi/tabela-cesitleri/)
+[Tüm projeler →](https://maltstudio.co/projeler/)
 
 ## İlgili sektörler
-
-###
-
-[Plaza & OfisPlaza & Ofis projeleri.Sektör](https://maltstudio.co/sektorler/plaza-ofis/)
-
-###
-
-[PerakendePerakende projeleri.Sektör](https://maltstudio.co/sektorler/perakende/)
-
-###
-
-[Fabrika & OSBFabrika & OSB projeleri.Sektör](https://maltstudio.co/sektorler/fabrika-osb/)
+[Plaza & Ofis Plaza & Ofis projeleri. Sektör](https://maltstudio.co/sektorler/plaza-ofis/) [Perakende Perakende projeleri. Sektör](https://maltstudio.co/sektorler/perakende/) [Fabrika & OSB Fabrika & OSB projeleri. Sektör](https://maltstudio.co/sektorler/fabrika-osb/)
 
 ## Keşfet
-
-###
-
-[HizmetlerTüm hizmetlerimize göz atın.Keşif](https://maltstudio.co/hizmetler/)
-
-###
-
-[BilgiRehberler ve karar içerikleri.Keşif](https://maltstudio.co/bilgi/)
-
-###
-
-[ProjelerTamamladığımız işlerden örnekler.Keşif](https://maltstudio.co/projeler/)
-
-###
-
-[SektörlerSektöre özel çözümler.Keşif](https://maltstudio.co/sektorler/)
-
-###
-
-[TekirdağTekirdağ yerel hizmet rehberi.Keşif](https://maltstudio.co/bolgeler/tekirdag/)
-
-###
-
-[Ana sayfaMalt Studio ana sayfa.Keşif](https://maltstudio.co/)
+[Hizmetler Tüm hizmetlerimize göz atın. Keşif](https://maltstudio.co/hizmetler/) [Bilgi Rehberler ve karar içerikleri. Keşif](https://maltstudio.co/bilgi/) [Projeler Tamamladığımız işlerden örnekler. Keşif](https://maltstudio.co/projeler/) [Sektörler Sektöre özel çözümler. Keşif](https://maltstudio.co/sektorler/) [Tekirdağ Tekirdağ yerel hizmet rehberi. Keşif](https://maltstudio.co/bolgeler/tekirdag/) [Ana sayfa Malt Studio ana sayfa. Keşif](https://maltstudio.co/)
 
 ## Sık sorulan sorular
 Pleksi mi paslanmaz mı?
 
-Bütçe, mimari ve bakım beklentisine göre; rehber sayfada karşılaştırılır.
+Bütçe, mimari ve bakım beklentisine göre değişir. Karşılaştırma: [kutu harf malzemeleri](https://maltstudio.co/bilgi/kutu-harf-malzemeler/) .
 Channel letters nedir?
 
-Kutu harfin uluslararası adıdır.
+Kutu harfin uluslararası adıdır. Ayrı URL yoktur; üretim bu sayfadadır.
 Işıklı olur mu?
 
-Evet, modele göre LED’li üretilir.
+Evet, modele göre LED’li üretilir. Işıklı/ışıksız tercih üretimden önce netleşir.
 Font şart mı?
 
-Vektörel logo/font dosyası kaliteyi yükseltir.
+Vektörel logo veya font dosyası kaliteyi yükseltir. Font lisansı müşteri sorumluluğundadır.
 Montaj her yüzeye olur mu?
 
-Keşif şarttır.
+Hayır. Kompozit, beton ve cam farklı aparat ister; keşif şarttır.
 Bakım?
 
-Dış ortamda periyodik kontrol önerilir.
+Dış ortamda periyodik kontrol önerilir. Işıklı harflerde servis erişimi korunmalıdır.
 Süre?
 
-Harf adedi ve malzemeye göre değişir.
+Harf adedi ve malzemeye göre değişir; teklifte yazılır.
 Ofis içi logo?
 
-Ofis branding paketiyle birlikte planlanabilir.
+Ofis içi 3D logo [ofis branding](https://maltstudio.co/hizmetler/ofis-branding/)  paketiyle birlikte planlanabilir.

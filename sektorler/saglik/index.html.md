@@ -81,86 +81,27 @@ Sağlık dikeyinde sakin dil güveni korur. Agresif kampanya dili zedeler. Giri�
 
 Sağlık dikeyinde sakin hiyerarşi güveni korur. Tıbbi iddia üretilmez. Giriş ve bekleme alanları ayrı katmanlardır. Hijyen temizlik rejimini etkiler. Dikey giriş hizmet owner’larına bağlanır. Uydurma klinik sayısı yazılmaz.
 
-## Üretim, deneyim ve yerel uzmanlık
-
-Malt Studio Tekirdağ merkezli çalışır. Bu sektör içeriği; atölye üretimi, saha keşfi ve montajın aynı operasyonel hatta planlandığı gerçek iş modeline dayanır. Şube sayısı, uydurma sertifika, sahte yorum veya proje metriği eklenmez.
-
-- **Deneyim:** Keşif notları (ölçü, yüzey, erişim, işletme saati) teklif ve üretimi şekillendirir.
-- **Üretim:** Ölçüye özel imalat; stok tabela mantığı yerine yüzeye ve markaya göre üretim.
-- **Kalite süreci:** Atölye kontrolü → saha hizalama/sabitleme → teslim kontrolü.
-- **Yerel uzmanlık:** Tekirdağ üssünden merkez ve çevre ilçe işleri planlanır; Süleymanpaşa dahil merkez ve çevre ilçelere hizmet verilir.
-- **Kanıt:** Gerçek fotoğraflar proje sayfalarına bağlanır; stok görsel kullanılmaz.
-
 [WhatsApp ile Teklif](https://wa.me/905525826959?text=Sa%C4%9Fl%C4%B1k%20sekt%C3%B6r%C3%BC%20ke%C5%9Fif) [Teklif](https://maltstudio.co/#teklif) [Ara](tel:+905525826959)
 
 ## İlgili hizmetler
-
-###
-
-[Işıklı TabelaIşıklı Tabela hizmeti.Hizmet](https://maltstudio.co/hizmetler/isikli-tabela/)
-
-###
-
-[TabelaTabela hizmeti.Hizmet](https://maltstudio.co/hizmetler/tabela/)
-
-###
-
-[Cam GiydirmeCam Giydirme hizmeti.Hizmet](https://maltstudio.co/hizmetler/cam-giydirme/)
-
-###
-
-[Ofis BrandingOfis Branding hizmeti.Hizmet](https://maltstudio.co/hizmetler/ofis-branding/)
+[Işıklı Tabela Işıklı Tabela hizmeti. Hizmet](https://maltstudio.co/hizmetler/isikli-tabela/) [Tabela Tabela hizmeti. Hizmet](https://maltstudio.co/hizmetler/tabela/) [Cam Giydirme Cam Giydirme hizmeti. Hizmet](https://maltstudio.co/hizmetler/cam-giydirme/) [Ofis Branding Ofis Branding hizmeti. Hizmet](https://maltstudio.co/hizmetler/ofis-branding/)
 
 ## İlgili rehberler
-
-###
-
-[RehberKarar vermenize yardımcı rehber.Bilgi](https://maltstudio.co/bilgi/isikli-mi-isiksiz-mi/)
-
-###
-
-[RehberKarar vermenize yardımcı rehber.Bilgi](https://maltstudio.co/bilgi/tabela-cesitleri/)
-
-###
-
-[RehberKarar vermenize yardımcı rehber.Bilgi](https://maltstudio.co/bilgi/one-way-vision-nedir/)
+[Işıklı Tabela mı Işıksız mı? Karar rehberi. Bilgi](https://maltstudio.co/bilgi/isikli-mi-isiksiz-mi/) [Tabela Çeşitleri: Hangisi Ne İşe Yarar? Karar rehberi. Bilgi](https://maltstudio.co/bilgi/tabela-cesitleri/) [One Way Vision Nedir? Karar rehberi. Bilgi](https://maltstudio.co/bilgi/one-way-vision-nedir/)
 
 ## Keşfet
-
-###
-
-[HizmetlerTüm hizmetlerimize göz atın.Keşif](https://maltstudio.co/hizmetler/)
-
-###
-
-[BilgiRehberler ve karar içerikleri.Keşif](https://maltstudio.co/bilgi/)
-
-###
-
-[ProjelerTamamladığımız işlerden örnekler.Keşif](https://maltstudio.co/projeler/)
-
-###
-
-[SektörlerSektöre özel çözümler.Keşif](https://maltstudio.co/sektorler/)
-
-###
-
-[TekirdağTekirdağ yerel hizmet rehberi.Keşif](https://maltstudio.co/bolgeler/tekirdag/)
-
-###
-
-[Ana sayfaMalt Studio ana sayfa.Keşif](https://maltstudio.co/)
+[Hizmetler Tüm hizmetlerimize göz atın. Keşif](https://maltstudio.co/hizmetler/) [Bilgi Rehberler ve karar içerikleri. Keşif](https://maltstudio.co/bilgi/) [Projeler Tamamladığımız işlerden örnekler. Keşif](https://maltstudio.co/projeler/) [Sektörler Sektöre özel çözümler. Keşif](https://maltstudio.co/sektorler/) [Tekirdağ Tekirdağ yerel hizmet rehberi. Keşif](https://maltstudio.co/bolgeler/tekirdag/) [Ana sayfa Malt Studio ana sayfa. Keşif](https://maltstudio.co/)
 
 ## SSS
 Sağlık için hangi hizmetler?
 
-Işıklı Tabela, Tabela, Cam Giydirme, Ofis Branding.
+[Işıklı Tabela](https://maltstudio.co/hizmetler/isikli-tabela/) , [Tabela](https://maltstudio.co/hizmetler/tabela/) , [Cam Giydirme](https://maltstudio.co/hizmetler/cam-giydirme/) , [Ofis Branding](https://maltstudio.co/hizmetler/ofis-branding/) .
 Bu hizmet sayfasının yerine geçer mi?
 
-Hayır; dikey girişidir.
+Hayır; sektör sayfası dikey girişidir. Üretim ilgili hizmet URL’sindedir.
 Tekirdağ’da uygulanır mı?
 
-Evet; keşif Tekirdağ üssünden planlanır.
-Teklif?
+Evet; keşif [Tekirdağ atölyesinden](https://maltstudio.co/bolgeler/tekirdag/)  planlanır.
+Teklif nasıl alınır?
 
-WhatsApp veya telefon ile keşif talebi bırakın.
+WhatsApp veya telefon ile keşif talebi bırakın. Sabit internet fiyatı yoktur.

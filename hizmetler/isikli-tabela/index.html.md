@@ -55,6 +55,15 @@ SMPS/güç kaynağı kalitesi arıza riskini etkiler; dış mekânda sızdırmaz
 
 Yüzey akrilik/pleksi veya uygun difüzörlerle homojen ışık hedeflenir.
 
+## Teklif öncesi ne paylaşın?
+
+Keşif sonrası yazılı teklif çıkar. Aşağıdakiler teklifi hızlandırır; hepsi zorunlu değildir.
+
+- Cephe, cam veya araç fotoğrafı
+- Yaklaşık ölçü veya keşif randevusu
+- Gece görünürlük ihtiyacı (var / yok)
+- Varsa vektörel logo veya marka kılavuzu
+
 ## Süreç
 
 1. **Keşif:** Ölçü, yüzey, erişim ve ihtiyaç netleştirilir.
@@ -70,16 +79,6 @@ Elektrik hattı ve servis kapağı erişimi keşifte kontrol edilir.
 Tasarım onayı sonrası kasa üretimi ve LED yerleşimi atölyede tamamlanır.
 
 Montajda su/toz riski ve gece test ihtiyacı sahaya göre planlanır.
-
-## Üretim, deneyim ve yerel uzmanlık
-
-Malt Studio Tekirdağ merkezli çalışır. Bu hizmet içeriği; atölye üretimi, saha keşfi ve montajın aynı operasyonel hatta planlandığı gerçek iş modeline dayanır. Şube sayısı, uydurma sertifika, sahte yorum veya proje metriği eklenmez.
-
-- **Deneyim:** Keşif notları (ölçü, yüzey, erişim, işletme saati) teklif ve üretimi şekillendirir.
-- **Üretim:** Ölçüye özel imalat; stok tabela mantığı yerine yüzeye ve markaya göre üretim.
-- **Kalite süreci:** Atölye kontrolü → saha hizalama/sabitleme → teslim kontrolü.
-- **Yerel uzmanlık:** Tekirdağ üssünden merkez ve çevre ilçe işleri planlanır; Süleymanpaşa dahil merkez ve çevre ilçelere hizmet verilir.
-- **Kanıt:** Gerçek fotoğraflar proje sayfalarına bağlanır; stok görsel kullanılmaz.
 
 ## Deneyim ve üretim
 
@@ -110,95 +109,44 @@ Adres, saat ve iletişim: [Malt Studio Tekirdağ atölye ve iletişim](https://m
 [WhatsApp ile Teklif](https://wa.me/905525826959?text=Merhaba%2C%20Tekirda%C4%9F%20I%C5%9F%C4%B1kl%C4%B1%20Tabela%20%C3%9Cretim%20ve%20Montaj%20i%C3%A7in%20ke%C5%9Fif%20istiyorum.) [Teklif](https://maltstudio.co/#teklif) [Ara](tel:+905525826959)
 
 ## İlgili hizmetler
-
-###
-
-[TabelaTabela hizmeti.Hizmet](https://maltstudio.co/hizmetler/tabela/)
-
-###
-
-[LightboxLightbox hizmeti.Hizmet](https://maltstudio.co/hizmetler/lightbox/)
-
-###
-
-[Kutu HarfKutu Harf hizmeti.Hizmet](https://maltstudio.co/hizmetler/kutu-harf/)
-
-###
-
-[Cam GiydirmeCam Giydirme hizmeti.Hizmet](https://maltstudio.co/hizmetler/cam-giydirme/)
+[Tabela Tabela hizmeti. Hizmet](https://maltstudio.co/hizmetler/tabela/) [Lightbox Lightbox hizmeti. Hizmet](https://maltstudio.co/hizmetler/lightbox/) [Kutu Harf Kutu Harf hizmeti. Hizmet](https://maltstudio.co/hizmetler/kutu-harf/) [Cam Giydirme Cam Giydirme hizmeti. Hizmet](https://maltstudio.co/hizmetler/cam-giydirme/)
 
 ## İlgili rehberler
+[Işıklı Tabela mı Işıksız mı? Karar rehberi. Bilgi](https://maltstudio.co/bilgi/isikli-mi-isiksiz-mi/) [Tabela Çeşitleri: Hangisi Ne İşe Yarar? Karar rehberi. Bilgi](https://maltstudio.co/bilgi/tabela-cesitleri/)
 
-###
+## İlgili projeler
+[Köşem Döner Tamamlanan proje örneği. Proje](https://maltstudio.co/projeler/kosem-doner/)
 
-[RehberKarar vermenize yardımcı rehber.Bilgi](https://maltstudio.co/bilgi/isikli-mi-isiksiz-mi/)
-
-###
-
-[RehberKarar vermenize yardımcı rehber.Bilgi](https://maltstudio.co/bilgi/tabela-cesitleri/)
+[Tüm projeler →](https://maltstudio.co/projeler/)
 
 ## İlgili sektörler
-
-###
-
-[PerakendePerakende projeleri.Sektör](https://maltstudio.co/sektorler/perakende/)
-
-###
-
-[Restoran & CafeRestoran & Cafe projeleri.Sektör](https://maltstudio.co/sektorler/restoran-cafe/)
-
-###
-
-[SağlıkSağlık projeleri.Sektör](https://maltstudio.co/sektorler/saglik/)
+[Perakende Perakende projeleri. Sektör](https://maltstudio.co/sektorler/perakende/) [Restoran & Cafe Restoran & Cafe projeleri. Sektör](https://maltstudio.co/sektorler/restoran-cafe/) [Sağlık Sağlık projeleri. Sektör](https://maltstudio.co/sektorler/saglik/)
 
 ## Keşfet
-
-###
-
-[HizmetlerTüm hizmetlerimize göz atın.Keşif](https://maltstudio.co/hizmetler/)
-
-###
-
-[BilgiRehberler ve karar içerikleri.Keşif](https://maltstudio.co/bilgi/)
-
-###
-
-[ProjelerTamamladığımız işlerden örnekler.Keşif](https://maltstudio.co/projeler/)
-
-###
-
-[SektörlerSektöre özel çözümler.Keşif](https://maltstudio.co/sektorler/)
-
-###
-
-[TekirdağTekirdağ yerel hizmet rehberi.Keşif](https://maltstudio.co/bolgeler/tekirdag/)
-
-###
-
-[Ana sayfaMalt Studio ana sayfa.Keşif](https://maltstudio.co/)
+[Hizmetler Tüm hizmetlerimize göz atın. Keşif](https://maltstudio.co/hizmetler/) [Bilgi Rehberler ve karar içerikleri. Keşif](https://maltstudio.co/bilgi/) [Projeler Tamamladığımız işlerden örnekler. Keşif](https://maltstudio.co/projeler/) [Sektörler Sektöre özel çözümler. Keşif](https://maltstudio.co/sektorler/) [Tekirdağ Tekirdağ yerel hizmet rehberi. Keşif](https://maltstudio.co/bolgeler/tekirdag/) [Ana sayfa Malt Studio ana sayfa. Keşif](https://maltstudio.co/)
 
 ## Sık sorulan sorular
 LED tabela neon mu?
 
-Hayır. Neon ayrı formdur.
+Hayır. Neon ayrı formdur. Bu sayfadaki ışıklı tabela LED kasa sistemidir.
 Lightbox istiyorum?
 
-Lightbox ayrı sayfadadır: /hizmetler/lightbox/.
+Lightbox ayrı üründür: [lightbox](https://maltstudio.co/hizmetler/lightbox/) . Cephe LED tabela bu sayfadadır.
 Elektrik hazır değilse?
 
-Keşifte altyapı ihtiyacı konuşulur.
+Keşifte altyapı ihtiyacı konuşulur. Hat yoksa teklife altyapı kalemi yazılır.
 Servis ve arıza?
 
-LED/güç kaynağı servisi için iletişime geçilir.
+LED ve güç kaynağı servisi için iletişime geçilir. Peşin ömür boyu vaadi yoktur.
 Fiyatı neye göre?
 
-Ölçü, LED, yüzey ve montaj koşulları.
+Ölçü, LED, yüzey ve montaj koşulları. Sabit liste yoktur; keşif sonrası yazılı teklif.
 Su ve toz?
 
-Dış mekân kasalarında sızdırmazlık planı yapılır.
+Dış mekân kasalarında sızdırmazlık planı keşifte konuşulur.
 Gece çok mu parlak olur?
 
-LED yoğunluğu cepheye göre ayarlanır.
+LED yoğunluğu cepheye göre ayarlanır; aşırı parlaklık okunurluğu bozar.
 Süre?
 
-Onay sonrası ölçeğe göre netlenir.
+Onay sonrası ölçeğe göre netlenir ve teklifte yazılır.

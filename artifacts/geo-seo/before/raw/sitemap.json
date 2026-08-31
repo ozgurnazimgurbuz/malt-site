@@ -1,0 +1,202 @@
+{
+  "exists": true,
+  "bytes": 3421,
+  "url_count": 35,
+  "locs": [
+    "https://maltstudio.co/",
+    "https://maltstudio.co/hizmetler/",
+    "https://maltstudio.co/bolgeler/tekirdag/",
+    "https://maltstudio.co/projeler/",
+    "https://maltstudio.co/sektorler/",
+    "https://maltstudio.co/bilgi/",
+    "https://maltstudio.co/hizmetler/tabela/",
+    "https://maltstudio.co/hizmetler/isikli-tabela/",
+    "https://maltstudio.co/hizmetler/kutu-harf/",
+    "https://maltstudio.co/hizmetler/totem/",
+    "https://maltstudio.co/hizmetler/arac-giydirme/",
+    "https://maltstudio.co/hizmetler/cam-giydirme/",
+    "https://maltstudio.co/hizmetler/lightbox/",
+    "https://maltstudio.co/hizmetler/display-pos/",
+    "https://maltstudio.co/hizmetler/ofis-branding/",
+    "https://maltstudio.co/hizmetler/is-guvenligi-tabelalari/",
+    "https://maltstudio.co/projeler/ofiso/",
+    "https://maltstudio.co/projeler/yamanlar-ekspertiz/",
+    "https://maltstudio.co/projeler/anka/",
+    "https://maltstudio.co/projeler/kosem-doner/",
+    "https://maltstudio.co/projeler/pembe-pasta-evi/",
+    "https://maltstudio.co/projeler/okka-tarim/",
+    "https://maltstudio.co/sektorler/fabrika-osb/",
+    "https://maltstudio.co/sektorler/restoran-cafe/",
+    "https://maltstudio.co/sektorler/saglik/",
+    "https://maltstudio.co/sektorler/plaza-ofis/",
+    "https://maltstudio.co/sektorler/insaat-santiye/",
+    "https://maltstudio.co/sektorler/perakende/",
+    "https://maltstudio.co/bilgi/tabela-cesitleri/",
+    "https://maltstudio.co/bilgi/isikli-mi-isiksiz-mi/",
+    "https://maltstudio.co/bilgi/kutu-harf-malzemeler/",
+    "https://maltstudio.co/bilgi/one-way-vision-nedir/",
+    "https://maltstudio.co/bilgi/arac-giydirme-rehberi/",
+    "https://maltstudio.co/bilgi/tabela-fiyati/",
+    "https://maltstudio.co/bilgi/totem-secim-rehberi/"
+  ],
+  "rows": [
+    {
+      "loc": "https://maltstudio.co/",
+      "lastmod": "2026-08-11"
+    },
+    {
+      "loc": "https://maltstudio.co/hizmetler/",
+      "lastmod": "2026-08-11"
+    },
+    {
+      "loc": "https://maltstudio.co/bolgeler/tekirdag/",
+      "lastmod": "2026-08-11"
+    },
+    {
+      "loc": "https://maltstudio.co/projeler/",
+      "lastmod": "2026-08-11"
+    },
+    {
+      "loc": "https://maltstudio.co/sektorler/",
+      "lastmod": null
+    },
+    {
+      "loc": "https://maltstudio.co/bilgi/",
+      "lastmod": null
+    },
+    {
+      "loc": "https://maltstudio.co/hizmetler/tabela/",
+      "lastmod": "2026-08-11"
+    },
+    {
+      "loc": "https://maltstudio.co/hizmetler/isikli-tabela/",
+      "lastmod": "2026-08-11"
+    },
+    {
+      "loc": "https://maltstudio.co/hizmetler/kutu-harf/",
+      "lastmod": "2026-08-11"
+    },
+    {
+      "loc": "https://maltstudio.co/hizmetler/totem/",
+      "lastmod": "2026-08-11"
+    },
+    {
+      "loc": "https://maltstudio.co/hizmetler/arac-giydirme/",
+      "lastmod": "2026-08-11"
+    },
+    {
+      "loc": "https://maltstudio.co/hizmetler/cam-giydirme/",
+      "lastmod": "2026-08-11"
+    },
+    {
+      "loc": "https://maltstudio.co/hizmetler/lightbox/",
+      "lastmod": "2026-08-11"
+    },
+    {
+      "loc": "https://maltstudio.co/hizmetler/display-pos/",
+      "lastmod": "2026-08-11"
+    },
+    {
+      "loc": "https://maltstudio.co/hizmetler/ofis-branding/",
+      "lastmod": "2026-08-11"
+    },
+    {
+      "loc": "https://maltstudio.co/hizmetler/is-guvenligi-tabelalari/",
+      "lastmod": "2026-08-11"
+    },
+    {
+      "loc": "https://maltstudio.co/projeler/ofiso/",
+      "lastmod": "2026-08-11"
+    },
+    {
+      "loc": "https://maltstudio.co/projeler/yamanlar-ekspertiz/",
+      "lastmod": "2026-08-11"
+    },
+    {
+      "loc": "https://maltstudio.co/projeler/anka/",
+      "lastmod": "2026-08-11"
+    },
+    {
+      "loc": "https://maltstudio.co/projeler/kosem-doner/",
+      "lastmod": "2026-08-11"
+    },
+    {
+      "loc": "https://maltstudio.co/projeler/pembe-pasta-evi/",
+      "lastmod": "2026-08-11"
+    },
+    {
+      "loc": "https://maltstudio.co/projeler/okka-tarim/",
+      "lastmod": "2026-08-11"
+    },
+    {
+      "loc": "https://maltstudio.co/sektorler/fabrika-osb/",
+      "lastmod": null
+    },
+    {
+      "loc": "https://maltstudio.co/sektorler/restoran-cafe/",
+      "lastmod": null
+    },
+    {
+      "loc": "https://maltstudio.co/sektorler/saglik/",
+      "lastmod": null
+    },
+    {
+      "loc": "https://maltstudio.co/sektorler/plaza-ofis/",
+      "lastmod": null
+    },
+    {
+      "loc": "https://maltstudio.co/sektorler/insaat-santiye/",
+      "lastmod": null
+    },
+    {
+      "loc": "https://maltstudio.co/sektorler/perakende/",
+      "lastmod": null
+    },
+    {
+      "loc": "https://maltstudio.co/bilgi/tabela-cesitleri/",
+      "lastmod": null
+    },
+    {
+      "loc": "https://maltstudio.co/bilgi/isikli-mi-isiksiz-mi/",
+      "lastmod": null
+    },
+    {
+      "loc": "https://maltstudio.co/bilgi/kutu-harf-malzemeler/",
+      "lastmod": null
+    },
+    {
+      "loc": "https://maltstudio.co/bilgi/one-way-vision-nedir/",
+      "lastmod": null
+    },
+    {
+      "loc": "https://maltstudio.co/bilgi/arac-giydirme-rehberi/",
+      "lastmod": null
+    },
+    {
+      "loc": "https://maltstudio.co/bilgi/tabela-fiyati/",
+      "lastmod": null
+    },
+    {
+      "loc": "https://maltstudio.co/bilgi/totem-secim-rehberi/",
+      "lastmod": null
+    }
+  ],
+  "missing_lastmod": [
+    "https://maltstudio.co/sektorler/",
+    "https://maltstudio.co/bilgi/",
+    "https://maltstudio.co/sektorler/fabrika-osb/",
+    "https://maltstudio.co/sektorler/restoran-cafe/",
+    "https://maltstudio.co/sektorler/saglik/",
+    "https://maltstudio.co/sektorler/plaza-ofis/",
+    "https://maltstudio.co/sektorler/insaat-santiye/",
+    "https://maltstudio.co/sektorler/perakende/",
+    "https://maltstudio.co/bilgi/tabela-cesitleri/",
+    "https://maltstudio.co/bilgi/isikli-mi-isiksiz-mi/",
+    "https://maltstudio.co/bilgi/kutu-harf-malzemeler/",
+    "https://maltstudio.co/bilgi/one-way-vision-nedir/",
+    "https://maltstudio.co/bilgi/arac-giydirme-rehberi/",
+    "https://maltstudio.co/bilgi/tabela-fiyati/",
+    "https://maltstudio.co/bilgi/totem-secim-rehberi/"
+  ],
+  "invalid_loc": []
+}

@@ -19,7 +19,7 @@ Hizmet
 
 Lightbox; arkadan veya kenardan aydınlatmalı çerçeve sistemidir. Retail ve AVM’de sık tercih edilir.
 
-Işıklı tabela / LED cephe sistemleri ayrı sayfadadır: /hizmetler/isikli-tabela/. Bu sayfa lightbox ailesidir.
+Işıklı tabela / LED cephe sistemleri ayrı sayfadadır: [ışıklı tabela](https://maltstudio.co/hizmetler/isikli-tabela/) . Bu sayfa lightbox ailesidir.
 
 SEG / backlit fabric hızlı görsel değişimi sağlar.
 
@@ -55,6 +55,15 @@ Backlit fabric ve SEG kenar sistemi görsel değişimini kolaylaştırır.
 
 Akrilik yüz alternatiflerinde çizilme ve temizlik rejimi konuşulur.
 
+## Teklif öncesi ne paylaşın?
+
+Keşif sonrası yazılı teklif çıkar. Aşağıdakiler teklifi hızlandırır; hepsi zorunlu değildir.
+
+- Cephe, cam veya araç fotoğrafı
+- Yaklaşık ölçü veya keşif randevusu
+- Gece görünürlük ihtiyacı (var / yok)
+- Varsa vektörel logo veya marka kılavuzu
+
 ## Süreç
 
 1. **Keşif:** Ölçü, yüzey, erişim ve ihtiyaç netleştirilir.
@@ -70,16 +79,6 @@ Duvar tipi, elektrik ve askı yöntemi keşifte netleşir.
 Kasa üretimi sonrası kumaş/görsel baskı ve gerdirme yapılır.
 
 Teslimde ışık homojenliği ve kenar gergisi kontrol edilir.
-
-## Üretim, deneyim ve yerel uzmanlık
-
-Malt Studio Tekirdağ merkezli çalışır. Bu hizmet içeriği; atölye üretimi, saha keşfi ve montajın aynı operasyonel hatta planlandığı gerçek iş modeline dayanır. Şube sayısı, uydurma sertifika, sahte yorum veya proje metriği eklenmez.
-
-- **Deneyim:** Keşif notları (ölçü, yüzey, erişim, işletme saati) teklif ve üretimi şekillendirir.
-- **Üretim:** Ölçüye özel imalat; stok tabela mantığı yerine yüzeye ve markaya göre üretim.
-- **Kalite süreci:** Atölye kontrolü → saha hizalama/sabitleme → teslim kontrolü.
-- **Yerel uzmanlık:** Tekirdağ üssünden merkez ve çevre ilçe işleri planlanır; Süleymanpaşa dahil merkez ve çevre ilçelere hizmet verilir.
-- **Kanıt:** Gerçek fotoğraflar proje sayfalarına bağlanır; stok görsel kullanılmaz.
 
 ## Deneyim ve üretim
 
@@ -108,91 +107,39 @@ Adres, saat ve iletişim: [Malt Studio Tekirdağ atölye ve iletişim](https://m
 [WhatsApp ile Teklif](https://wa.me/905525826959?text=Merhaba%2C%20Tekirda%C4%9F%20Lightbox%20Tabela%20i%C3%A7in%20ke%C5%9Fif%20istiyorum.) [Teklif](https://maltstudio.co/#teklif) [Ara](tel:+905525826959)
 
 ## İlgili hizmetler
-
-###
-
-[Işıklı TabelaIşıklı Tabela hizmeti.Hizmet](https://maltstudio.co/hizmetler/isikli-tabela/)
-
-###
-
-[Display & POSDisplay & POS hizmeti.Hizmet](https://maltstudio.co/hizmetler/display-pos/)
-
-###
-
-[Ofis BrandingOfis Branding hizmeti.Hizmet](https://maltstudio.co/hizmetler/ofis-branding/)
-
-###
-
-[Cam GiydirmeCam Giydirme hizmeti.Hizmet](https://maltstudio.co/hizmetler/cam-giydirme/)
+[Işıklı Tabela Işıklı Tabela hizmeti. Hizmet](https://maltstudio.co/hizmetler/isikli-tabela/) [Display & POS Display & POS hizmeti. Hizmet](https://maltstudio.co/hizmetler/display-pos/) [Ofis Branding Ofis Branding hizmeti. Hizmet](https://maltstudio.co/hizmetler/ofis-branding/) [Cam Giydirme Cam Giydirme hizmeti. Hizmet](https://maltstudio.co/hizmetler/cam-giydirme/)
 
 ## İlgili rehberler
-
-###
-
-[RehberKarar vermenize yardımcı rehber.Bilgi](https://maltstudio.co/bilgi/isikli-mi-isiksiz-mi/)
+[Işıklı Tabela mı Işıksız mı? Karar rehberi. Bilgi](https://maltstudio.co/bilgi/isikli-mi-isiksiz-mi/)
 
 ## İlgili sektörler
-
-###
-
-[PerakendePerakende projeleri.Sektör](https://maltstudio.co/sektorler/perakende/)
-
-###
-
-[Plaza & OfisPlaza & Ofis projeleri.Sektör](https://maltstudio.co/sektorler/plaza-ofis/)
-
-###
-
-[SağlıkSağlık projeleri.Sektör](https://maltstudio.co/sektorler/saglik/)
+[Perakende Perakende projeleri. Sektör](https://maltstudio.co/sektorler/perakende/) [Plaza & Ofis Plaza & Ofis projeleri. Sektör](https://maltstudio.co/sektorler/plaza-ofis/) [Sağlık Sağlık projeleri. Sektör](https://maltstudio.co/sektorler/saglik/)
 
 ## Keşfet
-
-###
-
-[HizmetlerTüm hizmetlerimize göz atın.Keşif](https://maltstudio.co/hizmetler/)
-
-###
-
-[BilgiRehberler ve karar içerikleri.Keşif](https://maltstudio.co/bilgi/)
-
-###
-
-[ProjelerTamamladığımız işlerden örnekler.Keşif](https://maltstudio.co/projeler/)
-
-###
-
-[SektörlerSektöre özel çözümler.Keşif](https://maltstudio.co/sektorler/)
-
-###
-
-[TekirdağTekirdağ yerel hizmet rehberi.Keşif](https://maltstudio.co/bolgeler/tekirdag/)
-
-###
-
-[Ana sayfaMalt Studio ana sayfa.Keşif](https://maltstudio.co/)
+[Hizmetler Tüm hizmetlerimize göz atın. Keşif](https://maltstudio.co/hizmetler/) [Bilgi Rehberler ve karar içerikleri. Keşif](https://maltstudio.co/bilgi/) [Projeler Tamamladığımız işlerden örnekler. Keşif](https://maltstudio.co/projeler/) [Sektörler Sektöre özel çözümler. Keşif](https://maltstudio.co/sektorler/) [Tekirdağ Tekirdağ yerel hizmet rehberi. Keşif](https://maltstudio.co/bolgeler/tekirdag/) [Ana sayfa Malt Studio ana sayfa. Keşif](https://maltstudio.co/)
 
 ## Sık sorulan sorular
 Işıklı tabeladan farkı?
 
-Cephe tabela ≠ lightbox kutu/frame.
+Cephe LED tabela [ışıklı tabela](https://maltstudio.co/hizmetler/isikli-tabela/)  sayfasındadır. Bu sayfa lightbox kutu ve çerçeve ailesidir.
 SEG nedir?
 
-Silikon kenarlı kumaş germe sistem.
+Silikon kenarlı kumaş germe sistemidir. Görsel değişim sıklığı yüksekse avantaj sağlar.
 Görsel değişir mi?
 
-SEG’de hızlı değişim mümkündür.
+SEG’de hızlı kumaş değişimi mümkündür. LED değişimi ayrı kalemdir.
 İnce kasa?
 
-Mekâna göre kasa tipi seçilir.
+Mekâna göre kasa tipi seçilir. İnce görünüm elektrik ve soğutma ile dengelenir.
 Servis?
 
-LED ve kumaş değişimi planlanır.
+LED ve kumaş değişimi planlanır. Servis kapsamı teklifte yazılır.
 Süre?
 
-Ölçü ve kasa tipine göre.
+Ölçü ve kasa tipine göre netlenir.
 Fiyat?
 
-Ölçü + kasa + baskı.
-Tekirdağ?
+Ölçü, kasa ve baskı. Sabit liste yoktur.
+Tekirdağ’da keşif?
 
-Keşif üsten planlanır.
+Evet. Keşif [Tekirdağ atölyesinden](https://maltstudio.co/bolgeler/tekirdag/)  planlanır.

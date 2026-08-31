@@ -86,90 +86,27 @@ Fabrika ve OSB dikeyinde görünürlük çoğu zaman tek ürün değildir. Kapı
 
 Fabrika dikeyinde paket düşüncesi tek ürün satışından daha doğrudur. Totem, tabela, İSG ve filo aynı dilde okunmalıdır. OSB kuralları montajı şekillendirir. Bu sayfa dikey giriştir; sipariş hizmet URL’lerindedir. Uydurma tesis metriği yok. Keşif notları teklifi gerçekçi kılar. Bakım ve yenileme periyotları baştan konuşulur. Bilgi ve proje linkleri kanıt ve eğitim taşır.
 
-## Üretim, deneyim ve yerel uzmanlık
-
-Malt Studio Tekirdağ merkezli çalışır. Bu sektör içeriği; atölye üretimi, saha keşfi ve montajın aynı operasyonel hatta planlandığı gerçek iş modeline dayanır. Şube sayısı, uydurma sertifika, sahte yorum veya proje metriği eklenmez.
-
-- **Deneyim:** Keşif notları (ölçü, yüzey, erişim, işletme saati) teklif ve üretimi şekillendirir.
-- **Üretim:** Ölçüye özel imalat; stok tabela mantığı yerine yüzeye ve markaya göre üretim.
-- **Kalite süreci:** Atölye kontrolü → saha hizalama/sabitleme → teslim kontrolü.
-- **Yerel uzmanlık:** Tekirdağ üssünden merkez ve çevre ilçe işleri planlanır; Süleymanpaşa dahil merkez ve çevre ilçelere hizmet verilir.
-- **Kanıt:** Gerçek fotoğraflar proje sayfalarına bağlanır; stok görsel kullanılmaz.
-
 [WhatsApp ile Teklif](https://wa.me/905525826959?text=Fabrika%20%26%20OSB%20sekt%C3%B6r%C3%BC%20ke%C5%9Fif) [Teklif](https://maltstudio.co/#teklif) [Ara](tel:+905525826959)
 
 ## İlgili hizmetler
-
-###
-
-[TotemTotem hizmeti.Hizmet](https://maltstudio.co/hizmetler/totem/)
-
-###
-
-[TabelaTabela hizmeti.Hizmet](https://maltstudio.co/hizmetler/tabela/)
-
-###
-
-[Kutu HarfKutu Harf hizmeti.Hizmet](https://maltstudio.co/hizmetler/kutu-harf/)
-
-###
-
-[Araç GiydirmeAraç Giydirme hizmeti.Hizmet](https://maltstudio.co/hizmetler/arac-giydirme/)
-
-###
-
-[İş Güvenliği Tabelalarıİş Güvenliği Tabelaları hizmeti.Hizmet](https://maltstudio.co/hizmetler/is-guvenligi-tabelalari/)
+[Totem Totem hizmeti. Hizmet](https://maltstudio.co/hizmetler/totem/) [Tabela Tabela hizmeti. Hizmet](https://maltstudio.co/hizmetler/tabela/) [Kutu Harf Kutu Harf hizmeti. Hizmet](https://maltstudio.co/hizmetler/kutu-harf/) [Araç Giydirme Araç Giydirme hizmeti. Hizmet](https://maltstudio.co/hizmetler/arac-giydirme/) [İş Güvenliği Tabelaları İş Güvenliği Tabelaları hizmeti. Hizmet](https://maltstudio.co/hizmetler/is-guvenligi-tabelalari/)
 
 ## İlgili rehberler
-
-###
-
-[RehberKarar vermenize yardımcı rehber.Bilgi](https://maltstudio.co/bilgi/totem-secim-rehberi/)
-
-###
-
-[RehberKarar vermenize yardımcı rehber.Bilgi](https://maltstudio.co/bilgi/tabela-cesitleri/)
-
-###
-
-[RehberKarar vermenize yardımcı rehber.Bilgi](https://maltstudio.co/bilgi/arac-giydirme-rehberi/)
+[Totem Tabela Seçim Rehberi Karar rehberi. Bilgi](https://maltstudio.co/bilgi/totem-secim-rehberi/) [Tabela Çeşitleri: Hangisi Ne İşe Yarar? Karar rehberi. Bilgi](https://maltstudio.co/bilgi/tabela-cesitleri/) [Araç Giydirme Rehberi: Süreç, Ömür, Filo Karar rehberi. Bilgi](https://maltstudio.co/bilgi/arac-giydirme-rehberi/)
 
 ## Keşfet
-
-###
-
-[HizmetlerTüm hizmetlerimize göz atın.Keşif](https://maltstudio.co/hizmetler/)
-
-###
-
-[BilgiRehberler ve karar içerikleri.Keşif](https://maltstudio.co/bilgi/)
-
-###
-
-[ProjelerTamamladığımız işlerden örnekler.Keşif](https://maltstudio.co/projeler/)
-
-###
-
-[SektörlerSektöre özel çözümler.Keşif](https://maltstudio.co/sektorler/)
-
-###
-
-[TekirdağTekirdağ yerel hizmet rehberi.Keşif](https://maltstudio.co/bolgeler/tekirdag/)
-
-###
-
-[Ana sayfaMalt Studio ana sayfa.Keşif](https://maltstudio.co/)
+[Hizmetler Tüm hizmetlerimize göz atın. Keşif](https://maltstudio.co/hizmetler/) [Bilgi Rehberler ve karar içerikleri. Keşif](https://maltstudio.co/bilgi/) [Projeler Tamamladığımız işlerden örnekler. Keşif](https://maltstudio.co/projeler/) [Sektörler Sektöre özel çözümler. Keşif](https://maltstudio.co/sektorler/) [Tekirdağ Tekirdağ yerel hizmet rehberi. Keşif](https://maltstudio.co/bolgeler/tekirdag/) [Ana sayfa Malt Studio ana sayfa. Keşif](https://maltstudio.co/)
 
 ## SSS
 Fabrika & OSB için hangi hizmetler?
 
-Totem, Tabela, Kutu Harf, Araç Giydirme, İş Güvenliği Tabelaları.
+[Totem](https://maltstudio.co/hizmetler/totem/) , [Tabela](https://maltstudio.co/hizmetler/tabela/) , [Kutu Harf](https://maltstudio.co/hizmetler/kutu-harf/) , [Araç Giydirme](https://maltstudio.co/hizmetler/arac-giydirme/) , [İş Güvenliği Tabelaları](https://maltstudio.co/hizmetler/is-guvenligi-tabelalari/) .
 Bu hizmet sayfasının yerine geçer mi?
 
-Hayır; dikey girişidir.
+Hayır; sektör sayfası dikey girişidir. Üretim ilgili hizmet URL’sindedir.
 Tekirdağ’da uygulanır mı?
 
-Evet; keşif Tekirdağ üssünden planlanır.
-Teklif?
+Evet; keşif [Tekirdağ atölyesinden](https://maltstudio.co/bolgeler/tekirdag/)  planlanır.
+Teklif nasıl alınır?
 
-WhatsApp veya telefon ile keşif talebi bırakın.
+WhatsApp veya telefon ile keşif talebi bırakın. Sabit internet fiyatı yoktur.

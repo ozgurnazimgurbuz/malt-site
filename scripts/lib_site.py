@@ -244,10 +244,12 @@ def head(
 <meta property="og:image" content="{SITE}/images/og.jpg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="{title}">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="{title}">
 <meta name="twitter:description" content="{description}">
 <meta name="twitter:image" content="{SITE}/images/og.jpg">
+<meta name="twitter:image:alt" content="{title}">
 <link rel="icon" type="image/png" href="/images/icon-192.png">
 <link rel="manifest" href="/manifest.json">
 {fonts_head()}<link rel="stylesheet" href="/assets/site.css?v=theme3">
@@ -297,6 +299,8 @@ def footer() -> str:
           <li><a href="/bilgi/">Bilgi</a></li>
           <li><a href="/bolgeler/tekirdag/">Tekirdağ</a></li>
           <li><a href="/hizmetler/">Tüm hizmetler</a></li>
+          <li><a href="/gizlilik/">Gizlilik</a></li>
+          <li><a href="/hakkimizda/">Hakkımızda</a></li>
         </ul>
       </div>
       <div>
@@ -328,6 +332,59 @@ def crumbs(*parts: tuple[str, str | None]) -> str:
         else:
             bits.append(f"<span>{label}</span>")
     return f'<nav class="breadcrumb" aria-label="Breadcrumb">{"".join(bits)}</nav>'
+
+
+_TAG_RE = re.compile(r"<[^>]+>")
+_WS_RE = re.compile(r"\s+")
+
+
+def visible_text(html: str) -> str:
+    """Strip tags; keep a space for <br> so extractors see two words."""
+    html = re.sub(r"<br\s*/?>", " ", html or "", flags=re.I)
+    return _WS_RE.sub(" ", _TAG_RE.sub(" ", html)).strip()
+
+
+def faq_ld(url: str, faqs: list[tuple[str, str]]) -> dict | None:
+    """FAQPage from the same (q, a) pairs as faq_html. No invented questions."""
+    if not faqs:
+        return None
+    return {
+        "@type": "FAQPage",
+        "@id": f"{url.rstrip('#')}#faq",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": visible_text(q),
+                "acceptedAnswer": {"@type": "Answer", "text": visible_text(a)},
+            }
+            for q, a in faqs
+            if visible_text(q) and visible_text(a)
+        ],
+    }
+
+
+def website_node() -> dict:
+    return {
+        "@type": "WebSite",
+        "@id": f"{SITE}/#website",
+        "url": f"{SITE}/",
+        "name": "Malt Studio",
+        "publisher": business_ref(),
+        "inLanguage": "tr-TR",
+    }
+
+
+def article_ld(url: str, headline: str, description: str) -> dict:
+    return {
+        "@type": "Article",
+        "@id": f"{url}#article",
+        "headline": headline,
+        "description": description,
+        "url": url,
+        "inLanguage": "tr-TR",
+        "about": business_ref(),
+        "isPartOf": {"@id": f"{url}#webpage"},
+    }
 
 
 def faq_html(faqs: list[tuple[str, str]]) -> str:
@@ -430,6 +487,22 @@ def eeat_block(page_type: str) -> str:
 </div>"""
 
 
+def portfolio_names() -> dict[str, str]:
+    """Live CMS portfolio slugs. 410 placeholder case slugs are not listed."""
+    path = ROOT / "content.json"
+    out: dict[str, str] = {}
+    try:
+        data = json.loads(path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return out
+    for item in data.get("portfolio") or []:
+        slug = str(item.get("slug") or "").strip().strip("/")
+        name = str(item.get("name") or "").strip()
+        if slug and name:
+            out[slug] = name
+    return out
+
+
 def related_rail(
     *,
     services: list[tuple[str, str, str]] | None = None,
@@ -439,8 +512,7 @@ def related_rail(
     hubs: list[tuple[str, str, str]] | None = None,
 ) -> str:
     """Consistent internal-link sections. tuples: (href, title, desc)."""
-    # Dedicated case URLs are placeholders — do not link them from indexable pages.
-    names: dict[str, str] = {}
+    names = portfolio_names()
     parts: list[str] = []
     if services:
         parts.append(

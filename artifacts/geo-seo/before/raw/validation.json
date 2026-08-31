@@ -1,0 +1,12 @@
+{
+  "all_urls_tested": true,
+  "url_artifact_count": 35,
+  "json_ok": true,
+  "jsonld_parse_completed": true,
+  "metadata_completed": true,
+  "crawl_generated": true,
+  "geo_rubric_applied": true,
+  "performance_labeled": true,
+  "missing_artifacts": [],
+  "missing_html": []
+}

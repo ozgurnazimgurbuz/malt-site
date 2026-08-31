@@ -1,0 +1,534 @@
+[
+  {
+    "slug": "home",
+    "url": "https://maltstudio.co/",
+    "ok": true,
+    "status": 200,
+    "final_url": "https://maltstudio.co/",
+    "hops": [
+      {
+        "url": "https://maltstudio.co/",
+        "status": 200,
+        "location": null
+      }
+    ],
+    "error": null,
+    "content_type": "text/html; charset=UTF-8",
+    "x_robots_tag": null,
+    "bytes": 77293,
+    "sha256": "60076c60911c7b7dc55bb6aef1150cef052cc300dcc1ffbf7e587909cc49cca4",
+    "title": "Tekirdağ Reklam Ajansı ve Tabela | Malt Studio",
+    "canonical": "https://maltstudio.co/",
+    "robots_meta": "",
+    "description": "Tekirdağ’da tabela, ışıklı tabela, kutu harf, dijital baskı ve araç giydirme. Keşif, tasarım, üretim ve montaj için Malt Studio’dan teklif alın.",
+    "og_title": "Tekirdağ Reklam Ajansı ve Tabela | Malt Studio",
+    "og_image": "https://maltstudio.co/images/og.jpg",
+    "gsc": "",
+    "schema_types": [
+      "LocalBusiness",
+      "ProfessionalService"
+    ],
+    "schema_ids": [
+      "https://maltstudio.co/#business"
+    ],
+    "ld_block_count": 1,
+    "has_business": true,
+    "has_website": false,
+    "has_webpage": false,
+    "has_geo": false,
+    "has_hours": false,
+    "has_logo": false,
+    "has_image": false,
+    "has_knowsAbout": false,
+    "has_hasMap": false,
+    "has_FAQPage": false,
+    "has_Article": false,
+    "has_BreadcrumbList": false,
+    "has_prerendered": true
+  },
+  {
+    "slug": "tabela",
+    "url": "https://maltstudio.co/hizmetler/tabela/",
+    "ok": true,
+    "status": 200,
+    "final_url": "https://maltstudio.co/hizmetler/tabela/",
+    "hops": [
+      {
+        "url": "https://maltstudio.co/hizmetler/tabela/",
+        "status": 200,
+        "location": null
+      }
+    ],
+    "error": null,
+    "content_type": "text/html; charset=UTF-8",
+    "x_robots_tag": null,
+    "bytes": 22294,
+    "sha256": "015f3944ffa7e691aba3829b29722ecea25507f133c39bd1969f224d1cb73985",
+    "title": "Tekirdağ Tabela İmalatı ve Montajı | Malt Studio",
+    "canonical": "https://maltstudio.co/hizmetler/tabela/",
+    "robots_meta": "index, follow",
+    "description": "Tekirdağ tabela üretimi: ışıklı ve ışıksız tabela, kutu harf, kompozit cephe ve mağaza tabelası. Keşif, imalat ve montaj için teklif alın.",
+    "og_title": "Tekirdağ Tabela İmalatı ve Montajı | Malt Studio",
+    "og_image": "https://maltstudio.co/images/og.jpg",
+    "gsc": "",
+    "schema_types": [
+      "BreadcrumbList",
+      "Service",
+      "WebPage"
+    ],
+    "schema_ids": [
+      "https://maltstudio.co/hizmetler/tabela/#breadcrumb",
+      "https://maltstudio.co/hizmetler/tabela/#service",
+      "https://maltstudio.co/hizmetler/tabela/#webpage"
+    ],
+    "ld_block_count": 1,
+    "has_business": false,
+    "has_website": false,
+    "has_webpage": true,
+    "has_geo": false,
+    "has_hours": false,
+    "has_logo": false,
+    "has_image": false,
+    "has_knowsAbout": false,
+    "has_hasMap": false,
+    "has_FAQPage": false,
+    "has_Article": false,
+    "has_BreadcrumbList": true,
+    "has_prerendered": false
+  },
+  {
+    "slug": "guide",
+    "url": "https://maltstudio.co/bilgi/tabela-cesitleri/",
+    "ok": true,
+    "status": 200,
+    "final_url": "https://maltstudio.co/bilgi/tabela-cesitleri/",
+    "hops": [
+      {
+        "url": "https://maltstudio.co/bilgi/tabela-cesitleri/",
+        "status": 200,
+        "location": null
+      }
+    ],
+    "error": null,
+    "content_type": "text/html; charset=UTF-8",
+    "x_robots_tag": null,
+    "bytes": 19402,
+    "sha256": "f24ffa61ac68235619e712fc967b5cd8430a11a21f2fefbd49d78769698d471b",
+    "title": "Tabela Çeşitleri: Hangisi Ne İşe Yarar?",
+    "canonical": "https://maltstudio.co/bilgi/tabela-cesitleri/",
+    "robots_meta": "index, follow",
+    "description": "Tabela Çeşitleri: Hangisi Ne İşe Yarar? — eğitici rehber. Malt Studio bilgi merkezi.",
+    "og_title": "Tabela Çeşitleri: Hangisi Ne İşe Yarar?",
+    "og_image": "https://maltstudio.co/images/og.jpg",
+    "gsc": "",
+    "schema_types": [],
+    "schema_ids": [],
+    "ld_block_count": 0,
+    "has_business": false,
+    "has_website": false,
+    "has_webpage": false,
+    "has_geo": false,
+    "has_hours": false,
+    "has_logo": false,
+    "has_image": false,
+    "has_knowsAbout": false,
+    "has_hasMap": false,
+    "has_FAQPage": false,
+    "has_Article": false,
+    "has_BreadcrumbList": false,
+    "has_prerendered": false
+  },
+  {
+    "slug": "tekirdag",
+    "url": "https://maltstudio.co/bolgeler/tekirdag/",
+    "ok": true,
+    "status": 200,
+    "final_url": "https://maltstudio.co/bolgeler/tekirdag/",
+    "hops": [
+      {
+        "url": "https://maltstudio.co/bolgeler/tekirdag/",
+        "status": 200,
+        "location": null
+      }
+    ],
+    "error": null,
+    "content_type": "text/html; charset=UTF-8",
+    "x_robots_tag": null,
+    "bytes": 18904,
+    "sha256": "b92b0c1b79ea0ff1f893581fc8e1fcf839c2e7852f3c0c71fbb35793863173d4",
+    "title": "Malt Studio Tekirdağ Atölye ve İletişim",
+    "canonical": "https://maltstudio.co/bolgeler/tekirdag/",
+    "robots_meta": "index, follow",
+    "description": "Malt Studio’nun Tekirdağ Süleymanpaşa iletişim, çalışma saatleri, hizmet alanları ve keşif bilgileri. Telefon, WhatsApp ve yol tarifi.",
+    "og_title": "Malt Studio Tekirdağ Atölye ve İletişim",
+    "og_image": "https://maltstudio.co/images/og.jpg",
+    "gsc": "",
+    "schema_types": [
+      "BreadcrumbList",
+      "WebPage"
+    ],
+    "schema_ids": [
+      "https://maltstudio.co/bolgeler/tekirdag/#breadcrumb",
+      "https://maltstudio.co/bolgeler/tekirdag/#webpage"
+    ],
+    "ld_block_count": 1,
+    "has_business": false,
+    "has_website": false,
+    "has_webpage": true,
+    "has_geo": false,
+    "has_hours": false,
+    "has_logo": false,
+    "has_image": false,
+    "has_knowsAbout": false,
+    "has_hasMap": false,
+    "has_FAQPage": false,
+    "has_Article": false,
+    "has_BreadcrumbList": true,
+    "has_prerendered": false
+  },
+  {
+    "slug": "ofiso",
+    "url": "https://maltstudio.co/projeler/ofiso/",
+    "ok": true,
+    "status": 200,
+    "final_url": "https://maltstudio.co/projeler/ofiso/",
+    "hops": [
+      {
+        "url": "https://maltstudio.co/projeler/ofiso/",
+        "status": 200,
+        "location": null
+      }
+    ],
+    "error": null,
+    "content_type": "text/html; charset=UTF-8",
+    "x_robots_tag": null,
+    "bytes": 14879,
+    "sha256": "53956df3d19fd859239a6ef3f5de6a11a3561796c109c40bfd38b838eec2bfe0",
+    "title": "OFİSO Projesi | Malt Studio",
+    "canonical": "https://maltstudio.co/projeler/ofiso/",
+    "robots_meta": "index, follow",
+    "description": "OFİSO için Malt Studio tarafından gerçekleştirilen uygulama projesi. Proje fotoğraflarını ve ilgili hizmet detaylarını inceleyin.",
+    "og_title": "OFİSO Projesi | Malt Studio",
+    "og_image": "https://maltstudio.co/images/og.jpg",
+    "gsc": "",
+    "schema_types": [
+      "BreadcrumbList",
+      "WebPage"
+    ],
+    "schema_ids": [
+      "https://maltstudio.co/projeler/ofiso/#breadcrumb",
+      "https://maltstudio.co/projeler/ofiso/#webpage"
+    ],
+    "ld_block_count": 1,
+    "has_business": false,
+    "has_website": false,
+    "has_webpage": true,
+    "has_geo": false,
+    "has_hours": false,
+    "has_logo": false,
+    "has_image": false,
+    "has_knowsAbout": false,
+    "has_hasMap": false,
+    "has_FAQPage": false,
+    "has_Article": false,
+    "has_BreadcrumbList": true,
+    "has_prerendered": false
+  },
+  {
+    "slug": "hakkimizda",
+    "url": "https://maltstudio.co/hakkimizda/",
+    "ok": false,
+    "status": 404,
+    "final_url": "https://maltstudio.co/hakkimizda/",
+    "hops": [
+      {
+        "url": "https://maltstudio.co/hakkimizda/",
+        "status": 404,
+        "location": null
+      }
+    ],
+    "error": "HTTP 404",
+    "content_type": "text/html; charset=utf-8",
+    "x_robots_tag": null,
+    "bytes": 3808,
+    "sha256": "ce09c85d816ec7b0708a3b961991122666d6394b4c407bc923ac5e9bcc5b504d",
+    "title": "Page not found",
+    "canonical": "",
+    "robots_meta": "",
+    "description": null,
+    "og_title": null,
+    "og_image": null,
+    "gsc": "",
+    "schema_types": [],
+    "schema_ids": [],
+    "ld_block_count": 0,
+    "has_business": false,
+    "has_website": false,
+    "has_webpage": false,
+    "has_geo": false,
+    "has_hours": false,
+    "has_logo": false,
+    "has_image": false,
+    "has_knowsAbout": false,
+    "has_hasMap": false,
+    "has_FAQPage": false,
+    "has_Article": false,
+    "has_BreadcrumbList": false,
+    "has_prerendered": false
+  },
+  {
+    "slug": "gizlilik",
+    "url": "https://maltstudio.co/gizlilik/",
+    "ok": false,
+    "status": 404,
+    "final_url": "https://maltstudio.co/gizlilik/",
+    "hops": [
+      {
+        "url": "https://maltstudio.co/gizlilik/",
+        "status": 404,
+        "location": null
+      }
+    ],
+    "error": "HTTP 404",
+    "content_type": "text/html; charset=utf-8",
+    "x_robots_tag": null,
+    "bytes": 3808,
+    "sha256": "ce09c85d816ec7b0708a3b961991122666d6394b4c407bc923ac5e9bcc5b504d",
+    "title": "Page not found",
+    "canonical": "",
+    "robots_meta": "",
+    "description": null,
+    "og_title": null,
+    "og_image": null,
+    "gsc": "",
+    "schema_types": [],
+    "schema_ids": [],
+    "ld_block_count": 0,
+    "has_business": false,
+    "has_website": false,
+    "has_webpage": false,
+    "has_geo": false,
+    "has_hours": false,
+    "has_logo": false,
+    "has_image": false,
+    "has_knowsAbout": false,
+    "has_hasMap": false,
+    "has_FAQPage": false,
+    "has_Article": false,
+    "has_BreadcrumbList": false,
+    "has_prerendered": false
+  },
+  {
+    "slug": "kvkk",
+    "url": "https://maltstudio.co/kvkk/",
+    "ok": false,
+    "status": 404,
+    "final_url": "https://maltstudio.co/kvkk/",
+    "hops": [
+      {
+        "url": "https://maltstudio.co/kvkk/",
+        "status": 404,
+        "location": null
+      }
+    ],
+    "error": "HTTP 404",
+    "content_type": "text/html; charset=utf-8",
+    "x_robots_tag": null,
+    "bytes": 3808,
+    "sha256": "ce09c85d816ec7b0708a3b961991122666d6394b4c407bc923ac5e9bcc5b504d"
+  },
+  {
+    "slug": "kvkk_slash",
+    "url": "https://maltstudio.co/kvkk",
+    "ok": false,
+    "status": 404,
+    "final_url": "https://maltstudio.co/kvkk",
+    "hops": [
+      {
+        "url": "https://maltstudio.co/kvkk",
+        "status": 404,
+        "location": null
+      }
+    ],
+    "error": "HTTP 404",
+    "content_type": "text/html; charset=utf-8",
+    "x_robots_tag": null,
+    "bytes": 3808,
+    "sha256": "ce09c85d816ec7b0708a3b961991122666d6394b4c407bc923ac5e9bcc5b504d"
+  },
+  {
+    "slug": "notfound",
+    "url": "https://maltstudio.co/404.html",
+    "ok": false,
+    "status": 404,
+    "final_url": "https://maltstudio.co/404.html",
+    "hops": [
+      {
+        "url": "https://maltstudio.co/404.html",
+        "status": 404,
+        "location": null
+      }
+    ],
+    "error": "HTTP 404",
+    "content_type": "text/html; charset=utf-8",
+    "x_robots_tag": null,
+    "bytes": 3808,
+    "sha256": "ce09c85d816ec7b0708a3b961991122666d6394b4c407bc923ac5e9bcc5b504d",
+    "title": "Page not found",
+    "canonical": "",
+    "robots_meta": "",
+    "description": null,
+    "og_title": null,
+    "og_image": null,
+    "gsc": "",
+    "schema_types": [],
+    "schema_ids": [],
+    "ld_block_count": 0,
+    "has_business": false,
+    "has_website": false,
+    "has_webpage": false,
+    "has_geo": false,
+    "has_hours": false,
+    "has_logo": false,
+    "has_image": false,
+    "has_knowsAbout": false,
+    "has_hasMap": false,
+    "has_FAQPage": false,
+    "has_Article": false,
+    "has_BreadcrumbList": false,
+    "has_prerendered": false
+  },
+  {
+    "slug": "sitemap",
+    "url": "https://maltstudio.co/sitemap.xml",
+    "ok": true,
+    "status": 200,
+    "final_url": "https://maltstudio.co/sitemap.xml",
+    "hops": [
+      {
+        "url": "https://maltstudio.co/sitemap.xml",
+        "status": 200,
+        "location": null
+      }
+    ],
+    "error": null,
+    "content_type": "application/xml",
+    "x_robots_tag": null,
+    "bytes": 3421,
+    "sha256": "ff0dde29e204e792190221f5770a8d9a7817377dd1132602dc3cc3c31e2a4e37"
+  },
+  {
+    "slug": "robots",
+    "url": "https://maltstudio.co/robots.txt",
+    "ok": true,
+    "status": 200,
+    "final_url": "https://maltstudio.co/robots.txt",
+    "hops": [
+      {
+        "url": "https://maltstudio.co/robots.txt",
+        "status": 200,
+        "location": null
+      }
+    ],
+    "error": null,
+    "content_type": "text/plain; charset=utf-8",
+    "x_robots_tag": null,
+    "bytes": 2283,
+    "sha256": "2e23f91c6d06effc850a3805566c5d74b2e0733bde16a4f7efe2b81f1480a8e2"
+  },
+  {
+    "slug": "llms",
+    "url": "https://maltstudio.co/llms.txt",
+    "ok": true,
+    "status": 200,
+    "final_url": "https://maltstudio.co/llms.txt",
+    "hops": [
+      {
+        "url": "https://maltstudio.co/llms.txt",
+        "status": 200,
+        "location": null
+      }
+    ],
+    "error": null,
+    "content_type": "text/plain; charset=utf-8",
+    "x_robots_tag": null,
+    "bytes": 8305,
+    "sha256": "a7bbcc30f3b7243abb8892158ea6831be20c831bc4c45035e16912026b7ad7ba"
+  },
+  {
+    "slug": "llms_full",
+    "url": "https://maltstudio.co/llms-full.txt",
+    "ok": true,
+    "status": 200,
+    "final_url": "https://maltstudio.co/llms-full.txt",
+    "hops": [
+      {
+        "url": "https://maltstudio.co/llms-full.txt",
+        "status": 200,
+        "location": null
+      }
+    ],
+    "error": null,
+    "content_type": "text/plain; charset=utf-8",
+    "x_robots_tag": null,
+    "bytes": 174290,
+    "sha256": "da580ee93248d89a64ba781301470eb44a61e11cbd2b67a326e0e6188ffd77ac"
+  },
+  {
+    "slug": "home_md",
+    "url": "https://maltstudio.co/index.html.md",
+    "ok": true,
+    "status": 200,
+    "final_url": "https://maltstudio.co/index.html.md",
+    "hops": [
+      {
+        "url": "https://maltstudio.co/index.html.md",
+        "status": 200,
+        "location": null
+      }
+    ],
+    "error": null,
+    "content_type": "text/markdown; charset=utf-8",
+    "x_robots_tag": null,
+    "bytes": 3635,
+    "sha256": "7022cdd4e48550c60ef13ed2e22598fb9e05496a08e49c847916d4411d482a6f"
+  },
+  {
+    "slug": "tabela_md",
+    "url": "https://maltstudio.co/hizmetler/tabela/index.html.md",
+    "ok": true,
+    "status": 200,
+    "final_url": "https://maltstudio.co/hizmetler/tabela/index.html.md",
+    "hops": [
+      {
+        "url": "https://maltstudio.co/hizmetler/tabela/index.html.md",
+        "status": 200,
+        "location": null
+      }
+    ],
+    "error": null,
+    "content_type": "text/markdown; charset=utf-8",
+    "x_robots_tag": null,
+    "bytes": 7699,
+    "sha256": "2ae87fd288d9c33f6483f30140b873282cc4d0f0b7e772b9b486a58026ceab86"
+  },
+  {
+    "slug": "guide_md",
+    "url": "https://maltstudio.co/bilgi/tabela-cesitleri/index.html.md",
+    "ok": true,
+    "status": 200,
+    "final_url": "https://maltstudio.co/bilgi/tabela-cesitleri/index.html.md",
+    "hops": [
+      {
+        "url": "https://maltstudio.co/bilgi/tabela-cesitleri/index.html.md",
+        "status": 200,
+        "location": null
+      }
+    ],
+    "error": null,
+    "content_type": "text/markdown; charset=utf-8",
+    "x_robots_tag": null,
+    "bytes": 6355,
+    "sha256": "9d1b0d661b1ea7e16b25be64fb3b31ea931378af1205b87191a74c831db816ad"
+  }
+]

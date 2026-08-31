@@ -1,0 +1,785 @@
+{
+  "url": "https://maltstudio.co/projeler/anka/",
+  "local_path": "projeler/anka/index.html",
+  "status": 200,
+  "title": "Anka Anaokulu Projesi | Malt Studio",
+  "description": "Anka Anaokulu için Malt Studio tarafından gerçekleştirilen uygulama projesi. Proje fotoğraflarını ve ilgili hizmet detaylarını inceleyin.",
+  "canonical": "https://maltstudio.co/projeler/anka/",
+  "robots": "index, follow",
+  "h1": [
+    "Anka Anaokulu"
+  ],
+  "headings": [
+    {
+      "tag": "h1",
+      "text": "Anka Anaokulu",
+      "text_br_stripped": "Anka Anaokulu"
+    },
+    {
+      "tag": "h2",
+      "text": "Proje kaydı",
+      "text_br_stripped": "Proje kaydı"
+    },
+    {
+      "tag": "h2",
+      "text": "Uygulanan hizmet",
+      "text_br_stripped": "Uygulanan hizmet"
+    },
+    {
+      "tag": "h2",
+      "text": "Proje fotoğrafları",
+      "text_br_stripped": "Proje fotoğrafları"
+    },
+    {
+      "tag": "h2",
+      "text": "İlgili hizmet",
+      "text_br_stripped": "İlgili hizmet"
+    },
+    {
+      "tag": "h3",
+      "text": "Tabela",
+      "text_br_stripped": "Tabela"
+    },
+    {
+      "tag": "h3",
+      "text": "İş Güvenliği Tabelaları",
+      "text_br_stripped": "İş Güvenliği Tabelaları"
+    },
+    {
+      "tag": "h2",
+      "text": "Diğer projeler",
+      "text_br_stripped": "Diğer projeler"
+    },
+    {
+      "tag": "h3",
+      "text": "OFİSO",
+      "text_br_stripped": "OFİSO"
+    },
+    {
+      "tag": "h3",
+      "text": "Yamanlar Ekspertiz",
+      "text_br_stripped": "Yamanlar Ekspertiz"
+    },
+    {
+      "tag": "h3",
+      "text": "Köşem Döner",
+      "text_br_stripped": "Köşem Döner"
+    },
+    {
+      "tag": "h3",
+      "text": "Pembe Pasta Evi",
+      "text_br_stripped": "Pembe Pasta Evi"
+    },
+    {
+      "tag": "h3",
+      "text": "Okka Tarım",
+      "text_br_stripped": "Okka Tarım"
+    },
+    {
+      "tag": "h2",
+      "text": "Keşfet",
+      "text_br_stripped": "Keşfet"
+    },
+    {
+      "tag": "h3",
+      "text": "Projeler",
+      "text_br_stripped": "Projeler"
+    },
+    {
+      "tag": "h3",
+      "text": "Hizmetler",
+      "text_br_stripped": "Hizmetler"
+    },
+    {
+      "tag": "h3",
+      "text": "Tekirdağ",
+      "text_br_stripped": "Tekirdağ"
+    },
+    {
+      "tag": "h3",
+      "text": "Ana sayfa",
+      "text_br_stripped": "Ana sayfa"
+    },
+    {
+      "tag": "h2",
+      "text": "Benzer bir iş için yazın",
+      "text_br_stripped": "Benzer bir iş için yazın"
+    },
+    {
+      "tag": "h3",
+      "text": "Hizmetler",
+      "text_br_stripped": "Hizmetler"
+    },
+    {
+      "tag": "h3",
+      "text": "Keşif",
+      "text_br_stripped": "Keşif"
+    },
+    {
+      "tag": "h3",
+      "text": "İletişim",
+      "text_br_stripped": "İletişim"
+    }
+  ],
+  "internal_links": [
+    "https://maltstudio.co/",
+    "https://maltstudio.co/#teklif",
+    "https://maltstudio.co/#iletisim",
+    "https://maltstudio.co/",
+    "https://maltstudio.co/projeler/",
+    "https://maltstudio.co/bolgeler/tekirdag/",
+    "https://maltstudio.co/#teklif",
+    "https://maltstudio.co/hizmetler/tabela/",
+    "https://maltstudio.co/hizmetler/is-guvenligi-tabelalari/",
+    "https://maltstudio.co/hizmetler/tabela/",
+    "https://maltstudio.co/hizmetler/is-guvenligi-tabelalari/",
+    "https://maltstudio.co/projeler/ofiso/",
+    "https://maltstudio.co/projeler/yamanlar-ekspertiz/",
+    "https://maltstudio.co/projeler/kosem-doner/",
+    "https://maltstudio.co/projeler/pembe-pasta-evi/",
+    "https://maltstudio.co/projeler/okka-tarim/",
+    "https://maltstudio.co/projeler/",
+    "https://maltstudio.co/hizmetler/",
+    "https://maltstudio.co/bolgeler/tekirdag/",
+    "https://maltstudio.co/",
+    "https://maltstudio.co/#teklif",
+    "https://maltstudio.co/hizmetler/tabela/",
+    "https://maltstudio.co/hizmetler/isikli-tabela/",
+    "https://maltstudio.co/hizmetler/kutu-harf/",
+    "https://maltstudio.co/hizmetler/totem/",
+    "https://maltstudio.co/hizmetler/arac-giydirme/",
+    "https://maltstudio.co/hizmetler/cam-giydirme/",
+    "https://maltstudio.co/hizmetler/lightbox/",
+    "https://maltstudio.co/hizmetler/display-pos/",
+    "https://maltstudio.co/hizmetler/ofis-branding/",
+    "https://maltstudio.co/hizmetler/is-guvenligi-tabelalari/",
+    "https://maltstudio.co/projeler/",
+    "https://maltstudio.co/sektorler/",
+    "https://maltstudio.co/bilgi/",
+    "https://maltstudio.co/bolgeler/tekirdag/",
+    "https://maltstudio.co/hizmetler/",
+    "https://maltstudio.co/gizlilik/",
+    "https://maltstudio.co/hakkimizda/",
+    "https://maltstudio.co/#iletisim"
+  ],
+  "word_count": 129,
+  "indexable": true,
+  "structured_data": [
+    {
+      "index": 0,
+      "parse_ok": true,
+      "error": null,
+      "data": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebPage",
+            "@id": "https://maltstudio.co/projeler/anka/#webpage",
+            "url": "https://maltstudio.co/projeler/anka/",
+            "name": "Anka Anaokulu Projesi | Malt Studio",
+            "description": "Anka Anaokulu için Malt Studio tarafından gerçekleştirilen uygulama projesi. Proje fotoğraflarını ve ilgili hizmet detaylarını inceleyin.",
+            "isPartOf": {
+              "@id": "https://maltstudio.co/#website"
+            },
+            "about": {
+              "@id": "https://maltstudio.co/#business"
+            },
+            "inLanguage": "tr-TR"
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://maltstudio.co/#website",
+            "url": "https://maltstudio.co/",
+            "name": "Malt Studio",
+            "publisher": {
+              "@id": "https://maltstudio.co/#business"
+            },
+            "inLanguage": "tr-TR"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://maltstudio.co/projeler/anka/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Ana Sayfa",
+                "item": "https://maltstudio.co/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Projeler",
+                "item": "https://maltstudio.co/projeler/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Anka Anaokulu",
+                "item": "https://maltstudio.co/projeler/anka/"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "schema_types": [
+    "BreadcrumbList",
+    "WebPage",
+    "WebSite"
+  ],
+  "image_count": 3,
+  "image_sources": [
+    "/images/logo.svg",
+    "/images/uploads/img_7536.jpg",
+    "/images/logo.svg"
+  ],
+  "html_bytes": 15130,
+  "og_title": "Anka Anaokulu Projesi | Malt Studio",
+  "og_description": "Anka Anaokulu için Malt Studio tarafından gerçekleştirilen uygulama projesi. Proje fotoğraflarını ve ilgili hizmet detaylarını inceleyin.",
+  "og_image": "https://maltstudio.co/images/og.jpg",
+  "og_image_alt": "Anka Anaokulu Projesi | Malt Studio",
+  "og_url": "https://maltstudio.co/projeler/anka/",
+  "twitter_title": "Anka Anaokulu Projesi | Malt Studio",
+  "twitter_description": "Anka Anaokulu için Malt Studio tarafından gerçekleştirilen uygulama projesi. Proje fotoğraflarını ve ilgili hizmet detaylarını inceleyin.",
+  "twitter_image": "https://maltstudio.co/images/og.jpg",
+  "twitter_image_alt": "Anka Anaokulu Projesi | Malt Studio",
+  "twitter_card": "summary_large_image",
+  "gsc_verification": "",
+  "meta": {
+    "description": "Anka Anaokulu için Malt Studio tarafından gerçekleştirilen uygulama projesi. Proje fotoğraflarını ve ilgili hizmet detaylarını inceleyin.",
+    "og:description": "Anka Anaokulu için Malt Studio tarafından gerçekleştirilen uygulama projesi. Proje fotoğraflarını ve ilgili hizmet detaylarını inceleyin.",
+    "og:image": "https://maltstudio.co/images/og.jpg",
+    "og:image:alt": "Anka Anaokulu Projesi | Malt Studio",
+    "og:image:height": "630",
+    "og:image:width": "1200",
+    "og:locale": "tr_TR",
+    "og:site_name": "Malt Studio",
+    "og:title": "Anka Anaokulu Projesi | Malt Studio",
+    "og:type": "website",
+    "og:url": "https://maltstudio.co/projeler/anka/",
+    "robots": "index, follow",
+    "twitter:card": "summary_large_image",
+    "twitter:description": "Anka Anaokulu için Malt Studio tarafından gerçekleştirilen uygulama projesi. Proje fotoğraflarını ve ilgili hizmet detaylarını inceleyin.",
+    "twitter:image": "https://maltstudio.co/images/og.jpg",
+    "twitter:image:alt": "Anka Anaokulu Projesi | Malt Studio",
+    "twitter:title": "Anka Anaokulu Projesi | Malt Studio",
+    "viewport": "width=device-width, initial-scale=1.0"
+  },
+  "preload": [
+    {
+      "as": "font",
+      "href": "/assets/fonts/big-shoulders-latin.woff2",
+      "type": "font/woff2"
+    },
+    {
+      "as": "font",
+      "href": "/assets/fonts/big-shoulders-latin-ext.woff2",
+      "type": "font/woff2"
+    },
+    {
+      "as": "font",
+      "href": "/assets/fonts/inter-latin.woff2",
+      "type": "font/woff2"
+    },
+    {
+      "as": "font",
+      "href": "/assets/fonts/inter-latin-ext.woff2",
+      "type": "font/woff2"
+    }
+  ],
+  "title_length": 35,
+  "description_length": 137,
+  "canonical_absolute": true,
+  "canonical_self": true,
+  "canonical_matches_url": true,
+  "h1_count": 1,
+  "heading_skips": [],
+  "faq": [],
+  "faq_count": 0,
+  "breadcrumb_html": true,
+  "table_count": 0,
+  "ol_count": 0,
+  "ul_count": 4,
+  "data_prerendered": false,
+  "images": [
+    {
+      "src": "/images/logo.svg",
+      "alt": "Malt Studio",
+      "width": "120",
+      "height": "19",
+      "loading": "",
+      "decoding": "",
+      "fetchpriority": "",
+      "in_picture": false,
+      "class": "logo-mark"
+    },
+    {
+      "src": "/images/uploads/img_7536.jpg",
+      "alt": "Anka Anaokulu uygulama projesi",
+      "width": "800",
+      "height": "1000",
+      "loading": "",
+      "decoding": "",
+      "fetchpriority": "high",
+      "in_picture": true,
+      "class": ""
+    },
+    {
+      "src": "/images/logo.svg",
+      "alt": "Malt Studio",
+      "width": "120",
+      "height": "19",
+      "loading": "",
+      "decoding": "",
+      "fetchpriority": "",
+      "in_picture": false,
+      "class": "logo-mark"
+    }
+  ],
+  "picture_count": 1,
+  "source_tags": [
+    {
+      "type": "image/webp",
+      "srcset": "/images/uploads/img_7536.webp",
+      "in_picture": true
+    }
+  ],
+  "paragraphs": [
+    "Anka Anaokulu için Malt Studio tarafından gerçekleştirilen uygulama projesi. Proje fotoğraflarını ve ilgili hizmet detaylarını inceleyin.",
+    "Anka Anaokulu için Malt Studio uygulama kaydı.",
+    "Konum: Tekirdağ.",
+    "Kategori: Anaokulu.",
+    "Sayfadaki fotoğraflar bu işe aittir.",
+    "Ölçü, malzeme ve montaj notları teklif dosyasındadır; burada uydurma metrik yazılmaz.",
+    "Tabela hizmeti.",
+    "İş Güvenliği Tabelaları hizmeti.",
+    "Uygulama projesi.",
+    "Uygulama projesi.",
+    "Uygulama projesi.",
+    "Uygulama projesi.",
+    "Uygulama projesi.",
+    "Tamamladığımız işlerden örnekler.",
+    "Tüm hizmetlerimize göz atın.",
+    "Tekirdağ yerel hizmet rehberi.",
+    "Malt Studio ana sayfa.",
+    "Keşif, ölçü ve net teklif için yazın veya arayın.",
+    "Malt Studio — Tekirdağ merkezli reklam ve tabela üreticisi. Üretim, montaj ve marka görünürlüğü."
+  ],
+  "paragraph_word_counts": [
+    16,
+    7,
+    2,
+    2,
+    5,
+    11,
+    2,
+    4,
+    2,
+    2,
+    2,
+    2,
+    2,
+    3,
+    4,
+    4,
+    4,
+    9,
+    14
+  ],
+  "max_paragraph_words": 16,
+  "passages_80_160": 0,
+  "eeat_block_present": false,
+  "answer_first": true,
+  "internal_link_objects": [
+    {
+      "href": "/",
+      "abs": "https://maltstudio.co/",
+      "rel": "",
+      "text": ""
+    },
+    {
+      "href": "/#teklif",
+      "abs": "https://maltstudio.co/#teklif",
+      "rel": "",
+      "text": "Teklif"
+    },
+    {
+      "href": "/#iletisim",
+      "abs": "https://maltstudio.co/#iletisim",
+      "rel": "",
+      "text": "İletişim"
+    },
+    {
+      "href": "/",
+      "abs": "https://maltstudio.co/",
+      "rel": "",
+      "text": "Ana Sayfa"
+    },
+    {
+      "href": "/projeler/",
+      "abs": "https://maltstudio.co/projeler/",
+      "rel": "",
+      "text": "Projeler"
+    },
+    {
+      "href": "/bolgeler/tekirdag/",
+      "abs": "https://maltstudio.co/bolgeler/tekirdag/",
+      "rel": "",
+      "text": "Tekirdağ"
+    },
+    {
+      "href": "/#teklif",
+      "abs": "https://maltstudio.co/#teklif",
+      "rel": "",
+      "text": "Teklif"
+    },
+    {
+      "href": "/hizmetler/tabela/",
+      "abs": "https://maltstudio.co/hizmetler/tabela/",
+      "rel": "",
+      "text": "Tabela"
+    },
+    {
+      "href": "/hizmetler/is-guvenligi-tabelalari/",
+      "abs": "https://maltstudio.co/hizmetler/is-guvenligi-tabelalari/",
+      "rel": "",
+      "text": "İş Güvenliği Tabelaları"
+    },
+    {
+      "href": "/hizmetler/tabela/",
+      "abs": "https://maltstudio.co/hizmetler/tabela/",
+      "rel": "",
+      "text": "TabelaTabela hizmeti.Hizmet"
+    },
+    {
+      "href": "/hizmetler/is-guvenligi-tabelalari/",
+      "abs": "https://maltstudio.co/hizmetler/is-guvenligi-tabelalari/",
+      "rel": "",
+      "text": "İş Güvenliği Tabelalarıİş Güvenliği Tabelaları hizmeti.Hizmet"
+    },
+    {
+      "href": "/projeler/ofiso/",
+      "abs": "https://maltstudio.co/projeler/ofiso/",
+      "rel": "",
+      "text": "OFİSOUygulama projesi.Proje"
+    },
+    {
+      "href": "/projeler/yamanlar-ekspertiz/",
+      "abs": "https://maltstudio.co/projeler/yamanlar-ekspertiz/",
+      "rel": "",
+      "text": "Yamanlar EkspertizUygulama projesi.Proje"
+    },
+    {
+      "href": "/projeler/kosem-doner/",
+      "abs": "https://maltstudio.co/projeler/kosem-doner/",
+      "rel": "",
+      "text": "Köşem DönerUygulama projesi.Proje"
+    },
+    {
+      "href": "/projeler/pembe-pasta-evi/",
+      "abs": "https://maltstudio.co/projeler/pembe-pasta-evi/",
+      "rel": "",
+      "text": "Pembe Pasta EviUygulama projesi.Proje"
+    },
+    {
+      "href": "/projeler/okka-tarim/",
+      "abs": "https://maltstudio.co/projeler/okka-tarim/",
+      "rel": "",
+      "text": "Okka TarımUygulama projesi.Proje"
+    },
+    {
+      "href": "/projeler/",
+      "abs": "https://maltstudio.co/projeler/",
+      "rel": "",
+      "text": "ProjelerTamamladığımız işlerden örnekler.Keşif"
+    },
+    {
+      "href": "/hizmetler/",
+      "abs": "https://maltstudio.co/hizmetler/",
+      "rel": "",
+      "text": "HizmetlerTüm hizmetlerimize göz atın.Keşif"
+    },
+    {
+      "href": "/bolgeler/tekirdag/",
+      "abs": "https://maltstudio.co/bolgeler/tekirdag/",
+      "rel": "",
+      "text": "TekirdağTekirdağ yerel hizmet rehberi.Keşif"
+    },
+    {
+      "href": "/",
+      "abs": "https://maltstudio.co/",
+      "rel": "",
+      "text": "Ana sayfaMalt Studio ana sayfa.Keşif"
+    },
+    {
+      "href": "/#teklif",
+      "abs": "https://maltstudio.co/#teklif",
+      "rel": "",
+      "text": "Teklif"
+    },
+    {
+      "href": "/hizmetler/tabela/",
+      "abs": "https://maltstudio.co/hizmetler/tabela/",
+      "rel": "",
+      "text": "Tabela"
+    },
+    {
+      "href": "/hizmetler/isikli-tabela/",
+      "abs": "https://maltstudio.co/hizmetler/isikli-tabela/",
+      "rel": "",
+      "text": "Işıklı Tabela"
+    },
+    {
+      "href": "/hizmetler/kutu-harf/",
+      "abs": "https://maltstudio.co/hizmetler/kutu-harf/",
+      "rel": "",
+      "text": "Kutu Harf"
+    },
+    {
+      "href": "/hizmetler/totem/",
+      "abs": "https://maltstudio.co/hizmetler/totem/",
+      "rel": "",
+      "text": "Totem"
+    },
+    {
+      "href": "/hizmetler/arac-giydirme/",
+      "abs": "https://maltstudio.co/hizmetler/arac-giydirme/",
+      "rel": "",
+      "text": "Araç Giydirme"
+    },
+    {
+      "href": "/hizmetler/cam-giydirme/",
+      "abs": "https://maltstudio.co/hizmetler/cam-giydirme/",
+      "rel": "",
+      "text": "Cam Giydirme"
+    },
+    {
+      "href": "/hizmetler/lightbox/",
+      "abs": "https://maltstudio.co/hizmetler/lightbox/",
+      "rel": "",
+      "text": "Lightbox"
+    },
+    {
+      "href": "/hizmetler/display-pos/",
+      "abs": "https://maltstudio.co/hizmetler/display-pos/",
+      "rel": "",
+      "text": "Display & POS"
+    },
+    {
+      "href": "/hizmetler/ofis-branding/",
+      "abs": "https://maltstudio.co/hizmetler/ofis-branding/",
+      "rel": "",
+      "text": "Ofis Branding"
+    },
+    {
+      "href": "/hizmetler/is-guvenligi-tabelalari/",
+      "abs": "https://maltstudio.co/hizmetler/is-guvenligi-tabelalari/",
+      "rel": "",
+      "text": "İş Güvenliği Tabelaları"
+    },
+    {
+      "href": "/projeler/",
+      "abs": "https://maltstudio.co/projeler/",
+      "rel": "",
+      "text": "Projeler"
+    },
+    {
+      "href": "/sektorler/",
+      "abs": "https://maltstudio.co/sektorler/",
+      "rel": "",
+      "text": "Sektörler"
+    },
+    {
+      "href": "/bilgi/",
+      "abs": "https://maltstudio.co/bilgi/",
+      "rel": "",
+      "text": "Bilgi"
+    },
+    {
+      "href": "/bolgeler/tekirdag/",
+      "abs": "https://maltstudio.co/bolgeler/tekirdag/",
+      "rel": "",
+      "text": "Tekirdağ"
+    },
+    {
+      "href": "/hizmetler/",
+      "abs": "https://maltstudio.co/hizmetler/",
+      "rel": "",
+      "text": "Tüm hizmetler"
+    },
+    {
+      "href": "/gizlilik/",
+      "abs": "https://maltstudio.co/gizlilik/",
+      "rel": "",
+      "text": "Gizlilik"
+    },
+    {
+      "href": "/hakkimizda/",
+      "abs": "https://maltstudio.co/hakkimizda/",
+      "rel": "",
+      "text": "Hakkımızda"
+    },
+    {
+      "href": "/#iletisim",
+      "abs": "https://maltstudio.co/#iletisim",
+      "rel": "",
+      "text": "Mesaj"
+    }
+  ],
+  "internal_link_count": 39,
+  "external_link_count": 3,
+  "external_links": [
+    {
+      "href": "https://wa.me/905525826959?text=Merhaba%2C%20Anka%20Anaokulu%20benzeri%20bir%20proje%20i%C3%A7in%20teklif%20almak%20istiyorum.",
+      "abs": "https://wa.me/905525826959?text=Merhaba%2C%20Anka%20Anaokulu%20benzeri%20bir%20proje%20i%C3%A7in%20teklif%20almak%20istiyorum.",
+      "rel": "noopener",
+      "text": "WhatsApp"
+    },
+    {
+      "href": "https://wa.me/905525826959?text=Anka%20Anaokulu%20benzeri%20proje",
+      "abs": "https://wa.me/905525826959?text=Anka%20Anaokulu%20benzeri%20proje",
+      "rel": "noopener",
+      "text": "WhatsApp ile Teklif"
+    },
+    {
+      "href": "https://wa.me/905525826959?text=Merhaba%2C%20Malt%20Studio%20hizmetleri%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum.",
+      "abs": "https://wa.me/905525826959?text=Merhaba%2C%20Malt%20Studio%20hizmetleri%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum.",
+      "rel": "noopener",
+      "text": "WhatsApp"
+    }
+  ],
+  "schema": {
+    "block_count": 1,
+    "parse_ok": true,
+    "parse_failures": [],
+    "schema_types": [
+      "BreadcrumbList",
+      "WebPage",
+      "WebSite"
+    ],
+    "defined_ids": [
+      "https://maltstudio.co/projeler/anka/#webpage",
+      "https://maltstudio.co/#website",
+      "https://maltstudio.co/projeler/anka/#breadcrumb"
+    ],
+    "dangling_refs": [
+      "https://maltstudio.co/#business"
+    ],
+    "duplicate_ids": [],
+    "conflicting_ids": [],
+    "important_properties": [
+      {
+        "@id": "https://maltstudio.co/projeler/anka/#webpage",
+        "@type": "WebPage",
+        "name": "Anka Anaokulu Projesi | Malt Studio",
+        "url": "https://maltstudio.co/projeler/anka/",
+        "description": "Anka Anaokulu için Malt Studio tarafından gerçekleştirilen uygulama projesi. Proje fotoğraflarını ve ilgili hizmet detaylarını inceleyin.",
+        "isPartOf": {
+          "@id": "https://maltstudio.co/#website"
+        },
+        "about": {
+          "@id": "https://maltstudio.co/#business"
+        }
+      },
+      {
+        "@id": "https://maltstudio.co/#website",
+        "@type": "WebSite",
+        "name": "Malt Studio",
+        "url": "https://maltstudio.co/",
+        "publisher": {
+          "@id": "https://maltstudio.co/#business"
+        }
+      },
+      {
+        "@id": "https://maltstudio.co/projeler/anka/#breadcrumb",
+        "@type": "BreadcrumbList"
+      }
+    ],
+    "has_geo": false,
+    "has_hours": false,
+    "has_logo_or_image": false,
+    "knowsAbout": [],
+    "sameAs": [],
+    "homepage_schema": false,
+    "has_website_node": true,
+    "has_business_node": false,
+    "has_faqpage": false,
+    "has_article": false,
+    "has_service": false,
+    "has_breadcrumb_list": true,
+    "has_localbusiness": false,
+    "has_webpage": true,
+    "ispartof_website": true
+  },
+  "jsonld_parse_ok": true,
+  "h2_br_raw": [],
+  "md_twin_exists": true,
+  "md_twin_bytes": 2270,
+  "md_twin_words": 177,
+  "md_twin_ratio": 1.372093023255814,
+  "has_hours_html": false,
+  "has_maps_link": false,
+  "has_phone": true,
+  "has_address": true,
+  "footer_legal_href": true,
+  "og_alt_stale": false,
+  "h2_concat_sektorler": false,
+  "h2_concat_bilgi": false,
+  "images_measured": {
+    "jpeg_fallback_bytes": 373653,
+    "webp_source_bytes": 291790,
+    "picture_count": 1,
+    "img_count": 3,
+    "files": [
+      {
+        "src": "/images/logo.svg",
+        "exists": true,
+        "bytes": 4531,
+        "ext": ".svg",
+        "width_attr": "120",
+        "height_attr": "19",
+        "loading": "",
+        "in_picture": false,
+        "file_width": null,
+        "file_height": null
+      },
+      {
+        "src": "/images/uploads/img_7536.jpg",
+        "exists": true,
+        "bytes": 373653,
+        "ext": ".jpg",
+        "width_attr": "800",
+        "height_attr": "1000",
+        "loading": "",
+        "in_picture": true,
+        "file_width": 1012,
+        "file_height": 1800
+      },
+      {
+        "src": "/images/logo.svg",
+        "exists": true,
+        "bytes": 4531,
+        "ext": ".svg",
+        "width_attr": "120",
+        "height_attr": "19",
+        "loading": "",
+        "in_picture": false,
+        "file_width": null,
+        "file_height": null
+      }
+    ],
+    "webp_sources": [
+      {
+        "srcset": "/images/uploads/img_7536.webp",
+        "bytes": 291790,
+        "exists": true
+      }
+    ],
+    "lazy_imgs": 0,
+    "preload_images": [],
+    "browser_selected_bytes": null,
+    "browser_selected_note": "HAR/Lighthouse not run. JPEG vs WebP are disk sizes of referenced files, not transfer."
+  }
+}

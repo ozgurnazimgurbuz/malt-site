@@ -464,9 +464,9 @@ ARTICLE_A5 = {
         "buying": ["Önce kim/nereden okuyacak sorusunu yazın.", "Gece ihtiyacını evet/hayır netleştirin.", "Montaj yüzeyi fotoğrafı paylaşın.", "Siparişi ilgili hizmet sayfasından ilerletin."],
         "maintenance": ["Dış yüzeyleri aşındırıcı olmadan temizleyin.", "Bağlantı gevşekliği erken müdahale ister.", "Kampanya yüzeylerini sabit tabeladan ayrı yenileyin."],
         "faqs": [
-            ("Bu yazıdan sipariş verilir mi?", "Hayır; eğitimdir. Tabela siparişi /hizmetler/tabela/ altındadır."),
-            ("En doğru tabela hangisi?", "Konum, gece ihtiyacı ve bütçeye göre değişir; tek cevap yoktur."),
-            ("Tekirdağ’da kim uygular?", "Keşif için /bolgeler/tekirdag/ veya WhatsApp."),
+            ("Bu yazıdan sipariş verilir mi?", 'Hayır; eğitimdir. Tabela siparişi <a href="/hizmetler/tabela/">tabela üretimi</a> sayfasındadır.'),
+            ("En doğru tabela hangisi?", "Konum, gece ihtiyacı ve bütçeye göre değişir. Tek cevap yoktur; tablo türleri ayırır."),
+            ("Tekirdağ’da kim uygular?", 'Keşif <a href="/bolgeler/tekirdag/">Tekirdağ atölyesinden</a> planlanır. WhatsApp veya telefon yeterlidir.'),
         ],
     },
     "isikli-mi-isiksiz-mi": {
@@ -476,9 +476,9 @@ ARTICLE_A5 = {
         "buying": ["İşletme saatlerini yazın.", "Cephe derinliği ve elektrik durumunu paylaşın.", "Karar sonrası /hizmetler/isikli-tabela/ veya /hizmetler/tabela/ seçin."],
         "maintenance": ["Işıklıda LED/güç kaynağı servisi planlı olmalıdır.", "Işıksızda solma ve darbe kontrolü yeterlidir."],
         "faqs": [
-            ("Lightbox aynı şey mi?", "Hayır. Lightbox ayrı sayfadadır."),
-            ("Neon şart mı?", "Hayır; LED ışıklı tabela yaygındır."),
-            ("Sipariş nereden?", "/hizmetler/isikli-tabela/ veya ışıksız için /hizmetler/tabela/."),
+            ("Lightbox aynı şey mi?", 'Hayır. Lightbox perakende içi kutu/çerçevedir: <a href="/hizmetler/lightbox/">lightbox</a>.'),
+            ("Neon şart mı?", "Hayır. LED ışıklı tabela yaygındır. Neon ayrı formdur."),
+            ("Sipariş nereden?", 'Işıklı için <a href="/hizmetler/isikli-tabela/">ışıklı tabela</a>, ışıksız için <a href="/hizmetler/tabela/">tabela</a>.'),
         ],
     },
     "kutu-harf-malzemeler": {
@@ -488,9 +488,9 @@ ARTICLE_A5 = {
         "buying": ["Vektörel logo gönderin.", "Cephe malzemesini fotoğraflayın.", "Sipariş /hizmetler/kutu-harf/."],
         "maintenance": ["Dış temizlik yumuşak yapılmalı.", "Işıklı harflerde servis kapağı erişimi korunmalı."],
         "faqs": [
-            ("Channel letters nedir?", "Kutu harfin yaygın adıdır; ayrı URL yok."),
-            ("Hangisi daha iyi?", "Mimari ve bütçeye göre; tek kazanan yok."),
-            ("Sipariş?", "/hizmetler/kutu-harf/."),
+            ("Channel letters nedir?", "Kutu harfin yaygın adıdır. Ayrı URL yoktur; üretim kutu harf sayfasındadır."),
+            ("Hangisi daha iyi?", "Mimari ve bütçeye göre. Tek kazanan yoktur; tablo farkı özetler."),
+            ("Sipariş?", 'Üretim <a href="/hizmetler/kutu-harf/">kutu harf</a> sayfasındadır.'),
         ],
     },
     "one-way-vision-nedir": {
@@ -500,9 +500,9 @@ ARTICLE_A5 = {
         "buying": ["Cam ölçüleri ve iç aydınlatmayı paylaşın.", "Uygulama /hizmetler/cam-giydirme/."],
         "maintenance": ["Aşındırıcı sünger kullanmayın.", "Kampanya bitiminde kontrollü söküm."],
         "faqs": [
-            ("İçerisi tamamen görünür mü?", "Delik oranına ve ışığa bağlıdır."),
-            ("Araçta kullanılır mı?", "Araç camı araç giydirme kapsamında değerlendirilir."),
-            ("Sipariş?", "/hizmetler/cam-giydirme/."),
+            ("İçerisi tamamen görünür mü?", "Delik oranına ve iç/dış ışığa bağlıdır. Karanlık içeride denge bozulabilir."),
+            ("Araçta kullanılır mı?", 'Araç camı <a href="/hizmetler/arac-giydirme/">araç giydirme</a> kapsamında değerlendirilir.'),
+            ("Sipariş?", 'Uygulama <a href="/hizmetler/cam-giydirme/">cam giydirme</a> sayfasındadır.'),
         ],
     },
     "arac-giydirme-rehberi": {
@@ -512,9 +512,9 @@ ARTICLE_A5 = {
         "buying": ["Araç listesi ve fotoğraflar.", "Full/parça tercihi.", "Sipariş /hizmetler/arac-giydirme/."],
         "maintenance": ["Yüksek basıncı kenarlardan uzak tutun.", "Hasarda panel yenilemesi şablondan yapılır."],
         "faqs": [
-            ("Boya zarar görür mü?", "Doğru folyo/uygulamada kontrollü söküm hedeflenir; araç durumuna göre değişir."),
-            ("Kışın olur mu?", "Ortam sıcaklığı uygunsa."),
-            ("Sipariş?", "/hizmetler/arac-giydirme/."),
+            ("Boya zarar görür mü?", "Doğru folyo ve uygulamada kontrollü söküm hedeflenir. Araç boyasının durumu sonucu etkiler; peşin garanti yoktur."),
+            ("Kışın olur mu?", "Ortam sıcaklığı uygunsa. Uygun değilse iş ertelenir."),
+            ("Sipariş?", 'Uygulama <a href="/hizmetler/arac-giydirme/">araç giydirme</a> sayfasındadır.'),
         ],
     },
     "tabela-fiyati": {
@@ -524,9 +524,9 @@ ARTICLE_A5 = {
         "buying": ["Ölçü + fotoğraf + gece ihtiyacı gönderin.", "Net teklif WhatsApp/telefon ile istenir.", ],
         "maintenance": ["Ucuz malzeme kısa ömürle pahalıya gelebilir.", "Servis kapsamını teklifte sorun."],
         "faqs": [
-            ("Sabit liste var mı?", "Hayır."),
-            ("Bu sayfa teklif midir?", "Hayır; eğitimdir."),
-            ("Teklif nasıl?", "Keşif sonrası yazılı iletişim."),
+            ("Sabit liste var mı?", "Hayır. Sabit internet fiyat listesi yayınlanmaz."),
+            ("Bu sayfa teklif midir?", "Hayır; fiyat eğitimidir. Net rakam keşif sonrası yazılı verilir."),
+            ("Teklif nasıl?", "Ölçü, fotoğraf ve gece ihtiyacı ile WhatsApp veya telefon. Keşif sonrası yazılı teklif."),
         ],
     },
     "totem-secim-rehberi": {
@@ -536,9 +536,9 @@ ARTICLE_A5 = {
         "buying": ["Konum fotoğrafı ve yaklaşım yönü.", "Işıklı ihtiyaç.", "Sipariş /hizmetler/totem/."],
         "maintenance": ["Bağlantı ve yüzey kontrolü.", "Işıklıysa LED servis erişimi."],
         "faqs": [
-            ("Pylon ayrı mı?", "Aynı aile; ayrı doorway yok."),
-            ("Display totem?", "/hizmetler/display-pos/."),
-            ("Sipariş?", "/hizmetler/totem/."),
+            ("Pylon ayrı mı?", "Aynı ailede anlatılır. Ayrı doorway URL yoktur."),
+            ("Display totem?", 'Taşınabilir indoor display <a href="/hizmetler/display-pos/">Display & POS</a> ailesindedir.'),
+            ("Sipariş?", 'Üretim <a href="/hizmetler/totem/">totem</a> sayfasındadır.'),
         ],
     },
 }

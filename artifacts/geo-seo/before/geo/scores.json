@@ -1,0 +1,231 @@
+{
+  "rubric": "seo/benchmark/geo-rubric.md",
+  "urls": [
+    {
+      "url": "https://maltstudio.co/",
+      "scores": {
+        "entity_clarity": 3,
+        "answerability": 2,
+        "semantic_structure": 3,
+        "structured_data": 2,
+        "machine_readability": 3,
+        "entity_relationships": 1,
+        "trust": 2,
+        "freshness": 2,
+        "extractability": 2
+      },
+      "mean": 2.222,
+      "evidence": {
+        "entity_clarity": [
+          "LocalBusiness present; NAP in HTML; schema missing: ['geo', 'hours', 'logo']; sameAs=['https://www.instagram.com/maltstudio.co/']"
+        ],
+        "answerability": [
+          "FAQ n=4 max_answer_words=22 sample='Tekirdağ’da tabela ve reklam işi yapıyor musunuz?'"
+        ],
+        "semantic_structure": [
+          "1 H1, no skips, lists ul=4 ol=0"
+        ],
+        "structured_data": [
+          "Thin LocalBusiness types=['LocalBusiness', 'ProfessionalService'] geo=False hours=False website=False"
+        ],
+        "machine_readability": [
+          "llms+twin exists ratio=0.47738693467336685; prerender=True"
+        ],
+        "entity_relationships": [
+          "links=73 no breadcrumb schema"
+        ],
+        "trust": [
+          "NAP HTML; legal=False hours_html=True maps=False"
+        ],
+        "freshness": [
+          "lastmod=2026-08-11; sitemap missing lastmod n=15"
+        ],
+        "extractability": [
+          "short/cards words=597 eeat=False"
+        ]
+      },
+      "rubric": "seo/benchmark/geo-rubric.md"
+    },
+    {
+      "url": "https://maltstudio.co/hizmetler/tabela/",
+      "scores": {
+        "entity_clarity": 2,
+        "answerability": 2,
+        "semantic_structure": 4,
+        "structured_data": 2,
+        "machine_readability": 4,
+        "entity_relationships": 3,
+        "trust": 2,
+        "freshness": 2,
+        "extractability": 2
+      },
+      "mean": 2.556,
+      "evidence": {
+        "entity_clarity": [
+          "NAP in HTML (phone=True address=True); LocalBusiness=False"
+        ],
+        "answerability": [
+          "FAQ n=8 max_answer_words=16 sample='Tabela ile ışıklı tabela farkı nedir?'"
+        ],
+        "semantic_structure": [
+          "question_h2=1 ol=1"
+        ],
+        "structured_data": [
+          "Service+Breadcrumb; website_node=False dangling=['https://maltstudio.co/#business', 'https://maltstudio.co/#website']"
+        ],
+        "machine_readability": [
+          "llms+twin ratio=1.14; live bot block=True"
+        ],
+        "entity_relationships": [
+          "BreadcrumbList; isPartOf website=True dangling=['https://maltstudio.co/#business', 'https://maltstudio.co/#website']"
+        ],
+        "trust": [
+          "NAP HTML; legal=False hours_html=False maps=False"
+        ],
+        "freshness": [
+          "lastmod=2026-08-11; sitemap missing lastmod n=15"
+        ],
+        "extractability": [
+          "short/cards words=662 eeat=True"
+        ]
+      },
+      "rubric": "seo/benchmark/geo-rubric.md"
+    },
+    {
+      "url": "https://maltstudio.co/bilgi/tabela-cesitleri/",
+      "scores": {
+        "entity_clarity": 2,
+        "answerability": 2,
+        "semantic_structure": 3,
+        "structured_data": 0,
+        "machine_readability": 4,
+        "entity_relationships": 2,
+        "trust": 2,
+        "freshness": 1,
+        "extractability": 3
+      },
+      "mean": 2.111,
+      "evidence": {
+        "entity_clarity": [
+          "NAP in HTML (phone=True address=True); LocalBusiness=False"
+        ],
+        "answerability": [
+          "FAQ n=5 max_answer_words=10 sample='Bu yazıdan sipariş verilir mi?'"
+        ],
+        "semantic_structure": [
+          "1 H1, no skips, lists ul=9 ol=0"
+        ],
+        "structured_data": [
+          "No JSON-LD"
+        ],
+        "machine_readability": [
+          "llms+twin ratio=1.19; live bot block=True"
+        ],
+        "entity_relationships": [
+          "HTML breadcrumb, no/weak schema links"
+        ],
+        "trust": [
+          "NAP HTML; legal=False hours_html=False maps=False"
+        ],
+        "freshness": [
+          "No lastmod on this URL; copyright-only fallback"
+        ],
+        "extractability": [
+          "max_p=53 words=556 eeat_clone=True"
+        ]
+      },
+      "rubric": "seo/benchmark/geo-rubric.md"
+    },
+    {
+      "url": "https://maltstudio.co/bolgeler/tekirdag/",
+      "scores": {
+        "entity_clarity": 2,
+        "answerability": 2,
+        "semantic_structure": 3,
+        "structured_data": 2,
+        "machine_readability": 4,
+        "entity_relationships": 3,
+        "trust": 2,
+        "freshness": 2,
+        "extractability": 2
+      },
+      "mean": 2.444,
+      "evidence": {
+        "entity_clarity": [
+          "NAP in HTML (phone=True address=True); LocalBusiness=False"
+        ],
+        "answerability": [
+          "FAQ n=4 max_answer_words=13 sample='Atölye nerede?'"
+        ],
+        "semantic_structure": [
+          "1 H1, no skips, lists ul=3 ol=0"
+        ],
+        "structured_data": [
+          "types=['BreadcrumbList', 'WebPage'] dangling=['https://maltstudio.co/#business', 'https://maltstudio.co/#website']"
+        ],
+        "machine_readability": [
+          "llms+twin ratio=1.22; live bot block=True"
+        ],
+        "entity_relationships": [
+          "BreadcrumbList; isPartOf website=True dangling=['https://maltstudio.co/#business', 'https://maltstudio.co/#website']"
+        ],
+        "trust": [
+          "NAP HTML; legal=False hours_html=True maps=False"
+        ],
+        "freshness": [
+          "lastmod=2026-08-11; sitemap missing lastmod n=15"
+        ],
+        "extractability": [
+          "short/cards words=297 eeat=False"
+        ]
+      },
+      "rubric": "seo/benchmark/geo-rubric.md"
+    },
+    {
+      "url": "https://maltstudio.co/projeler/ofiso/",
+      "scores": {
+        "entity_clarity": 2,
+        "answerability": 1,
+        "semantic_structure": 3,
+        "structured_data": 2,
+        "machine_readability": 4,
+        "entity_relationships": 3,
+        "trust": 2,
+        "freshness": 2,
+        "extractability": 2
+      },
+      "mean": 2.333,
+      "evidence": {
+        "entity_clarity": [
+          "NAP in HTML (phone=True address=True); LocalBusiness=False"
+        ],
+        "answerability": [
+          "No FAQ; word_count=98"
+        ],
+        "semantic_structure": [
+          "1 H1, no skips, lists ul=4 ol=0"
+        ],
+        "structured_data": [
+          "types=['BreadcrumbList', 'WebPage'] dangling=['https://maltstudio.co/#business', 'https://maltstudio.co/#website']"
+        ],
+        "machine_readability": [
+          "llms+twin ratio=1.32; live bot block=True"
+        ],
+        "entity_relationships": [
+          "BreadcrumbList; isPartOf website=True dangling=['https://maltstudio.co/#business', 'https://maltstudio.co/#website']"
+        ],
+        "trust": [
+          "NAP HTML; legal=False hours_html=False maps=False"
+        ],
+        "freshness": [
+          "lastmod=2026-08-11; sitemap missing lastmod n=15"
+        ],
+        "extractability": [
+          "short/cards words=98 eeat=False"
+        ]
+      },
+      "rubric": "seo/benchmark/geo-rubric.md"
+    }
+  ],
+  "mean": 2.333
+}

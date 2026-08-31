@@ -1,0 +1,43 @@
+# Frozen BEFORE URL corpus — do not change after baseline capture.
+# Base: https://maltstudio.co
+# Source: sitemap.xml (35 indexable public URLs). Excludes /admin/, /proje/, 410 placeholders.
+# Format: one absolute URL per line. Lines starting with # are comments.
+
+# --- Tier 1 — Critical ---
+https://maltstudio.co/
+https://maltstudio.co/hizmetler/
+https://maltstudio.co/hizmetler/tabela/
+https://maltstudio.co/bolgeler/tekirdag/
+https://maltstudio.co/projeler/
+https://maltstudio.co/projeler/ofiso/
+https://maltstudio.co/bilgi/
+https://maltstudio.co/bilgi/tabela-cesitleri/
+https://maltstudio.co/sektorler/
+https://maltstudio.co/sektorler/fabrika-osb/
+
+# --- Tier 2 — Remaining public templates (full sitemap) ---
+https://maltstudio.co/hizmetler/isikli-tabela/
+https://maltstudio.co/hizmetler/kutu-harf/
+https://maltstudio.co/hizmetler/totem/
+https://maltstudio.co/hizmetler/arac-giydirme/
+https://maltstudio.co/hizmetler/cam-giydirme/
+https://maltstudio.co/hizmetler/lightbox/
+https://maltstudio.co/hizmetler/display-pos/
+https://maltstudio.co/hizmetler/ofis-branding/
+https://maltstudio.co/hizmetler/is-guvenligi-tabelalari/
+https://maltstudio.co/projeler/yamanlar-ekspertiz/
+https://maltstudio.co/projeler/anka/
+https://maltstudio.co/projeler/kosem-doner/
+https://maltstudio.co/projeler/pembe-pasta-evi/
+https://maltstudio.co/projeler/okka-tarim/
+https://maltstudio.co/sektorler/restoran-cafe/
+https://maltstudio.co/sektorler/saglik/
+https://maltstudio.co/sektorler/plaza-ofis/
+https://maltstudio.co/sektorler/insaat-santiye/
+https://maltstudio.co/sektorler/perakende/
+https://maltstudio.co/bilgi/isikli-mi-isiksiz-mi/
+https://maltstudio.co/bilgi/kutu-harf-malzemeler/
+https://maltstudio.co/bilgi/one-way-vision-nedir/
+https://maltstudio.co/bilgi/arac-giydirme-rehberi/
+https://maltstudio.co/bilgi/tabela-fiyati/
+https://maltstudio.co/bilgi/totem-secim-rehberi/

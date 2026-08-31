@@ -208,7 +208,7 @@ MAIN = f"""
     <div class="section-head">
       <div>
         <div class="tag">Sektörler</div>
-        <h2 id="industries-title">Çalıştığımız<br>Sektörler</h2>
+        <h2 id="industries-title">Çalıştığımız<br> Sektörler</h2>
       </div>
       <p>Farklı sektörlere özel çözümler sunuyoruz.</p>
     </div>
@@ -250,7 +250,7 @@ MAIN = f"""
     <div class="section-head">
       <div>
         <div class="tag">Bilgi</div>
-        <h2 id="knowledge-title">Bilgi<br>Merkezi</h2>
+        <h2 id="knowledge-title">Bilgi<br> Merkezi</h2>
       </div>
       <p>Karar vermenize yardımcı olacak rehberler.</p>
     </div>
@@ -357,6 +357,7 @@ MAIN = f"""
       <details><summary>Keşif ücretli mi?</summary><p>Keşif randevusu WhatsApp veya telefon ile alınır. Ölçü ve saha notları teklifi şekillendirir; sabit internet fiyatı yayınlanmaz.</p></details>
       <details><summary>Süleymanpaşa ve çevre ilçelere geliyor musunuz?</summary><p>Evet. Süleymanpaşa, merkez ve çevre ilçe işleri Tekirdağ atölyesinden planlanır. Detay için <a href="/bolgeler/tekirdag/">atölye ve iletişim</a> sayfasına bakın.</p></details>
       <details><summary>Hangi tabela türünü seçmeliyim?</summary><p>Gece görünürlük için <a href="/hizmetler/isikli-tabela/">ışıklı tabela</a>, cephe yazısı için <a href="/hizmetler/kutu-harf/">kutu harf</a>, genel üretim için <a href="/hizmetler/tabela/">tabela imalatı</a> sayfalarına bakın.</p></details>
+      <details><summary>Çalışma saatleriniz nedir?</summary><p>Pazartesi–Cumartesi 09:00–19:00. Keşif ve montaj randevusu WhatsApp veya telefon ile alınır. Adres ve yol tarifi <a href="/bolgeler/tekirdag/">Tekirdağ atölye sayfasında</a>.</p></details>
     </div>
   </div>
 </section>
@@ -399,6 +400,8 @@ FOOTER_COLS = """      <div>
           <li><a href="/bilgi/">Bilgi</a></li>
           <li><a href="#surec">Süreç</a></li>
           <li><a href="/bolgeler/tekirdag/">Tekirdağ</a></li>
+          <li><a href="/gizlilik/">Gizlilik</a></li>
+          <li><a href="/hakkimizda/">Hakkımızda</a></li>
           <li><a href="#teklif">Teklif Al</a></li>
         </ul>
       </div>
@@ -421,8 +424,8 @@ def inject_css(doc: str) -> str:
         raise SystemExit("build_home_a3: CSS marker not found")
     # Drop prior A3 block if re-running
     doc = re.sub(
-        r"\n  /\* -------- A3 home authority -------- \*/.*?(?=\n  @media \(max-width:900px\)\{\n    nav\{display:none;\})",
-        "",
+        r"\s*/\* -------- A3 home authority -------- \*/.*?(?=\n  @media \(max-width:900px\)\{\n    nav\{display:none;\})",
+        "\n",
         doc,
         count=1,
         flags=re.S,

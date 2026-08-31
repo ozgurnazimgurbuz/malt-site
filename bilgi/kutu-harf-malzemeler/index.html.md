@@ -23,7 +23,17 @@ Karşılaştırma, avantaj/dezavantaj ve satın alma ipuçları burada; üretim 
 
 ## Amaç
 
-Malzeme karşılaştırması bilgilendirmedir. Satın alma /hizmetler/kutu-harf/ altındadır.
+Malzeme karşılaştırması bilgilendirmedir; tek kazanan ilan edilmez. Pleksi (akrilik) ışıklı harfte renk ve ışık geçirgenliği için yaygındır. Paslanmaz dış dayanım ve prestij algısı için seçilir; bütçe genelde daha yüksektir. Işıklı/ışıksız tercih çoğu zaman malzemeden önce netleşir. Montaj yüzeyi — kompozit, beton, cam — aparat tipini belirler; keşifsiz sipariş risklidir. Channel letters kutu harfin uluslararası adıdır; ayrı doorway URL yoktur. Üretim ve teklif [kutu harf](https://maltstudio.co/hizmetler/kutu-harf/)  sayfasındadır. Vektörel logo kaliteyi yükseltir; yoksa sade alternatif konuşulur.
+
+## Pleksi ve paslanmaz nasıl ayrılır?
+
+| Kriter | Pleksi / akrilik | Paslanmaz |
+| --- | --- | --- |
+| Görünüm | Renk ve ışık geçirgenliği | Metal prestij, dış dayanım |
+| Işıklı kullanım | Işıklı harfte yaygındır | Işıklı veya ışıksız üretilebilir |
+| Dikkat | Çizilme ve temizlik hassasiyeti | Mimariye uyum; bütçe genelde daha yüksek |
+| Montaj | Keşifte yüzey ve aparat netleşir | Keşifte yüzey ve aparat netleşir |
+| Sipariş | [Kutu harf](https://maltstudio.co/hizmetler/kutu-harf/) | [Kutu harf](https://maltstudio.co/hizmetler/kutu-harf/) |
 
 ## Pleksi / akrilik
 
@@ -94,87 +104,38 @@ Malzeme karşılaştırması bilgilendirmedir. Pleksi ışık ve renk; paslanmaz
 
 Malzeme karşılaştırması bilgilendirmedir. Cephe fotoğrafı olmadan kesin öneri eksik kalır. Sipariş kutu harf hizmetindedir. Channel letters ayrı URL değildir.
 
-## Üretim, deneyim ve yerel uzmanlık
-
-Malt Studio Tekirdağ merkezli çalışır. Bu rehber içeriği; atölye üretimi, saha keşfi ve montajın aynı operasyonel hatta planlandığı gerçek iş modeline dayanır. Şube sayısı, uydurma sertifika, sahte yorum veya proje metriği eklenmez.
-
-- **Deneyim:** Keşif notları (ölçü, yüzey, erişim, işletme saati) teklif ve üretimi şekillendirir.
-- **Üretim:** Ölçüye özel imalat; stok tabela mantığı yerine yüzeye ve markaya göre üretim.
-- **Kalite süreci:** Atölye kontrolü → saha hizalama/sabitleme → teslim kontrolü.
-- **Yerel uzmanlık:** Tekirdağ üssünden merkez ve çevre ilçe işleri planlanır; Süleymanpaşa dahil merkez ve çevre ilçelere hizmet verilir.
-- **Kanıt:** Gerçek fotoğraflar proje sayfalarına bağlanır; stok görsel kullanılmaz.
-
 [WhatsApp ile Teklif](https://wa.me/905525826959?text=Kutu%20Harf%20hakk%C4%B1nda%20bilgi) [Teklif](https://maltstudio.co/#teklif) [Ara](tel:+905525826959)
 
 ## İlgili hizmetler
-
-###
-
-[Kutu HarfKutu Harf hizmeti.Hizmet](https://maltstudio.co/hizmetler/kutu-harf/)
+[Kutu Harf Kutu Harf hizmeti. Hizmet](https://maltstudio.co/hizmetler/kutu-harf/)
 
 ## İlgili rehberler
+[Tabela Çeşitleri: Hangisi Ne İşe Yarar? İlgili rehber. Bilgi](https://maltstudio.co/bilgi/tabela-cesitleri/) [Işıklı Tabela mı Işıksız mı? İlgili rehber. Bilgi](https://maltstudio.co/bilgi/isikli-mi-isiksiz-mi/) [One Way Vision Nedir? İlgili rehber. Bilgi](https://maltstudio.co/bilgi/one-way-vision-nedir/)
 
-###
+## İlgili projeler
+[Köşem Döner Tamamlanan proje örneği. Proje](https://maltstudio.co/projeler/kosem-doner/) [Okka Tarım Tamamlanan proje örneği. Proje](https://maltstudio.co/projeler/okka-tarim/)
 
-[Tabela Çeşitleri: Hangisi Ne İşe Yarar?İlgili rehber.Bilgi](https://maltstudio.co/bilgi/tabela-cesitleri/)
-
-###
-
-[Işıklı Tabela mı Işıksız mı?İlgili rehber.Bilgi](https://maltstudio.co/bilgi/isikli-mi-isiksiz-mi/)
-
-###
-
-[One Way Vision Nedir?İlgili rehber.Bilgi](https://maltstudio.co/bilgi/one-way-vision-nedir/)
+[Tüm projeler →](https://maltstudio.co/projeler/)
 
 ## İlgili sektörler
-
-###
-
-[Plaza & OfisDikey bağlam.Sektör](https://maltstudio.co/sektorler/plaza-ofis/)
-
-###
-
-[PerakendeDikey bağlam.Sektör](https://maltstudio.co/sektorler/perakende/)
+[Plaza & Ofis Dikey bağlam. Sektör](https://maltstudio.co/sektorler/plaza-ofis/) [Perakende Dikey bağlam. Sektör](https://maltstudio.co/sektorler/perakende/)
 
 ## Keşfet
-
-###
-
-[HizmetlerTüm hizmetlerimize göz atın.Keşif](https://maltstudio.co/hizmetler/)
-
-###
-
-[BilgiRehberler ve karar içerikleri.Keşif](https://maltstudio.co/bilgi/)
-
-###
-
-[ProjelerTamamladığımız işlerden örnekler.Keşif](https://maltstudio.co/projeler/)
-
-###
-
-[SektörlerSektöre özel çözümler.Keşif](https://maltstudio.co/sektorler/)
-
-###
-
-[TekirdağTekirdağ yerel hizmet rehberi.Keşif](https://maltstudio.co/bolgeler/tekirdag/)
-
-###
-
-[Ana sayfaMalt Studio ana sayfa.Keşif](https://maltstudio.co/)
+[Hizmetler Tüm hizmetlerimize göz atın. Keşif](https://maltstudio.co/hizmetler/) [Bilgi Rehberler ve karar içerikleri. Keşif](https://maltstudio.co/bilgi/) [Projeler Tamamladığımız işlerden örnekler. Keşif](https://maltstudio.co/projeler/) [Sektörler Sektöre özel çözümler. Keşif](https://maltstudio.co/sektorler/) [Tekirdağ Tekirdağ yerel hizmet rehberi. Keşif](https://maltstudio.co/bolgeler/tekirdag/) [Ana sayfa Malt Studio ana sayfa. Keşif](https://maltstudio.co/)
 
 ## SSS
 Channel letters nedir?
 
-Kutu harfin yaygın adıdır; ayrı URL yok.
+Kutu harfin yaygın adıdır. Ayrı URL yoktur; üretim kutu harf sayfasındadır.
 Hangisi daha iyi?
 
-Mimari ve bütçeye göre; tek kazanan yok.
+Mimari ve bütçeye göre. Tek kazanan yoktur; tablo farkı özetler.
 Sipariş?
 
-/hizmetler/kutu-harf/.
+Üretim [kutu harf](https://maltstudio.co/hizmetler/kutu-harf/)  sayfasındadır.
 İlgili hizmet nerede?
 
-/hizmetler/kutu-harf/ sayfasında.
+Üretim ve teklif [Kutu Harf](https://maltstudio.co/hizmetler/kutu-harf/)  sayfasındadır.
 Daha fazla rehber?
 
-/bilgi/ hub’ında.
+[Bilgi merkezi](https://maltstudio.co/bilgi/)  diğer karşılaştırmaları listeler.

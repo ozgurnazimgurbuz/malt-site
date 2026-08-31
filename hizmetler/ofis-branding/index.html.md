@@ -19,7 +19,7 @@ Resepsiyon, lobi ve toplantı alanlarında kurumsal kimliğin mekâna uygulanmas
 
 Ofis branding workplace kimlik paketidir: resepsiyon yazısı, logo duvarı, cam grafik, toplantı alanı.
 
-Genel duvar/zemin giydirme (her mekân) ayrı aile olarak ileride açılabilir; bu sayfa ofis paketini sahiplenır.
+Genel duvar/zemin giydirme (her mekân) ayrı aile olarak ileride açılabilir; bu sayfa ofis paketini sahiplenir.
 
 Cam folyo uygulamaları cam giydirme uzmanlığıyla bağlanır.
 
@@ -55,6 +55,15 @@ Plaza yönetimi kuralları malzeme ve yapışkan seçimini kısıtlayabilir.
 
 Vektörel logo dosyası kaliteyi yükseltir.
 
+## Teklif öncesi ne paylaşın?
+
+Keşif sonrası yazılı teklif çıkar. Aşağıdakiler teklifi hızlandırır; hepsi zorunlu değildir.
+
+- Cephe, cam veya araç fotoğrafı
+- Yaklaşık ölçü veya keşif randevusu
+- Gece görünürlük ihtiyacı (var / yok)
+- Varsa vektörel logo veya marka kılavuzu
+
 ## Süreç
 
 1. **Keşif:** Ölçü, yüzey, erişim ve ihtiyaç netleştirilir.
@@ -70,16 +79,6 @@ Kat keşfi → alan listesi → tasarım → üretim → mesaiye göre uygulama.
 Kesinti riski olan alanlar mesai dışı planlanabilir.
 
 Teslimde hizalama ve yapışma kontrolü yapılır.
-
-## Üretim, deneyim ve yerel uzmanlık
-
-Malt Studio Tekirdağ merkezli çalışır. Bu hizmet içeriği; atölye üretimi, saha keşfi ve montajın aynı operasyonel hatta planlandığı gerçek iş modeline dayanır. Şube sayısı, uydurma sertifika, sahte yorum veya proje metriği eklenmez.
-
-- **Deneyim:** Keşif notları (ölçü, yüzey, erişim, işletme saati) teklif ve üretimi şekillendirir.
-- **Üretim:** Ölçüye özel imalat; stok tabela mantığı yerine yüzeye ve markaya göre üretim.
-- **Kalite süreci:** Atölye kontrolü → saha hizalama/sabitleme → teslim kontrolü.
-- **Yerel uzmanlık:** Tekirdağ üssünden merkez ve çevre ilçe işleri planlanır; Süleymanpaşa dahil merkez ve çevre ilçelere hizmet verilir.
-- **Kanıt:** Gerçek fotoğraflar proje sayfalarına bağlanır; stok görsel kullanılmaz.
 
 ## Deneyim ve üretim
 
@@ -110,87 +109,44 @@ Adres, saat ve iletişim: [Malt Studio Tekirdağ atölye ve iletişim](https://m
 [WhatsApp ile Teklif](https://wa.me/905525826959?text=Merhaba%2C%20Ofis%20Branding%20i%C3%A7in%20ke%C5%9Fif%20istiyorum.) [Teklif](https://maltstudio.co/#teklif) [Ara](tel:+905525826959)
 
 ## İlgili hizmetler
-
-###
-
-[Kutu HarfKutu Harf hizmeti.Hizmet](https://maltstudio.co/hizmetler/kutu-harf/)
-
-###
-
-[Cam GiydirmeCam Giydirme hizmeti.Hizmet](https://maltstudio.co/hizmetler/cam-giydirme/)
-
-###
-
-[LightboxLightbox hizmeti.Hizmet](https://maltstudio.co/hizmetler/lightbox/)
-
-###
-
-[TabelaTabela hizmeti.Hizmet](https://maltstudio.co/hizmetler/tabela/)
+[Kutu Harf Kutu Harf hizmeti. Hizmet](https://maltstudio.co/hizmetler/kutu-harf/) [Cam Giydirme Cam Giydirme hizmeti. Hizmet](https://maltstudio.co/hizmetler/cam-giydirme/) [Lightbox Lightbox hizmeti. Hizmet](https://maltstudio.co/hizmetler/lightbox/) [Tabela Tabela hizmeti. Hizmet](https://maltstudio.co/hizmetler/tabela/)
 
 ## İlgili rehberler
+[Kutu Harf Malzemeleri: Pleksi mi Paslanmaz mı? Karar rehberi. Bilgi](https://maltstudio.co/bilgi/kutu-harf-malzemeler/)
 
-###
+## İlgili projeler
+[Okka Tarım Tamamlanan proje örneği. Proje](https://maltstudio.co/projeler/okka-tarim/)
 
-[RehberKarar vermenize yardımcı rehber.Bilgi](https://maltstudio.co/bilgi/kutu-harf-malzemeler/)
+[Tüm projeler →](https://maltstudio.co/projeler/)
 
 ## İlgili sektörler
-
-###
-
-[Plaza & OfisPlaza & Ofis projeleri.Sektör](https://maltstudio.co/sektorler/plaza-ofis/)
-
-###
-
-[SağlıkSağlık projeleri.Sektör](https://maltstudio.co/sektorler/saglik/)
+[Plaza & Ofis Plaza & Ofis projeleri. Sektör](https://maltstudio.co/sektorler/plaza-ofis/) [Sağlık Sağlık projeleri. Sektör](https://maltstudio.co/sektorler/saglik/)
 
 ## Keşfet
-
-###
-
-[HizmetlerTüm hizmetlerimize göz atın.Keşif](https://maltstudio.co/hizmetler/)
-
-###
-
-[BilgiRehberler ve karar içerikleri.Keşif](https://maltstudio.co/bilgi/)
-
-###
-
-[ProjelerTamamladığımız işlerden örnekler.Keşif](https://maltstudio.co/projeler/)
-
-###
-
-[SektörlerSektöre özel çözümler.Keşif](https://maltstudio.co/sektorler/)
-
-###
-
-[TekirdağTekirdağ yerel hizmet rehberi.Keşif](https://maltstudio.co/bolgeler/tekirdag/)
-
-###
-
-[Ana sayfaMalt Studio ana sayfa.Keşif](https://maltstudio.co/)
+[Hizmetler Tüm hizmetlerimize göz atın. Keşif](https://maltstudio.co/hizmetler/) [Bilgi Rehberler ve karar içerikleri. Keşif](https://maltstudio.co/bilgi/) [Projeler Tamamladığımız işlerden örnekler. Keşif](https://maltstudio.co/projeler/) [Sektörler Sektöre özel çözümler. Keşif](https://maltstudio.co/sektorler/) [Tekirdağ Tekirdağ yerel hizmet rehberi. Keşif](https://maltstudio.co/bolgeler/tekirdag/) [Ana sayfa Malt Studio ana sayfa. Keşif](https://maltstudio.co/)
 
 ## Sık sorulan sorular
 Kapı isimliği dahil mi?
 
-Pakete eklenebilir.
+Pakete eklenebilir. Standart set varsayılmaz; brief’te netleştirilir.
 Cam giydirme ayrı mı?
 
-Malzeme/uygulama cam sayfasıyla; paket burada.
+Malzeme ve uygulama [cam giydirme](https://maltstudio.co/hizmetler/cam-giydirme/)  uzmanlığıyla bağlanır; ofis paketi bu sayfadadır.
 İç mekan giydirme farkı?
 
-Ofis = workplace paketi.
+Bu sayfa workplace paketidir: resepsiyon, lobi, toplantı, kat kimliği. Her mekân duvar giydirmesi ayrı aile olarak açılmaz.
 Kesinti olur mu?
 
-Mesai dışı planlanabilir.
+Mesai dışı veya düşük yoğunluklu pencere planlanabilir. Plaza kuralları keşifte sorulur.
 Logo dosyası?
 
-Vektörel tercih edilir.
+Vektörel tercih edilir. Font lisansı müşteri sorumluluğundadır.
 Süre?
 
-Alan büyüklüğüne göre.
+Alan büyüklüğüne ve onay süresine göre. Yönetim onayı gecikirse takvim kayar.
 Plaza yönetimi onayı?
 
-Gerekirse keşifte konuşulur.
+Gerekirse keşifte konuşulur. Onaysız cephe işi risklidir.
 Fiyat?
 
-Alan + malzeme + erişim.
+Alan, malzeme ve erişim. Sabit liste yoktur.

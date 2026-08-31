@@ -55,6 +55,10 @@ class _MdConverter(HTMLParser):
         self._list_stack: list[str] = []  # "ul" | "ol"
         self._ol_counters: list[int] = []
         self._pending_space = False
+        self._in_cell = False
+        self._cell_parts: list[str] = []
+        self._table_row: list[str] = []
+        self._table_header_emitted = False
 
     def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
         ad = {k: (v or "") for k, v in attrs}
@@ -64,14 +68,26 @@ class _MdConverter(HTMLParser):
         if self._skip:
             return
         if tag in ("h1", "h2", "h3", "h4"):
-            level = int(tag[1])
-            self._flush_inline()
-            self.parts.append("\n\n" + "#" * level + " ")
+            if self._in_a:
+                self._a_text.append(" ")
+            else:
+                level = int(tag[1])
+                self._flush_inline()
+                self.parts.append("\n\n" + "#" * level + " ")
         elif tag == "p":
-            self._flush_inline()
-            self.parts.append("\n\n")
+            if self._in_a:
+                self._a_text.append(" ")
+            else:
+                self._flush_inline()
+                self.parts.append("\n\n")
+        elif tag == "div":
+            if self._in_a:
+                self._a_text.append(" ")
         elif tag == "br":
-            self.parts.append("  \n")
+            if self._in_a:
+                self._a_text.append(" ")
+            else:
+                self.parts.append(" ")
         elif tag == "li":
             self._flush_inline()
             kind = self._list_stack[-1] if self._list_stack else "ul"
@@ -100,6 +116,17 @@ class _MdConverter(HTMLParser):
         elif tag == "blockquote":
             self._flush_inline()
             self.parts.append("\n\n> ")
+        elif tag == "table":
+            self._flush_inline()
+            self.parts.append("\n\n")
+            self._table_header_emitted = False
+        elif tag == "tr":
+            self._flush_inline()
+            self._table_row = []
+        elif tag in ("td", "th"):
+            self._flush_inline()
+            self._in_cell = True
+            self._cell_parts = []
 
     def handle_endtag(self, tag: str) -> None:
         if tag in self.SKIP_TAGS:
@@ -109,8 +136,11 @@ class _MdConverter(HTMLParser):
         if self._skip:
             return
         if tag in ("h1", "h2", "h3", "h4", "p", "blockquote"):
-            self._flush_inline()
-            self.parts.append("\n")
+            if self._in_a:
+                self._a_text.append(" ")
+            else:
+                self._flush_inline()
+                self.parts.append("\n")
         elif tag == "li":
             self._flush_inline()
         elif tag == "ul":
@@ -129,17 +159,38 @@ class _MdConverter(HTMLParser):
             self.parts.append("*")
         elif tag == "a":
             if self._in_a == 1:
-                text = "".join(self._a_text).strip() or self._a_href
+                text = re.sub(r"\s+", " ", "".join(self._a_text)).strip() or self._a_href
                 href = self._abs_href(self._a_href)
                 if href and text:
-                    self.parts.append(f"[{text}]({href})")
-                    self.parts.append(" ")
+                    md = f"[{text}]({href})"
+                    if self._in_cell:
+                        self._cell_parts.append(md)
+                    else:
+                        self.parts.append(md)
+                        self.parts.append(" ")
                 elif text:
-                    self.parts.append(text)
+                    if self._in_cell:
+                        self._cell_parts.append(text)
+                    else:
+                        self.parts.append(text)
                 self._a_text = []
                 self._a_href = ""
             if self._in_a:
                 self._in_a -= 1
+        elif tag in ("td", "th"):
+            cell = re.sub(r"\s+", " ", "".join(self._cell_parts)).strip()
+            self._table_row.append(cell.replace("|", "\\|"))
+            self._in_cell = False
+            self._cell_parts = []
+        elif tag == "tr":
+            if self._table_row:
+                self.parts.append("| " + " | ".join(self._table_row) + " |\n")
+                if not self._table_header_emitted:
+                    self.parts.append("| " + " | ".join("---" for _ in self._table_row) + " |\n")
+                    self._table_header_emitted = True
+            self._table_row = []
+        elif tag == "table":
+            self.parts.append("\n")
 
     def handle_data(self, data: str) -> None:
         if self._skip:
@@ -149,6 +200,12 @@ class _MdConverter(HTMLParser):
             return
         if self._in_a:
             self._a_text.append(text)
+            return
+        if self._in_cell:
+            if self._cell_parts and not self._cell_parts[-1].endswith((" ", "[", "(", "/")):
+                if not text.startswith((" ", ",", ".", ";", ":", "!", "?", ")", "]")):
+                    self._cell_parts.append(" ")
+            self._cell_parts.append(text)
             return
         if self.parts and not self.parts[-1].endswith(("\n", " ", "[", "(", "*", ">")):
             if not text.startswith((" ", ",", ".", ";", ":", "!", "?", ")", "]")):
@@ -245,6 +302,27 @@ def extract_main_html(doc: str) -> str:
     return text
 
 
+def home_entity_stanza() -> str:
+    """Main-content extract strips the footer; homepage twin still needs NAP."""
+    c = load_contact()
+    email = c.get("email") or "merhaba@maltstudio.co"
+    phone = c.get("phone") or "05525826959"
+    ig = (c.get("instagram") or "").strip()
+    street = (c.get("addressStreet") or "Yavuz Mahallesi, Ruşen Güneş Sokak, D Blok No:2").strip()
+    postal = (c.get("addressPostalCode") or "59100").strip()
+    city = c.get("addressLocality") or "Süleymanpaşa"
+    region = c.get("addressRegion") or "Tekirdağ"
+    lines = [
+        "## İletişim",
+        f"- {email} · {phone} · +90 552 582 69 59",
+        f"- {street}, {postal} {city}/{region}, Türkiye",
+        "- Pazartesi–Cumartesi 09:00–19:00",
+    ]
+    if ig:
+        lines.append(f"- Instagram: {ig}")
+    return "\n".join(lines)
+
+
 def html_to_markdown(doc: str, page_url: str) -> str:
     title = title_tag(doc)
     desc = meta(doc, "description")
@@ -254,8 +332,9 @@ def html_to_markdown(doc: str, page_url: str) -> str:
     conv.feed(main)
     conv.close()
     body = conv.get_markdown()
+    is_home = page_url.rstrip("/") in ("", SITE)
+    entity = home_entity_stanza() if is_home else ""
 
-    # Drop duplicate leading H1 if title already covers it
     lines = [
         f"# {title}" if title else "# Malt Studio",
         "",
@@ -267,6 +346,7 @@ def html_to_markdown(doc: str, page_url: str) -> str:
         "",
         "---",
         "",
+        entity,
         body,
     ]
     text = "\n".join(lines)
@@ -376,6 +456,9 @@ def build_llms_txt(pages: list[tuple[str, str, str]]) -> str:
     phone = c.get("phone") or "05525826959"
     city = c.get("addressLocality") or "Süleymanpaşa"
     region = c.get("addressRegion") or "Tekirdağ"
+    ig = (c.get("instagram") or "").strip()
+    street = (c.get("addressStreet") or "Yavuz Mahallesi, Ruşen Güneş Sokak, D Blok No:2").strip()
+    postal = (c.get("addressPostalCode") or "59100").strip()
 
     by: dict[str, list[tuple[str, str, str]]] = {
         k: [] for k in ("home", "services", "local", "industries", "guides", "projects", "other")
@@ -407,8 +490,10 @@ def build_llms_txt(pages: list[tuple[str, str, str]]) -> str:
         f"(dizin URL’leri için `index.html.md`). Örnek: `{SITE}/hizmetler/tabela/index.html.md`.",
         "",
         "Önemli notlar:",
-        f"- İletişim: {email} · {phone}",
-        f"- Adres: {city}/{region}, Türkiye (Süleymanpaşa = Tekirdağ merkez alias)",
+        f"- İletişim: {email} · {phone} · +90 552 582 69 59",
+        f"- Adres: {street}, {postal} {city}/{region}, Türkiye",
+        "- Çalışma saatleri: Pazartesi–Cumartesi 09:00–19:00",
+        *([f"- Instagram: {ig}"] if ig else []),
         "- Teklif: keşif sonrası yazılı; internette sabit fiyat listesi yok",
         "- Uydurma şube/sertifika/metrik yazılmaz; kanıt proje sayfalarına bağlanır",
         f"- İnsan okuyan site haritası: {SITE}/sitemap.xml",

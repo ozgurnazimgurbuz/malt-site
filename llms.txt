@@ -6,8 +6,10 @@ Her kamu sayfasının temiz Markdown ikizi vardır: HTML URL’sinin sonuna `.md
 (dizin URL’leri için `index.html.md`). Örnek: `https://maltstudio.co/hizmetler/tabela/index.html.md`.
 
 Önemli notlar:
-- İletişim: merhaba@maltstudio.co · 05525826959
-- Adres: Süleymanpaşa/Tekirdağ, Türkiye (Süleymanpaşa = Tekirdağ merkez alias)
+- İletişim: merhaba@maltstudio.co · 05525826959 · +90 552 582 69 59
+- Adres: Yavuz Mahallesi, Ruşen Güneş Sokak, D Blok No:2, 59100 Süleymanpaşa/Tekirdağ, Türkiye
+- Çalışma saatleri: Pazartesi–Cumartesi 09:00–19:00
+- Instagram: https://www.instagram.com/maltstudio.co/
 - Teklif: keşif sonrası yazılı; internette sabit fiyat listesi yok
 - Uydurma şube/sertifika/metrik yazılmaz; kanıt proje sayfalarına bağlanır
 - İnsan okuyan site haritası: https://maltstudio.co/sitemap.xml
@@ -64,3 +66,7 @@ Her kamu sayfasının temiz Markdown ikizi vardır: HTML URL’sinin sonuna `.md
 - [Sitemap](https://maltstudio.co/sitemap.xml): Arama motorları için HTML URL listesi (Markdown ikizleri dahil değil)
 - [robots.txt](https://maltstudio.co/robots.txt): Tarama kuralları
 - [content.json](https://maltstudio.co/content.json): CMS kaynak içerik (JSON)
+
+## Diğer
+- [Gizlilik ve Kişisel Veriler | Malt Studio](https://maltstudio.co/gizlilik/index.html.md): Malt Studio sitesinde iletişim ve analitik kullanımı hakkında kısa bilgilendirme.
+- [Hakkımızda | Malt Studio](https://maltstudio.co/hakkimizda/index.html.md): Tekirdağ merkezli reklam ve tabela üreticisi. Üretim, montaj ve keşif.

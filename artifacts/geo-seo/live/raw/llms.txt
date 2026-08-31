@@ -1,0 +1,66 @@
+# Malt Studio
+> Tekirdağ merkezli reklam ajansı ve tabela üreticisi. Tabela, ışıklı tabela, kutu harf, totem, cam/araç giydirme, lightbox ve kurumsal kimlik — keşiften montaja.
+
+Bu dosya AI ajanları için küratörlü bir indekstir (https://llmstxt.org/).
+Her kamu sayfasının temiz Markdown ikizi vardır: HTML URL’sinin sonuna `.md` eklenir
+(dizin URL’leri için `index.html.md`). Örnek: `https://maltstudio.co/hizmetler/tabela/index.html.md`.
+
+Önemli notlar:
+- İletişim: merhaba@maltstudio.co · 05525826959
+- Adres: Süleymanpaşa/Tekirdağ, Türkiye (Süleymanpaşa = Tekirdağ merkez alias)
+- Teklif: keşif sonrası yazılı; internette sabit fiyat listesi yok
+- Uydurma şube/sertifika/metrik yazılmaz; kanıt proje sayfalarına bağlanır
+- İnsan okuyan site haritası: https://maltstudio.co/sitemap.xml
+- Tam birleşik Markdown: https://maltstudio.co/llms-full.txt
+
+## Ana sayfa
+- [Tekirdağ Reklam Ajansı ve Tabela | Malt Studio](https://maltstudio.co/index.html.md): Tekirdağ’da tabela, ışıklı tabela, kutu harf, dijital baskı ve araç giydirme. Keşif, tasarım, üretim ve montaj için M…
+
+## Hizmetler
+- [Hizmetler | Tabela, Lightbox, Ofis Branding ve Daha Fazlası](https://maltstudio.co/hizmetler/index.html.md): Malt Studio tüm hizmetleri: tabela, ışıklı tabela, kutu harf, totem, araç ve cam giydirme, lightbox, display, ofis br…
+- [İş Güvenliği Tabelaları | Uyarı ve Acil Çıkış](https://maltstudio.co/hizmetler/is-guvenligi-tabelalari/index.html.md): İSG tabelaları, uyarı levhaları, yangın çıkışı ve acil durum işaretleri.
+- [Ofis Branding | Resepsiyon ve Lobi Uygulamaları](https://maltstudio.co/hizmetler/ofis-branding/index.html.md): Ofis branding, resepsiyon, lobi ve kurumsal ofis grafikleri.
+- [Roll-Up, X-Banner ve POS Display](https://maltstudio.co/hizmetler/display-pos/index.html.md): Roll-up, X-banner, bayrak ve POS display sistemleri.
+- [Tekirdağ Araç Giydirme | Ticari Araç ve Filo | Malt Studio](https://maltstudio.co/hizmetler/arac-giydirme/index.html.md): Tekirdağ’da ticari araç ve filo giydirme. Baskı, uygulama ve keşif için teklif alın.
+- [Tekirdağ Cam Giydirme | One Way Vision ve Folyo | Malt Studio](https://maltstudio.co/hizmetler/cam-giydirme/index.html.md): Tekirdağ’da cam giydirme: one way vision, vitrin ve cam folyo uygulamaları.
+- [Tekirdağ Işıklı Tabela | LED Üretim ve Montaj | Malt Studio](https://maltstudio.co/hizmetler/isikli-tabela/index.html.md): Tekirdağ’da LED ışıklı tabela üretimi ve montajı. Gece görünür mağaza ve kurumsal tabelalar için keşif ve teklif.
+- [Tekirdağ Kutu Harf Tabela | Malt Studio](https://maltstudio.co/hizmetler/kutu-harf/index.html.md): Tekirdağ’da kutu harf tabela üretimi ve montajı. Pleksi, paslanmaz ve ışıklı kutu harf.
+- [Tekirdağ Lightbox Tabela | Işıklı Kutu ve Backlit | Malt Studio](https://maltstudio.co/hizmetler/lightbox/index.html.md): Lightbox, ışıklı kutu, SEG ve backlit frame sistemleri.
+- [Tekirdağ Tabela İmalatı ve Montajı | Malt Studio](https://maltstudio.co/hizmetler/tabela/index.html.md): Tekirdağ tabela üretimi: ışıklı ve ışıksız tabela, kutu harf, kompozit cephe ve mağaza tabelası. Keşif, imalat ve mon…
+- [Tekirdağ Totem Tabela | Üretim ve Montaj | Malt Studio](https://maltstudio.co/hizmetler/totem/index.html.md): Tekirdağ’da totem tabela üretimi ve montajı. Tesis girişi ve yol kenarı sistemleri.
+
+## Tekirdağ / yerel
+- [Malt Studio Tekirdağ Atölye ve İletişim](https://maltstudio.co/bolgeler/tekirdag/index.html.md): Malt Studio’nun Tekirdağ Süleymanpaşa iletişim, çalışma saatleri, hizmet alanları ve keşif bilgileri. Telefon, WhatsA…
+
+## Sektörler
+- [Sektörler | Fabrika, Restoran, Sağlık, Plaza](https://maltstudio.co/sektorler/index.html.md): Sektörel tabela ve görünürlük çözümleri.
+- [Fabrika & OSB Tabela ve Görünürlük Çözümleri](https://maltstudio.co/sektorler/fabrika-osb/index.html.md): Fabrika & OSB sektörü için tabela ve görünürlük. Malt Studio.
+- [İnşaat & Şantiye Tabela ve Görünürlük Çözümleri](https://maltstudio.co/sektorler/insaat-santiye/index.html.md): İnşaat & Şantiye sektörü için tabela ve görünürlük. Malt Studio.
+- [Perakende Tabela ve Görünürlük Çözümleri](https://maltstudio.co/sektorler/perakende/index.html.md): Perakende sektörü için tabela ve görünürlük. Malt Studio.
+- [Plaza & Ofis Tabela ve Görünürlük Çözümleri](https://maltstudio.co/sektorler/plaza-ofis/index.html.md): Plaza & Ofis sektörü için tabela ve görünürlük. Malt Studio.
+- [Restoran & Cafe Tabela ve Görünürlük Çözümleri](https://maltstudio.co/sektorler/restoran-cafe/index.html.md): Restoran & Cafe sektörü için tabela ve görünürlük. Malt Studio.
+- [Sağlık Tabela ve Görünürlük Çözümleri](https://maltstudio.co/sektorler/saglik/index.html.md): Sağlık sektörü için tabela ve görünürlük. Malt Studio.
+
+## Bilgi rehberleri
+- [Bilgi Merkezi | Tabela ve Reklam Rehberleri](https://maltstudio.co/bilgi/index.html.md): Tabela çeşitleri, karşılaştırmalar ve uygulama rehberleri.
+- [Araç Giydirme Rehberi: Süreç, Ömür, Filo](https://maltstudio.co/bilgi/arac-giydirme-rehberi/index.html.md): Araç Giydirme Rehberi: Süreç, Ömür, Filo — eğitici rehber. Malt Studio bilgi merkezi.
+- [Işıklı Tabela mı Işıksız mı?](https://maltstudio.co/bilgi/isikli-mi-isiksiz-mi/index.html.md): Işıklı Tabela mı Işıksız mı? — eğitici rehber. Malt Studio bilgi merkezi.
+- [Kutu Harf Malzemeleri: Pleksi mi Paslanmaz mı?](https://maltstudio.co/bilgi/kutu-harf-malzemeler/index.html.md): Kutu Harf Malzemeleri: Pleksi mi Paslanmaz mı? — eğitici rehber. Malt Studio bilgi merkezi.
+- [One Way Vision Nedir?](https://maltstudio.co/bilgi/one-way-vision-nedir/index.html.md): One Way Vision Nedir? — eğitici rehber. Malt Studio bilgi merkezi.
+- [Tabela Fiyatını Neler Etkiler?](https://maltstudio.co/bilgi/tabela-fiyati/index.html.md): Tabela Fiyatını Neler Etkiler? — eğitici rehber. Malt Studio bilgi merkezi.
+- [Tabela Çeşitleri: Hangisi Ne İşe Yarar?](https://maltstudio.co/bilgi/tabela-cesitleri/index.html.md): Tabela Çeşitleri: Hangisi Ne İşe Yarar? — eğitici rehber. Malt Studio bilgi merkezi.
+- [Totem Tabela Seçim Rehberi](https://maltstudio.co/bilgi/totem-secim-rehberi/index.html.md): Totem Tabela Seçim Rehberi — eğitici rehber. Malt Studio bilgi merkezi.
+
+## Projeler
+- [Projeler | Malt Studio İş Örnekleri](https://maltstudio.co/projeler/index.html.md): Tabela, ışıklı tabela, kutu harf ve giydirme proje örnekleri.
+- [Anka Anaokulu Projesi | Malt Studio](https://maltstudio.co/projeler/anka/index.html.md): Anka Anaokulu için Malt Studio tarafından gerçekleştirilen uygulama projesi. Proje fotoğraflarını ve ilgili hizmet de…
+- [Köşem Döner Projesi | Malt Studio](https://maltstudio.co/projeler/kosem-doner/index.html.md): Köşem Döner için Malt Studio tarafından gerçekleştirilen uygulama projesi. Proje fotoğraflarını ve ilgili hizmet deta…
+- [OFİSO Projesi | Malt Studio](https://maltstudio.co/projeler/ofiso/index.html.md): OFİSO için Malt Studio tarafından gerçekleştirilen uygulama projesi. Proje fotoğraflarını ve ilgili hizmet detayların…
+- [Okka Tarım Projesi | Malt Studio](https://maltstudio.co/projeler/okka-tarim/index.html.md): Okka Tarım için Malt Studio tarafından gerçekleştirilen uygulama projesi. Proje fotoğraflarını ve ilgili hizmet detay…
+- [Pembe Pasta Evi Projesi | Malt Studio](https://maltstudio.co/projeler/pembe-pasta-evi/index.html.md): Pembe Pasta Evi için Malt Studio tarafından gerçekleştirilen uygulama projesi. Proje fotoğraflarını ve ilgili hizmet…
+- [Yamanlar Ekspertiz Projesi | Malt Studio](https://maltstudio.co/projeler/yamanlar-ekspertiz/index.html.md): Yamanlar Ekspertiz için Malt Studio tarafından gerçekleştirilen uygulama projesi. Proje fotoğraflarını ve ilgili hizm…
+
+## Optional
+- [Sitemap](https://maltstudio.co/sitemap.xml): Arama motorları için HTML URL listesi (Markdown ikizleri dahil değil)
+- [robots.txt](https://maltstudio.co/robots.txt): Tarama kuralları
+- [content.json](https://maltstudio.co/content.json): CMS kaynak içerik (JSON)

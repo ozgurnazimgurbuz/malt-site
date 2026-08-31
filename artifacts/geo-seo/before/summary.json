@@ -1,0 +1,407 @@
+{
+  "phase": "BEFORE",
+  "captured_at": "2026-08-30T21:15:34Z",
+  "git": {
+    "branch": "main",
+    "sha": "eec81da4a47dc77005eb64bab3cb2c63c931a3c2"
+  },
+  "env": {
+    "python": "3.9.6",
+    "python_full": "3.9.6 (default, May 22 2026, 11:13:45) \n[Clang 21.0.0 (clang-2100.1.1.101)]",
+    "Pillow": "11.3.0",
+    "lighthouse": "not-installed",
+    "chrome_binary": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
+  },
+  "config_hash": "66d5affe7c58723e4ac655a1f84bb03a09462311fe3575d311d58fc7897921d5",
+  "url_count": 35,
+  "urls_missing_html": [],
+  "geo_mean": 2.333,
+  "geo_by_url": {
+    "https://maltstudio.co/": 2.222,
+    "https://maltstudio.co/hizmetler/tabela/": 2.556,
+    "https://maltstudio.co/bilgi/tabela-cesitleri/": 2.111,
+    "https://maltstudio.co/bolgeler/tekirdag/": 2.444,
+    "https://maltstudio.co/projeler/ofiso/": 2.333
+  },
+  "failing_checks": [
+    {
+      "finding_id": "SCHEMA-001",
+      "metric": "home_ld_has_website",
+      "value": false,
+      "pass": false,
+      "detail": "types=['LocalBusiness', 'ProfessionalService']"
+    },
+    {
+      "finding_id": "SCHEMA-001",
+      "metric": "home_ld_geo",
+      "value": false,
+      "pass": false,
+      "detail": "geo on #business"
+    },
+    {
+      "finding_id": "SCHEMA-001",
+      "metric": "home_ld_hours",
+      "value": false,
+      "pass": false,
+      "detail": ""
+    },
+    {
+      "finding_id": "SCHEMA-001",
+      "metric": "home_ld_logo",
+      "value": false,
+      "pass": false,
+      "detail": ""
+    },
+    {
+      "finding_id": "SCHEMA-001",
+      "metric": "home_ld_knowsAbout_ge3",
+      "value": 0,
+      "pass": false,
+      "detail": "[]"
+    },
+    {
+      "finding_id": "LOCAL-002",
+      "metric": "home_ld_geo_hours",
+      "value": {
+        "geo": false,
+        "hours": false
+      },
+      "pass": false,
+      "detail": "same patch as SCHEMA-001"
+    },
+    {
+      "finding_id": "SCHEMA-002",
+      "metric": "website_node_defined_on_home",
+      "value": false,
+      "pass": false,
+      "detail": "inner refs require homepage definition"
+    },
+    {
+      "finding_id": "SCHEMA-003",
+      "metric": "faqpage_parity_home",
+      "value": {
+        "html_faq": 4,
+        "faqpage": false
+      },
+      "pass": false,
+      "detail": "FAQPage must match visible details"
+    },
+    {
+      "finding_id": "SCHEMA-003",
+      "metric": "faqpage_parity_tabela",
+      "value": {
+        "html_faq": 8,
+        "faqpage": false
+      },
+      "pass": false,
+      "detail": ""
+    },
+    {
+      "finding_id": "SCHEMA-004",
+      "metric": "guides_sectors_have_jsonld",
+      "value": false,
+      "pass": false,
+      "detail": [
+        "https://maltstudio.co/bilgi/",
+        "https://maltstudio.co/bilgi/tabela-cesitleri/",
+        "https://maltstudio.co/sektorler/",
+        "https://maltstudio.co/sektorler/fabrika-osb/",
+        "https://maltstudio.co/sektorler/restoran-cafe/",
+        "https://maltstudio.co/sektorler/saglik/",
+        "https://maltstudio.co/sektorler/plaza-ofis/",
+        "https://maltstudio.co/sektorler/insaat-santiye/",
+        "https://maltstudio.co/sektorler/perakende/",
+        "https://maltstudio.co/bilgi/isikli-mi-isiksiz-mi/",
+        "https://maltstudio.co/bilgi/kutu-harf-malzemeler/",
+        "https://maltstudio.co/bilgi/one-way-vision-nedir/",
+        "https://maltstudio.co/bilgi/arac-giydirme-rehberi/",
+        "https://maltstudio.co/bilgi/tabela-fiyati/",
+        "https://maltstudio.co/bilgi/totem-secim-rehberi/"
+      ]
+    },
+    {
+      "finding_id": "SCHEMA-005",
+      "metric": "sameAs",
+      "value": [
+        "https://www.instagram.com/maltstudio.co/"
+      ],
+      "pass": false,
+      "detail": "Instagram-only expected BEFORE; LinkedIn empty in CMS"
+    },
+    {
+      "finding_id": "TECHSEO-001",
+      "metric": "live_robots_blocks_ai",
+      "value": [
+        "GPTBot",
+        "ClaudeBot",
+        "Google-Extended"
+      ],
+      "pass": false,
+      "detail": "pass = GPTBot/ClaudeBot/Google-Extended not Disallow / on live"
+    },
+    {
+      "finding_id": "TECHSEO-002",
+      "metric": "sitemap_all_lastmod",
+      "value": 15,
+      "pass": false,
+      "detail": [
+        "https://maltstudio.co/sektorler/",
+        "https://maltstudio.co/bilgi/",
+        "https://maltstudio.co/sektorler/fabrika-osb/",
+        "https://maltstudio.co/sektorler/restoran-cafe/",
+        "https://maltstudio.co/sektorler/saglik/",
+        "https://maltstudio.co/sektorler/plaza-ofis/",
+        "https://maltstudio.co/sektorler/insaat-santiye/",
+        "https://maltstudio.co/sektorler/perakende/",
+        "https://maltstudio.co/bilgi/tabela-cesitleri/",
+        "https://maltstudio.co/bilgi/isikli-mi-isiksiz-mi/",
+        "https://maltstudio.co/bilgi/kutu-harf-malzemeler/",
+        "https://maltstudio.co/bilgi/one-way-vision-nedir/",
+        "https://maltstudio.co/bilgi/arac-giydirme-rehberi/",
+        "https://maltstudio.co/bilgi/tabela-fiyati/",
+        "https://maltstudio.co/bilgi/totem-secim-rehberi/"
+      ]
+    },
+    {
+      "finding_id": "TECHSEO-005",
+      "metric": "gsc_meta",
+      "value": "",
+      "pass": false,
+      "detail": "empty expected BEFORE"
+    },
+    {
+      "finding_id": "SEO-001",
+      "metric": "og_image_alt_not_stale",
+      "value": "Malt Studio — Marka Stratejisi ve Yaratıcı Ajans",
+      "pass": false,
+      "detail": "Malt Studio — Marka Stratejisi ve Yaratıcı Ajans"
+    },
+    {
+      "finding_id": "SEO-002",
+      "metric": "h2_br_space_sektorler",
+      "value": true,
+      "pass": false,
+      "detail": "Çalıştığımız<br>Sektörler concat"
+    },
+    {
+      "finding_id": "SEO-002",
+      "metric": "h2_br_space_bilgi",
+      "value": true,
+      "pass": false,
+      "detail": ""
+    },
+    {
+      "finding_id": "PERF-002",
+      "metric": "first_work_img_lazy",
+      "value": true,
+      "pass": false,
+      "detail": "first work-item img loading attr"
+    },
+    {
+      "finding_id": "CONTENT-001",
+      "metric": "project_wordcount_min",
+      "value": 95,
+      "pass": false,
+      "detail": {
+        "https://maltstudio.co/projeler/ofiso/": 98,
+        "https://maltstudio.co/projeler/yamanlar-ekspertiz/": 95,
+        "https://maltstudio.co/projeler/anka/": 101,
+        "https://maltstudio.co/projeler/kosem-doner/": 101,
+        "https://maltstudio.co/projeler/pembe-pasta-evi/": 99,
+        "https://maltstudio.co/projeler/okka-tarim/": 101
+      }
+    },
+    {
+      "finding_id": "CONTENT-002",
+      "metric": "eeat_clone_pages",
+      "value": 27,
+      "pass": false,
+      "detail": [
+        "https://maltstudio.co/hizmetler/",
+        "https://maltstudio.co/hizmetler/tabela/",
+        "https://maltstudio.co/projeler/",
+        "https://maltstudio.co/bilgi/",
+        "https://maltstudio.co/bilgi/tabela-cesitleri/",
+        "https://maltstudio.co/sektorler/",
+        "https://maltstudio.co/sektorler/fabrika-osb/",
+        "https://maltstudio.co/hizmetler/isikli-tabela/",
+        "https://maltstudio.co/hizmetler/kutu-harf/",
+        "https://maltstudio.co/hizmetler/totem/",
+        "https://maltstudio.co/hizmetler/arac-giydirme/",
+        "https://maltstudio.co/hizmetler/cam-giydirme/",
+        "https://maltstudio.co/hizmetler/lightbox/",
+        "https://maltstudio.co/hizmetler/display-pos/",
+        "https://maltstudio.co/hizmetler/ofis-branding/",
+        "https://maltstudio.co/hizmetler/is-guvenligi-tabelalari/",
+        "https://maltstudio.co/sektorler/restoran-cafe/",
+        "https://maltstudio.co/sektorler/saglik/",
+        "https://maltstudio.co/sektorler/plaza-ofis/",
+        "https://maltstudio.co/sektorler/insaat-santiye/",
+        "https://maltstudio.co/sektorler/perakende/",
+        "https://maltstudio.co/bilgi/isikli-mi-isiksiz-mi/",
+        "https://maltstudio.co/bilgi/kutu-harf-malzemeler/",
+        "https://maltstudio.co/bilgi/one-way-vision-nedir/",
+        "https://maltstudio.co/bilgi/arac-giydirme-rehberi/",
+        "https://maltstudio.co/bilgi/tabela-fiyati/",
+        "https://maltstudio.co/bilgi/totem-secim-rehberi/"
+      ]
+    },
+    {
+      "finding_id": "CONTENT-003",
+      "metric": "guide_passage_80_160",
+      "value": 0,
+      "pass": false,
+      "detail": "max_p=53"
+    },
+    {
+      "finding_id": "CONTENT-003",
+      "metric": "comparison_table",
+      "value": 0,
+      "pass": false,
+      "detail": ""
+    },
+    {
+      "finding_id": "CONTENT-004",
+      "metric": "about_page",
+      "value": false,
+      "pass": false,
+      "detail": "absence is trust gap, not crawl bug"
+    },
+    {
+      "finding_id": "CONTENT-005",
+      "metric": "kvkk_or_privacy",
+      "value": false,
+      "pass": false,
+      "detail": []
+    },
+    {
+      "finding_id": "GEO-002",
+      "metric": "md_twin_ratio_home",
+      "value": 0.47738693467336685,
+      "pass": false,
+      "detail": "md=285 html=597"
+    },
+    {
+      "finding_id": "LOCAL-001",
+      "metric": "hasMap_or_gbp",
+      "value": false,
+      "pass": false,
+      "detail": "EXTERNAL GBP not measured here"
+    }
+  ],
+  "passing_checks": [
+    {
+      "finding_id": "SCHEMA-002",
+      "metric": "inner_isPartOf_website_id",
+      "value": true,
+      "pass": true,
+      "detail": "dangling=['https://maltstudio.co/#business', 'https://maltstudio.co/#website']"
+    },
+    {
+      "finding_id": "TECHSEO-001",
+      "metric": "git_robots_keeps_admin_proje",
+      "value": {
+        "admin": true,
+        "proje": true
+      },
+      "pass": true,
+      "detail": "git robots must keep private paths"
+    },
+    {
+      "finding_id": "TECHSEO-002",
+      "metric": "sitemap_url_count",
+      "value": 35,
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "finding_id": "SEO-003",
+      "metric": "iletisim_not_required",
+      "value": true,
+      "pass": true,
+      "detail": "canonical contact is /bolgeler/tekirdag/"
+    },
+    {
+      "finding_id": "PERF-001",
+      "metric": "picture_webp_home",
+      "value": true,
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "finding_id": "GEO-001",
+      "metric": "llms_txt_exists",
+      "value": true,
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "finding_id": "BRAND-001",
+      "metric": "cms_linkedin_empty",
+      "value": "",
+      "pass": true,
+      "detail": "do not add Jakarta slug"
+    },
+    {
+      "finding_id": "SEO-META",
+      "metric": "duplicate_titles",
+      "value": [],
+      "pass": true,
+      "detail": []
+    },
+    {
+      "finding_id": "SEO-META",
+      "metric": "duplicate_descriptions",
+      "value": [],
+      "pass": true,
+      "detail": []
+    },
+    {
+      "finding_id": "TECHSEO-META",
+      "metric": "title_home_nonempty",
+      "value": 46,
+      "pass": true,
+      "detail": "Tekirdağ Reklam Ajansı ve Tabela | Malt Studio"
+    },
+    {
+      "finding_id": "TECHSEO-META",
+      "metric": "h1_count_home",
+      "value": 1,
+      "pass": true,
+      "detail": [
+        "Tekirdağ Reklam Ajansı ve Tabela Üreticisi"
+      ]
+    },
+    {
+      "finding_id": "TECHSEO-META",
+      "metric": "canonical_home_self",
+      "value": "https://maltstudio.co/",
+      "pass": true,
+      "detail": "https://maltstudio.co/"
+    },
+    {
+      "finding_id": "SCHEMA-PARSE",
+      "metric": "jsonld_parse_ok",
+      "value": true,
+      "pass": true,
+      "detail": []
+    }
+  ],
+  "unscored_external": [
+    {
+      "finding_id": "EXTERNAL-001",
+      "metric": "serp_not_collected",
+      "value": null,
+      "pass": null,
+      "detail": "EXTERNAL — no local rank claim"
+    }
+  ],
+  "sitemap_url_count": 35,
+  "jsonld_parse_ok": true,
+  "live_robots_ok": true,
+  "live_bots_blocked_agents": [
+    "GPTBot",
+    "ClaudeBot",
+    "Google-Extended"
+  ]
+}

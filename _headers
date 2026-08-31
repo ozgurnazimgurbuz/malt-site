@@ -3,6 +3,7 @@
   X-Content-Type-Options: nosniff
   Referrer-Policy: strict-origin-when-cross-origin
   Permissions-Policy: geolocation=(), microphone=(), camera=()
+  Strict-Transport-Security: max-age=31536000
   Cache-Control: public, max-age=0, must-revalidate
 
 /images/*
@@ -15,11 +16,21 @@
 /assets/*.css
   Cache-Control: public, max-age=604800
 
+/assets/*.js
+  Cache-Control: public, max-age=604800
+
 /content.json
   Cache-Control: public, max-age=0, must-revalidate
 
 /admin/*
   Cache-Control: public, max-age=0, must-revalidate
+  X-Robots-Tag: noindex
+
+/proje/*
+  Cache-Control: public, max-age=0, must-revalidate
+  X-Robots-Tag: noindex, nofollow
+
+/404.html
   X-Robots-Tag: noindex
 
 /llms.txt
@@ -33,7 +44,9 @@
 /*.md
   Content-Type: text/markdown; charset=utf-8
   Cache-Control: public, max-age=0, must-revalidate
+  X-Robots-Tag: noindex
 
 /**/*.md
   Content-Type: text/markdown; charset=utf-8
   Cache-Control: public, max-age=0, must-revalidate
+  X-Robots-Tag: noindex

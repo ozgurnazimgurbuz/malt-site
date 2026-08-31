@@ -93,87 +93,38 @@ m² fiyatı tek başına yanıltıcıdır. Keşifsiz rakam bağlayıcı değildi
 
 Faktör listesi teklif değildir. Keşifsiz rakam bağlayıcı sayılmaz. En ucuz = en doğru değildir.
 
-## Üretim, deneyim ve yerel uzmanlık
-
-Malt Studio Tekirdağ merkezli çalışır. Bu rehber içeriği; atölye üretimi, saha keşfi ve montajın aynı operasyonel hatta planlandığı gerçek iş modeline dayanır. Şube sayısı, uydurma sertifika, sahte yorum veya proje metriği eklenmez.
-
-- **Deneyim:** Keşif notları (ölçü, yüzey, erişim, işletme saati) teklif ve üretimi şekillendirir.
-- **Üretim:** Ölçüye özel imalat; stok tabela mantığı yerine yüzeye ve markaya göre üretim.
-- **Kalite süreci:** Atölye kontrolü → saha hizalama/sabitleme → teslim kontrolü.
-- **Yerel uzmanlık:** Tekirdağ üssünden merkez ve çevre ilçe işleri planlanır; Süleymanpaşa dahil merkez ve çevre ilçelere hizmet verilir.
-- **Kanıt:** Gerçek fotoğraflar proje sayfalarına bağlanır; stok görsel kullanılmaz.
-
 [WhatsApp ile Teklif](https://wa.me/905525826959?text=Tabela%20hakk%C4%B1nda%20bilgi) [Teklif](https://maltstudio.co/#teklif) [Ara](tel:+905525826959)
 
 ## İlgili hizmetler
-
-###
-
-[TabelaTabela hizmeti.Hizmet](https://maltstudio.co/hizmetler/tabela/)
+[Tabela Tabela hizmeti. Hizmet](https://maltstudio.co/hizmetler/tabela/)
 
 ## İlgili rehberler
+[Tabela Çeşitleri: Hangisi Ne İşe Yarar? İlgili rehber. Bilgi](https://maltstudio.co/bilgi/tabela-cesitleri/) [Işıklı Tabela mı Işıksız mı? İlgili rehber. Bilgi](https://maltstudio.co/bilgi/isikli-mi-isiksiz-mi/) [Kutu Harf Malzemeleri: Pleksi mi Paslanmaz mı? İlgili rehber. Bilgi](https://maltstudio.co/bilgi/kutu-harf-malzemeler/)
 
-###
+## İlgili projeler
+[OFİSO Tamamlanan proje örneği. Proje](https://maltstudio.co/projeler/ofiso/) [Yamanlar Ekspertiz Tamamlanan proje örneği. Proje](https://maltstudio.co/projeler/yamanlar-ekspertiz/) [Pembe Pasta Evi Tamamlanan proje örneği. Proje](https://maltstudio.co/projeler/pembe-pasta-evi/) [Anka Anaokulu Tamamlanan proje örneği. Proje](https://maltstudio.co/projeler/anka/)
 
-[Tabela Çeşitleri: Hangisi Ne İşe Yarar?İlgili rehber.Bilgi](https://maltstudio.co/bilgi/tabela-cesitleri/)
-
-###
-
-[Işıklı Tabela mı Işıksız mı?İlgili rehber.Bilgi](https://maltstudio.co/bilgi/isikli-mi-isiksiz-mi/)
-
-###
-
-[Kutu Harf Malzemeleri: Pleksi mi Paslanmaz mı?İlgili rehber.Bilgi](https://maltstudio.co/bilgi/kutu-harf-malzemeler/)
+[Tüm projeler →](https://maltstudio.co/projeler/)
 
 ## İlgili sektörler
-
-###
-
-[PerakendeDikey bağlam.Sektör](https://maltstudio.co/sektorler/perakende/)
-
-###
-
-[Fabrika & OSBDikey bağlam.Sektör](https://maltstudio.co/sektorler/fabrika-osb/)
+[Perakende Dikey bağlam. Sektör](https://maltstudio.co/sektorler/perakende/) [Fabrika & OSB Dikey bağlam. Sektör](https://maltstudio.co/sektorler/fabrika-osb/)
 
 ## Keşfet
-
-###
-
-[HizmetlerTüm hizmetlerimize göz atın.Keşif](https://maltstudio.co/hizmetler/)
-
-###
-
-[BilgiRehberler ve karar içerikleri.Keşif](https://maltstudio.co/bilgi/)
-
-###
-
-[ProjelerTamamladığımız işlerden örnekler.Keşif](https://maltstudio.co/projeler/)
-
-###
-
-[SektörlerSektöre özel çözümler.Keşif](https://maltstudio.co/sektorler/)
-
-###
-
-[TekirdağTekirdağ yerel hizmet rehberi.Keşif](https://maltstudio.co/bolgeler/tekirdag/)
-
-###
-
-[Ana sayfaMalt Studio ana sayfa.Keşif](https://maltstudio.co/)
+[Hizmetler Tüm hizmetlerimize göz atın. Keşif](https://maltstudio.co/hizmetler/) [Bilgi Rehberler ve karar içerikleri. Keşif](https://maltstudio.co/bilgi/) [Projeler Tamamladığımız işlerden örnekler. Keşif](https://maltstudio.co/projeler/) [Sektörler Sektöre özel çözümler. Keşif](https://maltstudio.co/sektorler/) [Tekirdağ Tekirdağ yerel hizmet rehberi. Keşif](https://maltstudio.co/bolgeler/tekirdag/) [Ana sayfa Malt Studio ana sayfa. Keşif](https://maltstudio.co/)
 
 ## SSS
 Sabit liste var mı?
 
-Hayır.
+Hayır. Sabit internet fiyat listesi yayınlanmaz.
 Bu sayfa teklif midir?
 
-Hayır; eğitimdir.
+Hayır; fiyat eğitimidir. Net rakam keşif sonrası yazılı verilir.
 Teklif nasıl?
 
-Keşif sonrası yazılı iletişim.
+Ölçü, fotoğraf ve gece ihtiyacı ile WhatsApp veya telefon. Keşif sonrası yazılı teklif.
 İlgili hizmet nerede?
 
-/hizmetler/tabela/ sayfasında.
+Üretim ve teklif [Tabela](https://maltstudio.co/hizmetler/tabela/)  sayfasındadır.
 Daha fazla rehber?
 
-/bilgi/ hub’ında.
+[Bilgi merkezi](https://maltstudio.co/bilgi/)  diğer karşılaştırmaları listeler.

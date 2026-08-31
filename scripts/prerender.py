@@ -160,12 +160,8 @@ def build_services(c: dict) -> str:
     return "".join(cards)
 
 
-def portfolio_image_markup(image: str, alt: str) -> str:
-    """Card image with WebP sibling when present (optimize_uploads.py).
-
-    sizes matches .work-grid breakpoints in index.html (1 / 2 / 3 columns).
-    width/height keep 4:5 aspect for CLS; CSS object-fit:cover crops.
-    """
+def portfolio_image_markup(image: str, alt: str, *, lazy: bool = True) -> str:
+    """Card image with WebP sibling when present (optimize_uploads.py)."""
     src = esc(image)
     webp = ""
     lower = image.lower()
@@ -175,12 +171,14 @@ def portfolio_image_markup(image: str, alt: str) -> str:
             if (ROOT / candidate.lstrip("/")).is_file():
                 webp = esc(candidate)
             break
-    # ~full width mobile, half tablet, third desktop — 1200w source covers 2x.
     sizes = "(max-width:560px) 100vw, (max-width:900px) 50vw, 33vw"
+    loading = ' loading="lazy"' if lazy else ""
+    prio = ' fetchpriority="high"' if not lazy else ""
+    decoding = ' decoding="async"' if lazy else ""
     img = (
         f'<img class="work-swatch" src="{src}" alt="{alt}" '
-        f'width="800" height="1000" sizes="{sizes}" '
-        f'loading="lazy" decoding="async">'
+        f'width="800" height="1000" sizes="{sizes}"'
+        f"{loading}{prio}{decoding}>"
     )
     if webp:
         return (
@@ -203,7 +201,7 @@ def build_portfolio(c: dict) -> str:
         cat_attr = f' data-cat="{category}"' if category else ""
         if image:
             alt = esc(f'{p.get("name") or ""} uygulama projesi')
-            swatch = portfolio_image_markup(image, alt)
+            swatch = portfolio_image_markup(image, alt, lazy=len(items) > 0)
         else:
             color1 = esc(p.get("color1") or "#B08D72")
             color2 = esc(p.get("color2") or "#1a1a1a")
@@ -242,7 +240,7 @@ def services_title_html(title: str) -> str:
     title = title or ""
     if title.count(" ") == 1:
         cut = title.find(" ")
-        return esc(title[:cut]) + "<br>" + esc(title[cut + 1 :])
+        return esc(title[:cut]) + "<br> " + esc(title[cut + 1 :])
     return esc(title)
 
 
@@ -274,17 +272,68 @@ def replace_hero_title(doc: str, c: dict) -> str:
     )
 
 
-def build_json_ld(c: dict) -> dict:
-    """Single LocalBusiness identity for the homepage. No duplicate Organization."""
+def extract_faq_pairs(html: str, scope_class: str = "home-faq") -> list[tuple[str, str]]:
+    block_m = re.search(
+        rf'<div class="{re.escape(scope_class)}"[^>]*>(.*?)</div>',
+        html,
+        re.I | re.S,
+    )
+    chunk = block_m.group(1) if block_m else html
+    return [
+        (m.group(1).strip(), m.group(2).strip())
+        for m in re.finditer(
+            r"<details>\s*<summary>(.*?)</summary>\s*<p>(.*?)</p>\s*</details>",
+            chunk,
+            re.I | re.S,
+        )
+    ]
+
+
+def _knows_about(c: dict) -> list[str]:
+    names: list[str] = []
+    for s in c.get("services") or []:
+        t = (s.get("title") or "").strip() if isinstance(s, dict) else str(s).strip()
+        if t and t not in names:
+            names.append(t)
+    return names
+
+
+def _opening_hours(c: dict) -> list[dict]:
+    out = []
+    for h in c.get("openingHours") or []:
+        if not isinstance(h, dict):
+            continue
+        days = [d for d in re.split(r"[,\s]+", str(h.get("days") or "")) if d]
+        if days and h.get("opens") and h.get("closes"):
+            out.append(
+                {
+                    "@type": "OpeningHoursSpecification",
+                    "dayOfWeek": days,
+                    "opens": h["opens"],
+                    "closes": h["closes"],
+                }
+            )
+    return out
+
+
+def build_json_ld(c: dict, faqs: list[tuple[str, str]] | None = None) -> dict:
+    """Authoritative homepage graph. One LocalBusiness @id; no client-JS duplicate."""
     site = (c.get("siteUrl") or "").rstrip("/")
     if not site or not c.get("siteName"):
         return {}
     telephone = to_e164(c.get("phone", ""), c.get("whatsappNumber", ""))
     same_as = [
         u
-        for u in [c.get("instagram")]
+        for u in (c.get("instagram"), c.get("linkedin"), c.get("youtube"), c.get("behance"))
         if u and is_profile_url(u)
     ]
+    lat, lng = c.get("geoLatitude"), c.get("geoLongitude")
+    geo = {"@type": "GeoCoordinates", "latitude": lat, "longitude": lng} if lat and lng else None
+    logo_url = abs_url(site, c.get("logo") or "/images/icon-512.png")
+    description = c.get("seoDescription") or c.get("footerAbout") or ""
+    maps = (c.get("googleMapsUrl") or "").strip()
+    if maps and not maps.startswith("https://"):
+        maps = ""
     biz = prune(
         {
             "@type": ["LocalBusiness", "ProfessionalService"],
@@ -293,6 +342,7 @@ def build_json_ld(c: dict) -> dict:
             "url": site + "/",
             "telephone": telephone,
             "email": c.get("email"),
+            "description": description or None,
             "address": prune(
                 {
                     "@type": "PostalAddress",
@@ -303,6 +353,11 @@ def build_json_ld(c: dict) -> dict:
                     "addressCountry": c.get("addressCountry") or "TR",
                 }
             ),
+            "geo": geo,
+            "openingHoursSpecification": _opening_hours(c) or None,
+            "logo": logo_url or None,
+            "image": abs_url(site, c.get("seoOgImage") or "/images/og.jpg") or None,
+            "hasMap": maps or None,
             "areaServed": [
                 {"@type": "City", "name": "Tekirdağ"},
                 {
@@ -310,10 +365,43 @@ def build_json_ld(c: dict) -> dict:
                     "name": c.get("addressLocality") or "Süleymanpaşa",
                 },
             ],
+            "knowsAbout": _knows_about(c) or None,
             "sameAs": same_as or None,
+            "priceRange": c.get("priceRange") or None,
         }
     )
-    return {"@context": "https://schema.org", "@graph": [g for g in [biz] if g]}
+    website = prune(
+        {
+            "@type": "WebSite",
+            "@id": site + "/#website",
+            "url": site + "/",
+            "name": c.get("siteName"),
+            "description": description or None,
+            "publisher": {"@id": site + "/#business"},
+            "inLanguage": c.get("defaultLocale") or "tr-TR",
+        }
+    )
+    webpage = prune(
+        {
+            "@type": "WebPage",
+            "@id": site + "/#webpage",
+            "url": site + "/",
+            "name": c.get("seoTitle") or c.get("siteName"),
+            "description": description or None,
+            "isPartOf": {"@id": site + "/#website"},
+            "about": {"@id": site + "/#business"},
+            "inLanguage": c.get("defaultLocale") or "tr-TR",
+        }
+    )
+    graph = [g for g in (biz, website, webpage) if g]
+    if faqs:
+        sys.path.insert(0, str(ROOT / "scripts"))
+        from lib_site import faq_ld  # noqa: WPS433
+
+        faq_node = faq_ld(site + "/", faqs)
+        if faq_node and faq_node.get("mainEntity"):
+            graph.append(faq_node)
+    return {"@context": "https://schema.org", "@graph": graph}
 
 
 def set_meta(doc: str, attr: str, key: str, content: str) -> str:
@@ -466,6 +554,10 @@ def main() -> int:
     doc = set_title(doc, c.get("seoTitle") or "")
     doc = set_meta(doc, "name", "description", c.get("seoDescription") or "")
     doc = set_meta(doc, "name", "keywords", c.get("seoKeywords") or "")
+    # Token lives in content.json googleSearchConsoleVerification. Empty → no tag.
+    gsc = (c.get("googleSearchConsoleVerification") or "").strip()
+    if gsc:
+        doc = set_meta(doc, "name", "google-site-verification", gsc)
     doc = set_meta(doc, "property", "og:title", c.get("seoTitle") or "")
     doc = set_meta(doc, "property", "og:description", c.get("seoDescription") or "")
     doc = set_meta(doc, "property", "og:url", c.get("canonicalUrl") or "")
@@ -477,10 +569,15 @@ def main() -> int:
         doc = set_meta(doc, "name", "twitter:image", og)
     doc = set_meta(doc, "name", "twitter:title", c.get("seoTitle") or "")
     doc = set_meta(doc, "name", "twitter:description", c.get("seoDescription") or "")
+    og_alt = c.get("seoTitle") or c.get("siteName") or ""
+    if og_alt:
+        doc = set_meta(doc, "property", "og:image:alt", og_alt)
+        doc = set_meta(doc, "name", "twitter:image:alt", og_alt)
 
     doc = ensure_gtag(doc, c.get("googleAnalyticsId") or "")
 
-    ld = build_json_ld(c)
+    faqs = extract_faq_pairs(doc)
+    ld = build_json_ld(c, faqs=faqs)
     if ld:
         doc = replace_json_ld(doc, ld)
 
