@@ -7,19 +7,19 @@
     {
       "title": "Tasarım",
       "description": "",
-      "status": "current",
+      "status": "completed",
       "completedDate": ""
     },
     {
       "title": "Tasarım Onayı",
       "description": "",
-      "status": "pending",
+      "status": "completed",
       "completedDate": ""
     },
     {
       "title": "Üretim",
-      "description": "",
-      "status": "pending",
+      "description": "Tasarım onaylandı, üretim sürecindeyiz.",
+      "status": "current",
       "completedDate": ""
     },
     {
@@ -29,9 +29,9 @@
       "completedDate": ""
     }
   ],
-  "currentStep": 1,
-  "lastUpdated": "2026-08-28",
+  "currentStep": 3,
+  "lastUpdated": "2026-09-03",
   "public": true,
-  "balance": "40.000₺/50.000₺",
+  "balance": "40.000₺/70.000₺",
   "notes": ""
 }
