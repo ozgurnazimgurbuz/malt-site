@@ -1,4 +1,4 @@
-# Sağlık Tabela ve Görünürlük Çözümleri
+# Sağlık Tabela ve Görünürlük Çözümleri | Malt Studio
 
 > Sağlık sektörü için tabela ve görünürlük. Malt Studio.
 

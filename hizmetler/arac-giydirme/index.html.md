@@ -109,7 +109,7 @@ Adres, saat ve iletişim: [Malt Studio Tekirdağ atölye ve iletişim](https://m
 [WhatsApp ile Teklif](https://wa.me/905525826959?text=Merhaba%2C%20Tekirda%C4%9F%20Ara%C3%A7%20Giydirme%20i%C3%A7in%20ke%C5%9Fif%20istiyorum.) [Teklif](https://maltstudio.co/#teklif) [Ara](tel:+905525826959)
 
 ## İlgili hizmetler
-[Tabela Tabela hizmeti. Hizmet](https://maltstudio.co/hizmetler/tabela/) [Cam Giydirme Cam Giydirme hizmeti. Hizmet](https://maltstudio.co/hizmetler/cam-giydirme/) [Display & POS Display & POS hizmeti. Hizmet](https://maltstudio.co/hizmetler/display-pos/) [Ofis Branding Ofis Branding hizmeti. Hizmet](https://maltstudio.co/hizmetler/ofis-branding/)
+[Tabela Tabela hizmeti. Hizmet](https://maltstudio.co/hizmetler/tabela/) [Cam Giydirme Cam Giydirme hizmeti. Hizmet](https://maltstudio.co/hizmetler/cam-giydirme/) [Dijital Baskı Dijital Baskı hizmeti. Hizmet](https://maltstudio.co/hizmetler/dijital-baski/) [Display & POS Display & POS hizmeti. Hizmet](https://maltstudio.co/hizmetler/display-pos/)
 
 ## İlgili rehberler
 [Araç Giydirme Rehberi: Süreç, Ömür, Filo Karar rehberi. Bilgi](https://maltstudio.co/bilgi/arac-giydirme-rehberi/)

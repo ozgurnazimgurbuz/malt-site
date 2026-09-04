@@ -1,4 +1,4 @@
-# Pembe Pasta Evi Projesi | Malt Studio
+# Pembe Pasta Evi | Cam Giydirme | Malt Studio
 
 > Pembe Pasta Evi için Malt Studio tarafından gerçekleştirilen uygulama projesi. Proje fotoğraflarını ve ilgili hizmet detaylarını inceleyin.
 

@@ -111,7 +111,7 @@ Adres, saat ve iletişim: [Malt Studio Tekirdağ atölye ve iletişim](https://m
 [WhatsApp ile Teklif](https://wa.me/905525826959?text=Merhaba%2C%20Tekirda%C4%9F%20Cam%20Giydirme%20i%C3%A7in%20ke%C5%9Fif%20istiyorum.) [Teklif](https://maltstudio.co/#teklif) [Ara](tel:+905525826959)
 
 ## İlgili hizmetler
-[Işıklı Tabela Işıklı Tabela hizmeti. Hizmet](https://maltstudio.co/hizmetler/isikli-tabela/) [Ofis Branding Ofis Branding hizmeti. Hizmet](https://maltstudio.co/hizmetler/ofis-branding/) [Tabela Tabela hizmeti. Hizmet](https://maltstudio.co/hizmetler/tabela/) [Display & POS Display & POS hizmeti. Hizmet](https://maltstudio.co/hizmetler/display-pos/)
+[Işıklı Tabela Işıklı Tabela hizmeti. Hizmet](https://maltstudio.co/hizmetler/isikli-tabela/) [Ofis Branding Ofis Branding hizmeti. Hizmet](https://maltstudio.co/hizmetler/ofis-branding/) [Tabela Tabela hizmeti. Hizmet](https://maltstudio.co/hizmetler/tabela/) [Dijital Baskı Dijital Baskı hizmeti. Hizmet](https://maltstudio.co/hizmetler/dijital-baski/)
 
 ## İlgili rehberler
 [One Way Vision Nedir? Karar rehberi. Bilgi](https://maltstudio.co/bilgi/one-way-vision-nedir/)

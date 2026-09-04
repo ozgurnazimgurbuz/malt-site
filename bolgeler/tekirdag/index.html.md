@@ -1,4 +1,4 @@
-# Malt Studio Tekirdağ Atölye ve İletişim
+# Tekirdağ Atölye ve İletişim | Malt Studio
 
 > Malt Studio’nun Tekirdağ Süleymanpaşa iletişim, çalışma saatleri, hizmet alanları ve keşif bilgileri. Telefon, WhatsApp ve yol tarifi.
 
@@ -10,7 +10,7 @@
 
 Atölye
 
-# Malt Studio Tekirdağ Atölye ve İletişim
+# Tekirdağ Atölye ve İletişim | Malt Studio
 
 Adres, telefon, e-posta ve keşif bilgisi. Bu sayfa ikinci bir reklam ajansı landing’i değildir.
 [WhatsApp ile Teklif](https://wa.me/905525826959?text=Tekirda%C4%9F%20ke%C5%9Fif) [Teklif](https://maltstudio.co/#teklif) [Ara](tel:+905525826959) [Hizmetler](https://maltstudio.co/hizmetler/)
@@ -63,7 +63,7 @@ Rehberler: [bilgi merkezi](https://maltstudio.co/bilgi/) .
 [Hizmetler Tüm hizmetlerimize göz atın. Keşif](https://maltstudio.co/hizmetler/) [Bilgi Rehberler ve karar içerikleri. Keşif](https://maltstudio.co/bilgi/) [Projeler Tamamladığımız işlerden örnekler. Keşif](https://maltstudio.co/projeler/) [Sektörler Sektöre özel çözümler. Keşif](https://maltstudio.co/sektorler/) [Tekirdağ Tekirdağ yerel hizmet rehberi. Keşif](https://maltstudio.co/bolgeler/tekirdag/) [Ana sayfa Malt Studio ana sayfa. Keşif](https://maltstudio.co/)
 
 ## Hizmetler
-[Tabela Tabela hizmeti. Hizmet](https://maltstudio.co/hizmetler/tabela/) [Işıklı Tabela Işıklı Tabela hizmeti. Hizmet](https://maltstudio.co/hizmetler/isikli-tabela/) [Kutu Harf Kutu Harf hizmeti. Hizmet](https://maltstudio.co/hizmetler/kutu-harf/) [Totem Totem hizmeti. Hizmet](https://maltstudio.co/hizmetler/totem/) [Araç Giydirme Araç Giydirme hizmeti. Hizmet](https://maltstudio.co/hizmetler/arac-giydirme/) [Cam Giydirme Cam Giydirme hizmeti. Hizmet](https://maltstudio.co/hizmetler/cam-giydirme/) [Lightbox Lightbox hizmeti. Hizmet](https://maltstudio.co/hizmetler/lightbox/) [Display & POS Display & POS hizmeti. Hizmet](https://maltstudio.co/hizmetler/display-pos/) [Ofis Branding Ofis Branding hizmeti. Hizmet](https://maltstudio.co/hizmetler/ofis-branding/) [İş Güvenliği Tabelaları İş Güvenliği Tabelaları hizmeti. Hizmet](https://maltstudio.co/hizmetler/is-guvenligi-tabelalari/)
+[Tabela Tabela hizmeti. Hizmet](https://maltstudio.co/hizmetler/tabela/) [Işıklı Tabela Işıklı Tabela hizmeti. Hizmet](https://maltstudio.co/hizmetler/isikli-tabela/) [Kutu Harf Kutu Harf hizmeti. Hizmet](https://maltstudio.co/hizmetler/kutu-harf/) [Totem Totem hizmeti. Hizmet](https://maltstudio.co/hizmetler/totem/) [Araç Giydirme Araç Giydirme hizmeti. Hizmet](https://maltstudio.co/hizmetler/arac-giydirme/) [Cam Giydirme Cam Giydirme hizmeti. Hizmet](https://maltstudio.co/hizmetler/cam-giydirme/) [Lightbox Lightbox hizmeti. Hizmet](https://maltstudio.co/hizmetler/lightbox/) [Display & POS Display & POS hizmeti. Hizmet](https://maltstudio.co/hizmetler/display-pos/) [Dijital Baskı Dijital Baskı hizmeti. Hizmet](https://maltstudio.co/hizmetler/dijital-baski/) [Matbaa Ürünleri Matbaa Ürünleri hizmeti. Hizmet](https://maltstudio.co/hizmetler/matbaa-urunleri/) [Ofis Branding Ofis Branding hizmeti. Hizmet](https://maltstudio.co/hizmetler/ofis-branding/) [Kurumsal Kimlik Kurumsal Kimlik hizmeti. Hizmet](https://maltstudio.co/hizmetler/kurumsal-kimlik/) [İş Güvenliği Tabelaları İş Güvenliği Tabelaları hizmeti. Hizmet](https://maltstudio.co/hizmetler/is-guvenligi-tabelalari/)
 
 ## Sık sorulan sorular
 Atölye nerede?
@@ -80,7 +80,7 @@ Keşif nasıl alınır?
 WhatsApp veya telefon ile kısa brief bırakın. Keşif sonrası yazılı teklif çıkar.
 Hangi hizmetler Tekirdağ’dan planlanır?
 
-Tabela, ışıklı tabela, kutu harf, totem, cam ve araç giydirme, lightbox, display, ofis branding ve iş güvenliği tabelaları. Liste: [hizmetler](https://maltstudio.co/hizmetler/) .
+Tabela, ışıklı tabela, kutu harf, dijital baskı, cam ve araç giydirme, matbaa, kurumsal kimlik ve diğer üretim hizmetleri. Liste: [hizmetler](https://maltstudio.co/hizmetler/) .
 Çevre ilçelere geliyor musunuz?
 
 Süleymanpaşa ve Tekirdağ merkez başta olmak üzere çevre ilçe işleri aynı atölyeden planlanır.

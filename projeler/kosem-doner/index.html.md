@@ -1,4 +1,4 @@
-# Köşem Döner Projesi | Malt Studio
+# Köşem Döner | Işıklı Tabela | Malt Studio
 
 > Köşem Döner için Malt Studio tarafından gerçekleştirilen uygulama projesi. Proje fotoğraflarını ve ilgili hizmet detaylarını inceleyin.
 

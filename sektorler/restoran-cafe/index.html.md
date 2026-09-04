@@ -1,4 +1,4 @@
-# Restoran & Cafe Tabela ve Görünürlük Çözümleri
+# Restoran & Cafe Tabela ve Görünürlük Çözümleri | Malt Studio
 
 > Restoran & Cafe sektörü için tabela ve görünürlük. Malt Studio.
 

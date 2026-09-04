@@ -1,4 +1,4 @@
-# One Way Vision Nedir?
+# One Way Vision Nedir? | Malt Studio
 
 > One Way Vision Nedir? — eğitici rehber. Malt Studio bilgi merkezi.
 

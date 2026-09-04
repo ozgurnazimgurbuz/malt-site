@@ -1,4 +1,4 @@
-# Okka Tarım Projesi | Malt Studio
+# Okka Tarım | Ofis Branding | Malt Studio
 
 > Okka Tarım için Malt Studio tarafından gerçekleştirilen uygulama projesi. Proje fotoğraflarını ve ilgili hizmet detaylarını inceleyin.
 

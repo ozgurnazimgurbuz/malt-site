@@ -1,4 +1,4 @@
-# OFİSO Projesi | Malt Studio
+# OFİSO | Tabela | Malt Studio
 
 > OFİSO için Malt Studio tarafından gerçekleştirilen uygulama projesi. Proje fotoğraflarını ve ilgili hizmet detaylarını inceleyin.
 

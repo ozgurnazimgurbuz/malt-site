@@ -1,4 +1,4 @@
-# Anka Anaokulu Projesi | Malt Studio
+# Anka Anaokulu | Tabela | Malt Studio
 
 > Anka Anaokulu için Malt Studio tarafından gerçekleştirilen uygulama projesi. Proje fotoğraflarını ve ilgili hizmet detaylarını inceleyin.
 

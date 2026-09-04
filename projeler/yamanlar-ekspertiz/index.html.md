@@ -1,4 +1,4 @@
-# Yamanlar Ekspertiz Projesi | Malt Studio
+# Yamanlar Ekspertiz | Tabela | Malt Studio
 
 > Yamanlar Ekspertiz için Malt Studio tarafından gerçekleştirilen uygulama projesi. Proje fotoğraflarını ve ilgili hizmet detaylarını inceleyin.
 

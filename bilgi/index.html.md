@@ -1,4 +1,4 @@
-# Bilgi Merkezi | Tabela ve Reklam Rehberleri
+# Bilgi Merkezi | Tabela ve Reklam Rehberleri | Malt Studio
 
 > Tabela çeşitleri, karşılaştırmalar ve uygulama rehberleri.
 

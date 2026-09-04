@@ -1,4 +1,4 @@
-# Sektörler | Fabrika, Restoran, Sağlık, Plaza
+# Sektörler | Fabrika, Restoran, Sağlık, Plaza | Malt Studio
 
 > Sektörel tabela ve görünürlük çözümleri.
 

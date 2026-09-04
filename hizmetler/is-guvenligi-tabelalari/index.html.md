@@ -1,6 +1,6 @@
-# İş Güvenliği Tabelaları | Uyarı ve Acil Çıkış
+# İş Güvenliği Tabelaları | Uyarı ve Acil Çıkış | Malt Studio
 
-> İSG tabelaları, uyarı levhaları, yangın çıkışı ve acil durum işaretleri.
+> İSG tabelaları, uyarı levhaları, yangın çıkışı ve acil durum işaretleri. Keşif için yazın.
 
 - Canonical HTML: https://maltstudio.co/hizmetler/is-guvenligi-tabelalari/
 - Markdown twin: https://maltstudio.co/hizmetler/is-guvenligi-tabelalari/index.html.md

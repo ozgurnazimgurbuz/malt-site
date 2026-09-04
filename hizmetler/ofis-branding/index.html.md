@@ -1,6 +1,6 @@
-# Ofis Branding | Resepsiyon ve Lobi Uygulamaları
+# Ofis Branding | Resepsiyon ve Lobi | Malt Studio
 
-> Ofis branding, resepsiyon, lobi ve kurumsal ofis grafikleri.
+> Ofis branding, resepsiyon, lobi ve kurumsal ofis grafikleri. Tekirdağ’da keşif ve uygulama.
 
 - Canonical HTML: https://maltstudio.co/hizmetler/ofis-branding/
 - Markdown twin: https://maltstudio.co/hizmetler/ofis-branding/index.html.md
@@ -109,7 +109,7 @@ Adres, saat ve iletişim: [Malt Studio Tekirdağ atölye ve iletişim](https://m
 [WhatsApp ile Teklif](https://wa.me/905525826959?text=Merhaba%2C%20Ofis%20Branding%20i%C3%A7in%20ke%C5%9Fif%20istiyorum.) [Teklif](https://maltstudio.co/#teklif) [Ara](tel:+905525826959)
 
 ## İlgili hizmetler
-[Kutu Harf Kutu Harf hizmeti. Hizmet](https://maltstudio.co/hizmetler/kutu-harf/) [Cam Giydirme Cam Giydirme hizmeti. Hizmet](https://maltstudio.co/hizmetler/cam-giydirme/) [Lightbox Lightbox hizmeti. Hizmet](https://maltstudio.co/hizmetler/lightbox/) [Tabela Tabela hizmeti. Hizmet](https://maltstudio.co/hizmetler/tabela/)
+[Kurumsal Kimlik Kurumsal Kimlik hizmeti. Hizmet](https://maltstudio.co/hizmetler/kurumsal-kimlik/) [Kutu Harf Kutu Harf hizmeti. Hizmet](https://maltstudio.co/hizmetler/kutu-harf/) [Cam Giydirme Cam Giydirme hizmeti. Hizmet](https://maltstudio.co/hizmetler/cam-giydirme/) [Tabela Tabela hizmeti. Hizmet](https://maltstudio.co/hizmetler/tabela/)
 
 ## İlgili rehberler
 [Kutu Harf Malzemeleri: Pleksi mi Paslanmaz mı? Karar rehberi. Bilgi](https://maltstudio.co/bilgi/kutu-harf-malzemeler/)

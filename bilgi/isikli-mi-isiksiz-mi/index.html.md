@@ -1,4 +1,4 @@
-# Işıklı Tabela mı Işıksız mı?
+# Işıklı Tabela mı Işıksız mı? | Malt Studio
 
 > Işıklı Tabela mı Işıksız mı? — eğitici rehber. Malt Studio bilgi merkezi.
 

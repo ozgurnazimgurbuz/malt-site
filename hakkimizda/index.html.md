@@ -14,7 +14,7 @@ Tekirdağ Süleymanpaşa merkezli reklam ve tabela üretimi.
 
 ## Ne yapıyoruz
 
-Malt Studio Tekirdağ merkezli reklam ajansı ve tabela üreticisidir. Tabela, kurumsal kimlik, dijital baskı ve uygulama — keşiften montaja.
+Malt Studio Süleymanpaşa / Tekirdağ merkezli tabela ve reklam üreticisidir. Tabela, dijital baskı, cam ve araç giydirme, matbaa ve kurumsal kimlik — keşiften montaja.
 
 Şube sayısı, uydurma sertifika veya sahte yorum eklenmez.
 

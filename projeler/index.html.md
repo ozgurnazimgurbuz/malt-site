@@ -1,6 +1,6 @@
 # Projeler | Malt Studio İş Örnekleri
 
-> Tabela, ışıklı tabela, kutu harf ve giydirme proje örnekleri.
+> Tabela, dijital baskı, cam ve araç giydirme proje örnekleri. Gerçek iş fotoğrafları.
 
 - Canonical HTML: https://maltstudio.co/projeler/
 - Markdown twin: https://maltstudio.co/projeler/index.html.md

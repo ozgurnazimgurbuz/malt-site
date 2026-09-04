@@ -1,6 +1,6 @@
-# Hizmetler | Tabela, Lightbox, Ofis Branding ve Daha Fazlası
+# Hizmetler | Tabela, Dijital Baskı ve Reklam | Malt Studio
 
-> Malt Studio tüm hizmetleri: tabela, ışıklı tabela, kutu harf, totem, araç ve cam giydirme, lightbox, display, ofis branding, İSG.
+> Malt Studio hizmetleri: tabela, ışıklı tabela, kutu harf, dijital baskı, cam ve araç giydirme, matbaa ve kurumsal kimlik.
 
 - Canonical HTML: https://maltstudio.co/hizmetler/
 - Markdown twin: https://maltstudio.co/hizmetler/index.html.md
@@ -17,7 +17,7 @@ Tabela üretiminden montaja, ihtiyacınıza uygun hizmetler.
 
 ## Nasıl seçmelisiniz?
 
-Önce ihtiyacı netleştirin: cephe tabela, ışıklı sistem, kutu harf, araç, cam, lightbox, display veya ofis paketi.
+Önce ihtiyacı netleştirin: tabela, ışıklı sistem, kutu harf, dijital baskı, cam, araç giydirme, matbaa yüzeyi veya kurumsal kimlik uygulaması.
 
 Kararsızsanız [rehberleri](https://maltstudio.co/bilgi/)  okuyun veya WhatsApp ile kısa keşif isteyin.
 
@@ -38,4 +38,4 @@ Tekirdağ atölye, saat ve adres: [atölye ve iletişim](https://maltstudio.co/b
 [Tabela Tabela hizmeti. Hizmet](https://maltstudio.co/hizmetler/tabela/) [Işıklı Tabela Işıklı Tabela hizmeti. Hizmet](https://maltstudio.co/hizmetler/isikli-tabela/) [Kutu Harf Kutu Harf hizmeti. Hizmet](https://maltstudio.co/hizmetler/kutu-harf/) [Totem Totem hizmeti. Hizmet](https://maltstudio.co/hizmetler/totem/) [Araç Giydirme Araç Giydirme hizmeti. Hizmet](https://maltstudio.co/hizmetler/arac-giydirme/) [Cam Giydirme Cam Giydirme hizmeti. Hizmet](https://maltstudio.co/hizmetler/cam-giydirme/)
 
 ## Ek hizmetler
-[Lightbox Lightbox hizmeti. Hizmet](https://maltstudio.co/hizmetler/lightbox/) [Display & POS Display & POS hizmeti. Hizmet](https://maltstudio.co/hizmetler/display-pos/) [Ofis Branding Ofis Branding hizmeti. Hizmet](https://maltstudio.co/hizmetler/ofis-branding/) [İş Güvenliği Tabelaları İş Güvenliği Tabelaları hizmeti. Hizmet](https://maltstudio.co/hizmetler/is-guvenligi-tabelalari/)
+[Lightbox Lightbox hizmeti. Hizmet](https://maltstudio.co/hizmetler/lightbox/) [Display & POS Display & POS hizmeti. Hizmet](https://maltstudio.co/hizmetler/display-pos/) [Dijital Baskı Dijital Baskı hizmeti. Hizmet](https://maltstudio.co/hizmetler/dijital-baski/) [Matbaa Ürünleri Matbaa Ürünleri hizmeti. Hizmet](https://maltstudio.co/hizmetler/matbaa-urunleri/) [Ofis Branding Ofis Branding hizmeti. Hizmet](https://maltstudio.co/hizmetler/ofis-branding/) [Kurumsal Kimlik Kurumsal Kimlik hizmeti. Hizmet](https://maltstudio.co/hizmetler/kurumsal-kimlik/) [İş Güvenliği Tabelaları İş Güvenliği Tabelaları hizmeti. Hizmet](https://maltstudio.co/hizmetler/is-guvenligi-tabelalari/)

@@ -7,9 +7,9 @@
   "portfolioIntro": "Tamamladığımız işlerden öne çıkanlar.",
   "ctaSectionTag": "Teklif / Keşif",
   "seoOgImage": "/images/og.jpg",
-  "heroSub": "Tekirdağ’da tabela, ışıklı tabela, kutu harf, dijital baskı ve araç giydirme. Keşif, tasarım, üretim ve montaj.",
+  "heroSub": "Malt Studio; Süleymanpaşa / Tekirdağ merkezli tabela, dijital baskı, cam giydirme, araç giydirme, matbaa ve kurumsal kimlik hizmetleri verir. Keşif, üretim ve montaj.",
   "googleTagManagerId": "",
-  "seoKeywords": "Tekirdağ reklam ajansı, Tekirdağ reklam firması, Malt Studio, tabela, ışıklı tabela, kutu harf, totem, araç giydirme, cam giydirme",
+  "seoKeywords": "Tekirdağ tabela, dijital baskı, cam giydirme, araç giydirme, matbaa, kurumsal kimlik, Malt Studio, Süleymanpaşa",
   "addressRegion": "Tekirdağ",
   "siteUrl": "https://maltstudio.co",
   "portfolio": [
@@ -129,7 +129,7 @@
   "portfolioTag": "Projeler",
   "ctaPrimary": "Teklif Al",
   "siteName": "Malt Studio",
-  "footerAbout": "Tekirdağ merkezli reklam ajansı ve tabela üreticisi. Tabela, kurumsal kimlik, dijital baskı ve uygulama — keşiften montaja.",
+  "footerAbout": "Süleymanpaşa / Tekirdağ merkezli tabela, dijital baskı, cam ve araç giydirme, matbaa ve kurumsal kimlik üretimi — keşiften montaja.",
   "instagram": "https://www.instagram.com/maltstudio.co/",
   "priceRange": "₺₺",
   "copyrightText": "© 2025 - 2026 Malt Studio. Tüm hakları saklıdır.",
@@ -153,7 +153,7 @@
   "facebookPixelId": "",
   "whatsappNumber": "905525826959",
   "canonicalUrl": "https://maltstudio.co/",
-  "seoTitle": "Tekirdağ Reklam Ajansı ve Tabela | Malt Studio",
+  "seoTitle": "Tekirdağ Tabela, Dijital Baskı ve Reklam Çözümleri | Malt Studio",
   "defaultLocale": "tr-TR",
   "servicesTag": "Hizmetler",
   "email": "merhaba@maltstudio.co",
@@ -201,8 +201,13 @@
     },
     {
       "title": "Dijital Baskı",
-      "description": "Kampanya ve POS baskı yüzeyleri.",
-      "href": "/hizmetler/display-pos/"
+      "description": "Kampanya, vinil ve uygulama baskı yüzeyleri.",
+      "href": "/hizmetler/dijital-baski/"
+    },
+    {
+      "title": "Matbaa Ürünleri",
+      "description": "Kampanya ve POS için baskılı yüzeyler.",
+      "href": "/hizmetler/matbaa-urunleri/"
     },
     {
       "title": "Germe Tabela",
@@ -232,7 +237,7 @@
     {
       "title": "Kurumsal Kimlik",
       "description": "Marka kimliğinin mekânsal uygulaması.",
-      "href": "/hizmetler/ofis-branding/"
+      "href": "/hizmetler/kurumsal-kimlik/"
     }
   ],
   "linkedin": "",
@@ -264,10 +269,13 @@
     "Cam giydirme",
     "Lightbox",
     "Display POS",
+    "Dijital baskı",
+    "Matbaa ürünleri",
     "Ofis branding",
+    "Kurumsal kimlik",
     "İş güvenliği tabelaları"
   ],
   "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=40.9769375,27.5041875",
-  "seoDescription": "Tekirdağ’da tabela, ışıklı tabela, kutu harf, dijital baskı ve araç giydirme. Keşif, tasarım, üretim ve montaj için Malt Studio’dan teklif alın.",
-  "heroH1": "Tekirdağ Reklam Ajansı ve Tabela Üreticisi"
+  "seoDescription": "Malt Studio; Tekirdağ ve Süleymanpaşa’da tabela, dijital baskı, cam ve araç giydirme, matbaa ve kurumsal kimlik çözümleri sunar. Projeniz için teklif alın.",
+  "heroH1": "Tekirdağ Tabela, Dijital Baskı ve Reklam Çözümleri"
 }

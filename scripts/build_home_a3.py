@@ -153,8 +153,8 @@ MAIN = f"""
   </svg>
   <div class="wrap">
     <div class="eyebrow" id="hero-eyebrow"><span class="eyebrow-brand">Malt Studio · </span>Tekirdağ Reklam Ajansı</div>
-    <h1 id="hero-title">Tekirdağ Reklam Ajansı ve Tabela Üreticisi</h1>
-    <p class="hero-sub" id="hero-sub">Tabela üretimi, kurumsal kimlik, dijital baskı ve uygulama. Keşiften montaja Tekirdağ merkezli üretim.</p>
+    <h1 id="hero-title">Tekirdağ Tabela, Dijital Baskı ve Reklam Çözümleri</h1>
+    <p class="hero-sub" id="hero-sub">Malt Studio; Süleymanpaşa / Tekirdağ merkezli tabela, dijital baskı, cam giydirme, araç giydirme, matbaa ve kurumsal kimlik hizmetleri verir. Keşif, üretim ve montaj.</p>
     <div class="hero-actions">
       <a href="#teklif" class="btn btn-primary" id="cta-primary">Teklif Al</a>
       <a href="{WA}" class="btn btn-ghost" id="cta-secondary" target="_blank" rel="noopener">WhatsApp</a>
@@ -331,6 +331,9 @@ MAIN = f"""
       <a class="local-card" href="/hizmetler/totem/"><h3>Totem tabela üretimi</h3><p>Yol ve tesis totem sistemleri.</p><span class="meta">Hizmet</span></a>
       <a class="local-card" href="/hizmetler/arac-giydirme/"><h3>Tekirdağ araç giydirme</h3><p>Ticari araç ve filo kaplama.</p><span class="meta">Hizmet</span></a>
       <a class="local-card" href="/hizmetler/cam-giydirme/"><h3>Tekirdağ cam giydirme</h3><p>One way vision ve vitrin folyo.</p><span class="meta">Hizmet</span></a>
+      <a class="local-card" href="/hizmetler/dijital-baski/"><h3>Tekirdağ dijital baskı</h3><p>Vinil, kampanya ve uygulama baskısı.</p><span class="meta">Hizmet</span></a>
+      <a class="local-card" href="/hizmetler/matbaa-urunleri/"><h3>Matbaa ürünleri</h3><p>Kampanya ve POS baskılı yüzeyler.</p><span class="meta">Hizmet</span></a>
+      <a class="local-card" href="/hizmetler/kurumsal-kimlik/"><h3>Kurumsal kimlik uygulaması</h3><p>Tabela, cam ve ofiste marka yüzeyi.</p><span class="meta">Hizmet</span></a>
       <a class="local-card" href="/projeler/"><h3>Projeler</h3><p>Tekirdağ’da seçili tabela ve uygulama işleri.</p><span class="meta">Keşif</span></a>
       <a class="local-card" href="/hizmetler/"><h3>Tüm Hizmetler</h3><p>Tüm hizmetlerimize göz atın.</p><span class="meta">Hizmet</span></a>
     </div>
@@ -353,7 +356,7 @@ MAIN = f"""
       <p>Keşif, fiyat ve hizmet bölgesi hakkında kısa yanıtlar.</p>
     </div>
     <div class="home-faq">
-      <details><summary>Tekirdağ’da tabela ve reklam işi yapıyor musunuz?</summary><p>Evet. Malt Studio Tekirdağ Süleymanpaşa merkezlidir; tabela, ışıklı tabela, kutu harf, totem, cam ve araç giydirme üretimi ile montajını aynı hatta planlarız.</p></details>
+      <details><summary>Tekirdağ’da tabela ve reklam işi yapıyor musunuz?</summary><p>Evet. Malt Studio Süleymanpaşa / Tekirdağ merkezlidir; tabela, dijital baskı, cam giydirme, araç giydirme, matbaa ve kurumsal kimlik işlerini keşif, üretim ve montajla planlarız.</p></details>
       <details><summary>Keşif ücretli mi?</summary><p>Keşif randevusu WhatsApp veya telefon ile alınır. Ölçü ve saha notları teklifi şekillendirir; sabit internet fiyatı yayınlanmaz.</p></details>
       <details><summary>Süleymanpaşa ve çevre ilçelere geliyor musunuz?</summary><p>Evet. Süleymanpaşa, merkez ve çevre ilçe işleri Tekirdağ atölyesinden planlanır. Detay için <a href="/bolgeler/tekirdag/">atölye ve iletişim</a> sayfasına bakın.</p></details>
       <details><summary>Hangi tabela türünü seçmeliyim?</summary><p>Gece görünürlük için <a href="/hizmetler/isikli-tabela/">ışıklı tabela</a>, cephe yazısı için <a href="/hizmetler/kutu-harf/">kutu harf</a>, genel üretim için <a href="/hizmetler/tabela/">tabela imalatı</a> sayfalarına bakın.</p></details>
@@ -380,20 +383,21 @@ NAV = """  <nav aria-label="Ana menü">
   </nav>"""
 
 FOOTER_COLS = """      <div>
-        <h4>Hizmetler</h4>
+        <h3>Hizmetler</h3>
         <ul>
           <li><a href="/hizmetler/">Tüm hizmetler</a></li>
           <li><a href="/hizmetler/tabela/">Tabela</a></li>
           <li><a href="/hizmetler/isikli-tabela/">Işıklı Tabela</a></li>
           <li><a href="/hizmetler/kutu-harf/">Kutu Harf</a></li>
-          <li><a href="/hizmetler/totem/">Totem</a></li>
           <li><a href="/hizmetler/cam-giydirme/">Cam Giydirme</a></li>
           <li><a href="/hizmetler/arac-giydirme/">Araç Giydirme</a></li>
-          <li><a href="/hizmetler/lightbox/">Lightbox</a></li>
+          <li><a href="/hizmetler/dijital-baski/">Dijital Baskı</a></li>
+          <li><a href="/hizmetler/matbaa-urunleri/">Matbaa Ürünleri</a></li>
+          <li><a href="/hizmetler/kurumsal-kimlik/">Kurumsal Kimlik</a></li>
         </ul>
       </div>
       <div>
-        <h4>Keşfet</h4>
+        <h3>Keşfet</h3>
         <ul>
           <li><a href="/projeler/">Projeler</a></li>
           <li><a href="/sektorler/">Sektörler</a></li>
@@ -406,11 +410,12 @@ FOOTER_COLS = """      <div>
         </ul>
       </div>
       <div>
-        <h4>İletişim</h4>
+        <h3>İletişim</h3>
         <ul>
           <li id="contact-email">merhaba@maltstudio.co</li>
           <li><a id="contact-phone" href="tel:+905525826959">05525826959</a></li>
           <li id="contact-address">Tekirdağ, Türkiye</li>
+          <li><a href="https://www.google.com/maps/search/?api=1&query=40.9769375,27.5041875" rel="noopener noreferrer" target="_blank">Yol tarifi</a></li>
           <!-- Temporarily hidden; keep markup for easy re-enable -->
           <li hidden><a href="https://www.instagram.com/maltstudio.co/" id="social-instagram">Instagram</a></li>
           <li><a href="#teklif">Mesaj / Teklif</a></li>
@@ -456,9 +461,9 @@ def replace_main(doc: str) -> str:
 def replace_footer_cols(doc: str) -> str:
     # Replace the three columns after brand column
     pattern = re.compile(
-        r'(<div>\s*<h4>Hizmetler</h4>.*?</div>\s*)'
-        r'(<div>\s*<h4>(?:Tekirdağ|Keşfet)</h4>.*?</div>\s*)'
-        r'(<div>\s*<h4>İletişim</h4>.*?</div>)',
+        r'(<div>\s*<h3>Hizmetler</h3>.*?</div>\s*)'
+        r'(<div>\s*<h3>(?:Tekirdağ|Keşfet)</h3>.*?</div>\s*)'
+        r'(<div>\s*<h3>İletişim</h3>.*?</div>)',
         re.S,
     )
     if not pattern.search(doc):

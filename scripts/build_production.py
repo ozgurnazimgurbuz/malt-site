@@ -41,6 +41,7 @@ from lib_site import (  # noqa: E402
     related_rail,
     article_ld,
     service_ld,
+    creative_work_ld,
     wa,
     webpage_ld,
     website_node,
@@ -113,7 +114,10 @@ def tr_service_phrase(name: str) -> str:
         "Cam Giydirme": "cam giydirme uygulamaları",
         "Lightbox": "lightbox hizmeti",
         "Display & POS": "display ve POS uygulamaları",
+        "Dijital Baskı": "dijital baskı",
+        "Matbaa Ürünleri": "matbaa ürünleri",
         "Ofis Branding": "ofis branding uygulamaları",
+        "Kurumsal Kimlik": "kurumsal kimlik uygulamaları",
         "İş Güvenliği Tabelaları": "iş güvenliği tabelaları",
     }
     return mapping.get(name, f"{name} hizmeti")
@@ -168,6 +172,10 @@ def _service_slug(label: str) -> str | None:
         "iş güvenliği": "is-guvenligi-tabelalari",
         "is güvenliği": "is-guvenligi-tabelalari",
         "iş güvenliği tabelaları": "is-guvenligi-tabelalari",
+        "dijital baskı": "dijital-baski",
+        "matbaa": "matbaa-urunleri",
+        "matbaa ürünleri": "matbaa-urunleri",
+        "kurumsal kimlik": "kurumsal-kimlik",
     }
     if key in aliases:
         return aliases[key]
@@ -475,7 +483,7 @@ SERVICE_DEPTH = {
         "apps": ["Panelvan", "Kurumsal filo", "Servis araçları", "Dağıtım", "Demo araçları"],
         "materials": "Araç folyoları, laminasyon (ihtiyaca göre), dijital baskı.",
         "related_projects": [],
-        "related_services": ["tabela", "cam-giydirme", "display-pos", "ofis-branding"],
+        "related_services": ["tabela", "cam-giydirme", "dijital-baski", "display-pos"],
         "bilgi": ["/bilgi/arac-giydirme-rehberi/"],
         "faqs": [
             ("Boya zarar görür mü?", "Doğru folyo ve uygulamada kontrollü söküm hedeflenir. Araç boyasının durumu sonucu etkiler; peşin ‘boya bozulmaz’ garantisi verilmez."),
@@ -505,7 +513,7 @@ SERVICE_DEPTH = {
         "apps": ["Mağaza vitrini", "Showroom", "Ofis cam bölme", "Kampanya dönemleri", "Giriş cephe camı"],
         "materials": "One way vision, transparan folyo, kumlama/frosted, baskılı vinil.",
         "related_projects": ["ofiso", "pembe-pasta-evi"],
-        "related_services": ["isikli-tabela", "ofis-branding", "tabela", "display-pos"],
+        "related_services": ["isikli-tabela", "ofis-branding", "tabela", "dijital-baski"],
         "bilgi": ["/bilgi/one-way-vision-nedir/"],
         "faqs": [
             ("One way vision nedir?", 'Dışarıdan grafik görünen, içeriden bakışa izin veren delikli folyodur. Rehber: <a href="/bilgi/one-way-vision-nedir/">one way vision nedir</a>.'),
@@ -551,8 +559,8 @@ SERVICE_DEPTH = {
     "display-pos": {
         "h1": "Display & POS",
         "pk": "roll-up",
-        "title": "Roll-Up, X-Banner ve POS Display",
-        "desc": "Roll-up, X-banner, bayrak ve POS display sistemleri.",
+        "title": "Roll-Up, X-Banner ve POS Display | Malt Studio",
+        "desc": "Roll-up, X-banner, bayrak ve POS display sistemleri. Keşif ve teklif için yazın.",
         "lede": "Taşınabilir display ve POS: roll-up, X-banner, beach flag ve teşhir.",
         "extra": [
             "Display & POS taşınabilir donanım ailesidir. Roll-up birincil ticari başlıktır.",
@@ -564,7 +572,7 @@ SERVICE_DEPTH = {
         "apps": ["Mağaza içi", "Etkinlik", "Bayi toplantısı", "Lansman", "Geçici yön noktası"],
         "materials": "Roll-up kasa, X-banner, beach flag, vinil/textile baskı, dekota tamamlayıcı.",
         "related_projects": [],
-        "related_services": ["lightbox", "tabela", "cam-giydirme", "ofis-branding"],
+        "related_services": ["dijital-baski", "matbaa-urunleri", "lightbox", "tabela"],
         "bilgi": ["/bilgi/tabela-cesitleri/"],
         "faqs": [
             ("Roll-up vs X-banner?", "Roll-up kasalı sistemdir; X-banner daha ekonomik ve daha hassas taşınır. Seçim kullanım süresine göre yapılır."),
@@ -580,8 +588,8 @@ SERVICE_DEPTH = {
     "ofis-branding": {
         "h1": "Ofis Branding",
         "pk": "ofis branding",
-        "title": "Ofis Branding | Resepsiyon ve Lobi Uygulamaları",
-        "desc": "Ofis branding, resepsiyon, lobi ve kurumsal ofis grafikleri.",
+        "title": "Ofis Branding | Resepsiyon ve Lobi | Malt Studio",
+        "desc": "Ofis branding, resepsiyon, lobi ve kurumsal ofis grafikleri. Tekirdağ’da keşif ve uygulama.",
         "lede": "Resepsiyon, lobi ve toplantı alanlarında kurumsal kimliğin mekâna uygulanması.",
         "extra": [
             "Ofis branding workplace kimlik paketidir: resepsiyon yazısı, logo duvarı, cam grafik, toplantı alanı.",
@@ -593,7 +601,7 @@ SERVICE_DEPTH = {
         "apps": ["Plaza ofisleri", "Resepsiyon", "Lobi", "Toplantı odası", "Kat kimliği"],
         "materials": "Kutu harf, cam folyo, duvar grafiği, kapı/oda isimliği (pakete göre).",
         "related_projects": ["okka-tarim"],
-        "related_services": ["kutu-harf", "cam-giydirme", "lightbox", "tabela"],
+        "related_services": ["kurumsal-kimlik", "kutu-harf", "cam-giydirme", "tabela"],
         "bilgi": ["/bilgi/kutu-harf-malzemeler/"],
         "faqs": [
             ("Kapı isimliği dahil mi?", "Pakete eklenebilir. Standart set varsayılmaz; brief’te netleştirilir."),
@@ -609,8 +617,8 @@ SERVICE_DEPTH = {
     "is-guvenligi-tabelalari": {
         "h1": "İş Güvenliği Tabelaları",
         "pk": "iş güvenliği tabelaları",
-        "title": "İş Güvenliği Tabelaları | Uyarı ve Acil Çıkış",
-        "desc": "İSG tabelaları, uyarı levhaları, yangın çıkışı ve acil durum işaretleri.",
+        "title": "İş Güvenliği Tabelaları | Uyarı ve Acil Çıkış | Malt Studio",
+        "desc": "İSG tabelaları, uyarı levhaları, yangın çıkışı ve acil durum işaretleri. Keşif için yazın.",
         "lede": "Fabrika, depo ve şantiyeler için uyarı, zorunlu işaret ve acil çıkış tabelaları.",
         "extra": [
             "İş güvenliği tabelaları statutory/uyarı setleridir. Yön bulma (oda/kat) wayfinding değildir.",
@@ -633,6 +641,90 @@ SERVICE_DEPTH = {
             ("Montaj?", "Saha planıyla yapılır. Üretim hattı duruşu varsa takvim ona göre yazılır."),
             ("Süre?", "Standart setlerde hızlıdır; özel metin onayına bağlıdır."),
             ("Özel uyarı metni?", "Evet, onaya göre. Tıbbi veya yasal danışmanlık yerine geçmez."),
+        ],
+    },
+    "dijital-baski": {
+        "h1": "Tekirdağ Dijital Baskı",
+        "pk": "dijital baskı",
+        "title": "Tekirdağ Dijital Baskı | Vinil ve Uygulama Baskısı | Malt Studio",
+        "desc": "Tekirdağ’da dijital baskı: tabela, cam ve araç giydirme ile POS yüzeyleri için ölçüye özel üretim.",
+        "service_type": "Dijital baskı",
+        "lede": "Tabela, giydirme ve kampanya yüzeyleri için ölçüye özel dijital baskı.",
+        "extra": [
+            "Dijital baskı, Malt Studio’nun tabela ve uygulama işlerinde kullanılan üretim adımıdır. Kampanya vinili, giydirme folyosu ve POS görseli bu hatta üretilir.",
+            'Taşınabilir kasa ve stand <a href="/hizmetler/display-pos/">Display & POS</a> ailesindedir; baskılı kampanya yüzeyi <a href="/hizmetler/matbaa-urunleri/">matbaa ürünleri</a> sayfasındadır.',
+            "UV, mesh veya branda için ayrı sayfa açılmaz. İhtiyaç keşifte mevcut baskı ve uygulama hattına göre konuşulur.",
+            "Onaylı görsel olmadan baskı başlamaz. Çözünürlük, görüş mesafesine göre kontrol edilir.",
+            "Süleymanpaşa atölyesinden keşif, baskı ve ilgili montaj aynı iletişim hattından planlanır.",
+        ],
+        "apps": ["Tabela yüzeyleri", "Cam ve vitrin folyosu", "Araç giydirme baskısı", "POS ve kampanya görseli"],
+        "materials": "Vinil, uygulama folyosu ve display/POS görselleri. Malzeme kullanım yerine göre seçilir.",
+        "related_projects": [],
+        "related_services": ["matbaa-urunleri", "display-pos", "arac-giydirme", "cam-giydirme"],
+        "bilgi": ["/bilgi/tabela-cesitleri/"],
+        "faqs": [
+            ("UV / branda / mesh ayrı mı?", "Ayrı ürün sayfası yok. İhtiyaç keşifte mevcut baskı hattına göre konuşulur."),
+            ("Roll-up kasa burada mı?", 'Kasa ve stand <a href="/hizmetler/display-pos/">Display & POS</a> sayfasındadır. Baskı bu hattın üretim adımıdır.'),
+            ("Araç giydirme baskısı?", 'Araç yüzeyi <a href="/hizmetler/arac-giydirme/">araç giydirme</a> kapsamında uygulanır; baskı burada üretilir.'),
+            ("Dosya formatı?", "Vektör veya yeterli çözünürlüklü görsel tercih edilir. Onay olmadan baskı başlamaz."),
+            ("Fiyat listesi?", "Ölçü, malzeme ve adet keşif sonrası yazılı netleşir. Sabit internet fiyatı yoktur."),
+            ("Matbaa ürünleri farkı?", 'Kartvizit/katalog hattı doğrulanmış değildir. Kampanya yüzeyleri <a href="/hizmetler/matbaa-urunleri/">matbaa ürünleri</a> sayfasındadır.'),
+        ],
+    },
+    "matbaa-urunleri": {
+        "h1": "Tekirdağ Matbaa Ürünleri",
+        "pk": "matbaa",
+        "title": "Tekirdağ Matbaa Ürünleri | Kampanya ve POS Baskısı | Malt Studio",
+        "desc": "Tekirdağ’da matbaa ürünleri: kampanya, POS ve tabela işine bağlı baskılı yüzeyler. Teklif için yazın.",
+        "service_type": "Matbaa ürünleri",
+        "lede": "Tabela ve mağaza görünürlüğüne bağlı baskılı kampanya ve POS yüzeyleri.",
+        "extra": [
+            "Matbaa ürünleri bu sitede; kartvizit veya ofset katalog hattı olarak değil, tabela, vitrin ve mağaza içi görünürlük için üretilen baskılı yüzeyler olarak anlatılır.",
+            'Baskı süreci <a href="/hizmetler/dijital-baski/">dijital baskı</a> sayfasındadır. Roll-up ve stand donanımı <a href="/hizmetler/display-pos/">Display & POS</a> ailesindedir.',
+            "Kampanya vinili, POS görseli ve display yüzeyi keşifteki kullanıma göre üretilir.",
+            "Kısa süreli etkinlik yüzeyi ile daha uzun vitrin işi aynı malzeme olmayabilir; bu ayrım teklifte yazılır.",
+            "Süleymanpaşa / Tekirdağ atölyesinden teslim veya ilgili uygulamaya aktarım planlanır.",
+        ],
+        "apps": ["Mağaza içi kampanya", "Açılış ve etkinlik görseli", "POS ve display yüzeyi", "Vitrin yenileme baskısı"],
+        "materials": "Vinil ve display/POS görselleri. Donanım ayrı kalemdir.",
+        "related_projects": [],
+        "related_services": ["dijital-baski", "display-pos", "cam-giydirme", "tabela"],
+        "bilgi": ["/bilgi/tabela-cesitleri/"],
+        "faqs": [
+            ("Kartvizit basıyor musunuz?", "Bu sitede doğrulanmış bir kartvizit/katalog hattı yok. Anlatılan ürünler tabela, POS ve kampanya yüzeyleridir."),
+            ("Dijital baskı ile farkı?", 'Üretim adımı <a href="/hizmetler/dijital-baski/">dijital baskı</a>dır. Bu sayfa baskılı kampanya/POS yüzeyini sahiplenir.'),
+            ("Roll-up istiyorum?", 'Kasa ve stand <a href="/hizmetler/display-pos/">Display & POS</a> sayfasındadır; görsel baskısı birlikte planlanabilir.'),
+            ("Fiyat?", "Ölçü, malzeme ve adet keşif sonrası yazılı netleşir. Sabit liste yoktur."),
+            ("Kurulum dahil mi?", "Stand kurulumu gerekirse Display & POS ile konuşulur. Yalnızca baskı teslimi de mümkündür."),
+            ("Yeniden baskı?", "Aynı ölçü şablonu varsa yeniden üretim planlanır. Kaynak dosya saklanması önerilir."),
+        ],
+    },
+    "kurumsal-kimlik": {
+        "h1": "Tekirdağ Kurumsal Kimlik Uygulaması",
+        "pk": "kurumsal kimlik",
+        "title": "Tekirdağ Kurumsal Kimlik | Mekânsal Uygulama | Malt Studio",
+        "desc": "Tekirdağ’da kurumsal kimliğin tabela, cam, kutu harf ve ofis yüzeylerine uygulanması. Keşif ve teklif.",
+        "service_type": "Kurumsal kimlik uygulaması",
+        "lede": "Markanın cephe, cam ve ofiste tutarlı görünmesi için mekânsal uygulama.",
+        "extra": [
+            "Kurumsal kimlik bu sitede logo tasarım stüdyosu olarak değil; markanın tabela, kutu harf, cam ve ofis yüzeylerinde uygulanması olarak anlatılır.",
+            'Plaza iç paket <a href="/hizmetler/ofis-branding/">ofis branding</a>, cephe yazısı <a href="/hizmetler/kutu-harf/">kutu harf</a>, vitrin <a href="/hizmetler/cam-giydirme/">cam giydirme</a> sayfalarındadır.',
+            "Amaç; şube veya ofiste okunan yüzeylerin aynı dilde durmasıdır. Aşırı logo tekrarı yerine sade hiyerarşi tercih edilir.",
+            "Vektörel logo ve varsa marka kılavuzu kaliteyi yükseltir. Font lisansı müşteri sorumluluğundadır.",
+            "Keşif Süleymanpaşa atölyesinden planlanır; üretim ve montaj ilgili hizmet hatlarında yürür.",
+        ],
+        "apps": ["Mağaza ve şube cephesi", "Plaza / ofis girişi", "Cam ve iç yön yüzeyleri", "Resepsiyon kimliği"],
+        "materials": "Tabela, kutu harf, cam folyo ve ofis panelleri — brief’teki yüzey listesine göre.",
+        "related_projects": ["okka-tarim", "ofiso"],
+        "related_services": ["ofis-branding", "tabela", "kutu-harf", "cam-giydirme"],
+        "bilgi": ["/bilgi/kutu-harf-malzemeler/", "/bilgi/tabela-cesitleri/"],
+        "faqs": [
+            ("Logo tasarımı yapıyor musunuz?", "Ayrı bir logo tasarım sayfası yok. Mevcut marka dosyanız uygulama için kullanılır; yoksa sade ve okunur bir düzen önerilir."),
+            ("Ofis branding ile farkı?", 'İç mekân paketi <a href="/hizmetler/ofis-branding/">ofis branding</a> sayfasındadır. Bu sayfa cephe + cam + ofisi birlikte planlar.'),
+            ("Tabela dahil mi?", 'Cephe üretimi <a href="/hizmetler/tabela/">tabela</a> veya <a href="/hizmetler/kutu-harf/">kutu harf</a> hatlarında yürür; kimlik brief’i burada toplanır.'),
+            ("Fiyat?", "Yüzey listesi, malzeme ve montaj keşif sonrası yazılı netleşir. Sabit paket fiyatı yoktur."),
+            ("Plaza onayı?", "Gerekirse keşifte konuşulur. Onaysız cephe işi risklidir."),
+            ("Şube standardı?", "Aynı markanın birden fazla noktası varsa şablon konuşulur; her cephe yine keşifle doğrulanır."),
         ],
     },
 }
@@ -898,7 +990,7 @@ def build_sxc(slug: str) -> None:
 
 def build_city() -> None:
     canonical = f"{SITE}/bolgeler/tekirdag/"
-    title = "Malt Studio Tekirdağ Atölye ve İletişim"
+    title = "Tekirdağ Atölye ve İletişim | Malt Studio"
     desc = "Malt Studio’nun Tekirdağ Süleymanpaşa iletişim, çalışma saatleri, hizmet alanları ve keşif bilgileri. Telefon, WhatsApp ve yol tarifi."
     cms = json.loads((ROOT / "content.json").read_text(encoding="utf-8"))
     maps = (cms.get("googleMapsUrl") or "").strip().replace("&", "&amp;").replace('"', "&quot;")
@@ -921,7 +1013,7 @@ def build_city() -> None:
         ("Keşif nasıl alınır?", "WhatsApp veya telefon ile kısa brief bırakın. Keşif sonrası yazılı teklif çıkar."),
         (
             "Hangi hizmetler Tekirdağ’dan planlanır?",
-            'Tabela, ışıklı tabela, kutu harf, totem, cam ve araç giydirme, lightbox, display, ofis branding ve iş güvenliği tabelaları. Liste: <a href="/hizmetler/">hizmetler</a>.',
+            'Tabela, ışıklı tabela, kutu harf, dijital baskı, cam ve araç giydirme, matbaa, kurumsal kimlik ve diğer üretim hizmetleri. Liste: <a href="/hizmetler/">hizmetler</a>.',
         ),
         ("Çevre ilçelere geliyor musunuz?", "Süleymanpaşa ve Tekirdağ merkez başta olmak üzere çevre ilçe işleri aynı atölyeden planlanır."),
     ]
@@ -1002,8 +1094,8 @@ def build_hizmetler_hub() -> None:
     a0 = cards([(f"/hizmetler/{s}/", n, f"{n} hizmeti.", "Hizmet") for s, n in A0.items()])
     a2 = cards([(f"/hizmetler/{s}/", n, f"{n} hizmeti.", "Hizmet") for s, n in A2.items()])
     canonical = f"{SITE}/hizmetler/"
-    title = "Hizmetler | Tabela, Lightbox, Ofis Branding ve Daha Fazlası"
-    desc = "Malt Studio tüm hizmetleri: tabela, ışıklı tabela, kutu harf, totem, araç ve cam giydirme, lightbox, display, ofis branding, İSG."
+    title = "Hizmetler | Tabela, Dijital Baskı ve Reklam | Malt Studio"
+    desc = "Malt Studio hizmetleri: tabela, ışıklı tabela, kutu harf, dijital baskı, cam ve araç giydirme, matbaa ve kurumsal kimlik."
     json_ld = page_graph(
         webpage_ld(canonical, title, desc),
         website_node(),
@@ -1027,7 +1119,7 @@ def build_hizmetler_hub() -> None:
 <section class="page-main">
   <div class="wrap">
     {block("Nasıl seçmelisiniz?", p(
-        "Önce ihtiyacı netleştirin: cephe tabela, ışıklı sistem, kutu harf, araç, cam, lightbox, display veya ofis paketi.",
+        "Önce ihtiyacı netleştirin: tabela, ışıklı sistem, kutu harf, dijital baskı, cam, araç giydirme, matbaa yüzeyi veya kurumsal kimlik uygulaması.",
         'Kararsızsanız <a href="/bilgi/">rehberleri</a> okuyun veya WhatsApp ile kısa keşif isteyin.',
         'Tekirdağ atölye, saat ve adres: <a href="/bolgeler/tekirdag/">atölye ve iletişim</a>.',
     ))}
@@ -1069,7 +1161,6 @@ def build_project(item: dict) -> None:
     if not slug or not name:
         return
     canonical = f"{SITE}/projeler/{slug}/"
-    title = f"{name} Projesi | Malt Studio"
     safe_name = html.escape(name)
     labels = _service_labels(item.get("services"))
     resolved = []
@@ -1077,6 +1168,8 @@ def build_project(item: dict) -> None:
         s = _service_slug(label)
         resolved.append((label, s))
     known = [(label, s) for label, s in resolved if s]
+    primary_service = ALL_SERVICES[known[0][1]] if known else ""
+    title = f"{name} | {primary_service} | Malt Studio" if primary_service else f"{name} | Malt Studio"
     desc = (
         f"{name} için Malt Studio tarafından gerçekleştirilen uygulama projesi. "
         "Proje fotoğraflarını ve ilgili hizmet detaylarını inceleyin."
@@ -1176,9 +1269,17 @@ def build_project(item: dict) -> None:
   </div>
 </section>"""
 
+    cover = images[0] if images else str(item.get("image") or "").strip() or None
     json_ld = page_graph(
         webpage_ld(canonical, title, desc),
         website_node(),
+        creative_work_ld(
+            canonical,
+            name,
+            desc,
+            image=cover,
+            about=primary_service or None,
+        ),
         breadcrumb_ld(
             [
                 ("Ana Sayfa", f"{SITE}/"),
@@ -1251,7 +1352,7 @@ def build_projeler_hub() -> None:
     )
     canonical = f"{SITE}/projeler/"
     title = "Projeler | Malt Studio İş Örnekleri"
-    desc = "Tabela, ışıklı tabela, kutu harf ve giydirme proje örnekleri."
+    desc = "Tabela, dijital baskı, cam ve araç giydirme proje örnekleri. Gerçek iş fotoğrafları."
     json_ld = page_graph(
         webpage_ld(canonical, title, desc),
         website_node(),
@@ -1339,7 +1440,7 @@ def build_industry(slug: str, name: str, pk: str) -> None:
     ]
     bil_links = [(h, article_title(h), "Karar rehberi.") for h in a5["knowledge"]]
     canonical = f"{SITE}/sektorler/{slug}/"
-    title = f"{name} Tabela ve Görünürlük Çözümleri"
+    title = f"{name} Tabela ve Görünürlük Çözümleri | Malt Studio"
     desc = f"{name} sektörü için tabela ve görünürlük. Malt Studio."
     faqs = [
         (
@@ -1410,7 +1511,7 @@ def build_industry(slug: str, name: str, pk: str) -> None:
 def build_sektorler_hub() -> None:
     items = cards([(f"/sektorler/{s}/", n, f"{n} çözümleri.", "Sektör") for s, n, pk in INDUSTRIES])
     canonical = f"{SITE}/sektorler/"
-    title = "Sektörler | Fabrika, Restoran, Sağlık, Plaza"
+    title = "Sektörler | Fabrika, Restoran, Sağlık, Plaza | Malt Studio"
     desc = "Sektörel tabela ve görünürlük çözümleri."
     json_ld = page_graph(
         webpage_ld(canonical, title, desc),
@@ -1563,14 +1664,15 @@ def build_article(slug: str, title: str, primary: str, pk: str) -> None:
     wa_msg = f"{svc_name} hakkında bilgi"
     canonical = f"{SITE}/bilgi/{slug}/"
     desc = f"{title} — eğitici rehber. Malt Studio bilgi merkezi."
+    page_title = f"{title} | Malt Studio"
     json_ld = page_graph(
-        webpage_ld(canonical, title, desc),
+        webpage_ld(canonical, page_title, desc),
         website_node(),
         article_ld(canonical, title, desc),
         breadcrumb_ld([("Ana Sayfa", "/"), ("Bilgi", "/bilgi/"), (title, canonical)]),
         faq_ld(canonical, faqs),
     )
-    html = f"""{head(title, desc, canonical, json_ld=json_ld)}
+    html = f"""{head(page_title, desc, canonical, json_ld=json_ld)}
 <body>
 {header()}
 <section class="page-hero">
@@ -1623,7 +1725,7 @@ def build_article(slug: str, title: str, primary: str, pk: str) -> None:
 def build_bilgi_hub() -> None:
     items = cards([(f"/bilgi/{s}/", t, f"PK: {pk}", "Rehber") for s, t, _, pk in ARTICLES])
     canonical = f"{SITE}/bilgi/"
-    title = "Bilgi Merkezi | Tabela ve Reklam Rehberleri"
+    title = "Bilgi Merkezi | Tabela ve Reklam Rehberleri | Malt Studio"
     desc = "Tabela çeşitleri, karşılaştırmalar ve uygulama rehberleri."
     json_ld = page_graph(
         webpage_ld(canonical, title, desc),
@@ -1742,7 +1844,7 @@ def build_hakkimizda() -> None:
 <section class="page-main">
   <div class="wrap">
     {block("Ne yapıyoruz", p(
-        "Malt Studio Tekirdağ merkezli reklam ajansı ve tabela üreticisidir. Tabela, kurumsal kimlik, dijital baskı ve uygulama — keşiften montaja.",
+        "Malt Studio Süleymanpaşa / Tekirdağ merkezli tabela ve reklam üreticisidir. Tabela, dijital baskı, cam ve araç giydirme, matbaa ve kurumsal kimlik — keşiften montaja.",
         "Şube sayısı, uydurma sertifika veya sahte yorum eklenmez.",
     ))}
     {block("Nerede", p(

@@ -13,7 +13,10 @@ SERVICE_INDUSTRIES = {
     "cam-giydirme": ["perakende", "restoran-cafe", "plaza-ofis"],
     "lightbox": ["perakende", "plaza-ofis", "saglik"],
     "display-pos": ["perakende", "insaat-santiye"],
+    "dijital-baski": ["perakende", "restoran-cafe"],
+    "matbaa-urunleri": ["perakende", "insaat-santiye"],
     "ofis-branding": ["plaza-ofis", "saglik"],
+    "kurumsal-kimlik": ["plaza-ofis", "perakende"],
     "is-guvenligi-tabelalari": ["fabrika-osb", "insaat-santiye"],
 }
 
@@ -322,6 +325,96 @@ SERVICE_A5 = {
         "eeat": [
             "Deneyim; saha listesini okunur, doğru konumlanmış setlere çevirmektir.",
             "Uydurma uygunluk belgesi veya denetim vaadi eklenmez.",
+        ],
+    },
+    "dijital-baski": {
+        "intro": [
+            "Dijital baskı; tabela, giydirme ve POS yüzeyleri için ölçüye özel üretim adımıdır. Roll-up kasası Display & POS, bina camı Cam Giydirme, araç yüzeyi Araç Giydirme sayfasındadır.",
+            "UV, mesh veya branda için ayrı ürün sayfası açılmaz; ihtiyaç keşifte mevcut baskı hattına göre konuşulur.",
+        ],
+        "where": [
+            "Mağaza kampanyası ve vitrin yenileme yüzeyleri.",
+            "Araç giydirme ve cam folyo baskıları.",
+            "Display, roll-up ve POS görselleri.",
+        ],
+        "materials_extra": [
+            "Vinil ve uygulama folyoları tabela, cam ve araç işlerinde sık kullanılır.",
+            "Display ve POS görselleri kasa/stand ile birlikte teslim edilebilir.",
+            "Dosya çözünürlüğü görüş mesafesine göre kontrol edilir; onaylı görsel olmadan baskı başlamaz.",
+        ],
+        "process_extra": [
+            "Onaylı dosya → renk/ölçü kontrolü → baskı → uygulama veya sevk.",
+            "Tabela ve giydirme işlerinde baskı, montaj keşfiyle aynı hatta planlanır.",
+            "Kampanya yenilemesinde önceki ölçü şablonu varsa iş hızlanır.",
+        ],
+        "maintenance": [
+            "Dış yüzeylerde solma ve kenar kalkması kullanıma bağlıdır; sayısal ömür vaadi verilmez.",
+            "Kampanya bitiminde kontrollü söküm ilgili uygulama sayfasında planlanır.",
+            "Aynı ölçüye yeniden baskı mümkünse önceki şablon referans alınır.",
+        ],
+        "eeat": [
+            "Baskı, Malt Studio’nun tabela ve uygulama işlerinin üretim adımıdır; stok katalog ürünü gibi satılmaz.",
+            "UV, mesh veya branda için ayrı ürün sayfası açılmaz.",
+        ],
+    },
+    "matbaa-urunleri": {
+        "intro": [
+            "Matbaa ürünleri burada; tabela, giydirme ve mağaza içi görünürlük için üretilen baskılı yüzeylerdir. Kartvizit, kitap veya ofset katalog gibi ayrı bir yayın hattı bu sitede doğrulanmış değildir.",
+            "Baskı süreci Dijital Baskı, taşınabilir kasa ve stand Display & POS sayfasındadır.",
+        ],
+        "where": [
+            "Mağaza içi kampanya ve sezon görselleri.",
+            "Açılış, etkinlik ve geçici satış noktaları.",
+            "Tabela ve vitrin yenilemesinde basılı tamamlayıcı yüzeyler.",
+        ],
+        "materials_extra": [
+            "Vinil, display görseli ve POS yüzeyi keşifteki kullanıma göre seçilir.",
+            "Kısa süreli kampanya ile daha uzun vitrin işi aynı malzeme sınıfı olmayabilir.",
+            "Donanım (roll-up kasa, X-banner) ayrı kalemdir; Display & POS’ta anlatılır.",
+        ],
+        "process_extra": [
+            "Brief ve ölçü → dosya onayı → baskı → teslim veya ilgili uygulamaya aktarım.",
+            "Tekrarlayan kampanyada şablon saklanırsa yeniden üretim kolaylaşır.",
+            "Kurulum gereken stand işleri Display & POS ile birlikte planlanır.",
+        ],
+        "maintenance": [
+            "Kısa ömürlü kampanya yüzeyinde ‘ömür garantisi’ beklenmez.",
+            "Depolama nemi ve kıvrılma baskıyı bozabilir.",
+            "Yeniden baskı için kaynak dosya saklanması önerilir.",
+        ],
+        "eeat": [
+            "Bu sayfa doğrulanmış baskı/POS yüzeylerini anlatır; uydurma kartvizit veya katalog hattı eklenmez.",
+            "Sipariş keşif ve yazılı teklifle ilerler.",
+        ],
+    },
+    "kurumsal-kimlik": {
+        "intro": [
+            "Kurumsal kimlik burada logo tasarım ajansı hizmeti değil; markanın tabela, cam, kutu harf ve ofis yüzeylerinde tutarlı uygulanmasıdır.",
+            "Plaza iç paket Ofis Branding, cephe yazısı Kutu Harf, vitrin Cam Giydirme sayfalarındadır.",
+        ],
+        "where": [
+            "Mağaza ve şube cephesinde okunan marka yüzeyi.",
+            "Plaza ve ofis girişinde resepsiyon / lobi kimliği.",
+            "Cam ve iç yön yüzeylerinde sade kurumsal dil.",
+        ],
+        "materials_extra": [
+            "Tabela, kutu harf, cam folyo ve ofis panelleri aynı marka dilinde planlanabilir.",
+            "Vektörel logo ve varsa marka kılavuzu kaliteyi yükseltir; yoksa sade uygulama önerilir.",
+            "Logo tasarımı ayrı bir hizmet sayfası olarak açılmaz.",
+        ],
+        "process_extra": [
+            "Keşifte yüzey listesi çıkarılır; cephe, cam ve iç mekân aynı brief’te tutulur.",
+            "Tasarım onayı sonrası üretim ilgili hizmet hatlarında yürür.",
+            "Montaj sırası (cephe / cam / iç) sahaya göre planlanır.",
+        ],
+        "maintenance": [
+            "Yenileme veya ek şube işleri mevcut uygulama noktaları üzerinden konuşulur.",
+            "Cam ve folyo temizliği aşındırıcı olmadan yapılmalıdır.",
+            "Garanti kapsamı her kalem için teklifte yazılır.",
+        ],
+        "eeat": [
+            "Mekânsal kimlik, atölye üretimi ve saha montajıyla yürür; uydurma ‘X markada uygulandı’ metriği yoktur.",
+            "Kanıt mevcut proje fotoğraflarına bağlanır.",
         ],
     },
 }

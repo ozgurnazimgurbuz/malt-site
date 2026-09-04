@@ -1,4 +1,4 @@
-# Perakende Tabela ve Görünürlük Çözümleri
+# Perakende Tabela ve Görünürlük Çözümleri | Malt Studio
 
 > Perakende sektörü için tabela ve görünürlük. Malt Studio.
 

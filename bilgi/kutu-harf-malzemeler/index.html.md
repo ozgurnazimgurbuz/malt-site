@@ -1,4 +1,4 @@
-# Kutu Harf Malzemeleri: Pleksi mi Paslanmaz mı?
+# Kutu Harf Malzemeleri: Pleksi mi Paslanmaz mı? | Malt Studio
 
 > Kutu Harf Malzemeleri: Pleksi mi Paslanmaz mı? — eğitici rehber. Malt Studio bilgi merkezi.
 

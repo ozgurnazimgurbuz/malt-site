@@ -91,7 +91,10 @@ A0 = {
 A2 = {
     "lightbox": "Lightbox",
     "display-pos": "Display & POS",
+    "dijital-baski": "Dijital Baskı",
+    "matbaa-urunleri": "Matbaa Ürünleri",
     "ofis-branding": "Ofis Branding",
+    "kurumsal-kimlik": "Kurumsal Kimlik",
     "is-guvenligi-tabelalari": "İş Güvenliği Tabelaları",
 }
 ALL_SERVICES = {**A0, **A2}
@@ -204,6 +207,32 @@ def service_ld(url: str, name: str, service_type: str) -> dict:
     }
 
 
+def creative_work_ld(
+    url: str,
+    name: str,
+    description: str,
+    *,
+    image: str | None = None,
+    about: str | None = None,
+) -> dict:
+    node = {
+        "@type": "CreativeWork",
+        "@id": f"{url}#work",
+        "name": name,
+        "description": description,
+        "url": url,
+        "inLanguage": "tr-TR",
+        "creator": business_ref(),
+        "isPartOf": {"@id": f"{url}#webpage"},
+    }
+    if image:
+        loc = image if image.startswith("http") else f"{SITE}{image}"
+        node["image"] = loc
+    if about:
+        node["about"] = about
+    return node
+
+
 def page_graph(*nodes: dict) -> dict:
     return {"@context": "https://schema.org", "@graph": [n for n in nodes if n]}
 
@@ -284,7 +313,7 @@ def footer() -> str:
       <div>
         <div class="footer-logo">{logo()}</div>
         <p class="footer-blurb">
-          Malt Studio — Tekirdağ merkezli reklam ve tabela üreticisi. Üretim, montaj ve marka görünürlüğü.
+          Malt Studio — Süleymanpaşa / Tekirdağ merkezli tabela, dijital baskı ve reklam üretimi.
         </p>
       </div>
       <div>
@@ -311,6 +340,7 @@ def footer() -> str:
           <li>{ADDRESS_STREET}</li>
           <li>{ADDRESS_POSTAL} {ADDRESS_LOCALITY} / {ADDRESS_REGION}</li>
           <li>{ADDRESS_COUNTRY}</li>
+          <li><a href="https://www.google.com/maps/search/?api=1&amp;query=40.9769375,27.5041875" rel="noopener noreferrer" target="_blank">Yol tarifi</a></li>
           <li><a href="/#iletisim">Mesaj</a></li>
         </ul>
       </div>

@@ -1,4 +1,4 @@
-# Fabrika & OSB Tabela ve Görünürlük Çözümleri
+# Fabrika & OSB Tabela ve Görünürlük Çözümleri | Malt Studio
 
 > Fabrika & OSB sektörü için tabela ve görünürlük. Malt Studio.
 

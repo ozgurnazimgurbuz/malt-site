@@ -1,4 +1,4 @@
-# Totem Tabela Seçim Rehberi
+# Totem Tabela Seçim Rehberi | Malt Studio
 
 > Totem Tabela Seçim Rehberi — eğitici rehber. Malt Studio bilgi merkezi.
 

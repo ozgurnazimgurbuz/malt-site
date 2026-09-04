@@ -1,6 +1,6 @@
-# Roll-Up, X-Banner ve POS Display
+# Roll-Up, X-Banner ve POS Display | Malt Studio
 
-> Roll-up, X-banner, bayrak ve POS display sistemleri.
+> Roll-up, X-banner, bayrak ve POS display sistemleri. Keşif ve teklif için yazın.
 
 - Canonical HTML: https://maltstudio.co/hizmetler/display-pos/
 - Markdown twin: https://maltstudio.co/hizmetler/display-pos/index.html.md
@@ -109,7 +109,7 @@ Adres, saat ve iletişim: [Malt Studio Tekirdağ atölye ve iletişim](https://m
 [WhatsApp ile Teklif](https://wa.me/905525826959?text=Merhaba%2C%20Display%20%26%20POS%20i%C3%A7in%20ke%C5%9Fif%20istiyorum.) [Teklif](https://maltstudio.co/#teklif) [Ara](tel:+905525826959)
 
 ## İlgili hizmetler
-[Lightbox Lightbox hizmeti. Hizmet](https://maltstudio.co/hizmetler/lightbox/) [Tabela Tabela hizmeti. Hizmet](https://maltstudio.co/hizmetler/tabela/) [Cam Giydirme Cam Giydirme hizmeti. Hizmet](https://maltstudio.co/hizmetler/cam-giydirme/) [Ofis Branding Ofis Branding hizmeti. Hizmet](https://maltstudio.co/hizmetler/ofis-branding/)
+[Dijital Baskı Dijital Baskı hizmeti. Hizmet](https://maltstudio.co/hizmetler/dijital-baski/) [Matbaa Ürünleri Matbaa Ürünleri hizmeti. Hizmet](https://maltstudio.co/hizmetler/matbaa-urunleri/) [Lightbox Lightbox hizmeti. Hizmet](https://maltstudio.co/hizmetler/lightbox/) [Tabela Tabela hizmeti. Hizmet](https://maltstudio.co/hizmetler/tabela/)
 
 ## İlgili rehberler
 [Tabela Çeşitleri: Hangisi Ne İşe Yarar? Karar rehberi. Bilgi](https://maltstudio.co/bilgi/tabela-cesitleri/)

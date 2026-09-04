@@ -1,4 +1,4 @@
-# Tabela Fiyatını Neler Etkiler?
+# Tabela Fiyatını Neler Etkiler? | Malt Studio
 
 > Tabela Fiyatını Neler Etkiler? — eğitici rehber. Malt Studio bilgi merkezi.
 

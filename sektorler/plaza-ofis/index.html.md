@@ -1,4 +1,4 @@
-# Plaza & Ofis Tabela ve Görünürlük Çözümleri
+# Plaza & Ofis Tabela ve Görünürlük Çözümleri | Malt Studio
 
 > Plaza & Ofis sektörü için tabela ve görünürlük. Malt Studio.
 

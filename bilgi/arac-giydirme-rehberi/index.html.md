@@ -1,4 +1,4 @@
-# Araç Giydirme Rehberi: Süreç, Ömür, Filo
+# Araç Giydirme Rehberi: Süreç, Ömür, Filo | Malt Studio
 
 > Araç Giydirme Rehberi: Süreç, Ömür, Filo — eğitici rehber. Malt Studio bilgi merkezi.
 

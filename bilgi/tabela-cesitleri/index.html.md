@@ -1,4 +1,4 @@
-# Tabela Çeşitleri: Hangisi Ne İşe Yarar?
+# Tabela Çeşitleri: Hangisi Ne İşe Yarar? | Malt Studio
 
 > Tabela Çeşitleri: Hangisi Ne İşe Yarar? — eğitici rehber. Malt Studio bilgi merkezi.
 
