@@ -1,7 +1,7 @@
 # Malt Studio
 
 Tekirdağ merkezli marka stratejisi ve yaratıcı ajans için tek sayfalık tanıtım sitesi.
-Her Cloudflare Pages deploy’unda build pipeline çalışır; `scripts/prerender.py`, `content.json` içeriğini `index.html` içine gömer.
+Kaynak `main` dalıdır; yayın Amazon üzerinde. Build pipeline (`scripts/prerender.py`) `content.json` içeriğini `index.html` içine gömer.
 Böylece kritik metin View Source’da JS olmadan görünür. İçerik `content.json` ve proje JSON dosyalarından gelir (Cursor üzerinden düzenlenir).
 
 Üretim adresi: https://maltstudio.co
@@ -13,13 +13,13 @@ Böylece kritik metin View Source’da JS olmadan görünür. İçerik `content.
 | `index.html` | İşaretleme, stil; kritik içerik prerender ile gömülür |
 | `content.json` | CMS tarafından yazılan tek içerik kaynağı (düz JSON) |
 | `scripts/prerender.py` | `content.json` → `index.html` (deploy build) |
-| `_redirects`, `_headers` | Cloudflare Pages yönlendirme ve önbellek kuralları |
-| `DEPLOY-CLOUDFLARE.md` | Hosting kurulum rehberi (adım adım) |
+| `_redirects`, `_headers` | Yönlendirme ve önbellek kuralları (eski Pages/Netlify biçimi; origin’de karşılığı yoksa uygulanmaz) |
+| `DEPLOY-CLOUDFLARE.md` | Eski Cloudflare kurulum notu; aktif hosting Amazon |
 | `images/` | Statik görseller ve uygulama ikonları |
 | `images/uploads/` | CMS üzerinden yüklenen medya (ilk yüklemede oluşur) |
 | `manifest.json` | Web app manifest |
 | `robots.txt`, `sitemap.xml` | Arama motoru yönlendirmesi |
-| `netlify.toml` | Eski Netlify ayarları (referans; aktif hosting Cloudflare) |
+| `netlify.toml` | Eski Netlify ayarları (referans; aktif hosting Amazon) |
 
 ## Yerel geliştirme
 
@@ -32,9 +32,9 @@ python3 -m http.server 8800
 
 ## Yayın
 
-Cloudflare Pages, `main` dalını izler. Kurulum: **`DEPLOY-CLOUDFLARE.md`**.
+Hosting Amazon. Kaynak dal `main`. `DEPLOY-CLOUDFLARE.md` eski kurulum notudur.
 
-Build komutu (Netlify ile aynı pipeline):
+Yerel / CI build komutu:
 
 ```bash
 pip install -r requirements.txt && python3 scripts/optimize_uploads.py && python3 scripts/build_production.py && python3 scripts/build_project_tracking.py && python3 scripts/scrub_customer_copy.py && python3 scripts/prerender.py && python3 scripts/build_llms.py && python3 scripts/minify_assets.py

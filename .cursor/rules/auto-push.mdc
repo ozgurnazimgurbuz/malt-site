@@ -6,6 +6,6 @@ alwaysApply: true
 # Deploy workflow (Özgür)
 
 - Never ask whether to commit or push.
-- When given a prompt/task for this site, implement the required changes, rebuild/prerender if needed, then commit and push to GitHub (`seo-rebuild` + merge to `main`) so Netlify goes live.
+- When given a prompt/task for this site, implement the required changes, rebuild/prerender if needed, then commit and push to GitHub (`seo-rebuild` + merge to `main`). Hosting is Amazon (not Netlify); do not say Netlify will go live.
 - Do not commit `malt-site-full.zip` or secrets.
 - Brief status after deploy is enough; no “push edeyim mi?” questions.

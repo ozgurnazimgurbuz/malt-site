@@ -1,5 +1,7 @@
 # Cloudflare Pages — adım adım kurulum
 
+**Güncel değil.** Site Amazon’da; Netlify kullanılmıyor. Bu dosya eski geçiş notudur.
+
 Bu rehber yazılım bilmeden takip edilebilir. Kod tarafı repoda hazır; sen sadece Cloudflare panelinde tıklayacaksın.
 
 ## Senin yapacağın (Adım 1 — şimdi)
