@@ -18,7 +18,7 @@
     },
     {
       "title": "Üretim",
-      "description": "Tasarım onaylandı, üretim sürecindeyiz.",
+      "description": "Lamplex kesildi, Altın Kutu Harfler İmalatta",
       "status": "current",
       "completedDate": ""
     },
@@ -30,7 +30,7 @@
     }
   ],
   "currentStep": 3,
-  "lastUpdated": "2026-09-03",
+  "lastUpdated": "2026-09-05",
   "public": true,
   "balance": "40.000₺/70.000₺",
   "notes": ""
